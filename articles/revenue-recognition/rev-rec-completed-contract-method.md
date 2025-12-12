@@ -1,18 +1,21 @@
 ---
 title: Manage revenue estimates
-description: This topic provides information about how to work with revenue estimates for projects.
+description: This article provides information about how to work with revenue estimates for projects.
 author: sigitac
-ms.date: 11/04/2020
-ms.topic: article
-ms.reviewer: kfend 
+ms.date: 10/27/2023
+ms.topic: how-to
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
 # Manage revenue estimates
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
-You can create, calculate, post, reverse, or eliminate revenue estimates. You can do this either manually or by using a periodic process. This topic provides information about how to work with revenue estimates for projects.
+ > [!NOTE]
+   > Estimates have been renamed to revenue recognition in a recent product update with the **Update labels for revenue recognition and related forms and processes in Project Operations** feature. Terminology may reference either estimate or revenue recognition depending on if the feature is enabled.
+
+You can create, calculate, post, reverse, or eliminate revenue estimates. You can do this either manually or by using a periodic process. This article provides information about how to work with revenue estimates for projects.
 
 ### Manage revenue estimates manually
 

@@ -1,38 +1,37 @@
 ---
-# required metadata
-
 title: Expense management overview
-description: This topic provides general information about Expense management and links to additional resources. You can use Expense management to create an integrated workflow where you can store payment method information, import credit card transactions, and track the money that employees spend when they incur expenses for your business.
-author: ShylaThompson
-ms.date: 07/25/2019
+description: Dynamics 365 Expense Management streamlines the entire expense management lifecycle, from submission to reimbursement, helping businesses improve efficiency, control costs, and ensure compliance with financial policies and regulations.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/10/2024
 ms.topic: overview
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
+ms.custom: 
+  - bap-template 
 ms.search.form: TrvExpenseWorkspace 
-# ROBOTS: 
-audience: Application User, IT Pro
-# ms.devlang: 
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
-
-ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
-ms.search.region: Global
-# ms.search.industry: 
-ms.author: shylaw
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-
+ms.reviewer: johnmichalak
 ---
 
 # Expense management overview
 
 [!include [banner](../includes/banner.md)]
 
-You can use Expense management to create an integrated workflow where you can store payment method information, import credit card transactions, and track the money that employees spend when they incur expenses for your business. You can also define expense policies and automate the reimbursement of travel expenses.
+**Dynamics 365 Expense Management** is designed to streamline and automate expense management processes for businesses. **Expense Management** streamlines the entire expense management lifecycle, from submission to reimbursement, helping businesses improve efficiency, control costs, and ensure compliance with financial policies and regulations. Here's an overview of its key features and functionalities:
+
+**Expense Submission**: Employees can easily submit expense reports directly within the Dynamics 365 platform. They can capture receipts, categorize expenses, and add relevant details such as project codes or client names.
+
+**Approval Workflows**: Expense reports can be routed through customizable approval workflows based on organizational policies. Approvers can review, approve, reject, or request further information on expense submissions.
+
+**Policy Compliance**: The system helps enforce company expense policies by flagging violations such as out-of-policy expenses or non-compliant receipts. This ensures adherence to spending guidelines and regulatory requirements.
+
+**Integration**: Dynamics 365 Expense Management seamlessly integrates with other modules within the Dynamics 365 ecosystem, such as Finance and Human Resources, enabling a unified view of financial data and employee information.
+
+**Mobile Accessibility**: Employees can conveniently submit expenses on-the-go using the mobile app, which allows them to capture receipts, submit reports, and track reimbursement status from their smartphones or tablets.
+
+**Analytics and Reporting**: The platform provides robust reporting and analytics capabilities, allowing finance teams to gain insights into spending patterns, identify cost-saving opportunities, and track key performance metrics related to expense management.
+
+**Vendor Management**: It may offer features for managing vendor relationships related to expenses, such as tracking vendor invoices, managing payment terms, and ensuring timely reimbursements.
+
+**Compliance and Audit Trails**: Dynamics 365 Expense Management maintains comprehensive audit trails of all expense-related activities, providing transparency and accountability for compliance purposes and audits.
 
 For more information, see [Configure expense management](plan-expense-management.md).
 
@@ -42,15 +41,9 @@ For more information, see [Configure expense management](plan-expense-management
 
 To see what new features are planned, see the [Microsoft Dynamics 365 release plans](/dynamics365/release-plans/).
 
-#### Expense report entry
-
-Expense report entry has been redesigned to simplify the experience and decrease the time that is required to complete expense reports. You can turn on this functionality in Feature management. You can add a new setup page to configure the visibility of expense fields, and specify what data is required, optional, or not available when expense reports are entered. When this functionality is turned on, a new expense workspace is available. This workspace replaces the previous expense workspace and is the landing page for the improved entry experience.
-
-For more information, see [Expense reports reimagined](ExpenseWorkspaceNew.md).
-
 ### Blogs
 
-You can find opinions, news, and other information on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).
+You can find opinions, news, and other information on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) and the [Microsoft Dynamics 365 Finance - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 The [Microsoft Dynamics Operations Partner Community blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.
 

@@ -1,28 +1,14 @@
 ---
-# required metadata
-
 title: Manage expense delegation
 description: An expense delegate user can create and manage expense reports for another employee in the organization.
-author: KimANelson
-ms.date: 01/10/2020
-ms.topic: article
-ms.prod: 
-ms.technology: 
+author: mukumarm
+ms.author: mukumarm 
+ms.date: 05/24/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 
-# optional metadata
-
-ms.search.form:  TrvParameters
-audience: Application User
-# ms.devlang: 
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
-# ms.custom: 
-ms.search.region: Global
-# ms.search.industry: 
-ms.author: suvaidya 
-ms.search.validFrom: 2020-01-10
-ms.dyn365.ops.version: 10.0.9
 ---
 
 # Manage expense delegation

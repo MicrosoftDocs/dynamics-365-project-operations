@@ -1,22 +1,24 @@
 ---
-title: What's new May 2021 - Project Operations for resource/non-stocked based scenarios
-description: This topic provides information about the quality updates available in the May 2021 release of Project Operations for resource/non-stocked based scenarios.
+title: What's new May 2021 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates available in the May 2021 release of Project Operations Integrated with ERP.
 author: sigitac
-ms.date: 05/11/2021
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.custom:
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: whats-new
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new May 2021 - Project Operations for resource/non-stocked based scenarios
+# What's new May 2021 - Project Operations Integrated with ERP
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
 - Project Operations on Dynamics 365 Dataverse environment version 4.10.0.186
-- Project management and accounting in Finance and Operations apps environments version 10.0.18
+- Project management and accounting in finance and operations apps environments version 10.0.18
 
 ## Features included in this release
 
@@ -36,9 +38,9 @@ The following list shows the dual-write maps that have been modified or added in
 | Project Operations integration project vendor invoice line export entity (msdyn\_projectvendorinvoicelines) | 1.0.0.1 | Quality updates |
 | Projects V2 (msdyn\_projects) | 1.0.0.2 | Quality updates |
 
-Always run the latest version of the map in your environment and enable all related table maps as you update your Project Operations Dataverse solution and Finance and Operations apps solution version. Certain features and capabilities might not work correctly if the latest version of the map isn't activated. You can see the active version of the map in the  **Version**  column on the  **Dual-write**  page. To activate a new version of the map, select **Table map versions**, select the latest version, and then save the selected version. If you have customized an out-of-the-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management.md).
+Always run the latest version of the map in your environment and enable all related table maps as you update your Project Operations Dataverse solution and finance and operations apps solution version. Certain features and capabilities might not work correctly if the latest version of the map isn't activated. You can see the active version of the map in the  **Version**  column on the  **Dual-write**  page. To activate a new version of the map, select **Table map versions**, select the latest version, and then save the selected version. If you have customized an out-of-the-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
-If you encounter an issue with starting the map, follow the instructions in the [Missing table columns issue on maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps) section of the Dual-Write troubleshooting guide.
+If you encounter an issue with starting the map, follow the instructions in the [Missing table columns issue on maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) section of the Dual-Write troubleshooting guide.
 
 ## Quality updates
 

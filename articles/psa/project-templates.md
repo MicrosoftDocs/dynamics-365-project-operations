@@ -1,23 +1,20 @@
 ---
 title: Project templates
-description: This topic provides information about how to use project templates for quick project setup.
+description: This article provides information about how to use project templates for quick project setup.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/01/2019
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Project templates 

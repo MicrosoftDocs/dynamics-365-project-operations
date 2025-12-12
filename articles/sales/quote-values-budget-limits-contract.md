@@ -1,16 +1,16 @@
 ---
-title: Project quote settings
-description: This topic provides information about the information and settings that apply to and impact project quotes.
+title: Header details for project-based quotes
+description: This article provides information about the information and settings that apply to and impact project quotes.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Header details for project-based quotes
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 
 This article explains the information that applies to a project quote. This includes the settings that impact all quote lines, and information about the quote that is summarized across all the line items to drive the KPIs of the project quote.

@@ -1,30 +1,32 @@
 ---
-title: What's new April 2021 - Project Operations lite deployment
-description: This topic provides information about the quality updates available in the April 2021 release of Project Operations lite deployment.
+title: What's new April 2021 - Project Operations Core
+description: This article provides information about the quality updates available in the April 2021 release of Project Operations Core.
 author: sigitac
-ms.date: 04/07/2021
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.custom:
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: whats-new
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new April 2021 - Project Operations lite deployment
+# What's new April 2021 - Project Operations Core
 
-_Applies To: Lite deployment - deal to proforma invoicing_
+_Applies To: Project Operations Core._
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
-  - Project Operations on Dataverse environment version 4.9.0.221 
+- Project Operations on Dataverse environment version 4.9.0.221
 
 ## Features included in this release
 
 The following features are included in this release:
 
 - Non-stocked materials for projects. Key capabilities include:
-  - Estimating and pricing non-stocked materials during the sales cycle for a project. For more information, see [Set up cost and sales rates for catalog products - lite](../pricing-costing/set-up-cost-sales-rates-catalog-products.md).
+  - Estimating and pricing non-stocked materials during the sales cycle for a project. For more information, see [Set up cost and sales rates for catalog products - Project Operations Core](../pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Tracking the use of non-stocked materials during project delivery. For more information, see [Record material usage on projects and project tasks](../../material/material-usage-log.md).
-  - Invoicing used non-stocked material costs. For more information, see [Manage the billing backlog - lite](../proforma-invoicing/manage-billing-backlog-sales.md#product-billing-backlog).
+  - Invoicing used non-stocked material costs. For more information, see [Manage the billing backlog - Project Operations Core](../proforma-invoicing/manage-billing-backlog-sales.md#product-billing-backlog).
   - New APIs in Dynamics 365 Dataverse allow create, update, and delete operations with **Scheduling entities**. For more information, see [Use Schedule APIs to perform operations with Scheduling entities](../../project-management/schedule-api-preview.md).
 
 ## Quality updates

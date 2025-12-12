@@ -2,17 +2,20 @@
 # required metadata
 
 title: Configure intercompany invoicing
-description: This topic provides information and examples about configuring intercompany invoicing for projects.
-author:  sigitac
-ms.date: 04/12/2021 
-ms.topic: article
-ms.reviewer: kfend
-ms.author: sigitac
+description: This article provides information and examples about configuring intercompany invoicing for projects.
+author:  mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Configure intercompany invoicing
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Complete the following steps to set up intercompany invoicing for projects in Dynamics 365 Project Operations. Intercompany transactions are time and expense transactions from a project contract that belong to one company or organizational unit, while the resources on the project contract are part of a different company or organizational unit.
 

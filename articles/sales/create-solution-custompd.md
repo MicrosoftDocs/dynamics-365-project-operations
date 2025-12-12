@@ -1,17 +1,19 @@
 --- 
-
 title: Create a solution for custom pricing dimensions 
-description:  This topic provides information about how to create solutions for custom pricing dimensions.
-author: Rumant
-ms.date: 11/09/2020  
-ms.topic: article 
-ms.reviewer: kfend 
-ms.author: rumant 
+description:  This article provides information about how to create solutions for custom pricing dimensions.
+author: suvaidya
+ms.author: suvaidya 
+ms.date: 06/10/2024  
+ms.topic: how-to 
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 --- 
 
 # Create a solution for custom pricing dimensions
 
- _**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_ 
+ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_ 
 
 >[!IMPORTANT]
 >All custom pricing dimension changes should be in a separate solution. This important best practice allows the flexibility to update or remove changes as needed, helps with re-use of your work, and makes it easier to port changes to other instances. After you make the required changes, export this solution as a **Managed** solution, and then import into other instances for reuse.
@@ -19,7 +21,7 @@ ms.author: rumant
 ## Create a solution for custom pricing dimensions
 
 1.	Select **Settings** > **Solutions**, and then select **New**.
-2.	Name the solution, *<your organization name> pricing dimensions*.
+2.	Name the solution, *\<your organization name\> pricing dimensions*.
 3. Enter the remaining required information, and then select **Save**.
 
   ![Creation of custom pricing dimension solution.](./media/Creation-of-custom-pricing-dimension-solution.png)

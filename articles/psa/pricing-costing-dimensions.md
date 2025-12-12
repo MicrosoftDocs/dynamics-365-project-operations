@@ -1,21 +1,21 @@
 ---
 title: Pricing and costing dimensions home page
-description: This topic provides an overview of pricing dimensions.
+description: This article provides an overview of pricing dimensions.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-  - intro-internal
-ms.date: 10/01/2020
-ms.topic: article
+  - evergreen
+ms.collection: get-started
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: concept-article
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Pricing and costing dimensions home page
@@ -42,7 +42,7 @@ This will allow you to set up the price and cost for each role and organizationa
 > [!IMPORTANT]
 > If you have been the using out-of-the box fields of role and organizational unit as pricing dimensions prior to version 3 of PSA, there will not be any observable change. You can continue to use Project Service as usual. 
 
-If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following topics, however note that you must complete the procedures in the order listed below:
+If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following articles, however note that you must complete the procedures in the order listed below:
 
 - [Create custom fields and entities](create-custom-fields-entities.md)
 - [Add custom fields to price setup and transactional entities](field-references.md)

@@ -1,16 +1,20 @@
 ---
 title: Manage project quotes
-description: This topic provides information about project quotes.
+description: This article provides information about project quotes.
 author: rumant
-ms.date: 10/26/2020
-ms.topic: article
-ms.reviewer: kfend 
+ms.date: 11/30/2022
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Manage project quotes
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 In Dynamics 365 Project Operations, project quotes are designed to help build proposals for project work. The structure of a project quote in Project Operations is structured for project proposals with the following components:
 
@@ -18,7 +22,7 @@ In Dynamics 365 Project Operations, project quotes are designed to help build pr
   - Quote line details that identify and estimate the work for each high-level component or quote line. Schedule or date estimates and the financial aspects for the work are tied to that quote line.
   - Contracting models and chargeable components are set up for each quote line. This set up helps estimate the spread of revenue, spend, and profitability for each quote line and the overall quote.
 
-## View all project-based quotes
+## View all project quotes
 
 A list of all the project quotes can be seen from the **Quotes** list page. 
 

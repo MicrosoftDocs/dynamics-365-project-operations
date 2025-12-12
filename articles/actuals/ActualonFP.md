@@ -1,33 +1,21 @@
 ---
-# required metadata
-
 title: Actuals impact in a fixed price engagement
-description: This topic provides information about the impact on the Actuals table at various events during the lifecycle of a fixed price engagement in Microsoft Dynamics 365 Project Operations.
-author: rumant
-ms.date: 02/22/2022
+description: This article provides information about the impact on the Actuals table at various events during the lifecycle of a fixed price engagement in Microsoft Dynamics 365 Project Operations.
+author: suvaidya
+ms.author: suvaidya
+ms.date: 06/07/2024
 ms.topic: overview
-ms.prod: 
-#
-# optional metadata
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: tonyafehr
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-
-ms.assetid: 
-ms.search.region: 
-ms.search.industry: 
-ms.author: rumant
-ms.search.validFrom: 2020-10-01
 ---
 
 # Actuals impact in a fixed price engagement
 
-_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies to:** Project Operations Integrated with ERP, Project Operations Core_
 
 The following table lists the actuals of different transaction types that are created at various events in a fixed price engagement.
 

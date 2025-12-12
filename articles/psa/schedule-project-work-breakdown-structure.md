@@ -4,20 +4,17 @@ description: How to schedule a project with a work breakdown structure in Projec
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
-ms.topic: article
-#
-#
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Schedule a project with a work breakdown structure (Project Service)
 
@@ -59,7 +56,7 @@ A project schedule communicates what work needs to be performed, which resources
 ## Task types  
 You’ll use the following types of tasks when creating your work breakdown structure:  
 
-| | | 
+| Task | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Project root node** | The top-level summary task for the project. All other project tasks are created under it. The name of the root task is the project name. The effort, dates, and duration of the root node are based on the values on the hierarchy below it. You can’t edit root node properties or delete the root node. | 
 | **Summary or container tasks** | A summary task is a task that has sub-tasks under it. A summary task doesn’t have any work effort or cost of its own. Its work effort and cost are a rollup of its sub-tasks. You can change the name of a summary task, but you can’t change the effort, dates, or duration, because those are automatically calculated. Deleting a summary task deletes the task and all of its sub-tasks.|  

@@ -1,16 +1,19 @@
 ---
 title: Edit a resource requirement
-description: This topic provides information about updating resource requirement information.
-author: ruhercul
-ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: ruhercul
+description: This article provides information about updating resource requirement information.
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Edit a resource requirement
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 After a resource requirement is defined by the **Generate Requirement** action in the team member grid, the Project manager can edit the requirement and add additional details.
 

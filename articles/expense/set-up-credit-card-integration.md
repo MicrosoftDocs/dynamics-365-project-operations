@@ -1,33 +1,21 @@
 ---
-# required metadata
-
 title: Set up credit card integration
-description: This topic explains how to work with expense-related credit card transactions.
-author: suvaidya
-ms.date: 11/17/2021
-ms.topic: article
-ms.prod: 
-#
+description: This article explains how to work with expense-related credit card transactions.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 
-# optional metadata
-
-ms.search.form: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-# ms.custom: 
-ms.search.region: 
-# ms.search.industry: 
-ms.author: shylaw
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
 ---
 
 # Set up credit card integration
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Expense-related credit card transactions can be set up so that they are automatically imported on a recurring schedule. Alternatively, the transactions can be manually imported as they are required. The credit card transactions are imported through the credit card transactions data entity.
 

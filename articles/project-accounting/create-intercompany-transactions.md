@@ -2,17 +2,20 @@
 # required metadata
 
 title: Create intercompany transactions
-description: This topic provides information about how to create intercompany transactions.
-author:  sigitac
-ms.date: 04/12/2021 
-ms.topic: article
-ms.reviewer: kfend
-ms.author: sigitac
+description: This article provides information about how to create intercompany transactions.
+author: ryansandness
+ms.author: ryansandness
+ms.date: 05/24/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Create intercompany transactions
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Intercompany transactions are time and expense transactions from a project contract that belong to one company or organizational unit, while the resources on the project contract are part of a different company or organizational unit.
 

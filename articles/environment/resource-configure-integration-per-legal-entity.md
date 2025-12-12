@@ -1,38 +1,34 @@
 ---
 title: Configure Project Operations integration per legal entity 
-description: This topic provides information about setting up integration by legal entity in Project Operations.
-author: sigitac
-ms.date: 10/21/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: sigitac
+description: This article provides information about setting up integration by legal entity in Project Operations.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 07/09/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Configure Project Operations integration per legal entity 
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
 
-This topic walks you through the steps required to configure Dynamics 365 Project Operations per legal entity.
+_**Applies To:** Project Operations Integrated with ERP_
+
+This article walks you through the steps required to configure Dynamics 365 Project Operations per legal entity.
 
 ## Enable feature keys in Dynamics 365 Finance
 
-Complete the following steps to enable required features.
-
-1. In Dynamics 365 Finance, go to the **Feature Management** workspace.
-2. In **Feature list**, find and enable the following features:
-  
-    - **Enable multiple contract lines for a project**
-    - **Enable Project Operations on Dynamics 365 Customer Engagement**
-
-> [!NOTE]
-> If you don't see **Feature keys** listed, verify that your Finance version meets the minimum version requirement (application version 10.0.13 with all quality updates applied or higher). Select **Check for updates** to refresh the feature list.
+As of the application version 10.0.39, there are no prerequisite features in the **Feature Management** workspace required to enable Project Operations. However, there may be features available to enable newly available functionality that extends the base capabilities of Project Operations.
 
 ## Define the Project Operations deployment scenario for a legal entity
 
-You can enable Project Operations on Dynamics 365 Customer Engagement on a legal entity level. You can have one legal entity using Project Operations on Dynamics 365 Customer Engagement for resource/non-stocked based scenarios. In the same environment, you can have another legal entity using Project Operations for stocked/production order scenarios.
+You can enable Project Operations on Dynamics 365 Customer Engagement on a legal entity level. You can have one legal entity using Project Operations on Dynamics 365 Customer Engagement for Project Operations Integrated with ERP based scenarios. In the same environment, you can have another legal entity using Project Operations for manufacturing.
 
 1. In Dynamics 365 Finance, go to **Project management and accounting** > **Setup** > **Global project management and accounting parameters**.
-2. In the list of available legal entities, select entities where multiple contract lines and Project Operations on Dynamics 365 Customer Engagement features will be enabled. Leave legal entities that will be using Project Operations for stocked/production order scenarios unselected.
+2. In the list of available legal entities, select entities where multiple contract lines and Project Operations on Dynamics 365 Customer Engagement features will be enabled. Leave legal entities that will be using Project Operations for manufacturing unselected.
 
 > [!NOTE]
 > A legal entity can be selected only if it doesn't have any existing projects.

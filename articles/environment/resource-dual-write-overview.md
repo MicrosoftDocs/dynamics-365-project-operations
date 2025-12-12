@@ -1,18 +1,21 @@
 ---
 title: Project Operations dual-write integration 
-description: This topic provides an overview of Project Operations dual-write integration.
-author: sigitac
-ms.date: 04/28/2021
+description: This article provides an overview of Project Operations dual-write integration.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/10/2024
 ms.topic: overview
-ms.prod:
-ms.reviewer: kfend 
-ms.author: sigitac
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 
 ---
 
 # Project Operations dual-write integration overview
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP_
 
 Project Operations uses [dual-write capabilities](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) to synchronize data across Microsoft Dataverse and Dynamics 365 Finance.
 
@@ -31,4 +34,5 @@ Project Operations integration consists of the following component integration:
 - [Project estimates and actuals](resource-dual-write-estimates-actuals.md)
 - [Project invoices](resource-dual-write-project-invoice.md)
 - [Expense management](resource-dual-write-expense.md)
+- [Subcontract purchase orders](../pro/subcontracting/SubconPurchaseorders.md)
 - [Vendor invoice](resource-dual-write-vendor-invoice.md)

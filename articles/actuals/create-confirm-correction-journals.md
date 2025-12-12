@@ -1,35 +1,37 @@
 ---
-# required metadata
-
 title: Create and confirm Correction journals
-description: This topic provides information about how to create and confirm a correction journal.
+description: This article provides information about how to create and confirm a correction journal.
 author: rumant
-ms.date: 09/18/2020
-ms.topic: article
-ms.prod: 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: tonyafehr
-ms.search.scope: 
-# ms.tgt_pltfrm: 
+ms.date: 06/10/2025
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
-ms.author: rumant
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: abriccetti
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
 
 # Create and confirm Correction journals
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Occasionally, a time or expense entry might be entered incorrectly. For example, a consultant might select the wrong date when they create a time entry, or they might select the wrong project when they enter an expense. If a consultant can't update the submitted entries, a back-end admin can directly correct the actuals for a project.
+
+By default, the following fields can be corrected using correction journals:
+* Project
+* Subcontract
+* Project task
+* Subcontract line
+* Entry Date
+* Bookable resource
+* Resource role (time correction only)
+* Expense category (expense correction only)
+* Write in product (material entry only)
+
+Any custom pricing dimensions that are added to the appropriate section of the journal form can be corrected using correction journals.
 
 ## Correct approved time entries     
 
@@ -45,7 +47,7 @@ Complete the following steps to correct single or multiple time entries for a pr
 
 5. In the **New Values for Time Entries** section, update the fields with the correct information as necessary. For example, you can change the assigned project or the bookable resource.
 
-6. Select **Preview**. In the dialog box, select **OK**. On the **Journal lines** tab, you can view a list of the original actuals that are related to the selected time entries that have been reversed and the corrected corresponding lines that have been created. If additional corrections need to be made, repeat steps 5 and 6. 
+6. Select **Preview**. In the dialog box, select **OK**. On the **Journal lines** tab, you can view a list of the original actuals that are related to the selected time entries that have been reversed and the corrected corresponding lines that have been created. If more corrections need to be made, repeat steps 5 and 6. 
 
     > [!NOTE]
     > All the corrected actuals will have the same values that you selected in the **New values for Time Entries** section.
@@ -57,7 +59,7 @@ Complete the following steps to correct single or multiple time entries for a pr
 9. On the **Projects** page, on the **Actuals** tab, view the changes that you made. 
 
     > [!NOTE]
-    > If the **Actuals** tab is not visible, select **Related** > **Actuals**.  
+    > If the **Actuals** tab isn't visible, select **Related** > **Actuals**.  
 
 10. In the **Actual Associated View** list, you can see that the original time entries that have been reversed are still listed, as are the corresponding corrected time entries. 
 
@@ -76,7 +78,7 @@ Complete the following steps to correct one or more expense entries.
 
 5. Verify the corrections on the **Journal lines** tab. You can view a list of the original actuals that are related to the selected expense entries that have been reversed and the corrected corresponding lines that have been created.
 
-6. If the corrected values are as expected, select **Confirm**. In the dialog box, select **OK.** If the values are not showing as expected, select **Cancel** to return to the **Approved Expenses** list. Repeat steps 2 through 5. 
+6. If the corrected values are as expected, select **Confirm**. In the dialog box, select **OK.** If the values aren't showing as expected, select **Cancel** to return to the **Approved Expenses** list. Repeat steps 2 through 5. 
 
 7. After you confirm the correction journal, return to the project or projects that you updated to view your changes.
 

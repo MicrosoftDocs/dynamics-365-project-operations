@@ -1,16 +1,16 @@
 ---
 title: Import an estimate to a project-based contract line
-description: This topic provides information about how to import estimates from a project to a contract line.
-author: rumant
-ms.date: 10/19/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+description: This article provides information about how to import estimates from a project to a contract line.
+author: poojafandan
+ms.date: 06/07/2024
+ms.topic: how-to
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
 # Import an estimate to a project-based contract line
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 In Dynamics 365 Project Operations, you can import estimates from a project to a project-based contract line.
 

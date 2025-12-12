@@ -1,24 +1,20 @@
 ---
 title: Project planning home page
-description: This topic provides information about project planning.
+description: This article provides information about project planning.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-  - intro-internal
-ms.date: 03/01/2019
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Project planning home page
@@ -39,7 +35,7 @@ The project management tools in PSA help you easily run projects. Built-in templ
 - Forecast resource requirements for projects that are in the pipeline.
 - Successfully deliver projects by tracking progress and cost consumption.
 
-The following topics provide information that will help project managers estimate work, estimate project costs, and forecast resource requirements by using the tools that are supported in PSA:
+The following articles provide information that will help project managers estimate work, estimate project costs, and forecast resource requirements by using the tools that are supported in PSA:
 
 - [Creating a schedule](project-creating.md)
 - [Estimating project cost and revenue](project-estimating.md)

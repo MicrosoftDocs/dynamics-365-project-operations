@@ -1,16 +1,21 @@
 ---
 title: Set up expense categories
-description: This topic provides information about how to set up expense categories and shared categories for expense reports.
-author: suvaidya
-ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: suvaidya
+description: This article provides information about how to set up expense categories and shared categories for expense reports.
+author: mukumarm 
+ms.author: mukumarm
+ms.date: 05/24/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ 
 ---
 
 # Set up expense categories
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP_
 
 When employees create expense reports, each expense that they record must be associated with an expense category. Expense categories are derived from shared categories that can be shared across the legal entities in your organization. Depending on how your organization is defined, these expense categories can also be shared in other areas. Based on the definition of your organization and guidance from the implementation team, you must determine whether the categories that are used in Expense management will be used only in Expense management or should be shared in other areas.
 

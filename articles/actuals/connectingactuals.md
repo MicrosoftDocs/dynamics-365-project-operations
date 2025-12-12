@@ -1,16 +1,20 @@
 ---
 title: Transaction connections - Link actuals of different transaction types
-description: This topic explains how a transaction connection is used to link actuals of different types to help track profitability, billing backlog, and billed versus unbilled revenue calculations.
-author: rumant
-ms.date: 03/25/2021
+description: This article explains how a transaction connection is used to link actuals of different types to help track profitability, billing backlog, and billed versus unbilled revenue calculations.
+author: suvaidya
+ms.date: 06/10/2024
 ms.topic: article
-ms.reviewer: tonyafehr 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: suvaidya
 ---
 
 # Transaction connections - Link actuals of different transaction types
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Transaction connection records are created to link actuals of different types as time, expense, or material usage moves in its lifecycle from the quote or pre-sales stage to the contract stage, approvals and/or recalls, invoicing, and potentially credit or corrective invoicing.
 

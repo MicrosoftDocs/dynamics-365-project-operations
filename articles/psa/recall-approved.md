@@ -1,22 +1,19 @@
 ---
 title: Recall approved time or expense entries
-description: This topic provides information about how to recall a previously approved time or expense transaction.
+description: This article provides information about how to recall a previously approved time or expense transaction.
 author: rumant
 ms.custom: 
+  - evergreen
 ms.author: rumant
-ms.date: 03/08/2019
-ms.topic: article
-#
-#
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 

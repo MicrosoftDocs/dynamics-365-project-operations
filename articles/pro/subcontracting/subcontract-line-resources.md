@@ -1,18 +1,20 @@
 ---
 title: Subcontract line resources
-description: This topic explains how to specify the dedicated resources that are provided by the vendor for a specific subcontract line for time.
+description: This article explains how to specify the dedicated resources that are provided by the vendor for a specific subcontract line for time.
 author: rumant
-ms.date: 08/06/2021
-ms.topic: article
-ms.reviewer: kfend 
+ms.date: 12/15/2023
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Subcontract line resources
 
-[!include [banner](../../includes/dataverse-preview.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 In Dynamics 365 Project Operations, a vendor can specify resources that will be used to supply the resource capacity being purchased on the subcontract line for time.
 

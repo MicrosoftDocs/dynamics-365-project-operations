@@ -1,32 +1,29 @@
 ---
-title: Fulfilling resource requirements
-description: This topic provides information about how to fulfill resource requirements.
+title: Fulfilling resource requests in PSA
+description: This article provides information about how to fulfill resource requirements in PSA.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/28/2019
-ms.topic: article
-#
-#
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: concept-article
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
-# Fulfilling resource requests
+# Fulfilling resource requests in PSA
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Resource requirements can be sent as resource requests to the resource manager who is responsible for fulfilling those requests.
+Resource requirements can be sent as resource requests to the Resource Manager who is responsible for fulfilling those requests.
 
 Resource requests are shown as a list in the **Active Resource Requests** view.
 

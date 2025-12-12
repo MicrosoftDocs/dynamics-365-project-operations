@@ -1,22 +1,20 @@
 ---
 title: What's new or changed in Project Service Automation Update Release 16, V3
-description: This topic lists the features and fixes that are available in Project Service Automation Update Release 16, V3.
+description: This article lists the features and fixes that are available in Project Service Automation Update Release 16, V3.
 author: ruhercul
-ms.custom: dyn365-projectservice
-ms.date: 02/18/2020
-ms.topic: article
-#
-#
+ms.custom: 
+  - dyn365-projectservice
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: whats-new
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 
@@ -29,7 +27,7 @@ application for Dynamics 365. This release includes some important improvements
 to quality, performance, and usability.  This release is compatible with Dynamics 365 9.x. To update to this release,
 visit the Admin Center for Dynamics 365 online, solutions page to install the
 update. For more information, see [Install, Update a Preferred Solution](/dynamics365/project-service/upgrade-psa-home-page).
-This topic lists the features and fixes that are new or changed for PSA V3, Update Release 16. This version has a build number of V3.10.6.34 and is generally available through a self-update in January 2020.
+This article lists the features and fixes that are new or changed for PSA V3, Update Release 16. This version has a build number of V3.10.6.34 and is generally available through a self-update in January 2020.
 
 
 ## Update Release 16

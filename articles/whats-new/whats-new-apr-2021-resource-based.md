@@ -1,19 +1,21 @@
 ---
-title: What's new April 2021 - Project Operations for resource/non-stocked based scenarios
-description: This topic provides information about the quality updates available in the April 2021 release of Project Operations for resource/non-stocked based scenarios.
+title: What's new April 2021 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates available in the April 2021 release of Project Operations Integrated with ERP.
 author: sigitac
-ms.date: 04/22/2021
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.custom:
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: whats-new
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new April 2021 - Project Operations for resource/non-stocked based scenarios
+# What's new April 2021 - Project Operations Integrated with ERP
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
 - Project Operations on Dataverse environment version 4.9.0.221
 - Project management and accounting in Dynamics 365 Finance environment version 10.0.17
@@ -23,7 +25,7 @@ This topic applies to the following Dynamics 365 Project Operations components a
 The following features are included in this release:
 
 - Non-stocked materials for projects. Key capabilities include:
-  - Estimating and pricing non-stocked materials during the sales cycle for a project. For more information, see [Set up cost and sales rates for catalog products - lite](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
+  - Estimating and pricing non-stocked materials during the sales cycle for a project. For more information, see [Set up cost and sales rates for catalog products - Project Operations Core](../pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md).
   - Tracking the use of non-stocked materials during project delivery. For more information, see [Record material usage on projects and project tasks](../material/material-usage-log.md).
   - Invoicing used non-stocked material costs. For more information, see [Manage billing backlog](../proforma-invoicing/manage-billing-backlog.md).
   - For information about how to configure this feature, see [Configure non-stocked materials and pending vendor invoices](../procurement/configure-materials-nonstocked.md)
@@ -37,13 +39,13 @@ The following list shows the dual-write maps that have been modified or added in
 | **Entity map** | **Updated version** | **Comments** |
 | --- | --- | --- |
 | Project Operations integration actuals (msdyn\_actuals) | 1.0.0.14 | Map modified to synchronize material project actuals. |
-| Project Operations integration entity for expense estimates (msdyn\_estimateslines) | 1.0.0.2 | Added project contract line sync to Finance and Operations apps for task-based billing support. |
-| Project Operations integration entity for hour estimates (msdyn\_resourceassignments) | 1.0.0.5 | Added project contract line sync to Finance and Operations apps for task-based billing support. |
-| Project Operations integration table for material estimates (msdyn\_estimatelines) | 1.0.0.0 | New table map to synchronize material estimates from Dataverse to Finance and Operations apps. |
-| Project Operations integration project vendor invoice export entity (msdyn\_projectvendorinvoices) | 1.0.0.0 | New table map to synchronize vendor invoice headers from Finance and Operations apps to Dataverse. |
-| Project Operations integration project vendor invoice line export entity (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | New table map to synchronize vendor invoice lines from Finance and Operations apps to Dataverse. |
+| Project Operations integration entity for expense estimates (msdyn\_estimateslines) | 1.0.0.2 | Added project contract line sync to finance and operations apps for task-based billing support. |
+| Project Operations integration entity for hour estimates (msdyn\_resourceassignments) | 1.0.0.5 | Added project contract line sync to finance and operations apps for task-based billing support. |
+| Project Operations integration table for material estimates (msdyn\_estimatelines) | 1.0.0.0 | New table map to synchronize material estimates from Dataverse to finance and operations apps. |
+| Project Operations integration project vendor invoice export entity (msdyn\_projectvendorinvoices) | 1.0.0.0 | New table map to synchronize vendor invoice headers from finance and operations apps to Dataverse. |
+| Project Operations integration project vendor invoice line export entity (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | New table map to synchronize vendor invoice lines from finance and operations apps to Dataverse. |
 
-You should always run the latest version of the map in your environment and enable all related table maps as you update your Project Operations Dataverse solution and Finance and Operations solution version. Certain features and capabilities might not work correctly if the latest version of the map is not activated. You can see the active version of the map in the **Version** column on the **Dual-write** page. You can activate a new version of the map by selecting **Table map versions**, selecting the latest version, and then saving the selected version. If you have customized an out-of-the-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+You should always run the latest version of the map in your environment and enable all related table maps as you update your Project Operations Dataverse solution and finance and operations solution version. Certain features and capabilities might not work correctly if the latest version of the map is not activated. You can see the active version of the map in the **Version** column on the **Dual-write** page. You can activate a new version of the map by selecting **Table map versions**, selecting the latest version, and then saving the selected version. If you have customized an out-of-the-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 If you encounter an issue with starting the map, follow instructions in the [Missing table columns issue on maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) section of the Dual Write troubleshooting guide.
 

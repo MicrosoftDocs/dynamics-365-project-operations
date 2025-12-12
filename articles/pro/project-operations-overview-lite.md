@@ -1,19 +1,23 @@
 ---
-title: Lite deployment overview
-description: This topic provides information about the Lite deployment of Dynamics 365 Project Operations.
+title: Project Operations Core overview
+description: This article provides information about the Project Operations Core of Dynamics 365 Project Operations.
 author: rumant
-ms.date: 11/02/2020
+ms.date: 04/09/2024
 ms.topic: overview
-ms.reviewer: kfend 
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 
 ---
 
-# Lite deployment overview
+# Project Operations Core overview
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
 
-The Lite deployment type of Dynamics 365 Project Operations has the following capabilities for project-based companies:
+_**Applies To:** Project Operations Core_
+
+The Project Operations Core type of Dynamics 365 Project Operations has the following capabilities for project-based companies:
 
 - Project planning using Microsoft Project for the Web
 - Multi-dimensional pricing and costing for labor resources

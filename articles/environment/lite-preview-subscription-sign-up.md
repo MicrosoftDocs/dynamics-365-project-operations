@@ -1,22 +1,28 @@
 ---
-title: Sign up for a preview subscription - lite
-description: This topic provides information about how to subscribe to and deploy Project Operations lite deployment - deal to proforma invoicing.
-author: sigitac
-ms.date: 07/02/2021
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: sigitac
+title: Sign up for a preview subscription - Project Operations Core
+description: This article provides information about how to subscribe to and deploy Project Operations Core.
+author: ryansandness
+ms.author: ryansandness
+ms.date: 05/24/2024
+ms.topic: how-to
+ms.reviewer: johnmichalak
+ms.custom:
+  - bap-template
+  - sfi-image-nochange
+
 ---
 
-# Sign up for a preview subscription - lite 
+# Sign up for a preview subscription - Project Operations Core 
 
-This topic explains how to subscribe to the trial offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.
+[!INCLUDE[banner](../includes/banner.md)]
+
+This article explains how to subscribe to the trial offer and deploy Dynamics 365 Project Operations Core.
 
 > [!NOTE]
 > This process will change in upcoming releases of Project Operations.
 
 ## Prerequisites
-- The user who deploys the preview must have Azure tenant global administrator rights. You can create a tenant during the first offer redemption.
+- The user who deploys the preview must have tenant administrator rights. You can create a tenant during the first offer redemption.
 
 > [!IMPORTANT]
 > Only one person, the tenant administrator, in an organization needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
@@ -45,10 +51,7 @@ Before you begin, make sure you are logged in to a browser with the user work ac
 
 ## Create a new Dataverse environment
 
-1. Provision a new Project Operations Dataverse deployment environment by following instructions in the topic, [Dataverse deployment model](lite-deployment.md). When you select the environment type, make sure to use **Trial (Subscription based)**.
-
-  ![New environment.](./media/19CreateEnvironment.png)
-
+1. Provision a new Project Operations Dataverse deployment environment by following instructions in the article, [Dataverse deployment model](lite-deployment.md). When you select the environment type, make sure to use **Trial (Subscription based)**.
 2. Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.  
 3. Select **Save** to create the environment.
 
@@ -58,9 +61,9 @@ Before you begin, make sure you are logged in to a browser with the user work ac
 
 ![Install Solution.](./media/21InstallSolution.png)
 
-## Install a CDS configuration and setup demo data
+## Set up demo data
 
-Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).
+Set up demo data by following instructions in the article, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

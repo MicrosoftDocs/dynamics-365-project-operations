@@ -1,16 +1,20 @@
 ---
 title: Security model
-description: This topic provides information about the security model in Dynamics 365 Project Operations.
-author: stsporen
+description: This article provides information about the security model in Dynamics 365 Project Operations.
+author: mukumarm
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: stsporen
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: mukumarm
 ---
 
 # Security Model
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 
 

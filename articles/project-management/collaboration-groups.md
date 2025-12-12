@@ -1,16 +1,18 @@
 ---
 title: Collaboration with Office Groups
 description: Office Groups allow you to share a project with other team members within Common Data Service.
-author: ruhercul
-ms.date: 10/01/2020
+author: abriccetti
+ms.date: 05/21/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: ruhercul
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: abriccetti
 ---
 
 # Collaboration with Office Groups
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 
 

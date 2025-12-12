@@ -1,20 +1,22 @@
 ---
-title: What's new March 2021 - Project Operations lite deployment
-description: This topic provides information about the quality updates available in the March 2021 release of Project Operations lite deployment.
+title: What's new March 2021 - Project Operations Core
+description: This article provides information about the quality updates available in the March 2021 release of Project Operations Core.
 author: sigitac
-ms.date: 03/03/2021
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.custom:
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: whats-new
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new March 2021 - Project Operations lite deployment
+# What's new March 2021 - Project Operations Core
 
-_Applies To: Lite deployment - deal to proforma invoicing_
+_Applies To: Project Operations Core_
 
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
 - Project Operations on Dataverse environment version 4.8.0.91 
 

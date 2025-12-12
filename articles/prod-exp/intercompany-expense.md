@@ -1,28 +1,13 @@
 ---
-# required metadata
-
 title: Intercompany expenses
-description: This topic provides information about how to use intercompany expenses to assign a worker’s expenses to the legal entity for which the work was performed.
-author: Surya Vaidyanathan
-ms.date: 07/08/2021
+description: This article provides information about how to use intercompany expenses to assign a worker’s expenses to the legal entity for which the work was performed.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/17/2024
 ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
-ms.search.form: TrvParameters
-audience: Application User
-# ms.devlang: 
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
-# ms.custom: 
-ms.search.region: Global
-# ms.search.industry: 
-ms.author: suvaidya
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 
 ---
 
@@ -30,7 +15,19 @@ ms.dyn365.ops.version: AX 7.0.0
 
 A worker who is employed by one legal entity in an organization might perform work for another legal entity in the same organization. You can use intercompany expenses to assign the worker’s expenses to the legal entity for which the  work was performed. The legal entity that employs the worker is called the loaning legal entity. The legal entity for which the worker incurs expenses is called the borrowing legal entity. 
 
-Before a worker can create and submit intercompany expenses, you must enable intercompany expense lines. In the loaning legal entity, on the **Expense management parameters** page, select **Allow intercompany expense lines**. 
+Before a worker can create and submit intercompany expenses, you must enable intercompany expense lines. 
+
+To enable intercompany expense lines, follow these steps.
+
+1. Go to **Expense management** > **Setup** > **General** > **Expense management parameters** form.
+2. On the **General** tab, select **Allow intercompany expense lines**. 
+
+To manage **project intercompany expenses**, configure the setup for **default intercompany expense category** using **project management parameters** form following these steps. 
+
+1. Go to **Project management and accounting** > **Setup** > **Project management and accounting parameters** > **Intercompany**.
+2. Go to **When landing resources** grid.
+3. Select **+New** to define the default categories for timesheet and expense categories.
+4. Select **Borrowing legal entity**, **Default timesheet category**, **Default expense category**.
 
 ## Tax posting for intercompany expenses
 

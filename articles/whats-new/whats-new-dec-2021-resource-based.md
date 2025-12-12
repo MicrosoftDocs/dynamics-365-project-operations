@@ -1,19 +1,21 @@
 ---
-title: What's new December 2021 - Project Operations for resource/non-stocked based scenarios
-description: This topic provides information about the quality updates that are available in the December 2021 release of Project Operations for resource/non-stocked based scenarios.
+title: What's new December 2021 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates that are available in the December 2021 release of Project Operations Integrated with ERP.
 author: sigitac
-ms.date: 12/09/2021
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.custom:
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: whats-new
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new December 2021 - Project Operations for resource/non-stocked based scenarios
+# What's new December 2021 - Project Operations Integrated with ERP
 
-*Applies To: Project Operations for resource/non-stocked based scenarios*
+*Applies To: Project Operations Integrated with ERP*
 
-This topic applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
+This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in a Dataverse environment version 4.27.0.195, 4.27.0.242, 4.27.0.244
 - Project management and accounting in a Dynamics 365 Finance environment version 10.0.23

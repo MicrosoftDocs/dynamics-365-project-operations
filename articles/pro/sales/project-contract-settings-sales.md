@@ -1,18 +1,22 @@
 ---
-title: Project contract settings - lite
-description: This topic provides information about fields that impact contract lines and the information about the contract that is summarized to across all the line items.
-author: rumant
-ms.date: 03/08/2022
+title:  Header details for project contracts
+description: This article provides information about the fields and the information about project contracts in Project Operations.
+author: poojafandan
+ms.date: 06/07/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
 # Header details for project contracts
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
 
-This topic provides information about fields that apply to the entire project contract including settings that impact all contract lines. Information about the contract that is summarized across all the line items to drive KPIs of the project contract is also included.
+_**Applies To:** Project Operations Core_
+
+This article provides information about fields that apply to the entire project contract including settings that impact all contract lines. Information about the contract that is summarized across all the line items to drive KPIs of the project contract is also included.
 
 The following table lists the fields on a project contract that are unique to Dynamics 365 Project Operations or have some important changes in behavior from sales orders in Dynamics 365 Sales.
 

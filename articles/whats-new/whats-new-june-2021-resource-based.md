@@ -1,29 +1,31 @@
 ---
-title: What's new June 2021 - Project Operations for resource/non-stocked based scenarios
-description: This topic provides information about the quality updates available in the June 2021 release of Project Operations for resource/non-stocked based scenarios.
+title: What's new June 2021 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates available in the June 2021 release of Project Operations Integrated with ERP.
 author: sigitac
-ms.date: 06/14/2021
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.custom:
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: whats-new
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new June 2021 - Project Operations for resource/non-stocked based scenarios
+# What's new June 2021 - Project Operations Integrated with ERP
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
 - Project Operations on Dynamics 365 Dataverse environment version 4.11.0.156 or 4.11.0.164.
-- Project management and accounting in Finance and Operations apps environments version 10.0.19.
+- Project management and accounting in finance and operations apps environments version 10.0.19.
 
 ## Features included in this release
 
 The following features are included in this release:
 
 - Ability to delete [Project invoice proposal lines for adjustment scenarios](../invoicing/correct-project-invoice-proposals.md).
-- Itemized expense lines reflect subcategory names in the expense report [Expense Reports Reimagined-New Features](../expense/expense-reports-reimagined.md#new-features).
+- Itemized expense lines reflect subcategory names in the expense report [Expense Reports Reimagined-New Features](../expense/expense-reports-reimagined.md#features-available-when-enabling-the-expense-reports-reimagined-feature).
 - Payment method is available in the new expense pane when creating a new expense.
 - General availability of Project schedule APIs. This new functionality allows customers to programatically perform create, update, and delete operations on project tasks, resource assignments, task dependencies, and project team member records. For more information, see [Use Project schedule APIs to perform operations with Scheduling entities](../project-management/schedule-api-preview.md).
 
@@ -33,7 +35,7 @@ There are no updates for Project Operations dual-write maps in this release.
 
 For a current list and versions of Project Operations dual-write maps, see [Project Operations dual-write map versions](../environment/resource-dual-write-maps.md).
 
-Always run the latest version of the map in your environment and enable all related table maps as you update your Project Operations Dataverse solution and Finance and Operations apps solution version. Certain features and capabilities might not work correctly if the latest version of the map isn't activated. You can see the active version of the map on the **Dual-write** page in the **Version** column. Activate a new version of the map by selecting **Table map versions**, selecting the latest version, and then saving the selected version. If you have customized an out-of-the-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+Always run the latest version of the map in your environment and enable all related table maps as you update your Project Operations Dataverse solution and finance and operations apps solution version. Certain features and capabilities might not work correctly if the latest version of the map isn't activated. You can see the active version of the map on the **Dual-write** page in the **Version** column. Activate a new version of the map by selecting **Table map versions**, selecting the latest version, and then saving the selected version. If you have customized an out-of-the-box table map, reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
 If you encounter an issue starting the map, follow the instructions in the [Missing table columns issue on maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) section of the Dual-write troubleshooting guide.
 

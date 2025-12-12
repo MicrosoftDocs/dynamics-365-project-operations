@@ -2,27 +2,16 @@
 # required metadata
 
 title: Confirm, update, and send a project quotation
-description: This topic provides information about sending a quote to the customer for confirmation, modifying based on feedback, and then resending the quotation.
-author: ruhercul
-ms.date: 05/09/2020
-ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
+description: This article provides information about sending a quote to the customer for confirmation, modifying based on feedback, and then resending the quotation.
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: ruhercul
 ms.dyn365.ops.version: 7.0
 ms.search.validFrom: 2019-01-15
 

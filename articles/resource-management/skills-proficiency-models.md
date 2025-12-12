@@ -1,15 +1,18 @@
 ---
 title: Skills and certifications
-description: This topic provides information about adding skill and certification characteristics to resources.
-author: ruhercul
-ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: ruhercul
+description: This article provides information about adding skill and certification characteristics to resources.
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+  - ms.reviewer: johnmichalak
+
 ---
 
 # Skills and certifications
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Characteristics are used to enrich the attributes used to describe the abilities of a resource. Each characteristic of a resource can be described as a **Skill** or a **Certification**.
 

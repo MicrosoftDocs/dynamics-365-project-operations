@@ -1,6 +1,181 @@
 {
   "redirections": [
     {
+      "source_path": "articles/expense/expense-using-mobile.md",
+      "redirect_url": "/articles/expense/new-expense-mobile-app-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-pma/project-time-entry-mobile-workspace.md",
+      "redirect_url": "/articles/expense/new-expense-mobile-app-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/psa/add-in-plan-work-projects.md",
+      "redirect_url": "/articles/psa/plan-work-in-project-service-automation-add-in",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/pro/proforma-invoicing/corrective-invoices-sales.md",
+      "redirect_url": "/dynamics365/project-operations/proforma-invoicing/revise-project-invoices",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/proforma-invoicing/corrective-invoices-sales.md",
+      "redirect_url": "/dynamics365/project-operations/proforma-invoicing/revise-project-invoices",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/proforma-invoicing/corrective-invoices.md",
+      "redirect_url": "/dynamics365/project-operations/proforma-invoicing/revise-project-invoices",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/pro/budget/project-budget-line.md",
+      "redirect_url": "/dynamics365/project-operations/pro/budget/project-cost-expense-budget-line",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/psa/upgrade-considerations-tasks.md",
+      "redirect_url": "/dynamics365/project-operations/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-pma/tasks/create-credit-on-project-invoice.md",
+      "redirect_url": "/dynamics365/project-operations/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-pma/tasks/adjust-project-transactions.md",
+      "redirect_url": "/dynamics365/project-operations/",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/expense-receipt-processing.md",
+      "redirect_url": "/dynamics365/project-operations/expense/match-receipt-expense-ocr",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/expense-report-distributions.md",
+      "redirect_url": "/dynamics365/project-operations/expense/distributions-expense-report",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/expense-management-mobile-workspace.md",
+      "redirect_url": "/dynamics365/project-operations/expense/expense-using-mobile",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/Expense-Management-Parameters.md",
+      "redirect_url": "/dynamics365/project-operations/expense/configure-expense-management-parameters",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/travel-expense-policies.md",
+      "redirect_url": "/dynamics365/project-operations/expense/set-up-policies",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/expense-workflow.md",
+      "redirect_url": "/dynamics365/project-operations/expense/set-up-workflows",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/expense-workflows.md",
+      "redirect_url": "/dynamics365/project-operations/expense/set-up-workflows",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/expense-report-multiple-approvers.md",
+      "redirect_url": "/dynamics365/project-operations/expense/expense-reports-multiple-approvers",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/pricing-costing/sales-price-list-setup.md",
+      "redirect_url": "/dynamics365/project-operations/pro/sales/manage-project-price-lists-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/psa/advanced-actuals.md",
+      "redirect_url": "/dynamics365/project-operations/psa/actuals",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/sales/configure-chargeable-contract-line.md",
+      "redirect_url": "/dynamics365/project-operations/pro/sales/configure-chargeable-components-contract-line",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/sales/create-estimate-project-quote-line.md",
+      "redirect_url": "/dynamics365/project-operations/sales/create-estimate-quote-line",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/sales/manage-contract-values-project-based.md",
+      "redirect_url": "/dynamics365/project-operations/pro/sales/manage-contract-values-project-based-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/sales/manage-quoted-values-budget-limits-quote-line.md",
+      "redirect_url": "/dynamics365/project-operations/pro/sales/manage-quoted-values-budget-limits-quote-line-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/sales/managing-project-price-lists.md",
+      "redirect_url": "/dynamics365/project-operations/pro/sales/manage-project-price-lists-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/sample-data/sample-data-overview.md",
+      "redirect_url": "/dynamics365/project-operations/environment/lite-apply-demo-setup-config-data",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md",
+      "redirect_url": "/dynamics365/project-operations/pricing-costing/product-price-list",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/ExpenseWorkspaceNew.md",
+      "redirect_url": "/dynamics365/project-operations/expense/expense-reports-reimagined",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/per-diem.md",
+      "redirect_url": "/dynamics365/project-operations/expense/per-diems",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/personal-expenses.md",
+      "redirect_url": "/dynamics365/project-operations/expense/personal-expenses-expense-report",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/post-expense.md",
+      "redirect_url": "/dynamics365/project-operations/expense/posting-expense-reports",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/travel-req.md",
+      "redirect_url": "/dynamics365/project-operations/expense/travel-requisition",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/prod-exp/VAT-expense-report.md",
+      "redirect_url": "/dynamics365/project-operations/expense/vat-recovery",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/resource-management/resource-management-overview.md",
+      "redirect_url": "/dynamics365/project-operations",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/whats-new/whats-new-project-operations.md",
+      "redirect_url": "/dynamics365/project-operations",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "articles/pro/subcontracting/Subcontracting_EA_scope.md",
       "redirect_url": "managing-subcontracts-overview",
       "redirect_document_id": "false"

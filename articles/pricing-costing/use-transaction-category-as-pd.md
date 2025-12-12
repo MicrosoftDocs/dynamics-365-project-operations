@@ -1,23 +1,27 @@
 --- 
 title: Use Transaction Category as a pricing dimension
-description:  This topic provides information about how to use the Transaction Category field as a pricing dimension.
-author:  rumant
-ms.date: 11/05/2020  
-ms.topic: article 
-ms.reviewer: kfend 
-ms.author: rumant 
+description:  This article provides information about how to use the Transaction Category field as a pricing dimension.
+author:  abriccetti
+ms.author: abriccetti
+ms.date: 01/09/2025 
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ 
 --- 
 
 # Use Transaction Category as a pricing dimension
 
+[!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 
-This topic explains how to use the **Transaction Category** field as a pricing dimension. 
+This article explains how to use the **Transaction Category** field as a pricing dimension. 
 
 ## Prerequisites
-Before you complete the procedures in this topic, you must have a new pricing dimension solution for your organization. If you haven't already created one, see [Create custom fields and entities as pricing dimensions](create-custom-fields-entities-pricing-dimensions.md).
+Before you complete the procedures in this article, you must have a new pricing dimension solution for your organization. If you haven't already created one, see [Create custom fields and entities as pricing dimensions](create-custom-fields-entities-pricing-dimensions.md).
 
 ## Add the Transaction Category field to forms and views
 To make the **Transaction Category** field visible in the pricing dimension solution, you need to add the field to all the forms and views as an entity.

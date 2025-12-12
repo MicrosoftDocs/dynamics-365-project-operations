@@ -1,37 +1,25 @@
 ---
-# required metadata
-
-title: Synchronize project estimates directly from Project Service Automation to Finance and Operations
-description: This topic describes the templates and underlying tasks that are used to synchronize project hour estimates and project expense estimates directly from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Finance.
-author: Yowelle
-ms.date: 07/20/2018
+title: Synchronize project estimates directly from Project Service Automation to finance and operations
+description: This article describes the templates and underlying tasks that are used to synchronize project hour estimates and project expense estimates directly from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Finance.
+author: abriccetti
+ms.author: abriccetti
+ms.date: 05/21/2024
 ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
+ms.custom: 
+  - bap-template
 audience: Application User
-# ms.devlang: 
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
-ms.custom: 87983
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-# ms.search.industry: 
-ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-
 ---
-# Synchronize project estimates directly from Project Service Automation to Finance and Operations
+
+# Synchronize project estimates directly from Project Service Automation to finance and operations
 
 [!include[banner](../includes/banner.md)]
 
-This topic describes the templates and underlying tasks that are used to synchronize project hour estimates and project expense estimates directly from Dynamics 365 Project Service Automation to Dynamics 365 Finance.
+This article describes the templates and underlying tasks that are used to synchronize project hour estimates and project expense estimates directly from Dynamics 365 Project Service Automation to Dynamics 365 Finance.
 
 > [!NOTE]
 > - Project task integration, expense transaction categories, hour estimates, expense estimates, and functionality locking is available in version 8.0.

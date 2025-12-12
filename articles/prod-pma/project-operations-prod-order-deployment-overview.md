@@ -1,27 +1,29 @@
 ---
-title: Project Operations for stocked/production-based scenarios deployment overview
-description: This topic provides information about the deployment type, Project Operations for stocked/production-based scenarios.
-author: rumant
-ms.date: 11/02/2020
+title: Project Operations for manufacturing deployment overview
+description: This article provides information about the deployment type, Project Operations for manufacturing.
+author: poojafandan
+ms.date: 06/10/2024
 ms.topic: overview
-ms.reviewer: kfend 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 
 ---
 
-# Project Operations for stocked/production-based scenarios deployment overview
+# Project Operations for manufacturing deployment overview
 
-_**Applies To:** Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations for manufacturing-based scenarios_
 
 
 This deployment type has the following capabilities for project-based companies:
 
 - Project planning using the [Work breakdown structures](work-breakdown-structures.md)
 - Procure and consume stocked inventory for projects
-- Managing project-based sales using the **Sales and marketing** module in Dynamics 365 Finance and Operations apps
-- Project pricing and costing using the cost rate and bill rate configurations in Finance and Operations apps
-- Resource management for projects in Finance and Operations apps
-- Project progress and time tracking in Finance and Operations apps
+- Managing project-based sales using the **Sales and marketing** module in Dynamics 365 finance and operations apps
+- Project pricing and costing using the cost rate and bill rate configurations in finance and operations apps
+- Resource management for projects in finance and operations apps
+- Project progress and time tracking in finance and operations apps
 - Expense management experiences for project and non-project expenses with receipt capture using OCR capabilities
 - Invoicing using an enterprise-class sales tax and date-effective exchange rates system
 - Configurable project groups for WIP accounting and accruals

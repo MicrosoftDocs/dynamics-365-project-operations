@@ -1,13 +1,13 @@
 ---
 title: Upgrade considerations - Microsoft Dynamics 365 Project Service Automation version 2.x or 1.x to version 3
-description: This topic provides information about the considerations you must make when you upgrade from Project Service Automation version 2.x or 1.x to version 3.
-ms.prod:
+description: This article provides information about the considerations you must make when you upgrade from Project Service Automation version 2.x or 1.x to version 3.
+ 
 ms.custom: 
   - dyn365-projectservice
-ms.date: 11/13/2018
-ms.topic: article
-#
-#
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: upgrade-and-migration-article
 author: JohnPBurrows
 ms.author: rumant
 audience: Admin
@@ -15,9 +15,7 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 
@@ -37,7 +35,7 @@ In Project Service Automation version 2 and version 1, task assignments were sto
 
 In version 3 of Project Service Automation, the underlying schema of assigning bookable resources to tasks has changed. The line task has been deprecated and there is a direct 1:1 relationship between the task in the **Task entity** and the team member in the **Resource Assignment** entity. Tasks that are assigned to a project team member are now stored directly in the Resource Assignment entity.  
 
-These changes impact the upgrade of any existing projects that have resource assignments for named bookable resources and generic resources on a project team. This topic provides the considerations that you will need to take into account for your projects when you upgrade to version 3. 
+These changes impact the upgrade of any existing projects that have resource assignments for named bookable resources and generic resources on a project team. This article provides the considerations that you will need to take into account for your projects when you upgrade to version 3. 
 
 ### Tasks assigned to named resources
 Using the underlying task entity, tasks in version 2 and version 1 allowed team members to portray a role other than their default defined role. For example, Gracie George, who’s by default assigned the role of Program Manager, could be assigned to a task with the role of Developer. In version 3, the role of a named team member is always the default, so any task that Gracie George is assigned to uses Gracie's default role of Program Manager.

@@ -1,18 +1,19 @@
 ---
-# required metadata
-
 title: Maintain team members
-description: This topic provides information about booking named resources to project teams and assigning them to tasks. 
-author: ruhercul
-ms.date: 10/05/2020
-ms.topic: article
-ms.reviewer: kfend
-ms.author: ruhercul
+description: This article provides information about booking named resources to project teams and assigning them to tasks. 
+author: abriccetti
+ms.author: abriccetti
+ms.date: 05/21/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Maintain team members
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 You can add a named resource to your project team by booking them directly to the team.
 

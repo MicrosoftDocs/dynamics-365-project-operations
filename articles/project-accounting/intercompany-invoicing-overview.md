@@ -1,19 +1,19 @@
 ---
-# required metadata
-
 title: Intercompany invoicing overview
-description: This topic provides information and examples about intercompany invoicing for projects.
-author:  sigitac
-ms.date: 11/19/2020 
+description: This article provides information and examples about intercompany invoicing for projects.
+author:  ryansandness
+ms.author: ryansandness
+ms.date: 05/24/2024 
 ms.topic: overview
-ms.reviewer: kfend
-ms.author: sigitac
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 
 ---
 
 # Intercompany invoicing overview
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Your organization might have multiple divisions, subsidiaries, and other legal entities that transfer products and services to each other for projects. The legal entity that provides the service or product is called the *lending legal entity*. The legal entity that receives the service or product is called the *borrowing legal entity*.
 

@@ -1,23 +1,20 @@
 ---
 title: Project pricing
-description: This topic provides information about how pricing works in Dynamics 365 Project Service Automation.
+description: This article provides information about how pricing works in Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/11/2019
-ms.topic: article
-#
-#
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Project pricing 
@@ -53,7 +50,7 @@ The term *resource role* refers to a set of skills, competencies, and certificat
 
 Human resources time is usually quoted based on the role that a resource fills on a specific project. For human resource time, PSA supports costing and billing that are based on resource role. Time can be priced in any unit in the **Time** unit group.
 
-The **Time** unit group is crated when PSA is installed. It has a default unit of **Hour**. You can't delete, rename, or edit the attributes fo teh **Time** unit group or the **Hour** unit. However, you can add other units to the **Time** unit group. If you try to delete either the **Time** unit group or the **Hour** unit, you might cause failures in the PSA business logic.
+The **Time** unit group is crated when PSA is installed. It has a default unit of **Hour**. You can't delete, rename, or edit the attributes for the **Time** unit group or the **Hour** unit. However, you can add other units to the **Time** unit group. If you try to delete either the **Time** unit group or the **Hour** unit, you might cause failures in the PSA business logic.
 
 > ![Configuring prices by role.](media/basic-guide-13.png)
  

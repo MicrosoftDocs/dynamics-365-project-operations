@@ -4,20 +4,17 @@ description: This article describes how to soft book project team members with P
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/21/2018
+  - evergreen
+ms.date:  07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # How do I "soft book" resources in the web app (Project Service app v2.x)?

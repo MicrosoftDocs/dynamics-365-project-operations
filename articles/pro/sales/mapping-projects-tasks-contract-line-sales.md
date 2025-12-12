@@ -1,18 +1,23 @@
 ---
-title: Map projects and tasks to a project-based contract line - lite
-description: This topic provides information about adding and removing projects and tasks to a contract line.
-author: rumant
-ms.date: 10/27/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+title: Map projects and tasks to a project contract line 
+description: This article provides information about adding and removing projects and tasks to a contract line.
+author: poojafandan
+ms.author: poojafandan
+ms.date: 03/10/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
-# Map projects and tasks to a project-based contract line 
+# Map projects and tasks to a project contract line 
 
-_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../../includes/banner.md)]
 
-On project-based contract lines, you can map specific tasks in a project to the contract line.
+_**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
+
+On project contract lines, you can map specific tasks in a project to the contract line.
 
 When you map specific tasks to a contract line, the billing method, chargeability options, Not-to-exceed limits, and the customers defined on the contract line will be applicable to those specific tasks only.
 
@@ -20,7 +25,7 @@ If you have a scenario where one phase of a project, for example the Prototype P
 
 All the other phases in your project work breakdown structure (WBS) can be associated to the time and material-based contract line.
 
-## Associate tasks to project-based contract lines
+## Associate tasks to project contract lines
 
 Tasks can be associated to contract lines from the **Chargeable Tasks** tab on the **Contract Line** page or from the **Task Billing** tab on the **Project** page.
 

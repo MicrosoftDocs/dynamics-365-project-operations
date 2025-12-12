@@ -1,23 +1,20 @@
 ---
 title: Estimates
-description: This topic provides information about estimates in Dynamics 365 Project Service Automation.
+description: This article provides information about estimates in Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 1/31/2019
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Estimates

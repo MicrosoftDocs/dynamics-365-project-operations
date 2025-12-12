@@ -1,37 +1,21 @@
 ---
-# required metadata
-
 title: Booking allocation methods
-description: This topic provides information about how booking allocation methods work in Project Operations.
-author: ruhercul
-ms.date: 09/23/2020
-ms.topic: article
-ms.prod: 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
+description: This article provides information about how booking allocation methods work in Project Operations.
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
+ms.topic: concept-article
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: ruhercul
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+  - bap-template 
+ms.reviewer: johnmichalak
+
 ---
 
 # Booking allocation methods
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-Whether you add a team member directly to a project on the **Team** tab, or book a resource to a project or requirement from the Schedule board, there are a few different booking allocation methods you can use. This topic explains how each method works, and which methods could lead to overbooking resources.
+Whether you add a team member directly to a project on the **Team** tab, or book a resource to a project or requirement from the Schedule board, there are a few different booking allocation methods you can use. This article explains how each method works, and which methods could lead to overbooking resources.
 
 ## Booking allocation methods
 

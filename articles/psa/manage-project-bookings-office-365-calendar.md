@@ -4,19 +4,17 @@ description: How to manage projects and bookings in your Office 365 calendar
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
-ms.topic: article
-#
-#
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 
@@ -48,7 +46,7 @@ View personal appointments, project-work bookings, and field service work order 
 ## Setup  
  Before you can see and manage your bookings on your [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] calendar, you need to set a few things up.  
   
-- You will need to have [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] Global Administrator or System Administrator credentials.  
+- You will need to have [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] System Administrator credentials.  
   
 - Your Admin will need to configure the email server profile and each user will need to configure their mailbox. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Set up email processing through server-side synchronization](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   

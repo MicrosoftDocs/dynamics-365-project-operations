@@ -4,20 +4,17 @@ description: How to create a price list in Project Service
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
-ms.topic: article
-#
-#
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Create a price list (Project Service)
 

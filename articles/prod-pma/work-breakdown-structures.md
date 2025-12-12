@@ -1,28 +1,17 @@
 ---
-# required metadata
-
 title: Work breakdown structures overview
 description: A work breakdown structure (WBS) is a description of the work that will be done for a project. It’s a hierarchy of tasks that represents the project team’s understanding of the composition of work, and of the size, cost, and duration of each component or task.
-author: Yowelle
-ms.date: 07/25/2019
+author: abriccetti
+ms.author: abriccetti
+ms.date: 05/21/2024
 ms.topic: overview
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
+ms.custom: 
+  - bap-template
 ms.search.form: ProjWorkBreakdownStructure
-# ROBOTS: 
 audience: Application User
-# ms.devlang: 
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
-
+ms.reviewer: johnmichalak
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
-# ms.search.industry: 
-ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 
@@ -42,7 +31,7 @@ The degree of detail in a WBS depends on the level of accuracy that is required 
 
 By contrast, projects in industries such as media and advertising, software, and IT infrastructure tend to be one of a kind, and productivity is relative to the experience and competency of the individual who is performing the task. Therefore, these industries use a WBS to get an approximation of the size of a project, not to track the progress of that project in detail. 
 
-Building a WBS is an intensive process that is usually done over a long period, and that requires collaboration and information from a wide variety of people. This topic describes how you can use WBS enhancements to meet your requirements for estimates and tracking.
+Building a WBS is an intensive process that is usually done over a long period, and that requires collaboration and information from a wide variety of people. This article describes how you can use WBS enhancements to meet your requirements for estimates and tracking.
 
 ## Prerequisites for creating a WBS
 To create a WBS, you must be able to create a work schedule and estimate the cost of work.
@@ -187,7 +176,7 @@ Finance has three views for the WBS of a project: the Planning view, Effort trac
 
 ### Planning view
 
-The Planning view displays the planned or baseline estimate of the schedule and cost information. Although there are no features for tracking the version and baseline for a project WBS, the values in this view are intended to represent the baseline version. The Schedule estimation and Cost estimation sections of this topic describe this view and how it’s used to create a WBS.
+The Planning view displays the planned or baseline estimate of the schedule and cost information. Although there are no features for tracking the version and baseline for a project WBS, the values in this view are intended to represent the baseline version. The Schedule estimation and Cost estimation sections of this article describe this view and how it’s used to create a WBS.
 
 ### Effort tracking view
 

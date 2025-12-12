@@ -1,17 +1,21 @@
 ---
-title: Manage complex units for product-based contract lines - lite
-description:  This topic provides information about supporting the sale of subscription-based products.
-author: rumant
-ms.date: 10/28/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+title: Manage complex units for product-based contract lines - Project Operations Core
+description:  This article provides information about supporting the sale of subscription-based products.
+author: poojafandan
+ms.date: 06/10/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
 
-# Manage complex units for product-based contract lines - lite
+# Manage complex units for product-based contract lines - Project Operations Core
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Core_
 
 Dynamics 365 Project Operations uses quantity factors to support the sale of subscription-based products. For subscription-based products, the quantity on the contract or project contract line is expressed as the number of user-months.
 

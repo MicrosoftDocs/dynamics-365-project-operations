@@ -1,38 +1,25 @@
 ---
-# required metadata
-
-title: Synchronize project expense categories between Finance and Operations and Project Service Automation 
-description: This topic describes the templates and underlying tasks that are used to synchronize project expense categories between Microsoft Dynamics 365 Finance and Dynamics 365 Project Service Automation.
-author: Yowelle
-ms.date: 07/20/2018
-ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
-ms.custom: 87983
+title: Synchronize project expense categories between finance and operations and Project Service Automation 
+description: This article describes the templates and underlying tasks that are used to synchronize project expense categories between Microsoft Dynamics 365 Finance and Dynamics 365 Project Service Automation.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-# ms.search.industry: 
-ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
 
 ---
 
-# Synchronize project expense categories between Finance and Operations and Project Service Automation
+# Synchronize project expense categories between finance and operations and Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-This topic describes the templates and underlying tasks that are used to synchronize project expense categories between Dynamics 365 Finance and Dynamics 365 Project Service Automation.
+This article describes the templates and underlying tasks that are used to synchronize project expense categories between Dynamics 365 Finance and Dynamics 365 Project Service Automation.
 
 > [!NOTE]
 > - Project task integration, expense transaction categories, hour estimates, expense estimates, and functionality locking are available in version 8.0.

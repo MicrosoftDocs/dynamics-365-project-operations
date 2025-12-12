@@ -1,16 +1,19 @@
 ---
 title: Opportunity header/summary
-description: This topic provides information about project-based deals and the project-based opportunity lines.
-author: rumant
-ms.date: 10/01/2020
+description: This article provides information about project-based deals and the project-based opportunity lines.
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Header details for project-based opportunities
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 
 The Opportunity header, or summary, captures the overall information about a project-based deal that applies to all the lines on a project-based opportunity.

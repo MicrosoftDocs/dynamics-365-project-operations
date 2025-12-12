@@ -1,35 +1,19 @@
 ---
-# required metadata
-
 title: Define skills and proficiencies
-description: This topic provides information about how to set up proficiency models to rate resources. 
-author: ruhercul
-ms.date: 09/23/2020
-ms.topic: article
-ms.prod: 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
+description: This article provides information about how to set up proficiency models to rate resources. 
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: ruhercul
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Define skills and proficiencies
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Skills are resource characteristics that are shared between Dynamics 365 Project Operations and if present, Dynamics 365 Field Service. 
 

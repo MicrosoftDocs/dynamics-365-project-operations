@@ -1,39 +1,23 @@
 ---
-# required metadata
-
 title: Units and unit groups
-description: This topic provides information about how to create units and unit groups in Dynamics 365 Project Operations.
-author: rumant
-ms.date: 09/18/2020
-ms.topic: article
-ms.prod: 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
+description: This article provides information about how to create units and unit groups in Dynamics 365 Project Operations.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Units and unit groups
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Units are the quantities or measurements that you sell your products or services in. For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets. A unit group is a collection of these different units.
 
-To complete the steps in this topic, make sure that you have been assigned to the System Administrator or Sales Professional Manager role or have equivalent permissions.
+To complete the steps in this article, make sure that you have been assigned to the System Administrator or Sales Professional Manager role or have equivalent permissions.
 
 ## Create a unit group
 

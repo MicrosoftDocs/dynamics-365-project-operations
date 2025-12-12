@@ -1,18 +1,20 @@
 ---
 title: Vendor invoice lines for time
-description: This topic explains how to record vendor invoice lines for time costs that subcontractors put in.
+description: This article explains how to record vendor invoice lines for time costs that subcontractors put in.
 author: rumant
-ms.date: 03/15/2022
-ms.topic: article
-ms.reviewer: tonyafehr 
+ms.date: 12/15/2023
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Vendor invoice lines for time
 
-[!include [banner](../../includes/dataverse-preview.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 A vendor invoice in Microsoft Dynamics 365 Project Operations can have vendor invoice lines for time. Project managers can use vendor invoice lines for time to record the costs of subcontractor time on projects.
 

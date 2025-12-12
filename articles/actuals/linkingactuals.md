@@ -1,17 +1,20 @@
 ---
 title: Transaction origins - Link actuals to their source
-description: This topic explains how the concept of transaction origins is used to link actuals to original source records, such as time entry, expense entry, or material usage logs.
-author: rumant
-ms.date: 03/25/2021
+description: This article explains how the concept of transaction origins is used to link actuals to original source records, such as time entry, expense entry, or material usage logs.
+author: suvaidya
+ms.date: 06/10/2024
 ms.topic: article
-ms.prod:
-ms.reviewer: tonyafehr 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: suvaidya
 ---
 
 # Transaction origins - Link actuals to their source
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Transaction origin records are created to link actuals to their source, such time entries, expense entries, material usage logs, and project invoices.
 

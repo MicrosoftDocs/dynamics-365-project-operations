@@ -1,22 +1,16 @@
 ---
 title: Organizational units
-description: This topic describes the concept of organizational units, and explains how to create and maintain organizational units in Microsoft Dynamics 365 Project Operations.
-author: rumant
-ms.date: 1/31/2022
+description: This article describes the concept of organizational units, and explains how to create and maintain organizational units in Microsoft Dynamics 365 Project Operations.
+author: suvaidya
+ms.author: suvaidya
+ms.date: 06/10/2024
 ms.topic: article
-ms.author: rumant
-audience: Admin
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ---
 
-# Organizational units
+# Organizational units overview
 
 In Microsoft Dynamics 365 Project Operations, an *organizational unit* is a distinct group or division in a professional services company that employs billable resources that have cost rates.
 

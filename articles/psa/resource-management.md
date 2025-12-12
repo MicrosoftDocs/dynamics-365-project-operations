@@ -1,24 +1,20 @@
 ---
 title: Resourcing projects home page
-description: This topic provides information about resource management capabilities in Project Service Automation (PSA) for Dynamics 365.
+description: This article provides information about resource management capabilities in Project Service Automation (PSA) for Dynamics 365.
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
-  - intro-internal
-ms.date: 11/28/2018
-ms.topic: article
-#
-#
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: concept-article
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Resourcing projects home page
 
@@ -41,7 +37,7 @@ Resources are the most important asset of a service-based organization. The abil
 - Maintain a skills and proficiency repository.
 
 
-You can staff your project with a team of generic or named resources in PSA. You can use various methods to add and assign team members and to manage their bookings and assignments. For additional information, see the following topics:
+You can staff your project with a team of generic or named resources in PSA. You can use various methods to add and assign team members and to manage their bookings and assignments. For additional information, see the following articles:
 
 - [Book named bookable resources to a project team and assigning them tasks](assign-named-bookable-resource.md)
 - [Assign generic bookable resources to a task and generate resource requirements](assign-generic-bookable-resource.md)

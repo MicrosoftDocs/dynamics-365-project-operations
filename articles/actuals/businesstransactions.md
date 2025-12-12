@@ -1,34 +1,21 @@
 ---
-# required metadata
-
 title: Business transactions in Project Operations 
-description: This topic provides an overview of the concept of business transactions in Microsoft Dynamics 365 Project Operations.
-author: rumant
-ms.date: 01/31/2022
+description: This article provides an overview of the concept of business transactions in Microsoft Dynamics 365 Project Operations.
+author: suvaidya
+ms.date: 06/10/2024
 ms.topic: overview
-ms.prod: 
-#
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: suvaidya
 
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: tonyafehr
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-
-ms.assetid: 
-ms.search.region: 
-ms.search.industry: 
-ms.author: rumant
-ms.search.validFrom: 2022-01-31
 ---
 
 # Business transactions in Project Operations
 
-_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies to:** Project Operations Integrated with ERP, Project Operations Core_
 
 In Microsoft Dynamics 365 Project Operations, *business transaction* is an abstract concept that isn't represented by any entity. However, some common fields and processes on entities are designed to use the concept of business transactions. The following entities use this abstraction:
 

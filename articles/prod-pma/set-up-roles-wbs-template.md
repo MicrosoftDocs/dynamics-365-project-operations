@@ -1,27 +1,16 @@
 ---
-# required metadata
-
 title: Set up roles on Work breakdown structure templates
-description: This topic provides information about setting up role information on Work breakdown structure templates.
+description: This article provides information about setting up role information on Work breakdown structure templates.
 author: Yowelle
 ms.date: 09/01/2020
-ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.search.form: ProjProjectsListPage
-# ROBOTS: 
 audience: Application User
-# ms.devlang: 
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
-ms.custom: 82022
+ms.reviewer: johnmichalak
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
-# ms.search.industry: 
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0

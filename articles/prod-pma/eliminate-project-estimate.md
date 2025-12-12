@@ -1,27 +1,12 @@
 ---
-# required metadata
-
-title: Eliminate a project estimate
-description: This topic provides information about eliminating a project estimate after it is complete. 
+title: Eliminate project revenue recognition
+description: This article provides information about eliminating project revenue recognition after the project is complete. 
 author: Yowelle
-ms.date: 05/26/2020
-ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
+ms.date: 10/27/2023
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: andchoi
 ms.dyn365.ops.version: 7.0
 ms.search.validFrom: 2019-01-15
@@ -29,6 +14,9 @@ ms.search.validFrom: 2019-01-15
 # Eliminate a project estimate
 
 [!include [banner](../includes/banner.md)]
+
+ > [!NOTE]
+   > Estimates have been renamed to revenue recognition in a recent product update. Terminology may reference either estimate or revenue recognition depending on if the feature is enabled.
 
 Project estimates provide the financial view for work that is estimated and scheduled for a project. To work with estimates for a project, you must attach the project to an estimate project. An estimate project is always based on an existing project, however multiple projects can refer to a single estimate project. Only fixed-price and investment projects can be attached to estimate projects, and those projects must belong to the same project group as the estimate project.
 
@@ -53,5 +41,16 @@ To eliminate an estimate project, it must be complete. The following steps expla
 
 If you did not intend to eliminate an estimate, you can select the eliminated estimate and select **Reverse elimination**.   
 
+## Estimates have been renamed to revenue recognition
+
+With the 10.0.36 version update, the feature **Update labels for revenue recognition and related forms and processes in Project Operations** was made mandatory and took effect for customers. This changes labels in many areas, including the major changes in:
+
+- The menu structure under **Project management and accounting** -> **Periodic** -> 
+    - **Estimates** changing to **Revenue recognition**
+- The menu structure under **Project management and accounting** -> **Setup** -> 
+    - **Estimates** changing to **Revenue recognition**
+- The menu structure under **Project management and accounting** -> **Inquiries and reports** -> 
+    - **Estimates inquiries and reports** changing to **Revenue recognition inquiries and reports**
+- Within a project, the **Estimates** tab under **Manage** in the ribbon changing to **Revenue recognition**
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

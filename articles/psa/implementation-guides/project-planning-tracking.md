@@ -1,23 +1,20 @@
 ---
 title: Project planning and tracking
-description: This topic provides a link to information about planning and tracking in Project Service Automation.
+description: This article provides a link to information about planning and tracking in Project Service Automation.
 author: kfend
 ms.custom: 
   - dyn365-projectservice
-ms.date: 2/04/2019
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: kfend
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Project planning and tracking
 
@@ -27,7 +24,7 @@ search.app:
 
 The Project Service application helps service organizations identify opportunities, submit bids, reach contractual agreements, manage resources, track time and expenses, invoice customers, and deliver projects on time and within budget. 
 
-The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:
+The PDF link that was previously in this article has been removed and the content has been moved to the following articles:
 
 - [Project schedules](../project-creating.md)
 - [Project costs and revenue](../project-estimating.md)
@@ -38,7 +35,7 @@ The PDF link that was previously in this topic has been removed and the content 
 - [Project settings](../project-settings.md)
 
 > [!NOTE]
-> This topic will be removed in a future documentation update. 
+> This article will be removed in a future documentation update. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

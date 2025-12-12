@@ -1,17 +1,21 @@
 ---
 title: Recall previously approved entries
-description: This topic explains how a project team member can request the recall of previously submitted and approved time, expense, and material usage records, and how a project manager can approve or reject recall requests.
-author: rumant
-ms.date: 01/31/2021
-ms.topic: overview
-ms.reviewer: tonyafehr
-ms.author: rumant
+description: This article explains how a project team member can request the recall of previously submitted and approved time, expense, and material usage records, and how a project manager can approve or reject recall requests.
+author: suvaidya
+ms.date: 06/10/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: suvaidya
 
 ---
 
 # Recall previously approved entries
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 A project team member who submits a time, expense, or material usage entry can recall that entry after it has been approved. The recall process has two main steps:
 

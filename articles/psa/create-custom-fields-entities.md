@@ -1,20 +1,20 @@
 ---
 title: Create custom fields and entities
-description: This topic explains how to create option sets and entities in your own solution in the Power Apps platform.
+description: This article explains how to create option sets and entities in your own solution in the Power Apps platform.
 author: Rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 10/01/2020
-ms.topic: article
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Create custom fields and entities 
@@ -22,7 +22,7 @@ search.app:
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 Complete the following steps any time that you want to create a custom option set or entity on the Power Apps platform.  
-The procedures in this topic should be completed using the web interface of Project Service Automation (PSA).
+The procedures in this article should be completed using the web interface of Project Service Automation (PSA).
 
 > [!IMPORTANT]
 > We recommend that you make all custom pricing dimension changes in a separate solution. This important best practice provides flexibility in the future to update or remove changes as needed, will help with re-use of your work, and makes it easier to port these changes to another instance. After you have made all of the required changes, export this solution as a **Managed solution** and import it into other instances to reuse your pricing setup.

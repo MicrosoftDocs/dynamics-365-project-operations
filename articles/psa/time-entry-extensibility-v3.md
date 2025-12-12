@@ -1,23 +1,20 @@
 ---
 title: Customize weekly time entry
-description: This topic provides information about how to implement custom business rules that support an organization's practices.
+description: This article provides information about how to implement custom business rules that support an organization's practices.
 author: stsporen
 ms.custom: 
   - dyn365-projectservice
-ms.date: 07/09/2019
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Customize weekly time entry 
@@ -42,7 +39,7 @@ The **Dimensions** section shows, as column headings, all the dimensions that ti
 - Type
 - Entry Status
 
-The **Dimensions** section doesn't allow for inline editing. This section is backed by a view that enables custom fields to be added to the weekly time entry grid. For information about how to add custom fields, see the "Extensibility" section later in this topic.
+The **Dimensions** section doesn't allow for inline editing. This section is backed by a view that enables custom fields to be added to the weekly time entry grid. For information about how to add custom fields, see the "Extensibility" section later in this article.
 
 ### Duration
 The Duration section shows the days of the week as column headers. This section allows for inline editing. After a time entry row is created that has appropriate dimensions, users can quickly enter, inline, the amount of time that they spent on those dimensions.
@@ -71,7 +68,7 @@ You can recall time entries that you've submitted. You can recall a single time 
 New time entries are automatically assigned a status of **Draft**. When a time entry is submitted, the status is updated to **Submitted**. When a submitted time entry is approved, the status is updated to **Approved**. If a time entry is rejected, the status is updated to **Returned**, and the entry becomes available for correction and resubmission. Only time entries that have a status of **Draft** can be deleted.
 
 ## View rejection comments
-When a time entry is rejected by an approver, the approver might add rejection comments to help the resource understand the reason for the rejection. To view the rejection comments for a time entry, select **Open entry**. The rejection comments will be shown in the timeline. In the timeline, the resource can respond to the rejection comments before he or she resubmits the entry.
+When a time entry is rejected by an approver, the approver might add rejection comments to help the resource understand the reason for the rejection. To view the rejection comments for a time entry, select **Open entry**. The rejection comments will be shown in the timeline. In the timeline, the resource can respond to the rejection comments before they resubmit the entry.
 
 ## Copy week
 After a few time entries have been created, users can select **Copy Week** to bulk-create additional time entries. The **Copy** dialog box appears. In the **From period** section, use the **Start Date** and **End Date** fields to define the date range to copy time entries from. In the **To Period** section, in the **Start Date** field, specify the date to create time entries for. Then select **Copy**. For the specified date in the "to" period, a copy of the time entries for the corresponding day of the week in the "from" period is created. For example, Monday's time entry from last week is copied into Monday of the week that is specified as the "to" period.

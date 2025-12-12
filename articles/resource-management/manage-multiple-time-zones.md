@@ -1,16 +1,19 @@
 ---
 title: Manage time zones
 description: When a project is created, its time zone is based upon the time zone defined in the work hour template applied.
-author: ruhercul
-ms.date: 10/05/2020
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: ruhercul
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Manage time zones
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 
 ## Projects

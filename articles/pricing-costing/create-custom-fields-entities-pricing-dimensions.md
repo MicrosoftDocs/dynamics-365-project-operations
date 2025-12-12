@@ -1,35 +1,21 @@
 ---
-# required metadata
-
 title: Create custom fields and entities as pricing dimensions
-description: This topic provides information about how to create custom option sets or entities.
-author: rumant
-ms.date: 11/18/2020
-ms.topic: article
-ms.prod: 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
+description: This article provides information about how to create custom option sets or entities.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Create custom fields and entities as pricing dimensions
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Complete the following steps when you want to create a custom option set or entity for using it as a pricing dimension. For more information, see [Pricing dimensions overview](pricing-dimensions-overview.md).  
 

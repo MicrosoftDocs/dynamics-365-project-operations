@@ -1,16 +1,21 @@
 ---
 title: Invoice a retainer or an advance
-description: This topic provides information about how to invoice a retainer or an advance in Project Operations.
-author: rumant
-ms.date: 10/20/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+description: This article provides information about how to invoice a retainer or an advance in Project Operations.
+author: suvaidya
+ms.author: suvaidya
+ms.date: 06/10/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Invoice a retainer or an advance
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Dynamics 365 Project Operations supports retainer-based contracts and one-time advances. On a project contract, you can record a schedule of retainers or a one-time advance. However, recording at the project contract level doesn't immediately make a retainer or advance available for use. To use a retainer or advance on an invoice that actually charges the customer, the retainer or advance must be invoiced first.
 

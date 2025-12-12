@@ -1,35 +1,22 @@
 ---
-# required metadata
-
 title: Product price lists
-description: This topic provides information about the price lists in catalog pricing used for project quotes and contracts. 
-author: rumant
-ms.date: 04/05/2021
+description: This article provides information about the price lists in catalog pricing used for project quotes and contracts. 
+author: abriccetti
+ms.author: abriccetti
+ms.date: 01/09/2025
 ms.topic: article
-ms.prod: 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: rumant
+  - bap-template
+ms.reviewer: johnmichalak
 ms.dyn365.ops.version: 
 ms.search.validFrom: 2020-10-01
 ---
 
 # Product price lists
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Core_
 
  In Project Operations, **Product price lists** and related price list item entities support functionality for pricing products on product-based quote and contract lines. For products used on projects, the price list item records for project price lists are used. 
 

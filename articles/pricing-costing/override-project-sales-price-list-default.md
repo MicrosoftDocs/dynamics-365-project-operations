@@ -1,17 +1,21 @@
 ---
 title: Override project sales price lists
-description: This topic provides information about creating custom sales price lists. 
-author: rumant
-ms.date: 10/22/2020
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
-ms.author: rumant
+description: This article provides information about creating custom sales price lists. 
+author: abriccetti
+ms.author: abriccetti
+ms.date: 01/09/2025
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Override project sales price lists
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 ## Customer-specific project price lists
 

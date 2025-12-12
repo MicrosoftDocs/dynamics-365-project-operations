@@ -1,16 +1,19 @@
 ---
 title: Financial estimates for resource time on projects
-description: This topic provides information about how financial estimates for time are calculated.
-author: rumant
-ms.date: 03/19/2021
+description: This article provides information about how financial estimates for time are calculated.
+author: abriccetti
+ms.author: abriccetti
+ms.date: 01/09/2025
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Financial estimates for resource time on projects
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Financial estimates for time are calculated based on three factors: 
 
@@ -40,6 +43,25 @@ The default cost price comes from the price lists attached to the contracting un
 
 ## Default bill rate and sales currency
 
-The default sales price comes from the project price lists attached to the related project contract if the deal is won, or from the related project quote if the deal is still in the pre-sales stage. The sales currency of the project is always the currency of the project quote or the project contract. On a resource assignment, the financial estimate for sales is stored in the sales currency of the project. Unlike cost, the sales price that is set up in the price list can never be different from the project's sales currency. There is no scenario where currency conversion is needed. On the **Estimates** grid, all sales estimates are displayed and summarized in the project's sales currency. 
+The default sales price comes from the project price lists attached to the related project contract if the deal is won, or from the related project quote if the deal is still in the pre-sales stage. The sales currency of the project is always the currency of the project quote or the project contract. On a resource assignment, the financial estimate for sales is stored in the sales currency of the project. Unlike cost, the sales price that is set up in the price list can never be different from the project's sales currency. There's no scenario where currency conversion is needed. On the **Estimates** grid, all sales estimates are displayed and summarized in the project's sales currency.
+
+## Performance improvements in Estimates pricing
+
+The calculation of role price estimates on a project task depends on several parameters, such as the resources that are assigned to the task, the task duration, the start dates, and the end dates. The time that's required for price estimation calculations can vary, depending on changes that are made to any of these parameters and the number of tasks in the project. The calculation time can, in turn, increase the time that's required to process the estimates grid, and can therefore affect the user experience.
+
+To address this issue, we've introduced an option to price estimates *on demand*. This option improves performance and the user experience. You can configure it at **Parameters \> Estimate Pricing Options \> On-Demand pricing**. At any point, admins can switch back to the default option, **Real-time pricing**. Estimates will then be priced in real time from that point onward.
+
+The **Real-time pricing** option keeps the existing system behavior for calculating price estimates and entering default price estimates. Use this option in the following circumstances:
+
+- Project tasks that have resource assignments are created, and have a start date and a duration/end date.
+- Project tasks that have resource assignments are deleted.
+- The task duration is changed on a project task that has resource assignments.
+
+Use the **On demand pricing** option if you don't have to update the price estimates immediately when any of the preceding project task actions are performed.
+
+When **On demand pricing** is configured, role prices aren't automatically retrieved for tasks that have resource assignments. Instead, they are set to **0.00** by default. To view the cost and sales price estimates for these tasks, users must select the **Update prices** option in the **Estimates** grid. 
+
+> [!NOTE]
+> In both real-time pricing and on-demand pricing, updates to the quantity field will cause the amount fields to be automatically updated if there's already a role price on record.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

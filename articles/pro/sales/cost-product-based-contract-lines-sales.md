@@ -1,17 +1,20 @@
 ---
-title: Cost product-based contract lines - lite
-description: This topic provides information about creating 
+title: Cost product-based contract lines - Project Operations Core
+description: This article provides information about creating cost product-based contract lines
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Cost product-based contract lines - lite
+# Cost product-based contract lines - Project Operations Core
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Core_
 
 
 Product-based contract lines in Dynamics 365 Project Operations include the **Cost Price** field, which stores the cost price of the product for downstream profitability calculations.

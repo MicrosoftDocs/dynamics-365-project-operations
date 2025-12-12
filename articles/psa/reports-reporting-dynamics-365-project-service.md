@@ -1,24 +1,16 @@
 ---
 title: Reporting home page
-description: This topic provides information about reporting in Dynamics 365 Project Service Automation.
-author: ruhercul
+description: This article provides information about reporting in Dynamics 365 Project Service Automation.
+author: tulsij
+ms.author: tulsijhaveri
 ms.custom: 
   - dyn365-projectservice
-  - intro-internal
-ms.date: 03/01/2019
-ms.topic: article
-#
-#
-ms.author: ruhercul
-audience: Admin
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+  - bap-template
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: concept-article
+ms.reviewer: johnmichalak
 ---
 
 # Reporting home page
@@ -43,7 +35,7 @@ Together, Microsoft Power BI and Dynamics 365 give you a powerful way to work wi
 
 
 ## Additional resources
-For more information about reporting in PSA, see the following topics:
+For more information about reporting in PSA, see the following articles:
 
 - [Working with the Project Service data model](reports-working-project-service-data-model.md)
 - [Dashboards](reports-dashboards.md)

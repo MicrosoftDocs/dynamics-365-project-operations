@@ -1,37 +1,23 @@
 ---
-# required metadata
-
 title: Resource reconciliation overview
-description: This topic provides information that will help you ensure that resource bookings and assignments for projects are aligned.
-author: ruhercul
-ms.date: 01/08/2021
+description: This article provides information that will help you ensure that resource bookings and assignments for projects are aligned.
+author: abriccetti
+ms.author: abriccetti
+ms.date: 08/15/2024
 ms.topic: overview
-ms.prod: 
-#
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: ruhercul
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
 ---
 
 # Resource reconciliation overview
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 For team members, bookings and assignments are loosely coupled. In other words, resources can have assignments and no bookings, or they can have bookings and no assignments. Ideally, bookings and assignments should be aligned, so that resources have committed capacity to perform the task assignments. However, the bookings might be based on availability, and task timings might change as the project continues. Therefore, the loose coupling of bookings and assignments provides flexibility.
+
+There are two ways to reconcile the differences between bookings and assignments. This article explains how to use the **Resource Reconciliation** tab on project records. For information about how to use the bulk reconciliation API, see [Reconcile Projects with Bulk Reconciliation](bulk-reconciliation-dev.md).
 
 The **Reconciliation** tab on the **Projects** page lets project managers reconcile team members' bookings and their assignments for project teams.
 

@@ -1,16 +1,21 @@
 ---
-title: Estimate a project contract line
-description: This topic provides information about estimates on a project contract line.
-author: rumant
-ms.date: 10/27/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+title: Estimate a project-based contract line
+description: This article provides information about estimates on a project contract line.
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
-# Estimate a project contract line
+# Estimate a project-based contract line
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_ 
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP_ 
 
 In Dynamics 365 Project Operations, a project-based contract line has details that help estimate the cost and potential revenue of the work involved to deliver the contract line.
 

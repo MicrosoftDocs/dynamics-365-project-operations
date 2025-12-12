@@ -1,16 +1,21 @@
 ---
 title: Uninstall Dynamics 365 Project Operations 
-description: This topic provides information about how to uninstall Dynamics 365 Project Operations.
-author: stsporen
-ms.date: 11/09/2021
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: sigitac
+description: This article provides information about how to uninstall Dynamics 365 Project Operations.
+author: abriccetti
+ms.author: abriccetti
+ms.date: 05/21/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Uninstall Dynamics 365 Project Operations 
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP_
 
 To uninstall Dynamics 365 Project Operations, you must be assigned the role of Administrator.
 

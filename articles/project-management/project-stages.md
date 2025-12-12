@@ -1,35 +1,19 @@
 ---
-# required metadata
-
 title: Project stages
-description: This topic provides information about the project stages that are available in Microsoft Dynamics Project Operations.
-author: ruhercul
-ms.date: 09/18/2020
+description: This article provides information about the project stages that are available in Microsoft Dynamics Project Operations.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
 ms.topic: article
-ms.prod: 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Project stages
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Project stages are designed to reflect the state of the project as it progresses. Customizations can be used to automatically update the stages with business process flows, Power Automate, or plug-in extensions.
 
@@ -52,7 +36,7 @@ When you associate a project with a quote, or when you create a project from a q
 
 ## Plan
 
-When you win a quote that is associated with a project, and the project is moved to the **Contract** phase, the project stage is updated to **Plan**. While the project is in the **Plan** stage, the **Project Entity** page shows details of the contract.
+When you win a quote that is associated with a project, and the project is moved to the **Contract** phase, the project stage is updated to **Plan**. While the project is in the **Plan** stage, the **Sales** tab on the **Project Entity** page shows details of the contract.
 
 ## Deliver
 

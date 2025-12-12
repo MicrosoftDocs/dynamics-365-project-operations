@@ -1,23 +1,20 @@
 ---
 title: Booking allocation methods in Project Service Automation
-description: This topic provides information about the different ways you can book allocations.
+description: This article provides information about the different ways you can book allocations.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 9/26/2019
-ms.topic: article
-#
-#
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: concept-article
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 
@@ -25,19 +22,33 @@ search.app:
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Whether you add a team member directly to a project on the **Team** tab, or book a resource to a project or requirement from the Schedule board, there are a few different booking allocation methods you can use. This topic explains how each method works, and which methods could lead to overbooking resources.
+Whether you add a team member directly to a project on the **Team** tab, or book a resource to a project or requirement from the Schedule board, there are a few different booking allocation methods you can use. This article explains how each method works, and which methods could lead to overbooking resources.
+
+The following table shows and example and how each of the booking allocation methods behaves:
+
+| Booking allocation method | Resource Requirement (Duration) | Total | Mon | Tue | Wed | Thurs | Fri | Respect capacity | Respect availability | Respect requirement duration |
+|---------------------------|---------------|-------|--------|---------|-----------|----------|--------|------------------|----------------------|----------|
+| Resource's working capacity |- | 40 | 10 | 10 | 10 | 10 | 0 | | | | 
+| Resource's existing bookings |- | 16 | 6 | 4 | 2 | 2 | 2 | | | |  
+| Full capacity | N/A | 40 | 10 | 10 | 10 | 10 | 0 | Yes | No | No | 
+| Remaining capacity | N/A | 26 | 4 | 6 | 8 | 8 | 0 | Yes | Yes | No | 
+| Percentage (50%) | N/A | 20 | 5 | 5 | 5 | 5 | 0 | Yes | No | No | 
+| Percentage (100%) | N/A | 40 | 10 | 10 | 10 | 10 | 0 | Yes | No | No | 
+| Evenly distribute | 80 | 80 | 20 | 20 | 20 | 20 | 0 | No | No | Yes | 
+| Front load | 80 | 26 | 4 | 6 | 8 | 8 | 0 | Yes | Yes | Yes | 
+
 
 ## Full Capacity 
-The Full Capacity method books the resource’s full capacity for the specified from and to dates. For example, if a resource has a calendar set to work eight hours per day, five days a week, setting a start and end date that covers five working days will book the resource for 40 hours. The booking is done without regard to the resource's remaining capacity. If a resource is already booked on other projects during that period, the 40 hours is booked as additional hours, which potentially leads to overbookings.
+The Full Capacity method books the resource’s full capacity for the specified from and to dates. For example, if a resource has a calendar set to work eight hours per day, five days a week, setting a start and end date that covers five working days will book the resource for 40 hours. The booking is done without regard to the resource's remaining capacity, or the duration of the requirement being scheduled. If a resource is already booked on other projects during that period, the 40 hours is booked as additional hours, which potentially lead to overbookings.
 
 ## Remaining Capacity
 The Remaining Capacity method is only available when you book directly to a project using the Schedule board. This method books the resource’s available capacity within the specified date range. For example, if a resource has a capacity of 40 hours per week and has already been booked 10 hours, booking for the same week results in booking the remaining 30 hours of capacity for that week.
 
 ## Percentage Capacity
-The Percentage Capacity method books the resource for a percentage of capacity for the specified from and to dates. For example, if a resource's calendar is set to work eight hours per day, five days a week, setting a start and end date that covers five working days at 50% capacity would book the resource for 20 hours. The individual bookings per day are spread equally across the period, four hours per day in this example. The booking is done without regard to the resource’s remaining capacity. If the resource is already booked during that period on other projects, the 20 hours is booked as additional hours, which potentially leads to overbookings.
+The Percentage Capacity method books the resource for a percentage of capacity for the specified from and to dates. For example, if a resource's calendar is set to work eight hours per day, five days a week, setting a start and end date that covers five working days at 50% capacity would book the resource for 20 hours. The individual bookings per day are spread equally across the period, four hours per day in this example. The booking is done without regard to the resource’s remaining capacity. If the resource is already booked during that period on other projects, the 20 hours is booked as additional hours, which potentially lead to overbookings.
 
 ## Evenly Distribute Hours
-The Evenly Distribute Hours method books the resource for a specified number of hours, distributing the time evenly per day over the specified from and to dates. For example, if you book a resource for 20 hours over a five day period, this method distributes the 20 hours evenly at four hours per day. The booking is done without regard to the resource's remaining capacity. If the resource is already booked during that period on other projects, the 20 hours is booked as additional hours, which potentially leads to overbookings.
+The Evenly Distribute Hours method books the resource for a specified number of hours, distributing the time evenly per day over the specified from and to dates. For example, if you book a resource for 20 hours over a five day period, this method distributes the 20 hours evenly at four hours per day. The booking is done without regard to the resource's remaining capacity. If the resource is already booked during that period on other projects, the 20 hours is booked as additional hours, which potentially lead to overbookings.
 
 ## Front Load Hours
 The Front Load Hours method books the resource for a specified number of hours, front-loading the per-day hours over the specified from and to dates. Front-loading consumes the resource's available capacity in a “first-in-first-consumed” order. For example, if a resource’s work schedule is eight hours per day, five days per week, and they have no current bookings, booking the resource for 20 hours over a five working day period results in the following daily booking pattern: 

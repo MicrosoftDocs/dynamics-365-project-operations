@@ -1,16 +1,20 @@
 ---
-title: Copy project contracts - lite
-description: This topic provides information about copying project contracts in Project Operations.
-author: rumant
-ms.date: 10/07/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+title: Copy project contracts
+description: This article provides information about copying project contracts in Project Operations.
+author: poojafandan
+ms.date: 06/07/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
-# Copy project contracts - lite
+# Copy project contracts
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Core_
 
 You can easily create new project contracts by making copies of existing contracts in one of two ways: 
 

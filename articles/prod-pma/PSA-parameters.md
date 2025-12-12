@@ -1,30 +1,14 @@
 ---
-# required metadata
-
 title: Project Service Automation integration parameters
-description: This topic explains how to configure how default data is entered when you integrate Microsoft Dynamics 365 for Project Service Automation with Microsoft Dynamics 365 Finance.
-author: ruhercul
-ms.date: 03/03/2020
-ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
-ms.custom: 87983
+description: This article explains how to configure how default data is entered when you integrate Microsoft Dynamics 365 for Project Service Automation with Microsoft Dynamics 365 Finance.
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
-ms.search.region: Global
-# ms.search.industry: 
-ms.author: ruhercul
-ms.search.validFrom: 2016-11-28
-ms.dyn365.ops.version: AX 7.3.0
 
 ---
 

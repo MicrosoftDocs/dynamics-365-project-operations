@@ -1,18 +1,20 @@
 ---
 title: Vendor invoice lines for milestones
-description: This topic explains how to create vendor invoice lines for milestones on a subcontract.
+description: This article explains how to create vendor invoice lines for milestones on a subcontract.
 author: rumant
-ms.date: 03/25/2022
-ms.topic: article
-ms.reviewer: tonyafehr 
+ms.date: 12/15/2023
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Vendor invoice lines for milestones
 
-[!include [banner](../../includes/dataverse-preview.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 A vendor invoice in Microsoft Dynamics 365 Project Operations can have vendor invoice lines for milestones that are defined on a subcontract line. Project managers can use vendor invoice lines for milestones to record the costs of services that are procured as milestone-based costs that are incurred on services or products that are procured for the project.
 

@@ -6,22 +6,13 @@ description: This article describes the considerations and the decisions that yo
 author: KimANelson
 ms.date: 08/29/2017
 ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
+ms.custom: 
+  - bap-template
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
-# ROBOTS: 
 audience: Application User
-# ms.devlang: 
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
-ms.custom: 23001
+ms.reviewer: johnmichalak
 ms.assetid: aa3fd14d-7e94-4603-985f-ca26d6f860ea
 ms.search.region: Global
-# ms.search.industry: 
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
@@ -30,7 +21,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 # Configure expense management
 
-This topic describes the considerations and the decisions that you must make during the planning process before you configure Expense management. In Expense management, you can store information about payment methods, travel requisitions, expense reports, policies, and so on.
+This article describes the considerations and the decisions that you must make during the planning process before you configure Expense management. In Expense management, you can store information about payment methods, travel requisitions, expense reports, policies, and so on.
 
 Because many of the decisions that you make when you plan your configuration for Expense management are based on your organization’s hierarchy and financial structure, you must refer to the planning documents for those areas.
 

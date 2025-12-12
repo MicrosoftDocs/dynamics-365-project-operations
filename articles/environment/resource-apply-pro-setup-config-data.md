@@ -1,25 +1,30 @@
 ---
-title: Set up and apply configuration data in the Common Data Service 
-description: This topic provides information about setting up and applying configuration data in Project Operations.
-author: sigitac
-ms.date: 05/10/2021
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: sigitac
+title: Set up and apply configuration data in the Microsoft Dataverse 
+description: This article provides information about setting up and applying configuration data in Project Operations.
+author: rumant
+ms.author: rumant
+ms.date: 05/24/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Set up and apply configuration data in the Common Data Service 
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP_
 
 
 
 ## Prerequisites
 
-Before you begin to configure data in the Common Data Service (CDS), the following prerequisites must be met:
+Before you begin to configure data in the Microsoft Dataverse, the following prerequisites must be met:
 
-1.	Provision a CDS environment and a Dynamics 365 Finance environment for Project Operations.
-2.	Legal entity information from Dynamics 365 Finance is shared to the CDS environment. This means that the **Company** entity in CDS has the following company records:
+1.	Provision a Dataverse environment and a Dynamics 365 Finance environment for Project Operations.
+2.	Legal entity information from Dynamics 365 Finance is shared to the Dataverse environment. This means that the **Company** entity in Dataverse has the following company records:
   - THPM
   - USPM
   - GBPM

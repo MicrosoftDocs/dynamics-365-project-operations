@@ -1,19 +1,22 @@
 ---
-title: Product-based opportunity lines - lite
-description: This topic provides information about product-based opportunity line items in Project Operations.
-author: rumant
-ms.date: 10/01/2020
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
-ms.author: rumant
+title: Product opportunity lines
+description: This article provides information about product opportunity line items in Project Operations.
+author: poojafandan
+ms.date: 06/07/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
-# Product-based opportunity lines - lite
+# Product opportunity lines
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
 
-Product-based opportunity lines are line items on the Opportunity. These distinct line items are on the eventual invoice that is provided to the customer. The invoice doesn't include any other additional services. The associated spend and consumption isn't tracked on tasks of any related projects.
+_**Applies To:** Project Operations Core_
+
+Product opportunity lines are line items on the Opportunity that do not reference a project. These distinct line items are on the eventual invoice that is provided to the customer. The invoice doesn't include any other additional services. The associated spend and consumption isn't tracked on tasks of any related projects.
 
 Product-based lines can be catalog items or write-in products. Most of the functionality on an Opportunity's product-based lines follows the functionality provided by the Dynamics 365 Sales application. For more information about product-based opportunity lines, see [Add products to an opportunity](/dynamics365/sales-enterprise/add-products-opportunity).
 

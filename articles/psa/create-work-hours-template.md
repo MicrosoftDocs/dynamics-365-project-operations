@@ -1,23 +1,20 @@
 ---
 title: Create a work hours template
-description: This topic describes how to create a work hours template in Project Service.
+description: This article describes how to create a work hours template in Project Service.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
-ms.topic: article
-#
-#
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Create a work hours template (Project Service)
 

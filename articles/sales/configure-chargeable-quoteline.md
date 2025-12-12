@@ -1,16 +1,16 @@
 ---
 title: Configure the chargeable components of a project-based quote line
-description: This topic provides information about included, chargeable, and non-chargeable components on project-based quote lines.
+description: This article provides information about included, chargeable, and non-chargeable components on project-based quote lines.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Configure the chargeable components of a project-based quote line
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 A project-based quote line can have included components and chargeable components.
 

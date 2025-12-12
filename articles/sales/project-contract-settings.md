@@ -1,18 +1,21 @@
 ---
-title: Project contract settings
-description: This topic provides information about the fields that impact contract lines and the information about the contract that is summarized to across all the line items.
-author: rumant
-ms.date: 10/20/2020
+title: Header details for project-based contracts
+description: This article provides information about the fields and the information about project-based contracts in Project Operations.
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Header details for project-based contracts
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
-This topic provides information about fields that apply to the entire project contract including settings that impact all contract lines. Information about the contract that is summarized across all the line items to drive KPIs of the project contract is also included.
+This article provides information about fields that apply to the entire project contract including settings that impact all contract lines. Information about the contract that is summarized across all the line items to drive KPIs of the project contract is also included.
 
 The following table lists the fields on a project contract that are unique to Dynamics 365 Project Operations or have some important changes in behavior from sales orders in Dynamics 365 Sales.
 

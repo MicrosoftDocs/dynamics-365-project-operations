@@ -2,23 +2,19 @@
 title: Why is the price defaulting to zero on expense sales actuals?
 description: The following three checks will help you troubleshoot why price is defaulting to 0 on expense sales actuals.
 author: rumant
-ms.prod:
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/21/2018
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Why is the price defaulting to zero on expense sales actuals?

@@ -1,18 +1,22 @@
 ---
-title: Map projects and tasks to a project-based quote line
-description: This topic provides information about how to map projects and tasks to a project-based task line.
-author: rumant
-ms.date: 10/05/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+title: Map projects and tasks to project quote lines
+description: This article provides information about how to map projects and tasks to project quote lines.
+author: poojafandan
+ms.date: 06/07/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
-# Map projects and tasks to a project-based quote line
+# Map projects and tasks to project quote lines
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
 
-On project-based quote lines, you can map the specific tasks of a project that is already associated to a quote line.
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
+
+On project quote lines, you can map the specific tasks of a project that is already associated to a quote line.
 
 When you map tasks to a quote line, the following items you defined on the quote line will only apply to those tasks:
 

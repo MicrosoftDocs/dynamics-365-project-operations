@@ -1,16 +1,19 @@
 ---
 title: Extending time entries
-description: This topic provides information about how developers are able to extend the time entry control.
-author: stsporen
-ms.date: 01/27/2022
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: stsporen
+description: This article provides information about how developers are able to extend the time entry control.
+author: mohitmenon
+ms.author: mohitmenon
+ms.date: 05/22/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Extending time entries
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Dynamics 365 Project Operations includes an extendable time entry custom control. This control includes the following features:
 

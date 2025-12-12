@@ -1,29 +1,32 @@
 ---
 title: Configure accounting for billable projects
-description: This topic provides information about the accounting options for billable projects.
-author: sigitac
-ms.date: 04/05/2021
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: sigitac
+description: This article provides information about the accounting options for billable projects.
+author: ryansandness
+ms.author: ryansandness
+ms.date: 05/24/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Configure accounting for billable projects
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Dynamics 365 Project Operations supports various accounting options for billable projects that include time and material and fixed price transactions.
 
 - **Time and material transactions**: These transactions are invoiced as the work progresses based on the consumption of hours, expenses, items, or fees on the project. These transaction costs can be matched with the revenue on each transaction and the project is invoiced as work progresses. Project revenue can be also accrued at the time when the transaction occurs. During invoicing, revenue is recognized and if applicable, accrued revenue is reversed.
 - **Fixed-price transactions**: These transactions are invoiced according to a billing schedule that is based on the project contract. Revenue for fixed price transactions can be recognized at invoicing or calculated and posted periodically, according to the **Completed contract** or **Completed percentage** methods.
 
-A project is considered billable when it is associated with one or more contract lines. A project contract line defines for itself which billing method and transaction types are allowed.
+A project is considered billable when it's associated with one or more contract lines. A project contract line defines for itself which billing method and transaction types are allowed.
 
-As an example, Fabrikam Robotics has won a project contract with Adatum corporation for equipment optimization. Adatum will pay a fixed amount of $10.000 USD to cover incurred project expenses. This is a fixed price billing method. Project time and fees will be billed per use. This is a time and material billing method. All of the work will be tracked under a single project named, Adatum equipment optimization.
+As an example, Fabrikam Robotics has won a project contract with Adatum corporation for equipment optimization. Adatum pays a fixed amount of $10.000 USD to cover incurred project expenses. This is a fixed price billing method. Project time and fees is billed per use. This is a time and material billing method. All of the work is tracked under a single project named, Adatum equipment optimization.
 
-A project team member submits eight hours of work on the Adatum equipment optimization project. When the project manager approves this time, the system uses the time and material billing method to create actuals transactions, an invoice, and an account. This transaction will not be included in the fixed price revenue estimate calculation.
+A project team member submits eight hours of work on the Adatum equipment optimization project. When the project manager approves this time, the system uses the time and material billing method to create actuals transactions, an invoice, and an account. This transaction isn't included in the fixed price revenue estimate calculation.
 
-Another project team member submits a travel expense for $2000.00 USD against the Adatum equipment optimization project. When the project manager approves this submission, the system uses a fixed price billing method to create actuals transactions and an account for this project expense. The customer will not be invoiced based on this transaction. Instead, they will be invoiced by using separately configured billing milestones. This expense transaction, along with expense estimates, will be included in the fixed price revenue estimate calculation.
+Another project team member submits a travel expense for $2000.00 USD against the Adatum equipment optimization project. When the project manager approves this submission, the system uses a fixed price billing method to create actuals transactions and an account for this project expense. The customer isn't invoiced based on this transaction. Instead, they are invoiced by using separately configured billing milestones. This expense transaction, along with expense estimates, is included in the fixed price revenue estimate calculation.
 
 Accounting principles for project transactions are defined in project cost and revenue profiles. For every project transaction, the system determines the appropriate project cost and revenue profile by using the project cost and revenue profile rules that have been configured.
 
@@ -42,34 +45,34 @@ Complete the following steps to create a new project cost and revenue profile.
 
     - **Post costs – hour**:
 
-       - *No Ledger*: The cost for time transactions will not be posted to the Ledger when the Project Operations integration journal is posted. However, the accountant can post costs using the Post costs function at a later time.
-       - **Balance**: The cost for time transactions will be debited to the Ledger account type, *WIP - Cost value* and credited to the *Payroll allocation account* in Ledger posting setup. The accountant will use the Post costs function to move this cost from a Balance account to a Profit and loss account on a periodic basis.
-       - **Profit and loss**: When posting the Project Operations integration journal, the time transaction cost will be debited to the Ledger account type *Cost*, and credited to the *Payroll allocation account* defined on the **Cost** tab on the **Ledger posting setup** page (**Project management and accounting** \> **Setup** \> **Posting** \> **Ledger posting setup**). This is most common setup for time and material transactions.
-        - *Never Ledger*: The cost for time transactions will never be posted to the Ledger.
+       - *No Ledger*: The cost for time transactions isn't posted to the Ledger when the Project Operations integration journal is posted. However, the accountant can post costs using the Post costs function at a later time.
+       - **Balance**: The cost for time transactions is debited to the Ledger account type, *WIP - Cost value* and credited to the *Payroll allocation account* in Ledger posting setup. The accountant uses the Post costs function to move this cost from a Balance account to a Profit and loss account on a periodic basis.
+       - **Profit and loss**: When posting the Project Operations integration journal, the time transaction cost is debited to the Ledger account type *Cost*, and credited to the *Payroll allocation account* defined on the **Cost** tab on the **Ledger posting setup** page (**Project management and accounting** \> **Setup** \> **Posting** \> **Ledger posting setup**). This is most common setup for time and material transactions.
+        - *Never Ledger*: The cost for time transactions are never posted to the Ledger.
 
     - **Post costs – expense**:
 
-         - **Balance**: When posting the Project Operations integration journal, the expense transaction cost will be debited to the Ledger account type *WIP - Cost value* as defined on the **Cost** tab on the **Ledger posting setup** page and credited to the offset account on the journal line. Default offset accounts for expense are defined in **Project management and accounting** > **Setup** \> **Posting** \> **Default offset account for expenses**. The accountant will use the **Post costs** function to move this cost from the balance account to the profit and loss account on a periodic basis.
-        - **Profit and loss**: When posting the Project Operations integration journal, the expense transaction cost will be debited to the Ledger account type *Cost* as defined on the **Cost** tab on the **Ledger posting setup** page and credited to the offset account on the journal line. Default offset accounts for expense are defined in **Project management and accounting** \> **Setup** \> **Posting** \> **Default offset account for expenses**.
+         - **Balance**: When posting the Project Operations integration journal, the expense transaction cost is debited to the Ledger account type *WIP - Cost value* as defined on the **Cost** tab on the **Ledger posting setup** page and credited to the offset account on the journal line. Default offset accounts for expense are defined in **Project management and accounting** > **Setup** \> **Posting** \> **Default offset account for expenses**. The accountant uses the **Post costs** function to move this cost from the balance account to the profit and loss account on a periodic basis.
+        - **Profit and loss**: When posting the Project Operations integration journal, the expense transaction cost is debited to the Ledger account type *Cost* as defined on the **Cost** tab on the **Ledger posting setup** page and credited to the offset account on the journal line. Default offset accounts for expense are defined in **Project management and accounting** \> **Setup** \> **Posting** \> **Default offset account for expenses**.
       
     - **Post costs – item**:
 
-         - **Balance**: When posting the Project Operations Integration journal, the item transaction cost will be debited to the Ledger account type *WIP - Cost value - item* as defined on the **Cost** tab on the **Ledger posting setup** page and credited to the following:
+         - **Balance**: When posting the Project Operations Integration journal, the item transaction cost is debited to the Ledger account type *WIP - Cost value - item* as defined on the **Cost** tab on the **Ledger posting setup** page and credited to the following:
     
               - For document type usage: **Cost - item** account on the **Ledger posting setup**.  
               - For document type purchase: **Procurement integration account** on the **Project Management and accounting parameters**.
-           The accountant will use the **Post costs** function to move this cost from the balance account to the profit and loss account on a periodic basis.
-        - **Profit and loss**: When posting the Project Operations Integration journal, the item transaction cost will be debited to the Ledger account type *Cost* as defined on the **Cost** tab on the **Ledger posting setup** page and credited to the following:
+           The accountant uses the **Post costs** function to move this cost from the balance account to the profit and loss account on a periodic basis.
+        - **Profit and loss**: When posting the Project Operations Integration journal, the item transaction cost is debited to the Ledger account type *Cost* as defined on the **Cost** tab on the **Ledger posting setup** page and credited to the following:
          
              - For document type usage: **Cost - item** account on the **Ledger posting setup**.  
              - For document type purchase: **Procurement integration account** on the **Project Management and accounting parameters**.
        
     - **On account invoicing**:
 
-        - **Balance**: When posting the Project invoice proposal, an on-account transaction (billing milestone) will be credited to the Ledger account type *WIP Invoiced - on account* as defined on the **Revenue** tab on the **Ledger posting setup** page, and debited to the Customer balance account.
-         - **Profit and loss**: When posting the Project invoice proposal, an on-account transaction (billing milestone) will be credited to the Ledger account type *Invoiced revenue- on account* as defined on the **Revenue** tab on the **Ledger posting setup** page, and debited to the Customer balance account. Customer balance accounts are defined in **Accounts receivable** \> **Setup** \> **Customer posting profiles**.
+        - **Balance**: When posting the Project invoice proposal, an on-account transaction (billing milestone) is credited to the Ledger account type *WIP Invoiced - on account* as defined on the **Revenue** tab on the **Ledger posting setup** page, and debited to the Customer balance account.
+         - **Profit and loss**: When posting the Project invoice proposal, an on-account transaction (billing milestone) is credited to the Ledger account type *Invoiced revenue- on account* as defined on the **Revenue** tab on the **Ledger posting setup** page, and debited to the Customer balance account. Customer balance accounts are defined in **Accounts receivable** \> **Setup** \> **Customer posting profiles**.
 
-   When you define the posting profiles for Time and material billing methods, you have the option to accrue revenue per transaction type (hour, expense, item, and fee). If the **Accrue revenue** option is set to **Yes**, unbilled sales transactions in the Project Operations Integration journal will be recorded to the general ledger. The sales value is debited to the **WIP - sales value account** and credited to the **Accrued revenue - sales value** account that was set up on the **Ledger posting setup** page on the **Revenue** tab. 
+   When you define the posting profiles for Time and material billing methods, you have the option to accrue revenue per transaction type (hour, expense, item, and fee). If the **Accrue revenue** option is set to **Yes**, unbilled sales transactions in the Project Operations Integration journal is recorded to the general ledger. The sales value is debited to the **WIP - sales value account** and credited to the **Accrued revenue - sales value** account that was set up on the **Ledger posting setup** page on the **Revenue** tab. 
   
   > [!NOTE]
   > The option, **Accrue revenue** is available only when the respective transaction type **Cost** is posted to the profit and loss account.
@@ -79,14 +82,14 @@ Complete the following steps to create a new project cost and revenue profile.
 
     - **Principle used for project completion calculations**:
 
-        - **Completed contract**: Cost matching and revenue recognition does not occur until the end of the project. Costs reflect as WIP in the balance until the project is complete.
+        - **Completed contract**: Cost matching and revenue recognition doesn't occur until the end of the project. Costs reflect as WIP in the balance until the project is complete.
         - **Completed percentage**: Accrued revenue is calculated and posted to the ledger every period based on the project completion percentage. There are multiple methods available to calculate percentage completion. These methods can be automatic based on configuration, or manual.
-        - **No WIP**: This setup is used for fixed price projects with a short time span and where the invoice and the costs occur in the same period. In this case, the **On-account invoicing** field value on the **Ledger** FastTab is automatically set to **Profit and loss** to ensure revenue is recognized at invoicing. The Revenue estimation process will not be used for this project cost and revenue profile.
+        - **No WIP**: This setup is used for fixed price projects with a short time span and where the invoice and the costs occur in the same period. In this case, the **On-account invoicing** field value on the **Ledger** FastTab is automatically set to **Profit and loss** to ensure revenue is recognized at invoicing. The Revenue estimation process isn't used for this project cost and revenue profile.
 
-    - **Matching principle**: This field determines how the calculated sales value (accrued revenue) will be posted to the ledger.
+    - **Matching principle**: This field determines how the calculated sales value (accrued revenue) is posted to the ledger.
 
-        - Using the **Sales value** principle, the system will calculate the sales value by matching costs and revenue and then posting it as a single amount.
-        - Using the **Production and profit** principle, the system will split the sales value into realized costs and calculated profit. These are posted separately.
+        - Using the **Sales value** principle, the system calculates the sales value by matching costs and revenue and then posting it as a single amount.
+        - Using the **Production and profit** principle, the system splits the sales value into realized costs and calculated profit. These are posted separately.
 
     - **Cost templates**: Allow project transactions to be grouped based on transaction type and project category and define percentage completion calculation rules for these groups.
     - **Period codes**: Define the frequency with which revenue estimates are calculated for a given Project cost and revenue profile.
@@ -129,7 +132,7 @@ Fixed Price – percentage completion
 
 Project cost and revenue profile rules determine the Project cost and revenue profile that must be used when processing any billable project transactions. Define the rules by going to **Project management and accounting** \> **Setup** \> **Posting** \> **Project cost and revenue profile rules**.
 
-Rules can be defined by project contract, project group, or by a specific project. The system will always pick the highest granularity rule first.
+Rules can be defined by project contract, project group, or by a specific project. The system always picks the highest granularity rule first.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

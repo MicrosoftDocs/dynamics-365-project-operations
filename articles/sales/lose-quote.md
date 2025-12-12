@@ -1,16 +1,19 @@
 ---
-title: Copy project-based quotes
-description: This topic provides information about how to copy project-based quotes in Project Operations.
-author: rumant
-ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+title: Copy project quotes
+description: This article provides information about how to copy project quotes in Project Operations.
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
-# Copy project-based quotes
+# Copy project quotes
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 You can easily create a new Project quote by copying an existing one. 
 

@@ -1,27 +1,27 @@
 ---
 title: Use transaction category as a pricing dimension
-description: This topic provides information about using a transaction category as a pricing dimension.
+description: This article provides information about using a transaction category as a pricing dimension.
 author: Rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 10/01/2020
-ms.topic: article
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Use transaction category as a pricing dimension
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-This topic shows how to use a transaction category as a pricing dimension. Before you begin, if you have not already created a pricing dimension solution, you will need to create a new one. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new pricing dimension solution for your organization, complete the procedures in the [Create custom fields and entities](create-custom-fields-entities.md) topic.
+This article shows how to use a transaction category as a pricing dimension. Before you begin, if you have not already created a pricing dimension solution, you will need to create a new one. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new pricing dimension solution for your organization, complete the procedures in the [Create custom fields and entities](create-custom-fields-entities.md) article.
 
 ## Add transaction category to forms and views
 To make transaction category visible in the UI in the pricing dimension solution, you will need to walk through all the forms and views of the key entities and add these fields to the forms and views of those entities.

@@ -1,20 +1,25 @@
 ---
-title: Project contracts - Key concepts - lite
-description: This topic provides information about the key concepts of project contracts.
-author: rumant
-ms.date: 10/07/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+title: Concepts unique to Project Contracts
+description: This article provides information about the key concepts of project contracts.
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
+ms.topic: concept-article
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Concepts unique to Project Contracts
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Core_
 
 
 
-This topic provides the key concepts to be aware of before you begin using Project contracts in Dynamics 365 Project Operations:
+This article provides the key concepts to be aware of before you begin using Project contracts in Dynamics 365 Project Operations:
 
 ## Contracting Unit
 

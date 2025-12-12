@@ -1,19 +1,21 @@
 ---
-title: What's new or changed in Project Operations, July 2021 for stocked/production-based scenarios
-description: This topic provides information about the quality updates available in the July 2021 release of Project Operations for stocked/production-based scenarios.
+title: What's new or changed in Project Operations, July 2021 for Project Operations for manufacturing
+description: This article provides information about the quality updates available in the July 2021 release of Project Operations for manufacturing.
 author: andchoi
-ms.date: 07/01/2021
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.custom:
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: whats-new
+ms.reviewer: johnmichalak
 ms.author: andchoi
 ---
 
-# What's new or changed in Project Operations, July 2021 for stocked/production-based scenarios
+# What's new or changed in Project Operations, July 2021 for Project Operations for manufacturing
 
-_**Applies To:** Project Operations for stocked/production based-scenarios_
+_**Applies To:** Project Operations for manufacturing based-scenarios_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
 - Project management and accounting in Dynamics 365 Finance environment version 10.0.20
  
@@ -59,7 +61,7 @@ This topic applies to the following Dynamics 365 Project Operations components a
 | Travel and Expense                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | The **Reset Expense document status** tool should reset the expense report status to **Draft** if the workflow wasn't found. 
 
 ### Regulatory updates
-For information about regulatory updates for Finance and Operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to Lifecycle Services (LCS) and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country, type of feature, and release.
+For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to Lifecycle Services (LCS) and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country/region, type of feature, and release.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,18 +3,17 @@ title: Install and customize
 description: How to install and customize Project Service
 author: ruhercul
 ms.custom: 
-ms.date: 8/03/2018
-ms.topic: article
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: install-set-up-deploy
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 

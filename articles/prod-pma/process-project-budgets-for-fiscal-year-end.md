@@ -3,28 +3,13 @@
 
 title: Transfer project budgets at fiscal year end
 description: This article provides information about how to transfer remaining budget amounts to future years and create budget register details. 
-author: Yowelle
-ms.date: 03/23/2020
-ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
+author: nimaski
+ms.author: nimaski
+ms.date: 06/04/2024
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: andchoi
-ms.dyn365.ops.version: 7.0
-ms.search.validFrom: 2019-01-15
+  - bap-template
+ms.reviewer: johnmichalak
 
 ---
 

@@ -1,16 +1,18 @@
 ---
 title: Manage multiple customers on project-based contract lines
-description: This topic provides information about working with contract lines and contracts that contain multiple customers.
-author: rumant
-ms.date: 10/22/2020
+description: This article provides information about working with contract lines and contracts that contain multiple customers.
+author: poojafandan
+ms.date: 06/07/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
 # Manage multiple customers on project-based contract lines
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Project-based contract lines can include a list of customers that are responsible for payment. This list of customers on the project-based contract line can be same as the list of customers on the contract but that isn't required. When a project quote is won, and a project contract is created, the customer list on the quote line is copied to the corresponding contract line. Customers on the quote are copied to the contract.
 

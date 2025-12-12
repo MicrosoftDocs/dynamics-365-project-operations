@@ -1,18 +1,20 @@
 ---
 title: Subcontract lines for time
-description: This topic explains how to record subcontract lines for time and record the purchase of time from vendors.
+description: This article explains how to record subcontract lines for time and record the purchase of time from vendors.
 author: rumant
-ms.date: 08/05/2021
-ms.topic: article
-ms.reviewer: kfend 
+ms.date: 04/08/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Subcontract lines for time
 
-[!include [banner](../../includes/dataverse-preview.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 A subcontract in Dynamics 365 Project Operations can have a subcontract line for time. Subcontract lines for time allow a Project Manager to buy vendor resource time to staff project tasks and resource requirements.
 
@@ -42,5 +44,10 @@ To create a subcontract line for time in Project Operations, complete the follow
 | Subtotal | 	This is a read-only field that is calculated as Quantity x Unit price, if both the quantity and unit price values are entered. If either quantity, unit price, or both are blank, you can enter a value in the field. | None|
 | Sales Tax | 	Enter the sales tax amount. |None |
 | Total Amount | The total amount of the subcontract line including taxes. This field is calculated as Subtotal + Sales tax.|None |
+
+
+
+> [!IMPORTANT]
+> **Fixed Price** subcontracts are currently not supported for _resource/non-stocked based scenarios_ in Project Operations. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

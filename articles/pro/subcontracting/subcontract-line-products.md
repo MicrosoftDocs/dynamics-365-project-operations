@@ -1,18 +1,20 @@
 ---
 title: Subcontract lines for products
-description: This topic explains how to record subcontract lines for products and use the various fields to record product purchases from vendors.
+description: This article explains how to record subcontract lines for products and use the various fields to record product purchases from vendors.
 author: rumant
-ms.date: 08/06/2021
-ms.topic: article
-ms.reviewer: kfend 
+ms.date: 12/15/2023
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Subcontract lines for products
 
-[!include [banner](../../includes/dataverse-preview.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 A subcontract in Dynamics 365 Project Operations can have a subcontract line for products. These lines allow a Project Manager to purchase products from vendors that they can then use on project tasks.
 

@@ -1,20 +1,23 @@
 ---
 title: Update Project Operations in your Finance environment
-description: This topic provides information about how to update Project Operations in your Dynamics 365 Finance environment.
+description: This article provides information about how to update Project Operations in your Dynamics 365 Finance environment.
 author: ruhercul
-ms.date: 12/11/2020
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.custom:
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
+
+ms.reviewer: johnmichalak
 ms.author: ruhercul
 ---
 
 # Update Project Operations in your Finance environment
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 
-This topic provides information about how to update Dynamics 365 Project Operations in your Dynamics 365 Finance environment. There are three procedures that are required to update Project Operations to Update 5 (UR5):
+This article provides information about how to update Dynamics 365 Project Operations in your Dynamics 365 Finance environment. There are three procedures that are required to update Project Operations to Update 5 (UR5):
 
 - [Import the package into your preview project](#import)
 - [Apply the update](#apply)
@@ -115,7 +118,7 @@ The following updates to the security privileges for entities are required as pa
 4. On the **Table map version** page, apply a new version of the map to each of the three entities.
 5. On the **Dual-write** page, select run to restart the maps.
 6. From the list of maps, select the **Ledger (msdyn_ledgers)** map with all prerequisites and select the **Initial sync** check box. 
-7. In the **Master for initial sync** field, select **Finance and Operations apps** and then select **Run**.
+7. In the **Master for initial sync** field, select **Finance and operations apps** and then select **Run**.
  
  ![Ledger map synchronization.](media/DW6.png)
  

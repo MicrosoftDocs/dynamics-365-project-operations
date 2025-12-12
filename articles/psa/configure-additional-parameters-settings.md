@@ -4,20 +4,17 @@ description: How to configure additional parameter settings in Project Service
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
-ms.topic: article
-#
-#
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Configure additional parameter settings (Project Service)
@@ -26,7 +23,7 @@ search.app:
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-Once you’ve configured the items in previous topics, you need to set additional project parameters to use for your projects. When you first installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you created a parameters setting to first create all the records required for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to work. Now it’s time to go back and configure additional fields for these settings.  
+Once you’ve configured the items in previous articles, you need to set additional project parameters to use for your projects. When you first installed [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)], you created a parameters setting to first create all the records required for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to work. Now it’s time to go back and configure additional fields for these settings.  
   
  You’ll need to have configured the following settings:  
   

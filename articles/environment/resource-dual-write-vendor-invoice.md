@@ -1,22 +1,25 @@
 ---
 title: Vendor invoice integration
-description: This topic provides information about vendor invoice integration in Project Operations.
-author: sigitac
-ms.date: 04/27/2021
+description: This article provides information about vendor invoice integration in Project Operations.
+author: mukumarm
+ms.date: 03/05/2024
+ms.reviewer: johnmichalak 
+ms.author: mukumarm
 ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
-ms.author: sigitac
+ms.custom: 
+  - bap-template
 ---
 
 # Vendor invoice integration
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP_
 
 Project-related procurement in Dynamics 365 Project Operations can be recorded by going to **Accounts Payable** > **Invoices** > **Pending vendor invoices** and using a pending vendor invoice document. For more information, see [Purchase non-stocked materials using a pending vendor invoice](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Before you use the functionality described in this topic, review and apply the required configurations. For more information, see [Enable non-stocked materials and pending vendor invoices](../procurement/configure-materials-nonstocked.md).
+> Before you use the functionality described in this article, review and apply the required configurations. For more information, see [Enable non-stocked materials and pending vendor invoices](../procurement/configure-materials-nonstocked.md).
 
 In Project Operations, project-related vendor invoices are posted using special posting rules:
 
@@ -26,10 +29,20 @@ In Project Operations, project-related vendor invoices are posted using special 
      - **Project Operations integration project vendor invoice export entity (msdyn_projectvendorinvoices)**: This table map synchronizes vendor invoice header information. Only vendor invoices with at least one line that contains a project ID are synchronized to Dataverse.
      - **Project Operations integration project vendor invoice line export entity (msdyn_projectvendorinvoicelines)**: This table map synchronizes vendor invoice line information. Only lines that contain a project ID are synchronized to Dataverse.
 
-     > [!NOTE]
-     > Vendor invoice details in Dataverse are not editable.
+## Vendor invoice lines
 
-Tax subledger, vendor subledger, and other financial postings are recorded as applicable in Dynamics 365 Finance when the vendor invoice is posted.
+As part of the 10.0.38 upgrade, a new iteration of the dual-write map, version 1.0.0.6, is introduced specifically for vendor invoice lines. This updated version enables the execution of intercompany vendor invoices. To enable this feature, some integration keys have been modified. If the dual-write map for vendor invoice lines stops working, follow these steps.
+
+1. In the **Data Management** workspace, go to the **Dual Write Maps** section.
+2. On the Action Pane, select **Integration key**.
+3. Select the **project vendor invoice line** integration key.
+4. Remove the **msdyn\_owningcompany** field from the integration key.
+5. Ensure that **msdyn\_externalinvoiceline** remains the only field for the integration key.
+
+> [!NOTE]
+> Vendor invoices aren't editable in Dataverse.
+
+When a vendor invoice is posted, tax subledger, vendor subledger, and other financial postings are recorded as applicable in Dynamics 365 Finance. 
 
 ![Vendor invoice integration.](media/DW7VendorInvoice.png)
 

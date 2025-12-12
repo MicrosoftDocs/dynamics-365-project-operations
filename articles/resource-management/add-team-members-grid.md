@@ -1,16 +1,18 @@
 ---
 title: Add team members from the Team member grid
-description: This topic provides information about how you can manage team member resources.
-author: ruhercul
-ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: ruhercul
+description: This article provides information about how you can manage team member resources.
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ---
 
 # Add team members from the Team member grid
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Dynamics 365 Project Operations includes a Resource manager dashboard that provides a visual overview of resource demand and utilization throughout the organization. You can use the charts on this dashboard to visualize the following information:
 

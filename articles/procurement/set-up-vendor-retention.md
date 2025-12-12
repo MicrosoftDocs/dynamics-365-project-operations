@@ -1,19 +1,21 @@
 ---
 title: Set up vendor retention
-description: This topic explains how to set up vendor retention. 
-author: sigitac
-ms.date: 09/27/2021
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
-ms.author: sigitac
+description: This article explains how to set up vendor retention. 
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Set up vendor retention
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
-This topic provides information about how to set up vendor retention.
+This article provides information about how to set up vendor retention.
 
 ## Set up a vendor retention account in General ledger
 

@@ -1,21 +1,20 @@
 ---
 title: Use the Project Service Add-in to plan your work in Microsoft Project | MicrosoftDocs
-description: This topic provides information about how to add, configure, and use the Microsoft Project add-in for Microsoft Project Service.
+description: This article provides information about how to add, configure, and use the Microsoft Project add-in for Microsoft Project Service.
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 04/06/2019
-ms.topic: article
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Use the Project Service Automation Add-in to plan your work in Microsoft Project
@@ -30,12 +29,13 @@ search.app:
 
 > [!IMPORTANT]
 > - To use SharePoint document management to store your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] files for [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] projects, your [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] admin will need to turn on document management. 
-> - The [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] is only compatible with [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 2016 Professional Edition.  
+> - The [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] is only compatible with [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] 2016 Professional Edition.
+> - The [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-ms-dyn-365-psa-for-ms-project.md)] is only compatible with Dynamics 365 Project Service. It is not compatible with Dynamics 365 Project Operations.
 
 ## Download and install the add-in  
  Have your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sign-in information ready. You will need this information to connect from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  From the Download Center, download the add-in for your supported version of Project Service, either [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) or [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  From the Download Center, download the add-in for your supported version of Project Service, either [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) or [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Click the download link.  
 
@@ -82,9 +82,8 @@ When your project planning is complete, the next step is to import and publish t
 
 The project will import into [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. The pricing and team generation process are applied. Open the project in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] to see that the team, project estimates, and work breakdown structure have been generated. The following table shows where to find the results:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gantt Chart**   | Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Work Breakdown Structure** screen. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Resource Sheet** |   Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Team Members** screen.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Use Usage**    |    Imports into the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Project Estimates** screen.     |

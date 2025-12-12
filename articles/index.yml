@@ -1,0 +1,163 @@
+### YamlMime:Hub
+
+title:  Dynamics 365 Project Operations documentation
+summary: Discover how to make the most of Dynamics 365 Project Operations with training, docs, and videos covering product capabilities and how-to articles. Learn how Project Operations connects sales, resourcing, project management, and finance teams in a single application to win more deals, accelerate project delivery, and maximize profitability.
+brand: dynamics
+
+metadata:
+  title: Microsoft Dynamics 365 Project Operations documentation
+  description: Discover how to make the most of Dynamics 365 Project Operations with training, docs, and videos covering product capabilities and how-to articles. Learn how Project Operations connects sales, resourcing, project management, and finance teams in a single application to win more deals, accelerate project delivery, and maximize profitability.
+  ms.topic: hub-page 
+  author: johnmichalak
+  ms.author: johnmichalak
+  ms.date: 12/05/2023
+  ms.custom: bap-template
+  hide_bc: true
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | tutorial | overview | quickstart | reference | sample | tutorial | video | whats-new
+
+highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+# Do not change the following cards. You should only need to update the URLs to provide the correct links to your product documentation.
+
+  items:
+    # Card
+    - title: Welcome to Dynamics 365 Project Operations
+      itemType: get-started
+      url: welcome-to-project-operations.md
+    # Card
+    - title: What's new
+      itemType: whats-new
+      url: whats-new/whats-new-home-page.md
+    # Card
+    - title: Training
+      itemType: training
+      url: /training/browse/?expanded=dynamics-365&products=dynamics-project-operations
+    # Card
+    - title: Troubleshoot
+      itemType: concept
+      url: troubleshooting/troubleshooting-overview.md
+
+      
+additionalContent: 
+  sections:
+  - title: Project Operations Core
+    items:
+    - title: Guidance 
+      links: 
+      - text: Security, compliance, and privacy
+        url: /dynamics365/get-started/security
+      - text: Implementation guide
+        url: /dynamics365/guidance/implementation-guide/overview
+      - text: Implementation tools and samples
+        url: /dynamics365/guidance/resources/
+      - text: End-to-end business processes
+        url: /dynamics365/guidance/business-processes/overview
+    - title: Try/Buy/Deploy
+      links: 
+      - url: environment/admin-trials.md
+        text: Overview
+      - url: environment/lite-preview-subscription-sign-up.md
+        text: Preview subscription
+    - title: Administer and develop
+      links:
+      - url: environment/lite-deployment.md
+        text: Deploy Project Operations Core
+      - url: environment/lite-apply-demo-setup-config-data.md
+        text: Apply demo setup and configuration data
+      - url: environment/dsr-rights-requests.md
+        text: Respond to Data Subject Rights (DSR) requests
+    - title: Use 
+      links:
+      - url: sales/sales-overview.md
+        text: Sales process
+      - url: pricing-costing/price-list-setup.md
+        text: Set up price lists
+      - url: project-management/project-management-overview.md
+        text: Project management
+      - url: resource-management/resource-management-key-concepts.md
+        text: Resource management
+  - title: Project Operations Integrated with ERP
+    items:
+    - title: Guidance 
+      links: 
+      - text: Security, compliance, and privacy
+        url: /dynamics365/get-started/security
+      - text: Implementation guide
+        url: /dynamics365/guidance/implementation-guide/overview
+      - text: Implementation tools and samples
+        url: /dynamics365/guidance/resources/
+      - text: End-to-end business processes
+        url: /dynamics365/guidance/business-processes/overview
+    - title: Try/Buy/Deploy
+      links: 
+      - url: environment/project-operations-integrated-deployment-overview.md
+        text: Overview
+      - url: environment/resource-sign-up-preview-subscription.md
+        text: Sign up for Project Operations
+    - title: Administer and develop 
+      links:
+      - url: environment/create-lcs-project.md
+        text: Start a new Lifecycle Services project
+      - url: environment/resource-apply-pro-setup-config-data.md
+        text: Set up and apply configuration data in the Common Data Service
+      - url: project-management/scheduling-apis-powerautomate.md
+        text: Use Project schedule APIs with Power Automate
+      - url: project-management/schedule-api-preview.md
+        text: Use Project schedule APIs to perform operations with Scheduling entities
+      - url: environment/dsr-rights-requests.md
+        text: Respond to Data Subject Rights (DSR) requests
+    - title: Use
+      links: 
+      - url: prod-pma/overview-project-management-accounting.md
+        text: Project management and accounting overview
+      - url: prod-pma/work-breakdown-structures.md
+        text: Work breakdown structures
+      - url: project-management/project-management-overview.md
+        text: Project management
+  - title: Project Operations for manufacturing
+    items:
+    - title: Guidance 
+      links: 
+      - text: Security, compliance, and privacy
+        url: /dynamics365/get-started/security
+      - text: Implementation guide
+        url: /dynamics365/guidance/implementation-guide/overview
+      - text: Implementation tools and samples
+        url: /dynamics365/guidance/resources/
+      - text: End-to-end business processes
+        url: /dynamics365/guidance/business-processes/overview
+    - title: Try/Buy/Deploy
+      links:
+      - url: prod-pma/project-operations-prod-order-deployment-overview.md
+        text: Project Operations for manufacturing scenarios deployment overview
+    - title: Administer and develop
+      links:
+      - url: prod-pma/psa-integration.md
+        text: Project Service Automation overview
+      - url: prod-pma/psa-parameters.md
+        text: Project Service Automation integration parameters
+      - url: environment/dsr-rights-requests.md
+        text: Respond to Data Subject Rights (DSR) requests
+    - title: Use
+      links:
+      - url: prod-pma/overview-project-management-accounting.md
+        text: Project management and accounting
+      - url: prod-pma/project-resourcing.md
+        text: Project resourcing
+      - url: prod-pma/project-forecasts-budgets.md
+        text: Project forecasts and budgets     
+  - title: Related products
+    items:
+        # Card
+        
+        - title: Dynamics 365 Finance
+          summary: Finance and operations apps are enterprise resource planning (ERP) software as a service (SaaS) offerings.
+          url: /dynamics365/finance/
+        - title: Lifecycle Services
+          summary: Lifecycle Services (LCS) for Microsoft Dynamics is a collaboration portal that provides an environment and a set of regularly updated services.
+          url: https://learn.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs
+        - title: Microsoft Power Automate
+          summary: Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more.
+          url: /power-automate/

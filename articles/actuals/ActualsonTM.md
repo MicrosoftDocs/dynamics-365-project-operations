@@ -1,39 +1,28 @@
 ---
-# required metadata
-
 title: Actuals impact in a time and materials engagement
-description: This topic provides information about the impact on the Actuals table at various events during the lifecycle of a time and materials engagement in Microsoft Dynamics 365 Project Operations.
-author: rumant
-ms.date: 02/22/2022
+description: This article provides information about the impact on the Actuals table at various events during the lifecycle of a time and materials engagement in Microsoft Dynamics 365 Project Operations.
+author: suvaidya
+ms.date: 06/10/2024
 ms.topic: overview
-ms.prod: 
-#
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
+ms.custom: 
+  - bap-template
 audience: Application User
-# ms.devlang: 
-ms.reviewer: tonyafehr
-ms.search.scope: 
-# ms.tgt_pltfrm: 
+ms.reviewer: johnmichalak
+ms.author: suvaidya
 
-ms.assetid: 
-ms.search.region: 
-ms.search.industry: 
-ms.author: rumant
-ms.search.validFrom: 2020-10-01
 ---
 
 # Actuals impact in a time and materials engagement
 
-_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies to:** Project Operations Integrated with ERP, Project Operations Core_
 
 The following table lists the actuals of different transaction types that are created at various events in a time and materials engagement.
 
 | Event | Cost actual | Unbilled sales actual | Billed sales actual | Example |
 |---|---|---|---|---|
-| Time is created. | Not applicable | Not applicable | Not applicable | <p>Bob Kozack, from the Fabrikam US organizational unit that has a cost rate of 100 US dollars (USD 100) per hour, is working on a project that is named "Arm Installation at Adatum." For this project, his contracted bill rate is USD 200 per hour. Here is a sample time entry from Bob Kozak:</p><p>Bob Kozack, 8 hours</p> |
+| Time is created. | Not applicable | Not applicable | Not applicable | <p>Bob Kozack, from the Fabrikam US organizational unit that has a cost rate of 100 US dollars (USD 100) per hour, is working on a project that is named "Arm Installation at Adatum." For this project, Bob's contracted bill rate is USD 200 per hour. Here is a sample time entry from Bob Kozak:</p><p>Bob Kozack, 8 hours</p> |
 | Time is submitted. | Not applicable | Not applicable | Not applicable | A cost journal line and Unbilled sales journals are created for the time entry. The default price and cost rate are entered in the journal entry. |
 | The time entry is recalled before it's approved. | Not applicable | Not applicable | Not applicable | |
 | Time is approved: Submitted hours equal billable hours. | A cost actual is created. | An unbilled sales actual is created. | Not applicable | <p>New actuals that are created:</p><ul><li>**Cost actual:** Bob Kozack, 8 hr, USD 800</li><li>**Unbilled sales actual:** Bob Kozack, 8 hr, USD 1,600</li></ul> |

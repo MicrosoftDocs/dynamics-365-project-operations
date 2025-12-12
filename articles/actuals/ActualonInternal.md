@@ -1,33 +1,21 @@
 ---
-# required metadata
-
 title: Actuals impact for an internal project
-description: This topic provides information about the impact on the Actuals table at various events for an internal project in Microsoft Dynamics 365 Project Operations.
-author: rumant
-ms.date: 02/22/2022
-ms.topic: overview
-ms.prod: 
-#
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: tonyafehr
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-
-ms.assetid: 
-ms.search.region: 
-ms.search.industry: 
-ms.author: rumant
+description: This article provides information about the impact on the Actuals table at various events for an internal project in Microsoft Dynamics 365 Project Operations.
+author: abriccetti
+ms.date: 01/09/2025
+ms.topic: article
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: abriccetti
 ms.search.validFrom: 2020-10-01
 ---
 
 # Actuals impact for an internal project
 
-_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies to:** Project Operations Integrated with ERP, Project Operations Core_
 
 The following table lists the actuals of different transaction types that are created at various events in an internal project engagement.
 

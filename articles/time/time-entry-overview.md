@@ -1,17 +1,19 @@
 ---
 title: Time overview
-description: This topic provides information about the Time functionality in Dynamics 365 Project Operations. 
-author: stsporen
-ms.date: 10/02/2020
+description: This article provides information about the Time functionality in Dynamics 365 Project Operations. 
+author: mohitmenon
+ms.author: mohitmenon
+ms.date: 05/22/2024
 ms.topic: overview
-ms.reviewer: kfend
-ms.author: stsporen
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 
 ---
 
 # Time overview
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Time Entry is the process of recording the actual time that a resource consumes. Time entries in Dynamics 365 Project Operations allow cost and sales prices to be calculated as tasks progress. These entries help the Project manager keep on top of projects and tasks. Time entries also notify Resource managers of any potential vacation or absences that appear on the schedule board as **Out**. These notifications allow the Resource managers to plan around those events.
 

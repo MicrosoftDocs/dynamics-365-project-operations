@@ -1,29 +1,33 @@
 ---
 title: Updating plug-in attributes with new pricing dimensions
-description: This topic provides information about how to update plug-in attributes for pricing dimensions.
-author: rumant
-ms.date: 11/18/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+description: This article provides information about how to update plug-in attributes for pricing dimensions.
+author: abriccetti
+ms.date: 01/09/2025
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: abriccetti
 ---
 
 
 # Update plug-in attributes with new pricing dimensions
 
-This topic provides information about how to update plug-in attributes for pricing dimensions.
+[!INCLUDE[banner](../includes/banner.md)]
+
+This article provides information about how to update plug-in attributes for pricing dimensions.
 
 > [!NOTE]
-> This topic is only applicable to the quote and contract features in Dynamics 365 Project Operations.
+> This article is only applicable to the quote and contract features in Dynamics 365 Project Operations.
 
 ## Prerequisites
-Before you complete the steps in this topic, you must have completed the procedures in the following topics:
+Before you complete the steps in this article, you must have completed the procedures in the following articles:
 
   - [Create custom fields and entities](create-custom-fields-entities-pricing-dimensions.md) 
   - [Add custom fields to price setup and transactional entities](add-custom-fields-price-setup-transactional-entities.md)
   - [Set up custom fields as pricing dimensions](set-up-custom-fields-pricing-dimensions.md). 
   
-If you haven't completed those procedures, complete them and then return to this topic.
+If you haven't completed those procedures, complete them and then return to this article.
 
 ## Register a plug-in
 When a quote line detail is created on the **Quote Line** page for a project quote line, the system creates two estimate lines. One line is for the cost side of the estimate and the other line is for sales the side. This is the same  for project contract lines.

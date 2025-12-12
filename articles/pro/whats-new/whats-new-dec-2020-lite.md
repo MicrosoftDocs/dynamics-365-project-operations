@@ -1,19 +1,21 @@
 ---
-title: What's new December 2020 - Project Operations Lite deployment - deal to proforma invoicing
-description: This topic provides information about the quality updates available in the December 2020 release of Project Operations Lite deployment - deal to proforma invoicing. 
+title: What's new December 2020 - Project Operations Core
+description: This article provides information about the quality updates available in the December 2020 release of Project Operations Core. 
 author: sigitac
-ms.date: 12/07/2020
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.custom:
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: whats-new
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new December 2020 - Project Operations Lite deployment - deal to proforma invoicing
+# What's new December 2020 - Project Operations Core
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
   - Project Operations on Dataverse environment version 4.5.0.134 
 

@@ -1,17 +1,21 @@
 ---
 title: Cancel the approval of previously approved entries
-description: This topic explains how a project manager can cancel the approval of previously approved time, expense, or material usage entries.
-author: rumant
-ms.date: 01/31/2021
+description: This article explains how a project manager can cancel the approval of previously approved time, expense, or material usage entries.
+author: suvaidya
+ms.date: 06/10/2024
 ms.topic: overview
-ms.reviewer: tonyafehr
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: suvaidya
 
 ---
 
 # Cancel the approval of previously approved entries
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 A project manager or approver who has previously approved time, expense, or material usage entries can cancel their approval of those entries. 
 

@@ -1,16 +1,19 @@
 ---
 title: Create project quotes from opportunities
-description: This topic provides information about creating a project quote from an opportunity.
-author: rumant
-ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+description: This article provides information about creating a project quote from an opportunity.
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/10/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Create project quotes from opportunities
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Quotes can be created from project opportunities in the following ways:
 

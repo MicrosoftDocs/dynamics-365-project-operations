@@ -1,17 +1,19 @@
 ---
 title: Resource utilization overview
-description: This topic provides information about resource utilization in Project Operations.
-author: ruhercul
-ms.date: 11/05/2020
+description: This article provides information about resource utilization in Project Operations.
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
 ms.topic: overview
-ms.reviewer: kfend 
-ms.author: ruhercul
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 
 ---
 
 # Resource utilization overview
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Resources can have a target billable utilization. This target utilization is defined as an attribute on a resource's default role or set on the record of the individual bookable resource. Utilization calculations are based on the actual hours that resources have reported by using approved time entries.
 

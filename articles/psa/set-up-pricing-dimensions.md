@@ -1,30 +1,29 @@
 ---
-title: Seting up custom fields as pricing dimensions
-description: This topic provides information about setting up custom pricing dimensions.
+title: Setting up custom fields as pricing dimensions
+description: This article provides information about setting up custom pricing dimensions.
 author: Rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 11/20/2018
-ms.topic: article
-#
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: concept-article
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Setting up custom fields as pricing dimensions 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Before you begin, this topic assumes that you have completed the procedures in the topics, [Create custom fields and entities](create-custom-fields-entities.md) and [Add custom fields to price setup and transactional entities](field-references.md). If you haven't completed those procedures, go back and complete them and then return to this topic. 
+Before you begin, this article assumes that you have completed the procedures in the articles, [Create custom fields and entities](create-custom-fields-entities.md) and [Add custom fields to price setup and transactional entities](field-references.md). If you haven't completed those procedures, go back and complete them and then return to this article. 
 
-This topic provides information about setting up custom pricing dimensions. In the Project Service web interface, on the **Parameters** page, the **Amount-Based Pricing Dimensions** tab shows the records in the pricing dimension entities. By default, Project Service installation creates 2 rows in the grid on this tab:
+This article provides information about setting up custom pricing dimensions. In the Project Service web interface, on the **Parameters** page, the **Amount-Based Pricing Dimensions** tab shows the records in the pricing dimension entities. By default, Project Service installation creates 2 rows in the grid on this tab:
 
 - **msdyn_resourcecategory** (Role)
 - **msdyn_OrganizationalUnit** (Organizational Unit)

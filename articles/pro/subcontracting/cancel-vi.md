@@ -1,18 +1,20 @@
 ---
 title: Cancel a project vendor invoice
-description: This topic explains how to cancel a project vendor invoice in Microsoft Dynamics 365 Project Operations and the financial impact of canceling a project vendor invoice.
+description: This article explains how to cancel a project vendor invoice in Microsoft Dynamics 365 Project Operations and the financial impact of canceling a project vendor invoice.
 author: rumant
-ms.date: 03/30/2022
-ms.topic: article
-ms.reviewer: tonyafehr 
+ms.date: 12/15/2023
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Cancel a project vendor invoice
 
-[!include [banner](../../includes/dataverse-preview.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Core_
 
 After a vendor invoice is confirmed, it can't be edited or deleted. If there was an error on a vendor invoice that was confirmed, you can use the Cancel action to reverse the impact of the vendor invoice and create a new vendor invoice.
 

@@ -4,20 +4,17 @@ description: How to allow others to enter your time entry or expense in Project 
 author: revathiMuthiah
 ms.custom: 
   - dyn365-projectservice
-ms.date: 7/31/2018
-ms.topic: article
-#
-#
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 ms.author: revathim
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Allow someone else to enter your time entry or expense (Project Service)
 

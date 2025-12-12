@@ -1,20 +1,28 @@
 ---
 title: Confirm a proforma project-based invoice
-description: This topic provides information about confirming a proforma project-based invoice. 
-author: rumant
-ms.date: 04/05/2021
+description: This article provides information about confirming a proforma project-based invoice. 
+author: suvaidya
+ms.date: 09/24/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-ms.reviewer: kfend
-ms.author: rumant
+ms.reviewer: johnmichalak
+ms.author: abriccetti
+ms.custom:
+  -evergreen
 ---
 
 # Confirm a proforma project-based invoice
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
 
-After a proforma invoice is confirmed, the status of the project invoice updates to **Confirmed**. When an invoice is confirmed, it becomes read-only. Going forward, the invoice can only be corrected if there are any customer-initiated corrections or credits.
+_**Applies To:** Project Operations Integrated with ERP_
 
-The following table lists the actuals created by the system. These actuals are created when certain operations are performed on the draft project invoice before it is confirmed.
+After a proforma invoice is confirmed, the status of the project invoice updates to **Confirmed**. When an invoice is confirmed, it becomes read-only. The invoice can only be corrected if there are any customer-initiated corrections or credits.
+
+> [!NOTE]
+> You can configure this process to run in the background [using notifications](../proforma-invoicing/long-running-jobs.md).
+
+The following table lists the actuals created by the system. These actuals are created when certain operations are performed on the draft project invoice before it's confirmed.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
@@ -143,7 +151,7 @@ The following table lists the actuals created by the system. These actuals are c
         <tr>
             <td width="408" valign="top">
                 <p>
-                    A new unbilled sales actual that is chargeable for the
+                    A new unbilled sales actual that's chargeable for the
                     hours and amount on the edited invoice line detail, a reversal of the sales actual, and an equivalent billed sales actual.
                 </p>
             </td>
@@ -151,7 +159,7 @@ The following table lists the actuals created by the system. These actuals are c
         <tr>
             <td width="408" valign="top">
                 <p>
-                    A new unbilled sales actual that is non-chargeable for the
+                    A new unbilled sales actual that's nonchargeable for the
                     remaining hours and amount after deducting the corrected
                     figures on the edited invoice line detail, a reversal of the sales actual, and an equivalent billed sales actual.
                 </p>
@@ -174,7 +182,7 @@ The following table lists the actuals created by the system. These actuals are c
         <tr>
             <td width="408" valign="top">
                 <p>
-                    A new unbilled sales actual that is chargeable for the
+                    A new unbilled sales actual that's chargeable for the
                     hours and amount on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.
                 </p>
             </td>
@@ -218,7 +226,7 @@ The following table lists the actuals created by the system. These actuals are c
         <tr>
             <td width="408" valign="top">
                 <p>
-                    A new unbilled sales actual that is chargeable for the
+                    A new unbilled sales actual that's chargeable for the
                     quantity and amount on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.
                 </p>
             </td>
@@ -226,7 +234,7 @@ The following table lists the actuals created by the system. These actuals are c
         <tr>
             <td width="408" valign="top">
                 <p>
-                    A new unbilled sales actual that is non-chargeable for the
+                    A new unbilled sales actual that's nonchargeable for the
                     remaining quantity and amount after deducting the corrected
                     figures on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.
                 </p>
@@ -249,7 +257,7 @@ The following table lists the actuals created by the system. These actuals are c
         <tr>
             <td width="408" valign="top">
                 <p>
-                    A new unbilled sales actual that is chargeable for quantity
+                    A new unbilled sales actual that's chargeable for quantity
                     and amount on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual. 
                 </p>
             </td>
@@ -293,7 +301,7 @@ The following table lists the actuals created by the system. These actuals are c
         <tr>
             <td width="408" valign="top">
                 <p>
-                    A new unbilled sales actual that is chargeable for the
+                    A new unbilled sales actual that's chargeable for the
                     quantity and amount on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.
                 </p>
             </td>
@@ -301,7 +309,7 @@ The following table lists the actuals created by the system. These actuals are c
         <tr>
             <td width="408" valign="top">
                 <p>
-                    A new unbilled sales actual that is non-chargeable for the
+                    A new unbilled sales actual that's nonchargeable for the
                     remaining quantity and amount after deducting the corrected
                     figures on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.
                 </p>
@@ -324,7 +332,7 @@ The following table lists the actuals created by the system. These actuals are c
         <tr>
             <td width="408" valign="top">
                 <p>
-                    A new unbilled sales actual that is chargeable for the
+                    A new unbilled sales actual that's chargeable for the
                     quantity and amount on the edited invoice line detail, a reversal of the unbilled sales actual, and an equivalent billed sales actual.
                 </p>
             </td>

@@ -1,80 +1,90 @@
 ---
 title: Project Operations updates
-description: This topic provides information about the released versions of Dynamics 365 Project Operations.
-author: sigitac
-ms.date: 03/28/2022
+description: This article provides information about the released versions of Dynamics 365 Project Operations.
+author: abriccetti
 ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
-ms.author: sigitac
+ms.custom: 
+  - bap-template
+  - evergreen
+ms.date: 12/9/2025
+ms.update-cycle: 1095-days
+ms.reviewer: johnmichalak
+ms.author: abriccetti
 ---
 
-# Project Operations updates
+# Project Operations Updates
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, and Project Operations for stocked/production-based scenarios_
+_**Applies To:** Project Operations Integrated with Enterprise Resource Planning (ERP), Project Operations Core, and Project Operations for manufacturing-based scenarios_
 
-
-
-## Project Operations components
+## Project Operations Components
 
 Dynamics 365 Project Operations consists of two components:
 
-- Project Operations on Dataverse environment covers capabilities from opportunity to proforma invoicing. Dataverse is used in the lite deployment and resource/non-stocked scenarios deployment of Project Operations.
-- Project management and accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The Finance and Operations app environment is used in Project Operations for resource/non-stocked based scenarios and Project Operations for stocked/production-based scenarios.
+- Project Operations on Dataverse environment covers capabilities from opportunity to proforma invoicing. Dataverse is used in the Project Operations Core and Project Operations Integrated with ERP scenarios deployment of Project Operations.
+- Project Management and Accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The finance and operations apps environment is used in Project Operations Integrated with ERP and Project Operations for manufacturing.
 
-## Project Operations release notes
-- Project Operations latest release notes for [Resource/non-stocked](whats-new-mar-2022-resource-based.md) scenario.
-- Project Operations latest release notes for [Lite deployment](../pro/whats-new/whats-new-mar-2022-lite.md) scenario.
-- Project Operations latest release notes for [stocked/production](../prod-pma/whats-new/whats-new-oct-2021-stocked.md) scenario.
+## Project Operations Station & Geographical Regions
 
-## Project Operations latest version
+| **Station**   | **Geographical Location**                                                                                           |
+|---------------|---------------------------------------------------------------------------------------------------------------------|
+| **Station 1** | First Release (FRE)                                                                                                 |
+| **Station 2** | South America, Canada, India, France, South Africa, Switzerland, Korea, Germany, Norway                             |
+| **Station 3** | Asia-Pacific, United Kingdom, Australia, Japan, United Arab Emirates, US Government Community Cloud High (GCC High) |
+| **Station 4** | Europe, Middle East, and Africa                                                                                     |
+| **Station 5** | North America                                                                                                       |
 
-| Project Operations on Dataverse environment | Project management and accounting in Finance and Operations apps environments | 
-| --- | --- |
-| 4.41.0.45 | 10.0.25 |
+## Project Operations Release Notes
+- Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-june-2025-resource-based.md) scenario.
+- Project Operations latest release notes for [Core deployment](../pro/whats-new/whats-new-june-2025-lite.md) scenario.
+- Project Operations latest release notes for [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-Feb-2024-stocked.md) scenario.
 
-For Project Operations Resource/non-stocked scenario, we recommend to use dual-write Orchestration version 2.3.1.15 or higher.
+## Project Operations Latest Version
 
-## Release schedule for Project Operations on Dataverse environment
+| **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
+|:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
+|                   4.160.0.2877                  |                                      10.0.45                                     |                1.0.160.2874              |
 
-Updates for Project Operations on Dataverse environment are available monthly. 
+> [!IMPORTANT]
+> - The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively.
+> - For Project Operations Integrated with ERP scenario, we recommend that you use Dual-write orchestration version 2.3.1.15 or higher.
+> - If you're using an older version of either product, contact Microsoft support for assistance in upgrading.
 
-| Station | Region | Current version number | Auto updates for Lite deployment | Auto updates for Resource/non-stocked deployment | Next version number | Next version generally available |
-|-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
-| Station 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | First Release         |  4.41.0.45      | Complete           | Complete            | TBD                 | April 29, 2022      |
-| Station 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | South America         |  4.41.0.45      | April 08, 2022     | April 08, 2022      | TBD                 | April 29, 2022      |
-|   &nbsp;  | Canada                |  4.41.0.45      | April 08, 2022     | April 08, 2022      | TBD                 | April 29, 2022      |
-|   &nbsp;  | India                 |  4.41.0.45      | April 08, 2022     | April 08, 2022      | TBD                 | April 29, 2022      |
-|   &nbsp;  | France                |  4.41.0.45      | April 08, 2022     | April 08, 2022      | TBD                 | April 29, 2022      |
-|   &nbsp;  | South Africa          |  4.41.0.45      | April 08, 2022     | April 08, 2022      | TBD                 | April 29, 2022      |
-|   &nbsp;  | Switzerland           |  4.41.0.45      | April 08, 2022     | April 08, 2022      | TBD                 | April 29, 2022      |
-| Station 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japan                 |  4.30.0.99      | Complete           | Complete            | 4.41.0.45           | April 08, 2022      |
-|   &nbsp;  | Asia Pacific          |  4.30.0.99      | Complete           | Complete            | 4.41.0.45           | April 08, 2022      |
-|   &nbsp;  | Great Britain         |  4.30.0.99      | Complete           | Complete            | 4.41.0.45           | April 08, 2022      |
-|   &nbsp;  | Oceania               |  4.30.0.99      | Complete           | Complete            | 4.41.0.45           | April 08, 2022      |
-|   &nbsp;  | United Arab Emirates  |  4.30.0.99      | Complete           | Complete            | 4.41.0.45           | April 08, 2022      |
-| Station 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europe                |  4.30.0.99      | Complete           | Complete            | 4.41.0.45           | April 15, 2022      |
-| Station 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | North America         |  4.30.0.99      | Complete           | Complete            | 4.41.0.45           | April 22, 2022      |
+## Release Schedule for Project Operations on Dataverse Environment
 
-## Release schedule for Project management and accounting in the Finance and Operations apps environment
+> [!IMPORTANT]
+> - New updates for Project Operations on the Dataverse Environment are released on a monthly basis.
+> - Customers are expected to receive their **"Auto Update"** approximately **one week** after the **"Self Update Start Date"**.
+> - The **"Auto Update Start Date"** marks the beginning of the upgrade rollout from Microsoft.
+> - **"Auto Updates"** are managed by Microsoft and are executed on the dates specified in the following table. The timing of these updates adheres to the maintenance window defined for your environment. For instructions on defining a maintenance window, see [Manage Maintenance Window](/power-platform/admin/manage-maintenance-window).
+> - If an **"Auto Update"** can't complete, the update is attempted again the next day for up to one week, within the defined maintenance window for your environment.
+> - Depending on the station, region, and other factors, _**the release may reach customers within the stipulated one-week timeframe.**_
 
-Updates for Project management and accounting are released eight times a year.
+## Standard Release Cycle
 
-|Supported Version| Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
-|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.25     |      January 31, 2022       |        March 18, 2022             |                          April 1, 2022                               | June 10, 2022      |
-|     10.0.24     |      December 3, 2021       |        January 14, 2022           |                          February 4, 2022                            | April 15, 2022     |
+| **Version/Station** | **Station 1**              | **Station 1**              | **Station 2**              | **Station 2**              | **Station 3**              | **Station 3**              | **Station 4**              | **Station 4**              | **Station 5**              | **Station 5**              |
+|---------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
+| **4.145.0.1040** <br> Refer to HotFix (**4.145.0.1361**) | September 12, 2025         | September 19, 2025         | September 19, 2025         | September 26, 2025         | September 26, 2025         | October 03, 2025           | October 03, 2025           | October 10, 2025           | October 10, 2025           | October 17, 2025           |
+| **4.160.0.1159**  <br> Refer to HotFix (**4.160.0.2877**) | October 17, 2025           | October 24, 2025           | October 24, 2025           | CANCELED          | October 24, 2025           | CANCELED          | CANCELED          | CANCELED          | CANCELED          | CANCELED          |
+| **4.161.0.x**  | December 12, 2025          | January 06, 2026          | December 12, 2025          | January 06, 2026          | December 12, 2025          | January 06, 2025          | January 06, 2026           | January 20, 2026           | January 06, 2026           | January 20, 2026           |
+| **4.162.0.x**    | January 23, 2026           | January 30, 2026           | January 30, 2026           | February 13, 2026          | January 30, 2026           | February 13, 2026          | February 13, 2026          | February 27, 2026          | February 13, 2026          | February 27, 2026          |
+| **4.163.0.x**   | February 20, 2026          | February 27, 2026          | February 27, 2026          | March 13, 2026             | February 27, 2026          | March 13, 2026             | March 13, 2026             | March 27, 2026             | March 13, 2026             | March 27, 2026             |
+| **4.164.0.x**     | March 20, 2026             | March 27, 2026             | March 27, 2026             | April 10, 2026             | March 27, 2026             | April 10, 2026             | April 10, 2026             | April 24, 2026             | April 10, 2026             | April 24, 2026             |
+
+## HotFix Release Cycle
+
+| **Version/Station** | **Station 1**              | **Station 1**              | **Station 2**              | **Station 2**              | **Station 3**              | **Station 3**              | **Station 4**              | **Station 4**              | **Station 5**              | **Station 5**              |
+|---------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
+| **4.145.0.1361**    | Not Applicable             | Not Applicable             | Not Applicable             | Not Applicable             | October 24, 2025           | Not Applicable             | October 24, 2025           | October 24, 2025           | October 24, 2025           | October 24, 2025           |
+| **4.160.0.2288**    | November 11, 2025             | November 11, 2025             | November 11, 2025             | November 11, 2025             | November 11, 2025           | November 14, 2025             | November 14, 2025           | CANCELED           | November 14, 2025           | CANCELED           |
+| **4.160.0.2774**    | November 21, 2025             | November 21, 2025             | November 21, 2025             | November 21, 2025             | November 21, 2025           | November 21, 2025             | November 21, 2025           | December 03, 2025           | November 21, 2025           | December 03, 2025           |
+| **4.160.0.2877**    | December 09, 2025             | December 09, 2025             | December 09, 2025             | December 09, 2025             | December 09, 2025           | December 09, 2025             | December 09, 2025           | December 10, 2025           | December 09, 2025           | December 10, 2025           |
 
 
-Targeted release dates are subject to change. For more information, see [Service update availability](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
-|Targeted Version | Preview availability (PEAP) | Generally available (self-update) | Auto-update schedule (via LCS Update Settings) production start date |   End of service   |
-|:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.26     |      March 4, 2022          |        April 15, 2022             |                          April 29, 2022                              | July 15, 2022      |
-|     10.0.27     |      April 22, 2022         |        June 17, 2022              |                          July 1, 2022                                | September 16, 2022 |
+## Release Schedule for Project Management and Accounting in the Finance and Operations Apps Environment
+
+See the [Service Update Availability](/dynamics365/fin-ops-core/dev-itpro/get-started/public-preview-releases) for the Project Management and Accounting in the Finance and Operations Apps Environment Release Schedule. 
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,23 +1,14 @@
 ---
 title: Bulk corrections of actuals created by approved time and expense entries
-description: This topic explains how an administrator can make single or bulk corrections to previously approved time or expense entries if the billing is not complete.
-author: rumant
-ms.date: 04/02/2020
-ms.topic: article
-#
-#
-audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+description: This article explains how an administrator can make single or bulk corrections to previously approved time or expense entries if the billing is not complete.
+author: suvaidya
+ms.author: suvaidya
+ms.date: 06/07/2024
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: rumant
-ms.dyn365.ops.version: 7.0
-ms.search.validFrom: 2019-01-15
-search.app: 
-  - ProjectOperations
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Bulk corrections of actuals created by approved time and expense entries
@@ -26,7 +17,7 @@ search.app:
 
 Occasionally a time or expense entry may be entered incorrectly. For example, a consultant might select the wrong date when creating a time entry or they might transpose the numbers when entering an expense. If a consultant can’t make the updates to the submitted entries, an administrator can directly correct the entry for a project.
 
-To complete the procedures in this topic, you will need Administrator permissions.
+To complete the procedures in this article, you will need Administrator permissions.
 
 ## Correct approved time entries     
 

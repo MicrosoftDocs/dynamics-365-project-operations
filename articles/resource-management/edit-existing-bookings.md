@@ -1,19 +1,22 @@
 ---
 title: Edit bookings
-description: This topic provides information about how to update and make changes to bookings. 
-author: ruhercul
-ms.date: 11/12/2020
+description: This article provides information about how to update and make changes to bookings. 
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: ruhercul
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Edit Bookings
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 
-When changes occur on a project that require you to update existing bookings, there are several ways to make the changes. This topic outlines how to update and make changes to bookings.
+When changes occur on a project that require you to update existing bookings, there are several ways to make the changes. This article outlines how to update and make changes to bookings.
 
 ## Resource reconciliation
 

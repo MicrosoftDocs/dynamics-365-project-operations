@@ -1,12 +1,14 @@
 ---
 title: Approval sets in Project Service Automation
-description: This topic provides information about approval set, requests, and the subsets of those operations.
+description: This article provides information about approval set, requests, and the subsets of those operations.
 author: stsporen
-manager: tfehr
-ms.date: 05/28/2021
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.custom:
+  - evergreen
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: stsporen
+ms.reviewer: johnmichalak
+ms.author: abriccetti
 ---
 
 # Approval sets in Project Service Automation

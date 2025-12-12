@@ -1,16 +1,16 @@
 ---
 title: Manage multiple customers on project-based quote lines
-description: This topic provides information about how to manage multiple customers on project-based quote lines.
-author: rumant
-ms.date: 10/06/2020
+description: This article provides information about how to manage multiple customers on project-based quote lines.
+author: poojafandan
+ms.date: 06/07/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
 # Manage multiple customers on project-based quote lines
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Project-based quote lines support scenarios where each quote line has a list of customers that are paying for it. This list of customers on the project-based quote line can be same as the list of customers on the quote. You can also change the list of customers to be different. To create the eventual project contract when a project quote is won, the customer list on project-based quote line is copied to the corresponding project–based contract line. Customers on the project-based quote are copied to the project contract.
 

@@ -1,28 +1,13 @@
 ---
-# required metadata
-
 title: Implement custom fields for the Microsoft Dynamics 365 Project Timesheet mobile app on iOS and Android
-description: This topic provides common patterns for using extensions to implement custom fields.
-author: Yowelle
-ms.date: 05/29/2019
-ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
+description: This article provides common patterns for using extensions to implement custom fields.
+author: mohitmenon
+ms.author: mohitmenon
+ms.date: 05/22/2024
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: andchoi
+  - bap-template
+ms.reviewer: johnmichalak
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
 
@@ -32,7 +17,7 @@ ms.search.validFrom: 2019-05-29
 
 [!include [banner](../includes/banner.md)]
 
-This topic provides common patterns for using extensions to implement custom fields. The following topics are covered:
+This article provides common patterns for using extensions to implement custom fields. The following articles are covered:
 
 - The various data types that the custom field framework supports
 - How to show read-only or editable fields on timesheet entries, and save user-provided values back to the database
@@ -41,7 +26,7 @@ This topic provides common patterns for using extensions to implement custom fie
 
 ## Audience
 
-This topic is intended for developers who are integrating their custom fields into the Microsoft Dynamics 365 Project Timesheet mobile application that is available for Apple iOS and Google Android. The assumption is that readers are familiar with X++ development and project timesheet functionality.
+This article is intended for developers who are integrating their custom fields into the Microsoft Dynamics 365 Project Timesheet mobile application that is available for Apple iOS and Google Android. The assumption is that readers are familiar with X++ development and project timesheet functionality.
 
 ## Data contract – TSTimesheetCustomField X++ class
 
@@ -70,7 +55,7 @@ The **FieldBaseType** property on the **TsTimesheetCustom** object determines th
 
 - If the **stringOptions** property is provided on the **TSTimesheetCustomField** object, those list elements are the only values that users can select by using option buttons (radio buttons).
 
-    In this case, the string field can act as an enum value for the purpose of user entry. To save the value to the database as an enum, manually map the string value back to the enum value before you save to the database by using chain of command (see the “Use chain of command on the TSTimesheetEntryService class to save a timesheet entry from the app back to the database” section later in this topic for an example).
+    In this case, the string field can act as an enum value for the purpose of user entry. To save the value to the database as an enum, manually map the string value back to the enum value before you save to the database by using chain of command (see the “Use chain of command on the TSTimesheetEntryService class to save a timesheet entry from the app back to the database” section later in this article for an example).
 
 ### fieldExtendedType (TSCustomFieldExtendedType)
 
@@ -112,7 +97,7 @@ This property specifies the label that is shown next the field in the app.
 
 ### stringOptions (List of Strings)
 
-This property is applicable only when **fieldBaseType** is set to **String**. If **stringOptions** is set, the string values that are available for selection via option buttons (radio buttons) are specified by the strings in the list. If no strings are provided, free-text entry in the string field is allowed (see the “Use chain of command on the TSTimesheetEntryService class to save a timesheet entry from the app back to the database” section later in this topic for an example).
+This property is applicable only when **fieldBaseType** is set to **String**. If **stringOptions** is set, the string values that are available for selection via option buttons (radio buttons) are specified by the strings in the list. If no strings are provided, free-text entry in the string field is allowed (see the “Use chain of command on the TSTimesheetEntryService class to save a timesheet entry from the app back to the database” section later in this article for an example).
 
 ### stringLength (int)
 

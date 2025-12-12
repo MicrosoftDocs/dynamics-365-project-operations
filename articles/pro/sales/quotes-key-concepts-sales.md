@@ -1,16 +1,20 @@
 ---
-title: Quotes - Key concepts - lite
-description: This topic provides information about using project quotes in Project Operations.
-author: rumant
-ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+title: Concepts unique to Project quotes
+description: This article provides information about using project quotes in Project Operations.
+author: poojafandan
+ms.date: 06/07/2024
+ms.topic: concept-article
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
 # Concepts unique to Project quotes
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Core_
 
 
 The following are key concepts to be aware of before you begin using project quotes in Dynamics 365 Project Operations:
@@ -77,9 +81,13 @@ Invoice schedules are specific to each quote line and are also optional. Invoice
 
 Project Operations quotes are built on the Dynamics 365 Sales quotes. However, there are some important differences in functionality that you should be aware of:
 
-- The **Revise** and **Activate** actions are not supported.
+
 - Project Operations quotes have two different types of lines. One is for projects and the other is for products.
 - Project Operations quotes have their own form and UI elements, business rules, business logic in plug-ins, and client-side scripts that make them unique from Sales quotes.
+- Sales quotes allow you to attach multiple orders to a sales quote. In Project Operations, only one project contract can be attached to a project quote.
+- When you win a sales quote, the related opportunity can remain open. After a project quote is won, the related opportunity is closed.
+- A sales quote doesn't include some fields and concepts that are included on a project quote. The fields include **Contracting Unit**, **Account Manager**, and **Bill to Contact Name**.  
+- **Type**: Sales and project quotes are also identified by the option set–based field, **Type**. For a sales quote, this field has the value **Item-based**. For a project quote, it has the value **Work-based**.
 
 For these reasons, it is not recommended to use a Sales quote and a Project Operations quote interchangeably.
 

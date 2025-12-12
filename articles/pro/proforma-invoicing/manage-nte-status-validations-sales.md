@@ -1,16 +1,20 @@
 ---
 title: Manage not-to-exceed status and validations 
-description: This topic provides information about the not-to-exceed limit checks performed in Project Operations. 
-author: rumant
-ms.date: 04/05/2021
+description: This article provides information about the not-to-exceed limit checks performed in Project Operations. 
+author: poojafandan
+ms.date: 06/07/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
 # Manage not-to-exceed status and validations 
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 ## Not-to-exceed on approvals
 

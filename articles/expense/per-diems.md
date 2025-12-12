@@ -1,16 +1,21 @@
 ---
 title: Per diems
-description: This topic provides information about the per diem rules that are used in Expense management.
-author: suvaidya
-ms.date: 10/01/2020
+description: This article provides information about the per diem rules that are used in Expense management.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: suvaidya
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Per diems
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP_
 
 
 A per diem is an allowance that is paid to a worker who is traveling for work. In Expense management, you can create per diem rules for  various travel situations. Per diem rates can be based on the time of year, the travel location, or both. When you create a per diem  rule, you can specify that a percentage of the per diem rate will be withheld if a worker receives complimentary meals or services. You can also set a minimum and maximum number of hours that the per diem rate can apply to a worker's travel.

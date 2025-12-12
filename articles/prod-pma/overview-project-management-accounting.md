@@ -1,28 +1,15 @@
 ---
-# required metadata
-
 title: Project management and accounting overview
 description: The project management and accounting functionality can be used in multiple industries to provide a service, produce a product, or achieve a result.  
-author: Yowelle
-ms.date: 07/25/2019
+author: rumant
+ms.author: rumant
+ms.date: 05/24/2024
 ms.topic: overview
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
-ms.search.form: ProjTable; ProjProjectManagementWorkspace
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
-
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-# ms.search.industry: 
-ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 
@@ -125,7 +112,7 @@ Here are some of the ways that you can use the resource scheduling functionality
 
 -   Use information about a worker’s attributes, such as education, skills, certifications, and project experience, to match the worker to the requirements of a project.
 -   Use information about a worker’s calendar and availability to match the worker’s schedule to the project calendar.
--   Review the capacity of each worker, and determine how that capacity is being used. For example, if a worker is being underused, the worker can be assigned to a project that fits his or her availability and attributes.
+-   Review the capacity of each worker, and determine how that capacity is being used. For example, if a worker is being underused, the worker can be assigned to a project that fits their availability and attributes.
 -   Review a worker's availability to make sure that there are no calendar conflicts with the worker's assignments.
 -   Review information about worker utilization in either a summary view (for example, by department or by worker) or a detailed view (for example, by workers in a department or by weekly detail for each worker).
 -   Modify resource assignments for various units of time, such as day, week, or month, to optimize how the workers are used.

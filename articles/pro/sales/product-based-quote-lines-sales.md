@@ -1,17 +1,21 @@
 ---
-title: Product-based quote lines overview - lite
-description: This topic provides information about working with product-based quote lines.
-author: rumant
-ms.date: 10/30/2020
+title: Product-based quote lines overview
+description: This article provides information about working with product-based quote lines.
+author: poojafandan
+ms.date: 06/07/2024
 ms.topic: overview
-ms.reviewer: kfend 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 
 ---
 
-# Product-based quote lines overview - lite
+# Product-based quote lines overview
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Core_
 
 You can create product-based quote lines in Dynamics 365 Project Operations. Product-based quote lines can be manually added, or they can be items from the product catalog.
 

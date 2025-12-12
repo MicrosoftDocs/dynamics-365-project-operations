@@ -1,22 +1,28 @@
 ---
-title: Add an Azure subscription to an LCS project
-description: This topic provides information about how to connect your Azure subscription to an LCS project.
-author: sigitac
-ms.date: 04/12/2021
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: sigitac
+title: Add an Azure subscription to an Lifecycle Services project
+description: This article provides information about how to connect your Azure subscription to an Lifecycle Services project.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
+ms.topic: how-to
+ms.reviewer: johnmichalak
+ms.custom:
+  - bap-template
+  - sfi-image-nochange
+
 ---
 
-# Add an Azure subscription to an LCS project
+# Add an Azure subscription to an Lifecycle Services project
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
 
-Cloud-hosted environments must be deployed using an existing Azure subscription. This topic explains how to connect your existing Azure subscription to an LCS project. 
+_**Applies To:** Project Operations Integrated with ERP_
+
+Cloud-hosted environments must be deployed using an existing Azure subscription. This article explains how to connect your existing Azure subscription to an Lifecycle Services project. 
 
 ## Grant admin consent
 
-1. In your LCS project, in the **Environments** section, select **Microsoft Azure settings**.
+1. In your Lifecycle Services project, in the **Environments** section, select **Microsoft Azure settings**.
 
 ![Microsoft Azure Settings.](./media/1MicrosoftAzureSettings.png)
 
@@ -48,14 +54,14 @@ The authorization is now complete.
 
 ![Subscription Access.](./media/7SubscriptionAccess.png)
 
-### Add a subscription connector to an LCS project
+### Add a subscription connector to an Lifecycle Services project
 
-1. In your LCS project, on the **Microsoft Azure settings** page, select **Add** to add a new connector.
+1. In your Lifecycle Services project, on the **Microsoft Azure settings** page, select **Add** to add a new connector.
 2. Enter your Azure subscription ID. You can find your Azure subscription ID in the [Azure portal](https://ms.portal.azure.com/), under  **Settings**  in the lower left of the screen.
 3. In the **Configure to use Azure Resource Manager** field, select **Yes**.
-4. Make sure Azure's Subscription AAD Tenant Domain matches the domain-owning Azure subscription that you are using, and select **Next**.
-5. On the **Microsoft Azure Setup** screen, select **Next** to confirm. If you receive an error on this screen, return to the section [Provide Dynamics Deployment Services access to Azure subscription](#provide) in this topic and make sure you have completed all of the steps.
-6. Download the Azure Management Certificate to a local folder on your computer. Ask your Azure subscription administrator to upload the certificate to Azure Management Portal by selecting the subscription and going to **Settings** > **Management Certificates**. This certificate enables LCS to communicate with Azure on your behalf. You can skip this step if your user has access to the subscription.
+4. Make sure Azure's Subscription Microsoft Entra Tenant Domain matches the domain-owning Azure subscription that you are using, and select **Next**.
+5. On the **Microsoft Azure Setup** screen, select **Next** to confirm. If you receive an error on this screen, return to the section [Provide Dynamics Deployment Services access to Azure subscription](#provide) in this article and make sure you have completed all of the steps.
+6. Download the Azure Management Certificate to a local folder on your computer. Ask your Azure subscription administrator to upload the certificate to Azure Management Portal by selecting the subscription and going to **Settings** > **Management Certificates**. This certificate enables Lifecycle Services to communicate with Azure on your behalf. You can skip this step if your user has access to the subscription.
 7. Select  **Next**.
 8. Select the Azure region to deploy in and select a data center that is close to where you plan to use this system.
 9.  Select  **Connect**.

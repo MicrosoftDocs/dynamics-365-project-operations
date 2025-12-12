@@ -1,16 +1,20 @@
 ---
 title: Set up a retainer schedule
-description: This topic provides information about how to set up a retainer schedule in Project Operations.
-author: rumant
-ms.date: 10/22/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+description: This article provides information about how to set up a retainer schedule in Project Operations.
+author: poojafandan
+ms.date: 06/07/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
 # Set up a retainer schedule
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Retainer schedules are set up on the **Project Contract** page in Dynamics 365 Project Operations.
 

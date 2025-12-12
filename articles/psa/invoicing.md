@@ -1,20 +1,20 @@
 ---
 title: Invoicing in Project Service Automation
-description: This topic provides information about invoicing.
+description: This article provides information about invoicing.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 08/03/2020
-ms.topic: article
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 
@@ -90,7 +90,7 @@ After **ProcessRunner** has finished running, it calls **ProcessRunCaller**, pro
 The batch process job for creating invoices is a recurrent job. If this batch process is run many times, multiple instances of the job are created and cause errors. Therefore, you should start the batch process only one time, and you should restart it only if it stops running.
 
 > [!NOTE]
-> Batch invoicing in Project Service Automation only runs for project contract lines that are configured by invoice schedules. A contract line with a fixed price billing method must have milestones configured. A project contract line with a time and material billing method will need a date-based invoice schedule set up. Information about setting up invoicing frequencies in the context of a project that is based on a quote line, is provided in the topic, [Quotes and quote lines](basic-quote-lines.md#invoice-schedule). The same applies to a project-based contract line.      
+> Batch invoicing in Project Service Automation only runs for project contract lines that are configured by invoice schedules. A contract line with a fixed price billing method must have milestones configured. A project contract line with a time and material billing method will need a date-based invoice schedule set up. Information about setting up invoicing frequencies in the context of a project that is based on a quote line, is provided in the article, [Quotes and quote lines](basic-quote-lines.md#invoice-schedule). The same applies to a project-based contract line.      
  
 ### Edit a draft PSA invoice
 

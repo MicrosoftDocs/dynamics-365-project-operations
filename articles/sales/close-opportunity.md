@@ -1,16 +1,19 @@
 ---
-title: Close an opportunity
-description: This topic provides information about closing a project opportunity.
-author: rumant
-ms.date: 10/01/2020
+title: Close a project opportunity 
+description: This article provides information about closing a project opportunity.
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
-# Close an opportunity
+# Close a project opportunity 
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Project opportunities can be closed as Won or Lost. The **Close opportunity** dialog box allows you put in the status reason, date, and other details about win or loss of the opportunity.
 

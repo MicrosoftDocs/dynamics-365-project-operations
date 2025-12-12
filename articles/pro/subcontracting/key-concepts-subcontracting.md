@@ -1,20 +1,22 @@
 ---
 title: Key concepts in subcontracting 
-description: This topic explains some key concepts that apply to subcontracting in Microsoft Dynamics 365 Project Operations.
+description: This article explains some key concepts that apply to subcontracting in Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 08/03/2021
-ms.topic: article
-ms.reviewer: kfend 
+ms.date: 04/08/2024
+ms.topic: concept-article
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Key concepts in subcontracting
 
-[!include [banner](../../includes/dataverse-preview.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-The topic explains some key concepts that you should be aware of before you start to use the subcontracting functionality in Microsoft Dynamics 365 Project Operations.
+The article explains some key concepts that you should be aware of before you start to use the subcontracting functionality in Microsoft Dynamics 365 Project Operations.
 
 ## Contracting unit on the subcontract
 
@@ -30,6 +32,10 @@ For projects, there are typically fixed-fee and consumption-based contracting mo
 
 - **Time and Material** – When a subcontract line uses the **Time and Material** billing method, the cost of time is recorded on the project as subcontractors work on that project and record time. These cost transactions from subcontractors are then matched with the line items on vendor invoices. In this model, project managers who use Project Operations can match and verify vendor invoice lines with subcontractor time that is recorded and approved. After the verification is completed, previous cost actuals that were recorded after approval are reversed, and new cost actuals that are based on the vendor invoice are created on the project.
 - **Fixed Price** – In this fixed-fee contracting model, vendor invoices are based on fixed milestones. However, subcontractor resources can also report time. The time is then reviewed and approved by the project manager. When it's approved, Project Operations creates temporary cost actuals on the project. After the vendor sends an invoice for a milestone, the project manager can match previously recorded cost actuals against the milestone. When the verification is completed, the cost actuals are reversed, and the milestone-based cost is recorded.
+
+
+    > [!IMPORTANT]
+    > **Fixed Price** subcontracts are currently not supported for _resource/non-stocked based scenarios_ in Project Operations. 
 
 ## Project price lists on subcontracts
 

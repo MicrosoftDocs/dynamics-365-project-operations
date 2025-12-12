@@ -4,20 +4,17 @@ description: How to create a project template in Project Service
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Create a project template (Project Service)
 
@@ -30,14 +27,21 @@ Project templates save you time if your company regularly bids on similar types 
 ## Components of project template
  A project template consists of three components:  
   
-- **Work breakdown structure**: A work breakdown structure in a project template has the same set of elements as in the project. You can create a task hierarchy, associate roles to task, define schedule attributes, set dependencies and view all the data in the Gantt. The work breakdown structure in project templates also support task modes for each task. There is no difference between a project template and a project when creating work schedule.  
+- **Work breakdown structure**: A work breakdown structure in a project template has the same set of elements as in the project. You can create a task hierarchy, associate roles to task, define schedule attributes, set dependencies, and view all the data in the Gantt. The work breakdown structure in project templates also supports task modes for each task. There is no difference between a project template and a project when creating a work schedule.  
   
 - **Project estimates**: Project estimates in templates work the same way as they do in projects, except the price lists for defaulting the cost and sales prices are always the default cost and sales price lists defined in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] parameters. The rest of the functionality is the same as in a project.  
   
 - **Project team formation**: When forming a project team for a project template, you can’t book a named resource in a template. You can use **Generate Project Team** in the work breakdown structure to generate a set of generic resources. You can also specify required skills and proficiencies for generic resources. You can’t substitute a generic resource with a bookable resource in project templates.  
-  
+
+## Create a project template from an existing project
+You can create a project template from a project in the following ways:
+
+- **Work breakdown structure**: A work breakdown structure in a template that is derived from a project will copy all tasks and dependencies. The assignments that are created will be based on the generic team members that are added to the project team when the project template is created.
+- **Project estimates**: When a project template is created from an existing project, the estimates from the source project are copied to the project template.
+- **Project team members**: When a template is created from an existing project, all named team members are replaced with the organization's generic resource. All position names and roles are maintained.
+
 ## Create a project from a template  
- You can create a project from a template in these following ways:  
+ You can create a project from a template in the following ways:  
   
 -   When creating a project from the quote, you can choose a project template in the project quick create form.  
   

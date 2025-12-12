@@ -1,21 +1,27 @@
 ---
 title: Proforma project invoices
-description: This topic provides information about proforma project invoices in Project Operations.
-author: rumant
-ms.date: 04/06/2021
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
-ms.author: rumant
+description: This article provides information about proforma project invoices in Project Operations.
+author: suvaidya
+ms.date: 09/24/2025
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: abriccetti
 ---
 
-# Proforma project pnvoices
+# Proforma project invoices
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Core_
+
+> [!NOTE]
+> You can configure this process to run in the background [using notifications](../../proforma-invoicing/long-running-jobs.md).
 
 Proforma project invoicing gives project managers a second level of approval before they create invoices for customers. The first level of approval is completed when time, expense, and material entries that project team members submit are approved.
 
-Dynamics 365 Project Operations Lite Deployment isn't designed to generate customer-facing invoices. The following list shows why invoices cannot be generated:
+Dynamics 365 Project Operations  Core isn't designed to generate customer-facing invoices. The following list shows why invoices cannot be generated:
 
 - Does not contain tax information.
 - Cannot convert other currencies to the invoicing currency.

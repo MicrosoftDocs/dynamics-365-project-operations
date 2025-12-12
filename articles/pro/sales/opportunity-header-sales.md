@@ -1,16 +1,20 @@
 ---
-title: Opportunity settings - lite
-description: This topic provides information about project-based deals and project-based opportunity lines.
-author: rumant
-ms.date: 10/01/2020
+title:  Header details for project opportunities
+description: This article provides information about project-based deals and project-based opportunity lines.
+author: poojafandan
+ms.date: 06/07/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
 # Header details for project opportunities
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Core_
 
 The Opportunity header captures the overall information about a project-based deal that applies to all the lines on the project-based opportunity.
 

@@ -1,27 +1,28 @@
 ---
 title: Use bookable resource as a pricing dimension
-description: This topic provides information about using a bookable resource as a pricing dimension.
+description: This article provides information about using a bookable resource as a pricing dimension.
 author: Rumant
-ms.custom: 
-  - dyn365-projectservice
-ms.date: 10/01/2020
-ms.topic: article
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
+ms.custom:
+  - dyn365-projectservice
+  - evergreen
+  - sfi-image-nochange
 ---
 
 # Use bookable resource as a pricing dimension
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-This topic provides information about using a bookable resource as a pricing dimension. Before you begin, if you have not already created a pricing dimension solution, you will need to create a new one. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new pricing dimension solution for your organization, complete the procedures in the [Create custom fields and entities](create-custom-fields-entities.md) topic.
+This article provides information about using a bookable resource as a pricing dimension. Before you begin, if you have not already created a pricing dimension solution, you will need to create a new one. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new pricing dimension solution for your organization, complete the procedures in the [Create custom fields and entities](create-custom-fields-entities.md) article.
 
 ## Add bookable resource to forms and views
 To make the fields visible in the UI in the pricing dimension solution, you will need to walk through all of the forms and views of the key Project Service entities and add these fields to the forms and views of those entities.
@@ -68,7 +69,6 @@ This opens the **New Pricing dimension field name** page for **msdyn_bookableres
 
 5. Add **msdyn_projectteam** to the **Entity Locigal Name** field and **msdyn_bookableresourceid** to the **Field Name** field. Save the record.
 
- ![New Pricing dimension field name form.](media/PD-fieldname-Added.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

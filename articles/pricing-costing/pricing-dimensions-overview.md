@@ -1,18 +1,21 @@
 --- 
 title: Pricing dimensions overview
-description: This topic provides information about the pricing dimensions in Dynamics 365 Project Operations.
-author: rumant
-ms.date: 11/30/2020
+description: This article provides information about the pricing dimensions in Dynamics 365 Project Operations.
+author: abriccetti
+ms.author: abriccetti 
+ms.date: 01/09/2025
 ms.topic: overview
-ms.prod: 
-ms.reviewer: kfend 
-ms.author: rumant 
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 
 --- 
 
 # Pricing dimensions overview
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 The dimensions that are used in human resources to set up pricing and costs fall into two categories:
 
@@ -31,7 +34,7 @@ With these fields enabled, you can set up the price and cost for each role and o
 
 ![Screenshot of Project Service parameters with “Applicable to Sales” highlighted.](media/PS-OOB-parameters.png)
 
-If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following topics. 
+If you need to price or cost for your resources using additional attributes, you can create customized fields, entities, and dimensions. For more information, see the following articles. 
   
   > [!NOTE]
   > The procedures must be completed in the order they are listed.

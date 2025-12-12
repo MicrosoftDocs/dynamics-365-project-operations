@@ -1,34 +1,20 @@
 --- 
-# required metadata 
- 
 title: Configure intercompany project invoicing
-description: This topic shows how to set up project invoicing between two companies in your organization. 
-author: Yowelle
-ms.date: 07/29/2019
-ms.topic: business-process 
-ms.prod:  
-ms.technology:  
- 
-# optional metadata 
- 
-ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice   
-audience: Application User 
-# ms.devlang:  
-ms.reviewer: josaw
-ms.search.scope: Core, Operations 
-# ms.tgt_pltfrm:  
-# ms.custom:  
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: andchoi
-ms.search.validFrom: 2016-06-30 
-ms.dyn365.ops.version: Version 7.0.0 
+description: This article shows how to set up project invoicing between two companies in your organization. 
+author: ryansandness
+ms.author: ryansandness
+ms.date: 05/24/2024
+ms.topic: how-to 
+ms.custom: 
+  - bap-template  
+ms.reviewer: johnmichalak
+
 ---
 # Configure intercompany project invoicing
 
 [!include [banner](../../includes/banner.md)]
 
-This topic shows how to set up project invoicing between two companies in your organization. This task uses the USSI data set.
+This article shows how to set up project invoicing between two companies in your organization. This task uses the USSI data set.
 
 1. In the navigation pane, go to **Modules > Accounts payable > Vendors > All vendors**.
 2. In the **All vendors** list, find and select the desired record.

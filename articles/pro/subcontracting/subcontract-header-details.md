@@ -1,20 +1,22 @@
 ---
 title: Header details for subcontracts
-description: This topic explains the functionality provided on the subcontract header in Project Operations.
+description: This article explains the functionality provided on the subcontract header in Project Operations.
 author: rumant
-ms.date: 09/14/2021
+ms.date: 12/15/2023
 ms.topic: article
-ms.reviewer: kfend 
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Header details for subcontracts
 
-[!include [banner](../../includes/dataverse-preview.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-This topic explains the functionality provided on the subcontract header in Dynamics 365 Project Operations.
+This article explains the functionality provided on the subcontract header in Dynamics 365 Project Operations.
 
 As a Project Manager plans and executes projects, they may employ subcontractors and purchase products and services from vendors. When a Project Manager needs to purchase products or services, they can create a subcontract in Project Operations.
 

@@ -1,18 +1,19 @@
 ---
-# required metadata
-
 title: Project sales tracking 
-description: This topic provides information about how Project Operations tracks progress against labor revenue on a project.
-author: rumant
-ms.date: 03/24/2021
-ms.topic: article
-ms.reviewer: kfend
-ms.author: rumant
+description: This article provides information about how Project Operations tracks progress against labor revenue on a project.
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Project sales tracking
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Dynamics 365 Project Operations tracks labor estimates and revenue at the lowest required granularity on a project plan. The estimate of labor revenue is based on the planned effort and the generic or named resources that are assigned to each leaf node task in the project plan. When the project begins and people start to report time on various project tasks, the actual revenue on labor is summarized which starts a calculation of the projections.
 

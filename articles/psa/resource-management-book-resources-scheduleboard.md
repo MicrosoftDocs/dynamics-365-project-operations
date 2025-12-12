@@ -1,23 +1,16 @@
 ---
 title: Use the Schedule Board to book project resources
-description: This topic provides information about how to book resources.
-author: ruhercul
+description: This article provides information about how to book resources.
+author: tulsij
+ms.author: tulsijhaveri
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/28/2019
-ms.topic: article
-#
-#
-ms.author: ruhercul
-audience: Admin
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+  - bap-template
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
+ms.reviewer: johnmichalak
 ---
 
 # Use the Schedule Board to book project resources
@@ -48,6 +41,25 @@ Before you can book from the Schedule Board, you must create or generate resourc
 The requirement is fulfilled by using the selected resource. In the **Booking Requirements** pane, notice that the requirement has been updated, and the resource is shown as booked on the project.
 
 ![Resource booked on the project.](media/Resource-Management-image76.png)
+
+
+## Enabling and Disabling the new Schedule Board
+In the October 2023 early access release, the new Universal Resource Scheduling (URS) schedule board is available. For releases where the new board is turned on by default, administrators can re-enable the legacy schedule board. You need to set the solution setting `msdyn_EnableOldScheduleBoard` to **true**. To change `msdyn_EnableOldScheduleBoard`, use the XRMUtility or through a solution by [adding the settings solution component](/power-apps/maker/data-platform/create-edit-configure-settings#adding-an-existing-setting-environment-value).
+
+An example of the [XRM Utility](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-utility/getglobalcontext) command to change this setting:
+
+```javascript
+//Check the value of the setting
+Xrm.Utility.getGlobalContext().getCurrentAppSettings()["msdyn_EnableOldScheduleBoard"] 
+
+//Enable the legacy schedule board 
+ Xrm.Utility.getGlobalContext().saveSettingValue("msdyn_EnableOldScheduleBoard", true, {overrideScope: 1}).then(() => {a = "success"}, (error) => {a = error})
+ ```
+
+Once the legacy schedule board has been enabled in your environment, users can switch between the legacy experience and the new experience directly on the schedule board. 
+
+> [!NOTE]
+> The legacy schedule board is on a path to deprecation, and the ability to revert to the old board won't be supported long term.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

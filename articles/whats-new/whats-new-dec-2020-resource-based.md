@@ -1,19 +1,21 @@
 ---
-title: What's new December 2020 - Project Operations for resource/non-stocked based scenarios
-description: This topic provides information about the quality updates available in the December 2020 release of Project Operations for resource/non-stocked based scenarios.
+title: What's new December 2020 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates available in the December 2020 release of Project Operations Integrated with ERP.
 author: sigitac
-ms.date: 12/04/2020
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.custom:
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: whats-new
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new December 2020 - Project Operations for resource/non-stocked based scenarios
+# What's new December 2020 - Project Operations Integrated with ERP
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
 - Project Operations on Dataverse environment version 4.5.0.134
 - Project management and accounting in Dynamics 365 Finance environment version 10.0.15
@@ -56,7 +58,7 @@ The following features are included in this release:
 | Project   Planning and Tracking | 2057197          | Estimate line copy with task reference isn't supported                                                                                                     |
 | Project   Planning and Tracking | 2060687          | Time zone warning now disappears after a specific duration                                                                                                      |
 | Resource   management           | 1832887          | Default Resource category ID needs to be static to ensure repeatable data loads for Dataverse and Finance environments                                                 |
-| Time and   expense              | 2081793          | **Expense category name** must be mapped to **Expense category description** field in Finance and Operations apps                                                  |
+| Time and   expense              | 2081793          | **Expense category name** must be mapped to **Expense category description** field in finance and operations apps                                                  |
 | Time and   expense              | 2034882          | **New** button displays twice on command bar for time entries when Dynamics 365 Field Service is installed                                          |
 | Time and   expense              | 2056028          | Update **Time Edit** page to include time line                                                                                                              |
 | Time and   expense              | 1983747          | Time entry chart shows additional data                                                                                                                   |
@@ -101,7 +103,7 @@ The following features are included in this release:
 | Travel   and Expense                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | Expense report auto-posting workflow is completed but the invoice isn't posted                                                                                                                                                                                          |
 
 ### Regulatory updates
-For information about regulatory updates for Finance and Operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country, type of feature, and release.
+For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country/region, type of feature, and release.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

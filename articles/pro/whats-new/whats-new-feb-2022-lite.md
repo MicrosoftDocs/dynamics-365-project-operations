@@ -1,25 +1,27 @@
 ---
-title: What's new February 2022 - Project Operations lite deployment
-description: This topic provides information about the quality updates that are available in the February 2022 release of Project Operations lite deployment.
+title: What's new February 2022 - Project Operations Core
+description: This article provides information about the quality updates that are available in the February 2022 release of Project Operations Core.
 author: sigitac
-ms.date: 01/27/2021
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.custom:
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: whats-new
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new February 2022 - Project Operations lite deployment
+# What's new February 2022 - Project Operations Core
 
-_Applies To: Lite deployment - deal to proforma invoicing_
+_Applies To: Project Operations Core_
 
-This topic applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
+This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in a Dataverse environment version 4.28.0.120
 
 ## Features included in this release
 
-As of this release, you can add up to 300 team members to a single project. Previously, the limit on the number of team members was 150. For more information, see [Project limits](../../project-management/create-wbs.md#project-limitations).
+As of this release, you can add up to 300 team members to a single project. Previously, the limit on the number of team members was 150. For more information, see [Project limits](../../project-management/project-and-task-limitations.md).
 
 ## Quality updates
 

@@ -1,16 +1,20 @@
 ---
-title: Summary information on a project quote - lite
-description: This topic provides information about the information and settings that apply to and impact project quotes. (Sales)
+title: Header details for project quotes
+description: This article provides information about the information and settings that apply to and impact project quotes. (Sales)
 author: rumant
-ms.date: 10/01/2020
+ms.date: 12/03/2022
 ms.topic: article
-ms.reviewer: kfend 
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # Header details for project quotes
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Core_
 
 This article explains the information that applies to a project quote. This includes the settings that impact all quote lines, and information about the quote that is summarized across all the line items to drive the KPIs of the project quote.
 

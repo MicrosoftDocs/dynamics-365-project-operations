@@ -1,35 +1,20 @@
 ---
-# required metadata
-
 title: Review proposed resources
-description: This topic provides information about how to propose project resources.
-author: ruhercul
-ms.date: 08/18/2021
-ms.topic: article
-ms.prod: 
-#
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
+description: This article provides information about how to propose project resources.
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: ruhercul
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+  - bap-template 
+ms.reviewer: johnmichalak
+ms.search.scope: 
+
 ---
 
 # Review proposed resources
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Resource managers can propose a resource to the project manager by using a resource request.
 
@@ -45,8 +30,8 @@ To review proposed resources, follow these steps:
     The following status updates occur:
 
     - On the **Schedule Assistant** page, the status indicators are updated to indicate that the booking is proposed, not hard booked.
-    - On the resource request, the status is changed to **Needs Review**.
-    - On the **Team** tab of the project, the generic team member's **Request Status** value is changed to **Needs Review**.
+    - On the resource request, the reviewer of the request should change the status to **Needs Review**.
+    - On the **Team** tab of the project, the generic team member's **Request Status** value is automatically changed to **Needs Review**.
 
 The project manager can accept or reject the proposal.
 

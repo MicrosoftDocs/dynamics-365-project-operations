@@ -1,16 +1,19 @@
 ---
 title: Configure accounting for internal projects
-description: This topic provides information about how to set up accounting practices for internal projects in Project Operations.
-author: sigitac
-ms.date: 10/09/2020
+description: This article provides information about how to set up accounting practices for internal projects in Project Operations.
+author: ryansandness
+ms.author: ryansandness
+ms.date: 05/24/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: sigitac
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Configure accounting for internal projects
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Internal projects allow companies track cost related to activities that aren't being billed to a customer. Examples of internal projects include:
 

@@ -1,13 +1,12 @@
 ---
 title: Update release schedule for Project Service 3.x
-description: This topic provides information about the available and upcoming releases of Dynamics 365 Project Service Automation.
-ms.custom: dyn365-projectservice
-ms.date: 03/28/2022
-ms.reviewer: kfend
-ms.prod:
-ms.suite: ""
-#
-ms.tgt_pltfrm: ""
+description: This article provides information about the available and upcoming releases of Dynamics 365 Project Service Automation.
+ms.custom: 
+  - dyn365-projectservice
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.reviewer: johnmichalak
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 Project Service"
@@ -19,10 +18,6 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
 ---
 
 # Update release schedule for Project Service 3.x
@@ -33,36 +28,38 @@ search.app:
 
 | Solution  | Latest version |
 |-------|----|
-| Project Service Automation    | 3.10.62.162 |
+| Project Service Automation    | 3.10.93.8 |
 | Project Service Automation desktop add-in                | 3.60          |
 
 For information about updates to Project Service, see the [Dynamics 365 release plans](/dynamics365/release-plans/). 
 
 | Station  | Region | Current version | Next version |  Scheduled date
-| :---   | :---   | :---   | :---   |:---   |         
+| :---     | :---   | :---            | :---         |:---   |         
 |<strong>Station 1</strong> | |  |  | |
-| | <i>First Release</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 01, 2022
+| | <i>First Release</i> | 3.10.93.7 | TBD | November 3, 2023
 |<strong>Station 2</strong> | |  |  | |
-| | <i>South America</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 08, 2022
-| | <i>Canada</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 08, 2022
-| | <i>India</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 08, 2022
-| | <i>France</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 08, 2022
-| | <i>South Africa</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 08, 2022
-| | <i>Germany</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 08, 2022
-| | <i>Switzerland</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 08, 2022
+| | <i>South America</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>Canada</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>India</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>France</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>South Africa</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>Germany</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>Switzerland</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>Korea</i> | 3.10.93.7 | TBD | November 3, 2023
+| | <i>Norway</i> | 3.10.93.7 | TBD | November 3, 2023
 |<strong>Station 3</strong> | |  |  | |
-| | <i>Japan</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 15, 2022
-| | <i>Asia Pacific</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 15, 2022
-| | <i>Great Britain</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 15, 2022
-| | <i>Oceana</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 15, 2022
-| | <i>United Arab Emirates</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 15, 2022
+| | <i>Japan</i> | 3.10.93.7 | TBD | November 10, 2023
+| | <i>Asia Pacific</i> | 3.10.93.7 | TBD | November 10, 2023
+| | <i>Great Britain</i> | 3.10.93.7 | TBD | November 10, 2023
+| | <i>Oceania</i> | 3.10.93.7 | TBD | November 10, 2023
+| | <i>United Arab Emirates</i> | 3.10.93.7 | TBD | November 10, 2023
 |<strong>Station 4</strong> | |  |  | |
-| | <i>Europe</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 22, 2022
+| | <i>Europe</i> | 3.10.93.7 | TBD | November 17, 2023
 |<strong>Station 5</strong> | |  |  | |
-| | <i>North America</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 29, 2022
+| | <i>North America</i> | 3.10.93.7 | TBD | December 1, 2023
 |<strong>Station 6</strong> | |  |  | |
-| | <i>Government Community Cloud</i> | [3.10.62.162](whats-new-ur-41.md) | TBD | April 29, 2022
-| | <i>Dedicated Scale Groups</i> | [3.10.61.61](whats-new-ur-40.md) | [3.10.62.162](whats-new-ur-41.md) | April 08, 2022
+| | <i>Government Community Cloud</i> | 3.10.93.7 | TBD | October 27, 2023
+| | <i>Dedicated Scale Groups</i> | 3.10.93.8 | TBD | October 28, 2023
 
 
 

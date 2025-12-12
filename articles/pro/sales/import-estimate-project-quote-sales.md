@@ -1,16 +1,20 @@
 ---
-title: Import estimates for a project to a project-based quote line - lite
-description: This topic provides information about how to import estimates from a project to a quote line.
-author: rumant
-ms.date: 10/09/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+title: Import estimates from a project to a project quote line 
+description: This article provides information about how to import estimates from a project to a project quote line.
+author: poojafandan
+ms.date: 06/07/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
-# Import estimates for a project to a project-based quote line 
+# Import estimates from a project to a project quote line 
 
-_**Applies To:** Lite deployment - deal to proforma invoicing, Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 
 If a project is created during the pre-sales stage, you can select to import the financial estimate from the project to the project-based quote line.
 

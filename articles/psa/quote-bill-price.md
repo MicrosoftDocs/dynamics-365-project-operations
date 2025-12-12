@@ -1,24 +1,20 @@
 ---
 title: Quoting, pricing, and billing home page
-description: This topic provides information about quoting, pricing, and billing.
-#
-#
+description: This article provides information about quoting, pricing, and billing.
 author: rumant
 ms.author: rumant
 ms.custom: 
   - dyn365-projectservice
-  - intro-internal
-ms.date: 03/01/2019
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Quoting, pricing, and billing home page
@@ -29,7 +25,7 @@ search.app:
 
 Quoting, pricing, and billing are features that are used by both small and large organizations. By understanding how these features work in the application, organizations can more easily customize configurations.
 
-The following topics provide more information about the quoting, pricing, and billing functionality in PSA:
+The following articles provide more information about the quoting, pricing, and billing functionality in PSA:
 
 - [Sales process](basic-sales-process.md)
 - [Quote lines](basic-quote-lines.md)

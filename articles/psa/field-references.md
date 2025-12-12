@@ -1,29 +1,30 @@
 ---
 title: Add custom fields to price setup and transactional entities
-description: This topic provides information about adding custom fields to price setup and transactional entities.
+description: This article provides information about adding custom fields to price setup and transactional entities.
 author: Rumant
-ms.custom: 
-  - dyn365-projectservice
-ms.date: 10/01/2020
-ms.topic: article
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: install-set-up-deploy
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
+ms.custom:
+  - dyn365-projectservice
+  - evergreen
+  - sfi-image-nochange
 ---
 
 # Add custom fields to price setup and transactional entities 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-This topic assumes that you have completed the procedures in the topic, [Create custom fields and entities](create-custom-fields-entities.md). If you haven't completed those procedures, go back and complete them and then return to this topic. 
+This article assumes that you have completed the procedures in the article, [Create custom fields and entities](create-custom-fields-entities.md). If you haven't completed those procedures, go back and complete them and then return to this article. 
 
-In this topic, the procedures will show you how to add the required custom field references to entities and to the user interface (UI) elements such as forms and views.
+In this article, the procedures will show you how to add the required custom field references to entities and to the user interface (UI) elements such as forms and views.
 
 ## Add custom pricing dimension fields 
 After custom fields and entities have been created, the next step is to make price setup and transactional entities aware of any custom entities or option sets by creating reference fields. Depending on whether your pricing dimensions list includes option set dimensions or entity dimensions or both, follow only the steps in **Option set-based custom pricing dimensions** or **Entity-based custom pricing dimensions**, or both, respectively.

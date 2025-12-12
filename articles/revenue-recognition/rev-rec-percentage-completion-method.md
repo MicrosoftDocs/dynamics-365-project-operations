@@ -1,16 +1,17 @@
 ---
 title: Fixed price revenue estimate projects 
-description: This topic provides information about fixed price revenue in projects.
+description: This article provides information about fixed price revenue in projects.
 author: sigitac
-ms.date: 11/16/2020
+ms.date: 10/27/2023
 ms.topic: article
-ms.reviewer: kfend 
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
-
 # Fixed price revenue estimate projects 
+ > [!NOTE]
+   > Estimates have been renamed to revenue recognition in a recent product update with the **Update labels for revenue recognition and related forms and processes in Project Operations** feature. Terminology may reference either estimate or revenue recognition depending on if the feature is enabled.
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 When you create a project contract line with the following attributes in Dynamics 365 Project Operations on Microsoft Dataverse, the system automatically creates a fixed price revenue estimate project. The information in this project is based on the following:
 

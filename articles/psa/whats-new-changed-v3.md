@@ -1,12 +1,12 @@
 ---
 title: What's new or changed in Project Service Automation version 3
-description: This topic provides information about what is new and changed in Project Service Automation version 3.
+description: This article provides information about what is new and changed in Project Service Automation version 3.
 ms.custom: 
   - dyn365-projectservice
-ms.date: 11/28/2018
-ms.topic: article
-#
-#
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: whats-new
 author: JohnPBurrows
 ms.author: rumant
 audience: Admin
@@ -14,10 +14,7 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 
@@ -30,7 +27,7 @@ search.app:
 
 
 
-This topic provides information about the changes to user interface (UI), functionality, and terminology in Project Service Automation between version 2 or version 1 and version 3.
+This article provides information about the changes to user interface (UI), functionality, and terminology in Project Service Automation between version 2 or version 1 and version 3.
 
 ## Project scheduling
 The project schedule, which was known as the Work Breakdown Structure (WBS) in previous versions, has been renamed Schedule and is accessed by clicking the **Schedule** tab. 
@@ -148,7 +145,7 @@ When you have task assignments for a resource without bookings (a booking shorta
 This section provides information about the changes in time, expense, and approval in version 3 of Project Service Automation. As part of the Dynamics 365 Project Service Automation solution, the **Time entry** feature has been refreshed to leverage the Unified Interface framework. This enables delivery of a consistent, uniform user interface that follows responsive design for optimal viewing on any screen size or device. 
 
 ### Landing page
-The non-extensible custom time entry experience has been deprecated in version 3. Instead, there is now an extensible and accessible native grid experience. You can access time entry functionality by using the sitemap on the left. With this change, you will no longer be able to enter time for one week at a time. Instead, you will need to create a time entry for each day in the grid. After a few time entries have been created, users can bulk create time entries with **Copy** function explained later in this topic. 
+The non-extensible custom time entry experience has been deprecated in version 3. Instead, there is now an extensible and accessible native grid experience. You can access time entry functionality by using the sitemap on the left. With this change, you will no longer be able to enter time for one week at a time. Instead, you will need to create a time entry for each day in the grid. After a few time entries have been created, users can bulk create time entries with **Copy** function explained later in this article. 
 
 ![Time entry landing page.](media/time-entry-landing-page-07.png)
  

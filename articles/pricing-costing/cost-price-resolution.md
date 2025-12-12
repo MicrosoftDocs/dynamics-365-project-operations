@@ -1,38 +1,83 @@
 ---
-title: Resolving cost prices for estimates and actuals
-description: This topic provides information about how cost prices for estimates and actuals are resolved.
-author: rumant
-ms.date: 04/09/2021
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+title: Determine cost rates for project-based estimates and actuals
+description: This article provides information about how cost rates for project-based estimates and actuals are determined.
+author: abriccetti
+ms.date: 01/09/2025
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: abriccetti
 ---
 
-# Resolving cost prices for estimates and actuals
+# Determine cost rates for project-based estimates and actuals
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
 
-To resolve cost prices and the cost price list for estimates and actuals, the system uses the information in the **Date**, **Currency**, and **Contracting Unit** fields of the related project. After the cost price list is resolved, the application resolves the cost rate.
+_**Applies To:** Project Operations Integrated with ERP_
 
-## Resolving cost rates on actual and estimate lines for Time
+To determine cost prices on estimates and actuals in Microsoft Dynamics 365 Project Operations, the system first uses the date and currency in the incoming estimate or actual context to determine the sales price list. In the actual context specifically, the system uses the **Transaction date** field to determine which price list is applicable. The **Transaction date** value of the incoming estimate or actual is compared with the **Effective Start (Timezone independent)** and **Effective End (Timezone independent)** values on the price list. After the cost price list is determined, the system determines the cost rate.
 
-Estimate lines for Time refer to the quote and contract line details for time and resource assignments on a project.
+## Determining cost rates in estimate and actual contexts for Time
 
-After a cost price list is resolved, the system uses the **Role**, **Resourcing Company**, and **Resourcing Unit** fields on the estimate line for Time to match against the role price lines in the price list. This match assumes that you are using out-of-the-box pricing dimensions for labor cost. If you configured the system to match fields instead of, or in addition to **Role**, **Resourcing Company**, and **Resourcing Unit**, then a different combination will be used to retrieve a matching role price line. If the application finds a role price line that has a cost rate for the **Role**, **Resourcing Company**, and **Resourcing Unit** combination, that is the default cost rate. If the application can't exactly match the combination of **Role**, **Resourcing Company**, and **Resourcing Unit** values, it will retrieve role price lines with a matching role value, but have null values for **Resourcing Unit** and **Resourcing Company**. After a matching role price record with matching role price value is found, the cost rate defaults from that record. 
+Estimate context for **Time** refers to:
+
+- Quote line details for **Time**.
+- Contract line details for **Time**.
+- Resource assignments on a project.
+
+Actual context for **Time** refers to:
+
+- Entry and Correction journal lines for **Time**.
+- Journal lines that are created when a time entry is submitted.
+
+After a cost price list is determined, the system completes the following steps to enter the default cost rate.
+
+1. The system matches the combination of the **Role**, **Resourcing Company**, and **Resourcing Unit** fields in the estimate or actual context for **Time** against the role price lines on the price list. This matching assumes that you're using the standard pricing dimensions for labor cost. If you've configured the system to match fields other than or in addition to **Role**, **Resourcing Company** and **Resourcing Unit**, a different combination is used to retrieve a matching role price line.
+1. If the system finds a role price line that has a cost rate for the **Role**, **Resourcing Company**, and **Resourcing Unit** combination, that cost rate is used as the default cost rate.
+1. If the system can't match the **Role**, **Resourcing Company**, and **Resourcing Unit** values, it drops the dimension that has the lowest priority, searches for role price lines that have matches for the other two dimension values, and continues to progressively drop dimensions until a matching role price row is found. The cost rate from that record will be used as the default cost rate. If the system doesn't find a matching role price row, the price will be set to **0** (zero) by default.
 
 > [!NOTE]
-> If you configure a different prioritization of **Role**, **Resourcing Company**, and **Resourcing Unit**, or if you have other dimensions that have higher priority, this behavior will change accordingly. The system retrieves role price records with values that match each of the pricing dimension values in order of priority with rows that have null values for those dimensions coming last in the priority order.
+> If you configure a different prioritization of the **Role** and **Resourcing Unit** fields, or if you have other dimensions that have higher priority, the preceding behavior will change accordingly. The system retrieves role price records that have values that match each pricing dimension value in order of priority. Rows that have null values for those dimensions come last.
 
-## Resolving cost rates on actual and estimate lines for Expense
+## Determining cost rates on actual and estimate lines for Expense
 
-Estimate lines for Expense refer to the quote and contract line details for expenses and the expense estimate lines on a project.
+Estimate context for **Expense** refers to:
 
-After a cost price list is resolved, the system uses a combination of the **Category** and **Unit** fields on the estimate line for an expense to match against the **Category Price** lines on the resolved price list. If the system finds a category price line that has a cost rate for the **Category** and **Unit** field combination, the cost rate is defaulted. If the system can't match the **Category** and **Unit** values, or if it is able to find a matching category price line but the pricing method is not **Price Per Unit**, the cost rate is defaulted to zero(0).
+- Quote line details for **Expense**.
+- Contract line details for **Expense**.
+- Expense estimates on a project.
 
-## Resolving cost rates on actual and estimate lines for material
+Actual context for **Expense** refers to:
 
-Estimate lines for material refer to the quote and contract line details for materials and the material estimate lines on a project.
+- Entry and Correction journal lines for **Expense**.
+- Journal lines that are created when an expense entry is submitted.
 
-After a cost price list is resolved, the system uses a combination of the **Product** and **Unit** fields on the estimate line for a material estimate to match against the **Price List Items** lines on the resolved price list. If the system finds a product price line that has a cost rate for the **Product** and **Unit** field combination, the cost rate is defaulted. If the system can't match the **Product** and **Unit** values, the unit cost defaults to zero. This default will also happen if there is a matching price list item line, but the pricing method is based on a standard cost or current cost that isn't defined in the product.
+After a cost price list is determined, the system completes the following steps to enter the default cost rate.
+
+1. The system matches the combination of the **Category** and **Unit** fields in the estimate or actual context for **Expense** against the category price lines on the price list.
+1. If the system finds a category price line that has a cost rate for the **Category** and **Unit** combination, that cost rate is used as the default cost rate.
+1. If the system can't match the **Category** and **Unit** values, the price is set to **0** (zero) by default.
+1. In the estimation context, if the system can find a matching category price line, but the pricing method is something other than **Price Per Unit**, the cost rate is set to **0** (zero) by default.
+
+## Determining cost rates on actual and estimate lines for Material
+
+Estimate context for **Material** refers to:
+
+- Quote line details for **Material**.
+- Contract line details for **Material**.
+- Material estimates on a project.
+
+Actual context for **Material** refers to:
+
+- Entry and Correction journal lines for **Material**.
+- Journal lines that are created when a Material usage log is submitted.
+
+After a cost price list is determined, the system completes the following steps to enter the default cost rate.
+
+1. The system uses the combination of the **Product** and **Unit** fields in the estimate or actual context for **Material** against the price list item lines on the price list.
+1. If the system finds a price list item line that has a cost rate for the **Product** and **Unit** combination, that cost rate is used as the default cost rate.
+1. If the system can't match the **Product** and **Unit** values, the unit cost is set to **0** (zero) by default.
+1. In the estimate or actual context, if the system can find a matching price list item line, but the pricing method is something other than **Currency amount**, the unit cost is set to **0** by default. This behavior occurs because Project Operations supports only the **Currency amount** pricing method for materials that are used on a project.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

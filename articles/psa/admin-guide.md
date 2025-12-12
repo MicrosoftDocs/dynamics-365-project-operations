@@ -4,20 +4,17 @@ description: Step-by-step instructions for Project Service administration
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
-ms.date: 7/31/2018
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Administrator guide (Project Service)
 

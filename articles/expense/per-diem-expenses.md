@@ -1,34 +1,18 @@
 ---
-# required metadata
-
 title: Per diem expenses
-description: This topic provides information about how to work with per diem expenses.
+description: This article provides information about how to work with per diem expenses.
 author: suvaidya
-ms.date: 03/18/2022
-ms.topic: article
-ms.prod: 
-#
-
-# optional metadata
-
-ms.search.form: 
-audience: Application User
-# ms.devlan: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-# ms.custom: 
-ms.search.region: 
-# ms.search.industry: 
 ms.author: suvaidya
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.date: 04/08/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ---
 
 # Per diem expenses
 
-> [!IMPORTANT] 
-> Functionality that is described in this topic is available to targeted users as part of a preview release.
+[!INCLUDE[banner](../includes/banner.md)]
 
 A per diem payment is a fixed, predetermined daily allowance that a company pays to its employees for lodging (hotels), meals, and incidental expenses that those employees incur while they travel for work. The company pays this allowance to the employees instead of paying the actual travel expenses. Employees can use their **Incidentals/Other** per diem allowance to cover tips, room service, laundry, or dry-cleaning services for important business meetings. The per diem rate can vary, depending upon whether the employer chooses to reimburse for the combined cost of lodging and meals, or only for the cost of meals and incidentals.
 
@@ -121,9 +105,9 @@ Here are the calculations for the **meals and incidentals allowance**, which inc
 - Day 4 - Zero meals provided = (75-0) + 5 = 75 + 5 = USD 80
 - Day 5 - Three meals provided = (75 – 75) + 5 = 0 + 5 = USD 5
 
-- Total meals and incidentals = Meals and Incidentals for Day 1+ Day 2 +Day 3+Day 4+ Day 5 = USD 235
-- Total meal reduction = Meal reduction for Day 1+ Day 2 +Day 3+Day 4+ Day 5= 37.5+ 37.5+ 15 + 0+ 75 = USD 165
-- Total amount payable = Total allowance – Total meal reduction = USD 1,150 - USD 165 = USD 985
+- Total meals and incidentals = Meals and Incidentals for Day 1 + Day 2 + Day 3 + Day 4 + Day 5 = USD 235
+- Total meal reduction = Meal reduction for Day 1 + Day 2 + Day 3 + Day 4 + Day 5 = 37.5 + 37.5 + 15 + 0 + 75 = USD 165
+- Total amount payable = Total allowance – Total meal reduction = USD 1,150 – USD 165 = USD 985
 
 ![Per diem expense where the meal reduction is based on number of meals per day.](media/3-number-of-meals-per-day.png)
 

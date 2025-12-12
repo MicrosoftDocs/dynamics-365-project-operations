@@ -1,16 +1,21 @@
 ---
 title: Resource management key concepts
-description: This topic provides information about resource management capabilities in Microsoft Dynamics Project Operations.
-author: ruhercul
-ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: ruhercul
+description: This article provides information about resource management capabilities in Microsoft Dynamics Project Operations.
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: concept-article
+ms.custom: 
+  - bap-template
+  - evergreen
+ms.reviewer: johnmichalak
+
 ---
 
 # Resource management key concepts
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Resources are the most important asset of a service-based organization. The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals. You can use the project resourcing functionality in Dynamics 365 Project Operations to do the following tasks:
 

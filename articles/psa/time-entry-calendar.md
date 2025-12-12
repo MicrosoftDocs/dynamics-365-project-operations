@@ -1,23 +1,20 @@
 ---
 title: Time entry calendar
-description: This topic provides information about how to use the time entry calendar.
+description: This article provides information about how to use the time entry calendar.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 05/20/2019
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Time entry calendar

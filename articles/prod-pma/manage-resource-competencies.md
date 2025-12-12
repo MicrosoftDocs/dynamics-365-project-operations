@@ -1,30 +1,14 @@
 ---
-# required metadata
-
 title: Manage resource competencies
-description: This topic provides information about setting up competencies for project resources.
-author: Yowelle
-ms.date: 09/01/2020
-ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
-ms.search.form: ProjProjectsListPage
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
-ms.custom: 82022
+description: This article provides information about setting up competencies for project resources.
+author: tulsij
+ms.author: tulsijhaveri
+ms.date: 05/28/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
-ms.search.region: Global
-# ms.search.industry: 
-ms.author: andchoi
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
 
 ---
 

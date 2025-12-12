@@ -1,23 +1,20 @@
 ---
 title: Why can’t I delete records from the actuals entity?
-description: This topic provides information about why you can't delete records from the actuals entity.
+description: This article provides information about why you can't delete records from the actuals entity.
 author: JPBurrows
 ms.custom: 
   - dyn365-projectservice
-ms.date: 11/6/2018
+  - evergreen
+ms.date:  07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Why can’t I delete records from the Actuals entity?

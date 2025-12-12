@@ -1,19 +1,21 @@
 ---
-title: What's new March 2022 - Project Operations lite deployment
-description: This topic provides information about the quality updates that are available in the March 2022 release of Project Operations lite deployment.
+title: What's new March 2022 - Project Operations Core
+description: This article provides information about the quality updates that are available in the March 2022 release of Project Operations Core.
 author: sigitac
-ms.date: 03/18/2022
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.custom:
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: whats-new
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new March 2022 - Project Operations lite deployment
+# What's new March 2022 - Project Operations Core
 
-_Applies To: Lite deployment - deal to proforma invoicing_
+_Applies To: Project Operations Core_
 
-This topic applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
+This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in a Dataverse environment version 4.30.0.99
 
@@ -46,9 +48,9 @@ This topic applies to the following components and versions of Microsoft Dynamic
 
 ## Removed and deprecated features
 
-The [Removed or deprecated features in Project Operations](../../whats-new/removed-depreciated-features-project.md) topic describes features that have been removed or deprecated for Dynamics 365 Project Operations.
+The [Removed or deprecated features in Project Operations](../../whats-new/removed-depreciated-features-project.md) article describes features that have been removed or deprecated for Dynamics 365 Project Operations.
 
 - A removed feature is no longer available in the product.
 - A deprecated feature isn't in active development and might be removed in a future update.
 
-A deprecation announcement will be appear in the [Removed or deprecated features in Project Operations](../../whats-new/removed-depreciated-features-project.md) topic 12 months before any feature is removed from the product.
+A deprecation announcement will be appear in the [Removed or deprecated features in Project Operations](../../whats-new/removed-depreciated-features-project.md) article 12 months before any feature is removed from the product.

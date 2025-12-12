@@ -4,20 +4,17 @@ description: How to track a project’s status in Project Service
 author: ruhercul
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/03/2018
-ms.topic: article
-#
-#
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: how-to
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 # Track a project’s status (Project Service)
 
@@ -29,14 +26,13 @@ Use the [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn-365-projec
 
 As the engagement progresses, the project stages update to reflect the stage of the engagement:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **New**    | When you create a project, the stage is set to **New**. If you created the project from a template, at this stage the project may have a schedule, estimates, and team data. Otherwise, it will be the outline of the project and you need to manually enter the rest of the project components. |
-|  **Quote**   |      When you associate a project to a quote or create it from a quote, the project stage is set to **Quote**, and the estimated start and end datesare updated as well. When the project is in the quote stage, details on the quote display on the **Sales** tab on the **Project** page.      |
-|   **Plan**   |                                     When you win a quote associated with a project, and when the engagement progresses to the contract stage, the project stage updates to **Plan**. Contract details display on the **Sales** tab on the **Project** page.                                      |
-| **Complete** |                    When the project work is complete, you can flip the stage to **Complete**. When the project stage is set to complete, it’s understood that the work is 100% complete but the project is kept open for any pending time or expense entries to be recorded.                     |
-|  **Close**   |           When all transactions have been recorded on the project and you don't expect any more to be logged, you can manually set the stage to **Close**. When the project is set to **Close**, you can’t log any more transactions on the project and the project will be read only.           |
+| Task | Description | 
+|------------|----------|
+| **New** | When you create a project, the stage is set to **New**. If you created the project from a template, at this stage the project may have a schedule, estimates, and team data. Otherwise, it will be the outline of the project and you need to manually enter the rest of the project components. |
+| **Quote** |  When you associate a project to a quote or create it from a quote, the project stage is set to **Quote**, and the estimated start and end dates are updated as well. When the project is in the quote stage, details on the quote display on the **Sales** tab on the **Project** page. |
+| **Plan** |  When you win a quote associated with a project, and when the engagement progresses to the contract stage, the project stage updates to **Plan**. Contract details display on the **Sales** tab on the **Project** page. |
+| **Complete** | When the project work is complete, you can flip the stage to **Complete**. When the project stage is set to complete, it’s understood that the work is 100% complete but the project is kept open for any pending time or expense entries to be recorded. |
+| **Close** | When all transactions have been recorded on the project and you don't expect any more to be logged, you can manually set the stage to **Close**. When the project is set to **Close**, you can’t log any more transactions on the project and the project will be read only. |
 
 ## To track a project’s status  
 

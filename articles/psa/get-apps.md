@@ -3,20 +3,17 @@ title: Get the Dynamics 365 Project Finder Mobile apps | MicrosoftDocs
 description: How to get the Dynamics 365 Project Finder Mobile apps
 author: ruhercul
 ms.custom: 
-ms.date: 8/03/2018
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: ruhercul
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 

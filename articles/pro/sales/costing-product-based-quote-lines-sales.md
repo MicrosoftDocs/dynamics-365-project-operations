@@ -1,16 +1,20 @@
 ---
 title: Costing product-based quote lines
-description: This topic provides information about applying a cost price to a product-based quote line.
-author: ruhercul
-ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: ruhercul
+description: This article provides information about applying a cost price to a product-based quote line.
+author: poojafandan
+ms.date: 06/07/2024
+ms.topic: concept-article
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
 # Costing product-based quote lines
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Core_
 
 
 Product-based quote lines in Dynamics 365 Project Operations also have a **Cost Price** field. This field is used to track the cost price for the product on the quote line and for downstream profitability calculations.

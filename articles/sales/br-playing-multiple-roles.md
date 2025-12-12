@@ -1,17 +1,21 @@
 ---
 title: Estimate project sales and costs when a bookable resource fills multiple roles on a project 
-description: This topic explains how to use pricing dimensions to support pricing and costing estimates for a resource that fills multiple roles on a project.
-author:  rumant
-ms.date: 11/16/2020  
-ms.topic: article 
-ms.reviewer: kfend 
-ms.author: rumant 
+description: This article explains how to use pricing dimensions to support pricing and costing estimates for a resource that fills multiple roles on a project.
+author:  abriccetti
+ms.author: abriccetti
+ms.date: 01/09/2025  
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 
 --- 
 
 # Estimate project sales and costs when a bookable resource fills multiple roles on a project 
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing, Project Operations for stocked/production-based scenarios_ 
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core, Project Operations for manufacturing-based scenarios_ 
 
 Project-based companies often have the need for one resource to fill multiple roles on a project. Each role can be priced and costed differently. This means that the same resource's time on a project could get a different financial estimate depending on the bill and cost rates for each role. You can set up the values on the team member record for the named resource with different overrides on each of the tasks that the team member is assigned to.
 

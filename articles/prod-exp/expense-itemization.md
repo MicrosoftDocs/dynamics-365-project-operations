@@ -1,18 +1,21 @@
 ---
 title: Expense itemization
-description: This topic explains how to itemize expenses using the reimagined Expense workspace.
-author: suvaidya
-ms.date: 12/16/2021
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: suvaidya
+description: This article explains how to itemize expenses using the reimagined Expense workspace.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Expense itemization
 
 [!include [banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Organizations often require employees to provide a detailed breakdown of expenses incurred during travel. For example, a hotel folio may contain several itemized lines for room rate, tax, parking, and other miscellaneous expenses incurred each day during the duration of stay. Or a meal expense may require that you provide a more granular breakdown for breakfast, lunch, or dinner. Whatever the needs of the organization, each expense category can be set up to reflect the subcategories or the line items that make up an expense. While itemization has always been supported in **Expense management**, the **Reimagined expense** workspace enables more efficient itemization when the feature, **Ability to itemize recurring expenses quickly** is enabled.  
 

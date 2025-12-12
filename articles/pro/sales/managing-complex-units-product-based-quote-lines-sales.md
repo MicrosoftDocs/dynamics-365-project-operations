@@ -1,16 +1,20 @@
 ---
-title: Managing complex units such as per-user, per-month for product-based quote lines - lite
-description: This topic provides information about managing complex units for product-based quote lines.
+title: Managing complex units such as per-user, per-month for product-based quote lines
+description: This article provides information about managing complex units for product-based quote lines.
 author: rumant
-ms.date: 10/06/2020
-ms.topic: article
-ms.reviewer: kfend 
+ms.date: 12/03/2022
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
-# Managing complex units such as per-user, per-month for product-based quote lines - lite
+# Managing complex units such as per-user, per-month for product-based quote lines
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Core_
 
 Dynamics 365 Project Operations uses quantity factors to support the sale of subscription-based products. For subscription-based products, the quantity on the quote or project contract line is expressed as the number of user-months.
 

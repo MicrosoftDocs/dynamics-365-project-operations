@@ -1,23 +1,20 @@
 ---
 title: Advanced Quoting, Pricing, and Billing
-description: This topic provides information about quoting, billing, and pricing in Project Service Automation.
+description: This article provides information about quoting, billing, and pricing in Project Service Automation.
 author: kfend
 ms.custom: 
   - dyn365-projectservice
-ms.date: 2/14/2019
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: kfend
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Advanced quoting, pricing, and billing guide
@@ -28,7 +25,7 @@ search.app:
 
 The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals. 
 
-The PDF link that was previously in this topic has been removed and the content has been moved to the following topics:
+The PDF link that was previously in this article has been removed and the content has been moved to the following articles:
 
 - [Quoting, pricing, and billing](../quote-bill-price.md)
 - [Sales processes](../basic-sales-process.md)
@@ -46,7 +43,7 @@ The PDF link that was previously in this topic has been removed and the content 
 - [Recording actuals](../advanced-actuals.md)
 
 > [!NOTE]
-> This topic will be removed in a future documentation update. 
+> This article will be removed in a future documentation update. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

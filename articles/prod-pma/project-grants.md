@@ -1,30 +1,13 @@
 ---
-# required metadata
-
 title: Project grants
-description: This topic explains how to create or modify a grant. 
-author: RadhikaRS
-ms.date: 04/22/2020
-ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
+description: This article explains how to create or modify a grant. 
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: andchoi
-ms.dyn365.ops.version: 7.0
-ms.search.validFrom: 2019-01-15
+  - bap-template
+ms.reviewer: johnmichalak
 
 ---
 

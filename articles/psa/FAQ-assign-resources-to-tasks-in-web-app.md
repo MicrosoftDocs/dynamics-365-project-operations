@@ -4,20 +4,17 @@ description: An overview of the ways you can assign bookable resources.
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
-ms.date: 8/21/2018
+  - evergreen
+ms.date:  07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 

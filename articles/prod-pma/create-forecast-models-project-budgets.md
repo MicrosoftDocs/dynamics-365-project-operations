@@ -1,25 +1,12 @@
 ---
-# required metadata
-
 title: Create forecast models for project budgets 
-description: This topic describes how to create a forecast model for remaining budgets.
+description: This article describes how to create a forecast model for remaining budgets.
 author: Yowelle
 ms.date: 04/24/2020
-ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
+ms.topic: how-to
 ms.custom: 
-ms.assetid: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
@@ -31,7 +18,7 @@ ms.search.validFrom: 2019-01-15
 
 [!include [banner](../includes/banner.md)]
 
-This topic describes how to create a forecast model for remaining budgets. A project that is subject to budget control uses two types of budgets: original and remaining. When you create a project budget, you must specify the original and remaining budget forecast models that were created in the **Forecast models** page. Project budgets based on the specified models are created when you commit the project budget.
+This article describes how to create a forecast model for remaining budgets. A project that is subject to budget control uses two types of budgets: original and remaining. When you create a project budget, you must specify the original and remaining budget forecast models that were created in the **Forecast models** page. Project budgets based on the specified models are created when you commit the project budget.
 
 > [!NOTE]
 > A forecast model that is used for budget control can’t have a submodel or be used as a submodel.

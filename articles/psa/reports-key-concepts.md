@@ -1,23 +1,21 @@
 ---
 title: Key concepts
-description: This topic provides information about the key concepts for resource management in Project Service Automation.
-author: ruhercul
+description: This article provides information about the key concepts for resource management in Project Service Automation.
+author: abriccetti
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/28/2019
-ms.topic: article
-#
-#
-ms.author: ruhercul
+  - bap-template
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: concept-article
+ms.author: abriccetti
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Key concepts

@@ -1,27 +1,25 @@
 ---
-# required metadata
-
 title: Copy a project
-description: This topic provides information about copying projects in Dynamics 365 Project Operations. 
-author: ruhercul
-ms.date: 03/07/2022
+description: This article provides information about copying projects in Dynamics 365 Project Operations. 
+author: dishantpopli
+ms.date: 01/09/2025
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: ruhercul
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: dishantpopli
 ---
 
 # Copy a project
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-With Dynamics 365 Project Operations, you can quickly build new projects by selecting **Copy Project** on the **Projects** form. To copy a project, open the project you want to copy, and then select **Copy project**. The action will copy the following:
+With Dynamics 365 Project Operations, you can quickly build new projects by selecting **Copy Project** on the **Projects** form. Projects can only be copied if they have at least one task. To copy a project, open the project you want to copy, and then select **Copy project**. The action copies the following:
 
 - Project properties 
 - Work breakdown structure
 - Project team members
-- Project estimates
-- Project expense estimates
-- Project material estimates
+- Project Estimates (Labor, Expense, and Material)
 - Project checklists
 - Project buckets
 
@@ -29,7 +27,7 @@ With Dynamics 365 Project Operations, you can quickly build new projects by sele
 
 When the project is copied, the values in the following fields are copied.
 
-| Field | Project Operations Non-Stocked Materials | Project Operations Lite | Project for the Web |
+| Field | Project Operations Non-Stocked Materials | Project Operations  Core | Project for the Web |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Name | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Description | :heavy_check_mark: | :heavy_check_mark: | |
@@ -55,18 +53,18 @@ When the project is copied, the values in the following fields are copied.
 
 ## Work breakdown structure
 
-When the project is copied, the entire resource-loaded work breakdown structure is copied. Named resources are replaced with generic resources. If the named resources don't have the same working hours as the generic resource, the schedule will be recalculated, and task durations might change.
+When the project is copied, the entire resource-loaded work breakdown structure is copied. Named resources are replaced with generic resources. If the named resources don't have the same working hours as the generic resource, the schedule is recalculated, and task durations might change.
 
 ## Project team members
 
-When a project team is copied from the source project, the generic resources are copied. Generic resource assignments are also maintained as they were in the source project. Named resources will be converted to generic team members.
+When a project team is copied from the source project, the generic resources are copied. Generic resource assignments are also maintained as they were in the source project. Named resources are converted to generic team members.
 
 > [!NOTE]
 > Team members and assignments aren't copied in Project for the Web.
 
 ## Estimates
 
-When the project is copied, resource, expense and material estimate lines are copied from the source project. 
+When the project is copied, resource, expense, and material estimate lines are copied from the source project. 
 
 For information on how to programmatically access Copy Project, see [Develop project templates with Copy Project](dev-copy-project.md).
 

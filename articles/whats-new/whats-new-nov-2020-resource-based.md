@@ -1,18 +1,21 @@
 ---
-title: What's new November 2020 - Project Operations for resource/non-stocked based scenarios
-description: This topic provides information about the quality updates available in the November 2020 release of Project Operations for resource/non-stocked based scenarios.
+title: What's new November 2020 - Project Operations Integrated with ERP
+description: This article provides information about the quality updates available in the November 2020 release of Project Operations Integrated with ERP.
 author: sigitac
-ms.date: 10/30/2020
-ms.topic: article
-ms.reviewer: kfend 
+ms.custom:
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
+ms.topic: whats-new
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new November 2020 - Project Operations for resource/non-stocked based scenarios
+# What's new November 2020 - Project Operations Integrated with ERP
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
-This topic applies to the following Dynamics 365 Project Operations components and versions:
+This article applies to the following Dynamics 365 Project Operations components and versions:
 
 - Project Operations on CDS environment version 4.4.0.70
 - Project management and accounting in Dynamics 365 Finance environment version 10.0.14
@@ -60,7 +63,7 @@ This topic applies to the following Dynamics 365 Project Operations components a
 | Project accounting  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | Enabling the feature, Multiple contract lines isn't possible without CDS integration.                                                                                   |
 
 ### Regulatory updates
-For information about regulatory updates for Finance and Operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country, type of feature, and release.
+For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to LCS and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country/region, type of feature, and release.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

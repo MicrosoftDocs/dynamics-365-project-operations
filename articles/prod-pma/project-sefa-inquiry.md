@@ -1,26 +1,14 @@
 ---
-# required metadata
-
 title: Schedule of Expenditures of Federal Awards inquiry
-description: This topic provides information about the Schedule of Expenditures of Federal Awards inquiry.
-author: velofog
-ms.date: 04/2/2020
-ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
-ms.search.form: PSNProjSEFAinquiry 
-audience: Application User
-ms.devlang: 
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core 
-ms.tgt_pltfrm: 
+description: This article provides information about the Schedule of Expenditures of Federal Awards inquiry.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
+ms.topic: how-to
 ms.custom: 
-ms.search.region: Global
-ms.search.industry: public sector
-ms.author: andchoi
+  - bap-template
+ms.search.form: PSNProjSEFAinquiry 
+ms.reviewer: johnmichalak
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
 ---

@@ -1,18 +1,21 @@
 ---
 title: Cash advance
-description: This topic provides information about cash advances.
-author: suvaidya
-ms.date: 03/25/2021
-ms.topic: article
-ms.reviewer: kfend
-ms.author: suvaidya
-ms.dyn365.ops.version: 
-ms.search.validFrom: 2020-10-01
+description: This article provides information about cash advances.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/24/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Cash advance
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP_
 
 A cash advance allows employees to borrow money from their company prior to incurring any expenses. When a requested cash advance is approved and paid, the employee can use the money for the business expenses they may be about to incur. 
 
@@ -61,7 +64,7 @@ Before you submit an expense report, you can select the cash advance that aligns
  
  When these features are enabled:
  
-  - You can sadd one or more cash advances for each expense line.
+  - You can add one or more cash advances for each expense line.
   - The available balance of a cash advance is visible in real time when an expense report is saved. This allows you to process expense transactions and return cash transaction at the same time.
   - You can select multiple cash advances for one expense transaction.
   - Cash advance reconciliation data is available by using a query. 

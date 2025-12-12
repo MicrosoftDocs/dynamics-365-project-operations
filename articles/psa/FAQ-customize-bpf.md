@@ -3,10 +3,10 @@ title: How do I customize the Project Stages business process flow?
 description: An overview of how to customize the Project Stages business process flow.
 ms.custom: 
   - dyn365-projectservice
-ms.date: 10/11/2018
+  - evergreen
+ms.date:  07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 author: JohnPBurrows
 ms.author: rumant
 audience: Admin
@@ -14,10 +14,7 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 

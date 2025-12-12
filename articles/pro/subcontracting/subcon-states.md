@@ -1,20 +1,22 @@
 ---
 title: State transitions on a subcontract 
-description: This topic explains the state transitions on a subcontract in Microsoft Dynamics 365 Project Operations as the subcontract is created, executed, and closed.
+description: This article explains the state transitions on a subcontract in Microsoft Dynamics 365 Project Operations as the subcontract is created, executed, and closed.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 12/15/2023
 ms.topic: article
-ms.reviewer: tonyafehr 
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ms.author: rumant
 ---
 
 # State transitions on a subcontract 
 
-[!include [banner](../../includes/dataverse-preview.md)]
+[!INCLUDE[banner](../../includes/banner.md)]
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-This topic explains the state transitions on a subcontract in Microsoft Dynamics 365 Project Operations. Each state is represented as either draft, confirmed, closed, or canceled. The following image represents the state transitions.
+This article explains the state transitions on a subcontract in Microsoft Dynamics 365 Project Operations. Each state is represented as either draft, confirmed, closed, or canceled. The following image represents the state transitions.
 
 ![Subcontract state model](../media/SubconStates.png)  
 

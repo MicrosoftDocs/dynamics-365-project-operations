@@ -1,18 +1,21 @@
 ---
 title: Work with personal expenses on an expense report
-description: This topic provides information about how to work with personal expenses incurred by employees while traveling for business purposes.
-author:  suvaidya
-ms.date: 05/11/2021
+description: This article provides information about how to work with personal expenses incurred by employees while traveling for business purposes.
+author:  mukumarm
+ms.date: 05/24/2024
 ms.topic: article
-ms.prod:
-ms.reviewer: kfend
-ms.author: suvaidya
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: mukumarm
 ---
 
 
 # Work with personal expenses on an expense report
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 During business travel, an employee might charge personal expenses to their corporate credit card. If a process hasn't been defined for handling personal expenses, the expense report approval process might be disrupted when an employee submits their itemized expense report.
 

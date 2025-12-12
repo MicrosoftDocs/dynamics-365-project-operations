@@ -1,39 +1,27 @@
 ---
-# required metadata
-
-title: Actuals impact during the pre-sales stage of an engagement
-description: This topic provides information about the impact on the Actuals table at various events while an engagment is in the pre-sales stage in Microsoft Dynamics 365 Project Operations.
-author: rumant
-ms.date: 02/22/2022
-ms.topic: overview
-ms.prod: 
-#
-# optional metadata
-
-# ms.search.form: 
-# ROBOTS: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: tonyafehr
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-
-ms.assetid: 
-ms.search.region: 
-ms.search.industry: 
-ms.author: rumant
+title: Actuals impact during the presales stage of an engagement
+description: This article provides information about the impact on the Actuals table at various events while an engagement is in the presales stage in Microsoft Dynamics 365 Project Operations.
+author: abriccetti
+ms.date: 01/09/2025
+ms.topic: article
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: abriccetti
 ms.search.validFrom: 2020-10-01
 ---
 
-# Actuals impact during the pre-sales stage of an engagement
+# Actuals impact during the presales stage of an engagement
 
-_**Applies to:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
 
-The following table lists the actuals of different transaction types that are created at various events during the pre-sales stage of a project engagement.
+_**Applies to:** Project Operations Integrated with ERP, Project Operations Core_
+
+The following table lists the actuals of different transaction types that are created at various events during the presales stage of a project engagement.
 
 | Event | Cost actual | Example |
 |---|---|---|
-| Time is created. | Not applicable | <p>Bob Kozack, from the Fabrikam US organizational unit that has a cost rate of 100 US dollars (USD 100) per hour, is working on a project that is named "Arm Installation at Adatum." This project is mapped to a fixed price billing method on the contract line. Here is a sample time entry from Bob Kozak:</p><p>Bob Kozack - 8 hours</p> |
+| Time is created. | Not applicable | <p>Bob Kozack, from the Fabrikam US organizational unit that has a cost rate of 100 US dollars (USD 100) per hour, is working on a project that is named "Arm Installation at Adatum." This project is mapped to a fixed price billing method on the contract line. For example, a time entry from Bob Kozak:</p><p>Bob Kozack - 8 hours</p> |
 | Time is submitted. | Not applicable | A cost journal line is created for the time entry. The default cost rate is entered in the journal entry. |
 | The time entry is recalled before it's approved. | Not applicable | |
 | Time is approved. | A cost actual is created. | <p>New actual that is created:</p><ul><li>**Cost actual:** Bob Kozack, 8 hr, USD 800</li></ul> |

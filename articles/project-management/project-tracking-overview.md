@@ -2,20 +2,22 @@
 # required metadata
 
 title: Project effort tracking 
-description: This topic provides information about how to track project effort and progress of work.
-author: ruhercul
-ms.date: 02/15/2022
+description: This article provides information about how to track project effort and progress of work.
+author: abriccetti
+ms.author: abriccetti
+ms.date: 05/17/2024
 ms.topic: overview
-ms.reviewer: kfend
-ms.author: ruhercul
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 
 ---
 
 # Project effort tracking
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-The need to track progress against a schedule varies by industry. Some industries track at a granular level, where other industries track at a higher level. This topic shows how to schedule in order to meet your organization's requirements.
+The need to track progress against a schedule varies by industry. Some industries track at a granular level, where other industries track at a higher level. The tracking tab on the project entity allows customers to view the status of their project based on effort or cost.
 
 ## Effort tracking view
 

@@ -1,17 +1,19 @@
 ---
 title: Configure non-stocked materials and pending vendor invoices
-description: This topic explains how to enable non-stocked materials and pending vendor invoices.
-author: sigitac
-ms.date: 06/22/2021
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
-ms.author: sigitac
+description: This article explains how to enable non-stocked materials and pending vendor invoices.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Configure non-stocked materials and pending vendor invoices
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 ## Minimum version requirement
 
@@ -27,7 +29,7 @@ Dynamics 365 Finance:
 
 ## Run Dual-write maps for non-stocked materials and vendor invoice integration
 
-This section provides information about specific the maps required for non-stocked materials and vendor invoices. Verify that the prerequisite maps listed in the [Provision a new environment](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) topic are running on your environment.
+This section provides information about specific the maps required for non-stocked materials and vendor invoices. Verify that the prerequisite maps listed in the [Provision a new environment](../environment/resource-provision-new-environment.md#run-project-operations-dual-write-maps) article are running on your environment.
 
 1. Go to Lifecycle Services (LCS), navigate to your LCS project, and go to the **Environment details** page.
 2. In the **Common Data Service Environment Information** section, select **Link to CDS for Apps**. After you select the link, you will be redirected to the list of entities in the mappings.
@@ -77,7 +79,7 @@ Review the project cost and revenue profiles, and configure ledger posting setup
 
 ### Set up a write-in product
 
-In Project Operations, you can record material estimates and usage for catalog products that are configured in the released product catalog and for write-in products. Using write-in products requires a single released product that's configured in Finance for this purpose. Complete the following steps to configure a write-in product. Repeat these steps in each legal entity that is using Project Operations for resource/non-stocked scenarios.
+In Project Operations, you can record material estimates and usage for catalog products that are configured in the released product catalog and for write-in products. Using write-in products requires a single released product that's configured in Finance for this purpose. Complete the following steps to configure a write-in product. Repeat these steps in each legal entity that is using Project Operations Integrated with ERP scenarios.
 
 1. In Finance, go to **Product Information Management** > **Products** > **Released products**, and select **New**.
 2. In the **Product type** field, select **Item** and in the **Product subtype** field, select **Product**.

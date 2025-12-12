@@ -1,16 +1,21 @@
 ---
-title: Manage multiple customers on project contracts - lite
-description:  This topic provides information about managing multiple customers on project contracts.
-author: rumant
-ms.date: 10/27/2020
+title: Manage multiple customers on project contracts
+description:  This article provides information about managing multiple customers on project contracts.
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/07/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
-# Manage multiple customers on project contracts - lite
+# Manage multiple customers on project contracts
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Core_
 
 Project contracts in Dynamics 365 Project Operations support the scenario where a contractual agreement involves multiple customers who are funding a deal. The **Summary** tab on the **Project Contract** page includes the **Customer** field. This field identifies the primary customer of the deal. Other customers for the deal can be set up on the **Customers** tab of the **Project Contract** page.
 

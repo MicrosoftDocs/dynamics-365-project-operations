@@ -1,20 +1,25 @@
 ---
 title: Migrate fully invoiced billing milestones at cutover
-description: This topic explains how to migrate fixed-priced billing milestones that have been invoiced to the customer for open project contracts before the go-live date.
-author: sigitac
-ms.date: 01/10/2022
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: sigitac
+description: This article explains how to migrate fixed-priced billing milestones that have been invoiced to the customer for open project contracts before the go-live date.
+author: ryansandness
+ms.author: ryansandness
+ms.date: 05/24/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Migrate fully invoiced billing milestones at cutover
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP_
 
 ## Scenario
 
-Contoso is going live with Microsoft Dynamics 365 Project Operations for resource/non-stocked scenarios. As part of the cutover activities, the implementation team must migrate open project contracts from the old system. Some of the project contracts include contract lines that use the fixed-price billing method and have already been partially invoiced to the end customer. The implementation team must migrate these billing milestones as **Customer invoice posted**, because they must be included in the total contract value for revenue recognition purposes. However, customer balances in Accounts receivable and General ledger must not be affected.
+Contoso is going live with Microsoft Dynamics 365 Project Operations Integrated with ERP scenarios. As part of the cutover activities, the implementation team must migrate open project contracts from the old system. Some of the project contracts include contract lines that use the fixed-price billing method and have already been partially invoiced to the end customer. The implementation team must migrate these billing milestones as **Customer invoice posted**, because they must be included in the total contract value for revenue recognition purposes. However, customer balances in Accounts receivable and General ledger must not be affected.
 
 ## Solution
 
@@ -41,7 +46,7 @@ Contoso is going live with Microsoft Dynamics 365 Project Operations for resourc
 3. Add a mapping for the transaction status.
 
     1. Select **Add mapping**.
-    2. On the new line, in the **Finance and Operations apps** column, select the **TRANSSTATUS \[TRANSSTATUS\]** field.
+    2. On the new line, in the **Finance and operations apps** column, select the **TRANSSTATUS \[TRANSSTATUS\]** field.
     3. In the **Microsoft Dataverse** column, select **msdyn\_invoicestatus \[Invoice status\]**.
     4. In the **Map type** column, select the right arrow (**\>**).
     5. In the dialog box that appears, in the **Sync direction** field, select **Dataverse to Finance and Operations apps**.

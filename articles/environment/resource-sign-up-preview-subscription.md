@@ -1,24 +1,29 @@
 ---
 title: Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios
-description: This topic provides information about how to subscribe to and deploy Project Operations for resouce/non-stocked based scenarios.
-author: sigitac
-ms.date: 07/02/2021
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: sigitac
+description: This article provides information about how to subscribe to and deploy Project Operations Integrated with ERP.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP_
 
 
 
-This topic explains how to subscribe to the trial offer and deploy Project Operations environment for resource/non-stocked based scenarios.
+This article explains how to subscribe to the trial offer and deploy Project Operations environment for Project Operations Integrated with ERP based scenarios.
 
 ## Prerequisites
-- The user who deploys the preview must have Azure tenant global administrator rights. You can create a tenant during the first offer redemption. 
-- Deploying a Finance environment requires a valid Azure subscription that will be billed per environment. You can use your organizations existing subscription or use an [Azure trial](https://azure.microsoft.com/free/) to get started. The CDS environment will be provided free for a limited 30 day period.
+- The user who deploys the preview must have tenant administrator rights. You can create a tenant during the first offer redemption. 
+- Deploying a Finance environment requires a valid Azure subscription that will be billed per environment. You can use your organizations existing subscription or use an [Azure trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn) to get started. The CDS environment will be provided free for a limited 30 day period.
 
 > [!IMPORTANT]
 > Only one person, the tenant administrator, in an organization needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
@@ -55,19 +60,19 @@ Go to [Dynamics 365 for Finance Preview Trial](https://aka.ms/trypoche) and repe
 
 ## Start a new project in LCS
 
-Create a new LCS project as described in the topic, [Start a new project in LCS](create-lcs-project.md)
+Create a new LCS project as described in the article, [Start a new project in LCS](create-lcs-project.md)
 
 ## Add an Azure subscription to an LCS project
 
-To complete this task, follow the steps in the topic, [Add an Azure subscription to LCS project](resource-add-azure-subscription-lcs-project.md).
+To complete this task, follow the steps in the article, [Add an Azure subscription to LCS project](resource-add-azure-subscription-lcs-project.md).
 
-## Deploy Finance demo environment with Project Operations for resource/non-stocked scenarios
+## Deploy Finance demo environment with Project Operations Integrated with ERP scenarios
 
-Follow the guidance in the topic, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment. Use the [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview. 
+Follow the guidance in the article, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment. Use the [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview. 
 
 ## Install CDS setup and configuration data
 
-Install CDS setup and configuration data as described in the topic, [Set up and apply configuration data in the Common Data Service](resource-apply-pro-setup-config-data.md).
+Install CDS setup and configuration data as described in the article, [Set up and apply configuration data in the Common Data Service](resource-apply-pro-setup-config-data.md).
 Complete this step only after Finance demo environment is deployed and demo data is ready.
 
 

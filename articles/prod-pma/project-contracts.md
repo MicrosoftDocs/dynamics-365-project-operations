@@ -1,31 +1,19 @@
 ---
-# required metadata
-
 title: Project contracts
-description: This topic provides examples of the project contracts that you can create for various types of projects and funding sources, and how you can manage contracts and invoice project customers.
-author: Yowelle
-ms.date: 11/03/2017
-ms.topic: article
-ms.prod: 
-ms.technology: 
-
-# optional metadata
-
+description: This article provides examples of the project contracts that you can create for various types of projects and funding sources, and how you can manage contracts and invoice project customers.
+author: ryansandness
+ms.date: 11/01/2023
+ms.topic: how-to
+ms.custom: 
+  - bap-template
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
-# ROBOTS: 
 audience: Application User, IT Pro
-# ms.devlang: 
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-# ms.tgt_pltfrm: 
-ms.custom: 23561
+ms.reviewer: johnmichalak
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
-# ms.search.industry: 
-ms.author: andchoi
+ms.author: ryansandness
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-
 ---
 
 # Project contracts
@@ -38,28 +26,28 @@ The type of project that you create for a project contract determines the method
 
 By using a project contract, you can invoice one or more projects at the same time. The project contract also helps guarantee a consistent invoicing procedure for every subproject in a project structure. 
 
-Every project that will be invoiced must be associated with a project contract. The settings for a project contract apply to all projects and subprojects that are associated with that project contract. 
+Every project that is invoiced must be associated with a project contract. The settings for a project contract apply to all projects and subprojects that are associated with that project contract. 
 
-A project contract can specify one or more sources of funding. Therefore, you can split the billing among multiple funders, set up funding limits so that funding sources are not billed more than a specified amount, and configure funding rules for charging expenditures.
+A project contract can specify one or more sources of funding. Therefore, you can split the billing among multiple funders, set up funding limits so that funding sources aren't billed more than a specified amount, and configure funding rules for charging expenditures.
 
 ## Funding for project contracts
 Some project contracts specify that multiple parties share the responsibility for funding the project costs. Here are some examples:
 
--   A large customer that has multiple divisions requests that funding of a project be split by division.
+-   A large customer that has multiple divisions requests that funding of a project is split by division.
 -   Your company shares the costs of a large project with an external organization.
--   A  road project is co-funded by two municipalities.
+-   A  road project is cofunded by two municipalities.
 -   A bridge project is funded by a government grant and a private corporation.
 
 In Dynamics 365 Finance, you can split the billing for a single transaction or an entire project among multiple customers, grants, or organizations. 
 
-In projects that have multiple funders, all parties that contribute to the funding of an advanced funding project are called funding sources. After a customer, organization, or grant is defined as a funding source, it can be assigned to one or more funding rules. Funding rules contain the criteria that determines how charges are allocated to the various funding sources for a project. 
+In projects that have multiple funders, all parties that contribute to the funding of an advanced funding project are called funding sources. After a customer, organization, or grant is defined as a funding source, it can be assigned to one or more funding rules. Funding rules contain the criteria that determine how charges are allocated to the various funding sources for a project. 
 
 Because stocked items, such as those that appear on purchase requisitions and purchase orders, can't be split, the cost amount can't be split among multiple funding sources at the time of distribution. Therefore, the funding source value remains 0 (zero) until the inventory issue is posted. When the inventory issue is posted, the cost amount is distributed according to the account distribution rules for the project.
 
 Here are some steps that you can take to make it easier to split the billing among multiple funding sources:
 
 -   Specify that all transactions that are entered for a project use the same sales currency as the project contract.
--   Set up funding limits, so that a funding source isn't invoiced more than a specified amount toward a project.
+-   Set up funding limits, so that a funding source isn't invoiced more than a specified amount toward a project. For more information about funding limits, see [Project funding limits](./project-funding-limits.md). 
 -   Configure funding rules and funding limits for each worker, item, category, category group, and transaction type (or for all transaction types).
 -   Select optional start and end dates to define the period when each funding rule is valid.
 -   Specify the percentage that each funding source is responsible for.
@@ -74,7 +62,7 @@ To determine which tax group to associate with a transaction, the project is sea
 The following table provides scenarios for managing funding allocation among multiple funding sources. These scenarios are based on the following assumptions:
 
 -   Priority settings are factored into the allocation of funds before other funding rule criteria are applied.
--   No date range has been specified to define the period d when the funding rule is valid.
+-   No date range has been specified to define the period when the funding rule is valid.
 
 <table>
 <colgroup>
@@ -170,7 +158,7 @@ The following table provides scenarios for managing funding allocation among mul
 You have three funding sources that you want to use in the following order:
 
 1.  Use funding source 2 and funding source 3 equally until funding source 2 is exhausted.
-2.  Continue to use funding source 3 until it is exhausted.
+2.  Continue to use funding source 3 until it's exhausted.
 3.  Use funding source 1 after funding source 3 is exhausted.
 
 To accomplish this goal, you must do the following:
@@ -265,7 +253,7 @@ For all types of billing rules, you can specify a retention percentage that is d
 
 For **Time and material** and **Progress** billing rules, you can assign chargeable categories. Chargeable categories indicate the transactions that should be included in customer invoices. 
 
-When you are ready to invoice the customer, the amount to invoice for the project is calculated based on the billing rules, and a project invoice proposal is generated. 
+When you're ready to invoice the customer, the amount to invoice for the project is calculated based on the billing rules, and a project invoice proposal is generated. 
 
 The following sections provide examples that show how to set up and manage billing rules for a project.
 
@@ -297,7 +285,7 @@ Your organization, a software development firm, agrees to develop a payroll acco
 
 When you create a customer invoice for the first time, the invoice amount is automatically calculated based on the following information:
 
--   After a month, the worker on the project submits a timesheet for the project. The cost of the worker’s hours is 5,000 for development and 1,000 for installation. The development work is 33 percent completed (5,000 actual cost/15,000 budget cost), and the installation work is 20 percent completed (1,000 actual cost/5,000 budget cost).
+-   After a month, the worker on the project submits a timesheet for the project. The cost of the worker’s hours is 5,000 for development and 1,000 for installation. The development work is 33 percent completed (5,000 actual cost, 15,000 budget cost), and the installation work is 20 percent completed (1,000 actual cost, 5,000 budget cost).
 -   The invoice amount of 8,667 is automatically calculated (33 percent of 20,000 + 20 percent of 10,000).
 -   You create an invoice for 8,667 and send it to the customer.
 
@@ -320,7 +308,7 @@ When the first milestone is completed on March 31, you mark the milestone as com
 
 ### Example: Create a billing rule that is based on services plus a management fee
 
-Your organization, a management consulting firm, agrees to conduct market research to evaluate the viability of a product that the customer, a retail company, is developing. The terms of the agreement specify that you will provide the services of your top three management consultants, who will conduct the research on a time-and-materials basis. The customer agrees to pay 100 per hour, plus a 10 percent management fee for the consulting hours that are charged to the project. 
+Your organization, a management consulting firm, agrees to conduct market research to evaluate the viability of a product that the customer, a retail company, is developing. The terms of the agreement specify that you provide the services of your top three management consultants, who conduct the research on a time-and-materials basis. The customer agrees to pay 100 per hour, plus a 10 percent management fee for the consulting hours that are charged to the project. 
 
 When you set up the project contract, create a billing rule to add a 10 percent management fee to the consulting hours that are charged to the project. 
 

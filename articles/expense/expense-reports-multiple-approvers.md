@@ -1,33 +1,21 @@
 ---
-# required metadata
-
 title: Expense reports and multiple approvers
-description: This topic provides information about expense reports that require approval by more than one person.
-author: suvaidya
-ms.date: 09/23/2020
+description: This article provides information about expense reports that require approval by more than one person.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
 ms.topic: article
-ms.prod: 
-#
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 
-# optional metadata
-
-ms.search.form: 
-audience: Application User
-# ms.devlang: 
-ms.reviewer: kfend
-ms.search.scope: 
-# ms.tgt_pltfrm: 
-# ms.custom: 
-ms.search.region: 
-# ms.search.industry: 
-ms.author: shylaw
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
 ---
 
 # Expense reports and multiple approvers
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Depending on your organization's expense approval policies, more than one person might have to approve a submitted expense report. When you set up the workflow process for expense report approval, you can add workflow elements that include tasks or steps for one or more expense report approvers. For example, you might require that all expense reports be approved by two separate people, the manager of the employee who submitted the report and the Accounts payable coordinator.
 

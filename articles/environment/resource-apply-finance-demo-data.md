@@ -1,19 +1,24 @@
 ---
 title: Apply demo data to a Finance Cloud-hosted environment
-description: This topic explains how to apply demo data from Project Operations to a Dynamics 365 Finance Cloud-hosted environment.
-author: sigitac
-ms.date: 10/01/2020
-ms.topic: article
-ms.reviewer: kfend 
-ms.author: sigitac
+description: This article explains how to apply demo data from Project Operations to a Dynamics 365 Finance Cloud-hosted environment.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Apply demo data to a Finance Cloud-hosted environment
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP_
 
 > [!IMPORTANT]
-> This topic is only applicable only Microsoft Dynamics 365 Finance version 10.0.13 and can be performed only on a Cloud-hosted environment. Complete the steps in this topic **BEFORE** you apply quality updates to the environment.
+> This article is only applicable only Microsoft Dynamics 365 Finance version 10.0.13 and can be performed only on a Cloud-hosted environment. Complete the steps in this article **BEFORE** you apply quality updates to the environment.
 
 1. In your LCS project, open the **Environment details** page. Notice that it includes the details needed to connect to the environment by using Remote Desktop Protocol (RDP).
 
@@ -71,7 +76,7 @@ This takes a couple of minutes to complete. You should receive a confirmation me
 
 18. Close the remote desktop session and use the LCS **Environment details** page to log in to the environment to confirm it is working as expected.
 
-![Finance and Operations.](./media/10FinanceAndOperations.png)
+![Finance and operations.](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

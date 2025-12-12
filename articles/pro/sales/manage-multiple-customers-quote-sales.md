@@ -1,16 +1,20 @@
 ---
-title: Manage multiple customers on project quotes - lite
-description: This topic provides information about working on quotes with multiple customers who will fund the project. (Sales)
-author: rumant
-ms.date: 10/01/2020
+title: Manage multiple customers on project quotes
+description: This article provides information about working on quotes with multiple customers who will fund the project. (Sales)
+author: poojafandan
+ms.date: 06/07/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+ms.author: poojafandan
 ---
 
-# Manage multiple customers on project quotes - lite
+# Manage multiple customers on project quotes
 
-_**Applies To:** Lite deployment - deal to proforma invoicing_
+[!INCLUDE[banner](../../includes/banner.md)]
+
+_**Applies To:** Project Operations Core_
 
 Project quotes support the scenario where the proposal involves multiple customers who will fund the deal. The **Summary** tab of the Quote has the **Potential customer** field that identifies the primary customer of the deal. Other customers for the deal can be set up on the **Customers** tab of the project quote.
 

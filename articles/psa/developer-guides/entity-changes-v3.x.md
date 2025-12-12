@@ -1,20 +1,19 @@
 ---
 title: Entity, control, and user interface changes (Project Service Automation 3.x)
-description: This topic describes solution changes for Microsoft Dynamics Project Service Automation 3.x.
+description: This article describes solution changes for Microsoft Dynamics Project Service Automation 3.x.
 author: makk
 ms.custom: 
   - dyn365-projectservice
-ms.date: 03/15/2019
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
 ms.author: makk
 audience: admin
 search.audienceType: 
   - admin
   - customizer
-search.app: 
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 
@@ -23,7 +22,7 @@ search.app:
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 
-With the release of Microsoft Dynamics Project Service Automation (PSA) 3.x, many changes have been made to the entities, controls, views, and user interface. This topic provides information about these important changes.
+With the release of Microsoft Dynamics Project Service Automation (PSA) 3.x, many changes have been made to the entities, controls, views, and user interface. This article provides information about these important changes.
 
 ## Parent-child relationships for sales document, sales document line, sales document line detail entities
 In versions of Dynamics 365 Project Service Automation (PSA) released prior to version 3.0, some of the relationships between sales documents, sales document lines, and sales document line detail entities were implemented through string fields that would hold a string representation of GUID of the related entity. This was due to platform limitations that required significant custom code on the server and client sides of the solution to make those relationships work similar to typical Dynamics CRM entity relationships and to make string fields act like lookup fields.

@@ -1,19 +1,21 @@
 ---
-title: What's new December 2021 - Project Operations lite deployment
-description: This topic provides information about the quality updates that are available in the December 2021 release of Project Operations lite deployment.
+title: What's new December 2021 - Project Operations Core
+description: This article provides information about the quality updates that are available in the December 2021 release of Project Operations Core.
 author: sigitac
-ms.date: 12/09/2021
-ms.topic: article
-ms.prod:
-ms.reviewer: kfend 
+ms.custom:
+  - evergreen
+ms.date: 04/09/2024
+ms.update-cycle: 1095-days
+ms.topic: whats-new
+ms.reviewer: johnmichalak
 ms.author: sigitac
 ---
 
-# What's new December 2021 - Project Operations lite deployment
+# What's new December 2021 - Project Operations Core
 
-_Applies To: Lite deployment - deal to proforma invoicing_
+_Applies To: Project Operations Core_
 
-This topic applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
+This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
 - Project Operations in a Dataverse environment version 4.27.0.195, 4.27.0.242, 4.27.0.244
 

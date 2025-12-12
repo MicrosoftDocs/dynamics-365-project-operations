@@ -1,0 +1,129 @@
+---
+title: Project item requirements
+description: This article explains how to create project-based item requirements.
+author: ryansandness
+ms.author: ryansandness
+ms.date: 08/04/2025
+ms.topic: article
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
+---
+
+# Project item requirements
+
+[!include[banner](../includes/banner.md)]
+
+An *item requirement* is a sales order document that has project-specific integrations and enhancements that nonproject sales orders lack. An item requirement is unique and provides flexibility during planning for item consumption throughout the lifecycle of a project. You can record item requirements earlier than sales orders.
+
+Like sales orders, item requirements can represent a stocked item, a nonstocked item, or a service item. Because item requirements are integrated throughout the project module, organizations have the flexibility to start with planned requirements. They can then execute against the project, either by using item requirements from stock or by acquiring them through production or procurement, and then consume them against the project at the correct time. Item requirements provide great visibility into the financial implications of a transaction throughout the item's lifecycle.
+
+To have item requirements automatically created, enable the **Create item requirement** parameter in the **Project purchase orders** section of the **Project management and accounting parameters** page.
+
+> [!NOTE]
+> To distinguish between a sales order and an item requirement, review whether the **Order type** field of the sales order is set to **Sales order** or **Item requirements**.
+
+Item requirements can be used in several project types. They can be used even in several project types where sales orders aren't available. The following table shows the types of projects where item requirements and sales orders can be used.
+
+| Project type      | Item requirement | Sales order |
+| ----------------- | ---------------- | ----------- |
+| Time and Material | X                | X           |
+| Fixed Price       | X                |             |
+| Investment        | X                |             |
+| Cost              |                  |             |
+| Time              |                  |             |
+| Internal          |                  |             |
+
+## Create item requirements
+
+You create item requirements from the **Plan** tab in a project, or by going to **Project management and accounting** \> **Item tasks** \> **Item requirements**.
+
+The **Item requirements** page is a streamlined version of the **Sales order** page. Required functions are available on the Action Pane.
+
+Previously, item requirements were always managed through a single sales order header. In general, most item requirements add lines to a single header, even if all previous lines were invoiced. However, in some situations, multiple headers will be created. For example, if there are multiple funding sources, a unique header is created for each funding source.
+
+## Post the packing slip for item requirements
+
+When an item requirement's packing slip is posted, accounting entries are created to post the cost of the item, and inventory is called to update the inventory state.
+
+### Item requirement cancellation feature
+
+In the 10.0.33 release, you can cancel a packing slip for item requirements. To enable the cancellation of item requirements, use the **Enable packing slip cancellation for item requirements** feature. 
+
+The packing slip cancellation feature provides the following functionality:
+
+- Packing slips can be canceled for item requirements that aren't connected to a production order or purchase order that a packing slip was posted for while the feature was enabled. Connected item requirements and packing slips that were previously posted continue to behave as if the feature isn't enabled.
+- Newly posted packing slips for item requirements that aren't connected to a production or purchase order use the new behavior. The related **Enable project purchase order product receipt cancellation with linked item requirements** feature modifies the posting behavior of item requirements that are connected to purchase orders.
+- The way that financial posting is done for stocked item requirements now closely resembles sales order posting. For more information, see [table 1](#table1).
+- The way that inventory is posted for stocked items is changed. For more information, see [table 2](#table2).
+- The line status of stocked item requirements that have a posted packing slip is now **Delivered** instead of **Invoiced**.
+- The packing slip journal can now be accessed from the item requirement page on the **Inquiries** navigation menu, so that you can view and cancel the packing slip.
+- A new packing slip ID field is added, and the packing slip ID is visible on the **Posted project transactions** page. Therefore, you can filter the transactions and view the original transaction and reversal from the cancellation together.
+- Other entries for project cost appear in posted project transactions and the general ledger. The project cost is initially posted during packing slip posting. However, it's reversed and posted again during invoicing. These amounts might be the same, or they might change if inventory determines that project cost changed.
+
+The following functionality was added in the 10.0.35 release:
+
+- Support is added for packing slip cancellation in committed costs.
+- Support is added for packing slip cancellation in funding limits.
+- Support is added for packing slip cancellation in budget.
+- Support is added for adjusting transactions that are posted while the feature is on.
+- The adjustment behavior is changed, so that stocked items can financially post inventory to complete posting, reverse the entry, and then post it again with adjustments. 
+
+**<a id="table1"></a>Table 1: Accounting generated from a Time and Material project without work in process (WIP)**
+
+| Step | Account name | Posting type |
+| --- | --- | --- |
+| Create an item requirement | Not applicable | Not applicable |
+| Post a packing slip | <ul><li>COGS - Finished Goods</li><li>Finished Goods Inventory</li></ul> | <ul><li>Project cost</li><li>Cost of units, delivered</li></ul> |
+| Create and post an invoice proposal | <ul><li>Accounts Receivable - Domestic</li><li>Product Sales</li><li>Finished goods inventory</li></li>Finished goods inventory</li><li>COGS - Finished Goods</li><li>COGS - Finished Goods</li></ul> | <ul><li>Customer balance</li><li>Project - invoiced revenue</li><li>Cost of units, delivered</li><li>Cost of units, invoiced</li><li>Project cost</li><li>Project cost</li></ul> |
+
+**<a id="table2"></a>Table 2: Inventory behavior for stocked items when the feature is off versus on**
+
+| Step | Inventory issue when the feature is off | Inventory issue when the feature is on | Sales order line when the feature is off | Sales order line when the feature is on |
+| --- | --- | --- | --- | --- |
+| Create an item requirement line | New entry where **Issue** = **On order** | New entry where **Issue** = **On order** | Open order | Open order |
+| Post a packing slip | **Issue** = **Sold** | **Issue** = **Deducted** | Invoiced | Delivered |
+| Post a project invoice proposal | **Issue** = **Sold** | **Issue** = **Sold** | Invoiced | Invoiced |
+
+#### Limitations of item requirement cancellation
+
+- If the feature is used with nonchargeable lines for stocked items or fixed price projects, transactions and amounts are left in the **Cost of units, delivered** posting type, and the associated account. Because these transactions can't be invoiced, the amounts aren't moved to the **Cost of units, invoiced** posting type. This limitation is addressed with the new finalization feature.
+- Packing slips can't be canceled if the transaction was previously invoiced, or if it was invoiced and then returned through a credit note.
+
+#### Demo data issues to consider
+
+In the **USSI** legal entity, the **Sale\_367** number sequence is in an inconsistent state. Cancellation of an item requirement causes the following error:
+
+> Voucher 000001 is already used as of date 1/9/2017. Posting has been cancelled.
+
+To fix the issue, go to **Number sequences**, filter for number sequence code **Sale\_367**, and open the item. On the **Performance** FastTab, change the value of the **Preallocation** option from **Yes** to **No**, and save the change. Then, change the value back to **Yes**.
+
+### Finalize uninvoiced stocked items
+
+A new preview feature in the 10.0.45 release removes the limitation of not being able to finalize or complete stocked item requirements that can't be invoiced. This feature finalizes the transaction, performing the same steps that would occur within inventory during customer invoicing. To use the new functionality, enable the **Finalize uninvoiced stocked items** feature in the **Feature management** workspace. The feature only updates transactions that are in a nonchargeable state because of the **Enable packing slip cancellation for item requirements** feature.
+
+Item requirements that are stocked items that meet any criteria below require finalization:
+
+- The line property for chargeable is set to nonchargeable.
+- The project group doesn't allow for invoicing. This scenario includes project types such as fixed price projects, investment projects, and internal projects.
+- The project contract uses billing rules, which overrides the line property to make a transaction category nonchargeable.
+
+To finalize an item requirement, follow these steps.
+
+1. Open the **Item requirements** form and enable the new **Uninvoiced stocked items** filter. This filter shows both stocked and nonstocked item requirements that meet one of the three nonchargeable criteria listed previously. Only stocked items go through the finalization process.
+1. You can select a subset of item requirements, or filter to remove some item numbers or dates. As long as one of the selected lines can be finalized, the process won't error even when chargeable transactions are selected.
+1. In the **Manage** tab of the ribbon, select **Finalize delivered quantity** and confirm the delivery end date for the list of packing slips and their corresponding dates to consider for finalization. You can get details on the specific packing slips from the **Inquiries** button in the ribbon by selecting **Packing slip journal**
+1. A warning appears and requires confirmation that the packing slips can no longer be canceled after finalization.
+1. A finalization date is required for the date for the posting. You can opt to post in batch for large volumes of data.
+
+After the finalization process completes, the following results can be observed:
+- In the posted project transactions form, the invoice status remains nonchargeable. 
+- A new voucher transaction is created with a credit to the **Cost of units, delivered** and a debit to **Cost of units, invoiced** posting types.
+- Inventory completes its financial posting.
+- The item requirement sales order line moves from delivered to invoiced line status if all quantity was finalized.
+- The transactions are considered in inventory close and recalculation.
+
+If there was a linked purchase order to the item requirement, then posting a different price on the vendor invoice or running inventory recalculation generates price adjustments for the transaction.
+
+The finalization number sequence uses the same number sequence as project invoicing.

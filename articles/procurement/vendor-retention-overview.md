@@ -1,17 +1,19 @@
 ---
 title: Vendor retention overview
-description: This topic provides an overview of vendor retention capabilities.
-author: sigitac
-ms.date: 10/01/2021
+description: This article provides an overview of vendor retention capabilities.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/22/2024
 ms.topic: overview
-ms.prod:
-ms.reviewer: kfend 
-ms.author: sigitac
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Vendor retention overview
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 Your organization might want to retain a portion of payments to vendors who work on projects for your org. For example, before you pay your vendor, you might want to make sure that the items and services they provided meet your expectations.
 

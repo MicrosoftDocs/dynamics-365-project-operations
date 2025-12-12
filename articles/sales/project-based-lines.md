@@ -1,16 +1,19 @@
 ---
 title: Project-based opportunity lines
-description: This topic provides information about working with project-based opportunity lines.
-author: rumant
-ms.date: 10/01/2020
+description: This article provides information about working with project-based opportunity lines.
+author: poojafandan
+ms.author: poojafandan
+ms.date: 06/10/2024
 ms.topic: article
-ms.reviewer: kfend 
-ms.author: rumant
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
+
 ---
 
 # Project-based opportunity lines
 
-_**Applies To:** Project Operations for resource/non-stocked based scenarios_
+_**Applies To:** Project Operations Integrated with ERP_
 
 
 Project-based opportunity lines are only available in project-based opportunities. Project-based opportunity records have the **Type** field value set to **Work-based**.

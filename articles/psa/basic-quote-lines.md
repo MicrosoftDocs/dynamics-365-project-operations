@@ -1,23 +1,20 @@
 ---
 title: Quotes and quote lines
-description: This topic provides information about quotes and quote lines.
+description: This article provides information about quotes and quote lines.
 author: rumant
 ms.custom: 
   - dyn365-projectservice
-ms.date: 3/01/2019
+  - evergreen
+ms.date: 07/07/2025
+ms.update-cycle: 1095-days
 ms.topic: article
-#
-#
 ms.author: rumant
 audience: Admin
 search.audienceType: 
   - admin
   - customizer
   - enduser
-search.app: 
-  - D365CE
-  - D365PS
-  - ProjectOperations
+ms.reviewer: johnmichalak
 ---
 
 # Quotes and quote lines
@@ -35,7 +32,7 @@ In Dynamics 365 Project Service Automation, there are two types of quotes: proje
 - A sales quote doesn't include some fields and concepts that are included on a project quote has fields. The fields include **Contracting Unit**, **Account Manager**, and **Bill to Contact Name**.  
 - Sales quotes and project quotes are also identified by an option set–based field that is named **Type**. For a sales quote, this field has the value **Item-based**. For a project quote, it has the value **Work-based**.
 
-This topic will focus on the details of project quotes.
+This article will focus on the details of project quotes.
 
 A project quote in PSA can have multiple line items or quote lines. In fact, a project quote has two grids for line items. One grid is for project-based lines that allow for detailed estimations. The other grid is for product-based lines that use a simple unit price and quantity-based approach.
 
@@ -94,7 +91,7 @@ For example, a quote might contain the following two quote lines:
 
 The **Billing Type** field defines the concept of chargeability in PSA. It's an option set that has the following possible values:
 
-- **Chargeable** – The cost that is accrued by this role/category is a direct cost that drives project execution, and the customer will pay for this work. The payment can be administered as a time-and-material or fixed-price arrangement. However, the employee who spends this time will receive the corresponding credit for his or her billable utilization.
+- **Chargeable** – The cost that is accrued by this role/category is a direct cost that drives project execution, and the customer will pay for this work. The payment can be administered as a time-and-material or fixed-price arrangement. However, the employee who spends this time will receive the corresponding credit for their billable utilization.
 - **Non-chargeable** – The cost that is accrued by this role/category is considered a direct cost that drives project execution, even though the customer doesn't recognize this fact and won't pay for this work. The employee who spends this time won't be credited with billable utilization for it.
 - **Complimentary** – The cost that is accrued by this role/category is considered a direct cost that drives project execution, and the customer recognizes this fact. The employee who spends this time will be credited for billable utilization for it. However, this cost isn't charged to the customer.
 - **Not available** – The costs that are incurred on internal projects that don't require revenue tracking are tracked by using this option.
