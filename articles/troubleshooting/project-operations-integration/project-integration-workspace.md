@@ -54,7 +54,7 @@ The **Categories** FastTab has three tabs: **Summary**, **Expense**, and **Vendo
 
 The **Summary** tab on the **Categories** FastTab provides an overview of unreconciled amounts for expenses and vendor invoices. It includes detailed information such as amounts that project integration journal lines aren't yet created or posted for, and records that aren't synced from Dataverse to Finance.
 
-![Screenshot that shows the Summary tab in the Project Operations integration workspace.](../../../articles/media/ProjOpsIntegrationWorkspaceSummary.png)
+:::image type="content" source="../../../articles/media/ProjOpsIntegrationWorkspaceSummary.png" alt-text="Screenshot that shows the Summary tab in the Project Operations integration workspace.":::
 
 ### Use the Expense tab
 
@@ -77,7 +77,7 @@ The following views can be validated:
 
 To reprocess any expenses that weren't synced earlier because of dual-write failures, you can use the **Sync** button at the top of the grid to run the synchronization batch job. This job syncs all expenses, based on the first open period of the fiscal calendar and the current date. Learn more in the [Run the synchronization batch job](#run-the-synchronization-batch-job) section.
 
-![Screenshot that shows the Missing actuals view of the Expense tab in the Project Operations integration workspace.](../../../articles/media/ProjOpsIntegrationWorkspaceexpense.png)
+:::image type="content" source="../../../articles/media/ProjOpsIntegrationWorkspaceexpense.png" alt-text="Screenshot that shows the Missing actuals view of the Expense tab in the Project Operations integration workspace.":::
 
 ### Use the Vendor invoice lines tab
 
@@ -100,7 +100,7 @@ The following views can be validated:
 
 To reprocess any vendor invoices that weren't synced earlier because of dual-write failures, you can use the **Sync** button at the top of the grid to run the synchronization batch job. This job syncs all vendor invoices, based on the first open period of the fiscal calendar and the current date. Learn more in the [Run the synchronization batch job](#run-the-synchronization-batch-job) section.
 
-![Screenshot that shows the Missing actuals view being selected on the Vendor invoice lines tab of the Project Opertaions integration workspace.](../../../articles/media/ProjOpsIntegrationWorkspaceVendorInvoice.png)
+:::image type="content" source="../../../articles/media/ProjOpsIntegrationWorkspaceVendorInvoice.png" alt-text="Screenshot that shows the Missing actuals view being selected on the Vendor invoice lines tab of the Project Operations integration workspace.":::
 
 ### Run the synchronization batch job
 
