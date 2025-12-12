@@ -91,7 +91,7 @@ This issue can occur for the following reasons:
 - The ReadMpp request returns empty for the revision token. This situation indicates either that the MPP file was deleted, or it wasn't created in Dataverse. As a result, all project data was lost.
 
 ### Mitigation
-If deleting the existing project and creating a new one isn’t possible, please contact support.
+If deleting the existing project and creating a new one isn’t possible contact support.
 
 ## Entity doesn't contain attribute
 
