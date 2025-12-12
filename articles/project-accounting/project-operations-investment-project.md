@@ -8,19 +8,19 @@ ms.reviewer: johnmichalak
 ms.author: mukumarm
 ---
 
-# Enable investment projects in Dynamics 365 Project operations
+# Enable investment projects in Dynamics 365 Project operations integrated with ERP
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations integrated with ERP_
 
-When you enable investment projects in **Dynamics 365 Project Operations** integrated with ERP systems, you can manage capital-intensive initiatives, such as infrastructure upgrades or asset acquisitions, with full financial control and compliance. When you create an investment project in Project Operations, you automatically create a corresponding project in **Dynamics 365 Finance** marked as an investment project.
+When you enable investment projects in Microsoft Dynamics 365 Project Operations integrated with ERP systems, you can manage capital-intensive initiatives, such as infrastructure upgrades or asset acquisitions, with full financial control and compliance. When you create an investment project in Project Operations, you automatically create a corresponding project in Microsoft Dynamics 365 Finance marked as an investment project.
 
-This feature streamlines the lifecycle of **investment projects**, from initial planning to asset capitalization. It supports robust financial management and operational efficiency across integrated ERP environments.
+This feature streamlines the lifecycle of investment projects, from initial planning to asset capitalization. It supports robust financial management and operational efficiency across integrated ERP environments.
 
 ## Prerequisites
 
-To use this functionality, activate the **Enable investment project for Project Operations integrated with ERP** feature in **Dynamics 365 Finance**.
+To use this functionality, activate the **Enable investment project for Project Operations integrated with ERP** feature in Finance.
 
 ### Minimum versions required
 
@@ -37,13 +37,11 @@ To use the feature for **Dynamics 365 Project Operations integrated with ERP sce
 
 ## Investment project
 
-Users can create projects and designate them as investment projects in **Dynamics 365 Project operations**. This classification differentiates investment projects from other types (fixed price, time, and material) and triggers specific system behaviors.
-Once you designate a project as an investment project, you can't link it to or use it for **project quotations** or **project contracts**. You can change the project type only if no actual transactions exist for the project. After you process any transactions, the project type becomes locked and can't be changed.
+You can create projects and designate them as investment projects in Project operations. This classification differentiates investment projects from other types (fixed price, time, and material) and triggers specific system behaviors. Once you designate a project as an investment project, you can't link it to or use it for project quotations or project contracts. You can change the project type only if no actual transactions exist for the project. After you process any transactions, the project type becomes locked and can't be changed.
 
-When you create an **investment project** in **Dynamics 365 Project Operations**, the system automatically creates a corresponding project in **Dynamics 365 Finance** and marks it as an investment project. For each investment project in Dynamics 365 Finance, the system also establishes a dedicated **revenue recognition project**.
-This dual-project setup is essential for processing financials related to the investment initiative. The revenue recognition project enables the system to:
+When you create an investment project in Project Operations, the system automatically creates a corresponding project in Finance and marks it as an investment project. For each investment project in Finance, the system also establishes a dedicated revenue recognition project. This dual-project setup is essential for processing financials related to the investment initiative. The revenue recognition project enables the system to:
 
-- Acquire the fixed asset associated with the investment project, or
+- Acquire the fixed asset associated with the investment project.
 - Move the accumulated Work In Progress (WIP) costs to the appropriate ledger accounts as part of the revenue recognition and elimination process.
 
 To create an investment project in Dynamics 365 Project operations, follow these steps:
@@ -66,15 +64,13 @@ After you create the investment project in **Dynamics 365 Project operations**, 
 
 ## Accounting
 
-After you create the project, enter and process timesheets, expenses, material usage, or purchase orders to record project cost actuals. 
-Transfer these actual costs to Dynamics 365 Finance, where you make financial postings and generate the project subledger.
+After you create the project, enter and process timesheets, expenses, material usage, or purchase orders to record project cost actuals. Transfer these actual costs to Finance, where you make financial postings and generate the project subledger.
 
 ### Project cost and revenue profile
 
-**Project cost and revenue profiles** define the financial framework for how project costs, sales, and revenue recognition transactions are managed. To support financial management for investment projects, this feature introduces a new **accounting method** called **Investment**. This method enables accurate tracking and posting of costs and revenues specific to investment projects,
-ensuring compliance with capitalization and financial reporting requirements.
+Project cost and revenue profiles define the financial framework for how project costs, sales, and revenue recognition transactions are managed. To support financial management for investment projects, this feature introduces a new accounting method called **Investment**. This method enables accurate tracking and posting of costs and revenues specific to investment projects, ensuring compliance with capitalization and financial reporting requirements.
 
-To create a **Cost and revenue profile** for the Investment project in **Dynamics 365 Finance**, follow these steps:
+To create a **Cost and revenue profile** for the investment project in Finance, follow these steps:
 
 1. Go to **Dynamics 365 Finance** > **Project management and accounting** > **Setup** > **Posting** > **Project cost and revenue profile**.
 1. Select **+New** to create a new Project cost and revenue profile.
@@ -84,11 +80,11 @@ To create a **Cost and revenue profile** for the Investment project in **Dynamic
 
 ### Project cost and revenue profile rules
 
-**Project cost and revenue profile rules** define how projects are associated with specific **cost and revenue profiles**.
+Project cost and revenue profile rules define how projects are associated with specific cost and revenue profiles.
 Assign a cost and revenue profile to an individual project, a group of projects, or apply it across all projects.
 This configuration ensures consistent financial treatment and reporting for project costs and revenue recognition.
 
-To create a **Project cost and revenue profile rule** for the Investment project in **Dynamics 365 Finance**, follow these steps:
+To create a **Project cost and revenue profile rule** for the investment project in Finance, follow these steps:
 
 1. Go to **Dynamics 365 Finance** > **Project management and accounting** > **Setup** > **Posting** > **Project cost and revenue profile rules**.
 1. Select **+New** to create a new Project cost and revenue profile rules.
@@ -96,8 +92,7 @@ To create a **Project cost and revenue profile rule** for the Investment project
 
 ### Revenue recognition
 
-Use the revenue recognition project linked to an investment project to execute periodic processes that assess the percentage of completion, and transfers costs from the Profit and Loss account to the Balance Sheet (Work in Progress accounts).
-For revenue recognition, you can configure whether the project’s **work in progress costs** are transferred to a **ledger account** or to a **fixed asset** as part of the **elimination** process.
+Use the revenue recognition project linked to an investment project to execute periodic processes that assess the percentage of completion, and transfers costs from the Profit and Loss account to the Balance Sheet (Work in Progress accounts). For revenue recognition, you can configure whether the project’s work in progress costs are transferred to a ledger account or to a fixed asset as part of the elimination process.
 
 #### Calculate and post revenue recognition
 
@@ -118,7 +113,7 @@ As part of this process, reclassify and move any transactions previously posted 
 When all costs are posted to the project subledger and the project is ready to close, run the **revenue recognition elimination** process.
 This process transfers project costs from Balance Sheet (Work in Progress) accounts to the appropriate ledger or fixed asset account, ensuring accurate financial closure and asset capitalization.
 
-To execute the **Revenue recognition elimination process**, follow these steps:
+To run the **Revenue recognition elimination process**, follow these steps:
 
 1. Go to **Dynamics 365 Finance** > **Project management and accounting** > **Projects** > **All revenue recognition projects**.
 1. Select the Revenue project ID and verify that **Investment project** is associated with **Revenue recognition project**.
