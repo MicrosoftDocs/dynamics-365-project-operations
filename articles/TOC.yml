@@ -538,6 +538,8 @@
       href: project-accounting/configure-accounting-billable-projects.md
     - name: Integration journal in Project Operations
       href: project-accounting/project-operations-integration-journal.md
+    - name: Enable investment projects in Dynamics 365 Project operations
+      href: project-accounting/project-operations-investment-project.md
   - name: Revenue recognition
     items:
     - name: Revenue recognition overview
