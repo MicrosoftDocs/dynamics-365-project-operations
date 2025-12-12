@@ -52,7 +52,7 @@ Shared categories are a parent grouping of project categories that you can share
 
 ## New functionality to allow categories on on-account type transactions
 
-In the 10.0.47 release, a new feature lets you create a category and group for on-account type transactions. Within Feature management, the **Enable project categories for on-account transactions** feature is now available. New functionality enabled by this feature includes:
+In the 10.0.46 release, a new feature lets you create a category and group for on-account type transactions. Within Feature management, the **Enable project categories for on-account transactions** feature is now available. New functionality enabled by this feature includes:
 
 - Project management and accounting parameters have a new default setting to default the category for on-account transactions. This default applies to both retainers and milestone transactions.
 - The Category groups form now allows you to configure groups of type on-account.
