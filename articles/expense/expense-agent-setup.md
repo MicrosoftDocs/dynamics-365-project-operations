@@ -3,7 +3,7 @@ title: Set up the Expense Agent (preview)
 description: Learn how to install and set up the Expense Agent to automate expense processing workflows by using AI.
 author: ajitchandran
 ms.author: ajitchandran
-ms.date: 12/02/2025
+ms.date: 12/16/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -1042,7 +1042,7 @@ When you complete these steps, the Expense Agent is fully configured and ready t
 
 ### Step 6: Enable the Expense Agent in Microsoft Teams (Optional)
 
-To enable Teams-based communication for the Expense Agent, add the Teams channel to the agent in Power Apps. The agent can then send adaptive cards and receive input via Teams.
+To enable Teams-based communication for the Expense Agent, add the Teams channel to the agent in Power Apps. The agent can then send adaptive cards via Teams.
 
 #### Enable the Teams channel
 
