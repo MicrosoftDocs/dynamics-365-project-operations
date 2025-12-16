@@ -1042,7 +1042,7 @@ When you complete these steps, the Expense Agent is fully configured and ready t
 
 ### Step 6: Enable the Expense Agent in Microsoft Teams (Optional)
 
-To enable Teams-based communication for the Expense Agent, add the Teams channel to the agent in Power Apps. The agent can then send adaptive cards and receive input via Teams.
+To enable Teams-based communication for the Expense Agent, add the Teams channel to the agent in Power Apps. The agent can then send adaptive cards via Teams.
 
 #### Enable the Teams channel
 
