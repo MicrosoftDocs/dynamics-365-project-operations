@@ -3,7 +3,7 @@ title: Set up the Expense Agent (preview)
 description: Learn how to install and set up the Expense Agent to automate expense processing workflows by using AI.
 author: ajitchandran
 ms.author: ajitchandran
-ms.date: 12/02/2025
+ms.date: 12/16/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
