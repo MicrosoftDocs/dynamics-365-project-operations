@@ -2,7 +2,7 @@
 title: Troubleshoot project scheduling errors in the task grid
 description: Learn how to troubleshoot project scheduling errors that are related to the Project Scheduling Service and Project schedule APIs.
 author: dishantpopli  
-ms.date: 03/11/2025
+ms.date: 12/16/2025
 ms.topic: troubleshooting
 ms.custom: 
   - bap-template
