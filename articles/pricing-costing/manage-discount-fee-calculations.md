@@ -89,7 +89,6 @@ Learn more about actuals in [Actuals impact in a time and materials engagement](
 ## Project invoices
 
 Project invoices are used to bill customers, and they can include one or more invoice lines. When you create an invoice for **Time and Material** transactions, if **Unbilled Sales** transactions that have discounts and fees are selected, the system generates an invoice where the lines reflect the discount and fee amounts. The invoice lines include separate fields for the discount and fee amounts. If the **Invoice line details** option is used to change the quantity, the discount and fee amounts are adjusted accordingly. After the project manager confirms the invoice, the **Unbilled Sales** actuals are reversed with negative discount and fee amounts. New **Billed Sales** actuals are then generated that reflect the updated discount and fee.
-The sales tax amount is calculated after deducting the discount from the sales amount.
 
 Learn more about project invoices in [Proforma project invoices](../pro/proforma-invoicing/create-manual-proforma-invoice-sales.md).
 
