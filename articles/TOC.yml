@@ -1613,7 +1613,7 @@
       - name: Turn off a pricing dimension    
         href: pricing-costing/turning-off-pricing-dimension.md
     - name: Manage discounts and fees overview
-      href: pricing-costing/manage-discount-fee-calculations.md
+      href: pricing-costing/manage-discount-fee-integrated.md
   - name: Project management
     items: 
     - name: Project management overview
