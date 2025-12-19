@@ -3,7 +3,7 @@ title: Use financial tags for project financial transactions
 description: Learn how you can use financial tags for project transactions.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 08/04/2025
+ms.date: 11/19/2025
 ms.topic: overview
 ms.custom: 
   - bap-template
@@ -66,5 +66,7 @@ Contoso is participating in an industry event and wants to track all time and ex
 |Project fee journal     |10.0.45          |
 |Project hour journal     |10.0.45          |
 |Project item journal     |10.0.45          |
+|On-account transactions  |10.0.46         |
+|Integration journal      |10.0.46         |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

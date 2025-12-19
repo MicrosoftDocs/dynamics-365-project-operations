@@ -2,7 +2,7 @@
 title: Managed stocked products for Project Operations integrated deployments
 description: Learn how to manage and use stocked products in integrated Microsoft Dynamics 365 Project Operations deployments.
 author: mukumarm
-ms.date: 07/10/2025
+ms.date: 11/07/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -138,41 +138,6 @@ The Accounts Payable clerk creates the vendor invoice through the invoice featur
 > Product receipts aren't recorded to the project actuals in Dataverse and don't affect the project subledger.
 
 Learn about project purchase orders in [Order procurement categories or non-stocked materials for a project using project purchase orders](non-stocked-materials-project-purchase-orders.md).
-
-## Material usage
-
-In Dynamics 365 Project Operations, a material usage log provides a way to record material consumption so that it can be approved by the project manager and eventually invoiced to the customer. When you activate the stocked product feature, users can create material usage entries for stocked products. These entries can be created for either a specific product or a project variant. Based on the item and required inventory dimensions, users must specify details such as the site, the warehouse, and, as applicable, the batch or serial number. It's essential to ensure that inventory is consumed only when enough stock that has the relevant inventory dimensions is available.
-
-![Screenshot of the New Material Usage Log page, highlighting transaction date, product, site, warehouse, and batch information.](../media/MaterialUsage.png)
-
-Learn about project material usage in [Record material usage on projects and project tasks](../material/material-usage-log.md).
-
-### Validations for on-hand inventory
-
-When a user tries to submit material usage for a stocked product, the system validates whether the product is available in stock. If the stock is unavailable, the system shows an error message and prevents submission of the material usage.
-
-In a similar way, when an approver tries to approve material usage, the system validates whether the product is available in stock. If the stock is unavailable, the system shows an error message and blocks approval of the material usage.
-
-### Inventory cost for material usage
-
-When an approver approves material usage, cost and unbilled sales actuals are generated based on the associated cost and sales price lists.
-
-Cost actuals are derived from the cost price list. However, the weighted average cost of the material might differ. When the integration journal for the cost transaction is posted in Dynamics 365 Finance, if the actual cost amount differs from the material's weighted average cost, the difference is treated as an adjustment. This adjustment is synchronized back to Dynamics 365 Project Operations, where it's entered in a new field that is named **Adjustment Value**. The extended amount is updated accordingly.
-
-> [!NOTE]
-> In Dynamics 365 Finance, the weighted average cost is always used to post inventory consumption that uses inventory journals, regardless of the costing method that is assigned to the material. To align the inventory cost of a transaction with the assigned inventory model group, you must run the Inventory **Closing and adjustment** job.
-
-## Journals
-
-Entry journals are used to record actuals directly in Dynamics 365 Project Operations. When you use Entry journals, you don't have to enter time, expense, and material usage logs in Project Operations. When you activate the stocked product feature, users can create material consumption entries for stocked products. These entries can be created for either a specific product or a project variant. Based on the item and required inventory dimensions, users must specify details such as the site, the warehouse, and, as applicable, the batch or serial number. It's essential to ensure that inventory is consumed only when enough stock that has the relevant inventory dimensions is available.
-
-![Screenshot of the Quick Create: Journal Line dialog in Project Operations, highlighting the transaction date, product, site, warehouse, and batch information.](../media/Projectjournal.png)
-
-Learn about project journals in [Create and confirm Entry journals](../actuals/create-confirm-entry-journals.md).
-
-### Validations for on-hand inventory
-
-When a user tries to confirm the journal for a stocked product line, the system validates whether the product is available in stock. If the stock is unavailable, the system shows an error message and prevents confirmation of the journal entry.
 
 ## Inventory recalculation and closing
 

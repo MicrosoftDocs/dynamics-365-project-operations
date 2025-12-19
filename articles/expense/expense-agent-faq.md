@@ -2,7 +2,7 @@
 title: Expense Agent FAQs (preview)
 description: Get answers to frequently asked questions about the Expense Agent.
 author: ajitchandran
-ms.date: 05/13/2025
+ms.date: 12/01/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -10,7 +10,7 @@ ms.reviewer: johnmichalak
 ms.author: ajitchandran
 ---
 
-# Expense Agent FAQs (preview)
+# Expense Agent FAQs (Preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
@@ -19,13 +19,13 @@ This article provides answers to frequently asked questions about the Expense Ag
 
 ## Agent enablement and configuration
 
-### How do I enable/disable the agent?
+### How do I enable or disable the agent?
 
-To enable/disable the agent, go to the configuration page in Expense management parameters. 
+To enable or disable the agent, go to the configuration page in Expense management parameters. 
 
-### Can I enable/disable the agent for selected legal entities and provide custom configurations?
+### Can I enable or disable the agent for selected legal entities and provide custom configurations?
 
-Yes, the Expense Agent can be enabled/disabled for selected legal entities. Configurations are unique to each legal entity.
+Yes, you can enable or disable the Expense Agent for selected legal entities. Configurations are unique to each legal entity.
 
 ### Why doesn't the Expense Entry feature of the Time and Expense Agent appear in Expense Management parameters in finance and operations apps?
 
@@ -64,19 +64,48 @@ To add a connector, sign in to [Power Apps](https://make.powerapps.com/), select
 ### What should I do if Microsoft Purview Data Loss Prevention policy blocks connector access?
 
 Ensure that the connectors are in the **Business** group and the allow list.
+### What should I do if there are virtual entity metadata sync errors?
+
+If you encounter errors related to virtual entity metadata sync errors, such as the following errors,
+- The API operation doesn't contain a definition for parameter 'item/RequestBody'
+- The unbound action isn't present
+- Entity doesn't contain definition
+or any other metadata sync error
+
+1. Go to advanced settings from [Power Apps](https://make.powerapps.com/).
+1. Once open, select **Advanced find** from the top right corner of the screen.
+1. Switch to classic view within advanced find.
+1. Look for available finance and operations entities and add a filter for name containing expense agent entities, such as `trvcopilotautomationexpense` and select **Results**.
+1. Check for the entity in **List Tools** and select the entity that needs to be refreshed.
+1. Select **Refresh** and **Save & Close**.
+
+This list contains the expense management entities:
+
+- TrvExpMobileProjEntity
+- TRVEXPENSECOPILOTMASTERDATAENTITY
+- TRVEXPENSECOPILOTUNATTACHEDDOCUMENTENTITY
+- TRVEXPENSECOPILOTCONFIGURATIONENTITY
+- TRVCOPILOTAUTOMATIONREPORTENTITY
+- TRVCOPILOTAUTOMATIONEXPENSEENTITY
+- TrvExpenseCategoryEntity
+- TRVEXPENSECOPILOTRECEIPTENTITY
+- TrvExpenseParametersEntity
+- TrvExpenseReportPurposeEntity
+- TrvExpenseSubCategoryEntity
+- TrvExpMobileCompanyInfoEntity
 
 ## Agent execution
 
 ### What should I do if the Expense Agent isn't processing my email receipts?
 
-Ensure that you're part of the correct legal entity and have active employment. In addition, verify that the agent is enabled for the legal entity.
+Make sure you're part of the correct legal entity and have active employment. Also, check that the agent is enabled for the legal entity.
 
 ### I followed the setup steps and have the required permissions, but emails still aren't processed. What should I do?
 
-You might have to republish agents.
+You might need to republish agents.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
-1. Select **Environment** \> **Agents**, and then select **Expense Entry feature of the Time and Expense Agent** and **ExpenseAgent-Line**.
+1. Select **Environment** \> **Agents**, then select **Expense Entry feature of the Time and Expense Agent** and **ExpenseAgent-Line**.
 1. Publish both agents.
 1. Publish the **Time and Expense Agent** solution.
 
@@ -125,7 +154,7 @@ Processing can take 1–24 hours. Lines appear on reports, not in unattached exp
 
 ### How do I determine whether my receipt was processed?
 
-Processed receipts are grouped into reports in the web app and shown in Teams. Errors trigger a fallback card that provides information about the failure.
+The web app groups processed receipts into reports and shows them in Teams. Errors trigger a fallback card that provides information about the failure.
 
 ### What should I do if I can't detach an expense line from a one-line adaptive card report?
 
@@ -139,6 +168,6 @@ Ensure that the **Expense Entry feature of the Time and Expense Agent** Teams ap
 
 ### I get no response when I select the adaptive card button. What should I do?
 
-There is a one-day timeout. You can act on the next card or use the web app.
+There's a one-day timeout. You can act on the next card or use the web app.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

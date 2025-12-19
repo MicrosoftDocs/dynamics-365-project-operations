@@ -78,12 +78,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
+    - name: What's new November 2025 - Project Operations Core
+      href: pro/whats-new/whats-new-nov-2025-lite.md
     - name: What's new October 2025 - Project Operations Core
       href: pro/whats-new/whats-new-oct-2025-lite.md
-    - name: What's new September 2025 - Project Operations Core
-      href: pro/whats-new/whats-new-sept-2025-lite.md
     - name: Archive
       items:
+      - name: What's new September 2025 - Project Operations Core
+        href: pro/whats-new/whats-new-sept-2025-lite.md
       - name: What's new August 2025 - Project Operations Core
         href: pro/whats-new/whats-new-aug-2025-lite.md
       - name: What's new June 2025 - Project Operations Core
@@ -420,6 +422,8 @@
         href: project-management/create-wbs.md
       - name: Create assignments
         href: project-management/create-assignments.md
+      - name: Set up baselines
+        href: project-management/baselines.md
     - name: Financial estimates on projects
       items: 
       - name: Financial estimation concepts
@@ -482,6 +486,8 @@
       href: pro/budget/create-delete-project-sales-budget.md
     - name: Create a project budget from estimates
       href: pro/budget/create-project-budget-from-estimates.md
+    - name: Relax project start and end date checks
+      href: pro/budget/relax-project-start-and-end-date-checks.md
     - name: Summarize budget lines during import
       href: pro/budget/summarize-budgetline-during-import.md
     - name: Set up a budget period
@@ -594,6 +600,8 @@
       href: pro/subcontracting/key-concepts-subcontracting.md
     - name: Managing vendors and project price lists 
       href: pro/subcontracting/vendors-purchase-price-lists.md
+    - name: Improved Subcontracting user experience
+      href: pro/subcontracting/improved-sub-contracting-ui-experience.md
     - name: Subcontractors as bookable resources 
       href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Header Details for Subcontracts  
@@ -696,6 +704,8 @@
       items: 
       - name: Approvals Agent overview (preview)
         href: approvals/approvals-agent-intro.md
+      - name: Customize data sent to the Approvals Agent (preview)
+        href: approvals/approvals-agent-customization.md
       - name: Set up policy documents for the Approvals Agent (preview)
         href: approvals/approvals-agent-policy.md
       - name: Set up the Approvals Agent as an admin (preview)
@@ -1316,12 +1326,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
+    - name: November 2025 - Project Operations Integrated with ERP
+      href: whats-new/whats-new-nov-2025-resource-based.md
     - name: October 2025 - Project Operations Integrated with ERP
       href: whats-new/whats-new-oct-2025-resource-based.md
-    - name: September 2025 - Project Operations Integrated with ERP
-      href: whats-new/whats-new-sept-2025-resource-based.md
     - name: Archive
       items:
+       - name: September 2025 - Project Operations Integrated with ERP
+         href: whats-new/whats-new-sept-2025-resource-based.md
        - name: August 2025 - Project Operations Integrated with ERP
          href: whats-new/whats-new-aug-2025-resource-based.md
        - name: June 2025 - Project Operations Integrated with ERP
@@ -1601,7 +1613,7 @@
       - name: Turn off a pricing dimension    
         href: pricing-costing/turning-off-pricing-dimension.md
     - name: Manage discounts and fees overview
-      href: pricing-costing/manage-discount-fee-calculations.md
+      href: pricing-costing/manage-discount-fee-integrated.md
   - name: Project management
     items: 
     - name: Project management overview
@@ -1636,6 +1648,8 @@
         href: project-management/create-wbs.md
       - name: Create assignments
         href: project-management/create-assignments.md
+      - name: Set up baselines
+        href: project-management/baselines.md
     - name: Financial estimates on projects
       items: 
       - name: Financial estimation concepts
@@ -1786,6 +1800,8 @@
       href: pro/budget/create-delete-project-sales-budget.md
     - name: Create a project budget from estimates
       href: pro/budget/create-project-budget-from-estimates.md
+    - name: Relax project start and end date checks
+      href: pro/budget/relax-project-start-and-end-date-checks.md
     - name: Summarize budget lines during import
       href: pro/budget/summarize-budgetline-during-import.md
     - name: Set up a budget period
@@ -1818,6 +1834,8 @@
       href: pro/subcontracting/key-concepts-subcontracting.md
     - name: Managing vendors and project price lists 
       href: pro/subcontracting/vendors-purchase-price-lists.md
+    - name: Improved Subcontracting user experience
+      href: pro/subcontracting/improved-sub-contracting-ui-experience.md
     - name: Subcontractors as bookable resources 
       href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Header Details for Subcontracts  
@@ -1982,6 +2000,8 @@
       items: 
       - name: Approvals Agent overview (preview)
         href: approvals/approvals-agent-intro.md
+      - name: Customize data sent to the Approvals Agent (preview)
+        href: approvals/approvals-agent-customization.md
       - name: Set up policy documents for the Approvals Agent (preview)
         href: approvals/approvals-agent-policy.md
       - name: Set up the Approvals Agent as an admin (preview)
@@ -2030,8 +2050,14 @@
         href: actuals/cancel-actuals-from-entry-journals.md
   - name: Procurement
     items:
-    - name: Managed stocked products for project operations integrated deployments
-      href: procurement/enable-stocked-products-integrated.md
+    - name: Configure stocked products
+      items:
+      - name: Managed stocked products for project operations integrated deployments
+        href: procurement/enable-stocked-products-integrated.md
+      - name: Managed item requirements using item forecasts
+        href: procurement/enable-item-requirement-forecast.md
+      - name: Manage inventory consumption using Material usage and Journal
+        href: procurement/stock-material-reservation.md
     - name: Configure non-stocked materials and pending vendor invoices
       href: procurement/configure-materials-nonstocked.md
     - name: Configure procurement categories for projects
@@ -2126,6 +2152,8 @@
       href: project-accounting/configure-accounting-internal-projects.md
     - name: Configure accounting for billable projects
       href: project-accounting/configure-accounting-billable-projects.md
+    - name: Enable investment projects
+      href: project-accounting/project-operations-investment-project.md
     - name: Integration journal in Project Operations
       href: project-accounting/project-operations-integration-journal.md
     - name: Use general journals for advanced accounting
@@ -2262,6 +2290,8 @@
     items:
      - name: Project management and accounting overview
        href: prod-pma/overview-project-management-accounting.md
+     - name: How the project group, categories, and line property determines project postings 
+       href: prod-pma/project-group-categories-line-properties.md
      - name: Project adjustments
        href: project-accounting/project-adjustments.md
      - name: Understand how cost prices, sales prices, transfer prices and taxes work together
@@ -2461,7 +2491,7 @@
   - name: Project invoicing
     items:
     - name: Project invoicing
-      href: /dynamics365/finance/accounts-payable/project-invoicing
+      href: prod-pma/project-invoicing.md
     - name: Project invoice proposal performance
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Create advanced contracts for billing based on progress

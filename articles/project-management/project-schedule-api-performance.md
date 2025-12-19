@@ -1,9 +1,9 @@
 ---
 title: Project schedule API performance
 description: This article provides information about the performance benchmarks of the Project schedule APIs and identifies best practices for optimum use.
-author: abriccetti
-ms.author: abriccetti
-ms.date: 05/21/2024
+author: dishantpopli
+ms.author: dishantpopli
+ms.date: 12/16/2025
 ms.topic: article
 ms.custom: 
   - bap-template
@@ -18,319 +18,123 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 This article provides information about the performance benchmarks of the Project schedule application programming interfaces (APIs) and identifies the best practices for optimizing usage.
 
 ## Project Scheduling Service
-The Project Scheduling Service is a multi-tenant service that runs in Microsoft Azure. It's designed to improve interaction by providing a fast and fluid experience when users work on projects. This improvement is achieved by accepting change requests, processing them, and then immediately returning the result. The service asynchronously persists to Dataverse and doesn't block users from performing other operations.
 
-The Project schedule APIs rely on the Project Scheduling Service to run requests that are described in more detail in later sections of this article.
+The Project Scheduling Service is a multitenant service that runs in Microsoft Azure. It's designed to improve interaction by providing a fast and fluid experience when users work on projects. This improvement is achieved by accepting change requests, processing them, and then immediately returning the result. The service asynchronously persists to Dataverse and doesn't block users from performing other operations.
+
+The Project schedule APIs rely on the Project Scheduling Service to run requests. Later sections of this article describe these requests in more detail.
 
 The Project schedule APIs are designed to work with the following work breakdown structure (WBS) entities:
 
-  - Project
-  - Project Task
-  - Project Task Dependency
-  - Project Team Member
-  - Resource Assignment
+- Project
+- Project Task
+- Project Task Dependency
+- Project Team Member
+- Resource Assignment
   
 Both out-of-box fields and custom fields are supported. Unless otherwise noted, all common operations are supported, such as create, update, and delete. For more information, see [Use Project schedule APIs to perform operations and scheduling entities](schedule-api-preview.md).
 
-As part of the Project schedule APIs, a unit-of-work pattern has been added. This pattern is known as an OperationSet, and it can be used when several requests must be processed in a single transaction.
+As part of the Project schedule APIs, a unit-of-work pattern is added. This pattern is known as an OperationSet, and you can use it when you need to process several requests in a single transaction.
 
-The following illustration shows the flow that a partner will experience when this feature is used.
+The following illustration shows the flow that a partner experiences when this feature is used.
 
-![Dataverse and project scheduling service flow.](./media/dataverse-project-scheduling-service-flow.png)
+:::image type="content" source="./media/dataverse-project-scheduling-service-flow.png" alt-text="Screenshot of Dataverse and project scheduling service flow.":::
 
-**Step 1**: A client makes an API call to an Open Data Protocol (OData) endpoint in Dataverse to create an OperationSet.
+**Step 1**: A client makes an API call to an Open Data Protocol (OData) endpoint `ExecuteOperationSetV3`. This call does the following actions:
 
-**Step 2**: After the new OperationSet is created, an **OperationSetId** value is returned.
+1. Creates an OperationSet.
+1. Loads the OperationSet with Project schedule API requests.
+1. Sends all the changes to Project Scheduling Service in one batch.
 
-**Step 3**: The client uses the **OperationSetId** value to make another Project schedule API request. The result is a create, update, or delete request on a scheduling entity. When this request is made, metadata validation is done. If the validation fails, the request is terminated, and an error is returned.
+The Project Scheduling Service runs its own validations on requests in the batch. Any validation failures undo the batch and return an exception to the caller. If the Project Scheduling Service successfully accepts the batch, it updates the OperationSet status to reflect that it's processing the OperationSet.
 
-**Steps 4a–4c**: These steps represent the ACCEPT phase. The client calls the **ExecuteOperationSetV1** API, which sends all the changes to the Project Scheduling Service in one batch. The Project Scheduling Service runs its own validations on requests in the batch. Any validation failures undo the batch and return an exception to the caller. If the batch is successfully accepted by the Project Scheduling Service, the OperationSet status is updated to reflect the fact that the OperationSet is being processed by the Project Scheduling Service.
-
-**Step 5**: This step represents is the PERSIST phase. The Project Scheduling Service asynchronously writes the batch to Dataverse in a transaction. If the write operation is successful, the OperationSet is marked as **Completed**. Any errors roll back the transaction and the batch, and the OperationSet is marked as **Failed**.
+**Step 2**: This step represents the PERSIST phase. The Project Scheduling Service asynchronously writes the batch to Dataverse in a transaction. If the write operation is successful, the OperationSet is marked as **Completed**. Any errors roll back the transaction and the batch, and the OperationSet is marked as **Failed**.
 
 ## Performance methodology
-Execution time is defined as the time from the call to the **ExecuteOperationSetV1** API until the Project Scheduling Service has finished writing to Dataverse. All operations run a combined 2,200 times, and the P99 execution time measurements are reported. Single-record and bulk operations are measured.
 
-For a single-record operation, the OperationSet contains one request. For bulk operations, it contains 20, 50, or 100 requests. Each bulk size is reported separately.
+You run all operations a combined 2,280 times and report the P90 execution time measurements. Measure single-record and bulk operations.
 
-These operations run on a UR 15 Project Operations  Core in North America.
+For a single-record operation, the OperationSet contains one request. For bulk operations, it contains 20, 50, or 100 requests. Report each bulk size separately.
+
+Run these operations on a UR58 Project Operations Core distributed across North America, EMEA, and APAC.
 
 ## Results
-### Create operations
-#### Single-record create operations
-The following table shows the execution times for the creation of a single record. The times are in seconds.
 
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax" rowspan="2">Record&nbsp;&nbsp;&nbsp;type</th>
-    <th class="tg-0lax" colspan="2">Time</th>
-  </tr>
-  <tr>
-    <th class="tg-0lax">Required fields</th>
-    <th class="tg-0lax">All supported fields</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax">Project</td>
-    <td class="tg-0lax">2.5</td>
-    <td class="tg-0lax">3.78</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Task</td>
-    <td class="tg-0lax">8.82</td>
-    <td class="tg-0lax">9.34</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Assignment</td>
-    <td class="tg-0lax">9.19</td>
-    <td class="tg-0lax">9.19</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Team member</td>
-    <td class="tg-0lax">0.84</td>
-    <td class="tg-0lax">4.2</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Dependency</td>
-    <td class="tg-0lax">8.84</td>
-    <td class="tg-0lax">8.84</td>
-  </tr>
-</tbody>
-</table>
+### Single-record operations
 
-#### Bulk create operations
-The following table shows the execution times for the creation of many records. Specifically, Microsoft measured the execution times for the creation of 20, 50, and 100 records in a single OperationSet. The times are in seconds.
+The following table shows the execution times for the creation, update, and deletion of a single record. The times are in seconds.
 
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax" rowspan="3">Record&nbsp;&nbsp;&nbsp;type</th>
-    <th class="tg-0lax" colspan="6">Time</th>
-  </tr>
-  <tr>
-    <th class="tg-0lax" colspan="2">20 records</th>
-    <th class="tg-0lax" colspan="2">50 records</th>
-    <th class="tg-0lax" colspan="2">100 records</th>
-  </tr>
-  <tr>
-    <th class="tg-0lax">Required fields</th>
-    <th class="tg-0lax">All supported fields</th>
-    <th class="tg-0lax">Required fields</th>
-    <th class="tg-0lax">All supported fields</th>
-    <th class="tg-0lax">Required fields</th>
-    <th class="tg-0lax">All supported fields</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax">Task</td>
-    <td class="tg-0lax">19.92</td>
-    <td class="tg-0lax">38.35</td>
-    <td class="tg-0lax">36.67</td>
-    <td class="tg-0lax">99.13</td>
-    <td class="tg-0lax">116.77</td>
-    <td class="tg-0lax">174.06</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Assignment</td>
-    <td class="tg-0lax">13.94</td>
-    <td class="tg-0lax">13.94</td>
-    <td class="tg-0lax">43.95</td>
-    <td class="tg-0lax">43.95</td>
-    <td class="tg-0lax">69.38</td>
-    <td class="tg-0lax">69.38</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Dependency</td>
-    <td class="tg-0lax">30.04</td>
-    <td class="tg-0lax">30.04</td>
-    <td class="tg-0lax">77.82</td>
-    <td class="tg-0lax">77.82</td>
-    <td class="tg-0lax">176.89</td>
-    <td class="tg-0lax">176.89</td>
-  </tr>
-</tbody>
-</table>
+**Schedule API Duration**: Time taken by ExecuteOperationSetV3
 
-> [!NOTE] 
-> Bulk create operations on the **Project** and **Team Member** entities aren't included in this table, because the runtime for those operations resembles the runtime when the API for creating a single record is called multiple times. These APIs are run immediately in Dataverse.
+**Total Duration**: Schedule API duration + Project Save Service time + time taken to sync to Dataverse
 
-The following illustration shows a plot of the execution times for the **Task**, **Assignment**, and **Dependency** entities when 20, 50, and 100 records are created and all the supported fields are used.
-
-![Create record execution time graph.](./media/create-record-execution-time.png)
-
-### Update operations
-#### Single-record update operations
-The following table shows the execution times for updates of a single record. The times are in seconds.
-
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax" rowspan="2">Record&nbsp;&nbsp;&nbsp;type</th>
-    <th class="tg-0lax" colspan="2">Time</th>
-  </tr>
-  <tr>
-    <th class="tg-0lax">Required fields </th>
-    <th class="tg-0lax">All supported fields</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax">Project</td>
-    <td class="tg-0lax">9.53</td>
-    <td class="tg-0lax">13.91</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Task</td>
-    <td class="tg-0lax">8.82</td>
-    <td class="tg-0lax">9.91</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Team member</td>
-    <td class="tg-0lax">9</td>
-    <td class="tg-0lax">8.96</td>
-  </tr>
-</tbody>
-</table>
+| Operation | Record type | Schedule API Duration - Required fields | Schedule API Duration - All supported fields | Total Duration - Required fields | Total Duration - All supported fields |
+|-----------|-------------|----------------------------------------|---------------------------------------------|----------------------------------|--------------------------------------|
+| Create | Project | 2.18 | 2.41 | 2.18 | 2.41 |
+| Create | Task | 1.67 | 1.73 | 7.86 | 12.63 |
+| Create | Assignment | 1.46 | 2.03 | 10.86 | 12.81 |
+| Create | Dependency | 1.43 | 1.55 | 9.07 | 10.35 |
+| Update | Project | 1.56 | 1.59 | 7.91 | 11.00 |
+| Update | Task | 1.51 | 1.72 | 7.79 | 18.72 |
+| Update | Team Member | 1.94 | 1.92 | 10.71 | 9.37 |
+| Delete | Task | 1.53 | 1.55 | 7.92 | 9.68 |
+| Delete | Assignment | 1.44 | 1.44 | 7.89 | 9.36 |
+| Delete | Dependency | 1.23 | 1.44 | 8.88 | 8.40 |
+| Delete | Team Member | 1.41 | 1.49 | 9.91 | 10.97 |
 
 > [!NOTE]
-> Update operations on the **Resource Assignments** and **Project Task Dependency** entities aren't supported.
+>
+> * The **Team Member** entity isn't included in the create operation, because you can create a Team Member directly in Dataverse.
+> * Update operations on the **Resource Assignments** and **Project Task Dependency** entities aren't supported.
+> * Delete operation on the **Project** entity isn't supported.
 
-#### Bulk update operations
-The following table shows the execution times for updates of many records. Specifically, Microsoft measured the execution times for updates of 20, 50, and 100 records in a single OperationSet. The times are in seconds.
+### Bulk operations
 
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax" rowspan="3">Record&nbsp;&nbsp;&nbsp;type</th>
-    <th class="tg-0lax" colspan="6">Time</th>
-  </tr>
-  <tr>
-    <th class="tg-0lax" colspan="2">20 records</th>
-    <th class="tg-0lax" colspan="2">50 records</th>
-    <th class="tg-0lax" colspan="2">100 records</th>
-  </tr>
-  <tr>
-    <th class="tg-0lax">Required fields</th>
-    <th class="tg-0lax">All supported fields</th>
-    <th class="tg-0lax">Required fields</th>
-    <th class="tg-0lax">All supported fields</th>
-    <th class="tg-0lax">Required fields</th>
-    <th class="tg-0lax">All supported fields</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax">Task</td>
-    <td class="tg-0lax">8.91</td>
-    <td class="tg-0lax">38.71</td>
-    <td class="tg-0lax">20.92</td>
-    <td class="tg-0lax">87.13</td>
-    <td class="tg-0lax">36.68</td>
-    <td class="tg-0lax">190.34</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Team member</td>
-    <td class="tg-0lax">20.52</td>
-    <td class="tg-0lax">26.06</td>
-    <td class="tg-0lax">41.93</td>
-    <td class="tg-0lax">44.51</td>
-    <td class="tg-0lax">38.63</td>
-    <td class="tg-0lax">66.53</td>
-  </tr>
-</tbody>
-</table>
+The following table shows the execution times for the creation, update, and deletion of many records. Specifically, Microsoft measured the execution times for the creation of 20, 50, and 100 records in a single OperationSet. The times are in seconds.
+
+**Schedule API Duration**: Time taken by ExecuteOperationSetV3
+
+**Total Duration**: Schedule API duration + Project Save Service time + time taken to sync to Dataverse
+
+| Operation | Record type | No. of Records | Schedule API Duration - Required fields | Schedule API Duration - All supported fields | Total Duration - Required fields | Total Duration - All supported fields |
+|-----------|-------------|----------------|----------------------------------------|---------------------------------------------|----------------------------------|--------------------------------------|
+| Create | Task | 20 | 1.88 | 2.81 | 9.57 | 32.75 |
+| Create | Task | 50 | 2.41 | 3.17 | 12.82 | 36.96 |
+| Create | Task | 100 | 4.14 | 3.97 | 15.96 | 47.55 |
+| Create | Assignment | 20 | 2.61 | 1.98 | 12.51 | 26.62 |
+| Create | Assignment | 50 | 2.49 | 2.73 | 18.49 | 62.40 |
+| Create | Assignment | 100 | 3.85 | 4.04 | 35.43 | 68.69 |
+| Create | Dependency | 20 | 1.71 | 1.92 | 8.91 | 19.92 |
+| Create | Dependency | 50 | 2.38 | 2.58 | 18.72 | 39.73 |
+| Create | Dependency | 100 | 3.45 | 4.80 | 41.29 | 83.41 |
+| Update | Task | 20 | 2.03 | 5.36 | 8.82 | 20.42 |
+| Update | Task | 50 | 3.72 | 11.97 | 30.37 | 64.36 |
+| Update | Task | 100 | 5.94 | 20.21 | 69.37 | 155.52 |
+| Update | Team Member | 20 | 2.17 | 3.86 | 15.01 | 12.61 |
+| Update | Team Member | 50 | 3.88 | 6.33 | 17.89 | 21.84 |
+| Update | Team Member | 100 | 6.39 | 12.40 | 30.23 | 31.85 |
+| Delete | Task | 20 | 1.62 | 1.66 | 13.40 | 24.33 |
+| Delete | Task | 50 | 2.25 | 2.46 | 33.75 | 54.92 |
+| Delete | Task | 100 | 3.20 | 3.28 | 73.90 | 110.70 |
+| Delete | Assignment | 20 | 1.55 | 1.58 | 8.69 | 13.98 |
+| Delete | Assignment | 50 | 2.06 | 2.38 | 15.87 | 23.17 |
+| Delete | Assignment | 100 | 3.04 | 3.62 | 39.27 | 54.76 |
+| Delete | Dependency | 20 | 1.57 | 1.80 | 11.49 | 13.73 |
+| Delete | Dependency | 50 | 2.24 | 2.53 | 19.40 | 45.26 |
+| Delete | Dependency | 100 | 3.31 | 3.73 | 31.56 | 48.14 |
+| Delete | Team Member | 20 | 2.05 | 2.19 | 13.67 | 15.09 |
+| Delete | Team Member | 50 | 3.35 | 3.16 | 20.62 | 22.58 |
+| Delete | Team Member | 100 | 4.18 | 5.15 | 25.49 | 36.66 |
 
 > [!NOTE]
-> Update operations on the **Resource Assignments** and **Project Task Dependency** entities aren't supported.
-
-The following illustration shows a plot of the execution times for the Task and Team Member entities when 20, 50, and 100 records are updated and all the supported fields are used.
-
-![Update record execution time graph.](./media/update-record-execution-time.png)
-
-### Delete operations
-#### Single-record delete operations
-The following table shows the execution times for the deletion of a single record. The times are in seconds.
-
-| Record type | Time  |
-|-------------|-------|
-| Task        | 20.12 |
-| Assignment  | 10.86 |
-| Team member | 12.52 |
-| Dependency  | 20.89 |
-
-> [!NOTE]
-> Delete operations on the **Project** entity aren't supported.
-
-#### Bulk delete operations
-The following table shows the execution times for the deletion of many records. Specifically, Microsoft measured the execution times for the deletion of 20, 50, and 100 records in a single OperationSet. The times are in seconds.
-
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax" rowspan="2">Record&nbsp;&nbsp;&nbsp;type</th>
-    <th class="tg-0lax" colspan="3">Time</th>
-  </tr>
-  <tr>
-    <th class="tg-0lax">20 records</th>
-    <th class="tg-0lax">50 records</th>
-    <th class="tg-0lax">100 records</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax">Task</td>
-    <td class="tg-0lax">20.91</td>
-    <td class="tg-0lax">67.43</td>
-    <td class="tg-0lax">71.96</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Assignment</td>
-    <td class="tg-0lax">11.75</td>
-    <td class="tg-0lax">25.79</td>
-    <td class="tg-0lax">47.66</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Team member</td>
-    <td class="tg-0lax">9.78</td>
-    <td class="tg-0lax">39.73</td>
-    <td class="tg-0lax">24.33</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Dependency</td>
-    <td class="tg-0lax">24.61</td>
-    <td class="tg-0lax">54.9</td>
-    <td class="tg-0lax">109.16</td>
-  </tr>
-</tbody>
-</table>
-
-> [!NOTE]
-> Delete operations on the **Project** entity aren't supported.
-
-The following illustration shows a plot of the execution times for the **Task**, **Assignment**, **Team Member**, and **Dependency** entities when 20, 50, and 100 records are deleted.
-
-![Delete record execution time graph.](./media/delete-record-execution-time.png)
-
-## Observations
-For each record operation, the **ExecuteOperationSet** API takes about 800 milliseconds to send a request to the Project Scheduling Service. The Project Scheduling Service then takes about five seconds to process the payload and call Dataverse. The rest of the execution time is spent running business logic and writing data to the database in Dataverse.
-
-When 100 records are created, updated, or deleted, the **ExecuteOperationSet** API takes about three seconds to send the request to the Project Scheduling Service. The Project Scheduling Service then takes about five seconds to process the requests and call Dataverse. Bulk operations must pay a **Project Scheduling Service tax** one time, for all the records in the OperationSet. Therefore, bulk operations have a significantly lower average execution time than single-record operations.
-
-## Scenarios
-The following table shows the execution times when the Project schedule APIs are used to accomplish specific scenarios. The times are in seconds.
-
-| Scenario                                                                   | Time  |
-|----------------------------------------------------------------------------|-------|
-| Create a project that has 40   tasks.                                      | 36.01 |
-| Create   a project that has 40 tasks and 20 dependencies.                  | 38.11 |
-| Create   a project that has 40 tasks and 30 assignments.                   | 60.17 |
-| Create a   project that has 40 tasks, 20 dependencies, and 30 assignments. | 60.27 |
+>
+> 1. The table doesn't include bulk create operations on the Project and Team Member entities, because the runtime for those operations resembles the runtime when the API for creating a single record is called multiple times. These APIs run immediately in Dataverse.
+> 1. Update operations on the Resource Assignments and Project Task Dependency entities aren't supported.
+> 1. Delete operations on the Project entity aren't supported.
 
 ## Best practices
+
 Based on the preceding scenario results, the APIs perform better in the following conditions:
 
-  - Group as many operations together as possible. The average runtime for bulk operations is better than the average runtime for single-record operations. The smaller the number of OperationSets in use, the faster the average execution time will be.
-  - Set only the minimum attributes that are required to accomplish your scenario. Be selective about the types of non-required fields included in an OperationSet request. Fields that contain foreign keys or rollup fields will negatively affect performance.
+- Use the latest versions of the Schedule APIs as they're optimized for better performance.
+- Group as many operations together as possible. The average runtime for bulk operations is better than the average runtime for single-record operations. The smaller the number of operation sets in use, the faster the average execution time is.
+- Set only the minimum attributes that are required to accomplish your scenario. Be selective about the types of nonrequired fields included in an operation set request. Fields that contain foreign keys or rollup fields negatively affect performance.
