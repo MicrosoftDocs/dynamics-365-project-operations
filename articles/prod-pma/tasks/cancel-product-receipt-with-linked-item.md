@@ -28,7 +28,7 @@ The **Enable purchase order product receipt cancellation with linked item requir
 
 ## Cancel a product receipt that has a linked item requirement
 
-This procedure uses the USSI data set. To cancel a product receipt that has a linked item requirement, follow these steps.
+This procedure uses the USSI data set. To cancel a product receipt that has a linked item requirement, follow these steps:
 
 1. Go to **Project management and accounting** \> **Projects** \> **All projects**.
 1. In the list, select the project.

@@ -22,7 +22,7 @@ Users are associated with a specific legal entity. That legal entity is automati
 
 ## Change the legal entity
 
-To create an expense in a legal entity other than the selected legal entity, follow these steps.
+To create an expense in a legal entity other than the selected legal entity, follow these steps:
 
 1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense management mobile** app.
 1. In the upper left of the mobile app, select the user.

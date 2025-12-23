@@ -31,7 +31,7 @@ A budget period set up at the organization level is available for consumption at
 
 ## Set up a budget period at the organization level
 
-To set up or edit a budget period at the organization level, follow these steps.
+To set up or edit a budget period at the organization level, follow these steps:
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. Go to the **Settings** section in the lower-left navigation.
@@ -64,7 +64,7 @@ The following table describes the fields that are available.
 
 ## Set up a budget period at the project level
 
-To set up a budget period at the project level, follow these steps.
+To set up a budget period at the project level, follow these steps:
 
 1. Sign in to Project Operations.
 1. Go to the **Projects** section in the lower-left navigation.
@@ -93,7 +93,7 @@ You can edit the budget period configuration at the project level to meet your s
 
 ## Edit a budget period at the project level
 
-To edit a budget period that was created at the project level, follow these steps.
+To edit a budget period that was created at the project level, follow these steps:
 
 1. Sign in to Project Operations.
 1. Go to the **Projects** section in the lower-left navigation.
@@ -112,7 +112,7 @@ Depending on your updates, the budget period detail line is extended, or deleted
 
 ## Delete a budget period at the project level
 
-To delete a budget period at the project level, follow these steps.
+To delete a budget period at the project level, follow these steps:
 
 1. Sign in to Project Operations.
 1. Go to the **Projects** section in the lower-left navigation.

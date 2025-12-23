@@ -23,7 +23,7 @@ Project cost budgeting capabilities are enabled only if the feature flag is enab
 > [!NOTE]
 > After the project budget feature is enabled in an organization, it can't be disabled. However, you don't have to create a budget for every project.
 
-To enable project cost budgeting, follow these steps.
+To enable project cost budgeting, follow these steps:
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. In the left navigation, change the area to **Settings**.
@@ -36,7 +36,7 @@ After you enable the project cost budget feature, the page is refreshed, and a *
 
 ## Create a project cost budget
 
-To create a project cost budget, follow these steps.
+To create a project cost budget, follow these steps:
 
 1. Sign in to Project Operations.
 1. In the left navigation, change the area to **Projects**.
@@ -57,7 +57,7 @@ For information about how to create cost budget lines, see [Project time budget 
 > [!NOTE]
 > A project cost budget can be deleted only if the budget is in either **Draft** or **Rejected** status. It can't be deleted if it's in **Review**, **Approved**, or **Revised** status.
 
-To delete a project cost budget, follow these steps.
+To delete a project cost budget, follow these steps:
 
 1. Sign in to Project Operations.
 1. In the left navigation, change the area to **Projects**.

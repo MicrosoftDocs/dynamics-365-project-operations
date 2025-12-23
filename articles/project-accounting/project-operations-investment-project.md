@@ -51,7 +51,7 @@ To create an investment project in Dynamics 365 Project operations, follow these
 1. Enter a Name, Description, Owning Company, and set **Investment Project** to **Yes**.
 1. Select **Save** to save the project.
 
-To review the **Investment project** and **Revenue recognition project** in **Dynamics 365 Finance**, follow these steps.
+To review the **Investment project** and **Revenue recognition project** in **Dynamics 365 Finance**, follow these steps:
 
 1. Go to **Dynamics 365 Finance** > **Project management and accounting** > **Projects** > **All projects**.
 1. Search for the project created in **Dynamics 365 Project Operations**.

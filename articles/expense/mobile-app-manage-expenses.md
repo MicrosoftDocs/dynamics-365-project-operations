@@ -39,7 +39,7 @@ When you open the Dynamics 365 expense management mobile app, the **Expenses** t
 
 ### Quickly enter expenses by using OCR
 
-To enter expenses by using optical character recognition (OCR), follow these steps.
+To enter expenses by using optical character recognition (OCR), follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Expenses** tab, select the plus sign (**+**) button.
@@ -71,7 +71,7 @@ To enter expenses by using optical character recognition (OCR), follow these ste
 
 ### Modify an expense
 
-To modify an expense, follow these steps.
+To modify an expense, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Expenses** tab, select an expense.
@@ -86,7 +86,7 @@ To modify an expense, follow these steps.
 
 #### Add a receipt
 
-To add a receipt, follow these steps.
+To add a receipt, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Expenses** tab, select an expense.
@@ -101,7 +101,7 @@ To add a receipt, follow these steps.
 
 #### Change a receipt
 
-To change a receipt, follow these steps.
+To change a receipt, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Expenses** tab, select an expense.
@@ -117,7 +117,7 @@ To change a receipt, follow these steps.
 
 #### Detach a receipt
 
-To detach a receipt, follow these steps.
+To detach a receipt, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Expense management mobile app.
 1. On the **Expenses** tab, select an expense.
@@ -127,7 +127,7 @@ To detach a receipt, follow these steps.
 
 ### Delete expenses
 
-To delete expenses, follow these steps.
+To delete expenses, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Expenses** tab, select the **Multi select** button in the upper-right corner.
@@ -139,7 +139,7 @@ After an expense is deleted, the receipt that was attached to it moves to the li
 
 ### Attach expenses to an expense report
 
-To attach expenses to an expense report, follow these steps.
+To attach expenses to an expense report, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Expenses** tab, select the **Multi select** button in the upper-right corner.

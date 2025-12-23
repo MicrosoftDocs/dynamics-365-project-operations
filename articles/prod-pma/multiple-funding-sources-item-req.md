@@ -36,7 +36,7 @@ Contoso has won an equipment renewal contract with two of its customers: Adatum 
 
 ### Set up the invoice account defaulting rules
 
-To set up the default rules for the invoice account, follow these steps.
+To set up the default rules for the invoice account, follow these steps:
 
 1. Go to **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.
 1. On the **General** tab, in the **Sales orders and Item requirements** section, set the **Allow for projects with multiple funding sources** option to **Yes**.
@@ -52,7 +52,7 @@ To set up the default rules for the invoice account, follow these steps.
 
 ### Select the invoice account to use when you create an item requirement
 
-To select the invoice account to use when you create an item requirement, follow these steps.
+To select the invoice account to use when you create an item requirement, follow these steps:
 
 1. Go to **Project management and accounting** \> **Projects** \> **All projects**, and select the project record.
 1. On the **Plan** tab, select **Item requirements**.
@@ -68,7 +68,7 @@ To select the invoice account to use when you create an item requirement, follow
 
 ### Create an item requirement from an item forecast record
 
-To create an item requirement from an item forecast record, follow these steps.
+To create an item requirement from an item forecast record, follow these steps:
 
 1. Go to **Project management and accounting** \> **Projects** \> **All projects** and select the project record.
 1. On the **Plan** tab, select **Item forecasts**.

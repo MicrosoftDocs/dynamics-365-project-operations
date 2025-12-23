@@ -20,7 +20,7 @@ This article explains how system administrators can enable the new Microsoft Dyn
 
 ## For system administrators: Make the mobile app available to users
 
-To make the Time Entry Mobile App available to users, ensure that the version of Dynamics 365 Project Operations in the environment is 4.124.0.0 or later. Then follow these steps.
+To make the Time Entry Mobile App available to users, ensure that the version of Dynamics 365 Project Operations in the environment is 4.124.0.0 or later. Then follow these steps:
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
 1. Use the environment picker to select the Project Operations environment where users require access to the app.
@@ -36,7 +36,7 @@ To make the Time Entry Mobile App available to users, ensure that the version of
 
 ## For system administrators: Modify or disable access to the mobile app
 
-To modify or disable access to the Time Entry Mobile App for individual users, follow these steps.
+To modify or disable access to the Time Entry Mobile App for individual users, follow these steps:
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
 1. Use the environment picker to select the desired Project Operations environment.

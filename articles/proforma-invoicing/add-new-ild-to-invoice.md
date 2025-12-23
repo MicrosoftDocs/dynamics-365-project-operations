@@ -26,7 +26,7 @@ The feature is available in Project Operations Core deployments of Microsoft Dyn
 
 ## Create new invoice line details on a draft proforma invoice
 
-To create new invoice line details on a draft proforma invoice, follow these steps.
+To create new invoice line details on a draft proforma invoice, follow these steps:
 
 1. On the invoice line page, select **New** to create an invoice line detail of the **Time**, **Expense**, **Material**, or **Fee** transaction class.
 1. Update the invoice line detail with a price, quantity, billing type, external description, or description.

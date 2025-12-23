@@ -52,7 +52,7 @@ A project price list can be set up as the default project price list. This setup
 
 ### Set up an organizational default for the project price lists
 
-To set up an organizational default for the project price lists, follow these steps.
+To set up an organizational default for the project price lists, follow these steps:
 
 1. Go to **Settings** \> **General** \> **Parameters**.
 1. On the **Active Parameters** list page, find the record, and double-tap (or double-click) it to open it. While you double–tap (or double-click), make sure that you don't select a field value that is a hyperlink. 
@@ -62,7 +62,7 @@ To set up an organizational default for the project price lists, follow these st
 
 Customer-specific project price lists can be set up when you've negotiated a master pricing agreement with your customers.
 
-To set up a customer-specific project price list, follow these steps.
+To set up a customer-specific project price list, follow these steps:
 
 1. In the **Sales** area, select **Customers**.
 1. In the list of your active accounts, select and open the customer record that you have a special price list for.

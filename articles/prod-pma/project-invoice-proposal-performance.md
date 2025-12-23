@@ -30,7 +30,7 @@ This feature helps improve performance and reduce the time required to create an
 
 This feature introduces a **Display available transactions automatically** option on the **Invoice** tab of the **Project Management and accounting parameters** page. By default, the option is set to **No**. This setting prevents transactions from appearing while they're being loaded when the **Create invoice proposal** page is opened. Instead, transactions appear only after the search button is used. This behavior encourages users to select criteria to filter out transactions that they don't require before the query runs, to help reduce the need to refine and search again. The option applies to all users of the legal entity and prevents individual users from changing their settings on the **Create invoice proposal** page.
 
-To enable the **Project invoice proposal performance enhancement** feature, follow these steps.
+To enable the **Project invoice proposal performance enhancement** feature, follow these steps:
 
 1. Open the **Feature management** workspace, and select the **All** tab.
 1. In the feature list, find **Project invoice proposal performance enhancement**.
@@ -57,7 +57,7 @@ If you create an invoice proposal from within a project, the **Project** filter 
 > [!NOTE]
 > The **Project** filter works only for time-and-material and milestone billing rules, because only these types of billing rules specify the project as part of the configuration.
 
-To enable the **Performance improvement to filter by project for project invoice proposals with billing rules** feature, follow these steps.
+To enable the **Performance improvement to filter by project for project invoice proposals with billing rules** feature, follow these steps:
 
 1. Open the **Feature management** workspace, and select the **All** tab.
 1. In the feature list, find **Performance improvement to filter by project for project invoice proposals with billing rules**.

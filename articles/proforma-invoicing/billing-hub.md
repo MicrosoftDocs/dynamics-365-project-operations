@@ -70,7 +70,7 @@ The following information is available in the **Billing hub** view. Learn how to
 
 The contract lines for each project contract provide a view of all associated actuals for time, expenses, materials, and fees. The invoiceable backlog provides a comprehensive list of actuals across all transaction types. Use the hyperlinks to drill down into each category of invoiceable transactions and mark them as either ready or not ready to be invoiced.
 
-To review or update the invoiceable backlog, follow these steps.
+To review or update the invoiceable backlog, follow these steps:
 
 1. For a time and material project contract line that has approved time entries, for example, select the **Time** amount field. Alternatively, you can select the **Invoiceable backlog** amount field. A list of invoiceable time transactions that are specific to the project contract and contract line appears.
 1. Select the transactions, and then update the billing status by selecting **Ready to invoice** or **Not ready to invoice** in the list of options for the subgrid.
@@ -102,7 +102,7 @@ When you use the **Add to invoice** functionality, you can expect the following 
 
 ### Update totals on contract and contract line fields
 
-To update totals on contract and contract line fields, follow these steps.
+To update totals on contract and contract line fields, follow these steps:
 
 1. Select one or more project contracts.
 1. On the Action Pane, select **Update Totals**.
@@ -156,7 +156,7 @@ To create an invoice for progress-based milestones, follow these steps on all mi
 > [!NOTE]
 > If you update the status of the milestone header to **Ready for invoicing** and then update the grid, you create a split of two milestone lines under the milestone header.
 
-To create an invoice that includes the selected progress-based milestones, follow these steps.
+To create an invoice that includes the selected progress-based milestones, follow these steps:
 
 1. Select the milestone header.
 1. Select either the **Create invoice** grid action or the **Add to invoice** grid action.

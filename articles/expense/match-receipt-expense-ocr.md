@@ -56,7 +56,7 @@ To create an expense, or match an expense from a receipt, complete the following
 
 **Option 2:** You can also enable the service by installing the **Dynamics 365 Project Operations expense receipt capture** application from the Power Platform Admin Center. 
 
-To install the **Dynamics 365 Project Operations expense receipt capture** application, follow these steps.
+To install the **Dynamics 365 Project Operations expense receipt capture** application, follow these steps:
 
 1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/resources/applications) and select the required environment.  
 3. Select **Dynamics 365 Apps**.  

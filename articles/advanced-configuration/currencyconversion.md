@@ -27,7 +27,7 @@ In scenarios where the expense cost is incurred in a currency that differs from 
 
 ## Currency conversion behavior that uses native Dataverse exchange rates
 
-By default, Project Operations uses the currency exchange rates that's stored in the Currency table in Dataverse. To configure Project Operations to use native exchange rates to calculate sales prices from cost, follow these steps.
+By default, Project Operations uses the currency exchange rates that's stored in the Currency table in Dataverse. To configure Project Operations to use native exchange rates to calculate sales prices from cost, follow these steps:
 
 1. Go to **Project Operations \> Settings \> Parameters**.
 1. Open the **Project Parameter** details page.
@@ -37,7 +37,7 @@ By default, Project Operations uses the currency exchange rates that's stored in
 
 The exchange rates in the Currency table that's natively available in Dataverse aren't date effective. Therefore, they might not always be scaled to the requirements that you have for the calculation of sales prices from cost rates.
 
-You can use exchange rates from the finance and operations environment to calculate the sales price in the sales currency from a cost rate in the cost currency. To configure this currency conversion behavior, follow these steps.
+You can use exchange rates from the finance and operations environment to calculate the sales price in the sales currency from a cost rate in the cost currency. To configure this currency conversion behavior, follow these steps:
 
 1. On the **Project parameters** page, add the **Currency conversion logic** field. Then save and publish the customization.
 1. Go to **Project Operations \> Settings \> Parameters**.

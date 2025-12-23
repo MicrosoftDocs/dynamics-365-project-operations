@@ -22,7 +22,7 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 
 ## Get suggested resources
 
-To get suggested resources, follow these steps.
+To get suggested resources, follow these steps:
 
 1. Ensure that you complete the [prerequisites for using resource recommendations](./getting-started-with-resource-recommendations.md).
 1. Go to **Projects**, and select a project that must be staffed with one or more resources.

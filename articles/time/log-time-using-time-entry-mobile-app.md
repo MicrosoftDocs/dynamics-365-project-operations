@@ -24,7 +24,7 @@ There are multiple ways to create time entries in the Time Entry Mobile App.
 
 ### Create a time entry through the Quick Create dialog
 
-To create a time entry through the Quick Create dialog, follow these steps.
+To create a time entry through the Quick Create dialog, follow these steps:
 
 1. Sign in to the Power Apps mobile app as your Dynamics 365 Project Operations user.
 1. Open **Dynamics 365 Time Entry (Production Ready Preview)**. By default, the **My Time** page is used as the landing page.
@@ -38,7 +38,7 @@ To create a time entry through the Quick Create dialog, follow these steps.
 
 ### Create a time entry from project assignments through the My Work page
 
-To create a time entry from project assignments by using the **My Work** page, follow these steps.
+To create a time entry from project assignments by using the **My Work** page, follow these steps:
 
 1. Sign in to the Power Apps mobile app as your Dynamics 365 Project Operations user.
 1. Open **Dynamics 365 Time Entry (Production Ready Preview)**. By default, the **My Time** page is used as the landing page.
@@ -48,7 +48,7 @@ To create a time entry from project assignments by using the **My Work** page, f
 
 ### Create a time entry through the Timer page
 
-To create a time entry by using the **Timer** page, follow these steps.
+To create a time entry by using the **Timer** page, follow these steps:
 
 1. Sign in to the Power Apps mobile app as your Dynamics 365 Project Operations user.
 1. Open **Dynamics 365 Time Entry (Production Ready Preview)**. By default, the **My Time** page is used as the landing page.
@@ -64,7 +64,7 @@ You can also use the **Delete** button to delete any unused timer recordings tha
 
 ## Modify existing time entries
 
-To modify existing time entries, follow these steps.
+To modify existing time entries, follow these steps:
 
 1. In the Time Entry Mobile App, open the **My Time** page.
 1. Select any day of the week where time entries are present.
@@ -75,7 +75,7 @@ To modify existing time entries, follow these steps.
 
 ### Select time entries
 
-To select time entries for further action, follow these steps.
+To select time entries for further action, follow these steps:
 
 1. In the Time Entry Mobile App, open the **My Time** page.
 1. To select a time entry, tap in the white space for it. Completion of this step for multiple time entries together leads to multi-selection of those entries. In this case, the actions that are available depend on the time entry status of each entry.
@@ -84,7 +84,7 @@ To select time entries for further action, follow these steps.
 
 ### Delete time entries
 
-To delete time entries, follow these steps.
+To delete time entries, follow these steps:
 
 1. In the Time Entry Mobile App, open the **My Time** page.
 1. Select one or more draft time entries.
@@ -94,7 +94,7 @@ To delete time entries, follow these steps.
 
 ### Submit or recall time entries
 
-To submit or recall time entries, follow these steps.
+To submit or recall time entries, follow these steps:
 
 1. In the Time Entry Mobile App, open the **My Time** page.
 1. Select one or more time entries.
@@ -105,7 +105,7 @@ To submit or recall time entries, follow these steps.
 
 ## Track the completion of logging time
 
-To track the completion of logging time, follow these steps.
+To track the completion of logging time, follow these steps:
 
 1. Sign in to the Power Apps mobile app as your Project Operations user.
 1. Open **Dynamics 365 Time Entry (Production Ready Preview)**. By default, the **My Time** page is used as the landing page.

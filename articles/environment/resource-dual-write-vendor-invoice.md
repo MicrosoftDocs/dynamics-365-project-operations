@@ -31,7 +31,7 @@ In Project Operations, project-related vendor invoices are posted using special 
 
 ## Vendor invoice lines
 
-As part of the 10.0.38 upgrade, a new iteration of the dual-write map, version 1.0.0.6, is introduced specifically for vendor invoice lines. This updated version enables the execution of intercompany vendor invoices. To enable this feature, some integration keys have been modified. If the dual-write map for vendor invoice lines stops working, follow these steps.
+As part of the 10.0.38 upgrade, a new iteration of the dual-write map, version 1.0.0.6, is introduced specifically for vendor invoice lines. This updated version enables the execution of intercompany vendor invoices. To enable this feature, some integration keys have been modified. If the dual-write map for vendor invoice lines stops working, follow these steps:
 
 1. In the **Data Management** workspace, go to the **Dual Write Maps** section.
 2. On the Action Pane, select **Integration key**.

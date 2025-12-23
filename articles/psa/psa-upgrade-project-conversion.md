@@ -23,7 +23,7 @@ After a project has been successfully upgraded from Microsoft Dynamics 365 Proje
 
 ## Project conversion process
 
-To convert a project, follow these steps.
+To convert a project, follow these steps:
 
 1. Open the project's main page, and select **Convert** on the Action Pane.
 1. In the confirmation message box, select **OK** to start the project conversion. The following actions occur:

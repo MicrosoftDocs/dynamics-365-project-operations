@@ -26,7 +26,7 @@ The **Reports** tab of the Dynamics 365 expense management mobile app shows all 
 
 ## Create an expense report
 
-To create an expense report, follow these steps.
+To create an expense report, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Reports** tab, on the **Draft** tab, select the plus sign (**+**) button.
@@ -40,7 +40,7 @@ To create an expense report, follow these steps.
 
 ## Delete expense reports
 
-To delete expense reports, follow these steps.
+To delete expense reports, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Reports** tab, on the **Draft** tab, select the **Multi select** button.
@@ -52,7 +52,7 @@ After an expense report is deleted, all the expenses that were attached to it mo
 
 ## Submit an expense report for review
 
-To submit an expense report for review, follow these steps.
+To submit an expense report for review, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Reports** tab, on the **Draft** tab, open the expense report that you want to submit for review.
@@ -62,7 +62,7 @@ After an expense report is submitted, it moves to **In review** status and is av
 
 ## Recall an expense report
 
-To recall an expense report, follow these steps.
+To recall an expense report, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Reports** tab, on the **In review** tab, open the expense report that you want to recall.

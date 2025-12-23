@@ -103,7 +103,7 @@ You must determine the appropriate page for the custom field. Most likely, if yo
 To add the custom field to a page, drag a **Field** element into the appropriate position on the page, and then set its properties.
 
 ### Add new option set values
-To add option set values to an out-of-box field, follow these steps.
+To add option set values to an out-of-box field, follow these steps:
 
 1. Open the editing page for the field, and then, under **Type**, select **Edit** next to the option set.
 2. Add a new option that has a custom label and color. If you want to add a new time entry status, the out-of-box field is named **Entry Status**.
