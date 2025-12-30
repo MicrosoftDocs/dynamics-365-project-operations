@@ -18,7 +18,7 @@ In Microsoft Dynamics 365 Project Operations, you can define the roles or catego
 
 ## Create a new role
 
-To create a new role, follow these steps.
+To create a new role, follow these steps:
 
 1. Go to **Resources** \> **Settings** \> **Roles**.
 1. Select **New** to create a role.

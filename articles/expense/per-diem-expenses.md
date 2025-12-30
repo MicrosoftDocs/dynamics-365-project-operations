@@ -22,7 +22,7 @@ The per diem is calculated as the total allowance that is offered per day minus 
 
 ## Configure per diems
 
-To configure per diem expenses, follow these steps.
+To configure per diem expenses, follow these steps:
 
 1. Go to **Expense management** \> **Setup** \> **General** \> **Expense management parameters**.
 2. On the **Per diem** tab, in the **Calculate meal reduction by** field, select how per diems should be calculated:
@@ -39,7 +39,7 @@ To configure per diem expenses, follow these steps.
 
 The per diem feature is supported in the reimagined **Expense Management** workspace in Microsoft Dynamics 365 Finance version 10.0.25 and later.
 
-To enable per diems, follow these steps.
+To enable per diems, follow these steps:
 
 1. In the **Feature Management** workspace, find and select the **Expense Reports Reimagined** feature in the list, and then select **Enable now**.
 2. Find and select the **Per-diem for expense report re-imagined interface** feature in the list, and then select **Enable now**.
@@ -48,7 +48,7 @@ To enable per diems, follow these steps.
 
 This section provides examples for three configuration scenarios. For each example, the **Calculate meal reduction by** field is set to a different value. For all three examples, the total amount that is payable is the same until the meal reduction is applied. After that point, the total amount payable differs for each example.
 
-To create the per diem expense that is used for all three examples, follow these steps.
+To create the per diem expense that is used for all three examples, follow these steps:
 
 1. Go to **Workspaces** \> **Expense Management**.
 2. Select **New expense report**, or select an existing expense report.

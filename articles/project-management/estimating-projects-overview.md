@@ -56,7 +56,7 @@ Creating an estimate for a project is considered a best practice because you can
 >
 > Once the **Project estimate updates** feature is enabled, it can't be disabled. These updates include label changes at the project level where the original **Estimates** tab shows **Time phased estimates**, and the newly labeled **Estimates** tab is a consolidated view of expense and material estimates. The new grid for expense and material estimates allows easy creation and editing of those estimates.
 >
->To enable the **Project estimate updates** feature, follow these steps.
+>To enable the **Project estimate updates** feature, follow these steps:
 >
 >1. Go to **Settings** \> **Parameters**.
 >1. Open the **Parameters** record.

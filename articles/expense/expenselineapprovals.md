@@ -22,7 +22,7 @@ When an expense report is submitted for approval in Dynamics 365 Finance, the sy
 
 ## Approve an expense line
 
-To approve an expense, follow these steps.
+To approve an expense, follow these steps:
 
 1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
 1. On the **Approvals** tab, select the **Expense line** tab. This tab lists expense lines that are pending approval.
@@ -33,7 +33,7 @@ To approve an expense, follow these steps.
 
 ## Approve multiple expense lines
 
-To approve multiple expenses at the same time, follow these steps.
+To approve multiple expenses at the same time, follow these steps:
 
 1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
 1. On the **Approvals** tab, select the **Expense line** tab. This tab lists expense lines that are pending approval.
@@ -45,7 +45,7 @@ To approve multiple expenses at the same time, follow these steps.
 
 ## Reject an expense line
 
-To reject an expense, follow these steps.
+To reject an expense, follow these steps:
 
 1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
 1. On the **Approvals** tab, select the **Expense line** tab. This tab lists expense lines that are pending approval.
@@ -56,7 +56,7 @@ To reject an expense, follow these steps.
 
 ## Reject multiple expenses lines
 
-To reject multiple expenses at the same time, follow these steps.
+To reject multiple expenses at the same time, follow these steps:
 
 1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
 1. On the **Approvals** tab, select the **Expense line** tab. This tab lists expense lines that are pending approval.
@@ -68,7 +68,7 @@ To reject multiple expenses at the same time, follow these steps.
 
 ## Delegate an expense line
 
-To delegate an expense, follow these steps.
+To delegate an expense, follow these steps:
 
 1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
 1. On the **Approvals** tab, select the **Expense line** tab. This tab lists expense lines that are pending approval.

@@ -43,7 +43,7 @@ If an employee submits an expense report with 1,500 miles, the two mileage lines
 
 ## Enable the Mileage calculation improvements when using mileage rate tiers feature
 
-The **Mileage calculation improvements when using mileage rate tiers** feature improves mileage rate calculation. To enable this feature, follow these steps.
+The **Mileage calculation improvements when using mileage rate tiers** feature improves mileage rate calculation. To enable this feature, follow these steps:
 
 1. Go to **Workspaces** > **Feature Management**. 
 2. In the list, locate and select **Mileage calculation improvements when using mileage rate tiers**, and then select **Enable now**.

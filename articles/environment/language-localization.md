@@ -21,7 +21,7 @@ Microsoft Dynamics 365 Project Operations allows for localization of the user in
 
 ## Language localization of the Project Operations UI
 
-To view and change the language that the Project Operations UI is shown in, follow these steps.
+To view and change the language that the Project Operations UI is shown in, follow these steps:
 
 1. Select the **Settings** button (gear symbol).
 
@@ -34,7 +34,7 @@ To view and change the language that the Project Operations UI is shown in, foll
 
 ### Add more language options
 
-If you want more language options to select among on the **Languages** tab, a system administrator must follow these steps.
+If you want more language options to select among on the **Languages** tab, a system administrator must follow these steps:
 
 1. Select the **Settings** button (gear symbol).
 1. Select **Advanced Settings**. The advanced settings are opened on a new tab.
@@ -49,7 +49,7 @@ If you want more language options to select among on the **Languages** tab, a sy
 
 ## Language localization of the Tasks grid
 
-To view and change the language that the **Tasks** grid is shown in, follow these steps.
+To view and change the language that the **Tasks** grid is shown in, follow these steps:
 
 1. Select the **Settings** button (gear symbol).
 1. Select **Personalization Settings**.

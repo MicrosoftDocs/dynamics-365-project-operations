@@ -34,7 +34,7 @@ A project budget has budget lines that are a snapshot of the budgeted quantity a
 
 **Prerequisite:** A project budget must be created for the project. For more information, see [Create and delete project cost budgets](create-delete-project-budget.md) or [Create and delete project sales budgets](create-delete-project-sales-budget.md).
 
-To create a project budget line for the **Material** transaction class, follow these steps.
+To create a project budget line for the **Material** transaction class, follow these steps:
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. In the left navigation, change the area to **Projects**.

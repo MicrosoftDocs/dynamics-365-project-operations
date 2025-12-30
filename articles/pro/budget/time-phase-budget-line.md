@@ -37,7 +37,7 @@ After the budget period is set up at the project level, the process of time-phas
 
 You can do on-demand time phasing of a budget line, provided that the budget version remains in **Draft** status.
 
-To time-phase a budget line, follow these steps.
+To time-phase a budget line, follow these steps:
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. Go to the **Projects** section in the lower-left navigation.

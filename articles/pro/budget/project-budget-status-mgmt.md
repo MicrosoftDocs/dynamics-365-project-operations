@@ -39,7 +39,7 @@ The following illustration shows the transitions between project budget statuses
 
 ## Approve a budget
 
-To approve a project budget, follow these steps.
+To approve a project budget, follow these steps:
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. In the left navigation, change the area to **Projects**.
@@ -61,7 +61,7 @@ To approve a project budget, follow these steps.
 
 ## Delete a budget
 
-To delete a project budget, follow these steps.
+To delete a project budget, follow these steps:
 
 > [!IMPORTANT]
 > Budget data can't be recovered after a budget is deleted.

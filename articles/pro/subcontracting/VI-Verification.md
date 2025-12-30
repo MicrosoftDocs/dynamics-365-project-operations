@@ -41,7 +41,7 @@ Vendor invoice lines that have a verification status of **Complete** can no long
 
 ## Match cost actuals to vendor invoice lines
 
-Matching of cost actuals helps with the verification process on a vendor invoice line. To match cost actuals to a vendor invoice line, follow these steps.
+Matching of cost actuals helps with the verification process on a vendor invoice line. To match cost actuals to a vendor invoice line, follow these steps:
 
 1. Open the vendor invoice line, and select the **Unmatched cost actuals** tab. A grid shows a list of cost actuals that reference the same subcontract line as the vendor invoice line.
 2. Select one or more of the cost actuals, and then select **Match** on the toolbar above the grid. The system validates that the selected cost actuals can be matched. After the validation is passed, the cost actuals are linked the vendor invoice line.
@@ -66,7 +66,7 @@ During the matching process, a link between a cost actual and a vendor invoice l
 
 ## Unmatch cost actuals from a vendor invoice line
 
-Unmatching of cost actuals can also help with the verification process on a vendor invoice by enabling previously established links to be removed. Cost actuals can be unmatched only from vendor invoice lines that have a verification status of **In progress**. To unmatch cost actuals from a vendor invoice line, follow these steps.
+Unmatching of cost actuals can also help with the verification process on a vendor invoice by enabling previously established links to be removed. Cost actuals can be unmatched only from vendor invoice lines that have a verification status of **In progress**. To unmatch cost actuals from a vendor invoice line, follow these steps:
 
 1. Open the vendor invoice line, and select the **Matched cost actuals** tab. A grid shows a list of cost actuals that reference the vendor invoice line.
 2. Select one or more of the cost actuals, and then select **Unmatch** on the toolbar above the grid.

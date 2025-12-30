@@ -83,7 +83,7 @@ To use this feature for Microsoft Dynamics 365 Project Operations non-stocked/re
 
 When the contract line uses a fixed billing method, you can select **Progress-based** in the **Invoice schedule type** field. This field enables the creation of milestone headers on the **Invoice schedule** tab. For each header, a default milestone is automatically generated. During the invoicing process, you can specify the **Next invoice percentage** or **Next invoice amount** value and update the milestone header's invoice status to **Ready for Invoice**.
 
-To generate a progress-based invoice schedule, follow these steps.
+To generate a progress-based invoice schedule, follow these steps:
 
 1. In Dataverse, go to **Sales** \> **Project contracts**, and select **New**.
 1. On the **Project contract lines** tab, select **New project contract line**.
@@ -104,7 +104,7 @@ To generate a progress-based invoice schedule, follow these steps.
 
 1. Select **Save and Close**.
 
-To monitor the milestone header and related milestones in Finance, follow these steps.
+To monitor the milestone header and related milestones in Finance, follow these steps:
 
 1. In Finance, go to **Project management and accounting**.
 1. Go to **Projects** \> **Project contracts**.

@@ -30,7 +30,7 @@ To use the feature for Dynamics 365 Project Operations for stocked based scenari
 
 ## Set up Project management and accounting parameters
 
-To enable the **Item requirements** feature for project purchase order lines that are created for procurement categories, follow these steps.
+To enable the **Item requirements** feature for project purchase order lines that are created for procurement categories, follow these steps:
 
 1. Go to **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.
 1. On the **General** tab, set the **Create item requirement** option to **Yes**.
@@ -43,7 +43,7 @@ To enable the **Item requirements** feature for project purchase order lines tha
 
 To use the **Item requirements** feature for procurement categories, you must establish a relationship between the procurement categories and the sales categories, because item requirements support only sales categories.
 
-To set up default sales categories for procurement categories, follow these steps.
+To set up default sales categories for procurement categories, follow these steps:
 
 1. Go to **Procurement and sourcing** \> **Procurement categories**.
 1. On the Action Pane, select **Edit procurement hierarchy**.

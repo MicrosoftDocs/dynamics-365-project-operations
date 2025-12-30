@@ -33,7 +33,7 @@ In addition to the error message, impact is experienced in the following scenari
 
 ## Customize the payment terms options
 
-To customize the payment terms options, follow these steps.
+To customize the payment terms options, follow these steps:
 
 1. In the **Project contract customer** entity, go to **Customizations** \> **Entities** \> **Project contract Customer** \> **Fields** \> **Payment terms (msdyn\_paymentterms)**, and select the **Add option** button (**\+**).
 

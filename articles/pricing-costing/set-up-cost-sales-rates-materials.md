@@ -18,7 +18,7 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 
 You can set up cost and sales prices for products in Microsoft Dynamics 365 Project Operations. Cost and sales prices for products can only be listed in one currency, which must be the currency on the price list header.
 
-To set up cost and sales rates for products, follow these steps. 
+To set up cost and sales rates for products, follow these steps: 
 
 1. Go to **Sales** > **Customers** > **Price Lists** and select **New** to create a new price list. 
 1. In the newly created price list, select **Project Price list** in the view selector.

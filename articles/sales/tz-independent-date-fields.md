@@ -21,7 +21,7 @@ The Time Zone Independent Milestone Date feature ensures that milestone dates in
 
 ## Get started
 
-To enable the Time Zone Independent Milestone Date feature, follow these steps.
+To enable the Time Zone Independent Milestone Date feature, follow these steps:
 
 1. Go to  **Settings** \> **Parameters** \> **Feature control** \> **Enable TZ Independent Milestone Date**. 
 2. Update your Dual-write map version to 1.0.0.7 to use the milestone date (TZ independent) date field in your finance and operations apps environment.

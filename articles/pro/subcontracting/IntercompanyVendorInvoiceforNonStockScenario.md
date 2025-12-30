@@ -45,7 +45,7 @@ The following screenshot shows the dual-write field mapping that's used for vend
 **USPM**, the lending legal entity, must create and post the intercompany vendor invoice for a project from **GBPM**, the borrowing legal entity. 
 This **vendor invoice** represents the outsourced labor and expense that were performed by vendors that are paid by USPM.
 
-To create an intercompany invoice, follow these steps.
+To create an intercompany invoice, follow these steps:
 
 1. In Microsoft Dynamics 365 Finance, go to **Accounts payables** > **Invoices** > **Pending vendor invoices**.
 1. To create a vendor invoice, on the **Action** pane, select **New**.
@@ -70,7 +70,7 @@ After the **vendor invoice** has been successfully posted, it becomes accessible
 
 After the vendor invoice is validated and approved by the Project manager within Dataverse, the subsequent step involves the posting of **Project Integration Journals** in Dynamics 365 Finance specifically for the lending legal entity.
 
-To post the integration journal for the lending legal entity, follow these steps.
+To post the integration journal for the lending legal entity, follow these steps:
 
 1. In Dynamics 365 Finance, go to **Project management and accounting** > **Periodic** > **Project Operations on Customer Engagement** > **Import from staging** and select to run the periodic process. This periodic process fills in Project Operations Integration journal.
 1. Go to **Project management and accounting** > **Journals** > **Project Operations integration journal** and review the journal lines. The system creates the journal lines for **Inter-organizational sales** and **Resourcing unit cost**.

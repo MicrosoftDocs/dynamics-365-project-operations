@@ -54,7 +54,7 @@ When you set up PWP terms for a project, you must specify, as a percentage, the 
 
 ## Create a PO that has PWP terms
 
-When you post an invoice from a vendor, if the vendor is subject to PWP terms, those terms are shown on the PO lines. To create a PO that has PWP terms, follow these steps.
+When you post an invoice from a vendor, if the vendor is subject to PWP terms, those terms are shown on the PO lines. To create a PO that has PWP terms, follow these steps:
 
 1. Go to **Procurement and sourcing** \> **Purchase orders** \> **All purchase orders**.
 2. On the Action Pane, select **New**. Then, in the **Create purchase order** dialog box, enter the required information, and select **OK**.

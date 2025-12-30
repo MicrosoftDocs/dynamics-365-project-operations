@@ -21,7 +21,7 @@ In Microsoft Dynamics 365 Project Operations, you can create actuals by confirmi
 
 ## Select and confirm actuals for cancellation
 
-To select and confirm actuals for cancellation, follow these steps.
+To select and confirm actuals for cancellation, follow these steps:
 
 1. In the left pane, in the **Sales** area, in the **Transactions** section, select **Actuals**.
 1. In the grid, select the actuals that must be canceled.

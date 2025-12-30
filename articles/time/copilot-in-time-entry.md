@@ -33,7 +33,7 @@ Contact your tenant administrator to confirm that your environment meets these r
 
 ## Enable or disable the Copilot in time entry feature
 
-To enable Copilot in time entry, follow these steps.
+To enable Copilot in time entry, follow these steps:
 
 1. Ensure that you meet the availability criteria to use this feature (see previous section).
 1. Sign in to Dynamics 365 Project Operations.

@@ -74,7 +74,7 @@ Project expense categories are managed in Finance, and they are synchronized to 
 
 ### Power Query
 
-When you're synchronizing to Project Service Automation, you must use Microsoft Power Query for Excel to set the billing type on the transaction category. The Project expense transaction categories (Fin and Ops to PSA) template provides a default column and mapping. If you create your own template, you must add a conditional column in Power Query. Follow these steps.
+When you're synchronizing to Project Service Automation, you must use Microsoft Power Query for Excel to set the billing type on the transaction category. The Project expense transaction categories (Fin and Ops to PSA) template provides a default column and mapping. If you create your own template, you must add a conditional column in Power Query. follow these steps:
 
 1. Click the arrow to open the mapping of the project expense categories task in the Project expense transaction categories (Fin and Ops to PSA) template.
 2. Click the **Advance Query and Filtering** link to open Power Query.

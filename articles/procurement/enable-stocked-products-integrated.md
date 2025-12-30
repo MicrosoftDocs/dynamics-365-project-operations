@@ -145,7 +145,7 @@ To align the inventory cost of a transaction with the assigned inventory model g
 
 To update project costs in Dynamics 365 Project Operations, you must run the recurring **Project cost update for inventory adjustments** batch job after the Inventory **Closing and adjustment** job is completed. You can schedule this batch job so that it runs on a recurring basis. However, we recommend that it runs only after the inventory closing and adjustment process is completed.
 
-To run the **Project cost update for inventory adjustments** batch job, follow these steps.
+To run the **Project cost update for inventory adjustments** batch job, follow these steps:
 
 1. In Dynamics 365 Finance, go to **Project management and accounting** \> **Periodic** \> **Project operations integration** \> **Project cost update for inventory adjustments**.
 1. Apply the filters for the project or project contract.

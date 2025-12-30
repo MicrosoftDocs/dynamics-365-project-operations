@@ -34,7 +34,7 @@ This capability lets project managers get realistic, AI-generated task plan reco
 
 To generate the suggested task plans for a project, the project manager or other intended user must provide the project name. The relevance of the tasks increases as more specific information is added in the project details.
 
-To use AI-generated tasks to create a work breakdown structure (WBS), follow these steps.
+To use AI-generated tasks to create a work breakdown structure (WBS), follow these steps:
 
 1. On the **Projects** command bar, select **New project**.
 1. Provide the name of the project. Be specific, and ensure that the project name is in context for the type of project.
@@ -56,7 +56,7 @@ This capability lets project managers assess potential risks, receive suggested 
 > [!NOTE]
 > Actuals, such as time, expense, or materials, need to be logged to generate Risk assessment and Status report through Copilot.
 
-To use AI-generated risk assessments, follow these steps.
+To use AI-generated risk assessments, follow these steps:
 
 1. Select the project that you want AI to automatically generate risks and mitigations for.
 1. On the command bar, on the **Risks** tab, select **Copilot suggestions**, and then select **Risks and mitigations**. If the process is successful, a message on top of the command bar notifies you that risks and mitigations were created by using AI. If the process isn't successful, you receive an error message.
@@ -68,7 +68,7 @@ To use AI-generated risk assessments, follow these steps.
 
 This capability lets project managers get AI-generated project status reports based on critical key performance indicators (KPIs), work, and financial activity that's recorded on the project. Project managers can then concentrate on crafting the narrative text by using AI-generated summaries as a starting point. Therefore, project managers can refine project-specific relevance without having to expend energy on monotonous and repetitive tasks such as data aggregation and summarization. The project status report provides valuable insights to practice leads and other leadership members, to help them track progress, evaluate performance, and make informed decisions.
 
-To generate a project status report, follow these steps.
+To generate a project status report, follow these steps:
 
 1. Select the project to generate the project status report for.
 1. On the command bar, select **Copilot suggestions**, select **Status report**, and then select either **Internal** or **External**.
@@ -98,7 +98,7 @@ To hide the Copilot assistant window, select the **AI** icon.
 
 For existing tenants, this feature is turned on by default. For new tenants, use the following steps to turn the feature on. Before you can enable the Copilot for project feature, you must upgrade to the latest version.
 
-To enable Copilot for project, follow these steps.
+To enable Copilot for project, follow these steps:
 
 1. In Project Operations, go to **Settings** \> **Parameters** \> **Feature Control** \> **Enable Copilot**.
 1. Select **Accept** to enable the feature.

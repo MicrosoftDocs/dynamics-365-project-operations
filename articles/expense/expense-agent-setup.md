@@ -50,7 +50,7 @@ The agent relies on several Microsoft Power Platform connectors. These connector
 
 ## Steps to set up the Expense Agent 
 
-To install and set up the Expense Agent, follow these steps.
+To install and set up the Expense Agent, follow these steps:
 
 1. Install Copilot for finance and operations apps.
 1. Enable the agent features in your environment.
@@ -65,7 +65,7 @@ The following sections describe each step in detail.
 
 The Expense Agent is available as part of the Copilot for finance and operations apps package. After you install this package in your environment, you automatically get all required assets, including the agent, environment variables, and Power Automate flows.
 
-To install the required app, follow these steps. 
+To install the required app, follow these steps: 
 
 1. Go to the [**Power Platform admin center**](https://admin.powerplatform.com/) in your browser.
 1. From the list of environments, select the environment name where you want to install the app.
@@ -77,7 +77,7 @@ To install the required app, follow these steps.
 > Learn more about how to enable Copilot in your environment in [Enable Copilot capabilities in finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/copilot/enable-copilot).
 
 > [!TIP]
->  To verify if the package was installed successfully, follow these steps.  
+>  To verify if the package was installed successfully, follow these steps:  
 > 1. Go to Power Apps maker portal > select your environment > select Solutions > See history > search and select msdyn_ExpenseAI > Details.    
 > 1. Verify the **Result** field.    
 >    1. If the result shows Success, the package was installed correctly.  
@@ -90,7 +90,7 @@ After you install the Copilot for finance and operations apps package, activate 
 
 #### Enable feature in Dataverse
 
-Turn on the Copilot feature flag in the Power Platform admin center. To turn on the Copilot feature flag, follow these steps.
+Turn on the Copilot feature flag in the Power Platform admin center. To turn on the Copilot feature flag, follow these steps:
 
 1. Go to [Power Platform admin center](https://admin.powerplatform.com/).
 1. Select **Environments** > select your environment > **Settings** > **Product** > select **Features**.
@@ -98,7 +98,7 @@ Turn on the Copilot feature flag in the Power Platform admin center. To turn on 
 
 #### Enable feature in your finance and operations environment
 
-To activate the agent in finance and operations apps, follow these steps.
+To activate the agent in finance and operations apps, follow these steps:
 
 1. Sign in to your **finance and operations environment**.
 1. Go to **Feature Management**, and enable **Immersive Home feature** and **Agent Management** features.
@@ -140,7 +140,7 @@ To successfully install Expense Agent, assign the following licenses to the expe
   - Microsoft 365 Business Basic or any license that covers Microsoft Teams and Outlook (for example, Office 365 E5 with teams)
   - Power Apps Premium
     
-To assign licenses, follow these steps.
+To assign licenses, follow these steps:
 
 1. Sign into [Microsoft 365 admin center](https://admin.microsoft.com/) with a user who has access to assign licenses that is a user with License Administrator or higher.
 1. Select **Billing** > **Licenses** > **Dynamics 365 Teams Members license**.
@@ -155,7 +155,7 @@ To assign licenses, follow these steps.
 
 #### Add the user to the Power Platform environment
 
-To add the user to the Power Platform environment, follow these steps.
+To add the user to the Power Platform environment, follow these steps:
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), and select the appropriate environment.
    
@@ -180,7 +180,7 @@ These roles provide access to Dataverse and Power Automate components that the a
 
 #### Assign the required role in finance and operations environment
 
-To assign the ExpenseAgentRole role in finance and operations environment, follow these steps.
+To assign the ExpenseAgentRole role in finance and operations environment, follow these steps:
 
 1. In the finance and operations environment, go to **System administration** > **Users**.
 1. Create a user record for the agent user.
@@ -194,7 +194,7 @@ To assign the ExpenseAgentRole role in finance and operations environment, follo
 
 The agent user must have the Mail.Read.Shared Microsoft Graph permission. This permission allows the agent to read receipts from the configured shared mailbox during flow execution. 
 
-To assign access to the shared mailbox access, follow these steps.
+To assign access to the shared mailbox access, follow these steps:
 
 1. Go to [Microsoft Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) and sign in using the **created agent user**.  
 1. Select the **user** icon on the top right corner > select **Consent to permissions**.  
@@ -213,7 +213,7 @@ To assign access to the shared mailbox access, follow these steps.
 
 The Expense Agent uses a shared mailbox to receive and process receipt emails. A user with the Exchange Administrator role needs to create and configure this mailbox in the Microsoft 365 Admin Center.
 
-To create and configure the shared mailbox, follow these steps.
+To create and configure the shared mailbox, follow these steps:
 1. Sign in to the [Microsoft 365 Admin Center](https://admin.microsoft.com/) by using an Exchange Admin account.
 1. In the left pane, select **Teams & Groups** > **Shared mailboxes.**  
    
@@ -240,7 +240,7 @@ You have two options for setting up the Expense Agent:
 > [!IMPORTANT]
 > Before proceeding with the installation of the Expense Agent, ensure that the agent is provisioned successfully in the Microsoft Copilot Studio.
 > 
-> To verify the agent is provisioned successfully, follow these steps.
+> To verify the agent is provisioned successfully, follow these steps:
 > 1. Sign in to Microsoft Copilot Studio and select your environment.
 > 1. Go to **Agents** and search for **ExpenseAgent-Line (Preview)**. 
 > 1. Verify the **Publish** button is enabled.
@@ -959,7 +959,7 @@ try {
 
 ```
 
-To trigger the PowerShell file, follow these steps.
+To trigger the PowerShell file, follow these steps:
 
 1. Open PowerShell _(minimum version required - PowerShell 7)_.
 1. Go to the location where you saved the file. _(Use the command cd \<file location\>)_.
@@ -985,7 +985,7 @@ If you don't want to use the PowerShell script, you can manually configure the E
 
 #### Update environment variables
 
-To update environment variables, follow these steps.
+To update environment variables, follow these steps:
 
 1. Sign in to [Power Apps](https://make.powerapps.com/), and select your environment.
 1. Select **Solutions**, then open **Default Solution** (or the solution where the agent is installed).
@@ -1017,7 +1017,7 @@ The Expense Agent relies on the following Power Automate flows:
 - Process expense report using copilot
 - Invoke expense agent for receipt processing
 
-To enable the flows, follow these steps.
+To enable the flows, follow these steps:
 
 1. Sign in to [Power Automate](https://make.powerautomate.com/), and select your environment.
 1. Select **My Flows**.
@@ -1046,7 +1046,7 @@ To enable Teams-based communication for the Expense Agent, add the Teams channel
 
 #### Enable the Teams channel
 
-To enable the Teams channel, follow these steps.
+To enable the Teams channel, follow these steps:
 
 1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com/) and select the correct environment.
 1. On the **Agents** tab, select **Expense Entry Agent**.
@@ -1057,7 +1057,7 @@ Learn more in [Open the configuration panel for the Teams + Microsoft 365 channe
 
 #### Configure Teams app availability
 
-To configure Teams app availability, follow these steps.
+To configure Teams app availability, follow these steps:
 
 1. After the Teams app is created, select **Availability Options**.
 1. Select who you want to share the app with:
@@ -1068,7 +1068,7 @@ To configure Teams app availability, follow these steps.
 
 #### Publish the app in the Teams admin center
 
-To publish the app in the Teams admin center, follow these steps.
+To publish the app in the Teams admin center, follow these steps:
 
 1. Sign in to the [Teams admin center](https://admin.teams.microsoft.com/).
 1. Go to **teams app > Manage apps**. Search for "expense" and select **Expense Entry Agent** app where App status is blocked.
@@ -1083,7 +1083,7 @@ With these steps completed, your **Expense Agent** is now fully set up and ready
 
 ## Uninstall Expense Agent 
 
-To **uninstall** the Expense Agent, follow these steps.
+To **uninstall** the Expense Agent, follow these steps:
 
 1. Sign in to Microsoft Power Apps maker portal.
 1. Select **Solutions**, search for **msdyn_ExpenseAI**, select the three dots, and select **Delete**.

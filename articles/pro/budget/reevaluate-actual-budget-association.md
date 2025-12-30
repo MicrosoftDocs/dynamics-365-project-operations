@@ -28,7 +28,7 @@ The budget line that a project cost actual is matched to is available on the **B
 
 ## Reevaluate the association
 
-To reevaluate the cost actual-to-budget association, follow these steps.
+To reevaluate the cost actual-to-budget association, follow these steps:
 
 1. On the **Actuals** list page, in the **Active Actuals** view, select the cost actuals to reevaluate. The **Reevaluate Budget association** button appears on the Action Pane.
 1. Select **Reevaluate Budget association**. The actuals are scheduled for reevaluation. The cost actual-to-budget matching periodic job then picks up the actuals for evaluation. By default, this job runs for every five minutes. 
