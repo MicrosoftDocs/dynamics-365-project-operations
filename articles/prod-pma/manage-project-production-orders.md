@@ -29,7 +29,7 @@ In Microsoft Dynamics 365 Finance, project production orders are used to manage 
 
 ## Set up project production parameters
 
-To set up the default production parameters, follow these steps.
+To set up the default production parameters, follow these steps:
 
 1. Go to **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.
 1. On the **Production** tab, in the **Posting method** field, select one of the following values to specify how productions are used in projects:

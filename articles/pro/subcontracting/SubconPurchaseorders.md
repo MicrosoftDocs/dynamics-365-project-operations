@@ -37,7 +37,7 @@ To use the feature for Project Operations Integrated with ERP, you must have the
 
 To generate purchase order lines in Finance for each subcontract line that you create in Dataverse, you must configure default procurement categories and project categories. Base this configuration on the roles or expense details that you specify on the subcontract line.
 
-To set up the default procurement categories and project categories, follow these steps.
+To set up the default procurement categories and project categories, follow these steps:
 
 1. In Finance, go to **Project management and accounting** \> **Setup** \> **Categories** \> **Project subcontract categories**.
 1. Select **New** to create a record.
@@ -54,7 +54,7 @@ To set up the default procurement categories and project categories, follow thes
 
 When you log timesheet entries or expenses in Dataverse, Finance automatically generates and posts the product receipt for the subcontract purchase order through the **Generate Subcontract Product Receipt** and **Post Subcontract Product Receipt** periodic processes. To facilitate the automatic generation of product receipts, you must configure a number sequence.
 
-To set up the number sequence for subcontract product receipts, follow these steps.
+To set up the number sequence for subcontract product receipts, follow these steps:
 
 1. In Finance, go to **Project management and accounting** \> **Project management and accounting parameters**.
 1. On the **Number sequence** tab, select the **Product receipt** reference, and then select the number sequence for subcontract product receipts.
@@ -89,7 +89,7 @@ When you confirm the subcontract in Dataverse, the system automatically confirms
 
 For information about how to create and manage subcontracts in Dataverse, see [Subcontract management in Project Operations](../../pro/subcontracting/key-concepts-subcontracting.md).
 
-To view the list of subcontract purchase orders in Finance, follow these steps.
+To view the list of subcontract purchase orders in Finance, follow these steps:
 
 1. In Finance, go to **Project management and accounting** \> **Item tasks** \> **Subcontract purchase orders**.
 1. Select the purchase order to view its details. None of the fields are editable.
@@ -114,7 +114,7 @@ To view the list of subcontract purchase orders in Finance, follow these steps.
 
 When you log timesheet entries or expenses in Dataverse, Finance automatically generates and posts the product receipt for the subcontract purchase order through the **Generate Subcontract Product Receipt** and **Post Subcontract Product Receipt** periodic processes.
 
-To generate product receipts for timesheets and expenses that subcontractor resources record or subcontractors share in Dataverse, follow these steps.
+To generate product receipts for timesheets and expenses that subcontractor resources record or subcontractors share in Dataverse, follow these steps:
 
 1. In Finance, go to **Project management and accounting** \> **Periodic** \> **Subcontracts** \> **Generate product receipt for subcontracts**.
 1. Select **Generate product receipt for subcontracts** to generate the product receipt. You can use a batch process to perform this activity on a periodic basis. Run this process in batch mode every day.
@@ -138,7 +138,7 @@ In both cases, the system generates the Product receipt financial voucher if pro
 
 When an accounts payable clerk receives an invoice from the subcontractor, they create a new invoice in Finance.
 
-To create and post subcontract vendor invoices, follow these steps.
+To create and post subcontract vendor invoices, follow these steps:
 
 1. In Finance, go to **Accounts payables** \> **Purchase orders** \> **All purchase orders**.
 1. On the Action Pane, on the **Invoice** tab, select **Invoice** to create a vendor invoice for the subcontract purchase order.

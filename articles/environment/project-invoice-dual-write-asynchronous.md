@@ -34,7 +34,7 @@ The following graphic provides a high-level conceptual overview of this integrat
 
 ### Update Project Operations parameters
 
-To update the Project Operations parameters, follow these steps.
+To update the Project Operations parameters, follow these steps:
 
 1. Go to **Dynamics 365 Project operations** app.
 1. Select **Settings** and open **Parameters** form.
@@ -46,7 +46,7 @@ To update the Project Operations parameters, follow these steps.
 
 In the **Power Apps portal**, update the **Dual-write Core** solution to the latest version available for your environment to ensure compatibility and access to the newest features.
 
-To update the Dual-write Core solution, follow these steps.
+To update the Dual-write Core solution, follow these steps:
 
 1. Go to https://make.powerapps.com.
 1. Ensure you're logged into the correct environment where dual-write is configured.
@@ -67,7 +67,7 @@ In **Dynamics 365 Finance**, the generation of a project invoice involves the sy
 
 To enable the dual-write asynchronous (async) integration, these entities must be transitioned from the **real-time sync** process to the **asynchronous** processing model. 
 
-To enable the dual-write asynchronous (async) integration, follow these steps.
+To enable the dual-write asynchronous (async) integration, follow these steps:
 
 1. In Dynamics 365 Finance, go to the **Data management** workspace.
 1. Select **Dual-write**.

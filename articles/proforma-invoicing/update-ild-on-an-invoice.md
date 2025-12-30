@@ -18,7 +18,7 @@ _**Applies To:** Project Operations Core, Project Operations Integrated with ERP
 
 On a new invoice, the invoice line details can be updated when the **Project Invoice Status** field on the invoice header is set to **Draft**. On a revised (corrected) invoice, the invoice line details can be updated if they are associated with an invoice line that has the **Time and Material** billing method.
 
-To update an invoice line detail on an existing draft invoice, follow these steps.
+To update an invoice line detail on an existing draft invoice, follow these steps:
 
 1. Select the invoice line.
 1. Select **Edit**.

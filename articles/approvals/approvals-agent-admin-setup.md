@@ -24,14 +24,14 @@ The Approvals Agent is available as a production-ready preview in Microsoft Dyna
 
 ## Set up connections on the Power Apps home page
 
-To set up connections on the Power Apps home page, follow these steps.
+To set up connections on the Power Apps home page, follow these steps:
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 1. Use the environment switcher at the top of the page to select the environment where the agents were installed.
 1. In the left pane, select **Solutions**.
 1. Filter the **Solutions** page for **Managed** solutions, and select **Project Service Agent**.
 
-To view a list of connection references, follow these steps.
+To view a list of connection references, follow these steps:
 
 1. In the **Objects** pane, select **Connection references**.
 1. Select the checkboxes for the **Microsoft Copilot Studio** and **Microsoft Dataverse** connection references.
@@ -67,7 +67,7 @@ To view a list of connection references, follow these steps.
 
 ## Activate the agent trigger
 
-To activate the cloud flow that acts as the agent trigger, follow these steps.
+To activate the cloud flow that acts as the agent trigger, follow these steps:
 
 1. Return to the **Project Service Agent** solution.
 1. In the **Objects** pane, select **Cloud flows**.

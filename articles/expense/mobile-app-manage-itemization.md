@@ -19,7 +19,7 @@ To use the **Itemization** feature on the expenses mobile app, the **Ability to 
 
 ## Create itemized expenses
 
-To enter expenses by using **expense management mobile** application, follow these steps.
+To enter expenses by using **expense management mobile** application, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 2. Navigation to the **Expenses** tab, select the plus sign (**+**) button.
@@ -49,7 +49,7 @@ For more information about **expense reports**, see [Manage expense reports by u
 
 ## View itemized expenses
 
-To view the itemized expenses by using **expense management mobile** application, follow these steps.
+To view the itemized expenses by using **expense management mobile** application, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 2. Navigate to the **Expenses** tab and select the **expense** that requires validation of its itemization details, or navigate to the **Reports** tab, select the **expense report**, and then select the expense. The expense screen opens.

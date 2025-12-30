@@ -30,7 +30,7 @@ To use discounts and fees in Project Operations, enable the **Discount and Fee**
 
 Project quotations can be created and shared with customers, and they can include one or more quotation lines that are tailored to business needs. For project quotation lines of the **Time and Material** type, **Discount percentage** and **Fee percentage** fields are available for editing. The discounts and fees are applied to all quotation line details of the selected quotation line. The extended amount on the project quotation line reflects the discounts and fees, based on the percentages that are entered. The discount amount is deducted from the total on the quotation line, whereas the fee amount is added to it.
 
-To apply discounts and fees for project quotations, follow these steps.
+To apply discounts and fees for project quotations, follow these steps:
 
 1. Go to **Sales** \> **Sales** \> **Quotes**.
 1. Select **New** to create a project quotation.
@@ -58,7 +58,7 @@ Project contracts can be created manually or by using project quotations, based 
 
 When a project contract is created through the project quotation process, the discount and fee percentage values from the project quotation lines are automatically applied to the project contract lines, if any are available.
 
-To apply discounts and fees to project contracts, follow these steps.
+To apply discounts and fees to project contracts, follow these steps:
 
 1. Go to **Sales** \> **Sales** \> **Project Contracts**.
 1. Select **New** to create a project contract.

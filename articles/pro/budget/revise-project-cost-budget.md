@@ -25,7 +25,7 @@ When forecasts must be formalized as a budget, a budget revision is required.
 > [!NOTE]
 > A project cost budget can be revised only if the version is in **Approved** status.
 
-To revise a project cost budget, follow these steps.
+To revise a project cost budget, follow these steps:
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. In the left navigation, change the area to **Projects**.

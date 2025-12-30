@@ -21,7 +21,7 @@ A default set of columns that is available in Microsoft Project for the web prov
 
 Before you can add a new column to the grid view, you must add a custom column to the Project Tasks table in Dataverse. Default columns from the Project Tasks table can't be selected for display, even if the columns aren't available for display in the grid view. Learn how to add a column to a table in [How to create and edit columns](/power-apps/maker/data-platform/create-edit-fields).
 
-To add a new column to the grid view, follow these steps.
+To add a new column to the grid view, follow these steps:
 
 1. After the custom column is created, select the **Tasks** tab of a project, open the grid view, select **Add column**, and then select **More** on the menu.
 

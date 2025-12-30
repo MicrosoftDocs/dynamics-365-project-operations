@@ -49,7 +49,7 @@ The setting of the option determines whether the vendor invoice should be automa
 - If the option is set to **Yes**, the vendor invoice that's created in Finance and synced to Dataverse has **Draft** status. The invoice must then be validated and verified by the project manager, and confirmed, before it's processed and posted to the specific project and ledger accounts in Finance.
 - If the option is set to **No**, the vendor invoice is automatically confirmed. No further action is required.
 
-To set up vendor invoice verification, follow these steps.
+To set up vendor invoice verification, follow these steps:
 
 1. In Finance, go to **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.
 1. On the **Financial** tab, set the **Manual verification by PM is required** option to **Yes** if company policy requires verification of subcontractor vendor invoices. If verification by the project manager isn't required in Dataverse, leave the option set to **No**. By default, the setting will be used on the **Pending vendor invoice** page.
@@ -61,7 +61,7 @@ To set up vendor invoice verification, follow these steps.
 
 When a vendor invoice is posted in Finance for Project Operations – Integrated environment (non-stock), financials are posted to the Procurement integration account. The system generates the actuals in Dataverse for the posted invoice. Those actuals are posted in Finance by using the Project integration journal. Posting of the Project integration journal posts the actual cost and reverses the Procurement integration account.
 
-To set up a Procurement integration account for vendor invoices, follow these steps.
+To set up a Procurement integration account for vendor invoices, follow these steps:
 
 1. In Finance, go to **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.
 1. On the **Project operations on Dynamics 365 customer engagement** tab, select **Materials** \> **Procurement integration account**.

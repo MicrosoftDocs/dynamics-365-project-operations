@@ -17,7 +17,7 @@ A worker who is employed by one legal entity in an organization might perform wo
 
 Before a worker can create and submit intercompany expenses, you must enable intercompany expense lines. 
 
-To enable intercompany expense lines, follow these steps.
+To enable intercompany expense lines, follow these steps:
 
 1. Go to **Expense management** > **Setup** > **General** > **Expense management parameters** form.
 2. On the **General** tab, select **Allow intercompany expense lines**. 
@@ -46,7 +46,7 @@ For the expense expression builder feature to work, it must be turned on. Additi
 
 If you've already configured policies that validate the project ID on the expense line, those policies must be retired. You can then turn on the feature and reconfigure the policies.
 
-To turn on the feature, follow these steps.
+To turn on the feature, follow these steps:
 
 1. Go to **Workspaces** \> **Feature Management**.
 2. In the list, select **New expense expression builder to address issues with the inter-company expenses scenarios that use projects**. Then select **Enable now**.

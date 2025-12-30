@@ -44,7 +44,7 @@ To help you quickly and easily find cost actuals that haven't been matched to an
 
 ## Create budget lines from cost actuals that aren't matched to a budget line
 
-To create a project budget line from the unmatched cost actuals, follow these steps.
+To create a project budget line from the unmatched cost actuals, follow these steps:
 
 > [!NOTE]
 > Before you complete this procedure, ensure that the budget version is in **Approved** status.

@@ -41,7 +41,7 @@ For more information about how to map projects and tasks to a project contract l
 
 ## Review project contracts for contract lines
 
-To review the project contract lines or update additional details in Dynamics 365 Finance, follow these steps.
+To review the project contract lines or update additional details in Dynamics 365 Finance, follow these steps:
 
 1. In the Dynamics 365 Finance environment, go to **Project management and accounting** \> **Projects** \> **Project contracts**.
 1. On the Action Pane, select **Show default accounting**.
@@ -50,7 +50,7 @@ To review the project contract lines or update additional details in Dynamics 36
 
 ## Review fixed price revenue estimate projects
 
-To review fixed price revenue estimate projects, follow these steps.
+To review fixed price revenue estimate projects, follow these steps:
 
 1. In the Dynamics 365 Finance environment, go to **Project management and accounting** \> **Projects** \> **Fixed price revenue estimate projects**.
 1. Select the revenue project that you want to view, and then double-tap (or double-click) the **Estimate project ID** value to open the record and review the details of the project.

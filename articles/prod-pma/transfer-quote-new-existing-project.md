@@ -18,7 +18,7 @@ ms.reviewer: johnmichalak
 
 When a project quotation has a status of **Confirmed**, you can transfer some or all the quotation lines to a new or existing project by using the **Transfer to project** wizard. 
 
-To use the wizard, follow these steps.
+To use the wizard, follow these steps:
 
 1. Go to **Project management and accounting** > **Quotations** > **Project quotations**.
 2. Select the quotation you want to transfer and on the **Follow up** tab, in the **Modify** group, select **Transfer to project**.

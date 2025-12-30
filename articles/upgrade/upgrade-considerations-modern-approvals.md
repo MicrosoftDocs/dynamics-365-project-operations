@@ -49,7 +49,7 @@ In the October 2022 Wave 2 update, the ability to turn off this feature is remov
 
 If you have in-flight approvals that were submitted with the old logic and now have the feature enabled, you will need to resubmit these entries.
 
-To resubmit in-flight approvals after the Administrator has enabled Modern Approvals, or the update has forced the enablement of Modern Approvals, follow these steps.
+To resubmit in-flight approvals after the Administrator has enabled Modern Approvals, or the update has forced the enablement of Modern Approvals, follow these steps:
 
 1. The Resource who submitted the time entry, should recall the time entry. Recalling the time entry removes any **Pending** approvals and the system changes them back to a pre-submission state.
 1. The Resource should submit the entry again. This creates a new approval using Modern Approvals and an associated Approval Set.

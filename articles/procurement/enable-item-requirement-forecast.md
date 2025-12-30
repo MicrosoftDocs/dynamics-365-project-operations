@@ -46,14 +46,14 @@ This section provides information about the specific maps that are required for 
 
 ### Process flow
 
-To generate item requirements from item forecasts, follow these steps.
+To generate item requirements from item forecasts, follow these steps:
 
 1. Go to the **project** form and select the project.
    **Project management and accounting** > **Projects** > **All projects**
 1. On the **Plan** action pane, select **Item forecasts**.
 1. Select **Create item requirements**.
 
-To consume the material from stock for the item requirements, follow these steps.
+To consume the material from stock for the item requirements, follow these steps:
 
 1. Go to the **project** form and select the project.
    **Project management and accounting** > **Projects** > **All projects**

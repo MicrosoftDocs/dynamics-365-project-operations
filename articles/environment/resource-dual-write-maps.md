@@ -41,7 +41,7 @@ To ensure a smooth setup, the following apps must be installed in the **exact or
 1. Dual write Supply Chain Extended Solution
 1. Dynamics 365 HR Integration to URS
 
-To install and manage the apps using PowerApps portal, follow these steps.
+To install and manage the apps using PowerApps portal, follow these steps:
 
 1. Go to **Power Platform admin center**.
 1. Select **Environments** and then select an environment.
@@ -64,7 +64,7 @@ To ensure a smooth setup, the following solutions must be applied in the **exact
 1. Dynamics 365 Supply Chain Management extended entity maps
 1. HCM Scheduling
 
-To apply a solution from finance and operations apps, follow these steps.
+To apply a solution from finance and operations apps, follow these steps:
 
 1. Go to **finance and operations apps**.
 1. Select **Data management**.
@@ -81,7 +81,7 @@ Before proceeding, ensure that you refresh the entities from finance and operati
 
 _Refreshing the entity list ensures all entities are available in the environment and that the entities have the latest metadata._
 
-To refresh entities from finance and operations apps, follow these steps.
+To refresh entities from finance and operations apps, follow these steps:
 
 1. Go to **finance and operations apps**.
 1. Select **Data management**.
@@ -151,7 +151,7 @@ Complete the following steps to run the listed maps.
  
 With the 10.0.40 and later dual-write maps release, a change was made to add a new required key for references to Bookable Resource that is mandatory for several maps, specially for **msdyn_actuals**.
 
-To add an integration key, follow these steps.
+To add an integration key, follow these steps:
 
 1. Go to **finance and operations apps**.
 1. Select **Data management**.

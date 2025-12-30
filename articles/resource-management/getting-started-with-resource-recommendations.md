@@ -23,7 +23,7 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 
 ## Enable the resource recommendations feature
 
-To enable resource recommendations, follow these steps.
+To enable resource recommendations, follow these steps:
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. Ensure that you're using Project Operations version _4.91.0.X_ or later. The resource recommendations feature is available only in these versions. Project Operations version _4.103.0.X_ or later provides multi-factor recommendations. Versions before _4.91.0.X_ provide recommendations that are based on only one factor (**Relevant past experience**).
@@ -42,7 +42,7 @@ After you enable the resource recommendations feature, your system administrator
 > [!IMPORTANT]
 > Microsoft recommends that you use roles with the fewest permissions. This helps improve security for your organization. Global Administrator is a highly privileged role that should be limited to emergency scenarios when you can't use an existing role.
 
-To activate the dataflows, have your system administrator follow these steps.
+To activate the dataflows, have your system administrator follow these steps:
 
 1. Sign in to your Project Operations environment as System Administrator.
 1. Open a new tab in the same browser window, and sign in to the [Power Apps portal](https://make.powerapps.com) as System Administrator. For more information about the Power Apps portal, see [Sign in to Power Apps](/power-apps/maker/canvas-apps/sign-in-to-power-apps).
@@ -64,7 +64,7 @@ To activate the dataflows, have your system administrator follow these steps.
 
 ## Handling missing Dataflows
 
-If no Dataflows are visible in **My Dataflows** or **All Dataflows**, this issue could be due to the ownership of the Dataflow being with a different global system administrator account. To confirm ownership, follow these steps.
+If no Dataflows are visible in **My Dataflows** or **All Dataflows**, this issue could be due to the ownership of the Dataflow being with a different global system administrator account. To confirm ownership, follow these steps:
 
 1. On the left navigation pane, select **Solutions**.
 1. Set the filter to **All** and select the solution with _Display Name_ as **Project Operations** (_Name_ must be **ProjectService**).

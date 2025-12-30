@@ -149,7 +149,7 @@ The **Contracting Unit** and **Currency** fields of the project are locked for e
 
 ## Create and maintain organizational units in Project Operations
 
-To create an organizational unit in Project Operations, follow these steps.
+To create an organizational unit in Project Operations, follow these steps:
 
 1. Go to **Settings \> Organizational Units**.
 2. Select **New**.

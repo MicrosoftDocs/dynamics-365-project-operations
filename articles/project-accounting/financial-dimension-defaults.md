@@ -24,7 +24,7 @@ Default financial dimensions can be set up for a customer, project funding sourc
 
 ## Define default financial dimensions for a customer
 
-Customer dimension defaults are specified in Finance. To set up default financial dimensions, follow these steps.
+Customer dimension defaults are specified in Finance. To set up default financial dimensions, follow these steps:
 
 1. Go to **Accounts receivable** \> **Customers** \> **All customers**.
 1. On the **Customers** page, on the **Financial dimensions** tab, set the financial dimension values for a specific customer.
@@ -35,7 +35,7 @@ Project contracts are created and maintained in Dataverse. Accounting attributes
 
 ### Set financial dimensions for a project funding source
 
-To set financial dimensions for a project funding source, follow these steps.
+To set financial dimensions for a project funding source, follow these steps:
 
 1. Go to **Project management and accounting** \> **Projects** \> **Project contracts**.
 1. Select the record that you want to update, select the **Project contract** tab, and then select **Show default accounting**.
