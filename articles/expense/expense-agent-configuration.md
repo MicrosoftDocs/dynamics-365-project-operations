@@ -1,5 +1,5 @@
 ---
-title: Introduction to the Expense Agent (preview)
+title: Configuration of the Expense Agent (Preview)  
 description: Learn about Expense Agent and its functionality
 author: ajitchandran
 ms.author: ajitchandran
