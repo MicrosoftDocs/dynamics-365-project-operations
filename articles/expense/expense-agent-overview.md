@@ -16,26 +16,59 @@ ms.reviewer: johnmichalak
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
-This article provides an overview of the Expense Agent. This feature simplifies and automates the process of managing employee or worker expenses in an organization. It reduces manual effort by processing receipts, creating expense lines, and generating expense reports with minimal user intervention.
+_**Applies to Dynamics 365 Project Operations Integrated with ERP and Dynamics 365 Project Operations for manufacturing**_
 
-The agent streamlines the workflow by letting users forward receipts to a designated mailbox. It then extracts key details, such as the amount, merchant, and location, and groups related expenses into comprehensive reports. Users can review, edit, and submit those reports through Microsoft Teams. As a result, the process is more efficient and accurate. The agent also processes receipts that are uploaded directly into finance and operations apps.
+> [!NOTE]
+> Community interest groups have now moved from Yammer to Microsoft Viva Engage. To join the Expense Management Viva Engage community and take part in the latest discussions, click [**here**](https://engage.cloud.microsoft/main/org/microsoft.com/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyMzc5MzM4OTU2ODAifQ) and request for access.
 
-By minimizing the time that is spent on administrative tasks, the Expense Agent lets users focus on higher-value activities and improves the overall expense reporting experience.
+> [!IMPORTANT]
+> - This is a production-ready preview feature.
+> - Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520) 
+ 
+Expense reporting is one of the most frequent—and often most frustrating—tasks for employees and finance teams. Despite its importance, the process remains largely manual and error‑prone, relying on users to correctly interpret receipts, enter data, and understand policies. The result is lost productivity, delays, rework, and low adoption of expense systems.
+At the same time, employees have grown accustomed to AI‑assisted experiences in their daily work. Tools for search, collaboration, and productivity already anticipate intent and minimize manual effort. Expense management should be no different.
+
+Traditional expense processes place a heavy burden on users—manually extracting details from receipts, completing multiple fields, choosing the right categories and descriptions, and navigating policies without context. Too often, employees spend more time correcting expenses than submitting them.
+Expense Agent changes this experience. By understanding receipts, inferring key details, and guiding users through expense creation, Expense Agent helps ensure expenses are completed accurately the first time.
+Powered by AI, Expense Agent brings intuitive, guided assistance into expense reporting—reducing effort, improving accuracy, and simplifying the end‑to‑end experience. It allows employees to focus on their work while finance teams benefit from cleaner, more compliant expense data.
 
 ## Functionality
-
 The Expense Agent automates the end-to-end expense management process by using intelligent workflows to handle receipt processing, expense line creation, and report generation. It provides the following capabilities:
 
-- **Receipt processing:** Users can forward receipts to a shared mailbox or upload them directly into finance and operations apps. The system automatically extracts key details, such as the amount, merchant, and location. Therefore, manual data entry isn't required.
-- **Expense line creation:** Based on the extracted details, the agent periodically creates individual expense lines. The system stores and tracks those lines to facilitate reliable and consistent expense management.
-- **Expense report generation:** The system groups related expense lines into reports and logically organizes them by project or trip. The reports are generated on a regular schedule that is aligned with organizational workflows. If users share their work calendar with the shared mailbox, the agent can use calendar data to identify relevant trips or projects.
-- **User-friendly report review and submission:** Generated reports appear in an interactive Teams interface, where users can review or update details. Users can seamlessly perform actions such as attaching or detaching expense lines and updating categories. The system notifies users if any expenses violate organizational policies that are configured in finance and operations apps. Users can also submit reports for approval through Teams. Alternatively, they can select **Open in Expense** to edit and submit reports directly in finance and operations apps.
-- **Flexible configuration:** In Expense Management parameters, administrators can configure the frequency of report generation and select the grouping logic (by trip or by project). Here are some examples:
+### Receipt Processing: 
+Expense Agent supports multiple ways to upload receipts, allowing users to capture expenses from wherever they work. Once receipts are uploaded, the agent processes them and creates expense lines automatically.
 
-    - If employees typically tag expenses to projects, the agent analyzes active projects and assigns expenses accordingly.
-    - If expenses are incurred during work-related trips, the agent groups them based on location data, such as the city or country.
+#### 1. Outlook (Shared Mailbox)
+Employees can simply forward receipts to a designated shared mailbox. The Expense Agent monitors the inbox, extracts key details such as merchant name, date, amount, and currency, and creates expense lines that are later grouped into expense reports for review and submission.
 
-- **Monitoring of agent workflows:** Administrators can use Power Apps to track the status of individual workflows. In this way, they can monitor performance and gain insights into usage. To access the app, open **Expense Agent Workflow** in Power Apps.
+#### 2. Expense Mobile App
+Employees can capture or upload receipts using the Expense Mobile app. The agent processes these receipts by extracting relevant details and creating expense entries automatically. This entry point is ideal for on‑the‑go employees who want to submit expenses without waiting to access a laptop.
+
+#### 3. Dynamics 365 Finance & Operations
+For users working directly in Dynamics 365 Finance and Operations, Expense Agent also processes receipts uploaded within the application. When receipts are uploaded in‑app, the agent does monitor unattached receipts and convert them into expense lines, helping users complete expenses faster with minimal manual effort.
+   
+### Create Expense lines from receipts
+Creating expense lines from receipts is one of the most time‑consuming and error‑prone steps in expense reporting. Employees often need to manually read receipts, interpret merchant information, select the right categories, and populate multiple fields correctly. Expense Agent simplifies this process by using AI to automatically create accurate expense lines directly from receipts.
+
+When a receipt is uploaded, Expense Agent intelligently analyzes the content of the receipt—whether it’s an image or pdf. It identifies key information such as merchant name, date, currency, total amount. Based on this understanding, Expense Agent automatically creates an expense line with the relevant fields pre‑populated.
+
+Beyond basic extraction, Expense Agent applies contextual intelligence. It infers the most appropriate expense category and also suggests descriptions. 
+This guided, AI‑driven approach reduces manual data entry and guesswork for employees. Expense lines are created faster, with higher accuracy, and with fewer policy violations. Employees can focus on reviewing and confirming the expense instead of building it from scratch.
+
+### Auto-match expenses with receipts
+Matching receipts to the correct expense entries is often a time‑consuming and error‑prone step in expense reporting. Expense Agent’s Auto‑Match functionality uses AI to intelligently associate receipts with the appropriate expense lines, reducing manual effort and improving accuracy from the start. When credit card transactions already exist in the system and employees have submitted receipts for processing, Expense Agent automatically analyzes and matches those receipts to the corresponding credit card transactions—streamlining the experience and minimizing the need for manual corrections.
+
+### Itemize expenses automatically
+Itemizing expenses is also one of the most time‑consuming and error‑prone steps in expense reporting—especially for receipts that include multiple line items such as meals, hotel room costs, hotel taxes etc. or mixed‑category purchases. Expense Agent simplifies itemization by using AI to automatically understand receipts and break them into accurate, compliant expense lines.
+
+When a receipt is uploaded, Expense Agent analyzes the receipt content to identify individual items, amounts, taxes, tips, and totals. The agent intelligently creates itemized expense lines and suggests appropriate sub-categories and descriptions based on company defined categories and sub-categories. 
+
+### Expense report generation
+The system groups related expense lines into reports and logically organizes them by project or trip. The reports are generated on a regular schedule that is aligned with organizational workflows. If users share their work calendar with the shared mailbox, the agent can use calendar data to identify relevant trips or projects.
+
+### User-friendly report review and submission
+Generated reports appear in an interactive Teams interface, where users can review or update details. Users can seamlessly perform actions such as attaching or detaching expense lines and updating categories. The system notifies users if any expenses violate organizational policies that are configured in finance and operations apps. Users can also submit reports for approval through Teams. Alternatively, they can select Open in Expense to edit and submit reports directly in finance and operations apps.
+
 
 ## Known limitations
 
