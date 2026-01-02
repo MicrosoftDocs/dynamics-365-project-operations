@@ -25,56 +25,30 @@ _**Applies to Dynamics 365 Project Operations Integrated with ERP and Dynamics 3
 > - This is a production-ready preview feature.
 > - Production-ready previews are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520) 
  
-Expense reporting is one of the most frequent—and often most frustrating—tasks for employees and finance teams. Despite its importance, the process remains largely manual and error‑prone, relying on users to correctly interpret receipts, enter data, and understand policies. The result is lost productivity, delays, rework, and low adoption of expense systems.
-At the same time, employees have grown accustomed to AI‑assisted experiences in their daily work. Tools for search, collaboration, and productivity already anticipate intent and minimize manual effort. Expense management should be no different.
-
-Traditional expense processes place a heavy burden on users—manually extracting details from receipts, completing multiple fields, choosing the right categories and descriptions, and navigating policies without context. Too often, employees spend more time correcting expenses than submitting them.
-Expense Agent changes this experience. By understanding receipts, inferring key details, and guiding users through expense creation, Expense Agent helps ensure expenses are completed accurately the first time.
-Powered by AI, Expense Agent brings intuitive, guided assistance into expense reporting—reducing effort, improving accuracy, and simplifying the end‑to‑end experience. It allows employees to focus on their work while finance teams benefit from cleaner, more compliant expense data.
-
-## Functionality
-The Expense Agent automates the end-to-end expense management process by using intelligent workflows to handle receipt processing, expense line creation, and report generation. It provides the following capabilities:
-
-### Receipt Processing: 
-Expense Agent supports multiple ways to upload receipts, allowing users to capture expenses from wherever they work. Once receipts are uploaded, the agent processes them and creates expense lines automatically.
-
-#### 1. Outlook (Shared Mailbox)
-Employees can simply forward receipts to a designated shared mailbox. The Expense Agent monitors the inbox, extracts key details such as merchant name, date, amount, and currency, and creates expense lines that are later grouped into expense reports for review and submission.
-
-#### 2. Expense Mobile App
-Employees can capture or upload receipts using the Expense Mobile app. The agent processes these receipts by extracting relevant details and creating expense entries automatically. This entry point is ideal for on‑the‑go employees who want to submit expenses without waiting to access a laptop.
-
-#### 3. Dynamics 365 Finance & Operations
-For users working directly in Dynamics 365 Finance and Operations, Expense Agent also processes receipts uploaded within the application. When receipts are uploaded in‑app, the agent does monitor unattached receipts and convert them into expense lines, helping users complete expenses faster with minimal manual effort.
-   
-### Create Expense lines from receipts
-Creating expense lines from receipts is one of the most time‑consuming and error‑prone steps in expense reporting. Employees often need to manually read receipts, interpret merchant information, select the right categories, and populate multiple fields correctly. Expense Agent simplifies this process by using AI to automatically create accurate expense lines directly from receipts.
-
-When a receipt is uploaded, Expense Agent intelligently analyzes the content of the receipt—whether it’s an image or pdf. It identifies key information such as merchant name, date, currency, total amount. Based on this understanding, Expense Agent automatically creates an expense line with the relevant fields pre‑populated.
-
-Beyond basic extraction, Expense Agent applies contextual intelligence. It infers the most appropriate expense category and also suggests descriptions. 
-This guided, AI‑driven approach reduces manual data entry and guesswork for employees. Expense lines are created faster, with higher accuracy, and with fewer policy violations. Employees can focus on reviewing and confirming the expense instead of building it from scratch.
-
-### Auto-match expenses with receipts
-Matching receipts to the correct expense entries is often a time‑consuming and error‑prone step in expense reporting. Expense Agent’s Auto‑Match functionality uses AI to intelligently associate receipts with the appropriate expense lines, reducing manual effort and improving accuracy from the start. When credit card transactions already exist in the system and employees have submitted receipts for processing, Expense Agent automatically analyzes and matches those receipts to the corresponding credit card transactions—streamlining the experience and minimizing the need for manual corrections.
-
-### Itemize expenses automatically
-Itemizing expenses is also one of the most time‑consuming and error‑prone steps in expense reporting—especially for receipts that include multiple line items such as meals, hotel room costs, hotel taxes etc. or mixed‑category purchases. Expense Agent simplifies itemization by using AI to automatically understand receipts and break them into accurate, compliant expense lines.
-
-When a receipt is uploaded, Expense Agent analyzes the receipt content to identify individual items, amounts, taxes, tips, and totals. The agent intelligently creates itemized expense lines and suggests appropriate sub-categories and descriptions based on company defined categories and sub-categories. 
-
-### Expense report generation
-The system groups related expense lines into reports and logically organizes them by project or trip. The reports are generated on a regular schedule that is aligned with organizational workflows. If users share their work calendar with the shared mailbox, the agent can use calendar data to identify relevant trips or projects.
-
-### User-friendly report review and submission
-Generated reports appear in an interactive Teams interface, where users can review or update details. Users can seamlessly perform actions such as attaching or detaching expense lines and updating categories. The system notifies users if any expenses violate organizational policies that are configured in finance and operations apps. Users can also submit reports for approval through Teams. Alternatively, they can select Open in Expense to edit and submit reports directly in finance and operations apps.
+You can configure the Expense Agent using certain parameters based on the need in the organization.
 
 ## Expense Agent Configuration
-In Expense Management parameters > Expense Agent (Production ready preview), administrators can configure the
+To setup the parameters for the Expense Agent, you need to go to Expense Management > Setup > General > Expense Management parameters >  (Production ready preview) Expense Agent. These parameters are legal entity specific.
 
+<img width="1910" height="902" alt="image" src="https://github.com/user-attachments/assets/98641d39-8d59-4111-b18b-4acd731a336c" />
+
+- **Enable Expense Agent:** This setting allows administrators to enable the Expense Agent for the selected legal entity. When enabled, the Expense Agent becomes available to users in the selected legal entity
+- **Maximum days for expense match:** Enter the number of days the Expense Agent should look back when matching receipts to transactions. The value must be between 1 and 90. For example, if you set this to 7, the Expense Agent will consider only receipts (images or files) uploaded in the last 7 days for expense line creation and Auto‑Match. Any receipts older than this period will be ignored.
+- **Disable expense report creation:** Enable this option to prevent the Expense Agent from creating expense reports. When enabled, expenses will not be grouped into an expense report and will remain as individual expense entries.
+- **Frequency:** Specify how often the Expense Agent should run to create or update expense reports. You can choose Daily or Weekly. For weekly runs, select the day(s) of the week on which the agent should process expense reports using the Days field.
+- **Group reports by:** Enter the criteria by which the Expense Agent should group the expenses. It could be based on Project or Trip.
+- **Auto-match receipts:** Enable this option if you want the Expense Agent to auto-match receipts with the credit card transactions uploaded into the system.
+- **Confidence score threshold:** Set the minimum confidence score required for teh expenes agent to auto-match receipts to expense lines. Value must be between 1 to 100.
+- **Enable itemization:** Enable this option to allow the expense agent to automatically itemize receipts for all the supported expense categories.
+- **Itemize tax separately:** Enable this option if you want to the expense agent to consolidate all tax itemizations into a single specified subcategory.
+    - Once enabled, you can also set the single subcategory as part of the Expense Category setup.
+    - Go to Expense Management > Setup > General > Expense Management parameters > Setup > General > Expense categories >
+Select the expense category > Expense > Default tax subcategory > Choose the subcategory
+- **Enable Teams Notifications:** Enable this option if you want the expense agent to send notifications to users through Microsoft Teams.
 ## Related Information
-- [Setup the Expense Agent](https://learn.microsoft.com/en-us/dynamics365/project-operations/expense/expense-agent-setup)
-- 
-- 
+- [Expense Agent overview](https://learn.microsoft.com/en-us/dynamics365/project-operations/expense/expense-agent-setup)
+- Expense Agent Configuration
+- [Installation and Setup of the Expense Agent](https://learn.microsoft.com/en-us/dynamics365/project-operations/expense/expense-agent-setup)
+- [Expense Agent FAQs](https://learn.microsoft.com/en-us/dynamics365/project-operations/expense/expense-agent-faq)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
