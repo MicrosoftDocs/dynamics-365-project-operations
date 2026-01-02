@@ -20,9 +20,12 @@ _**Applies to Dynamics 365 Project Operations Integrated with ERP and Dynamics 3
 
 Expense reporting is one of the most frequent—and often most frustrating—tasks for employees and finance teams. Despite its importance, the process remains largely manual and error‑prone, relying on users to correctly interpret receipts, enter data, and understand policies. The result is lost productivity, delays, rework, and low adoption of expense systems.
 At the same time, employees have grown accustomed to AI‑assisted experiences in their daily work. Tools for search, collaboration, and productivity already anticipate intent and minimize manual effort. Expense management should be no different.
+
 Traditional expense processes place a heavy burden on users—manually extracting details from receipts, completing multiple fields, choosing the right categories and descriptions, and navigating policies without context. Too often, employees spend more time correcting expenses than submitting them.
 Expense Agent changes this experience. By understanding receipts, inferring key details, and guiding users through expense creation, Expense Agent helps ensure expenses are completed accurately the first time.
 Powered by AI, Expense Agent brings intuitive, guided assistance into expense reporting—reducing effort, improving accuracy, and simplifying the end‑to‑end experience. It allows employees to focus on their work while finance teams benefit from cleaner, more compliant expense data.
+
+
 The Expense Agent includes multiple flows, three of which serve as core orchestrators:
 - **Process Emails** – This flow scans a configured mailbox folder every hour and stores the attachments as unattached receipts in Dynamics 365 Finance.
 - **Extract Receipt IDs** – This flow picks up unattached receipts and triggers the agent to extract receipt details and create an unattached expense line.
