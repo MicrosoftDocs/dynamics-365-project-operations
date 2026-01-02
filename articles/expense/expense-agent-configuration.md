@@ -16,7 +16,7 @@ ms.reviewer: johnmichalak
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
-_**Applies to Dynamics 365 Project Operations Integrated with ERP and Dynamics 365 Project Operations for manufacturing**_
+_**Applies to Dynamics 365 Project Operations Integrated with ERP and Dynamics 365 Project Operations for manufacturing**_ 
 
 > [!NOTE]
 > Community interest groups have now moved from Yammer to Microsoft Viva Engage. To join the Expense Management Viva Engage community and take part in the latest discussions, click [**here**](https://engage.cloud.microsoft/main/org/microsoft.com/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIyMzc5MzM4OTU2ODAifQ) and request for access.
