@@ -35,7 +35,7 @@ Powered by AI, Expense Agent brings intuitive, guided assistance into expense re
 ## Functionality
 The Expense Agent automates the end-to-end expense management process by using intelligent workflows to handle receipt processing, expense line creation, and report generation. It provides the following capabilities:
 
-### Receipt Processing: 
+### 1. Receipt Processing: 
 Expense Agent supports multiple ways to upload receipts, allowing users to capture expenses from wherever they work. Once receipts are uploaded, the agent processes them and creates expense lines automatically.
 
 #### 1. Outlook (Shared Mailbox)
@@ -47,7 +47,7 @@ Employees can capture or upload receipts using the Expense Mobile app. The agent
 #### 3. Dynamics 365 Finance & Operations
 For users working directly in Dynamics 365 Finance and Operations, Expense Agent also processes receipts uploaded within the application. When receipts are uploaded in‑app, the agent does monitor unattached receipts and convert them into expense lines, helping users complete expenses faster with minimal manual effort.
    
-### Create Expense lines from receipts:
+### 2. Create Expense lines from receipts:
 Creating expense lines from receipts is one of the most time‑consuming and error‑prone steps in expense reporting. Employees often need to manually read receipts, interpret merchant information, select the right categories, and populate multiple fields correctly. Expense Agent simplifies this process by using AI to automatically create accurate expense lines directly from receipts.
 
 When a receipt is uploaded, Expense Agent intelligently analyzes the content of the receipt—whether it’s an image or pdf. It identifies key information such as merchant name, date, currency, total amount. Based on this understanding, Expense Agent automatically creates an expense line with the relevant fields pre‑populated.
@@ -55,18 +55,18 @@ When a receipt is uploaded, Expense Agent intelligently analyzes the content of 
 Beyond basic extraction, Expense Agent applies contextual intelligence. It infers the most appropriate expense category and also suggests descriptions. 
 This guided, AI‑driven approach reduces manual data entry and guesswork for employees. Expense lines are created faster, with higher accuracy, and with fewer policy violations. Employees can focus on reviewing and confirming the expense instead of building it from scratch.
 
-### Auto-match expenses with receipts:
+### 3. Auto-match expenses with receipts:
 Matching receipts to the correct expense entries is often a time‑consuming and error‑prone step in expense reporting. Expense Agent’s Auto‑Match functionality uses AI to intelligently associate receipts with the appropriate expense lines, reducing manual effort and improving accuracy from the start. When credit card transactions already exist in the system and employees have submitted receipts for processing, Expense Agent automatically analyzes and matches those receipts to the corresponding credit card transactions—streamlining the experience and minimizing the need for manual corrections.
 
-### Itemize expenses automatically:
+### 4. Itemize expenses automatically:
 Itemizing expenses is also one of the most time‑consuming and error‑prone steps in expense reporting—especially for receipts that include multiple line items such as meals, hotel room costs, hotel taxes etc. or mixed‑category purchases. Expense Agent simplifies itemization by using AI to automatically understand receipts and break them into accurate, compliant expense lines.
 
 When a receipt is uploaded, Expense Agent analyzes the receipt content to identify individual items, amounts, taxes, tips, and totals. The agent intelligently creates itemized expense lines and suggests appropriate sub-categories and descriptions based on company defined categories and sub-categories. 
 
-### Expense report generation:
+### 5. Expense report generation:
 The system groups related expense lines into reports and logically organizes them by project or trip. The reports are generated on a regular schedule that is aligned with organizational workflows. If users share their work calendar with the shared mailbox, the agent can use calendar data to identify relevant trips or projects.
 
-### User-friendly report review and submission:
+### 6. User-friendly report review and submission:
 Generated reports appear in an interactive Teams interface, where users can review or update details. Users can seamlessly perform actions such as attaching or detaching expense lines and updating categories. The system notifies users if any expenses violate organizational policies that are configured in finance and operations apps. Users can also submit reports for approval through Teams. Alternatively, they can select Open in Expense to edit and submit reports directly in finance and operations apps.
 
 
