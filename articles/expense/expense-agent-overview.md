@@ -79,4 +79,11 @@ Although the Expense Agent simplifies many aspects of expense management, be awa
 - **Automatically generated report titles might need adjustment.** Report titles are generated based on associated trips or projects. Users who prefer custom naming can edit titles directly in finance and operations apps. In addition, although the agent groups expenses by location (for example, by city or country), users can detach and reorganize expenses if the grouping is unsatisfactory.
 - **Category suggestions might need adjustment.** The agent maps expenses to predefined categories (for example, **Flight**, **Meal**, or **Car Rental**) based on the best match. If the selected category isn't appropriate, users can update it in Teams or finance and operations apps before submission.
 
+## Related Information
+- [Expense Agent overview](https://learn.microsoft.com/en-us/dynamics365/project-operations/expense/expense-agent-setup)
+- Expense Agent Configuration
+- [Installation and Setup of the Expense Agent](https://learn.microsoft.com/en-us/dynamics365/project-operations/expense/expense-agent-setup)
+- [Expense Agent FAQs](https://learn.microsoft.com/en-us/dynamics365/project-operations/expense/expense-agent-faq)
+
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
