@@ -1910,6 +1910,8 @@
         href: expense/expense-agent-overview.md
       - name: Installation and Setup of the Expense Agent
         href: expense/expense-agent-setup.md
+      - name: Expense Agent parameters and configuration
+        href: expense/expense-agent-configuration.md
       - name: Expense Agent FAQs
         href: expense/expense-agent-faq.md
     - name: New expense experience
@@ -2376,6 +2378,8 @@
         href: expense/expense-agent-overview.md
       - name: Installation and Setup of the Expense Agent
         href: expense/expense-agent-setup.md
+      - name: Expense Agent parameters and configuration
+        href: expense/expense-agent-configuration.md
       - name: Expense Agent FAQs
         href: expense/expense-agent-faq.md
     - name: New expense experience
@@ -2530,6 +2534,8 @@
       href: expense/expense-agent-overview.md
     - name: Installation and Setup of the Expense Agent
       href: expense/expense-agent-setup.md
+    - name: Expense Agent parameters and configuration
+      href: expense/expense-agent-configuration.md
     - name: Expense Agent FAQs
       href: expense/expense-agent-faq.md
   - name: New expense experience
