@@ -92,7 +92,7 @@ Although the Expense Agent simplifies many aspects of expense management, be awa
 ## Related information
 
 - [Expense Agent overview](/dynamics365/project-operations/expense/expense-agent-setup)
-- Expense Agent Configuration
+- [Watch the setup and configuration of the Expense Agent video](https://www.youtube.com/watch?v=3BLolj0elsw&t=706s)
 - [Installation and Setup of the Expense Agent](/dynamics365/project-operations/expense/expense-agent-setup)
 - [Expense Agent FAQs](/dynamics365/project-operations/expense/expense-agent-faq)
 
