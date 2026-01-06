@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Expense Agent overview (Preview)
+# Expense Agent parameters and configuration (Preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
