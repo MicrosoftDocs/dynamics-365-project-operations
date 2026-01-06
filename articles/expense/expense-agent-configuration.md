@@ -32,7 +32,7 @@ You can configure the Expense Agent by using certain parameters based on your or
 
 To setup the parameters for the Expense Agent, you need to go to Expense Management > Setup > General > Expense Management parameters >  (Production ready preview) Expense Agent. These parameters are legal entity specific.
 
-:::image type="content" source="<https://github.com/user-attachments/assets/98641d39-8d59-4111-b18b-4acd731a336c>" alt-text="Screenshot of the Expense Agent configuration parameters in Expense Management.":::
+:::image type="content" source="media/expense-management-parameters.png" alt-text="Screenshot of the Expense Agent configuration parameters in Expense Management.":::
 
 - **Enable Expense Agent:** This setting allows administrators to enable the Expense Agent for the selected legal entity. When enabled, the Expense Agent becomes available to users in the selected legal entity
 - **Maximum days for expense match:** Enter the number of days the Expense Agent should look back when matching receipts to transactions. The value must be between 1 and 90. For example, if you set this to 7, the Expense Agent considers only receipts (images or files) uploaded in the last seven days for expense line creation and Auto‑Match. Any receipts older than this period are ignored.
