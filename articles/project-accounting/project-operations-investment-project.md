@@ -19,8 +19,11 @@ When you enable investment projects in Microsoft Dynamics 365 Project Operations
 This feature streamlines the lifecycle of investment projects, from initial planning to asset capitalization. It supports robust financial management and operational efficiency across integrated ERP environments.
 
 ## Prerequisites
+### Features
+To use the functionality, activate the following features:
 
-To use this functionality, activate the **Enable investment project for Project Operations integrated with ERP** feature in Finance.
+* Enable investment project for Project Operations integrated with ERP feature in **Dynamics 365 Finance**.
+* Enable investment projects usage for project operations integrated deployments in **Dynamics 365 Project Operations** 
 
 ### Minimum versions required
 
