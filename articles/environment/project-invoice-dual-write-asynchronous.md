@@ -52,8 +52,8 @@ To update the Dual-write Core solution, follow these steps:
 1. Ensure you're logged into the correct environment where dual-write is configured.
 1. In the navigation pane, select **Solutions**. Solutions lists all installed solutions in your environment.
 1. Locate the **Dual-write Core** solution in the list, and select it to view the current version and details.
-1. Compare the list with the latest version available on **Microsoft AppSource**.
-1. In the **Solutions** area, select **Open AppSource**. Search for **Dual-write Core**.
+1. Compare the list with the latest version available on **Microsoft Marketplace**.
+1. In the **Solutions** area, select **Open Marketplace**. Search for **Dual-write Core**.
 1. Select the latest version of the **Dual-write Core** solution.
 1. Select **Get it now** and follow the prompts to install or update. Choose the correct **environment** during installation.
 

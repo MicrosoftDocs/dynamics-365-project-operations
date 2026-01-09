@@ -6,7 +6,7 @@ ms.topic: article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 12/19/2025
+ms.date: 01/08/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ms.author: abriccetti
@@ -66,7 +66,7 @@ Dynamics 365 Project Operations consists of two components:
 |                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
 | **4.145.0.1040** <br> Refer to HotFix (**4.145.0.1361**) | September 12, 2025         | September 19, 2025         | September 19, 2025         | September 26, 2025         | September 26, 2025         | October 03, 2025           | October 03, 2025           | October 10, 2025           | October 10, 2025           | October 17, 2025           |
 | **4.160.0.1159**  <br> Refer to HotFix (**4.160.0.2877**) | October 17, 2025           | October 24, 2025           | October 24, 2025           | CANCELED          | October 24, 2025           | CANCELED          | CANCELED          | CANCELED          | CANCELED          | CANCELED          |
-| **4.161.0.x**  | January 06, 2025          | January 20, 2026          | January 06, 2025          | January 20, 2026          | January 06, 2025          | January 20, 2025          | January 13, 2026           | January 27, 2026           | January 13, 2026           | January 27, 2026           |
+| **4.161.0.1688**  | January 06, 2025          | January 20, 2026          | January 06, 2025          | January 20, 2026          | January 06, 2025          | January 20, 2025          | January 13, 2026           | January 27, 2026           | January 13, 2026           | January 27, 2026           |
 | **4.162.0.x**    | January 23, 2026           | January 30, 2026           | January 30, 2026           | February 13, 2026          | January 30, 2026           | February 13, 2026          | February 13, 2026          | February 27, 2026          | February 13, 2026          | February 27, 2026          |
 | **4.163.0.x**   | February 20, 2026          | February 27, 2026          | February 27, 2026          | March 13, 2026             | February 27, 2026          | March 13, 2026             | March 13, 2026             | March 27, 2026             | March 13, 2026             | March 27, 2026             |
 | **4.164.0.x**     | March 20, 2026             | March 27, 2026             | March 27, 2026             | April 10, 2026             | March 27, 2026             | April 10, 2026             | April 10, 2026             | April 24, 2026             | April 10, 2026             | April 24, 2026             |
