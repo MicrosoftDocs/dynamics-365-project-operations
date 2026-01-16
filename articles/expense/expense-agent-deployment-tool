@@ -28,6 +28,16 @@ _**Applies to Dynamics 365 Project Operations Integrated with ERP and Dynamics 3
 
 This document walks you through the intuitive wizard experience designed to streamline setup, providing all pre-requisites, detailed instructions, and direct links to relevant settings in one centralized location.
 
+> [!NOTE]
+> To run the agent deployment wizard, go to the [Dynamics 365 Agent Deployment tool](https://aka.ms/InstallD365Agents) in Power Platform admin center.
+> This tool is continuously evolving, with ongoing automation of additional steps to reduce manual effort. We'll keep this document up to date with the latest enhancements, making it your single source for all Expense Agent setup-related guidance.
+
+Administrators can now complete the entire process without navigating between platforms—everything you need is consolidated here for efficiency and simplicity.
+
+It is recommended to go through the pre-requisites before running the wizard. You will find more details [Agent Deployment tool](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/copilot/agent-deployment)
+
+##Steps to setup Expense Agent
+Note: All screens shown are for indicative purposes and might differ from actual screens due to updated features or options.
 
 
 
