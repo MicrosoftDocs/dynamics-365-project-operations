@@ -35,6 +35,10 @@ To import credit card transactions, follow these steps:
 > [!NOTE]
 > If you need to import more than one file format, you must create separate import jobs for each format type.
 
+ 
+> [!NOTE]
+> Credit card transactions can also be split, and starting with version 10.0.46, splitting is allowed even when there are policy violations though they have to be resolved before submission.
+
 ## Reassign the credit card transactions for terminated employees
 
 After an employee record is terminated, the employee's Active Directory Domain Services (AD DS) account is disabled. However, there might be active credit card transactions that must still be expensed and reimbursed. On the **Credit card transactions** page, you can reassign the employee for any credit card transaction where the associated employee has been terminated.
