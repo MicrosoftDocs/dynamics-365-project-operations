@@ -49,7 +49,7 @@ This article applies to the following components and versions of Microsoft Dynam
 |Project Budgeting And Forecasting| 5994590| Skipped validation and defaulting for irrelevant Budget Line Attributes.|
 |Project Planning And Tracking| 4853288| Newly added Time Zone Agnostic (TZA) fields were missing from the quick create forms within Project entity.|
 |Project Planning And Tracking| 5574797| Copy Project operation should detect invalid project status and fail fast if the source project is invalid.|
-|Subcontracting| 4593261| Canceled Vendor Invoices don't recreate inter-organisation actuals.|
+|Subcontracting| 4593261| Canceled Vendor Invoices don't recreate inter-organization actuals.|
 |Subcontracting| 5621818| Unable to approve Material Usage with Stocked Products.|
 |Subcontracting| 5925197| Error faced when revising a posted Project Invoice with select transactions.|
 |Time Entry| 5804612| You incorrectly get a warning message when submitting eight Hours of Vacation/Absence on a working day.|
