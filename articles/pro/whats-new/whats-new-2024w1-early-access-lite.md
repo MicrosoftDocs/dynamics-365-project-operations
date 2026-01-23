@@ -36,4 +36,4 @@ The following table lists the feature flags removed from Feature control. These 
 | --- | --- | --- |
 | Pricing | **Cost plus pricing**<br><br>Supported columns added to grid view in Price lists specifically for Role prices tab. | [Set up labor bill rates - Project Operations Core](../pricing-costing/set-up-labor-bill-rate-sales.md) |
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
