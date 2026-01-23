@@ -2,7 +2,7 @@
 title: Customize the Billing hub view for creating project-based proforma invoices
 description: Learn how to customize Billing hub so that you can create project-based proforma invoices.
 author: suvaidya
-ms.date: 02/28/2025
+ms.date: 01/23/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -17,7 +17,7 @@ ms.author: nshrivastava
 The **Billing hub** view includes a nested grid that has contract and contract lines. To customize the fields in the contract or contract line view, create a copy of the out-of-box **Billing hub (Contracts)** view by following the steps in this article.
 
 > [!NOTE]
-> After the view is customized, you aren't notified about any updates that are made to the out-of-box view. Therefore, we recommend that you use the out-of-box view as a reference to understand the updates that Microsoft makes. In your custom view, you must manually update any fields that Microsoft adds or removes.
+> After you customize the view, you aren't notified about any updates that are made to the out-of-box view. Therefore, use the out-of-box view as a reference to understand the updates that Microsoft makes. In your custom view, manually update any fields that Microsoft adds or removes.
 
 ## Customize contract or contract line fields in the Billing hub view
 

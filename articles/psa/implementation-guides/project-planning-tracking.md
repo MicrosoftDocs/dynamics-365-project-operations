@@ -5,7 +5,7 @@ author: kfend
 ms.custom: 
   - dyn365-projectservice
   - evergreen
-ms.date: 07/07/2025
+ms.date: 01/23/2026
 ms.update-cycle: 1095-days
 ms.topic: article
 ms.author: johnmichalak
@@ -35,7 +35,6 @@ The PDF link that was previously in this article has been removed and the conten
 - [Project settings](../project-settings.md)
 
 > [!NOTE]
-> This article will be removed in a future documentation update. 
-
+> This article will be removed in a future documentation update.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

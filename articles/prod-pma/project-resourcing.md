@@ -3,7 +3,7 @@ title: Project resourcing home page
 description: This article provides information about project resourcing.
 author: tulsij
 ms.author: dishantpopli
-ms.date: 05/28/2024
+ms.date: 01/23/2026
 ms.topic: article
 ms.custom: 
   - bap-template
@@ -16,7 +16,7 @@ ms.reviewer: johnmichalak
 
 This article provides information about project resourcing.
 
-One challenge for project managers and resource managers during the project planning stage is resource allocation, where they must determine and reserve the correct resource to work on a project. In Dynamics 365 Finance, resourcing capabilities for projects let you define roles that are treated as temporary resources that can be reserved for a specific engagement or part of an engagement. This type of resourcing lets project managers and resource managers complete the following tasks:
+One challenge for project managers and resource managers during the project planning stage is resource allocation. They must determine and reserve the correct resource to work on a project. In Dynamics 365 Finance, resourcing capabilities for projects let you define roles that are temporary resources you can reserve for a specific engagement or part of an engagement. By using this type of resourcing, project managers and resource managers can complete the following tasks:
 
 - Define a role that has the required competencies, so that it's easy to match resources.
 - Use roles to define an initial engagement schedule that is based on reserved resources.
@@ -25,11 +25,11 @@ One challenge for project managers and resource managers during the project plan
 - Estimate the number of resources that are required for the whole life cycle of a project.
 - Draft a work breakdown structure (WBS) by using the initial resource assignments.
 
-[![Project life cycle.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+:::image type="content" source="./media/projectresourcing02.jpg" alt-text="Screenshot of project life cycle." lightbox="./media/projectresourcing02.jpg":::
 
-As project planning proceeds, planned resources can be replaced with staffed resources. The project manager can also go back and update the resourcing reservations during any project stage.
+As project planning proceeds, replace planned resources with staffed resources. The project manager can also update the resourcing reservations during any project stage.
 
-The following articles provide information about the tasks that need to be completed when you are working on resourcing projects.
+The following articles provide information about the tasks that you need to complete when working on resourcing projects.
 
 - [Set up project resources](set-up-project-resources.md)
 - [Manage resource competencies](manage-resource-competencies.md)

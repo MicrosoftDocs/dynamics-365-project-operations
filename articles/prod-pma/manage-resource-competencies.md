@@ -3,7 +3,7 @@ title: Manage resource competencies
 description: This article provides information about setting up competencies for project resources.
 author: tulsij
 ms.author: dishantpopli
-ms.date: 05/28/2024
+ms.date: 01/23/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,30 +16,30 @@ ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 
 [!include [banner](../includes/banner.md)]
 
-Resource competencies are an essential part of resource management. Competencies can be used as a baseline to determine resources that have the correct balance of skills, education, certification, and project experience. You should set up this information for each resource and update it on a regular basis. In this way, you can maximize capabilities when specific resource competencies are matched during project resource assignment.
+Resource competencies are an essential part of resource management. Use competencies as a baseline to determine resources that have the right balance of skills, education, certification, and project experience. Set up this information for each resource and update it regularly. By matching specific resource competencies during project resource assignment, you can maximize capabilities.
 
-[![Examples of skills, certifications, education, and project experience.](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+:::image type="content" source="./media/projectresourcing06.jpg" alt-text="Screenshot of examples of skills, certifications, education, and project experience." lightbox="./media/projectresourcing06.jpg":::
 
 The following procedures explain how to set up some of the competencies for a resource.
 
-To set up competencies for a worker, you can use either the **Workers** list page in Human resources or the **Resources** list page in Project management and accounting. For the following procedures, the **Workers** list page in Human resources is used.
+To set up competencies for a worker, use either the **Workers** list page in Human resources or the **Resources** list page in Project management and accounting. For the following procedures, the **Workers** list page in Human resources is used.
 
 ## Set up competencies: Certificates
 
 1. On the **Workers** list page, select the line for the worker to add certificate information for.
-2. On the Action Pane, on the **Worker** tab, in the **Competencies** group, select **Certificates**.
-3. Select **New**, and then, in the **Certificate type** field, select **PMP**.
-4. In the **Start date** field, select **10/1/2015**, and select **Save**.
+1. On the Action Pane, on the **Worker** tab, in the **Competencies** group, select **Certificates**.
+1. Select **New**, and then, in the **Certificate type** field, select **PMP**.
+1. In the **Start date** field, select **10/1/2015**, and select **Save**.
 
 ## Set up competencies: Skills
 
-1. On the **Workers** list page, make sure that the worker that you used in the previous procedure is still selected. Then, on the Action Pane, on the **Worker** tab, in the **Competencies** group, select **Skills**.
-2. Select **New**.
-3. In the **Skill** field, select **Project management**.
-4. In the **Level** field, select **5 Expert**.
-5. In the **Level date** field, select **1-/14/2014**.
-6. In the **Years of experience** field, enter **10**.
-7. Select **Save**, and then close the page.
+1. On the **Workers** list, make sure that the worker you used in the previous procedure is still selected. Then, on the Action Pane, on the **Worker** tab, in the **Competencies** group, select **Skills**.
+1. Select **New**.
+1. In the **Skill** field, select **Project management**.
+1. In the **Level** field, select **5 Expert**.
+1. In the **Level date** field, select **1-/14/2014**.
+1. In the **Years of experience** field, enter **10**.
+1. Select **Save**, and then close the page.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

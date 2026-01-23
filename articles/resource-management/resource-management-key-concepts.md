@@ -3,7 +3,7 @@ title: Resource management key concepts
 description: This article provides information about resource management capabilities in Microsoft Dynamics Project Operations.
 author: tulsij
 ms.author: dishantpopli
-ms.date: 07/07/2025
+ms.date: 01/23/2026
 ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.custom: 
@@ -17,7 +17,7 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-Resources are the most important asset of a service-based organization. The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals. You can use the project resourcing functionality in Dynamics 365 Project Operations to do the following tasks:
+Resources are the most important asset of a service-based organization. The ability to find the right resources at the right time, book those resources on projects, and keep them utilized helps the organization meet revenue targets and customer satisfaction goals. Use the project resourcing functionality in Dynamics 365 Project Operations to complete the following tasks:
 
 - Form project teams by booking available and qualified resources.
 - Create generic team member records and define their roles and resource organization unit.
@@ -31,8 +31,6 @@ Resources are the most important asset of a service-based organization. The abil
 - View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.
 - Maintain a skills and proficiency repository.
 
-
-You can staff your project with a team of generic or named resources in Project Operations. You can use various methods to add and assign team members and to manage their bookings and assignments. 
-
+Staff your project with a team of generic or named resources in Project Operations. Use various methods to add and assign team members and to manage their bookings and assignments. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

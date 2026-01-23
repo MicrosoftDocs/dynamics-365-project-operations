@@ -3,7 +3,7 @@ title: Manage time zones
 description: When a project is created, its time zone is based upon the time zone defined in the work hour template applied.
 author: tulsij
 ms.author: dishantpopli
-ms.date: 05/28/2024
+ms.date: 01/23/2026
 ms.topic: article
 ms.custom: 
   - bap-template
@@ -15,55 +15,54 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-
 ## Projects
 
-When a project is created, the time zone is based on the time zone defined in the applied work hour template. On the **Project** for, the dates are always relative to the time zone of the user that is logged in on each tab, except the **Task** tab. When you view the work breakdown structure, the dates will always be displayed in the project’s time zone.
+When you create a project, you set the time zone based on the time zone defined in the work hour template you apply. On the **Project** form, the dates always relate to the time zone of the user who's signed in on each tab, except the **Task** tab. When you view the work breakdown structure, the dates always display in the project's time zone.
 
 ## Tasks
 
-When a task is created, the start time, end time, and hours/day is controlled by the working hours of the project. For example, if a task is created with a project whose time zone is -8 PST and has the following working hours: 9:00 AM to 5:00 PM Monday to Friday, any task created without an assignment will respect the start time and end time of the project calendar.
+When you create a task, the working hours of the project control the start time, end time, and hours per day. For example, if you create a task with a project whose time zone is -8 PST and has the following working hours: 9:00 AM to 5:00 PM Monday to Friday, any task you create without an assignment respects the start time and end time of the project calendar.
 
 ## Manage resources with time zones
 
-For accurate and predictable results when using **Extend Booking**, there are two key prerequisites that must be met:  
+To get accurate and predictable results when using **Extend Booking**, make sure you meet these two key prerequisites:  
 
-- The user must configure their device's time zone to match the time zone defined in the system's **Personalization Settings**.
+- Set your device's time zone to match the time zone defined in the system's **Personalization Settings**.
  
-  ![Time zone settings in Windows 10.](media/reconcile-assignments-03.png)
+  :::image type="content" source="media/reconcile-assignments-03.png" alt-text="Screenshot of time zone settings in Windows 10.":::
 
-  ![Time zone settings in personalization settings.](media/reconcile-assignments-04.png)
+  :::image type="content" source="media/reconcile-assignments-04.png" alt-text="Screenshot of time zone settings in personalization settings.":::
  
-- The bookable resource must have at least one minute of working time that overlaps with the contours that are used to define the requested extension. For example, the following resources with working hours that fall between 9:00 AM and 7:00 PM. 
+- The bookable resource must have at least one minute of working time that overlaps with the contours that define the requested extension. For example, the following resources have working hours that fall between 9:00 AM and 7:00 PM. 
 
-  ![Comparison of resource contours.](media/reconcile-assignments-05.png)
+  :::image type="content" source="media/reconcile-assignments-05.png" alt-text="Screenshot of comparison of resource contours.":::
 
 The following table shows:
 
 - A project calendar template
-- Resource A: This resource has the same calendar and is in the same time zone as the project. The start time of the bookings will be 9:00 AM.
-- Resource B: This resource is located in a different time zone than the project and starts at 7:00 AM in their time zone. However, the bookings will begin at 9:00 AM as that is the earliest start time of the assignment contour.
-- Resources C and D: The resources are located in different time zones, both different from each other and the project, and their bookings start no earlier than their respective available start times.
+- Resource A: This resource has the same calendar and is in the same time zone as the project. The start time of the bookings is 9:00 AM.
+- Resource B: This resource is in a different time zone than the project and starts at 7:00 AM in their time zone. However, the bookings start at 9:00 AM as that is the earliest start time of the assignment contour.
+- Resources C and D: The resources are in different time zones, both different from each other and the project, and their bookings start no earlier than their respective available start times.
 
 |Entity  |Calendar  |
 |-|-|
-|Project calendar template   | ![project calendar.](media/reconcile-assignments-06.png) |
-|Resource A  | ![Resource A calendar.](media/reconcile-assignments-06.png) |
-|Resource B  |  ![Resource B calendar.](media/reconcile-assignments-07.png) |
-|Resource C  |  ![Resource C calendar.](media/reconcile-assignments-08.png) |
-|Resource D  | ![Resource D calendar.](media/reconcile-assignments-09.png)  |
+|Project calendar template   | :::image type="content" source="media/reconcile-assignments-06.png" alt-text="Screenshot of project calendar template."::: |
+|Resource A  | :::image type="content" source="media/reconcile-assignments-06.png" alt-text="Screenshot of Resource A calendar."::: |
+|Resource B  |  :::image type="content" source="media/reconcile-assignments-07.png" alt-text="Screenshot of Resource B calendar."::: |
+|Resource C  |  :::image type="content" source="media/reconcile-assignments-08.png" alt-text="Screenshot of Resource C calendar."::: |
+|Resource D  | :::image type="content" source="media/reconcile-assignments-09.png" alt-text="Screenshot of Resource D calendar.":::  |
  
-When you navigate to the **Reconciliation** view, the resource assignments and the associated booking shortages are displayed.
+When you go to the **Reconciliation** view, you see the resource assignments and the associated booking shortages.
 
-![Reconciliation view before extension.](media/reconcile-assignments-10.png)
+:::image type="content" source="media/reconcile-assignments-10.png" alt-text="Screenshot of the Reconciliation view before extension.":::
 
-After the extend booking functionality has been used for each resource, bookings are successfully extended for each resource because each resource’s working hours overlapped with the contours of the shortage.
+After you use the extend booking functionality for each resource, the bookings are successfully extended for each resource because each resource's working hours overlapped with the contours of the shortage.
 
-![Reconciliation view after booking extension.](media/reconcile-assignments-11.png) 
+:::image type="content" source="media/reconcile-assignments-11.png" alt-text="Screenshot of the Reconciliation view after booking extension.":::
 
-Notice that a closer look at the details of the bookings shows differences in the start time of the bookings. The bookings start no earlier than the start time of the assignment contour and no earlier than the available start time of the resource.
+A closer look at the details of the bookings shows differences in the start time of the bookings. The bookings start no earlier than the start time of the assignment contour and no earlier than the available start time of the resource.
 
-![New bookings of the resources in the schedule board.](media/reconcile-assignments-12.png)
+:::image type="content" source="media/reconcile-assignments-12.png" alt-text="Screenshot of new bookings of the resources in the schedule board.":::
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

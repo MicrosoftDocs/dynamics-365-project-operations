@@ -8,7 +8,7 @@ ms.custom:
   - dyn365-projectservice
   - bap-template
   - evergreen
-ms.date: 07/07/2025
+ms.date: 01/23/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ---

@@ -4,7 +4,7 @@ description: This article provides information about the features available in t
 author: tulsijhaveri
 ms.custom:
   - evergreen
-ms.date: 07/07/2025
+ms.date: 01/23/2026
 ms.update-cycle: 1095-days
 ms.topic: whats-new
 ms.reviewer: johnmichalak
@@ -35,3 +35,5 @@ The following table lists the feature flags removed from Feature control. These 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
 | Pricing | **Cost plus pricing**<br><br>Supported columns added to grid view in Price lists specifically for Role prices tab. | [Set up labor bill rates - Project Operations Core](../pricing-costing/set-up-labor-bill-rate-sales.md) |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

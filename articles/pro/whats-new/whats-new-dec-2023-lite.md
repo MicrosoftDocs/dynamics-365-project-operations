@@ -2,7 +2,7 @@
 title: What's new December 2023 - Project Operations Core
 description: This article provides information about the quality updates that are available in the December 2023 release of Microsoft Dynamics 365 Project Operations Core.
 author: tulsijhaveri
-ms.date: 07/07/2025
+ms.date: 01/23/2026
 ms.update-cycle: 1095-days
 ms.topic: whats-new
 ms.custom: 

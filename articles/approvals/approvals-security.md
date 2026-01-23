@@ -2,7 +2,7 @@
 title: Security and approvals
 description: This article provides information about the security setup for working with approvals in Microsoft Dynamics 365 Project Operations.
 author: abriccetti
-ms.date: 02/10/2025
+ms.date: 01/23/2026
 ms.topic: article
 ms.custom: 
   - bap-template
@@ -31,3 +31,5 @@ To approve nonproject entries, the approving user must be the [manager](/dynamic
 The **Project Approver Admin** security role allows users to bypass policies and allows for the approval of all entries regardless of type or if it's linked to a project. Assignment of this role bypasses the validation logic that requires team membership and being marked as an approver or status as the submitting user's manager. You must have access to the relevant related tables, such as **Project**, via security roles assigned to you.
 
 The SYSTEM user context bypasses validations in the same way as the Project Approver Admin security role.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

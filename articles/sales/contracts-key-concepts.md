@@ -2,7 +2,7 @@
 title: Concepts unique to Project-based Contracts
 description: This article provides information about the key concepts of project contracts in Project Operations.
 author: suvaidya
-ms.date: 06/10/2024
+ms.date: 01/23/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -14,46 +14,44 @@ ms.author: nshrivastava
 
 _**Applies To:** Project Operations Integrated with ERP_
 
+Before you start using Project contracts in Dynamics 365 Project Operations, review these key concepts:
 
+## Owning company
 
-This article provides the key concepts to be aware of before you begin using Project contracts in Dynamics 365 Project Operations:
+The **owning company** is the legal entity from the **Project management and accounting** module for Project Operations from Dynamics 365 Finance. The owning company represents the legal entity that accounts for the cost and revenue that accrues from a deal.
 
-## Owning Company
+## Contracting unit
 
-The owning company is the legal entity from the **Project management and accounting** module for Project Operations from Dynamics 365 Finance. The owning company represents the legal entity that will account for the cost and revenue that accrues from a deal.
+The **contracting unit** represents the division or practice that owns the delivery of the project. You can set up resource costs for each contracting unit. When you specify the resource cost for a resource, you can also set up different cost rates for resources. This contracting unit borrows these resources from other divisions or practices within the enterprise. The cost rates for the resources are referred to as transfer prices, resource borrowing, or exchange prices. When you set up the cost rates to borrow resources from other divisions, use the currency of the lending division.
 
-## Contracting Unit
+## Cost currency
 
-The contracting unit represents the division or practice that owns the delivery of the project. You can set up resource costs for each contracting unit. When you specify the resource cost for a resource, you will also be able to set up different cost rates for resources. This contracting unit borrows these resources from other division or practices within the enterprise. The cost rates for the resources are referred to as transfer prices, resource borrowing, or exchange prices. When you set up the cost rates to borrow resources from other divisions, use the currency of the lending division.
+The **cost currency** is the currency in which costs are reported on screen. This currency comes from the currency attached to the **Contracting Unit** field on the contract and the project. You can log costs in any currency against a project. However, currency conversion happens from the currency you recorded the costs in to the cost currency of the project when shown on the screen.
 
-## Cost Currency
+Because the exchange rates in the Common Data Service (CDS) platform aren't date effective, the on-screen totals for cost might change over time if you update the currency exchange rates. However, costs as recorded in the database remain unchanged because the amounts are stored in the currency that you incurred.
 
-Cost currency is the currency in which costs are reported on screen. This currency is derived from the currency attached to the **Contracting Unit** field on the contract and the project. Costs can be logged in any currency against a project. However, there is currency conversion from the currency the costs were recorded in, to the cost currency of the project when shown on the screen.
+## Sales currency
 
-Because the exchange rates in the Common Data Service (CDS) platform can't be date effective, the on-screen totals for cost may change over time if you update the currency exchange rates. However, costs as recorded in the database remain unchanged because the amounts are stored in the currency that were incurred in.
+In Project Operations, the **sales currency** is the currency in which you record and show the estimated and actual sales amounts. The sales currency is also the currency in which you invoice the customer for the deal. On a project contract, the sales currency defaults from the customer or account record and can be changed during the contract creation. When you create a contract by closing a quote as won, the currency on the contract defaults from the currency on the quote.
 
-## Sales Currency
+When you create a project contract from scratch, you can't edit the **Sales Currency** field. Product and project price lists default based on this currency on the contract.
 
-Sales currency in Project Operations is the currency in which the estimated and actual sales amounts are recorded and shown. Sales currency is also the currency in which the customer is invoiced for the deal. On a project contract, the sales currency defaults from the customer or account record and can be changed during when the contract is created. When a contract is created by closing a quote as won, the currency on the contract is defaulted from the currency on the quote.
+Unlike costs, you can only record sales values in the sales currency.
 
-When you create a project contract from scratch, the **Sales Currency** field can't be edited. Product and project price lists default based on this currency on the contract.
+## Billing method
 
-Unlike costs, sales values can only be recorded in the sales currency.
+Typically, two types of contracting models exist for projects: fixed fee and consumption-based. Project Operations represents these models as billing methods with two possible values:
 
-## Billing Method
+- Time and Material: A consumption-based contracting model where each incurred cost has corresponding revenue. As you estimate or incur more costs, the corresponding estimated and actual sales also increase. Specify not-to-exceed limits on contract lines that have this billing method, which caps the actual revenue. Estimated revenue isn't impacted by not-to-exceed limits.
+- Fixed Price: A fixed fee contracting model that indicates the sales values are independent of the costs incurred. The sales value is fixed and doesn't change as you estimate or incur more costs.
 
-There are typically two types of contracting models for projects, fixed fee and consumption-based. These models are represented in Project Operations as billing methods with two possible values:
+## Project price lists
 
-- Time and Material: A consumption-based contracting model where each incurred cost is backed by corresponding revenue. As you estimate or incur more costs, the corresponding estimated and actual sales also increase. Specify not-to-exceed limits on contract lines that have this billing method, which caps off the actual revenue. Estimated revenue isn't impacted by not-to-exceed limits.
-- Fixed Price: A fixed fee contracting model that indicates the sales values will be independent of the costs incurred. The sales value is fixed and doesn't change as you estimate or incur more costs.
+Use project price lists to default prices, not cost rates, for time, expense, and other project-related components. You can have multiple price lists. Each price list has its own date effectivity for each project contract. Project Operations doesn't support overlapping date-effectivity on project price lists.
 
-## Project Price lists
+When you create a project contract by winning a project quote, you copy project price lists with the contract name and date included. Copying this information constitutes custom pricing for project components on this project contract.
 
-Project price lists are used to default prices, not cost rates, for time, expense, and other project-related components. There can be multiple prices lists. Each price list has its own date effectivity for each project contract. Overlapping date-effectivity on project price lists isn't supported in Project Operations.
-
-When a project contract is created by winning a project quote, project price lists are copied with the contract name and date included. Copying this information constitutes custom pricing for project components on this project contract.
-
-## Transaction Classes
+## Transaction classes
 
 Project Operations supports four types of transaction classes:
 
@@ -62,27 +60,26 @@ Project Operations supports four types of transaction classes:
 - Material
 - Fee
 
-Cost and sales values can be estimated and incurred on Time, Expense, and Material transaction classes. Fee is a revenue-only transaction class.
+You can estimate and incur cost and sales values on Time, Expense, and Material transaction classes. Fee is a revenue-only transaction class.
 
-## Work entities and Billing entities
+## Work entities and billing entities
 
-Entities that represent work are projects and tasks. Entities that represent billing aspects are contract lines. You can tie different work entities to billing options by tying them to contract lines.
+Projects and tasks represent work entities. Contract lines represent billing entities. You can tie different work entities to billing options by tying them to contract lines.
 
-## Multi-customer deals
+## Multicustomer deals
 
-Multi- customer deals have more than one customer to invoice on a deal. Common examples of this include:
+Multicustomer deals have more than one customer to invoice on a deal. Common examples of this type of deal include the following examples:
 
-- OEM Enterprises and their partners: Partners and resellers sell a product with some value-added services, typically involving a particular deal with a customer. The OEM offers to finance a portion of the project. 
+- OEM Enterprises and their partners: Partners and resellers sell a product with some value-added services, typically involving a particular deal with a customer. The OEM offers to finance a portion of the project.
 
-- Public sector projects: Multiple departments of a local government agree to fund a project and are invoiced according to a previously agreed split. For example, s school district and the local government agree to fund the building of a swimming pool.
+- Public sector projects: Multiple departments of a local government agree to fund a project and are invoiced according to a previously agreed split. For example, a school district and the local government agree to fund the building of a swimming pool.
 
-## Invoice Schedules
+## Invoice schedules
 
-Invoice schedules are specific to each contract line and are required for automatic invoicing to work. Invoice schedules are created based on certain start and finish dates and invoice frequency. The schedules are used in the contract stage when the automatic invoice creation process is configured. When a project contract is created from a quote, the invoice schedule is copied to the project contract from the quote.
+Each contract line requires an invoice schedule for automatic invoicing to work. Create invoice schedules based on certain start and finish dates and invoice frequency. Use the schedules in the contract stage when you configure the automatic invoice creation process. When you create a project contract from a quote, the invoice schedule is copied to the project contract from the quote.
 
 ## Changes from Dynamics 365 Sales Orders
 
-Contracts in Project Operations are built on Orders in Dynamics 365 Sales. However, there are important deviations and differences in functionality. Contracts have their own form and UI elements, business rules, business logic in plug-ins, and client-side scripts that make them unique from Orders. For these reasons, don't use a Sales order and Project Operations contract interchangeably.
-
+Project Operations contracts are built on Dynamics 365 Sales orders. However, important deviations and differences in functionality exist. Contracts have their own form and UI elements, business rules, business logic in plug-ins, and client-side scripts that make them unique from orders. For these reasons, don't use a Sales order and Project Operations contract interchangeably.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

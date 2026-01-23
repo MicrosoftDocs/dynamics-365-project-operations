@@ -2,7 +2,7 @@
 title: Set up cost and sales rates for materials
 description: This article provides information about how to set up the cost and sales rates for materials used on projects. 
 author: suvaidya
-ms.date: 04/21/2025
+ms.date: 01/23/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,7 +16,7 @@ ms.author: nshrivastava
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-You can set up cost and sales prices for products in Microsoft Dynamics 365 Project Operations. Cost and sales prices for products can only be listed in one currency, which must be the currency on the price list header.
+You can set up cost and sales prices for products in Microsoft Dynamics 365 Project Operations. You can only list cost and sales prices for products in one currency, which must be the currency on the price list header.
 
 To set up cost and sales rates for products, follow these steps: 
 
@@ -42,7 +42,7 @@ The following illustration shows a view of three products, each of which is set 
 
 ![List of products/materials and their prices when used in projects.](media/Transaction-cost-based-PM-Material.png)
 
-If each product has a transaction cost of $100, the unbilled sales actuals per unit of usage in projects are calculated in the following way.
+If each product has a transaction cost of $100, you calculate the unbilled sales actuals per unit of usage in projects as follows.
 
 | Product | Project pricing method | Markup percentage | Sales price | Currency |
 |---|---|---|---|---|
@@ -51,12 +51,12 @@ If each product has a transaction cost of $100, the unbilled sales actuals per u
 | Material at price per unit | Price per unit | | 200 | USD |
 
 > [!NOTE]
-> For material transactions, unit conversions aren't supported. For example, if a price list has a price with a unit of ea, then expenses must be expressed in ea and not bundle even if the unit group has a conversion between them. Alternatively, a price with a unit of bundle for the same item can be added to the price list.
+> For material transactions, unit conversions aren't supported. For example, if a price list has a price with a unit of **ea**, then you must express expenses in **ea** and not **bundle** even if the unit group has a conversion between them. Alternatively, you can add a price with a unit of **bundle** for the same item to the price list.
 
 For more information about how to define prices for catalog items, see [Define product pricing with price lists and price list items](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) and [Decimal precision in currency and pricing](/dynamics365/sales/decimal-precision-currency-pricing).
 
 > [!NOTE]
-> Project Operations doesn't support all the pricing methods for products that Dynamics 365 Sales supports. Originally, only the **Currency amount** pricing method could be used for projects. However, as of Project Operations release UR 30, two other pricing methods are supported. 
+> Project Operations doesn't support all the pricing methods for products that Dynamics 365 Sales supports. Originally, you could only use the **Currency amount** pricing method for projects. However, as of Project Operations release UR 30, two other pricing methods are supported. 
 
 > [!NOTE]
 > Price defaulting for expenses, based on cost [Mark up over transaction cost] is valid on project estimates, actuals, quote lines, contract line details, budget lines, and budget line details.
