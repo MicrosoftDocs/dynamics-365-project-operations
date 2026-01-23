@@ -2,7 +2,7 @@
 title: Dynamics 365 expense management mobile app FAQ
 description: This article provides answers to frequently asked questions about the Dynamics 365 expense management mobile app.
 author: mukumarm
-ms.date: 012/02/2025
+ms.date: 01/23/2026
 ms.topic: faq
 ms.custom: 
   - bap-template
@@ -16,11 +16,11 @@ ms.author: mukumarm
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations for manufacturing._
 
-This article provides answers to frequently asked questions about the Dynamics 365 expense management mobile app. It also describes known issues that affect the app and explains how to work around them.
+This article provides answers to frequently asked questions about the Dynamics 365 expense management mobile app. It also describes known problems that affect the app and explains how to work around them.
 
 ## Which versions of Microsoft Dynamics 365 Finance support the Expense management mobile app?
 
-The Expense management mobile app requires Dynamics 365 Finance version - 10.0.38 - 10.0.1777.180 or later, 10.0.39 - 10.0.1860.99 or later.
+The Expense management mobile app requires Dynamics 365 Finance version 10.0.38 - 10.0.1777.180 or later, or 10.0.39 - 10.0.1860.99 or later.
 
 ## Which platforms and mobile devices are supported?
 
@@ -38,29 +38,28 @@ Yes, the Expense management mobile app supports itemization, per diem functional
 
 No, there are no other licensing costs for the new Expense management mobile app. Its license is covered under the **Team member** license. Users who have a **Team member** license can use this app.
 
-## Does the OCR feature work with cloud hosted environments?
+## Does the OCR feature work with cloud-hosted environments?
 
 No, the OCR service works only with sandbox or production environments.
 
-## Does the Dynamics 365 expense management mobile app can be used for capturing expenses without projects?
+## Can the Dynamics 365 expense management mobile app be used for capturing expenses without projects?
 
-Yes, Dynamics 365 expense management mobile app can be used without projects.
+Yes, the Dynamics 365 expense management mobile app can be used without projects.
 
-## Why am I getting the warning "Your language preference on Dynamics 365 differs from your mobile app preference, which may cause data issues and an inconsistent experience. To ensure a seamless experience, use the same language on both platforms"?
+## Why am I getting the warning "Your language preference on Dynamics 365 differs from your mobile app preference, which might cause data problems and an inconsistent experience. To ensure a seamless experience, use the same language on both platforms"?
 
-Having different language preference settings on the Dynamics 365 web application and mobile devices can lead to data and language inconsistencies when your mobile date/time/number format is different from your web application. For example, commas and decimal points when entering numerical values can vary across geographies, and can lead to data entered in a certain format in the mobile application but interpreted and stored in another format on the web application. To avoid this issue, it's recommended you change your individual user preferences so that the language and date, time, and number format are the same on both devices.
+Different language preference settings on the Dynamics 365 web application and mobile devices can lead to data and language inconsistencies when your mobile date, time, or number format is different from your web application. For example, commas and decimal points when entering numerical values can vary across geographies. These differences can lead to data entered in a certain format in the mobile application but interpreted and stored in another format on the web application. To avoid this problem, change your individual user preferences so that the language and date, time, and number format are the same on both devices.
 
 ## Why am I unable to see my expense reports for a specific legal entity?
 
-This issue can sometimes occur when the legal entity selection is typed in instead of being selected from the drop-down. Navigate to **Settings -> User Options -> Preferences** within the Dynamics 365 web application and select the legal entity from the drop-down.
+This problem can sometimes occur when you type the legal entity selection instead of selecting it from the drop-down. Navigate to **Settings -> User Options -> Preferences** within the Dynamics 365 web application and select the legal entity from the drop-down.
 
 ## Where can I go to discuss the app with the community and submit suggestions to Microsoft?
 
-The **Mobile Experiences** channel within the [Project Operations Discussions](https://teams.microsoft.com/l/team/19%3A8a60b9a0136a4879aeb618021cdcdc91%40thread.tacv2/conversations?groupId=b781f78d-32f2-432f-b1fa-265d8259f9be&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) Microsoft Teams channel is a great place to go if you want to exchange tips, ask questions, or submit suggestions for improvement. Channel participants include Microsoft partners, customers, experts, and employees.
+If you want to exchange tips, ask questions, or submit suggestions for improvement, go to the **Mobile Experiences** channel within the [Project Operations Discussions](https://teams.microsoft.com/l/team/19%3A8a60b9a0136a4879aeb618021cdcdc91%40thread.tacv2/conversations?groupId=b781f78d-32f2-432f-b1fa-265d8259f9be&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47) Microsoft Teams channel. Channel participants include Microsoft partners, customers, experts, and employees.
 
 ## Can I customize or extend the Expense mobile app?
 
-While it is technically possible to extend or customize the Expense mobile app, we strongly recommend not doing so. Customizations or extensions are likely to break whenever the app is updated because updates often include new features, enhancements, and bug fixes that may not be compatible with your changes. This means any customizations would need to be redone after every update, adding significant maintenance overhead. Keeping your app updated ensures you always have access to the latest functionality, security improvements, and performance enhancements. Customizations can prevent you from benefiting from these updates and may lead to unexpected issues.
+While it's technically possible to extend or customize the Expense mobile app, don't do it. Customizations or extensions are likely to break whenever the app is updated because updates often include new features, enhancements, and bug fixes that might not be compatible with your changes. This incompatibility means you need to redo customizations after every update, adding significant maintenance overhead. Keeping your app updated ensures you always have access to the latest functionality, security improvements, and performance enhancements. Customizations can prevent you from benefiting from these updates and might lead to unexpected problems.
 
-
-
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

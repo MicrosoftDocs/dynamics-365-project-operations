@@ -4,7 +4,7 @@ description: This article provides information about submitting a request for a 
 ms.custom: 
   - dyn365-projectservice
   - evergreen
-ms.date: 07/07/2025
+ms.date: 01/23/2026
 ms.update-cycle: 1095-days
 ms.topic: how-to
 author: JohnPBurrows
@@ -20,16 +20,15 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-You can submit a generated resource requirement as a resource request. The request is then sent to a Resource Manager for fulfillment.
+You can submit a generated resource requirement as a resource request. The system sends the request to a Resource Manager for fulfillment.
 
-1. In Project Operations, on the **Projects** page, click the **Team** tab to view a list bookable resources. 
-2. Select the generic resource that has a resource requirement from the list and then click **Submit Request**.
+1. In Project Operations, on the **Projects** page, select the **Team** tab to view a list of bookable resources. 
+1. Select the generic resource that has a resource requirement from the list and then select **Submit Request**.
 
 ![Submitting a resource request.](media/submit-request.png)
 
 The request status of the generic team member changes to **Submitted**.
 
-After the request is fulfilled by the Resource Manager, the generic resource is replaced by a named resource if the Resource Manager fulfills the request with the booking of a named resource. Otherwise, the generic resource remains on the team and the request status changes to **Needs Review**, if the Resource Manager has proposed a named resource.
-
+If the Resource Manager fulfills the request by booking a named resource, the generic resource is replaced by the named resource. Otherwise, the generic resource remains on the team. If the Resource Manager proposes a named resource, the request status changes to **Needs Review**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
