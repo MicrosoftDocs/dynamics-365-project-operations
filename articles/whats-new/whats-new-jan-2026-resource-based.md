@@ -26,7 +26,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ## Project Operations dual-write map updates
 
-No updates for Project Operations dual-write maps in this release. For the current list of Project Operations dual-write maps and versions, see [Project Operations dual-write map versions](../environment/resource-dual-write-maps.md).
+This release doesn't include updates for Project Operations dual-write maps. For the current list of Project Operations dual-write maps and versions, see [Project Operations dual-write map versions](../environment/resource-dual-write-maps.md).
 
 Run the latest version of the map and enable all related table maps when you update your Project Operations Dataverse and Finance solutions. Some features might not work if you don't activate the latest map version. View the active map version in the **Version** column on the **dual-write** page. To activate a new version, select **Table map versions**, select the latest version, and save it. If you customized an out-of-box table map, reapply those changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
@@ -36,13 +36,13 @@ If the map doesn't start, see the [Missing table columns issue on maps](/dynamic
 
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
-| Stocked Products |**Enable stocked products usage for project operations integrated deployments** <br><br> This feature is an enhancement of the Stocked product usage in the Dynamics 365 Project operations integrated deployments. This feature allows you to reserve the inventory until Project Operations integration journal is posted in Dynamics 365 Finance for Project costs generated using Material usage or Journal. This process ensures that the inventory remains reserved and isn't consumed by other transactions such as sales orders, production orders, or material usage for other projects.|[Manage Inventory Consumption](../procurement/stock-material-reservation.md#inventory-reservations) |
-| Project Financials |**Enable beginning balances in Project Operations Integrated with ERP** <br><br> Beginning balances or opening balances, are transactions incurred outside Dynamics 365 Project Operations before you set up the project in the system. These balances typically arise in scenarios such as: Migrating from a legacy ERP system, maintaining financial records using other tools or manual processes. You can now move opening balances for projects, customers, and related financial data into Project Operations for continuity and accurate reporting. This process sets initial values for costs, revenue, work in progress (WIP), and billing.| [Manage beginning balances](../advanced-configuration/int-beginning-balances.md) |
-| Time Entry |**Support for HH:MM Duration on New Time Entry form** <br><br> The New Time Entry form now comes with a new "Duration (HH:MM)" field that allows users to enter duration more flexibly. Any update to the "Duration" field automatically populates "Duration (HH:MM)" and vice versa.| |
-| Project Management |**Outline number on assignments grid** <br><br> This enhancement displays task outline numbers in the assignment grid, enabling users to understand task hierarchy without navigating to the task grid| [Project task assignments](../project-management/create-assignments.md#navigation) |
-| Project Management |**Edit effort remaining on task grid** <br><br> Users can update remaining effort directly in the task grid, eliminating the need to navigate to the Tracking tab.| [Project task assignments](../project-management/create-assignments.md#navigation) |
-| Project Management |**Collapse or Expand all tasks** <br><br> Users can quickly expand or collapse all tasks in the task grid with one click.| [Working with project tasks](../project-management/create-wbs.md#tasks) |
-| Project Budget Management |**Flexible project budget re‑import strategy** <br><br> This enhancement provides the flexibility to choose how source lines are merged with existing budget lines during project budget re‑import. User will have option to choose the re-import strategy between - Merge with Existing Lines, Reimport source lines (Preserving manual), Full reset (Remove all lines).| [Summarize budget lines during import](../pro/budget/summarize-budgetline-during-import.md) |
+| Stocked Products |**Enable stocked products usage for project operations Integrated with ERP deployments** <br><br> This feature is an enhancement of the Stocked product usage in the Project Operations Integrated with ERP deployments. This feature lets you reserve the inventory until the Project Operations integration journal is posted in Microsoft Dynamics 365 Finance for Project costs generated using Material usage or Journal. This process ensures that the inventory remains reserved and isn't consumed by other transactions such as sales orders, production orders, or material usage for other projects.|[Manage Inventory Consumption](../procurement/stock-material-reservation.md#inventory-reservations) |
+| Project Financials |**Enable beginning balances in Project Operations Integrated with ERP** <br><br> Beginning balances or opening balances, are transactions incurred outside of Project Operations before you set up the project in the system. These balances typically arise in scenarios such as: Migrating from a legacy ERP system, maintaining financial records using other tools or manual processes. You can now move opening balances for projects, customers, and related financial data into Project Operations for continuity and accurate reporting. This process sets initial values for costs, revenue, work in progress (WIP), and billing.| [Manage beginning balances](../advanced-configuration/int-beginning-balances.md) |
+| Time Entry |**Support for HH:MM Duration on New Time Entry form** <br><br> The New Time Entry form now comes with a new "Duration (HH:MM)" field that lets you enter a duration more flexibly. Any update to the "Duration" field automatically populates "Duration (HH:MM)" and vice versa.| |
+| Project Management |**Outline number on assignments grid** <br><br> This enhancement displays task outline numbers in the assignment grid, enabling you to understand task hierarchy without navigating to the task grid| [Project task assignments](../project-management/create-assignments.md#navigation) |
+| Project Management |**Edit effort remaining on task grid** <br><br> You can update remaining effort directly in the task grid, eliminating the need to navigate to the Tracking tab.| [Project task assignments](../project-management/create-assignments.md#navigation) |
+| Project Management |**Collapse or Expand all tasks** <br><br> You can quickly expand or collapse all tasks in the task grid with one select.| [Working with project tasks](../project-management/create-wbs.md#tasks) |
+| Project Budget Management |**Flexible project budget re‑import strategy** <br><br> This enhancement provides the flexibility to choose how source lines are merged with existing budget lines during project budget re‑import. You have the option to choose the re-import strategy between - Merge with Existing Lines, Reimport source lines (Preserving manual), Full reset (Remove all lines).| [Summarize budget lines during import](../pro/budget/summarize-budgetline-during-import.md) |
 
 ## Quality updates
 
@@ -50,25 +50,25 @@ If the map doesn't start, see the [Missing table columns issue on maps](/dynamic
 
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
-|Actuals|	5805457|	Project Tracking fields (totals) do not respect billing type of actuals|
-|Approvals|	5786911|	Add validation to prevent creating Project Approvals with Null Entry Reference|
-|Billing|	5766982|	Customers should not be allowed to delete confirmed invoices|
-|Billing and Pricing|	4424625|	Relax Invoice Correction Validation to only consider Unit Group and not Units|
-|Journals|	5761825|	Contract Customer does not default as expected on Journal Lines|
-|Pricing|	5530159|	"Create custom pricing" doesn't work correctly with Role price markup|
-|Project And Resource Management|	6017133|	Project creation fails when calendar rule doesn't exist on a date|
-|Project And Resource Management|	6017865|	When a lookup column is added to the task entity, import task fails to load project|
-|Project Budgeting And Forecasting|	5994590|	Skipped validation and defaulting for irrelevant Budget Line Attributes|
-|Project Planning And Tracking|	4853288|	Newly added Time Zone Agnostic (TZA) fields were missing from the quick create forms within Project entity|
-|Project Planning And Tracking|	5574797|	Copy Project operation should detect invalid project status and fail fast if the source project is invalid|
-|Subcontracting|	4593261|	Canceled Vendor Invoices do not recreate inter-organisation actuals|
-|Subcontracting|	5621818|	Unable to approve Material Usage with Stocked Products|
-|Subcontracting|	5925197|	Error faced when revising a posted Project Invoice with select transactions|
-|Time Entry|	5804612|	Users incorrectly get a warning message when submitting 8 Hours of Vacation/Absence on a working day|
-|Time Entry|	5834568|	When end time of a Vacation type time entry exceeds working hours, the system incorrectly adds partial time off to the next working day|
-|Time Entry|	5864012|	Open in Planner button opens the wrong URL for GCCH|
-|Time Entry|	5884949|	Time Entry Calendar: Quick Create dialog fails to load on second open after creating an entry via Project search|
-|Time Entry|	5916420|	Effort reprojection by updating Effort remaining is not working as expected|
+|Actuals| 5805457| Project Tracking fields (totals) don't respect billing type of actuals.|
+|Approvals| 5786911| Add validation to prevent creating Project Approvals with Null Entry Reference.|
+|Billing| 5766982| Customers can't delete confirmed invoices.|
+|Billing and Pricing| 4424625| Relax Invoice Correction Validation to only consider Unit Group and not Units.|
+|Journals| 5761825| Contract Customer doesn't default as expected on Journal Lines.|
+|Pricing| 5530159| "Create custom pricing" doesn't work correctly with Role price markup.|
+|Project And Resource Management| 6017133| Project creation fails when calendar rule doesn't exist on a date.|
+|Project And Resource Management| 6017865| When a lookup column is added to the task entity, import task fails to load project.|
+|Project Budgeting And Forecasting| 5994590| Skipped validation and defaulting for irrelevant Budget Line Attributes.|
+|Project Planning And Tracking| 4853288| Newly added Time Zone Agnostic (TZA) fields were missing from the quick create forms within Project entity.|
+|Project Planning And Tracking| 5574797| Copy Project operation should detect invalid project status and fail fast if the source project is invalid.|
+|Subcontracting| 4593261| Canceled Vendor Invoices don't recreate inter-organisation actuals.|
+|Subcontracting| 5621818| Unable to approve Material Usage with Stocked Products.|
+|Subcontracting| 5925197| Error faced when revising a posted Project Invoice with select transactions.|
+|Time Entry| 5804612| You incorrectly get a warning message when submitting eight Hours of Vacation/Absence on a working day.|
+|Time Entry| 5834568| When end time of a Vacation type time entry exceeds working hours, the system incorrectly adds partial time off to the next working day.|
+|Time Entry| 5864012| Open in Planner button opens the wrong URL for GCCH.|
+|Time Entry| 5884949| Time Entry Calendar: Quick Create dialog fails to load on second open after creating an entry via Project search.|
+|Time Entry| 5916420| Effort reprojection by updating Effort remaining isn't working as expected.|
 
 ### Project management and accounting in Finance
 
