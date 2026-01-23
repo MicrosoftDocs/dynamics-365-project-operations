@@ -16,15 +16,15 @@ search.audienceType:
   - enduser
 ms.reviewer: johnmichalak
 ---
-# Basic guide to quoting, pricing and billing
+# Basic guide to quoting, pricing, and billing
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-The ability to find the right resources at the right time, book those resources on projects, and keep resources utilized helps organizations meet revenue targets and customer satisfaction goals.
+Finding the right resources at the right time, booking those resources on projects, and keeping resources utilized helps your organization meet revenue targets and customer satisfaction goals.
 
-The PDF link that was previously in this article has been removed and the content has been moved to the following articles:
+The PDF link that was previously in this article is removed. The content is moved to the following articles:
 
 - [Quoting, pricing, and billing](../quote-bill-price.md)
 - [Sales processes](../basic-sales-process.md)
