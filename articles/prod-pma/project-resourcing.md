@@ -2,7 +2,7 @@
 title: Project resourcing home page
 description: This article provides information about project resourcing.
 author: tulsij
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ms.date: 05/28/2024
 ms.topic: article
 ms.custom: 

@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: nshrivastava
 ---
 
 # Customize the Billing hub view for creating project-based proforma invoices

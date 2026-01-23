@@ -2,7 +2,7 @@
 title: Reporting home page
 description: This article provides information about reporting in Dynamics 365 Project Service Automation.
 author: tulsij
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ms.custom: 
   - dyn365-projectservice
   - bap-template

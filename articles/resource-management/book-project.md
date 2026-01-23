@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ---
 
 # Book to a project

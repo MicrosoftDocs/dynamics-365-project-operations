@@ -10,7 +10,7 @@ ms.custom:
   - copilot-learning-hub
 ms.topic: faq
 author: alexeiantao
-ms.author: alexeiantao
+ms.author: ajitchandran
 ms.reviewer: johnmichalak
 ---
 

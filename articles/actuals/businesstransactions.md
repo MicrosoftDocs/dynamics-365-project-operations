@@ -7,7 +7,7 @@ ms.topic: overview
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: nshrivastava
 
 ---
 

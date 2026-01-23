@@ -9,7 +9,7 @@ ms.custom:
 ms.reviewer: johnmichalak
 ms.search.scope: Core, Operations
 ms.search.region: India
-ms.author: kfend
+ms.author: johnmichalak
 ms.search.validFrom: 2023-05-25
 ms.dyn365.ops.version: 10.0.35
 ---

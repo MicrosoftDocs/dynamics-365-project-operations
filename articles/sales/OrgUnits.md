@@ -2,7 +2,7 @@
 title: Organizational units
 description: This article describes the concept of organizational units, and explains how to create and maintain organizational units in Microsoft Dynamics 365 Project Operations.
 author: suvaidya
-ms.author: suvaidya
+ms.author: nshrivastava
 ms.date: 06/10/2024
 ms.topic: article
 ms.custom: 

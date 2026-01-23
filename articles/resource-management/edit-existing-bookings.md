@@ -2,7 +2,7 @@
 title: Edit bookings
 description: This article provides information about how to update and make changes to bookings. 
 author: tulsij
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ms.date: 05/28/2024
 ms.topic: article
 ms.custom: 

@@ -7,7 +7,7 @@ ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: nshrivastava
 ---
 
 # Transaction origins - Link actuals to their source

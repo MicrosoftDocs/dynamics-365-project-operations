@@ -2,7 +2,7 @@
 title: Project estimates and actuals integration
 description: This article provides information about Project Operations dual-write integration for project estimates and actuals.
 author: suvaidya
-ms.author: suvaidya
+ms.author: nshrivastava
 ms.date: 06/10/2024
 ms.topic: article
 ms.custom: 

@@ -2,7 +2,7 @@
 title: Create a project team
 description: This article provides information about how to create and manage project teams.
 author: tulsij
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ms.date: 05/28/2024
 ms.topic: how-to
 ms.custom: 

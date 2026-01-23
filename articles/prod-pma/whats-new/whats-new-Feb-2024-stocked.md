@@ -5,7 +5,7 @@ author: tulsijhaveri
 ms.date: 2/20/2024
 ms.topic: whats-new
 ms.reviewer: johnmichalak
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ---
 
 # What's new changed in Project Operations, February 2024 for Project Operations for manufacturing

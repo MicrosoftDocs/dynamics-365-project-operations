@@ -9,7 +9,7 @@ ms.date: 07/07/2025
 ms.update-cycle: 1095-days
 ms.topic: whats-new
 ms.reviewer: johnmichalak 
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ---
 
 # What's new November 2023 - Project Operations Core

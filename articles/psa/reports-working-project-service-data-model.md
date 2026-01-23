@@ -2,7 +2,7 @@
 title: Working with the Project Service Automation data model
 description: This article provides information about how to work with the data model.
 author: tulsij
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ms.custom: 
   - dyn365-projectservice
   - bap-template

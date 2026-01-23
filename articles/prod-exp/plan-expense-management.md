@@ -13,7 +13,7 @@ audience: Application User
 ms.reviewer: johnmichalak
 ms.assetid: aa3fd14d-7e94-4603-985f-ca26d6f860ea
 ms.search.region: Global
-ms.author: suvaidya
+ms.author: nshrivastava
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 

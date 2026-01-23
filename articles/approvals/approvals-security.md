@@ -24,7 +24,7 @@ In order to approve project time, expense, and material entries linked to a proj
 
 ## Approving time, material, and expense entries linked to projects
 
-To approve nonproject entries, the approving user must be the [manager](/dynamics365/customerengagement/on-premises/developer/entities/systemuser?view=op-9-1#BKMK_ParentSystemUserId) of the submitter.
+To approve nonproject entries, the approving user must be the [manager](/dynamics365/customerengagement/on-premises/developer/entities/systemuser?view=op-9-1#BKMK_ParentSystemUserId&preserve-view=true) of the submitter.
 
 ## Project Approver Admin
 

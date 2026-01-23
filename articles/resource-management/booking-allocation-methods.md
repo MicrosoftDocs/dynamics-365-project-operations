@@ -2,7 +2,7 @@
 title: Booking allocation methods
 description: This article provides information about how booking allocation methods work in Project Operations.
 author: tulsij
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ms.date: 05/28/2024
 ms.topic: concept-article
 ms.custom: 

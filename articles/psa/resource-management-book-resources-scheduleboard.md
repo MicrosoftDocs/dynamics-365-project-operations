@@ -2,7 +2,7 @@
 title: Use the Schedule Board to book project resources
 description: This article provides information about how to book resources.
 author: tulsij
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ms.custom: 
   - dyn365-projectservice
   - bap-template

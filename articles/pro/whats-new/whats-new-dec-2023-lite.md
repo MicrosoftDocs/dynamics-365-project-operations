@@ -9,7 +9,7 @@ ms.custom:
   - bap-template
   - evergreen
 ms.reviewer: johnmichalak 
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ---
 
 # What's new December 2023 - Project Operations Core

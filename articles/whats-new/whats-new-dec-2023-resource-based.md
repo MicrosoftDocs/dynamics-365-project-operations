@@ -9,7 +9,7 @@ ms.custom:
 ms.date: 07/07/2025
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak 
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ---
 
 # What's new December 2023 - Project Operations Integrated with ERP

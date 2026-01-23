@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.custom: 
 - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: nshrivastava
 ---
 
 # Update invoice line details on a draft project-based proforma invoice

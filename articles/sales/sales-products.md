@@ -2,7 +2,7 @@
 title: Products
 description: This article provides information about the product catalog that you can use to provide information to customers about the products and pricing your organization offers.
 author: mukumarm
-ms.author: suvaidya
+ms.author: nshrivastava
 ms.date: 05/24/2024
 ms.topic: how-to
 ms.custom: 

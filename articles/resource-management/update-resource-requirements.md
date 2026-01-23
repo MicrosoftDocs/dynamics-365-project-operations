@@ -2,7 +2,7 @@
 title: Edit a resource requirement
 description: This article provides information about updating resource requirement information.
 author: tulsij
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ms.date: 05/28/2024
 ms.topic: how-to
 ms.custom: 

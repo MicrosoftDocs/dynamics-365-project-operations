@@ -2,7 +2,7 @@
 title: Dynamics 365 expense management mobile app FAQ
 description: This article provides answers to frequently asked questions about the Dynamics 365 expense management mobile app.
 author: mukumarm
-ms.date: 012/02/2025
+ms.date: 01/23/2026
 ms.topic: faq
 ms.custom: 
   - bap-template
