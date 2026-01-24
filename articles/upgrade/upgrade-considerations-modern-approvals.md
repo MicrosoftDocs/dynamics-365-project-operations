@@ -2,21 +2,21 @@
 title: Upgrade considerations for Modern Approvals
 description: The article covers the points that administrators should consider when they enable Modern Approvals functionality.
 author: suvaidya
-ms.date: 06/10/2024
+ms.date: 01/23/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: nshrivastava
 ---
 
-# Upgrade considerations for Modern Approvals 
+# Upgrade considerations for Modern Approvals
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-As part of the April 2022 Wave 1 Release, the Modern Approvals functionality is enabled by default. This functionality improves the reliability of the approval logic and ensures that you can determine the reason if the approval logic fails.
+As part of the April 2022 Wave 1 Release, Microsoft enables the Modern Approvals functionality by default. This functionality improves the reliability of the approval logic and ensures that you can determine the reason if the approval logic fails.
 
-As part of this change, status changes for project approvals are updated. The status now goes directly from **Submitted** to **Approved**. **Pending** is no longer a status for approvals. To determine whether an approval is pending, verify that the approval is part of an approval set, and the review the state of the attached approval set.
+As part of this change, the system updates status changes for project approvals. The status now goes directly from **Submitted** to **Approved**. **Pending** is no longer a status for approvals. To determine whether an approval is pending, verify that the approval is part of an approval set, and then review the state of the attached approval set.
 
 ## Before you upgrade
 
@@ -24,10 +24,10 @@ Before you upgrade to Modern Approvals, make sure that you have no pending appro
 
 ## After you upgrade
 
-After you upgrade to Modern Approvals, an administrator must validate that the cloud flow that processes approvals has been enabled.
+After you upgrade to Modern Approvals, an administrator must validate that the cloud flow that processes approvals is enabled.
 
-1. Sign in to [flow.microsoft.com](https://flow.microsoft.com)
-1. In the upper right of the page, switch your environment to the environment that you've upgraded.
+1. Sign in to [flow.microsoft.com](https://flow.microsoft.com).
+1. In the upper right of the page, switch your environment to the environment that you upgraded.
 1. Select **Solutions** to list the solutions that are installed in the environment.
 1. In the solution list, select **Project Operations** or **Project Service**.
 1. Change the filter from **All** to **Cloud Flows**.
@@ -37,6 +37,7 @@ After you upgrade to Modern Approvals, an administrator must validate that the c
 ## Short-term rollback
 
 If you can't uptake the changes, or if you encounter a severe issue with this feature, you can temporarily revert to the original approval flow by performing the following steps:
+
 1. Sign-in to your environment and verify that there are no pending approvals.
 1. Go to **Settings** > **Project Parameters**.
 1. Select **Feature Control** and then select **Modern Approvals** to turn off feature.
@@ -54,6 +55,5 @@ To resubmit in-flight approvals after the Administrator has enabled Modern Appro
 1. The Resource who submitted the time entry, should recall the time entry. Recalling the time entry removes any **Pending** approvals and the system changes them back to a pre-submission state.
 1. The Resource should submit the entry again. This creates a new approval using Modern Approvals and an associated Approval Set.
 1. The Approver is able to approve the entries from grid using Modern Approval.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

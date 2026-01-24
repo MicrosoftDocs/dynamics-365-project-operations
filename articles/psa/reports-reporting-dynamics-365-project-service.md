@@ -2,12 +2,12 @@
 title: Reporting home page
 description: This article provides information about reporting in Dynamics 365 Project Service Automation.
 author: tulsij
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ms.custom: 
   - dyn365-projectservice
   - bap-template
   - evergreen
-ms.date: 07/07/2025
+ms.date: 01/23/2026
 ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.reviewer: johnmichalak
@@ -19,11 +19,11 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Microsoft Dynamics 365 Project Service Automation lets project-based organizations efficiently manage the operations of their business. On any project, team members must manage the opportunity, quote and plan the work, resource the projects, manage the work according to the plan, bill for the work, and then do the work to complete the project. The ability to report on operations is key to determining the health of the organization and taking any corrective action that's required. PSA uses Microsoft Dynamics 365 reporting methods and technologies for all its reporting. For more information about the options for reporting, see the [Report writing guide for Dynamics 365 Customer Engagement (on-premises), version 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
+Microsoft Dynamics 365 Project Service Automation helps project-based organizations efficiently manage the operations of their business. On any project, team members must manage the opportunity, quote and plan the work, resource the projects, manage the work according to the plan, bill for the work, and then do the work to complete the project. The ability to report on operations is key to determining the health of the organization and taking any corrective action that's required. PSA uses Microsoft Dynamics 365 reporting methods and technologies for all its reporting. For more information about the options for reporting, see the [Report writing guide for Dynamics 365 Customer Engagement (on-premises), version 9](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365).
 
 ## Report Wizard
 
-The Report Wizard lets non-developers create simple reports. Because the app is built on an existing platform, the experience is the same as the experience that is documented in [Create or edit a report using the Report Wizard](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). However, you will use the Project Service Automation-specific entities.
+The Report Wizard lets non-developers create simple reports. Because the app is built on an existing platform, the experience is the same as the experience that's documented in [Create or edit a report using the Report Wizard](/dynamics365/customerengagement/on-premises/basics/create-edit-copy-report-wizard). However, you use the Project Service Automation-specific entities.
 
 ## Custom SQL Server Reporting Services reports
 
@@ -33,13 +33,11 @@ If your business requires a specific report that can't be created by using the R
 
 Together, Microsoft Power BI and Dynamics 365 give you a powerful way to work with your data, in the form of insights apps. For information about the availability of insights apps, see the [Power BI insights apps page](https://powerbi.microsoft.com/power-bi-insights-apps/).
 
-
 ## Additional resources
+
 For more information about reporting in PSA, see the following articles:
 
 - [Working with the Project Service data model](reports-working-project-service-data-model.md)
 - [Dashboards](reports-dashboards.md)
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

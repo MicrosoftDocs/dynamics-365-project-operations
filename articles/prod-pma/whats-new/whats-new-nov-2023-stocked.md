@@ -4,11 +4,11 @@ description: This article provides information about the quality updates that ar
 author: tulsijhaveri
 ms.custom:
   - evergreen
-ms.date: 07/07/2025
+ms.date: 01/23/2026
 ms.update-cycle: 1095-days
 ms.topic: whats-new
 ms.reviewer: johnmichalak
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ---
 
 # What's new or changed in Project Operations, November 2023 for Project Operations for manufacturing

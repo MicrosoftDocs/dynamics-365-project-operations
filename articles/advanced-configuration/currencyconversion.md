@@ -2,12 +2,12 @@
 title: Set up currency conversion to calculate sales prices from cost rates
 description: This article explains how to configure the currency conversion behavior that will be used in Microsoft Dynamics 365 Project Operations when sales transactions are generated from cost transactions.
 author: suvaidya
-ms.date: 06/10/2024
+ms.date: 01/23/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: nshrivastava
 ---
 
 # Set up currency conversion to calculate sales prices from cost rates
@@ -16,18 +16,18 @@ ms.author: suvaidya
 
 _**Applies To:** Project Operations Integrated with ERP_
 
-In Microsoft Dynamics 365 Project Operations, sales prices for expense categories can be set up as numeric values, or they can be set up so that they're calculated based on the cost that's incurred.
+In Microsoft Dynamics 365 Project Operations, you can set up sales prices for expense categories as numeric values. Or, you can set up sales prices so that they're calculated based on the cost that's incurred.
 
-When they're set up to be calculated based on the incurred cost, the following options are available:
+When you set up sales prices to be calculated based on the incurred cost, you can choose from the following options:
 
 - At cost
 - Mark up percentage over cost
 
-In scenarios where the expense cost is incurred in a currency that differs from the sales currency for the project contract, currency conversion is required to calculate the sales price based on the cost.
+If the expense cost is in a different currency than the sales currency for the project contract, you need to convert the currency to calculate the sales price based on the cost.
 
 ## Currency conversion behavior that uses native Dataverse exchange rates
 
-By default, Project Operations uses the currency exchange rates that's stored in the Currency table in Dataverse. To configure Project Operations to use native exchange rates to calculate sales prices from cost, follow these steps:
+By default, Project Operations uses the currency exchange rates stored in the Currency table in Dataverse. To configure Project Operations to use native exchange rates to calculate sales prices from cost, follow these steps:
 
 1. Go to **Project Operations \> Settings \> Parameters**.
 1. Open the **Project Parameter** details page.
@@ -35,7 +35,7 @@ By default, Project Operations uses the currency exchange rates that's stored in
 
 ## Currency conversion behavior that uses exchange rates from finance and operations apps
 
-The exchange rates in the Currency table that's natively available in Dataverse aren't date effective. Therefore, they might not always be scaled to the requirements that you have for the calculation of sales prices from cost rates.
+The exchange rates in the Currency table that's natively available in Dataverse aren't date effective. Therefore, they might not always meet your requirements for the calculation of sales prices from cost rates.
 
 You can use exchange rates from the finance and operations environment to calculate the sales price in the sales currency from a cost rate in the cost currency. To configure this currency conversion behavior, follow these steps:
 
@@ -55,9 +55,9 @@ You can use exchange rates from the finance and operations environment to calcul
     - Exchange rate currency pair (msdyn\_currencyexchangeratepairs)
     - CDS Exchange Rates (msdyn\_currencyexchangerates)
 
-After these changes are completed, dual-write will make the exchange rates from the finance and operations environment available in Dataverse. Project Operations will then use those exchange rates to convert cost rates into the contract's sales currency.
+After you complete these changes, dual-write makes the exchange rates from the finance and operations environment available in Dataverse. Project Operations then uses those exchange rates to convert cost rates into the contract's sales currency.
 
 > [!NOTE]
-> This currency conversion behavior applies only to the calculation of sales prices from cost rates. It won't be used to generically calculate base currency values. Base currency values will always use native Dataverse exchange rates, regardless of whether you complete this procedure.
+> This currency conversion behavior applies only to the calculation of sales prices from cost rates. It isn't used to generically calculate base currency values. Base currency values always use native Dataverse exchange rates, regardless of whether you complete this procedure.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

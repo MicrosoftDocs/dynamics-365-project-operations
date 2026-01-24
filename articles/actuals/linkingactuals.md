@@ -2,12 +2,12 @@
 title: Transaction origins - Link actuals to their source
 description: This article explains how the concept of transaction origins is used to link actuals to original source records, such as time entry, expense entry, or material usage logs.
 author: suvaidya
-ms.date: 06/10/2024
+ms.date: 01/23/2026
 ms.topic: article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: nshrivastava
 ---
 
 # Transaction origins - Link actuals to their source
@@ -20,12 +20,12 @@ Transaction origin records are created to link actuals to their source, such tim
 
 The following example shows the typical processing of time entries in a Project Operations project lifecycle.
 
-> ![Processing time entires in Project Operations.](media/basic-guide-17.png)
- 
+:::image type="content" source="media/basic-guide-17.png" alt-text="Screenshot of processing time entries in Project Operations.":::
+
 1. Submission of a time entry causes two journal lines to be created: one for cost and one for unbilled sales.
-2. Eventual approval of the time entry causes two actuals to be created: one for cost and one for unbilled sales.
-3. When the user creates a project invoice, the invoice line transaction is created by using data from the unbilled sales actual.
-4. When the invoice is confirmed, two new actuals are created: an unbilled sales reversal and a billed sales actual.
+1. Eventual approval of the time entry causes two actuals to be created: one for cost and one for unbilled sales.
+1. When the user creates a project invoice, the invoice line transaction is created by using data from the unbilled sales actual.
+1. When the invoice is confirmed, two new actuals are created: an unbilled sales reversal and a billed sales actual.
 
 Each event in this processing workflow triggers the creation of records in the Transaction origin entity to help build a trace of the relationships between these records that are created across time entry, journal line, actual, and invoice line details.
 
@@ -67,9 +67,8 @@ The following table shows the records in the Transaction origin entity for the p
 | Correction IL GUID           | Invoice Line             | New Unbilled Sales Actual GUID    | Actual                            |                          |
 | Correction Invoice GUID      | Invoice                  | New Unbilled Sales Actual GUID    | Actual                            |                          |
 
-
 The following illustration shows the links that are created between actuals and their sources at various events using the example of time entries in Project Operations.
 
-> ![How actuals are linked to source records in Project Operations.](media/TransactionOrigins.png)
+:::image type="content" source="media/TransactionOrigins.png" alt-text="Screenshot of how actuals are linked to source records in Project Operations.":::
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

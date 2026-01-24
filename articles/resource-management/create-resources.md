@@ -2,8 +2,8 @@
 title: Create bookable resources
 description: This article explains how to create bookable resources.
 author: tulsij
-ms.author: tulsijhaveri
-ms.date: 05/20/2024
+ms.author: dishantpopli
+ms.date: 01/23/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template

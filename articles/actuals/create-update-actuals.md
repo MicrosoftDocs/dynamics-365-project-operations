@@ -2,12 +2,12 @@
 title: Create or update actuals
 description: Learn how to create or update actuals in Microsoft Dynamics 365 Project Operations.
 author: suvaidya
-ms.date: 02/28/2025
+ms.date: 01/23/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: nshrivastava
 ---
 
 # Create or update actuals
@@ -16,7 +16,7 @@ ms.author: suvaidya
 
 _**Applies to:** Project Operations Integrated with ERP, Project Operations Core_
 
-As of Update Release (UR) 55, a back-end validation allows actuals to be created or updated only if a supported method is used, as described in this article.
+Starting with Update Release (UR) 55, a back-end validation process permits creating or updating actuals only through supported methods described in this article.
 
 If you try to use an unsupported method to create actuals, you might receive the following error message:
 
@@ -48,7 +48,7 @@ You can update existing actuals by selecting the **Correct entries** option in t
 
 ## Supported fields
 
-The following table lists the out-of-box fields that can be updated on actuals. It also shows the allowed correction method for each field.
+The following table lists the out-of-the-box fields that you can update on actuals. It also shows the allowed correction method for each field.
 
 | Field | Allowed correction method |
 |---|---| 

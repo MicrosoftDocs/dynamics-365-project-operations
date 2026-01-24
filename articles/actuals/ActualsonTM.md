@@ -8,7 +8,7 @@ ms.custom:
   - bap-template
 audience: Application User
 ms.reviewer: johnmichalak
-ms.author: suvaidya
+ms.author: nshrivastava
 
 ---
 
