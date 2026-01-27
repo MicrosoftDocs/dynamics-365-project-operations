@@ -71,13 +71,13 @@ Note: All screens shown are for indicative purposes and might differ from actual
 1.	The last step is to update the environment variables.<br>
   1.1 Enter the folder path from the shared mailbox (Enter Inbox if none created) and, <br>
   1.2 The shared mailbox email address. Refer to the [parameter table](https://learn.microsoft.com/en-us/dynamics365/project-operations/expense/expense-agent-setup#information-you-need-to-create-the-installation-file) for details.
-1.	Click on **Update environment details** to save and then Next to complete the setup of the Expense Agent.
-
+  	
    :::image type="content" source="media/Update environment variables.png" alt-text="Screenshot of updating the environment variable for the agent":::
-
-
-
-
+   
+1.	Click on **Update environment details** to save and then Next to complete the setup of the Expense Agent.
+   
+   :::image type="content" source="media/Setup completed.png" alt-text="Screenshot of successful deployment of expense agent":::
+   
 ## Related Information
 
 - [Expense Agent overview](/dynamics365/project-operations/expense/expense-agent-setup)
