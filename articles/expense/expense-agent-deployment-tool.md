@@ -39,28 +39,29 @@ It is recommended to go through the pre-requisites before running the wizard. Yo
 ##Steps to setup Expense Agent
 Note: All screens shown are for indicative purposes and might differ from actual screens due to updated features or options.
 
-1. Login to Power Platform Admin Center using the created Expense Agent user (Recommended) – https://admin.powerplatform.com
-1. Navigate to Copilot > Dynamics 365, where you'll see all available agents.
-1. Click Select Environment and choose the target environment for Expense Agent setup.
-1. Click the Add button next to Expense Agent to launch the wizard.
+1. Login to [Power Platform Admin Center](https://admin.powerplatform.com) using an **Admin User**(Recommended) or goto [Agent Deployment Tool](https://aka.ms/InstallD365Agents)
+1. Navigate to **Copilot** > **Dynamics 365**, where you'll see all available agents.
+1. Click **Select Environment** and choose the target environment for Expense Agent setup.
+1. Click the **Add** button next to Expense Agent to launch the wizard.
 :::image type="content" source="media/Agent Deployment tool in PPAC.png" alt-text="Screenshot of the Agent deployment tool in PPAC":::
-1. On the Overview page, review the high-level steps required to set up the Expense Agent (optional but recommended). Then click Next.
+1. On the Overview page, review the high-level steps required to set up the Expense Agent (optional but recommended). Then click **Next**.
 1. Check all pre-requisites before proceeding. Ensuring they are met will help have a smooth setup experience.
-1.1 Finance and operations environment: You need at least version 10.0.44 (10.0.2263.167 and later) or 10.0.45 (10.0.2345.102 and later) or 10.0.46 (10.0.2428.69) of the finance and operations environment to install the agent.
+1.1 **Finance and operations environment:** You need at least version 10.0.44 (10.0.2263.167 and later) or 10.0.45 (10.0.2345.102 and later) or 10.0.46 (10.0.2428.69) of the finance and operations environment to install the agent.
 1.2 Enable Copilot in Power Platform admin center: 
 1.3 Enable Copilot Studio message consumption and billing: The link would take you to the PPAC where consumption and billing can be set.
-1.4 Refresh virtual entities (optional but recommended for Expense Agent): Though optional, refreshing virtual entities before the next steps is highly recommended. Expect this to take around 10 minutes. If you see a "completed with errors" message, retry by clicking Refresh until you get "Refresh completed successfully."
-1. On click of Next, select the Expense Agent user ID that is already created
-1. [Assign the needed licenses, roles to the Expense Agent](https://learn.microsoft.com/en-us/dynamics365/project-operations/expense/expense-agent-setup#step-3-create-an-expense-agent-user-for-agent-execution) and click Next
+1.4 Refresh virtual entities (optional but recommended for Expense Agent): Though optional, refreshing virtual entities before the next steps is highly recommended. Expect this to take around 10 minutes. If you see a "completed with errors" message, retry by clicking **Refresh** until you get "Refresh completed successfully."
+1. On click of **Next**, select the **Expense Agent user ID** that is already created
+1. [Assign the needed licenses, roles to the Expense Agent](https://learn.microsoft.com/en-us/dynamics365/project-operations/expense/expense-agent-setup#step-3-create-an-expense-agent-user-for-agent-execution) and click **Next**
 1. Create connections and activate flows: Click the + button beside each connection, select Create, pick the Expense Agent user account, and allow access. Repeat for all connections.
 > [!NOTE] Create connections using the Expense Agent user only. 
-1. Once done, click Add connections to the agent. On successful connection, you get Agent Connected. 
-1. The next step is to activate flows—click Activate flows. 
-If any flows fail to activate, retry by clicking Activate flows again. 
-If there are any errors while activating the flows, retry by clicking Activate flows
-1. Click Next once all flows are activated
-1.	The last steps is to update the environment variables. Enter the folder path from the shared mailbox (Enter Inbox if none created) and the shared mailbox email address. Refer to the parameter table for details.
-1.	Click on update environment details to save and then Next to complete the setup of the Expense Agent.
+1. Once done, click **Add connections** to the agent. On successful connection, you get Agent Connected. 
+1. The next step is to activate flows—click **Activate flows.** 
+If there are any errors while activating the flows, retry by clicking **Activate flows**
+1. Click **Next** once all flows are activated
+1.	The last step is to update the environment variables.<br>
+  1.1 Enter the folder path from the shared mailbox (Enter Inbox if none created) and, <br>
+  1.2 The shared mailbox email address. Refer to the [parameter table](https://learn.microsoft.com/en-us/dynamics365/project-operations/expense/expense-agent-setup#information-you-need-to-create-the-installation-file) for details.
+1.	Click on **Update environment details** to save and then Next to complete the setup of the Expense Agent.
 
 
 
