@@ -55,10 +55,12 @@ Note: All screens shown are for indicative purposes and might differ from actual
 1. On click of **Next**, select the **Expense Agent user ID** that is already created
 1. [Assign the needed licenses, roles to the Expense Agent](https://learn.microsoft.com/en-us/dynamics365/project-operations/expense/expense-agent-setup#step-3-create-an-expense-agent-user-for-agent-execution) and click **Next**
 1. Create connections and activate flows: Click the + button beside each connection, select Create, pick the Expense Agent user account, and allow access. Repeat for all connections.
-> [!NOTE] Create connections using the Expense Agent user only. 
+   > [!NOTE] Create connections using the **Expense Agent user only.**
+
+   :::image type="content" source="media/Connect the agent.png" alt-text="Screenshot of the step to create connections and activate flows":::
+
 1. Once done, click **Add connections** to the agent. On successful connection, you get Agent Connected. 
-1. The next step is to activate flows—click **Activate flows.** 
-If there are any errors while activating the flows, retry by clicking **Activate flows**
+1. The next step is to activate flows—click **Activate flows.** If there are any errors while activating the flows, retry by clicking **Activate flows**
 1. Click **Next** once all flows are activated
 1.	The last step is to update the environment variables.<br>
   1.1 Enter the folder path from the shared mailbox (Enter Inbox if none created) and, <br>
