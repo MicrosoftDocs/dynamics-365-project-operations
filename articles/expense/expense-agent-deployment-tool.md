@@ -43,7 +43,9 @@ Note: All screens shown are for indicative purposes and might differ from actual
 1. Navigate to **Copilot** > **Dynamics 365**, where you'll see all available agents.
 1. Click **Select Environment** and choose the target environment for Expense Agent setup.
 1. Click the **Add** button next to Expense Agent to launch the wizard.
-:::image type="content" source="media/Agent Deployment tool in PPAC.png" alt-text="Screenshot of the Agent deployment tool in PPAC":::
+
+   :::image type="content" source="media/Agent Deployment tool in PPAC.png" alt-text="Screenshot of the Agent deployment tool in PPAC":::
+
 1. On the Overview page, review the high-level steps required to set up the Expense Agent (optional but recommended). Then click **Next**.
 1. Check all pre-requisites before proceeding. Ensuring they are met will help have a smooth setup experience.
 1.1 **Finance and operations environment:** You need at least version 10.0.44 (10.0.2263.167 and later) or 10.0.45 (10.0.2345.102 and later) or 10.0.46 (10.0.2428.69) of the finance and operations environment to install the agent.
