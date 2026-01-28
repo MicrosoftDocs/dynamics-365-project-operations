@@ -1,9 +1,9 @@
 ---
-title: Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios
+title: Sign up for Project Operations preview subscriptions for Project Operations Integrated with ERP scenarios
 description: This article provides information about how to subscribe to and deploy Project Operations Integrated with ERP.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 05/22/2024
+ms.date: 01/28/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Sign up for Project Operations preview subscriptions for resource/ non-stocked scenarios
+# Sign up for Project Operations preview subscriptions for Project Operations Integrated with ERP scenarios
 
 [!INCLUDE[banner](../includes/banner.md)]
 
