@@ -17,26 +17,24 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP_
 
-
-
 This article explains how to subscribe to the trial offer and deploy Project Operations environment for Project Operations Integrated with ERP based scenarios.
 
 ## Prerequisites
-- The user who deploys the preview must have tenant administrator rights. You can create a tenant during the first offer redemption. 
+
+- The user who deploys the preview must have tenant administrator rights. You can create a tenant during the first offer redemption.
 - Deploying a Finance environment requires a valid Azure subscription that will be billed per environment. You can use your organizations existing subscription or use an [Azure trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn) to get started. The CDS environment will be provided free for a limited 30 day period.
 
 > [!IMPORTANT]
 > Only one person, the tenant administrator, in an organization needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
-> 
+>
 > Trials are single use in the tenant. You can only run a trial one time. We recommend that you create a new tenant for the purpose of the trial.
 
-
-### Dynamics 365 Project Operations (CE) - Preview Trial 
+### Dynamics 365 Project Operations (CE) - Preview Trial
 
 Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.
 
 1. Redeem the first offer code, **Dynamics 365 Project Operations** here [Project Operations Trial](https://aka.ms/try-po).
-2. Confirm your order.
+1. Confirm your order.
 
   You will see confirmation offer was successfully redeemed.
 
@@ -58,22 +56,21 @@ Go to [Dynamics 365 for Finance Preview Trial](https://aka.ms/trypoche) and repe
 > [!NOTE]
 > The Finance trial offer does not need to be assigned to a user.
 
-## Start a new project in LCS
+## Start a new project in Lifecycle Services
 
-Create a new LCS project as described in the article, [Start a new project in LCS](create-lcs-project.md)
+Create a new Lifecycle Services project as described in the article, [Start a new project in Lifecycle Services](create-lcs-project.md)
 
-## Add an Azure subscription to an LCS project
+## Add an Azure subscription to an Lifecycle Services project
 
-To complete this task, follow the steps in the article, [Add an Azure subscription to LCS project](resource-add-azure-subscription-lcs-project.md).
+To complete this task, follow the steps in the article, [Add an Azure subscription to Lifecycle Services project](resource-add-azure-subscription-lcs-project.md).
 
 ## Deploy Finance demo environment with Project Operations Integrated with ERP scenarios
 
-Follow the guidance in the article, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment. Use the [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview. 
+Follow the guidance in the article, [Provision a new environment](resource-provision-new-environment.md) to complete the deployment. Use the [demo environment](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) deployment type for preview.
 
 ## Install CDS setup and configuration data
 
 Install CDS setup and configuration data as described in the article, [Set up and apply configuration data in the Common Data Service](resource-apply-pro-setup-config-data.md).
 Complete this step only after Finance demo environment is deployed and demo data is ready.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

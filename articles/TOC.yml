@@ -1280,9 +1280,9 @@
       href: environment/navigate-project-operations.md
     - name: Configure prerequisites
       items: 
-      - name: Start a new LCS project
+      - name: Start a new Lifecycle Services project
         href: environment/create-lcs-project.md
-      - name: Add an Azure subscription to an LCS project
+      - name: Add an Azure subscription to a Lifecycle Services project
         href: environment/resource-add-azure-subscription-lcs-project.md 
     - name: Apply demo data
       items:
