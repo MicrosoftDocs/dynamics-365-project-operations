@@ -1912,6 +1912,8 @@
       items:
       - name: Expense Agent overview
         href: expense/expense-agent-overview.md
+      - name: Expense Agent Deployment tool
+        href: expense/expense-agent-deployment-tool.md
       - name: Installation and Setup of the Expense Agent
         href: expense/expense-agent-setup.md
       - name: Expense Agent parameters and configuration
@@ -2380,6 +2382,8 @@
       items:
       - name: Expense Agent overview
         href: expense/expense-agent-overview.md
+      - name: Expense Agent Deployment tool
+        href: expense/expense-agent-deployment-tool.md
       - name: Installation and Setup of the Expense Agent
         href: expense/expense-agent-setup.md
       - name: Expense Agent parameters and configuration
@@ -2536,6 +2540,8 @@
     items:
     - name: Expense Agent overview
       href: expense/expense-agent-overview.md
+    - name: Expense Agent Deployment tool
+      href: expense/expense-agent-deployment-tool.md
     - name: Installation and Setup of the Expense Agent
       href: expense/expense-agent-setup.md
     - name: Expense Agent parameters and configuration
