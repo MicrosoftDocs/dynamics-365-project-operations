@@ -4,7 +4,7 @@ description: This article provides information about the quality updates availab
 author: andchoi
 ms.custom:
   - evergreen
-ms.date: 07/07/2025
+ms.date: 01/28/2026
 ms.update-cycle: 1095-days
 ms.topic: whats-new
 ms.reviewer: johnmichalak
@@ -61,7 +61,7 @@ This article applies to the following Dynamics 365 Project Operations components
 | Travel and Expense                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | The **Reset Expense document status** tool should reset the expense report status to **Draft** if the workflow wasn't found. 
 
 ### Regulatory updates
-For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to Lifecycle Services (LCS) and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country/region, type of feature, and release.
+For information about regulatory updates for finance and operations apps, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). You can also sign in to Lifecycle Services and view the planned regulatory updates using the Issue search tool. Issue search lets you search by country/region, type of feature, and release.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

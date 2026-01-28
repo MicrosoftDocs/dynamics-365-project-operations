@@ -3,7 +3,7 @@ title: Capture a receipt using OCR
 description: This article provides information about optical character recognition (OCR) processing for receipts.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 07/02/2025
+ms.date: 01/28/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -29,41 +29,42 @@ Expense entry was enhanced through the introduction of optical character recogni
 To automatically attach receipts that include credit card transactions when an expense report is created, complete the following steps.
 
   1. Open the **Expense management** workspace.
-  2. On the **Receipts** tab, verify that unattached receipts exist. You can also upload receipts on the **Receipts** tab.
-  3. On the **Expenses** tab, verify that unattached expenses exist. Typically, the expense administrator imports these expenses from the credit card provider.
-  4. Select **New expense report**. Notice that you can include expenses, and receipts, now as well, when you create an expense report. If you add both expenses and receipts, automatic matching of the receipts against the expenses is triggered.
+  1. On the **Receipts** tab, verify that unattached receipts exist. You can also upload receipts on the **Receipts** tab.
+  1. On the **Expenses** tab, verify that unattached expenses exist. Typically, the expense administrator imports these expenses from the credit card provider.
+  1. Select **New expense report**. Notice that you can include expenses, and receipts, now as well, when you create an expense report. If you add both expenses and receipts, automatic matching of the receipts against the expenses is triggered.
 
 ## Create or match receipts to an expense report
+
 To create an expense, or match an expense from a receipt, complete the following steps.
 
   1. On an expense report, on the **Receipts** tab, attach a receipt by selecting **Add receipts**.
-  2. Under the uploaded image of the receipt, notice the **Create** and **Match** options.
+  1. Under the uploaded image of the receipt, notice the **Create** and **Match** options.
 
       - Select **Create** to create a manually entered expense transaction and fill in the values that are extracted from the receipt.
       - If you select **Match**, the system tries to match an existing expense to the receipt.
 
 ## Installation
 
-**Option 1:** To use these advanced expense capabilities, install the Expense Management Service add-in for Microsoft Dynamics 365 Finance, and turn on the features in your instance. You can access the add-in from your project in Microsoft Dynamics Lifecycle Services (LCS).
+**Option 1:** To use these advanced expense capabilities, install the Expense Management Service add-in for Microsoft Dynamics 365 Finance, and turn on the features in your instance. You can access the add-in from your project in Microsoft Dynamics Lifecycle Services.
 
-1. Sign in to LCS, and open the desired environment.
-2. Go to **Full details**.
-3. Select **Maintain**, or scroll down to the **Environment add-ins** FastTab.
-4. Select **Install a new add-in**.
-5. Select **Expense Management Service**.
-6. Follow the installation guide, and agree to the terms and conditions.
-7. Select **Install**.
+1. Sign in to Lifecycle Services, and open the desired environment.
+1. Go to **Full details**.
+1. Select **Maintain**, or scroll down to the **Environment add-ins** FastTab.
+1. Select **Install a new add-in**.
+1. Select **Expense Management Service**.
+1. Follow the installation guide, and agree to the terms and conditions.
+1. Select **Install**.
 
-**Option 2:** You can also enable the service by installing the **Dynamics 365 Project Operations expense receipt capture** application from the Power Platform Admin Center. 
+**Option 2:** You can also enable the service by installing the **Dynamics 365 Project Operations expense receipt capture** application from the Power Platform Admin Center.
 
 To install the **Dynamics 365 Project Operations expense receipt capture** application, follow these steps:
 
 1. Go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/resources/applications) and select the required environment.  
-3. Select **Dynamics 365 Apps**.  
-4. Select **Install App**.  
-5. Search for the **Dynamics 365 Project Operations expense receipt capture** application, agree to the terms of service, and install it.
-   
-After completing either of the two installation options previously mentioned, go to the **Feature management** workspace and turn on the following features: 
+1. Select **Dynamics 365 Apps**.  
+1. Select **Install App**.  
+1. Search for the **Dynamics 365 Project Operations expense receipt capture** application, agree to the terms of service, and install it.
+
+After completing either of the two installation options previously mentioned, go to the **Feature management** workspace and turn on the following features:
 
 - Expense reports reimagined
 - Automatch and create expense from receipt
@@ -106,6 +107,5 @@ The current regional availability of this feature is outlined in the following t
 Finance contacts Cognitive Services to extract the field data. Cognitive Services retains a copy of your receipt for up to 24 hours while processing occurs. After processing is completed, Cognitive Services removes the receipt. Receipts are still stored in Finance.
 
 For more information, see [Enable receipt understanding with Form Recognizer's new capability](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

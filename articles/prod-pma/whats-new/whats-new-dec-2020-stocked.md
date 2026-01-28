@@ -4,7 +4,7 @@ description: This article provides information about the quality updates availab
 author: Yowelle
 ms.custom:
   - evergreen
-ms.date: 07/07/2025
+ms.date: 01/28/2026
 ms.update-cycle: 1095-days
 ms.topic: whats-new
 ms.reviewer: johnmichalak
@@ -136,7 +136,7 @@ This article applies to the following Dynamics 365 Project Operations components
 
 ## Regulatory updates
 
-For information about regulatory updates for Dynamics 365 Finance, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). Another way to learn about regulatory updates is to sign in to Lifecycle Services (LCS) and view the planned regulatory updates using the issue search tool. Issue search lets you search by country/region, type of feature, and release.
+For information about regulatory updates for Dynamics 365 Finance, see [Regulatory updates](/dynamics365/finance/localizations/regulatory-updates). Another way to learn about regulatory updates is to sign in to Lifecycle Services and view the planned regulatory updates using the issue search tool. Issue search lets you search by country/region, type of feature, and release.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
