@@ -2,7 +2,7 @@
 title: Investment Projects in Dynamics 365 Project operations integrated with ERP
 description: This article provides guidance on how to manage investment projects within Dynamics 365 Project Operations when integrated with ERP systems. 
 author: mukumarm
-ms.date: 12/11/2025
+ms.date: 01/29/2026
 ms.topic: article
 ms.reviewer: johnmichalak 
 ms.author: mukumarm
