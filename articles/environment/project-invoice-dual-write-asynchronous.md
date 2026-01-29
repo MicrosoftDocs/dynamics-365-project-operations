@@ -39,8 +39,8 @@ To update the Project Operations parameters, follow these steps:
 1. Go to **Dynamics 365 Project operations** app.
 1. Select **Settings** and open **Parameters** form.
 1. Select **Edit**.
-1. On the **Project task time tracking** dropdown, choose **Delayed update**.
-1. On the **Project actual values tracking** dropdown, choose **Delayed update**.
+1. On the **Project task time tracking** dropdown, choose **On-Demand update**.
+1. On the **Project actual values tracking** dropdown, choose **On-Demand update**.
 
 ### Update the Dual-write Core solution
 
