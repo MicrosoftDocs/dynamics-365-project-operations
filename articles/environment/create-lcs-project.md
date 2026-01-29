@@ -3,7 +3,7 @@ title: Start a new Lifecycle Services project
 description: This article provides information about creating a new project in Lifecycle Services for your Project Operations environment.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 05/24/2024
+ms.date: 01/28/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -24,16 +24,14 @@ Use Lifecycle Services to manage you Dynamics 365 Project Operations environment
 3. Select the plus sign ( **+** ) to create a new project.
 4. For preview purposes, select **Migrate, create solutions, and learn** project type.
 
-  ![Pick Lifecycle Services project type.](./media/create-lcs-1.png)
+  :::image type="content" source="./media/create-lcs-1.png" alt-text="Screenshot of selecting the Lifecycle Services project type.":::
 
-5. Name the project. 
-6. Select **Finance and operations** as the product name, and select the industry and methodology. 
-7. Select **Create**.
+1. Name the project.
+1. Select **Finance and operations** as the product name, and select the industry and methodology.
+1. Select **Create**.
 
-![Create Lifecycle Services project.](./media/create-lcs-2.png)
+:::image type="content" source="./media/create-lcs-2.png" alt-text="Screenshot of creating a Lifecycle Services project.":::
 
 Use this Lifecycle Services project to deploy your Project Operations environment.
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
