@@ -3,7 +3,7 @@ title: Integrate project invoices using dual-write async configuration (preview)
 description: Learn how to configure Dynamics 365 Project Operations dual-write asynchronous integration for customer invoicing.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 07/23/2025
+ms.date: 01/29/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
