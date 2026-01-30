@@ -103,4 +103,4 @@ The following illustration shows the **Revenue projects** page for the project's
 - [Map projects and tasks to a project contract line](../pro/sales/mapping-projects-tasks-contract-line-sales.md) – This article provides an overview of mapping projects and tasks to a project contract line.
 - [Manage revenue estimates](rev-rec-completed-contract-method.md) – This article provides an overview of managing and running the revenue recognition estimates.
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
