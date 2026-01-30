@@ -1,8 +1,8 @@
 ---
 title: Actuals impact for an internal project
-description: This article provides information about the impact on the Actuals table at various events for an internal project in Microsoft Dynamics 365 Project Operations.
+description: Learn how various events impact the Actuals table in Microsoft Dynamics 365 Project Operations for internal projects. Explore detailed examples and scenarios.
 author: abriccetti
-ms.date: 01/09/2025
+ms.date: 01/30/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -21,7 +21,7 @@ The following table lists the actuals of different transaction types that are cr
 
 | Event | Cost actual | Example |
 |---|---|---|
-| Time is created. | Not applicable | <p>Bob Kozack, from the Fabrikam US organizational unit that has a cost rate of 100 US dollars (USD 100) per hour, is working on a project that is named "Arm Installation at Adatum." This project is mapped to a fixed price billing method on the contract line. Here is a sample time entry from Bob Kozak:</p><p>Bob Kozack - 8 hours</p> |
+| Time is created. | Not applicable | <p>Bob Kozack, from the Fabrikam US organizational unit that has a cost rate of 100 US dollars (USD 100) per hour, is working on a project that is named "Arm Installation at Adatum." This project is mapped to a fixed price billing method on the contract line. Here's a sample time entry from Bob Kozak:</p><p>Bob Kozack - 8 hours</p> |
 | Time is submitted. | Not applicable | A cost journal line is created for the time entry. The default cost rate is entered in the journal entry. |
 | The time entry is recalled before it's approved. | Not applicable | |
 | Time is approved. | A cost actual is created. | <p>New actual that is created:</p><ul><li>**Cost actual:** Bob Kozack, 8 hr, USD 800</li></ul> |
