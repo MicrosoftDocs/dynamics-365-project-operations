@@ -1,8 +1,8 @@
 ---
 title: Manage receipts by using the Dynamics 365 expense management mobile app
-description: This article explains how to manage receipts by using the Dynamics 365 expense management mobile app.
+description: Learn how to manage receipts effortlessly with the Dynamics 365 expense management mobile app. Capture, upload, and attach receipts for seamless expense tracking.
 author: mukumarm
-ms.date: 11/06/2023
+ms.date: 01/30/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -34,7 +34,7 @@ To use these advanced expense capabilities, install the Expense Management Servi
 
 ## View receipts
 
-The **Receipts** tab of the Dynamics 365 expense management mobile app shows a list of all unattached receipts. By default, the list is shown in **Tiles** view. You can switch to **List** view by selecting the **List** button in the upper-right corner of the app.
+The **Receipts** tab of the Dynamics 365 expense management mobile app shows a list of all unattached receipts. By default, the list appears in **Tiles** view. You can switch to **List** view by selecting the **List** button in the upper-right corner of the app.
 
 Select a specific receipt in the list to preview the receipt and perform actions such as attaching the receipt to an expense or deleting the receipt.
 

@@ -4,8 +4,8 @@
 title: Configure expense management
 description: This article describes the considerations and the decisions that you must make during the planning process before you configure Expense management in Microsoft Dynamics 365 Finance. 
 author: KimANelson
-ms.date: 01/23/2026
-ms.topic: article
+ms.date: 01/30/2026
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
@@ -20,6 +20,8 @@ ms.dyn365.ops.version: AX 7.0.0
 ---
 
 # Configure expense management
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 This article describes the considerations and decisions that you must make during the planning process before you configure Expense management. In Expense management, you can store information about payment methods, travel requisitions, expense reports, policies, and more.
 
@@ -43,26 +45,26 @@ Define the employee per diems that your organization provides. Because per diems
 
 - Default per diem rules for the first and last days:
 
-    - What is the minimum number of hours that an employee can claim for a day and still receive a per diem?
-    - Is there a reduction in the amount that the policy offers for meals for the first day and last day? If there's a reduction, what is the percentage of the reduction?
-    - Is there a reduction in the amount that the policy offers for a hotel for the first day and last day? If there's a reduction, what is the percentage of the reduction?
-    - Is there a reduction in the amount that the policy offers for other expenses that are incurred on the first day and last day? If there's a reduction, what is the percentage of the reduction?
+  - What is the minimum number of hours that an employee can claim for a day and still receive a per diem?
+  - Is there a reduction in the amount that the policy offers for meals for the first day and last day? If there's a reduction, what is the percentage of the reduction?
+  - Is there a reduction in the amount that the policy offers for a hotel for the first day and last day? If there's a reduction, what is the percentage of the reduction?
+  - Is there a reduction in the amount that the policy offers for other expenses that are incurred on the first day and last day? If there's a reduction, what is the percentage of the reduction?
 
 - Default per diem rules:
 
-    - Is there a percentage reduction in the per diem allowance for each meal if, for example, the meal is complimentary? If there's a reduction, what is the reduction percentage for each meal?
-    - Is the meal reduction calculated per day, per trip, or by the number of meals per day?
-    - Should per diem amounts be rounded in the regular manner or rounded up?
-    - Are per diems calculated on a 24-hour period or on a calendar day?
+  - Is there a percentage reduction in the per diem allowance for each meal if, for example, the meal is complimentary? If there's a reduction, what is the reduction percentage for each meal?
+  - Is the meal reduction calculated per day, per trip, or by the number of meals per day?
+  - Should per diem amounts be rounded in the regular manner or rounded up?
+  - Are per diems calculated on a 24-hour period or on a calendar day?
 
 - Per diem rules that are based on location:
 
-    - Do per diem rates vary according to location? What locations are included?
-    - If per diem rates vary according to location, for each location, what percentage amount is provided for the following types of expenses:
+  - Do per diem rates vary according to location? What locations are included?
+  - If per diem rates vary according to location, for each location, what percentage amount is provided for the following types of expenses:
 
-        - Meals
-        - Hotel
-        - Other expenses
+    - Meals
+    - Hotel
+    - Other expenses
 
 ### Expense management journals and accounts
 
@@ -102,36 +104,36 @@ When employees create an expense report, they must associate each expense with a
 - Are additional payment methods allowed for the expense category? If additional payment methods are allowed, what are they?
 - Are there subcategories in this expense category? If there are subcategories, you must also make the following decisions:
 
-    - Are any of the subcategories excluded from tax recovery?
-    - What is the item sales tax group of the subcategories?
+  - Are any of the subcategories excluded from tax recovery?
+  - What is the item sales tax group of the subcategories?
 
 If you use the expense category in Project management and accounting, answer the remaining questions. Otherwise, move on to the next section.
 
 - Which cost accounts do you use for the following expenses?
 
-    - Cost
-    - Payroll allocation
-    - WIP-cost value
-    - Cost-item
-    - WIP-cost value-item
-    - Accrued loss
-    - WIP-accrued loss
+  - Cost
+  - Payroll allocation
+  - WIP-cost value
+  - Cost-item
+  - WIP-cost value-item
+  - Accrued loss
+  - WIP-accrued loss
 
 - Which revenue accounts do you use for the following items?
 
-    - Invoiced revenue
-    - Accrued revenue-sales value
-    - WIP-sales value
-    - Accrued revenue-production
-    - WIP-production
-    - Accrued revenue-profit
-    - WIP-profit
-    - Accrued revenue-subscription
-    - WIP-subscription
+  - Invoiced revenue
+  - Accrued revenue-sales value
+  - WIP-sales value
+  - Accrued revenue-production
+  - WIP-production
+  - Accrued revenue-profit
+  - WIP-profit
+  - Accrued revenue-subscription
+  - WIP-subscription
 
 ### Taxes
 
-For expense-related taxes, determine what taxes to include or enable on expense reports.
+For expense-related taxes, determine which taxes to include or enable on expense reports.
 
 **Decisions:**
 
@@ -139,7 +141,7 @@ For expense-related taxes, determine what taxes to include or enable on expense 
 - Should you enable tax recovery on expenses?
 
     > [!NOTE]
-    > When planning the general ledger, if you decide to apply U.S. sales tax and use tax rules, you can't enable tax recovery on expenses. (To apply U.S. sales tax and use tax rules, set the **Apply sales tax taxations rules** option to **Yes**.)
+    > When planning the general ledger, if you decide to apply U.S. sales tax and use tax rules, you can't enable tax recovery on expenses. To apply U.S. sales tax and use tax rules, set the **Apply sales tax taxations rules** option to **Yes**.
 
 ## Policies
 
@@ -154,6 +156,5 @@ By creating expense report policies, you can help your organization save time an
 - When does the policy expire?
 - What is the policy rule?
 - What is the outcome of the policy rule?
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

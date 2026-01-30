@@ -4,7 +4,7 @@ description: This article provides information about expense reports that requir
 author: mukumarm
 ms.author: mukumarm
 ms.date: 05/22/2024
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

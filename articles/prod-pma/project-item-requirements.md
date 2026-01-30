@@ -4,7 +4,7 @@ description: This article explains how to create project-based item requirements
 author: ryansandness
 ms.author: ryansandness
 ms.date: 08/04/2025
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

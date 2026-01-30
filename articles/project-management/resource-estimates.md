@@ -4,7 +4,7 @@ description: This article provides information about how financial estimates for
 author: abriccetti
 ms.author: abriccetti
 ms.date: 01/09/2025
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

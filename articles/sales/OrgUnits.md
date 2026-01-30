@@ -4,7 +4,7 @@ description: This article describes the concept of organizational units, and exp
 author: suvaidya
 ms.author: nshrivastava
 ms.date: 01/23/2026
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

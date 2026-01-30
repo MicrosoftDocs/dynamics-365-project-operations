@@ -1,8 +1,8 @@
 ---
 title: Manage project quotes
-description: This article provides information about project quotes.
+description: Learn how to manage project quotes in Dynamics 365 Project Operations. Build proposals, estimate work, and track profitability with ease.
 author: rumant
-ms.date: 11/30/2022
+ms.date: 01/30/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,23 +16,22 @@ ms.author: rumant
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-In Dynamics 365 Project Operations, project quotes are designed to help build proposals for project work. The structure of a project quote in Project Operations is structured for project proposals with the following components:
+In Dynamics 365 Project Operations, project quotes help you build proposals for project work. The structure of a project quote in Project Operations is designed for project proposals with the following components:
 
-  - Quote lines that identify the discrete components of work that will be presented as high-level components.
-  - Quote line details that identify and estimate the work for each high-level component or quote line. Schedule or date estimates and the financial aspects for the work are tied to that quote line.
-  - Contracting models and chargeable components are set up for each quote line. This set up helps estimate the spread of revenue, spend, and profitability for each quote line and the overall quote.
+- Quote lines that identify the discrete components of work that you present as high-level components.
+- Quote line details that identify and estimate the work for each high-level component or quote line. Schedule or date estimates and the financial aspects for the work are tied to that quote line.
+- Contracting models and chargeable components that you set up for each quote line. This set up helps estimate the spread of revenue, spend, and profitability for each quote line and the overall quote.
 
 ## View all project quotes
 
-A list of all the project quotes can be seen from the **Quotes** list page. 
+You can see a list of all the project quotes from the **Quotes** list page.
 
-1. Go to **Sales** > **Quotes**. A list of all your project quotes in the system are shown. 
-2. Use the **View Switcher** to select other filtered views of the quotes. Using custom filter criteria, you can configure your own views and navigation options.
+1. Go to **Sales** > **Quotes**. You see a list of all your project quotes in the system.
+1. Use the **View Switcher** to select other filtered views of the quotes. You can configure your own views and navigation options by using custom filter criteria.
 
-Quotes can be created or deleted from this list page or detail pages.
+You can create or delete quotes from this list page or detail pages.
 
  > [!NOTE]
- > Quotes that have projects, tasks, estimates, journals, and/or actuals associated with them cannot be deleted. Also, when a quote is closed as Won or Lost, it can no longer be deleted or modified. 
-
+ > You can't delete quotes that have projects, tasks, estimates, journals, or actuals associated with them. Also, when you close a quote as Won or Lost, you can't delete or modify it.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

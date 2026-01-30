@@ -4,7 +4,7 @@ description: This article provides information about the performance benchmarks 
 author: dishantpopli
 ms.author: dishantpopli
 ms.date: 12/16/2025
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

@@ -3,7 +3,7 @@ title: Security and approvals
 description: This article provides information about the security setup for working with approvals in Microsoft Dynamics 365 Project Operations.
 author: abriccetti
 ms.date: 01/23/2026
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
