@@ -3,7 +3,7 @@ title: Cost to complete methods
 description: This article provides information about the methods used to calculate the cost to complete a project.
 author: sigitac
 ms.date: 10/27/2023
-ms.topic: article
+ms.topic: concept-article
 ms.reviewer: johnmichalak
 ms.author: sigitac
 ---

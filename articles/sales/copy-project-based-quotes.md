@@ -3,7 +3,7 @@ title: Copy project-based quotes
 description: This article provides information about copying project quotes in Microsoft Dynamics 365 Project Operations.
 author: poojafandan
 ms.date: 03/01/2024
-ms.topic: article
+ms.topic: concept-article
 ms.reviewer: johnmichalak
 ms.author: poojafandan
 ---

@@ -4,7 +4,7 @@ description: This article provides information about the fields and the informat
 author: poojafandan
 ms.author: poojafandan
 ms.date: 06/07/2024
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

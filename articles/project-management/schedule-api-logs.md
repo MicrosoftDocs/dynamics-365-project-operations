@@ -4,7 +4,7 @@ description: This article provides information and samples that helps you use th
 author: abriccetti
 ms.author: abriccetti
 ms.date: 07/19/2024
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

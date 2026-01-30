@@ -3,7 +3,7 @@ title: Project operations dual-write integration errors and mitigation
 description: This article describes dual-write errors that you might encounter during transaction execution together with strategies for mitigating them.
 author: mukumarm
 ms.date: 04/02/2024
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

@@ -6,7 +6,7 @@ description: This article provides details about the integration of Microsoft Dy
 author: tulsijhaveri
 ms.date: 01/23/2026
 ms.author: dishantpopli
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

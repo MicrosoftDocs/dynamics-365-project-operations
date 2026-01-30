@@ -4,7 +4,7 @@ description: This article provides information about how to update and make chan
 author: tulsij
 ms.author: dishantpopli
 ms.date: 01/23/2026
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

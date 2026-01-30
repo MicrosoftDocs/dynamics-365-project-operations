@@ -3,7 +3,7 @@ title: Actuals impact for an internal project
 description: This article provides information about the impact on the Actuals table at various events for an internal project in Microsoft Dynamics 365 Project Operations.
 author: abriccetti
 ms.date: 01/09/2025
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

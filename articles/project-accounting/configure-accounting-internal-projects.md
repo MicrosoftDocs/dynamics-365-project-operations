@@ -4,7 +4,7 @@ description: This article provides information about how to set up accounting pr
 author: ryansandness
 ms.author: ryansandness
 ms.date: 05/24/2024
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

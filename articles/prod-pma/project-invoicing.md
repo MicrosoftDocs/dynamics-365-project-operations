@@ -3,7 +3,7 @@ title: Project invoicing
 description: Learn about project invoicing for Time and material projects and Fixed-price projects, including outlines on invoice proposals.
 author: sunfzam
 ms.author: ryansandness
-ms.topic: article
+ms.topic: concept-article
 ms.date: 11/24/2025
 ms.reviewer: zezhangzhao
 audience: Application User

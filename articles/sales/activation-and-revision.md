@@ -4,7 +4,7 @@ description: This article provides information about activating and revising quo
 author: poojafandan
 ms.author: poojafandan
 ms.date: 06/10/2024
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
