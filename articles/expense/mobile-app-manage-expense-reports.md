@@ -68,4 +68,4 @@ To recall an expense report, follow these steps:
 1. On the **Reports** tab, on the **In review** tab, open the expense report that you want to recall.
 1. Select **Withdraw**.
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

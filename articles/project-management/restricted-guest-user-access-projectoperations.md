@@ -31,4 +31,4 @@ This section lists the restrictions on project access when RGA is enabled.
 
 For more information about the RGA policy, see [Restrict guest access permissions in Microsoft Entra ID](/entra/identity/users/users-restrict-guest-permissions).
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

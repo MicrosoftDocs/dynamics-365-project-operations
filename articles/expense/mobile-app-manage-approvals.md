@@ -77,4 +77,4 @@ To delegate an expense report, follow these steps:
 1. Optional: Specify a user in the **Assign to** field, and enter a value in the **Delegation comments** field.
 1. Select the **Delegate** button to delegate the expense report.
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

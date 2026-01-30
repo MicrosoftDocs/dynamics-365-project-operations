@@ -24,7 +24,7 @@ When you create or update an expense, the app automatically sets specific values
 
 * The app defaults the setting for **Include tax** to **Yes**. However, you can override the default setting and set **Include tax** to **No**.
 * The app sets the **item sales tax group** based on the **expense category**.
-* The app sets the **sales tax group** based on the following **priority order**: **project, country, region, and vendor mapped with employee**.
+* The app sets the **sales tax group** based on the following **priority order**: **project, country/region, and vendor mapped with employee**.
 * The app displays or conceals expense related fields in accordance with **expense configuration** settings.
 * The app automatically calculates the **tax amount** by using both the **Sales tax group** and **Item sales tax group**, and you can override the **tax amount** if necessary.
  
@@ -150,4 +150,4 @@ To attach expenses to an expense report, follow these steps:
 
 After you attach expenses to an expense report, they no longer appear on the **Expenses** tab. The **Expenses** tab shows only expenses that aren't attached to a report.
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

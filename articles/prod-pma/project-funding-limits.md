@@ -69,4 +69,4 @@ If you must update the spent amount, you can select the project contract and the
 
 You can access the **Funding limit spent amount history** data entity from Data Management or from the **Microsoft Excel** button on the **Funding limit history** page. An export from Data Management gives the complete history, whereas an export to Excel exports results only for the selected contract.
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,4 +32,4 @@ The following illustration shows the project cost of USD 2,800.00 and the projec
 
 :::image type="content" source="media/NSTKWithoutIRProjectPostedTransactions.png" alt-text="Screenshot of project posted transactions and the project subledger.":::
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

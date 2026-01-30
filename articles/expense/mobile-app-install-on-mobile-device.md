@@ -23,4 +23,4 @@ To install and use the Dynamics 365 expense management mobile app on a mobile de
 1. Use the **Search** field to search for "Expense Mobile." Because the Dynamics 365 expense management mobile app is a canvas app, you can add it to your favorites list in Power Apps by swiping left on it after you find it.
 1. Open the Dynamics 365 expense management mobile app, and start to use it. 
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

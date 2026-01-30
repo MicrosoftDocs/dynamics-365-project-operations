@@ -36,4 +36,4 @@ This article contains a list of resources by deployment type that you can use to
 - [Why is price defaulting to zero on time sales actuals?](../psa/faq-zero-price-time-sales-actuals.md)
 - [Why can’t I delete records from the Actuals entity?](../psa/faq-deleting-actuals.md)
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

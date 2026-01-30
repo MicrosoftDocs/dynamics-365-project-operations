@@ -79,4 +79,4 @@ After you post the **Project integration journal**, the lending legal entity gen
 
 For more information about the process of creating intercompany customer and vendor invoices, see **[Create intercompany customer and vendor invoices](../../project-accounting/create-intercompany-customer-vendor-invoices.md)**.
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

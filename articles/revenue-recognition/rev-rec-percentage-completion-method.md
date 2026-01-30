@@ -10,7 +10,7 @@ ms.author: sigitac
 
 # Fixed price revenue estimate projects
 
-[!INCLUDE[banner](includes/banner.md)]
+[!INCLUDE[banner](../includes/banner.md)]
 
  > [!NOTE]
    > In a recent product update, the **Update labels for revenue recognition and related forms and processes in Project Operations** feature renamed estimates to revenue recognition. Depending on whether the feature is enabled, terminology might reference either estimate or revenue recognition.

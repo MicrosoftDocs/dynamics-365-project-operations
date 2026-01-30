@@ -12,7 +12,7 @@ ms.author: abriccetti
 
 # Project time task tracking
 
-[!INCLUDE[banner](includes/banner.md)]
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
@@ -33,4 +33,4 @@ The **Delayed update** setting provides stability or performance improvements in
 
 Details on the **Project actual values tracking** feature are available. For more information, see [Status summary fields](/dynamics365/project-operations/project-management/understand-project-status#status-summary-fields).
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
