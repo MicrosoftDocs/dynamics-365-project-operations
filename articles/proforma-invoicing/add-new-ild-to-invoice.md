@@ -2,7 +2,7 @@
 title: Add new invoice line details to a draft project-based proforma invoice
 description: Learn how to add new invoice line details to an existing proforma project-based invoice that is in Draft status.
 author: suvaidya
-ms.date: 01/23/2026
+ms.date: 01/30/2026
 ms.topic: how-to
 ms.custom: 
 - bap-template
@@ -17,7 +17,7 @@ _**Applies To:** Project Operations Core, Project Operations Integrated with ERP
 
 You can create transactions for time, expense, and material usage directly on a draft invoice. This feature streamlines the invoicing process and helps ensure timely and accurate billing. It provides significant financial and administrative benefits to project-oriented companies by enhancing operational efficiency and accelerating cash flow.
 
-This feature is available in Project Operations Core deployments of Microsoft Dynamics 365 Project Operations. In Update Release (UR) 54, it's also being extended to Project Operations Integrated with ERP based scenarios deployments.
+This feature is available in Project Operations Core and Integrated deployments of Microsoft Dynamics 365 Project Operations. To enable this feature, turn on the Invoicing Editing Updates flag.
 
 > [!NOTE]
 > Enable the feature at **Settings** \> **Parameters** \> **Feature control** \> **Enable improvements in invoice creation**.
