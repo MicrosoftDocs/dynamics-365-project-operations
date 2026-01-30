@@ -1,10 +1,10 @@
 ---
 title: Troubleshoot Microsoft Dynamics 365 Project Operations
-description: This article contains a list of resources you can use to troubleshoot Microsoft Dynamics 365 Project Operations.
+description: Learn how to troubleshoot Microsoft Dynamics 365 Project Operations with a comprehensive list of resources tailored to different deployment types.
 author: johnmichalak
 ms.author: johnmichalak
 ms.topic: troubleshooting-general
-ms.date: 09/01/2023
+ms.date: 01/30/2026
 ms.custom: bap-template
 ms.reviewer: johnmichalak
 ---
@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-This article contains a list of resources by deployment type that you can use to troubleshoot Microsoft Dynamics 365 Project Operations. 
+This article contains a list of resources by deployment type that you can use to troubleshoot Microsoft Dynamics 365 Project Operations.
 
 ## Project Operations Integrated with ERP
 
@@ -23,7 +23,6 @@ This article contains a list of resources by deployment type that you can use to
 ## Project Operations Core - deal to proforma
 
 - [Troubleshoot working in the Task grid](../project-management/projectplanninguifaq.md).
-
 
 ## Project Operations for manufacturing based scenarios
 
@@ -37,3 +36,4 @@ This article contains a list of resources by deployment type that you can use to
 - [Why is price defaulting to zero on time sales actuals?](../psa/faq-zero-price-time-sales-actuals.md)
 - [Why can’t I delete records from the Actuals entity?](../psa/faq-deleting-actuals.md)
 
+[!INCLUDE[footer-include](includes/footer-banner.md)]

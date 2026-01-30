@@ -15,7 +15,7 @@ ms.search.validFrom: 2020-10-01
 
 # Concepts unique to project-based quotes
 
-[!INCLUDE[banner](includes/banner.md)]
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

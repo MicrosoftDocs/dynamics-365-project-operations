@@ -21,7 +21,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 # Configure expense management
 
-[!INCLUDE[banner](includes/banner.md)]
+[!INCLUDE[banner](../includes/banner.md)]
 
 This article describes the considerations and decisions that you must make during the planning process before you configure Expense management. In Expense management, you can store information about payment methods, travel requisitions, expense reports, policies, and more.
 

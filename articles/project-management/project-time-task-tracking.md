@@ -1,8 +1,8 @@
 ---
 title: Project time task tracking
-description: This article provides information about the Project time task tracking setting.
+description: Learn how to configure Project time task tracking in Dynamics 365 Project Operations for real-time or delayed updates to improve stability and performance.
 author: abriccetti
-ms.date: 11/14/2023
+ms.date: 01/30/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -12,14 +12,16 @@ ms.author: abriccetti
 
 # Project time task tracking
 
+[!INCLUDE[banner](includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-Microsoft Dynamics 365 Project Operations lets customers configure updates to the **Project task time tracking** fields for synchronization to Microsoft Project for the Web either in real time (the default behavior) or through delayed update. When **Delayed update** is selected, these updates occur only when a new project session is started. (This update occurs when the user navigates to the **Tasks** tab on a project entity.)
+Microsoft Dynamics 365 Project Operations lets you configure updates to the **Project task time tracking** fields for synchronization to Microsoft Project for the Web either in real time (the default behavior) or through delayed update. When you select **Delayed update**, these updates occur only when a new project session starts. The update happens when the user navigates to the **Tasks** tab on a project entity.
 
-There are two main scenarios where the **Delayed update** setting provides stability or performance improvements:
+The **Delayed update** setting provides stability or performance improvements in two main scenarios:
 
-- **Bulk time entry approval** – Scenarios where many time entries on project tasks are approved at one time. For example, a project manager approves 1,000 time entries at the end of the month. If **Real-time update** is selected, the queue of updates to Project for the Web becomes saturated by these requests. This saturation can cause instability and performance issues for other operations that also update Project for the Web.
-- **Bulk new project creation** – Bulk project creation scenarios that use CopyProjectV3 or CopyProjectV4. When the work breakdown structure (WBS) is created on the new project, multiple updates are made to the time tracking fields for these new project tasks. If **Real-time update** is selected, multiple calls to Project for the Web are created for each newly created project. The **Delayed update** setting delays these calls and meaningfully improves project creation performance in these scenarios.
+- **Bulk time entry approval** – Scenarios where many time entries on project tasks are approved at one time. For example, a project manager approves 1,000 time entries at the end of the month. If you select **Real-time update**, these requests saturate the queue of updates to Project for the Web. This saturation can cause instability and performance problems for other operations that also update Project for the Web.
+- **Bulk new project creation** – Bulk project creation scenarios that use CopyProjectV3 or CopyProjectV4. When the work breakdown structure (WBS) is created on the new project, multiple updates are made to the time tracking fields for these new project tasks. If you select **Real-time update**, each newly created project makes multiple calls to Project for the Web. The **Delayed update** setting delays these calls and meaningfully improves project creation performance in these scenarios.
 
 ## Project task time tracking options
 
@@ -30,3 +32,5 @@ There are two main scenarios where the **Delayed update** setting provides stabi
 | **Real-time update** | Approved time that's logged against a task updates, in real time, **Remaining Effort**, **Effort Completed**, and **Effort Estimate at Complete** on that task and any tasks above it in its hierarchy. |
 
 Details on the **Project actual values tracking** feature are available. For more information, see [Status summary fields](/dynamics365/project-operations/project-management/understand-project-status#status-summary-fields).
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

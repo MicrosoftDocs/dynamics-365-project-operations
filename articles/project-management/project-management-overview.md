@@ -1,7 +1,7 @@
 ---
 # required metadata
 title: Project management overview
-description: Learn about Project management in Dynamics 365 Project Operations. 
+description: Learn how to plan, estimate, and deliver projects efficiently using Dynamics 365 Project Operations' powerful project management features.
 author: ruhercul
 ms.date: 01/30/2026
 ms.topic: overview
@@ -12,7 +12,7 @@ ms.author: ruhercul
 
 # Project management overview
 
-[!INCLUDE[banner](includes/banner.md)]
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 

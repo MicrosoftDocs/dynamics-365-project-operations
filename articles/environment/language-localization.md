@@ -1,8 +1,8 @@
 ---
 title: Change language localization settings
-description: This article provides information about language localization in Dynamics 365 Project Operations.
+description: Learn how to change language localization settings in Dynamics 365 Project Operations to personalize your user interface and data display.
 author: aarondodell-msft
-ms.date: 12/01/2023
+ms.date: 01/30/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -14,21 +14,21 @@ ms.author: aarondodell
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Project Operations allows for localization of the user interface (UI) and data.
+Microsoft Dynamics 365 Project Operations supports localization of the user interface (UI) and data.
 
 > [!NOTE]
 > Changes affect the localization for the current user only. Each user must change their language settings individually.
 
 ## Language localization of the Project Operations UI
 
-To view and change the language that the Project Operations UI is shown in, follow these steps:
+To view and change the language that the Project Operations UI uses, follow these steps:
 
 1. Select the **Settings** button (gear symbol).
 
     :::image type="content" source="media/settings-button.png" alt-text="Image of the Settings button for Dynamics 365.":::
 
 1. Select **Personalization Settings**.
-1. On the **Languages** tab, you can view and change that language that's set for the Dynamics 365 UI.
+1. On the **Languages** tab, view and change the language that's set for the Dynamics 365 UI.
 
     :::image type="content" source="media/personalization-settings-languages-tab.png" alt-text="Screenshot of the Languages tab in the personalization settings for Dynamics 365.":::
 

@@ -1,8 +1,8 @@
 ---
 title: Manage expense reports by using the Dynamics 365 expense management mobile app
-description: This article explains how to manage expenses reports by using the Dynamics 365 expense management mobile app.
+description: Learn how to manage expense reports efficiently with the Dynamics 365 expense management mobile app. Create, submit, and track reports on the go.
 author: mukumarm
-ms.date: 11/06/2023
+ms.date: 01/30/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,11 +16,11 @@ ms.author: ramagadu
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations for manufacturing-based scenarios_
 
-This article explains how to manage expenses reports using the Dynamics 365 expense management mobile app.
+This article explains how to manage expenses reports by using the Dynamics 365 expense management mobile app.
 
 The **Reports** tab of the Dynamics 365 expense management mobile app shows all expense reports for the employee for the selected company. It's subdivided into three tabs that group the expense reports based on their status:
 
-* **Draft** – This tab shows all the expense reports that are in **Draft** or **Rejected** status. Rejected expense reports are highlighted in red to indicate that they've been rejected.
+* **Draft** – This tab shows all the expense reports that are in **Draft** or **Rejected** status. The app highlights rejected expense reports in red to indicate that they're rejected.
 * **In review** – This tab shows all the expense reports that are in **In review** status.
 * **Approved** – This tab shows all the expense reports that are in **Approved** or **Processed for payment** status.
 
@@ -48,7 +48,7 @@ To delete expense reports, follow these steps:
 1. Select the **Delete** button.
 1. In the confirmation message box, select **Delete**.
 
-After an expense report is deleted, all the expenses that were attached to it move to the list of unattached expenses and can be viewed on the **Expenses** tab.
+After you delete an expense report, the app moves all the expenses that were attached to it to the list of unattached expenses. You can view these expenses on the **Expenses** tab.
 
 ## Submit an expense report for review
 
@@ -58,7 +58,7 @@ To submit an expense report for review, follow these steps:
 1. On the **Reports** tab, on the **Draft** tab, open the expense report that you want to submit for review.
 1. Select **Submit**.
 
-After an expense report is submitted, it moves to **In review** status and is available on the **In review** tab.
+After you submit an expense report, the app moves it to **In review** status. The report is available on the **In review** tab.
 
 ## Recall an expense report
 
@@ -68,3 +68,4 @@ To recall an expense report, follow these steps:
 1. On the **Reports** tab, on the **In review** tab, open the expense report that you want to recall.
 1. Select **Withdraw**.
 
+[!INCLUDE[footer-include](includes/footer-banner.md)]
