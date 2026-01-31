@@ -1,10 +1,11 @@
 ---
 title: Use Copilot in time entry
-description: This article explains how team members can use Copilot in time entry to complete their time entry each week.
+description: Learn how to enable and use Copilot in time entry to streamline your project workflows. Log time and generate comments faster with AI assistance.
 author: mohitmenon
-ms.date: 04/24/2024
+ms.date: 01/30/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
+ms.collection: bap-ai-copilot
 ms.custom: 
   - bap-ai-copilot 
 ms.reviewer: johnmichalak

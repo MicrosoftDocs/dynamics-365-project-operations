@@ -3,7 +3,7 @@
 title: Create a work breakdown structure 
 description: This article explains how to create a work breakdown structure (WBS) inclusive of the basic controls in the new scheduling interface.
 author:  dishantpopli
-ms.date: 10/28/2025
+ms.date: 01/30/2026
 ms.topic: how-to
 ms.custom: bap-template
 ms.reviewer: johnmichalak
@@ -11,6 +11,8 @@ ms.author: dishantpopli
 --- 
 
 # Create a work breakdown structure (WBS)
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 A project schedule communicates what work must be completed, which resources do the work, and the timeframe in which the work must be completed. The schedule reflects all the work associated with delivering the project on time. In Dynamics 365 Project Operations, you create a project schedule by:
 
@@ -31,7 +33,7 @@ The first step in creating a project schedule is to break down the work into man
 
 ### Summary tasks
 
-Summary tasks can store other summary tasks or leaf node tasks. They have no work effort or cost of their own. Instead, their work effort and cost are a rollup of the work effort and cost of their container tasks. The start date of the summary task is the start date of the container tasks, and the end date is the end date of the container tasks. You can edit the name of a summary task, but you can't edit scheduling properties, including effort, dates, and duration. If you delete a summary task, you also delete all its container tasks.
+Summary tasks can store other summary tasks or leaf node tasks. They have no work effort or cost of their own. Instead, their work effort and cost roll up from their container tasks. The start date of the summary task is the start date of the container tasks, and the end date is the end date of the container tasks. You can edit the name of a summary task, but you can't edit scheduling properties, including effort, dates, and duration. If you delete a summary task, you also delete all its container tasks.
 
 ### Leaf node tasks
 
@@ -43,7 +45,7 @@ Leaf node tasks represent the most granular work on the project. They have an es
 
 Complete the following steps to add one or more tasks.
 
-1. Go to **Projects** and select and open the project record for which you want to create a schedule. 
+1. Go to **Projects** and select the project record you want to open. 
 1. Select the **Tasks** tab. 
 1. Select **Add new task**, enter a name for the task, and then press Enter.
 1. Enter another task name and press Enter again until you have a full list of tasks.
@@ -100,7 +102,7 @@ Use the **Role**, **Resourcing Unit**, and **Position Name** fields to describe 
 - **Resourcing unit** – Specify the unit that resources for the task should be assigned from. This attribute affects the cost and sales estimate for the task if the cost and bill rate for the resource are set based on resourcing units.
 - **Position name** – Enter a name for the generic resource that serves as a placeholder for the resource that ultimately completes the work.
 
-The **Resources** field holds the position name of the generic resource or named resource when one is found.
+The **Resources** field holds the position name of the generic resource or named resource when you find one.
 
 The **Category** field holds the values that indicate a broader type of work that the task can be grouped into. This field doesn't affect scheduling or staffing. Instead, use the field only for reporting.
 
@@ -115,7 +117,7 @@ Project Operations supports four dependency types.
 | Finish-to-start (FS) | As the default dependency, Task B (successor) can start only after the finish of task A (predecessor) |
 | Start-to-start (SS) | Task B (successor) can start only with or after the start of task A (predecessor) |
 | Finish-to-Finish (FF) | Task B (successor) can finish only after the finish of task A (predecessor) |
-| Start-to-Finish (FF) | Task B (successor) can finish only after the start task A (predecessor) |
+| Start-to-Finish (SF) | Task B (successor) can finish only after the start task A (predecessor) |
 
 For precise planning, Project Operations provides the concept of lead and lag to the project manager.
 
@@ -133,11 +135,11 @@ You can apply labels on tasks and use this capability to quickly see what they h
 
 ## Task history
 
-Task history records all the changes a user makes to a task. For each edit, the history shows details such as who made the change, when they made it, what property they changed, the previous value, and the new value.
+Task history records all the changes you make to a task. For each edit, the history shows details such as who made the change, when they made it, what property they changed, the previous value, and the new value.
 
-![Screenshot example of task history.](media/task-history.png)
+:::image type="content" source="media/task-history.png" alt-text="Screenshot of task history showing change details including who made the change, when, and property values.":::
 
-The history records changes that include edits such as
+The history records changes that include edits such as:
 
 1. Adding or removing labels
 1. Changing the duration or effort
@@ -160,18 +162,18 @@ You can edit these duration conversions at the project level to support users in
 > [!NOTE]
 > Project for the Web uses these durations (whether default or customized) to convert to hours only when you define effort on a task.
 
-Unassigned tasks are scheduled by using the project's calendar. However, when you initially assign a resource, the scheduling of a task updates to respect the resource's calendar. Subsequent changes to a task with an assignment follow the [scheduling mode](scheduling-modes.md) of the project. To learn more about the influence of calendars on tasks, see [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665).
+Unassigned tasks use the project's calendar for scheduling. However, when you initially assign a resource, the scheduling engine updates the task to respect the resource's calendar. Subsequent changes to a task with an assignment follow the [scheduling mode](scheduling-modes.md) of the project. To learn more about the influence of calendars on tasks, see [Resource Calendars in Project for the web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) and [Task Start Times & Your Projects!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665).
 
 > [!NOTE]
 > Project for the Web doesn't respect business closures that you define in the resource or project calendars.
 
-A resource assignment can be created only when the end of the resource's calendar rule overlaps the task's end date. Therefore, if your calendar rule ends before the end of the task, the assignment isn't scheduled, because there isn't enough time in the schedule for the resource to perform the task.
+You can create a resource assignment only when the end of the resource's calendar rule overlaps the task's end date. Therefore, if your calendar rule ends before the end of the task, the assignment isn't scheduled, because the schedule doesn't have enough time for the resource to perform the task.
 
 For example, a resource calendar begins on Wednesday, March 1, 2023, but ends on Friday, April 14, 2023. In the project where you add this resource, tasks that you assign to this resource can't end later than April 14, 2023. Otherwise, they aren't scheduled, because they exceed the last day of the resource's calendar.
 
-![Screenshot example of scheduling tasks.](media/Create-wbs-figure-01.png)
+:::image type="content" source="media/Create-wbs-figure-01.png" alt-text="Screenshot of scheduling tasks showing which tasks can be scheduled based on resource availability.":::
 
-The screenshot above shows, in green color, which tasks can be scheduled because they end before the last day of the resource availability, and in red color, which ones aren't allowed.
+The screenshot shows in green which tasks can be scheduled because they end before the last day of the resource availability, and in red, which ones aren't allowed.
 
 ## Accessibility and keyboard shortcuts
 
@@ -179,6 +181,6 @@ The **Schedule** grid is fully accessible and works with screen readers such as 
 
 ## Planning a project in sprints
 
-You can also use sprints and plan your project based on agile project management. For more information, see [Plan a project in sprints in Project for the web.](https://support.microsoft.com/office/plan-a-project-in-sprints-in-project-for-the-web-7536fbef-0ece-47bf-beae-6a8ac2c69955)
+You can also use sprints and plan your project based on agile project management. For more information, see [Plan a project in sprints in Project for the web](https://support.microsoft.com/office/plan-a-project-in-sprints-in-project-for-the-web-7536fbef-0ece-47bf-beae-6a8ac2c69955).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

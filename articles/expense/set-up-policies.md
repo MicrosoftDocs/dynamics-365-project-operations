@@ -4,7 +4,7 @@ description: You can define expense policies that your workers must follow when 
 author: mukumarm
 ms.author: mukumarm
 ms.date: 05/24/2024
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

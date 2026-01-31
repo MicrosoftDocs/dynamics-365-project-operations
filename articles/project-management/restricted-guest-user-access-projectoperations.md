@@ -1,7 +1,7 @@
 ---
 title: Restricted Guest User Access support for Project Operations
-description: This article provides information about Restricted Guest User Access support for Project Operations
-ms.date: 10/27/2023
+description: Learn how to enable Restricted Guest Access (RGA) in Microsoft Project Operations to collaborate securely with external partners while maintaining data protection.
+ms.date: 01/30/2026
 ms.topic: how-to
 ms.custom: bap-template
 ms.reviewer: johnmichalak
@@ -13,13 +13,13 @@ author: poojafandan
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-To enable organizations to collaborate more effectively with external partners and contractors while maintaining security, the guest users from Microsoft Entra ID are allowed to access Microsoft Project/Microsoft Dynamics 365 Project Operations when the Restricted Guest Access (RGA) policy is enabled in Entra ID.
+To enable organizations to collaborate more effectively with external partners and contractors while maintaining security, enable the Restricted Guest Access (RGA) policy in Microsoft Entra ID. When you enable this policy, guest users from Microsoft Entra ID can access Microsoft Project and Microsoft Dynamics 365 Project Operations.
 
-**However, there are some restrictions on the project access of guest users when RGA is enabled.**
+**However, the RGA policy enforces some restrictions on the project access of guest users.**
 
 ## Restrictions on project access when RGA is enabled
 
-This section contains a list of restrictions on project access when RGA is enabled.
+This section lists the restrictions on project access when RGA is enabled.
 
 - Guest users can't create a new Microsoft 365 group. However, they can add an existing Microsoft 365 groups to the project.
 - Guest users can't modify a Microsoft 365 group, even if they're a group member or a group owner. This behavior is consistent for both Private and Public groups.
@@ -29,4 +29,6 @@ This section contains a list of restrictions on project access when RGA is enabl
 - During a task assignment, a guest user can see only active team members from project. They're not able to view everyone else.
 - When a guest user searches for a name that isn't in the **Teams** tab to perform the task assignment, they receive a warning message: **You have limited access to search only among project members.**
 
-To learn more details about RGA policy, read the document[Restrict guest access permissions in Microsoft Entra ID](/entra/identity/users/users-restrict-guest-permissions)
+For more information about the RGA policy, see [Restrict guest access permissions in Microsoft Entra ID](/entra/identity/users/users-restrict-guest-permissions).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: This article provides information about inventory consumption for p
 author: mukumarm
 ms.author: mukumarm
 ms.reviewer: johnmichalak
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.date: 05/22/2024

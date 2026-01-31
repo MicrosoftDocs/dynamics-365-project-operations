@@ -1,9 +1,9 @@
 ---
 title: Developer notes for Approvals
-description: This article provides additional developer information about working with approvals.
+description: Learn about other developer information about working with approvals.
 author: suvaidya
-ms.date: 01/23/2026
-ms.topic: article
+ms.date: 01/30/2026
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

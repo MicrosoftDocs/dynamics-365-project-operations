@@ -4,7 +4,7 @@ description: This article describes the template and underlying tasks that are u
 author: poojafandan
 ms.author: poojafandan
 ms.date: 06/07/2024
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 audience: Application User

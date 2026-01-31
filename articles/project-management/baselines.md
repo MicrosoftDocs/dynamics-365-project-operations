@@ -3,7 +3,7 @@ title: Set up baselines
 description: This article provides information about setting up baselines in Dynamics 365 Project Operations. 
 author: dishantpopli
 ms.date: 10/28/2025
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

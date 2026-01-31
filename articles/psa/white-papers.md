@@ -7,7 +7,7 @@ ms.custom:
   - evergreen
 ms.date: 01/23/2026
 ms.update-cycle: 1095-days
-ms.topic: article
+ms.topic: concept-article
 ms.author: johnmichalak
 audience: Admin
 search.audienceType: 

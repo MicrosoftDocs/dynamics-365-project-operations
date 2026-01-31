@@ -3,7 +3,7 @@ title: Manage leads - Project Operations Core
 description: This article provides information about managing project-based leads (pro).
 author: poojafandan
 ms.date: 06/07/2024
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

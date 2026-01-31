@@ -4,7 +4,7 @@ description: This article provides instructions for exporting and deleting perso
 author: ryansandness
 ms.author: ryansandness
 ms.date: 09/12/2024
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

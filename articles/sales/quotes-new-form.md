@@ -5,7 +5,7 @@ title: New Quote form experience
 description: This article provides information about the updates to the project quotes form in Microsoft Dynamics 365 Project Operations.
 author: poojafandan
 ms.date: 1/3/2025
-ms.topic: article
+ms.topic: concept-article
 ms.custom: bap-template
 ms.reviewer: johnmichalak
 ms.author: poojafandan
