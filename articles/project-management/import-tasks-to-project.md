@@ -17,7 +17,7 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-This feature enables project managers and PMOs to accelerate project setup by reusing tasks (including hierarchy and dependencies) from one or more projects they already have access to. This offers a selective, flexible alternative to copying an entire project or manually rebuilding a work breakdown structure (WBS).
+This feature enables project managers and PMOs to accelerate project setup by reusing tasks (including hierarchy and dependencies) from one or more projects they already have access to and offers a selective, flexible alternative to copying an entire project or manually rebuilding a work breakdown structure (WBS).
 
 ## How to import tasks
 
@@ -27,12 +27,12 @@ This feature enables project managers and PMOs to accelerate project setup by re
 4. Select the tasks and click add to import the tasks.
 
 > [!NOTE]
-> - Unlike copy project, a target project can have exisiting work break down structure.
+> - Unlike copy project, a target project can have existing work break down structure.
 > - All or selected tasks from one or more projects can be imported.
 > - The imported tasks are appended to the list of tasks.
 
 ## What gets imported
-| Displaty Name | Name |
+| Display Name | Name |
 |---|---|
 | Project Task Name | msdyn_subject |
 | Notes | msdyn_description |
