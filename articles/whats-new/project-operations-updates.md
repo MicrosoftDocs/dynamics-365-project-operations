@@ -29,20 +29,20 @@ Dynamics 365 Project Operations consists of two components:
 |---------------|---------------------------------------------------------------------------------------------------------------------|
 | **Station 1** | First Release (FRE)                                                                                                 |
 | **Station 2** | South America, Canada, India, France, South Africa, Switzerland, Korea, Germany, Norway                             |
-| **Station 3** | Asia-Pacific, United Kingdom, Australia, Japan, United Arab Emirates, US Government Community Cloud High (GCC High) |
+| **Station 3** | Asia-Pacific, United Kingdom, Japan, United Arab Emirates, US Government Community Cloud High (GCC High)            |
 | **Station 4** | Europe, Middle East, and Africa                                                                                     |
-| **Station 5** | North America                                                                                                       |
+| **Station 5** | Australia and North America                                                                                         |
 
 ## Project Operations Release Notes
-- Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-june-2025-resource-based.md) scenario.
-- Project Operations latest release notes for [Core deployment](../pro/whats-new/whats-new-june-2025-lite.md) scenario.
+- Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-jan-2026-resource-based.md) scenario.
+- Project Operations latest release notes for [Core deployment](../pro/whats-new/whats-new-jan-2026-lite.md) scenario.
 - Project Operations latest release notes for [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-Feb-2024-stocked.md) scenario.
 
 ## Project Operations Latest Version
 
 | **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
 |:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
-|                   4.160.0.2877                  |                                      10.0.45                                     |                1.0.160.2874              |
+|                   4.161.0.1688                  |                                      10.0.45                                     |                1.0.161.1722              |
 
 > [!IMPORTANT]
 > - The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively.
