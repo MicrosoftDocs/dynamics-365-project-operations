@@ -17,7 +17,7 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-This feature enables project managers and PMOs to accelerate project setup by reusing tasks from one or more projects they already have access to. This capability offers a selective, flexible alternative to copying an entire project or manually rebuilding a work breakdown structure (WBS).
+This feature enables users to accelerate project setup by reusing tasks from one or more projects they already have access to. This capability offers a selective, flexible alternative to copying an entire project or manually rebuilding a work breakdown structure (WBS).
 
 ## How to import tasks
 
