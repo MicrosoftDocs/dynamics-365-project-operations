@@ -31,7 +31,7 @@ Dynamics 365 Project Operations consists of two components:
 | **Station 2** | South America, Canada, India, France, South Africa, Switzerland, Korea, Germany, Norway                             |
 | **Station 3** | Asia-Pacific, United Kingdom, Japan, United Arab Emirates, US Government Community Cloud High (GCC High)            |
 | **Station 4** | Europe, Middle East, and Africa                                                                                     |
-| **Station 5** | Australia and North America                                                                                         |
+| **Station 5** | North America and Australia                                                                                         |
 
 ## Project Operations Release Notes
 - Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-jan-2026-resource-based.md) scenario.
