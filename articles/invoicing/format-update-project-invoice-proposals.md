@@ -1,9 +1,9 @@
 ---
 title: Manage project invoice proposals
-description: This article provides details about processing customer-facing invoices with Project Operations for resource/ non-stocked based scenarios.
+description: This article provides details about processing customer-facing invoices with Project Operations Integrated with ERP
 author: ryansandness
 ms.author: ryansandness
-ms.date: 09/13/2024
+ms.date: 02/05/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -17,10 +17,11 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP_
 
-Project invoice proposals can be processed by your billing department when the following two conditions are met:
+Project invoice proposals can be processed by your billing department when the following three conditions are met:
 
-  - The Project manager confirms the proforma invoice in Microsoft Dataverse.
-  - All time and material unbilled sales transactions that are included in the proforma invoice are posted using the Dynamics 365 **Project Operations Integration** journal.
+- The Project manager confirms the proforma invoice in Microsoft Dataverse.
+- All time and material unbilled sales transactions that are included in the proforma invoice are posted using the Dynamics 365 **Project Operations Integration** journal.
+- The **Import from staging table** periodic process has completed for both unbilled and billed sales lines.
 
 Use the following steps to complete a project invoice proposal in Dynamics 365 Finance.
 
@@ -35,8 +36,8 @@ Project actuals created in Dataverse are reviewed and posted in Finance by the P
 
 Cost actuals and unbilled sales actuals are added to the Integration journal as separate lines:
 
-  - The unit cost price and cost amount on the Cost actual default from the project actual cost transaction in Dataverse.
-  - The unit sales price and sales amount on the Unbilled sales transaction defaults from the project actual unbilled sales transaction in Dataverse.
+- The unit cost price and cost amount on the Cost actual default from the project actual cost transaction in Dataverse.
+- The unit sales price and sales amount on the Unbilled sales transaction defaults from the project actual unbilled sales transaction in Dataverse.
 
 ### Billing sales tax
 
@@ -54,7 +55,7 @@ Sales tax calculation for billing is determined by the **Billing sales tax group
   - For time, expense, and fee transaction types, the billing item sales tax group will always default from the **Project category** entity.
   - For material transaction types, the billing item sales tax group defaults based on the **Item sales tax group method** setting in **Project management and accounting parameters**. The item number defaults the item sales tax group from the **Released product** entity. The category defaults the item sales tax group from the **Project category** entity.
 
-### Financial dimensions
+### Financial dimensions in the integration journal
 
 The financial dimensions for unbilled sales records in the **Project Operations Integration** journal default from the **Project** entity. Financial dimensions can be reviewed and adjusted by selecting **Distribute Amounts**. If you need to change the financial dimensions of the unbilled sales record after the Integration journal is posted but before the Proforma invoice is confirmed, go to **All Projects** > **Manage** > **Posted transactions**, select the transaction, and then select **Process** > **Adjust accounting**.
 
@@ -136,30 +137,36 @@ Posting of the invoice proposal results in a customer invoice that has the follo
 | 411100  | Revenue - Labor     | -1,000                         | -1,250                        | 1.25          | Project - invoiced Revenue  |
 | 130100  | Accounts Receivable | 1,000                          | 1,250                         | 1.25          | Customer balance            |
 
-## Manage the financial attributes of billing milestones 
+## Manage the financial attributes of billing milestones
 
 Project contract lines using the fixed price billing method are invoiced through [Fixed price milestones](../sales/invoice-schedules-contract-line.md#create-a-fixed-price-invoice-schedule-for-a-contract-line). The Project accountant can review billing milestones in Finance by going to **Project management and accounting** > **All projects** > **Manage** > **On-account transactions**.
 
-### Billing sales tax
+### Billing sales tax of billing milestones
 
 The **Sales tax group** and **Item sales tax group**  values default from the settings when a new billing milestone is created in Dataverse. The system defaults the values to these fields based on settings on the **Financial** tab on the **Project management and accounting parameters** page.
 
 - **Sales tax group method** determines the defaulting logic of the **Billing sales tax group**:
 
-    - **Project** will always default the billing sales tax group from the project. You can review or change the default sales tax group on a project by selecting **Show default accounting** on the **All Projects** page.
-    - **Project contract** will always default the billing sales tax group from the project contract. You can review or change the default sales tax group on a project contract by selecting **Show default accounting** on the **Project contracts** page.
-    - **Customer** will always default to the billing sales tax group from the customer.
-    - **Search** will search across all the entities in this list and select the first value available. Search starts with the **Project** entity, then the **Project contract** entity, and then the **Customer** entity.
+  - **Project** will always default the billing sales tax group from the project. You can review or change the default sales tax group on a project by selecting **Show default accounting** on the **All Projects** page.
+  - **Project contract** will always default the billing sales tax group from the project contract. You can review or change the default sales tax group on a project contract by selecting **Show default accounting** on the **Project contracts** page.
+  - **Customer** will always default to the billing sales tax group from the customer.
+  - **Search** will search across all the entities in this list and select the first value available. Search starts with the **Project** entity, then the **Project contract** entity, and then the **Customer** entity.
 
 - **Fixed price milestone item sales tax group** is used as the default value in the **Item sales tax group** field for the billing milestone. The accountant can review and modify this value on the **On-account transactions** page. The system uses the value from the on-account transaction when creating a project invoice proposal line.
- 
 
-### Financial dimensions
+### Financial dimensions of milestones
 
 Default financial dimensions for the fixed price billing milestone are set on Project contract lines. Go to **Project contracts** > **Show default accounting** and on the **Contract lines** tab, select **price contract line**, then set the financial dimension values that you want to use as the default.
 
 The Project accountant can edit the sales tax and financial dimensions information on invoice milestones up until the Project invoice proposal is created.
 
+## Import from staging
+
+The **Import from staging table** periodic process needs to run to import the billed sales lines into the project invoice proposal. If any unbilled sales lines previously were not posted, the invoice lines will not populate in the invoice proposal.
+
+### Selective import from staging
+
+With the 10.0.47 release, a new feature is available in the **Feature management** workspace for "Project Operations selective import from staging". With this feature, project accountants can now click to complete the import from staging process from the context of a selected invoice proposal. This functionality streamlines the ability to immediately create the invoice proposal for situations where you want to immediately complete the invoice instead of waiting for the periodic process scheduled run or for unrelated transactions to be processed.
 
 ## Create project invoice proposals
 
