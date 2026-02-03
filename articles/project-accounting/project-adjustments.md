@@ -3,7 +3,7 @@ title: Project adjustments
 description: This article provides information about project adjustments.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 07/22/2025
+ms.date: 02/05/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -18,8 +18,6 @@ _**Applies To:** Project Operations for manufacturing-based scenarios_
 ## Adjustments overview
 
 You can configure Microsoft Dynamics 365 Project Operations so that users can make changes to posted transactions. You can adjust project transactions individually, or you can select multiple transactions at a time in a list of all project transactions. Project adjustments are used, for example, to mass-update the billable status, recalculate cost after a configuration change, or update funding sources.
-
-
 
 Users can access the project adjustment functionality in several ways:
 
@@ -62,7 +60,7 @@ This feature enables the following key functionality:
 
 This feature also removes step 2 from the process flow that was described earlier in this article. Therefore, any transactions that were selected before the **Adjust transactions** page was opened are included in the list of transactions for adjustment. You don't have to use the **Select** button to search for them.
 
-> [!NOTE] 
+> [!NOTE]
 > Even if this feature is disabled, you can still select multiple records for adjustment. However, only one record *remains selected*, and the **Select transactions** dialog box appears immediately after you select to open adjustments.
 
 ## Adjustment performance improvement
@@ -91,6 +89,9 @@ A new parameter in the **Project management and accounting parameters** form was
 
 With this change, it's important to use batch processing in adjustments whenever processing more than a few lines. Because of the increased overhead in creating more journals and vouchers, there may be a slight decrease in performance when adjusting without the use of batch. But there's a significant increase in performance when running in batch.
 
+> [!NOTE]
+Multiple performance improvements were added in the 10.0.46 and 10.0.47 releases focusing on set-based processing. Users will see an improved experience in the adjustment form when with a large number of transaction and sending the adjustments to batch.
+
 ## Adjust dates
 
 When you perform an adjustment, you're prompted for an **adjustment date**. This date represents the ledger date or voucher date that can impact the financial date of the transaction. The **adjustment date** defaults to the current date. In some cases, you need to adjust the date when the transaction took place, which is often represented as the **project date**. When you adjust a transaction, the system assumes that you're only adjusting the ledger date and that no edits to the **project date** are necessary. 
@@ -99,7 +100,7 @@ A new feature introduced in the 10.0.42 release enables the ability to edit the 
 
 In the **Feature management** workspace, the **Enable editing of project date for project adjustments** feature can be enabled to allow for edits to **project date**. 
 
-When the **Adjust transactions** form opens, a new default values toggle is available to **Set project date from adjustment date**. When this option is selected, the **project date** defaults from the **adjustment date** provided. 
+When the **Adjust transactions** form opens, a new default values toggle is available to **Set project date from adjustment date**. When this option is selected, the **project date** defaults from the **adjustment date** provided.
 
 In the **Adjustments** form, the bottom grid where edits can be made also now lets you make manual changes to the **Project date** where previously it was ready only. 
 
