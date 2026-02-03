@@ -1,7 +1,7 @@
 ---
 # required metadata
 
-title: Import tasks into a project
+title: Import tasks into a project (Preview)
 description: Learn how to import tasks into a project efficiently. Reuse tasks from existing projects to streamline your workflow and save time.
 author: dishantpopli
 ms.author: dishantpopli
@@ -13,9 +13,10 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Import tasks into a project
+# Import tasks into a project (Preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
