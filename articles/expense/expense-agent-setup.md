@@ -38,7 +38,7 @@ The agent relies on several Microsoft Power Platform connectors. These connector
 
 ## Prerequisites
 
-1. **Finance and operations environment:** You need at least version 10.0.44 (10.0.2263.167 and later) or 10.0.45 (10.0.2345.102 and later) of the finance and operations environment to install the agent.
+1. **Finance and operations environment:** You need at least version 10.0.44 (10.0.2263.175 and later) or 10.0.45 (10.0.2345.115 and later) or 10.0.46 (10.0.2428.69 and later) of the finance and operations environment to install the agent.
 1. **Roles required to set up the Expense Agent user:** To complete the steps in this article, you must be the system administrator of the organization and have the following roles to set up the expense agent user for installing the Expense Agent.
 
 | System | Role | Comments |
@@ -72,6 +72,7 @@ To install the required app, follow these steps:
 1. On the environment's details page (**NOT** from the left-hand navigation), go to the **Resources** section and select **Dynamics 365 apps**.
 1. Search for **Copilot for finance and operations apps** within the Dynamics 365 apps list. If it's already installed and an update is available, select the **Update** button.  
 1. If the app isn't listed under Dynamics 365 apps, select **Install app**, select **Copilot for finance and operations apps**, and follow the prompts to complete the installation.
+1. Copilot for Finance and Operations app should be 1.0.3231.4 or later
 
 > [!NOTE]
 > Learn more about how to enable Copilot in your environment in [Enable Copilot capabilities in finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/copilot/enable-copilot).
