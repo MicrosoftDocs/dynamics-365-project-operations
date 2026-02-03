@@ -427,7 +427,7 @@
       - name: Set up baselines
         href: project-management/baselines.md
       - name: Import tasks into a project (Preview)
-        href: project-management/import-tasks-to-project-preview.md
+        href: project-management/import-tasks-to-project.md
     - name: Financial estimates on projects
       items: 
       - name: Financial estimation concepts
@@ -1657,7 +1657,7 @@
       - name: Set up baselines
         href: project-management/baselines.md
       - name: Import tasks into a project (Preview)
-        href: project-management/import-tasks-to-project-preview.md
+        href: project-management/import-tasks-to-project.md
     - name: Financial estimates on projects
       items: 
       - name: Financial estimation concepts
