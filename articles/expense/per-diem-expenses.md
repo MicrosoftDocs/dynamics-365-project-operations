@@ -1,6 +1,6 @@
 ---
 title: Per diem expenses
-description: This article provides information about how to work with per diem expenses.
+description: Learn how to configure and manage per diem expenses, including lodging, meals, and incidentals, in Microsoft Dynamics 365 Finance. Follow step-by-step instructions.
 author: suvaidya
 ms.author: nshrivastava
 ms.date: 01/23/2026
