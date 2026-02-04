@@ -139,7 +139,7 @@ When you post the invoice proposal, it creates a customer invoice with the follo
 
 ## Manage the financial attributes of billing milestones
 
-Project contract lines that use the fixed price billing method are invoiced through [Fixed price milestones](../sales/invoice-schedule-contract-line.md#create-a-fixed-price-invoice-schedule-for-a-contract-line). The project accountant can review billing milestones in Finance by going to **Project management and accounting** > **All projects** > **Manage** > **On-account transactions**.
+Project contract lines that use the fixed price billing method are invoiced through [Fixed price milestones](../sales/invoice-schedules-contract-line.md#create-a-fixed-price-invoice-schedule-for-a-contract-line). The project accountant can review billing milestones in Finance by going to **Project management and accounting** > **All projects** > **Manage** > **On-account transactions**.
 
 ### Billing sales tax of billing milestones
 
