@@ -3,7 +3,7 @@ title: Move to the modern architecture
 description: Learn how to use the modern architecture and move to the Project Operations Integrated with ERP deployment if you have a legal entity that currently uses the Project Operations for manufacturing order deployment.
 #customer intent: As an IT admin, I want to enable the modern architecture for existing legal entities with project data so that I can improve project management capabilities.
 author: ryansandness
-ms.date: 11/19/2025
+ms.date: 02/05/2026
 ms.topic: how-to
 ms.custom:
   - bap-template
@@ -57,6 +57,8 @@ This section summarizes the available functionality. These changes are all addit
 | Revenue Recognition          | Project Financials  | Complete     | 10.0.45         |
 | General journals             | Project Financials  | Complete*      | 10.0.46         |
 | Project procurement          | Project Financials  | Complete     | 10.0.46         | 
+| Project sales orders and item requirements        | Project Financials  | Complete     | 10.0.47         | 
+| Project sales agreements     | Project Financials  | Complete     | 10.0.47         | 
 
 ---
 
@@ -80,7 +82,9 @@ This section summarizes the available functionality. These changes are all addit
 | Multiple funding sources invoicing | PMA projects support posting invoices for multiple funding sources, but you can't make changes to the contract for funding limits, rules, or allocations. |
 | Revenue Recognition          | Revenue recognition is available for both PMA and integrated projects.  |
 | General journals             | You can enable General Journals with the **Enable general journal entries for modern projects** feature, which is generally available in 10.0.46, but isn't on by default. |
-| Project procurement          | You can enter purchase requisitions, purchase orders, requests for quotations, purchase agreements, and vendor invoices against PMA projects. Some functions are available for edit and view from both the project and the contract. | 
+| Project procurement          | You can enter purchase requisitions, purchase orders, requests for quotations, purchase agreements, and vendor invoices against PMA projects. Some functions are available for edit and view from both the project and the contract. |
+| Project sales orders and item requirements | You can create sales orders and item requirements against PMA projects. |
+| Project sales agreements  | You can create and use sales agreements against PMA projects. |
 
 At a minimum, follow these steps to enable the modern architecture in a legal entity that has project data. This example follows the USSI demo data company.
 
