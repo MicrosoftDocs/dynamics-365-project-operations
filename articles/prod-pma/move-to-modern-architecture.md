@@ -3,7 +3,7 @@ title: Move to the modern architecture
 description: Learn how to use the modern architecture and move to the Project Operations Integrated with ERP deployment if you have a legal entity that currently uses the Project Operations for manufacturing order deployment.
 #customer intent: As an IT admin, I want to enable the modern architecture for existing legal entities with project data so that I can improve project management capabilities.
 author: ryansandness
-ms.date: 02/05/2026
+ms.date: 02/04/2026
 ms.topic: how-to
 ms.custom:
   - bap-template
@@ -73,7 +73,7 @@ This section summarizes the available functionality. These changes are all addit
 | Project parameters           | Project parameters aren't reset when you opt in a legal entity. All PMA parameters are enabled and editable, but all parameters might not be compatible with integrated projects. When you close all PMA projects, the parameters specific to PMA projects are hidden in the UI since they're no longer applicable. |
 | Project Stage Rules          | Project stage rules are available in the project list and details pages. PMA Projects can change project stages and move to closed when completed. |
 | Finance and operations apps Expense Reports          | Expense reports functionality is available for both PMA and integrated projects. |
-| Finance and operations apps journals (Hour, Expense, Item, Fee)     | Journals are available in the list or details page for PMA projects in the ribbon.  Journal setup doesn't have a menu link from the Project module but is available for a read-only view through the journal name hyperlink. |
+| Finance and operations apps journals (Hour, Expense, Item, Fee)     | Journals are available in the list or details page for PMA projects in the ribbon. Journal setup doesn't have a menu link from the Project module but is available for a read-only view through the journal name hyperlink. |
 | On-Account transactions      | On-Account transactions (milestones, advances, retainers) are available for both PMA and integrated projects. For PMA projects, you can create new transactions within finance and operations apps.|
 | Invoicing and Credit notes     | You can create project invoice proposals from the project or contract list page or details page for PMA projects. |
 | Invoicing Billing Rules      | You can create project invoice proposals from the project or contract list page or details page for PMA projects. The contract doesn't allow for creating new billing rules, but it allows you to create and release milestones, update percentage or units of delivery, and update some amounts and details. |
@@ -94,9 +94,9 @@ At a minimum, follow these steps to enable the modern architecture in a legal en
 1. Enable the **Use the modern architecture for existing legal entities with project data** feature to remove the restriction that blocks this change in the deployment type.
 1. Complete all project transactions that aren't on the list of supported transactions in the previous table. Examples of unsupported transactions include time sheets, subscription billing, and more.
 1. Complete all processes that aren't in the list of processes in the previous table. Examples of unsupported processes might include post costs, accrue revenue, adjustments, and more.
-1. Close any projects that are completed.
-1. On the **Global project management and accounting parameters** page, select the legal entity to opt in.
-1. Complete the required setup in both systems. An example of steps required for demo data company USSI are included in the following section.
+1. Close any projects that you complete.
+1. On **Global project management and accounting parameters**, select the legal entity to opt in.
+1. Complete the required setup in both systems. The following section includes an example of steps required for demo data company USSI.
 
 > [!IMPORTANT]
 > After you create a new project in Dataverse, you can't opt out of the modern architecture.
@@ -107,10 +107,10 @@ For more information about setup and configuration, see [Project Operations Inte
 
 1. In **Data management**, go to **Dual write** and select **Environment details**. In the **Legal entities** tab, add a record for USSI if it isn't already present.
 1. You might be prompted to run initial sync, or you can manually run the [appropriate maps](../environment/resource-dual-write-maps.md) to ensure that new data is created as required to sync master data from either system.
-1. In Dataverse, go to **Settings** and **Transaction Categories**. Create a new category named Services. After saving in Dataverse, you should see a category with the name Services and a category ID starting with TCN-**.
-1. In the finance and operations architecture, verify the category exists in **Transaction categories** and take note of the shared category ID, which should look like TCN-0000001000-R8D2H-1.
+1. In Dataverse, go to **Settings** and **Transaction Categories**. Create a new category named Services. After saving in Dataverse, you see a category with the name Services and a category ID starting with TCN-**.
+1. In the finance and operations architecture, verify the category exists in **Transaction categories** and take note of the shared category ID, which is similar to TCN-0000001000-R8D2H-1.
 1. Go to **Project Categories** and create a new record for each of the above TCN-* categories for your financial postings.
-1. Open **Project management and accounting parameters**. On the last tab for Project Operations on Dynamics 365 Customer Engagement,** ensure that the billing type defaults are mapped to determine chargeable vs nonchargeable transactions.
+1. Open **Project management and accounting parameters**. On the last tab for Project Operations on Dynamics 365 Dynamics 365 Customer Engagement (on-premise),** ensure that the billing type defaults are mapped to determine chargeable vs nonchargeable transactions.
 1. For project category defaults, use the Services category created earlier for all four transaction types.
 1. Specify an account for the expense reports and procurement integration accounts.
 1. In Dataverse, set up any users as bookable resources with the appropriate legal entity (USSI) and operating unit (Contoso Robotics US).
@@ -140,6 +140,5 @@ At a minimum, follow these steps to enable the modern architecture in a legal en
 
 1. Enable the legal entity for dual-write. Then run the [appropriate maps](../environment/resource-dual-write-maps.md) in the initial synchronization, or ensure that new data is created as required to sync master data from either system.
 1. Complete the required setup in both systems. For more information about setup and configuration, see [Project Operations Integrated with ERP deployment overview](../environment/project-operations-integrated-deployment-overview.md). For the finance and operations architecture, you must complete several areas of new setup. For example, you must create project categories, configure parameters, and create project cost and revenue profiles.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
