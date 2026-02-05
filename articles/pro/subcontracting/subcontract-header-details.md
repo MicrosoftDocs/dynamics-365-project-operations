@@ -47,4 +47,4 @@ To create a subcontract, complete the following steps.
     | Requested By | By default, this field is set to the name of the user who creates the subcontract. However, the creator of the subcontract can change the value to indicate the person that they are creating the subcontract on behalf of. | None |
     | Vendor Account Manager | The name of the primary contact of the vendor account. The system automatically enters the default value from the vendor account record. You can select a different contact as the vendor account manager of the subcontract. | You can set up email alerts to notify the contact when changes are made to the subcontract as a result of price negotiations. |
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
