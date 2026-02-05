@@ -223,5 +223,23 @@ In addition to the **Invoice proposal** page, you can also post invoice proposal
 
 This page shows all the invoice proposals that are ready for posting. You can schedule posting invoice proposals by selecting **Batch**. Set the **Batch processing parameter** to **Yes** and set the recurrence of batch processing by selecting **Recurrence**.
 
+## Enhanced Proforma Invoice Summary for Integrated deployments
+
+In Dynamics 365 Project Operations integrated deployments, the Proforma Invoice summary in Dataverse is surfacing customer-required invoice fields from F&O, improving cross‑team visibility and enabling project managers to address customer inquiries without relying on accounting teams.
+
+**Newly Supported Invoice Details**
+When an invoice is posted in F&O, the following fields are synchronized and displayed in Dataverse:
+- Customer Invoice Number
+- Customer Invoice Date
+- Project Invoice Status (new status: Posted)
+- Invoice level Tax Amount
+
+These enhancements provide end to end invoice traceability from proforma creation → posting → payment.
+
+**Steps to enable this feature**
+- In F&O – Enable Dual Write map for ‘Project Operations integration invoice proposal export entity (msdyn_customerinvoices)’ version 1.0.0.0 
+- In D365 Project Operations – Enable feature flag ‘Enhanced proforma invoice’
+
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
