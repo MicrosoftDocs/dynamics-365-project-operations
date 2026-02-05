@@ -3,7 +3,7 @@ title: Manage project invoice proposals
 description: This article provides details about processing customer-facing invoices with Project Operations Integrated with ERP
 author: ryansandness
 ms.author: ryansandness
-ms.date: 02/04/2026
+ms.date: 02/05/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -41,7 +41,7 @@ You add cost actuals and unbilled sales actuals to the Integration journal as se
 
 ### Billing sales tax
 
-Sales tax calculation for billing is determined by the combination of the **Billing sales tax group** and **Billing item sales tax group** fields on an unbilled sales record in the **Project Operations Integration** journal line. The system sets these field values by default based on the settings on the **Financials** tab of the **Project management and accounting parameters** page.
+The system calculates sales tax for billing by combining the **Billing sales tax group** and **Billing item sales tax group** fields on an unbilled sales record in the **Project Operations Integration** journal line. By default, the system sets these field values based on the settings on the **Financials** tab of the **Project management and accounting parameters** page.
 
 - **Sales tax group method** determines the billing sales tax group defaulting logic:
   
@@ -156,7 +156,7 @@ The **Sales tax group** and **Item sales tax group** values default from the set
 
 ### Financial dimensions of milestones
 
-You set default financial dimensions for the fixed price billing milestone on Project contract lines. Go to **Project contracts** > **Show default accounting**. On the **Contract lines** tab, select **price contract line**, and then set the financial dimension values that you want to use as the default.
+Set default financial dimensions for the fixed price billing milestone on Project contract lines. Go to **Project contracts** > **Show default accounting**. On the **Contract lines** tab, select **price contract line**, and then set the financial dimension values that you want to use as the default.
 
 The project accountant can edit the sales tax and financial dimensions information on invoice milestones up until the Project invoice proposal is created.
 
@@ -225,21 +225,24 @@ This page shows all the invoice proposals that are ready for posting. You can sc
 
 ## Enhanced Proforma Invoice Summary for Integrated deployments
 
-In Dynamics 365 Project Operations integrated deployments, the Proforma Invoice summary in Dataverse is surfacing customer-required invoice fields from F&O, improving cross‑team visibility and enabling project managers to address customer inquiries without relying on accounting teams.
+In Dynamics 365 Project Operations integrated deployments, the Proforma Invoice summary in Dataverse surfaces customer-required invoice fields from Dynamics 365 Finance. This feature improves cross‑team visibility and enables project managers to address customer inquiries without relying on accounting teams.
 
-**Newly Supported Invoice Details**
-When an invoice is posted in F&O, the following fields are synchronized and displayed in Dataverse:
+### Newly supported invoice details
+
+When you post an invoice in Finance, the following fields synchronize and display in Dataverse:
+
 - Customer Invoice Number
 - Customer Invoice Date
 - Project Invoice Status (new status: Posted)
 - Invoice level Tax Amount
 
-These enhancements provide end to end invoice traceability from proforma creation → posting → payment.
+These enhancements provide end-to-end invoice traceability from proforma creation to posting to payment.
 
-**Steps to enable this feature**
-- In F&O – Enable Dual Write map for ‘Project Operations integration invoice proposal export entity (msdyn_customerinvoices)’ version 1.0.0.0 
-- In D365 Project Operations – Enable feature flag ‘Enhanced proforma invoice’
+### Enable this feature
 
+To enable this feature, follow these steps:
 
+1. In Finance, enable the dual-write map for **Project Operations integration invoice proposal export entity (msdyn_customerinvoices)** version 1.0.0.0.
+1. In Project Operations, enable the feature flag **Enhanced proforma invoice**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
