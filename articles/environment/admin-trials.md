@@ -1,9 +1,9 @@
 ---
 title: Sign up for Project Operations trials
-description: This article provides information about how to deploy a trial of Dynamics 365 Project Operations.
+description: Learn how to deploy a Dynamics 365 Project Operations trial, redeem offers, configure dual-write, and provision environments in just a few steps.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 01/28/2026
+ms.date: 02/05/2026
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.custom:
@@ -20,7 +20,7 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 
 This article explains how to subscribe to the preview partner offer and deploy a Dynamics 365 Project Operations environment.
 
-With the new Project Operations trial, you can automatically deploy any of the three supported deployment scenarios by completing a questionnaire that recommends the best deployment approach. This article provides information about how to:
+By using the new Project Operations trial, you can automatically deploy any of the three supported deployment scenarios. Complete a questionnaire that recommends the best deployment approach. This article provides information about how to:
 
 - Redeem your trial offer.
 - Initiate provisioning.
@@ -50,17 +50,17 @@ The following table lists the trial details and how they apply to each deploymen
 
 ## Prerequisites
 
-The following prerequisites are required to deploy a trial of Dynamics 365 Project Operations.
+To deploy a trial of Dynamics 365 Project Operations, you need the following prerequisites.
 
-- Sign-up for the [Dynamics 365 Project Operations - Preview Trial](https://www.aka.ms/try-po).
-- The user who deploys the preview must have tenant administrator rights.
+- Sign up for the [Dynamics 365 Project Operations - Preview Trial](https://www.aka.ms/try-po).
+- Tenant administrator rights for the user who deploys the preview.
 
 > [!IMPORTANT]
-> Only one person in an organization, the tenant administrator, needs to perform this task. If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.
+> Only one person in an organization, the tenant administrator, needs to perform this task. If you're not the subscriber to this release, wait until your organization is signed up and you receive your user credentials.
 
 ### Dynamics 365 Project Operations - Preview trial
 
-Before you begin, sign in to a browser with the user work account in the tenant where you want the Project Operations preview.
+Before you begin, sign in to a browser by using the user work account in the tenant where you want the Project Operations preview.
 
 1. Redeem the first offer code, **Dynamics 365 Project Operations - Preview Trial** by pasting it into the browser URL.
 
@@ -70,11 +70,11 @@ Before you begin, sign in to a browser with the user work account in the tenant 
 
     :::image type="content" source="./media/17ConfirmOrderNew.png" alt-text="Screenshot of the confirm order page.":::
 
-  You will see that the confirmation offer was successfully redeemed.
+  You see a message that the confirmation offer was successfully redeemed.
 
    :::image type="content" source="./media/18OrderConfirmationNew.png" alt-text="Screenshot of the order confirmation page.":::
 
-  You will be redirected to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/projectoperationstrial).
+  You're redirected to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/projectoperationstrial).
 
 ## Questionnaire and provisioning
 
@@ -82,7 +82,7 @@ Before you begin, sign in to a browser with the user work account in the tenant 
 1. Review the recommended deployment type, and select **Begin Setup** to initiate provisioning.
 1. Review the terms and conditions and then select **Start**.
 
-   After provisioning starts, you are redirected to the environment list in the Power Platform admin center. While provisioning is in progress, the state of your environment is **PreparingInstance**.
+   After provisioning starts, you're redirected to the environment list in the Power Platform admin center. While provisioning is in progress, the state of your environment is **PreparingInstance**.
 
   When provisioning is complete, the state of your environment is **Ready**. Provisioning the environment includes deploying demo data.
 
@@ -91,18 +91,18 @@ Before you begin, sign in to a browser with the user work account in the tenant 
 ## Configuring dual-write
 
 - To configure security roles for dual-write, see [Update security settings on Project Operations in Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- To access dual-write configuration, Navigate to finance and operations instance, then navigate to **Data Management** > **Dual Write**.
+- To access dual-write configuration, go to finance and operations instance, and then go to **Data Management** > **Dual Write**.
 - To configure dual-write maps, see [Run Project Operations dual-write maps](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## Assign licenses
 
-You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.
+You need administrative access to your organization's Microsoft 365 Portal to complete the following steps.
 
 1. Go to the [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.
 
 1. On the **Active users** page, select the users that you want to assign a license to.
 
-1. Verify that the **Dynamics 365 Project Operations Preview**  license has been selected, and then select **Save changes**.
+1. Verify that the **Dynamics 365 Project Operations Preview**  license is selected, and then select **Save changes**.
 
 ## Additional resources
 
@@ -114,14 +114,14 @@ The following resources provide helpful guidance as you begin your journey with 
 
 ## Frequently asked questions
 
-### What if I require ALM or ELM for my finance and operations apps environment?
+### What if I need ALM or ELM for my finance and operations apps environment?
 
-- For partners who require full environment lifecycle management capabilities, see the [Partner Sandbox License Request](https://experience.dynamics.com/requestlicense) to review the new partner offer.
-- For partners seeking more information about Internal Use Rights, see [Internal Use Rights cloud and software benefit (microsoft.com](https://partner.microsoft.com/membership/internal-use-software).
+- For partners who need full environment lifecycle management capabilities, see the [Partner Sandbox License Request](https://experience.dynamics.com/requestlicense) to review the new partner offer.
+- For partners who want more information about Internal Use Rights, see [Internal Use Rights cloud and software benefit (microsoft.com)](https://partner.microsoft.com/membership/internal-use-software).
 
 ### Can I extend my trial beyond 30 days?
 
-To extend your trial, complete the following steps.
+To extend your trial, complete the following steps:
 
 1. In the **Microsoft 365 Admin Center**, go to **Billing** > **Your products**.
 1. Select **Dynamics 365 Project Operations (CE) - Preview Trial**.
@@ -129,7 +129,7 @@ To extend your trial, complete the following steps.
 
 ### Can I upgrade from the Project Operations Core to the Project Operations Integrated with ERP based scenario deployment?
 
-Currently, there is no support to upgrade an environment from a Project Operations Core to a non-stocked based deployment.
+Currently, no support exists to upgrade an environment from a Project Operations Core to a non-stocked based deployment.
 
 ### Can I access Lifecycle Services for my Finance environments?  
 
@@ -137,6 +137,6 @@ No. For these trials, deployment is handled through the Power Platform Admin Cen
 
 ### Can I install my trial on an existing environment?
 
-If you have an existing environment, you will be allowed to install the Project Operations Core on an existing sales Dataverse environment from the Power Platform Admin center.
+If you have an existing environment, you can install the Project Operations Core on an existing sales Dataverse environment from the Power Platform Admin center.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
