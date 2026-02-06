@@ -1,13 +1,13 @@
 ---
 title: Manage guests for expenses using the Expense management mobile app
-description: This article explains how to add or manage guests for expenses by using the Microsoft Dynamics 365 expense management mobile app.
+description: Learn how to manage guest details for expenses using the Microsoft Dynamics 365 Expense Management mobile app. Follow step-by-step instructions to simplify expense tracking.
 author: mukumarm
-ms.date: 05/02/2024
+ms.date: 02/04/2026
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: mukumarm
 ---
-# Manage guests for expenses using the Expense management mobile app
+# Manage guests for expenses by using the Expense management mobile app
 
 [!include [banner](../includes/banner.md)]
 
@@ -23,16 +23,16 @@ To enter expenses by using the Microsoft Dynamics 365 expense management mobile 
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Expenses** tab, select the plus sign (**+**) button.
-1. The camera app is opened, and you can perform any of the following actions:
+1. The camera app opens, and you can perform any of the following actions:
 
     - Take a photo of a receipt to capture it.
-    - Select an existing receipt that was previously captured.
+    - Select an existing receipt that you previously captured.
     - Select a receipt to upload from your mobile device.
 
-1. Preview the receipt, and then select **Done**. If you want to retake the photo, select **Retake**. On the **New Expense** page, optical character recognition (OCR) should fill in information such as the date, amount, and merchant name.
+1. Preview the receipt, and then select **Done**. If you want to retake the photo, select **Retake**. On the **New Expense** page, optical character recognition (OCR) fills in information such as the date, amount, and merchant name.
 
     > [!IMPORTANT]
-    > OCR can fill in the information on the **New Expense** page only if the OCR add-in is enabled for the environment.
+    > OCR fills in the information on the **New Expense** page only if the OCR add-in is enabled for the environment.
 
 1. In the list of expense categories, select the category that's marked for **Guests** for the expense. You can filter the list by entering the name of the expense category.
 1. Enter the transaction date of the expense.
@@ -46,3 +46,5 @@ To enter expenses by using the Microsoft Dynamics 365 expense management mobile 
 
 > [!NOTE]
 > If the expense category is marked for both **Guests** and **Itemization**, both the **Add guest** and **Itemization** buttons are available so that you can provide the necessary details.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

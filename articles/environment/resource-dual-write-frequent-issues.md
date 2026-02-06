@@ -1,8 +1,8 @@
 ---
 title: Project operations dual-write integration errors and mitigation
-description: This article describes dual-write errors that you might encounter during transaction execution together with strategies for mitigating them.
+description: Learn how to resolve common dual-write integration errors in Project Operations, including expense reports, vendor invoices, and timesheet confirmation issues.
 author: mukumarm
-ms.date: 04/02/2024
+ms.date: 02/05/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -16,7 +16,7 @@ ms.author: mukumarm
 
 _**Applies To:** Project Operations Integrated with ERP._
 
-This article describes dual-write errors that you might encounter during transaction execution together with strategies for mitigating them.
+This article describes dual-write errors that you might encounter during transaction execution, and it provides strategies for mitigating them.
 
 ## Expense reports
 

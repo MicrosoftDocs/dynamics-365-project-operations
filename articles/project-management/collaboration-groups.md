@@ -1,8 +1,8 @@
 ---
 title: Collaboration with Office Groups
-description: Office Groups allow you to share a project with other team members within Common Data Service.
+description: Learn how to collaborate effectively with Office Groups in Common Data Service. Share projects, transfer ownership, and manage team permissions seamlessly.
 author: abriccetti
-ms.date: 05/21/2024
+ms.date: 02/05/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -12,15 +12,13 @@ ms.author: abriccetti
 
 # Collaboration with Office Groups
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
+By using Office Groups, you can share a project with other team members in the Common Data Service. When you add users to the group, the group takes ownership of the project. All users get edit permission on the project. Users can also see the project if the administrator grants them privileges. These users don't appear in the group.
 
-
-Office Groups allow you to share a project with other team members in the Common Data Service. When you add users to the group, project ownership transfers to the group. All users will have edit permission on the project. Users may also see the project if privileges have been granted by the administrator. These users won't be displayed in the group.
-
-> [!NOTE] 
-> Users are only added to the group if you press **Groups** and add them. This is different to the behaviour of Project for the Web. 
-
-
+> [!NOTE]
+> Users are added to the group only if you select **Groups** and add them. This step is different from the behavior of Project for the Web.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
