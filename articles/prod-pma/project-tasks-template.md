@@ -1,9 +1,9 @@
 ---
 title: Synchronize project tasks directly from Project Service Automation to finance and operations
-description: This article describes the template and underlying task that are used to synchronize project tasks directly from Microsoft Dynamics 365 Project Service Automation to Dynamics 365 Finance.
+description: Synchronize project tasks seamlessly from Dynamics 365 Project Service Automation to Finance with this guide. Learn about templates, tasks, and data flow setup.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 05/21/2024
+ms.date: 02/06/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -23,17 +23,18 @@ ms.dyn365.ops.version: AX 7.3.0
 This article describes the template and underlying task that are used to synchronize project tasks directly from Dynamics 365 Project Service Automation to Dynamics 365 Finance.
 
 > [!NOTE]
+>
 > - Project task integration, expense transaction categories, hour estimates, expense estimates, and functionality locking are available in version 8.0.
-> - If you're using Enterprise edition 7.3.0, after you install KB 4132657 and KB 4132660, you will be able to use the templates to integrate project tasks, expense transaction categories, hour estimates, expense estimates, and actuals, and to configure functionality locking. If you must reset the accounting distributions, we recommended that you also install KB 4131710.
+> - If you're using Enterprise edition 7.3.0, after you install KB 4132657 and KB 4132660, you'll be able to use the templates to integrate project tasks, expense transaction categories, hour estimates, expense estimates, and actuals, and to configure functionality locking. If you must reset the accounting distributions, we recommended that you also install KB 4131710.
 > - Actuals integration is available in version 8.0.1 or later.
 
 ## Data flow for Project Service Automation to Finance
 
-The Project Service Automation to Finance integration solution uses the Data integration feature to synchronize data across instances of Project Service Automation and Finance. The integration template that is available with the Data integration feature enables the flow of data about project tasks from Project Service Automation to Finance.
+The Project Service Automation to Finance integration solution uses the Data integration feature to synchronize data across instances of Project Service Automation and Finance. The integration template that's available with the Data integration feature enables the flow of data about project tasks from Project Service Automation to Finance.
 
 The following illustration shows how the data is synchronized between Project Service Automation and Finance.
 
-[![Data flow for Project Service Automation integration with Finance.](./media/ProjectTasksFlow.png)](./media/ProjectTasksFlow.png)
+:::image type="content" source="./media/ProjectTasksFlow.png" alt-text="Screenshot of data flow for Project Service Automation integration with Finance." lightbox="./media/ProjectTasksFlow.png":::
 
 ## Template and task
 
@@ -54,7 +55,7 @@ Before synchronization of project tasks can occur, you must synchronize project 
 
 ## Entity flow
 
-Project tasks are managed in Project Service Automation, and they are synchronized to Finance as project activities.
+Project tasks are managed in Project Service Automation, and they're synchronized to Finance as project activities.
 
 ## Prerequisites and mapping setup
 
@@ -72,9 +73,8 @@ If you must use Power Query, follow this guideline:
 
 ## Template mapping in Data integration
 
-The following illustration shows an example of the template task mappings in Data integration. The mapping shows the field information that will be synchronized from Project Service Automation to Finance.
+The following illustration shows an example of the template task mappings in Data integration. The mapping shows the field information that is synchronized from Project Service Automation to Finance.
 
-[![Template mapping.](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-
+:::image type="content" source="./media/ProjectTasksMapping.png" alt-text="Screenshot of template mapping in Data integration." lightbox="./media/ProjectTasksMapping.png":::
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
