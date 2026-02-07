@@ -1,9 +1,9 @@
 ---
 title: Defaulting financial dimensions for project time entries
-description: This article provides information about how defaulting financial dimensions are applied to time entries.
+description: Learn how defaulting financial dimensions are applied to project time entries, including the order of priority for resources, projects, and funding sources.
 author: mohitmenon
 ms.author: mohitmenon
-ms.date: 05/22/2024
+ms.date: 02/06/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -11,16 +11,16 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Defaulting financial dimensions for project time entries
+# Default financial dimensions for project time entries
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-When you use financial dimensions for project time entries, the default dimension value is assessed in the following order:
+When you use financial dimensions for project time entries, the system checks the default dimension value in the following order:
 
 1. Resource
-2. Project
-3. Funding source
+1. Project
+1. Funding source
 
-For example, if the default dimension is specified on a resource, the default value is applied over the default value that is specified for the project. Likewise, if the default dimension is specified on a project, the default value is applied over the default value that is specified for the funding source.
+For example, if you specify the default dimension on a resource, that default value takes precedence over the default value that you specify for the project. Similarly, if you specify the default dimension on a project, that default value takes precedence over the default value that you specify for the funding source.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

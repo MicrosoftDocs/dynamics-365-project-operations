@@ -1,6 +1,6 @@
 ---
 title: Define roles
-description: This article explains how to set up bookable resource categories.
+description: Learn how to define roles in Microsoft Dynamics 365 Project Operations to group resources, set pricing, and streamline project management.
 author: tulsij
 ms.author: dishantpopli
 ms.date: 01/23/2026
@@ -11,6 +11,8 @@ ms.reviewer: johnmichalak
 ---
 
 # Define roles
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 

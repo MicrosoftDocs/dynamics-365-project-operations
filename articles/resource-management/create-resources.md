@@ -1,6 +1,6 @@
 ---
 title: Create bookable resources
-description: This article explains how to create bookable resources.
+description: Learn how to create bookable resources in Microsoft Dynamics 365 Project Operations. Follow step-by-step instructions to manage resources effectively.
 author: tulsij
 ms.author: dishantpopli
 ms.date: 01/23/2026
@@ -11,6 +11,8 @@ ms.reviewer: johnmichalak
 ---
 
 # Create bookable resources
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 

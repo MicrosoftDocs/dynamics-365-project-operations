@@ -1,8 +1,8 @@
 ---
 title: Transfer budgets to forecasts
-description: This article describes how to transfer budgets from Microsoft Dataverse to forecasts in finance and operations apps for resource nonstocked deployments. 
+description: Learn how to transfer budgets from Microsoft Dataverse to forecasts in finance and operations apps for resource nonstocked deployments. Follow step-by-step guidance.
 author: niranjanmaski
-ms.date: 04/14/2024
+ms.date: 02/06/2026
 ms.topic: overview
 ms.custom: 
   - bap-template
@@ -16,22 +16,22 @@ ms.author: nimaski
 
 _**Applies To:** Project Operations for Project Operations Integrated with ERP based scenarios._
 
-This article outlines the typical steps that are required to transfer budgets from Microsoft Dataverse to forecasts in finance and operations apps for resource nonstocked deployments.
+This article outlines the typical steps to transfer budgets from Microsoft Dataverse to forecasts in finance and operations apps for resource nonstocked deployments.
 
-As is outlined in [Project budget management overview for resource nonstocked](project-budget-management-overview-res-non-stocked.md), the project budget is created in Dataverse. Therefore, tasks such as project creation, tracking of actuals against the budget, budget approval, forecast updates, and budget revision occur in Dataverse. After budgets are approved, they're transferred to forecast tables in finance and operations apps.
+As described in [Project budget management overview for resource nonstocked](project-budget-management-overview-res-non-stocked.md), you create the project budget in Dataverse. Therefore, you perform tasks such as project creation, tracking of actuals against the budget, budget approval, forecast updates, and budget revision in Dataverse. After you approve budgets, transfer them to forecast tables in finance and operations apps.
 
 ## Enable the project budget transfer to forecasts feature
 
-The capability to transfer approved budgets from Dataverse to finance and operations apps is currently in public preview. To enable the feature, you must activate the **Enable Project Budget management feature in Project Operations for nonstocked/resource based scenarios** feature in Feature management in finance and operations apps. Additionally, if you want to periodically transfer approved budgets to forecasts, activate **Enable batch-schedule project budget integration from CE into F&O forecast tables for nonstocked/resource based scenarios** feature so that you can schedule the batch job.
+The feature to transfer approved budgets from Dataverse to finance and operations apps is currently in public preview. To enable the feature, activate the **Enable Project Budget management feature in Project Operations for nonstocked/resource based scenarios** feature in Feature management in finance and operations apps. Additionally, if you want to periodically transfer approved budgets to forecasts, activate the **Enable batch-schedule project budget integration from CE into F&O forecast tables for nonstocked/resource based scenarios** feature so that you can schedule the batch job.
 
 Follow these steps to enable the feature.
 
 1. In finance and operations apps, go to **System Administration** \> **Feature Management**, and select **Check for updates**.
-1. Search for the feature that's named **Enable Project Budget management feature in Project Operations for nonstocked/resource based scenarios**, and enable it.
+1. Search for the feature named **Enable Project Budget management feature in Project Operations for nonstocked/resource based scenarios**, and enable it.
 1. After the feature is enabled, you can manually import budget lines into forecasts from the **All forecasts** page. Alternatively, you can schedule a periodic batch job to import budget lines.
-1. If you want to use a batch job to periodically transfer approved budgets to forecasts, also search for and enable the feature that's named **Enable batch-schedule project budget integration from CE into F&O forecast tables for nonstocked/resource based scenarios**.
+1. If you want to use a batch job to periodically transfer approved budgets to forecasts, also search for and enable the feature named **Enable batch-schedule project budget integration from CE into F&O forecast tables for nonstocked/resource based scenarios**.
 
-Project budgets can be created for different types of projects, including fixed-price, time and material, and investment projects, for both cost budgets and sales budgets.
+You can create project budgets for different types of projects, including fixed-price, time and material, and investment projects, for both cost budgets and sales budgets.
 
 ## Manually transfer project budgets to forecasts
 

@@ -1,9 +1,9 @@
 ---
 title: Set up credit card integration
-description: This article explains how to work with expense-related credit card transactions.
+description: Learn how to set up credit card integration for expense management. Import transactions automatically or manually, and streamline your financial processes.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 01/27/2026
+ms.date: 02/04/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template 
@@ -57,6 +57,6 @@ Three options are available for storing credit card numbers. Store credit card n
 
 - **Prevent card number entry** – Credit card numbers aren't stored.
 - **Hash card numbers (store last four digits)** – The last four digits of credit card numbers are stored in an encrypted format.
-- **Store card numbers** – Credit card numbers are stored in an unencrypted format. This option doesn't comply with the Payment Card Industry (PCI) Data Security Standard (DSS). Therefore, to keep their organization compliant with PCI DSS regulations, organization admins should choose either not to store credit card numbers or to store hash card numbers.
+- **Store card numbers** – Credit card numbers are stored in an unencrypted format. This option doesn't comply with the Payment Card Industry (PCI) Data Security Standard (DSS). To keep their organization compliant with PCI DSS regulations, organization admins should choose either not to store credit card numbers or to store hash card numbers.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
