@@ -3,7 +3,7 @@ title: Set up the Expense Agent (preview)
 description: Learn how to install and set up the Expense Agent to automate expense processing workflows by using AI.
 author: ajitchandran
 ms.author: ajitchandran
-ms.date: 01/30/2026
+ms.date: 02/09/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -72,7 +72,7 @@ To install the required app, follow these steps:
 1. On the environment's details page (**NOT** from the left-hand navigation), go to the **Resources** section and select **Dynamics 365 apps**.
 1. Search for **Copilot for finance and operations apps** within the Dynamics 365 apps list. If it's already installed and an update is available, select the **Update** button.  
 1. If the app isn't listed under Dynamics 365 apps, select **Install app**, select **Copilot for finance and operations apps**, and follow the prompts to complete the installation.
-1. Copilot for Finance and Operations app should be 1.0.3231.4 or later
+1. Copilot for Finance and Operations apps should be 1.0.3231.4 or later
 
 > [!NOTE]
 > Learn more about how to enable Copilot in your environment in [Enable Copilot capabilities in finance and operations apps](/dynamics365/fin-ops-core/dev-itpro/copilot/enable-copilot).
