@@ -5,7 +5,7 @@ author: ruhercul
 ms.custom: 
   - dyn365-projectservice
   - evergreen
-ms.date: 07/07/2025
+ms.date: 02/13/2026
 ms.update-cycle: 1095-days
 ms.topic: concept-article
 ms.author: ruhercul
@@ -69,6 +69,9 @@ Because available capacity is considered, you may get an error message if the re
 
 ## None
 The None method is only available when you book from the **Team** tab within a project. This method adds the resource as a team member on the project, but doesn’t create any bookings that absorb the resource's capacity. This method is used when the default project manager team member is added when a project is created. The project manager user who created the project is added by default to the project, so that the project entity record has an owner and there is one approver on the project. Because this user doesn't have any bookings, if you do want to book the resource, you can either delete and then re-add them using a different allocation method, or add the resource to tasks and then use **Extend Bookings** on the **Reconciliation** tab to create bookings for the assignments.
+
+> [!NOTE]
+> The Resource Requirement fields, such as **From Date**, **To Date**, and **Duration**, are editable only when the **Allocation Method** is set to **None**.
 
 ## Allocation methods that lead to overbooking
 To summarize, the following allocation methods lead to overbooking if the resource is already committed in other projects (or for other work orders or schedulable entities):
