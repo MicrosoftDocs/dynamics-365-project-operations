@@ -44,18 +44,18 @@ If the map doesn't start, see the [Missing table columns issue on maps](/dynamic
 
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
-|Subcontracting|	4593261|	Canceled Vendor Invoices don't recreate inter-org actuals|
-|Sales|	5748355|	Unable to add new Project Contract line when inactive customer exists on that contract|
-|Sales|	5927010|	Transaction Category is blocked for updates on Quote Line Detail but not Contract Line Detail|
 |Approvals|	5927453|	Expenses corrected via correction journal cannot be submitted after recall|
 |Billing and Pricing|	5933042|	Discount on non-chargeable transactions is incorrectly calculated on total invoice amount|
-|Time Entry|	6004629|	Delegate view for time entry entity has is set as the default view|
 |Billing and Pricing|	6006562|	Block Updating Billing Type on Correction Invoices|
-|Sales|	6007632|	Audit history shows an error for Order Line when enabled on an environment|
 |Project And Resource Management|	6017130|	Calendar rules not visible in calendar control after updating to Calendar V2|
 |Project And Resource Management|	6017133|	Project creation fails when calendar rule doesn't exist on a date|
 |Project And Resource Management|	6017865|	Import task fails to load the project when lookup column is added to the task entity|
+|Sales|	5748355|	Unable to add new Project Contract line when inactive customer exists on that contract|
+|Sales|	5927010|	Transaction Category is blocked for updates on Quote Line Detail but not Contract Line Detail|
+|Sales|	6007632|	Audit history shows an error for Order Line when enabled on an environment|
+|Subcontracting|	4593261|	Canceled Vendor Invoices don't recreate inter-org actuals|
 |Subcontracting|	6039761|	TZA accounting date isn't initialized during automatic Vendor Invoice confirmation sync|
+|Time Entry|	6004629|	Delegate view for time entry entity has is set as the default view|
 
 ### Project management and accounting in Finance
 
