@@ -24,7 +24,7 @@ This article applies to the following components and versions of Microsoft Dynam
 
 ## Features included in this release
 
-There are no new features included in this release of Project Operations Core.
+This release of Project Operations Core doesn't include any new features.
 
 ## Quality updates
 
@@ -32,16 +32,16 @@ There are no new features included in this release of Project Operations Core.
 
 | **Feature area** | **Reference no.** | **Quality update** |
 | --- | --- | --- |
-|Approvals|	5927453|	Expenses corrected via correction journal cannot be submitted after recall|
-|Billing and Pricing|	5933042|	Discount on non-chargeable transactions is incorrectly calculated on total invoice amount|
-|Billing and Pricing|	6006562|	Block Updating Billing Type on Correction Invoices|
-|Project And Resource Management|	6017130|	Calendar rules not visible in calendar control after updating to Calendar V2|
-|Project And Resource Management|	6017133|	Project creation fails when calendar rule doesn't exist on a date|
-|Project And Resource Management|	6017865|	Import task fails to load the project when lookup column is added to the task entity|
-|Sales|	5748355|	Unable to add new Project Contract line when inactive customer exists on that contract|
-|Sales|	5927010|	Transaction Category is blocked for updates on Quote Line Detail but not Contract Line Detail|
-|Sales|	6007632|	Audit history shows an error for Order Line when enabled on an environment|
-|Subcontracting|	4593261|	Canceled Vendor Invoices don't recreate inter-org actuals|
-|Time Entry|	6004629|	Delegate view for time entry entity has is set as the default view|
+|Approvals| 5927453| Expenses corrected via correction journal can't be submitted after recall.|
+|Billing and Pricing| 5933042| Discount on non-chargeable transactions is incorrectly calculated on total invoice amount.|
+|Billing and Pricing| 6006562| Block Updating Billing Type on Correction Invoices.|
+|Project And Resource Management| 6017130| Calendar rules aren't visible in calendar control after updating to Calendar V2.|
+|Project And Resource Management| 6017133| Project creation fails when calendar rule doesn't exist on a date|
+|Project And Resource Management| 6017865| Import task fails to load the project when lookup column is added to the task entity.|
+|Sales| 5748355| Can't add new Project Contract line when inactive customer exists on that contract.|
+|Sales| 5927010| Transaction Category is blocked for updates on Quote Line Detail but not Contract Line Detail.|
+|Sales| 6007632| Audit history shows an error for Order Line when enabled on an environment.|
+|Subcontracting| 4593261| Canceled Vendor Invoices don't recreate inter-org actuals.|
+|Time Entry| 6004629| Delegate view for time entry entity is set as the default view.|
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
