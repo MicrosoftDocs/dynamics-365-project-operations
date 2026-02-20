@@ -61,4 +61,4 @@ If the map doesn't start, see the [Missing table columns issue on maps](/dynamic
 
 For information about the bug fixes that are included in this update, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=1070810&dbType=3&qc=a80ae08ee0505a42d89c37cc39d4eb0486e58f41994329552d1063659d950495).
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
