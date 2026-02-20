@@ -20,7 +20,7 @@ _**Applies To:** Project Operations Integrated with ERP_
 This article explains how to install dual-write maps required for Microsoft Dynamics 365 Project Operations Integrated with ERP scenarios.
 
 > [!NOTE]
-> The Global address book solution is not supported with Project operations. To use the multiple addresses, instead you can use the **Enable multiple addresses for accounts** feature for dual-write maps. Learn more in [Manage multiple addresses for accounts](/dynamics365/project-operations/pro/sales/manage-global-address-book).
+> The Global address book solution is not supported with Project Operations. To use the multiple addresses, you can use the **Enable multiple addresses for accounts** feature for dual-write maps. Learn more in [Manage multiple addresses for accounts](/dynamics365/project-operations/pro/sales/manage-global-address-book).
 
 ## Prerequisites
 
