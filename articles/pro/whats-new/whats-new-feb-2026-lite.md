@@ -7,7 +7,7 @@ ms.topic: whats-new
 ms.custom:
   - evergreen
   - bap-template
-ms.date: 02/20/2026
+ms.date: 02/24/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ---
