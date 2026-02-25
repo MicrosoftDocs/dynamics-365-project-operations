@@ -2,7 +2,7 @@
 title: Manage multiple customers on a project-based quote
 description: This article provides information about working on quotes that involve multiple customers who will fund the project.
 author: poojafandan
-ms.date: 06/07/2024
+ms.date: 02/25/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -14,17 +14,17 @@ ms.author: poojafandan
 
 _**Applies To:** Project Operations Integrated with ERP_
 
-Project-based quotes support the scenario where the proposal involves multiple customers who will fund the deal. The **Summary** tab of the Quote has the **Potential customer** field, which identifies the primary customer of the deal. Other customers for the deal can be set up on the **Customers** tab of the project quote.
+Project-based quotes support the scenario where the proposal involves multiple customers who fund the deal. The **Summary** tab of the Quote has the **Potential customer** field, which identifies the primary customer of the deal. Set up other customers for the deal on the **Customers** tab of the project quote.
 
-All quote customers on the **Customers** tab of the project quote default as quote line customers on any **new** project-based quote lines created for the quote. Any existing project-based quote lines will not inherit new quote customer records created after them.
+All quote customers on the **Customers** tab of the project quote default as quote line customers on any **new** project-based quote lines you create for the quote. Any existing project-based quote lines don't inherit new quote customer records you create after them.
 
-Quote customers and quote line customers can be added, updated, or deleted at any time before the quote is won. A valid customer on the quote must be set up as a customer in the Owning company or Legal entity on the **Customers** page. Legal entities are set up in the **Project management and accounting** module of Dynamics 365 Project Operations and are made available as Companies in the **Project sales and delivery** modules of Project Operations.
+You can add, update, or delete quote customers and quote line customers at any time before you win the quote. Set up a valid customer on the quote as a customer in the Owning company or Legal entity on the **Customers** page. You set up legal entities in the **Project management and accounting** module of Dynamics 365 Project Operations. The legal entities appear as Companies in the **Project sales and delivery** modules of Project Operations.
 
 ## Concept of a primary customer
 
-The customer listed on the **Summary** tab of the project quote as the potential customer is the primary customer of the quote. If you try to delete the primary customer from customers list on the quote, you will receive an error that a primary customer record on a quote can't be deleted.
+The customer you list on the **Summary** tab of the project quote as the potential customer is the primary customer of the quote. If you try to delete the primary customer from the customers list on the quote, you receive an error that a primary customer record on a quote can't be deleted.
 
-The primary customer shouldn't be updated from the customer list on the quote. However, you can influence the primary customer by changing the potential customer on the **Summary** tab of the quote. When this field is updated on the **Quote Summary**, the newly selected potential customer is added as a new quote customer with the **Primary** flag set. The old potential customer will still be a customer on the quote.
+Don't update the primary customer from the customer list on the quote. However, you can influence the primary customer by changing the potential customer on the **Summary** tab of the quote. When you update this field on the **Quote Summary**, the newly selected potential customer is added as a new quote customer with the **Primary** flag set. The old potential customer remains a customer on the quote.
 
 ## Create, Update, or Delete a quote customer record
 

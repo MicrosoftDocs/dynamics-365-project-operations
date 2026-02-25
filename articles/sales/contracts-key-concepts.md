@@ -2,7 +2,7 @@
 title: Concepts unique to Project-based Contracts
 description: This article provides information about the key concepts of project contracts in Project Operations.
 author: suvaidya
-ms.date: 01/23/2026
+ms.date: 02/25/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -47,7 +47,7 @@ Typically, two types of contracting models exist for projects: fixed fee and con
 
 ## Project price lists
 
-Use project price lists to default prices, not cost rates, for time, expense, and other project-related components. You can have multiple price lists. Each price list has its own date effectivity for each project contract. Project Operations doesn't support overlapping date-effectivity on project price lists.
+Use project price lists to set default prices, not cost rates, for time, expense, and other project-related components. You can have multiple price lists. Each price list has its own date effectivity for each project contract. Project Operations doesn't support overlapping date effectivity on project price lists.
 
 When you create a project contract by winning a project quote, you copy project price lists with the contract name and date included. Copying this information constitutes custom pricing for project components on this project contract.
 
@@ -68,7 +68,7 @@ Projects and tasks represent work entities. Contract lines represent billing ent
 
 ## Multicustomer deals
 
-Multicustomer deals have more than one customer to invoice on a deal. Common examples of this type of deal include the following examples:
+Multicustomer deals include more than one customer to invoice on a deal. Common examples of this type of deal include the following examples:
 
 - OEM Enterprises and their partners: Partners and resellers sell a product with some value-added services, typically involving a particular deal with a customer. The OEM offers to finance a portion of the project.
 

@@ -4,7 +4,7 @@
 title: New Quote form experience
 description: This article provides information about the updates to the project quotes form in Microsoft Dynamics 365 Project Operations.
 author: poojafandan
-ms.date: 1/3/2025
+ms.date: 02/25/2026
 ms.topic: concept-article
 ms.custom: bap-template
 ms.reviewer: johnmichalak
@@ -17,7 +17,7 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 
 This article provides information about the updates to the project quotes form in Microsoft Dynamics 365 Project Operations.
 
-We're releasing the initial version of our new quote experience. The goal is to improve the overall user experience, uptake new platform capabilities, and simplify user interactions when a quote is created.
+We're releasing the initial version of our new quote experience. The goal is to improve the overall user experience, uptake new platform capabilities, and simplify user interactions when creating a quote.
 
 Here are some of the features:
 
@@ -28,17 +28,17 @@ Here are some of the features:
 
 ## Usage changes
 
-The number of tabs in the **Quote** form was significantly reduced. This section describes the changes and where to find them.
+The number of tabs in the **Quote** form is significantly reduced. This section describes the changes and where to find them.
 
 ### Summary tab
 
-All the related tabs for the quote are moved to the **Summary** tab. The quote summary tab provides a comprehensive view of a quote’s financial health, including customer budget, profitability, scheduled delivery date, and cost-revenue breakdown over time. This page enables you to track and manage quote details efficiently, ensuring alignment with project financial and business objectives.
+The **Summary** tab now contains all the related tabs for the quote. The quote summary tab provides a comprehensive view of a quote’s financial health, including customer budget, profitability, scheduled delivery date, and cost-revenue breakdown over time. You can track and manage quote details efficiently, ensuring alignment with project financial and business objectives.
 
 ### Project Lines tab
 
-The **Project Lines** tab allows you to view project quote lines and the attached quote line details within the same grid, with the latter appearing in an expandable, nested grid.
+The **Project Lines** tab shows project quote lines and the attached quote line details within the same grid. The quote line details appear in an expandable, nested grid.
 
-For each quote line, you have details on the billing method, invoice schedule type, project association, and budget performance that includes transaction classes, discount and fee, margin percentage, and extended amount for the quote line. Expanding the quote line displays all the quote line details under the quote line.
+For each quote line, you see details on the billing method, invoice schedule type, project association, and budget performance. The budget performance includes transaction classes, discount and fee, margin percentage, and extended amount for the quote line. When you expand the quote line, you see all the quote line details under the quote line.
 
 You can create a new quote line or delete an existing line from this view. You can also import the project estimates for a quote line to create new quote line details directly from this view. You can also manually create new quote line details directly from this tab.
 
@@ -65,16 +65,16 @@ To update the KPIs, select **Recalculate** on the quote.
 
 
 ## Use role price override within Quote and Quote Line form
-The Price Override button, integrated into the Quote and Quote Line form, facilitates the modification of price overrides for quote line details. This functionality significantly reduces the number of clicks and streamlines the process of adjusting prices while maintaining focus within the context of each specific quote line detail.
+The **Price Override** button, integrated into the Quote and Quote Line form, facilitates the modification of price overrides for quote line details. This functionality significantly reduces the number of clicks and streamlines the process of adjusting prices while maintaining focus within the context of each specific quote line detail.
 
 **Usage Instructions:**
 Select the quote line detail that requires price adjustment. To initiate the price modification process, select **Price Override**. A flyout appears allowing you to edit the price while retaining the context of the quote line detail.
 
 **Functionality:**
-If an existing price override exists, the new price is automatically updated. In cases where no existing override is present, a new price override is updated. The Price Override button illuminates only if the price you're editing is sourced from the role price list.
+If an existing price override exists, the new price automatically updates it. In cases where no existing override is present, the new price creates a price override. The **Price Override** button appears only if the price you're editing comes from the role price list.
 
 **More information:**
-The scope of the price override is automatically configured to the respective quote. 
+The scope of the price override automatically configures to the respective quote. 
 
 
 
