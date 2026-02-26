@@ -28,8 +28,8 @@ Dynamics 365 Project Operations consists of two components:
 | **Station**   | **Geographical Location**                                                                                           |
 |---------------|---------------------------------------------------------------------------------------------------------------------|
 | **Station 1** | First Release (FRE)                                                                                                 |
-| **Station 2** | South America, Canada, India, France, South Africa, Switzerland, Korea, Germany, Norway                             |
-| **Station 3** | Asia-Pacific, United Kingdom, Japan, United Arab Emirates, US Government Community Cloud High (GCC High)            |
+| **Station 2** | South America, Canada, India, France, South Africa, Switzerland, Korea, Germany, and Norway                             |
+| **Station 3** | Asia-Pacific, United Kingdom, Japan, United Arab Emirates, and US Government Community Cloud High (GCC High)            |
 | **Station 4** | Europe, Middle East, and Africa                                                                                     |
 | **Station 5** | North America and Australia                                                                                         |
 
