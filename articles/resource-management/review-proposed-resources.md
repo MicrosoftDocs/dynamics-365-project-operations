@@ -3,7 +3,7 @@ title: Review proposed resources
 description: This article provides information about how to propose project resources.
 author: tulsij
 ms.author: dishantpopli
-ms.date: 01/23/2026
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template 

@@ -3,7 +3,7 @@ title: Extending time entries
 description: This article provides information about how developers are able to extend the time entry control.
 author: mohitmenon
 ms.author: mohitmenon
-ms.date: 05/22/2024
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -23,7 +23,7 @@ Dynamics 365 Project Operations includes an extendable time entry custom control
 - Time entry through HH:mm or HH.hh (automatically converts to HH.hh)
 - Import from assignments, bookings, or appointments
 
-Extending time entries is possible in two areas:
+You can extend time entries in two areas:
 - [Add custom time entries for your own use](#add)
 - [Customize the weekly Time Entry control](#customize)
 
@@ -36,7 +36,7 @@ Time entries are a core entity used in multiple scenarios. In April Wave 1 2020,
 | Field | Description | 
 |-------|------------|
 | Name  | The name of the Time source entry used as the selection value when creating time entries. |
-| Default Time Source [Time Source: isdefault] | By default, only one Time Source can be marked at the default. This allows for entries to default to a time source if one isn't specified. |
+| Default Time Source [Time Source: isdefault] | By default, mark only one Time Source as the default. This feature sets the default time source for entries if you don't specify one. |
 |Time Source Type [Time Source: sourcetype] | The source type is an option (Time Entry Source Type) that allows for the association of the time source to an app. Microsoft reserves values greater than 190,000,000.|
 
 
@@ -77,8 +77,8 @@ Developers can add additional fields and lookups to other entities, and implemen
 There are three main steps to adding a custom field to the weekly time entry grid.
 
 1. Add the custom field to the **Quick create** dialog box.
-2. Configure the grid to show the custom field.
-3. Add the custom field to the **Row edit** or **Time entry edit** page, as appropriate.
+1. Configure the grid to show the custom field.
+1. Add the custom field to the **Row edit** or **Time entry edit** page, as appropriate.
 
 Make sure that the new field has the required validations on the **Row edit** or **Time entry edit** page. As part of this task, lock the field, based on the status of the time entry.
 
@@ -106,7 +106,7 @@ To add the custom field to a page, drag a **Field** element into the appropriate
 To add option set values to an out-of-box field, follow these steps:
 
 1. Open the editing page for the field, and then, under **Type**, select **Edit** next to the option set.
-2. Add a new option that has a custom label and color. If you want to add a new time entry status, the out-of-box field is named **Entry Status**.
+1. Add a new option that has a custom label and color. If you want to add a new time entry status, the out-of-box field is named **Entry Status**.
 
 ### Designate a new time entry status as read-only
 To designate a new time entry status as read-only, add the new time entry value to the **Read-only Status List** property. Be sure to add the number, not the label. The editable part of the time entry grid will now be locked for rows that have the new status. To set the **Read-only Status List** property differently for different **Time Entry** views, add the **Time entry** grid in a view's **Custom controls** section, and configure the parameters as appropriate.

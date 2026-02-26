@@ -3,7 +3,7 @@ title: Project stages
 description: This article provides information about the project stages that are available in Microsoft Dynamics Project Operations.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 05/24/2024
+ms.date: 02/26/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -15,9 +15,9 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-Project stages are designed to reflect the state of the project as it progresses. Customizations can be used to automatically update the stages with business process flows, Power Automate, or plug-in extensions.
+Project stages reflect the state of the project as it progresses. You can customize the project stages to automatically update with business process flows, Power Automate, or plug-in extensions.
 
-The following stages are defined in the default business process flow:
+The default business process flow defines the following stages:
 
 - New
 - Quote
@@ -28,7 +28,7 @@ The following stages are defined in the default business process flow:
 
 ## New
 
-When you create a project, the project stage is set to **New**. If the project was created from a template, it might have schedule, estimate, and team data. Otherwise, it's an outline of the project, and the remaining components must be entered.
+When you create a project, the project stage is set to **New**. If you create the project from a template, it might have schedule, estimate, and team data. Otherwise, it's an outline of the project, and you must enter the remaining components.
 
 ## Quote
 
@@ -36,7 +36,7 @@ When you associate a project with a quote, or when you create a project from a q
 
 ## Plan
 
-When you win a quote that is associated with a project, and the project is moved to the **Contract** phase, the project stage is updated to **Plan**. While the project is in the **Plan** stage, the **Sales** tab on the **Project Entity** page shows details of the contract.
+When you win a quote that you associated with a project, and you move the project to the **Contract** phase, the project stage updates to **Plan**. While the project is in the **Plan** stage, the **Sales** tab on the **Project Entity** page shows details of the contract.
 
 ## Deliver
 

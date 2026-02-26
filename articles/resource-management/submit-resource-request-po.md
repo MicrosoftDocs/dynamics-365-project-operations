@@ -4,7 +4,7 @@ description: This article provides information about submitting a request for a 
 ms.custom: 
   - dyn365-projectservice
   - evergreen
-ms.date: 01/23/2026
+ms.date: 02/26/2026
 ms.update-cycle: 1095-days
 ms.topic: how-to
 author: JohnPBurrows
@@ -25,7 +25,7 @@ You can submit a generated resource requirement as a resource request. The syste
 1. In Project Operations, on the **Projects** page, select the **Team** tab to view a list of bookable resources. 
 1. Select the generic resource that has a resource requirement from the list and then select **Submit Request**.
 
-![Submitting a resource request.](media/submit-request.png)
+:::image type="content" source="media/submit-request.png" alt-text="Screenshot of submitting a resource request.":::
 
 The request status of the generic team member changes to **Submitted**.
 

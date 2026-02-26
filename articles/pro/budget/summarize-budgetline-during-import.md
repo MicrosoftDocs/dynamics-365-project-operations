@@ -2,7 +2,7 @@
 title: Summarize budget lines during import
 description: This article explains how budget lines can be summarized during import.
 author: niranjanmaski
-ms.date: 06/24/2024
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -18,11 +18,11 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 
 You can import budget lines from different sources, such as estimates, quote line details, or contract line details. Each of these sources can have many lines.
 
-For example, if you assign all resources to tasks, you get an estimate for every resource. However, you might want to track budgets at a higher level, such as the task level. In this case, you can use the summarization feature when you import budget lines, and group them by task. In this way, the estimates of all resources for a task form one budget line. Because the number of budget lines equals the number of tasks, management is easier.
+For example, if you assign all resources to tasks, you get an estimate for every resource. However, you might want to track budgets at a higher level, such as the task level. In this case, use the summarization feature when you import budget lines, and group them by task. In this way, the estimates of all resources for a task form one budget line. Because the number of budget lines equals the number of tasks, management is easier.
 
 ## Summarize budget lines during the import process
 
-Summarization options are available as part of the import process. Follow these steps to summarize budget lines during import.
+The import process provides options for summarization. Follow these steps to summarize budget lines during import.
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. In the left navigation, change the area to **Projects**.
@@ -35,11 +35,11 @@ Summarization options are available as part of the import process. Follow these 
 1. In the **Cost budget line import options** section, select the summarization options for **Time**, **Expense**, and **Material** cost budget lines.
 1. In the **Sales budget line import options** section, select the summarization options for **Time**, **Expense**, and **Material** sales budget lines.
 
-For each transaction class, the dimensions that appear as summarization options are based on the budget match priority. If you select a lower-priority match priority dimension, all higher-priority dimensions are also considered summarized options.
+For each transaction class, the dimensions that appear as summarization options are based on the budget match priority. If you select a lower-priority match priority dimension, you also consider all higher-priority dimensions as summarized options.
 
-Budget lines are summarized in such a way that the actual matching that runs based on the budget match priority is successful.
+Summarize budget lines in a way that the actual matching that runs based on the budget match priority is successful.
 
 > [!NOTE]
-> By default, budget match priorities for both cost budget lines and sales budget lines are defined at the project parameter level. Any budget match priorities that are defined at the project level take the precedence. For more information, see [Budget line match priority](budget-line-match-priority.md).
+> By default, the system defines budget match priorities for both cost budget lines and sales budget lines at the project parameter level. Any budget match priorities that you define at the project level take precedence. For more information, see [Budget line match priority](budget-line-match-priority.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

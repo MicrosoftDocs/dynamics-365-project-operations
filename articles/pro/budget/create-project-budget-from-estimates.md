@@ -2,7 +2,7 @@
 title: Create a project budget from estimates
 description: This article explains how to create a project budget from estimates.
 author: niranjanmaski
-ms.date: 06/24/2024
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -20,21 +20,21 @@ This article explains how to create a project budget from estimates.
 
 ## Enable the project budget feature
 
-Project budgeting capabilities are enabled only if the feature flag is enabled.
+Project budgeting capabilities are available only if the feature flag is enabled.
 
 > [!NOTE]
-> After the project budget feature is enabled in an organization, it can't be disabled. However, you don't have to create a budget for every project.
+> After you enable the project budget feature in an organization, you can't disable it. However, you don't need to create a budget for every project.
 
 To enable project budgeting, follow these steps:
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. In the left navigation, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
-1. You should see a list of organization units. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
+1. You see a list of organization units. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
 1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
 1. Select **Enable Project Budgeting Feature Flag**.
 
-After you enable the project cost budget feature, the page is refreshed, and a **Budget match priorities** tab is added.
+After you enable the project cost budget feature, the page refreshes, and a **Budget match priorities** tab is added.
 
 ## Create a budget from estimates
 

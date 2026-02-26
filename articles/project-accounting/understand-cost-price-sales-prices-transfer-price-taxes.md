@@ -3,7 +3,7 @@ title: Understand how cost prices, sales prices, transfer prices, and taxes work
 description: This article helps you understand how cost prices, sales prices, transfer prices, and taxes work together.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 05/24/2024
+ms.date: 02/26/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -21,35 +21,35 @@ You must configure several prices to calculate and determine the internal organi
 
 Project cost prices exist in several areas in Project management and accounting, such as timesheets, journals, item requirements, purchase orders, and expenses. Cost prices don't apply to fees or subscriptions. They apply to all project types. 
 
-- Cost prices for hours are configured at **Project Management and accounting** \> **Setup** \> **Cost price - (hour)**.
-- Cost prices for expenses are configured at **Project Management and accounting** \> **Setup** \> **Cost price - (expense)**.
-- Cost prices for items are configured in Inventory Management.
+- Configure cost prices for hours at **Project Management and accounting** \> **Setup** \> **Cost price - (hour)**.
+- Configure cost prices for expenses at **Project Management and accounting** \> **Setup** \> **Cost price - (expense)**.
+- Configure cost prices for items in Inventory Management.
 
 ### Sales prices
 
 Sales prices exist for the previously mentioned documents, and they include fees and subscriptions. Sales prices apply differently, depending on the project type. For example, item sales prices don't apply to a fixed price project, but fee prices do apply. Sales prices apply to all document types in time and material projects.
 
-- Sales prices for hours are configured at **Project Management and accounting** \> **Setup** \> **Sales price - (hour)**
-- Sales prices for expenses are configured at **Project Management and accounting** \> **Setup** \> **Sales price - (expense)**
-- Sales prices for fees are configured at **Project Management and accounting** \> **Setup** \> **Sales price - (fee)**
-- Sales prices for expenses are configured at **Project Management and accounting** \> **Setup** \> **Sales price - (subscription)**
-- Sales prices for items are configured in Inventory Management.
+- Configure sales prices for hours at **Project Management and accounting** \> **Setup** \> **Sales price - (hour)**.
+- Configure sales prices for expenses at **Project Management and accounting** \> **Setup** \> **Sales price - (expense)**.
+- Configure sales prices for fees at **Project Management and accounting** \> **Setup** \> **Sales price - (fee)**.
+- Configure sales prices for subscriptions at **Project Management and accounting** \> **Setup** \> **Sales price - (subscription)**.
+- Configure sales prices for items in Inventory Management.
 
 ### Transfer prices
 
 Transfer prices exist for hours, expenses, and vendor invoices.
 
-Transfer prices define sales prices for workers who work on projects in related legal entities, for project expenses in other legal entities, and for purchased goods that are transferred to related legal entities.
+You use transfer prices to set sales prices for workers who work on projects in related legal entities, for project expenses in other legal entities, and for purchased goods that you transfer to related legal entities.
 
-For a lending legal entity, the transfer price for an **Hour** transaction type is used as the sales price for hours that a worker spends working on a project for another legal entity in your organization. The transfer price for an **Expense** or **Vendor invoice line** transaction type is used as the value of costs that one legal entity incurs, and that a related legal entity then reimburses to that legal entity. The transfer price for these transaction types represents a project cost for the borrowing legal entity.
+For a lending legal entity, use the transfer price for an **Hour** transaction type as the sales price for hours that a worker spends working on a project for another legal entity in your organization. Use the transfer price for an **Expense** or **Vendor invoice line** transaction type as the value of costs that one legal entity incurs, and that a related legal entity then reimburses to that legal entity. The transfer price for these transaction types represents a project cost for the borrowing legal entity.
 
-You can set up a transfer price that applies to all project work and expenses that are recorded in a borrowing legal entity. Alternatively, you can set specific prices for any combination of worker, project, transaction type, and category criteria for each borrowing legal entity.
+You can set up a transfer price that applies to all project work and expenses that you record in a borrowing legal entity. Alternatively, set specific prices for any combination of worker, project, transaction type, and category criteria for each borrowing legal entity.
 
 Before you can use the transfer prices that you set up, you must enable the **Enable intercompany resource scheduling and timesheets** option on the **Intercompany** tab of the **Project management and accounting parameters** page.
 
 ## Taxes
 
-The calculation of taxes can have an impact on both your cost price and your sales price. This impact is most noticeable in scenarios where the prices that you enter include tax, and a calculation is done to determine the individual costs, taxes, and sales prices.
+The calculation of taxes can affect both your cost price and your sales price. You see this effect most clearly in scenarios where the prices that you enter include tax, and a calculation is done to determine the individual costs, taxes, and sales prices.
 
 ### Enable the Streamline cost price and sales price calculations feature
 
@@ -92,3 +92,5 @@ These same rules are applied to determine the project cost and sales price when 
 | No | Yes | 0 | 1,000 | 1,050 | 1,000 &divide; 1.05 = 952.38 | 952.38 &times; 1.05 markup = 1,000 | Divide the original amount by 1 + tax rate for cost without tax. |
 | Yes | Yes | 0 | 1,000 | 1,050 | 1,000 &divide; 1.05 = 952.38 + 47.62 tax = 1,000 | 952.38 &times; 1.05 markup &times; 1.05 tax = 1,050 | Divide the original amount by 1 + tax rate for cost without tax. |
 | No | Yes | 20 | 1,000 | 1,050 | 1,000 &divide; 1.05 = 952.38 + 9.52 tax = 961 | 952.38 &times; 1.05 markup &times; 1.01 tax = 1,010 | <p>5% tax multiplied by 20% non-deductible = 1%</p><p>20% of 47.62 tax amount = 9.52</p> |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

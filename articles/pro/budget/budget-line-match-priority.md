@@ -2,7 +2,7 @@
 title: Budget line match priority
 description: This article explains how budget line match priority works for project budgets.
 author: niranjanmaski
-ms.date: 06/24/2024
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,16 +16,16 @@ ms.author: nimaski
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
-Budget line match priority defines the order in which an actual is matched against the different dimensions of budget lines.
+Budget line match priority defines the order in which an actual cost matches against the different dimensions of budget lines.
 
-As part of the solution update that includes project budgeting, the Budget line match priority table is created in the solution.
+As part of the solution update that includes project budgeting, the system creates the Budget line match priority table.
 
 You enable the project budget feature by using a feature flag. For more information, see [Enable the project cost budget feature](create-delete-project-budget.md#enable-the-project-cost-budget-feature).
 
 > [!NOTE]
-> After the project budget feature is enabled in an organization, it can't be disabled. However, you don't have to create a budget for every project.
+> After you enable the project budget feature in an organization, you can't disable it. However, you don't have to create a budget for every project.
 
-After the feature flag is enabled, the **Budget match priorities** tab should appear on the project parameters main page. This tab shows the following default rows that are applicable for the **Time**, **Expense**, and **Material** transaction classes in the context of a class.
+After you enable the feature flag, the **Budget match priorities** tab appears on the project parameters main page. This tab shows the following default rows that are applicable for the **Time**, **Expense**, and **Material** transaction classes in the context of a class.
 
 | Field name | Applicable transaction class | Context | Budget match priority |
 |---|---|---|---|
@@ -61,7 +61,7 @@ After the feature flag is enabled, the **Budget match priorities** tab should ap
 | msdyn\_bookableresource | Time | Sales | 40 |
 
 > [!NOTE]
-> msydn_unitschedule with the display name Unit Group, is a match priority which cannot be updated or deleted. This match priority ensures that the unit match and conversion happens in a right way.
+> The msydn_unitschedule field with the display name Unit Group is a match priority that you can't update or delete. This match priority ensures that the unit match and conversion happens in the right way.
 
 ## How does budget match priority work?
 

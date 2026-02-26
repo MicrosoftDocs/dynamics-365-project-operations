@@ -3,7 +3,7 @@ title: Project sales tracking
 description: This article provides information about how Project Operations tracks progress against labor revenue on a project.
 author: poojafandan
 ms.author: poojafandan
-ms.date: 06/07/2024
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-Dynamics 365 Project Operations tracks labor estimates and revenue at the lowest required granularity on a project plan. The estimate of labor revenue is based on the planned effort and the generic or named resources that are assigned to each leaf node task in the project plan. When the project begins and people start to report time on various project tasks, the actual revenue on labor is summarized which starts a calculation of the projections.
+Dynamics 365 Project Operations tracks labor estimates and revenue at the lowest required granularity on a project plan. The estimate of labor revenue is based on the planned effort and the generic or named resources that you assign to each leaf node task in the project plan. When the project begins and people start to report time on various project tasks, the actual revenue on labor is summarized which starts a calculation of the projections.
 
 ## Labor revenue tracking view
 
@@ -51,9 +51,9 @@ Labor revenues on a leaf node task can't be directly reprojected on the **Tracki
 
 1. A project manager can reproject effort on tasks by updating the default value in the **Remaining Effort** field with a new estimate of the remaining effort on the task. 
 Reprojecting causes a recalculation of the task's effort estimate at complete (EAC), progress percentage, and the projected effort variance on a task. The EAC, estimate to complete (ETC), and progress percentage on the summary tasks are also recalculated and produce a new projection of effort variance.
-2. Based on the new value for the remaining effort on the task, the system calculates the remaining revenue on the **Revenue Tracking** view. To calculate the remaining revenue based on the remaining effort, the system first calculates the average revenue of one hour of effort on the task as planned revenue or planned effort. The planned revenue is the sum of the revenue of all resource assignments on the task. The average revenue per hour is used to compute the remaining revenue for the newly projected remaining effort on the task.
-3. The estimated revenue at complete and revenue consumption percentage on the leaf node task are re-calculated.
-4. The revenue at complete value of the summary tasks all the way to the root node are recalculated.
+1. Based on the new value for the remaining effort on the task, the system calculates the remaining revenue on the **Revenue Tracking** view. To calculate the remaining revenue based on the remaining effort, the system first calculates the average revenue of one hour of effort on the task as planned revenue or planned effort. The planned revenue is the sum of the revenue of all resource assignments on the task. The average revenue per hour is used to compute the remaining revenue for the newly projected remaining effort on the task.
+1. The estimated revenue at complete and revenue consumption percentage on the leaf node task are re-calculated.
+1. The revenue at complete value of the summary tasks all the way to the root node are recalculated.
 
 ## Reprojecting revenues on summary tasks
 
@@ -61,11 +61,11 @@ You can reproject labor revenue on summary tasks or container tasks. However, yo
 
 1. A project manager can reproject effort on tasks by updating the default value in the **Remaining Effort** field with a new estimate of the **Remaining Effort** on the task. 
 Reprojecting causes a recalculation of the task's estimate at complete (EAC), progress percentage, and the projected effort variance on a task. The EAC, ETC, and progress percentage on the summary tasks are also recalculated and produce a new projection of effort variance.
-2. Based on the new value in the **Remaining effort** field on the task, the system calculates the remaining revenue in the **Revenue Tracking** view. To calculate the remaining revenue based on remaining effort, the system first calculates the average revenue of one hour of effort on the task as planned revenue or planned effort. The planned revenue is the sum of the revenue of all resource assignments on the task. This average revenue per hour  is then used to calculate the revenue of the newly projected remaining effort on the task.
-3. The estimated revenue at complete and revenue consumption percentages on the summary task are re-calculated.
-4. The new value for the estimated revenue at complete is distributed down to the child tasks in the same proportion as the original planned revenue was on the task.
-5. The new estimated revenue at complete on each of the individual tasks down to the leaf node tasks is calculated. Based on this value, the affected child tasks down to the leaf nodes will have their remaining revenue and revenue consumption percentage recalculated based on the revenue at complete value. This results in a new projection for the revenue variance of the task. 
-6. The revenue at complete value of the summary tasks all the way to the root node are recalculated.
+1. Based on the new value in the **Remaining effort** field on the task, the system calculates the remaining revenue in the **Revenue Tracking** view. To calculate the remaining revenue based on remaining effort, the system first calculates the average revenue of one hour of effort on the task as planned revenue or planned effort. The planned revenue is the sum of the revenue of all resource assignments on the task. This average revenue per hour  is then used to calculate the revenue of the newly projected remaining effort on the task.
+1. The estimated revenue at complete and revenue consumption percentages on the summary task are re-calculated.
+1. The new value for the estimated revenue at complete is distributed down to the child tasks in the same proportion as the original planned revenue was on the task.
+1. The new estimated revenue at complete on each of the individual tasks down to the leaf node tasks is calculated. Based on this value, the affected child tasks down to the leaf nodes will have their remaining revenue and revenue consumption percentage recalculated based on the revenue at complete value. This results in a new projection for the revenue variance of the task. 
+1. The revenue at complete value of the summary tasks all the way to the root node are recalculated.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

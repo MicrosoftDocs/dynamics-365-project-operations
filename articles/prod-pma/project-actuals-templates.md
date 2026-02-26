@@ -3,7 +3,7 @@ title: Synchronize project actuals directly from Project Service Automation to t
 description: This article describes the templates and underlying tasks that are used to synchronize project actuals directly from Microsoft Dynamics 365 Project Service Automation to finance and operations.
 author: suvaidya
 ms.author: nshrivastava
-ms.date: 06/10/2024
+ms.date: 02/26/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -80,7 +80,7 @@ In the project actuals template, use Microsoft Power Query for Excel to complete
 
 To update the inserted conditional column in the template, select the **Map** arrow to open the mapping. Select the **Advanced Query and Filtering** link to open Power Query.
 
-- If you're using the default Project actuals (PSA to Fin and Ops) template, in Power Query, select the last **Inserted Condition** from the **Applied Steps** section. In the **Function** entry, replace **USSI** with the name of the legal entity that should be used with the integration. Add additional conditions to the **Function** entry as you require, and update the **else** condition from **USMF** to the correct legal entity.
+- If you're using the default Project actuals (PSA to Fin and Ops) template, in Power Query, select the last **Inserted Condition** from the **Applied Steps** section. In the **Function** entry, replace **USSI** with the name of the legal entity that should be used with the integration. Add extra conditions to the **Function** entry as needed, and update the **else** condition from **USMF** to the correct legal entity.
 - If you're creating a new template, add the column to support intercompany time and expenses. Select **Add Conditional Column**, and enter a name for the column, such as **LegalEntity**. Enter a condition for the column, where, if **msdyn\_contractorganizationalunitid.msdyn\_name** is \<organizational unit\>, then \<enter the legal entity\>; else null.
 
 ### Template mapping in Data integration
