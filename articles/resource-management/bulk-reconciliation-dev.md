@@ -3,7 +3,7 @@ title: Reconcile projects with Bulk Reconciliation
 description: This article explains how you can reconcile differences between assignments and bookings by using the bulk reconciliation API.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 08/15/2024
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,23 +16,23 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 
 Microsoft Dynamics 365 Project Operations supports the reconciliation of bookings to assignments for the bookable resources on a project. Use this functionality to fix the alignment between bookings and assignments.
 
-*Resource reconciliation* is the process of aligning bookings with assignments when there is a difference between the resource's total booking hours and a rollup of the resource's task assignments for a specific project in each period.
+*Resource reconciliation* is the process of aligning bookings with assignments when there's a difference between the resource's total booking hours and a rollup of the resource's task assignments for a specific project in each period.
 
 The following list describes some of the reasons why bookings and assignments might become out of alignment:
 
-- A project is delayed. As a result, the assignments and therefore the contours are moved.
-- A project is paused or moved. As a result, the assignments are moved. Therefore, excess bookings and booking shortages occur and cause more delays.
-- A resource's calendar is modified. As a result, the contours are modified.
-- A project's calendar is modified.
+- A project delay moves the assignments and therefore the contours.
+- A project pause or move moves the assignments. Therefore, excess bookings and booking shortages cause more delays.
+- A resource calendar modification changes the contours.
+- A project's calendar modification.
 - One or more tasks are assigned to a resource, but the resource isn't booked.
 - A resource is assigned and booked, but then a new resource is assigned.
 
-Currently, the [resource reconciliation](resource-reconciliation-overview.md) functionality in Project Operations allows for limited reconciliation. Customers should use the **Bulk Reconciliation** custom action to efficiently reconcile bookings for entire projects at one time.
+Currently, the [resource reconciliation](resource-reconciliation-overview.md) functionality in Project Operations supports limited reconciliation. Use the **Bulk Reconciliation** custom action to efficiently reconcile bookings for entire projects at one time.
 
 ## Key concepts
 
 - **Assignments** – Assignments are part of the project planning and tracking process. Project managers use them to commit resources or assign them to project tasks in the project schedule.
-- **Bookings** – Bookings are the hard or soft allocation of resources to a project. Depending on the booking method that is used, bookings typically consume a bookable resource's capacity.
+- **Bookings** – Bookings are the hard or soft allocation of resources to a project. Depending on the booking method that you use, bookings typically consume a bookable resource's capacity.
 - **Contours** – Contours represent the distribution of the assignment hours per day.
 
 ## Bulk Reconciliation custom action
@@ -43,9 +43,9 @@ msdyn\_ResourceReconciliation
 
 ### Input parameters
 
-There are four input parameters. All of them must be defined and non-null.
+Define and provide non-null values for these four input parameters.
 
-The following table provides a summary of the four parameters.
+The following table summarizes the four parameters.
 
 | Parameter               | Type              | Value |
 |-------------------------|-------------------|-------|
@@ -56,13 +56,13 @@ The following table provides a summary of the four parameters.
 
 ### Validations
 
-Some validations can fail the whole bulk reconciliation process. Other validations can fail individual operations for each resource.
+Some validations fail the whole bulk reconciliation process. Other validations fail individual operations for each resource.
 
 The following validations fail the whole bulk reconciliation process:
 
 - Null checks and retrieves the project to confirm the existence of the project in the organization.
 - The start date is after the end date.
-- The number of bookable resources is more than zero.
+- The number of bookable resources is zero or less.
 
 The following validations fail an individual operation for resource reconciliation:
 
@@ -76,7 +76,7 @@ Currently, the reconciliation grid in the user interface (UI) and the Resource R
 
 ### Reconciliation operation logs
 
-The **Bulk Reconciliation** custom action creates a reconciliation operation log (msdyn\_reconciliationoperationlog) for each resource that is reconciled. The reconciliation operation logs contain error information about failures, details about the number of bookings that were created, information about cancellations, the runtime in seconds, and the reconciliation request ID. Each run of the **Bulk Reconciliation** custom action has a unique request ID. This request ID can be used to find the operations that are associated with a specific bulk reconciliation request.
+The **Bulk Reconciliation** custom action creates a reconciliation operation log (msdyn\_reconciliationoperationlog) for each resource that it reconciles. The reconciliation operation logs contain error information about failures, details about the number of bookings that were created, information about cancellations, the runtime in seconds, and the reconciliation request ID. Each run of the **Bulk Reconciliation** custom action has a unique request ID. Use this request ID to find the operations that are associated with a specific bulk reconciliation request.
 
 | Logical name                      | Type            | Description |
 |-----------------------------------|-----------------|-------------|
@@ -137,3 +137,5 @@ public class BulkReconciliationSample
     }
 }
 ```
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

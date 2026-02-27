@@ -18,21 +18,21 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 
 ## Enable the project sales budget feature
 
-Project cost and sales budgeting capabilities are enabled only if the feature flag is enabled.
+You can enable project cost and sales budgeting capabilities only if the feature flag is enabled.
 
 > [!NOTE]
-> After the project budget feature is enabled in an organization, it can't be disabled. However, you don't have to create a budget for every project.
+> After you enable the project budget feature in an organization, you can't disable it. However, you don't have to create a budget for every project.
 
 To enable project cost and sales budgeting, follow these steps:
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. In the left navigation, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
-1. You should see a list of organization units. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
+1. You see a list of organization units. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
 1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
 1. Select **Enable Project Budgeting Feature Flag**.
 
-After you enable the project cost and sales budget feature, the page is refreshed, and a **Budget match priorities** tab is added. You should see that budget match priorities were created for both the **Cost** context and the **Sales** context.
+After you enable the project cost and sales budget feature, the page refreshes, and a **Budget match priorities** tab is added. You see that budget match priorities were created for both the **Cost** context and the **Sales** context.
 
 ## Create a project sales budget
 
@@ -42,12 +42,12 @@ To create a project sales budget, follow these steps:
 1. In the left navigation, change the area to **Projects**.
 1. Select the project to create a budget for.
 1. On the project's main page, on the Action Pane, select **Create Budget**.
-1. To manually create the budget, select **Manual**. A **Budget** tab is added to the page. It includes a blank grid for budget lines.
-1. To create budget lines, select **New Project Budget Line**.
-1. In the quick create dialog box, in the **Context** field, select **Sales** to create a sales budget line.
+1. Select **Manual** to manually create the budget. A **Budget** tab is added to the page. It includes a blank grid for budget lines.
+1. Select **New Project Budget Line** to create budget lines.
+1. In the quick create dialog box, select **Sales** in the **Context** field to create a sales budget line.
 
 > [!NOTE]
-> Only one sales budget can be created for each project.
+> You can create only one sales budget for each project.
 
 ## Create sales budget lines
 
@@ -62,7 +62,7 @@ To manually create sales budget lines, follow the steps in the following article
 ## Delete a project sales budget
 
 > [!NOTE]
-> A project sales budget can be deleted only if the budget is in either **Draft** or **Rejected** status. It can't be deleted if it's in **Review**, **Approved**, or **Revised** status.
+> You can delete a project sales budget only if the budget is in **Draft** or **Rejected** status. You can't delete the budget if it's in **Review**, **Approved**, or **Revised** status.
 
 To delete a project sales budget, follow these steps:
 

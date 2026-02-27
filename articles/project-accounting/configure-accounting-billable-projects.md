@@ -3,7 +3,7 @@ title: Configure accounting for billable projects
 description: This article provides information about the accounting options for billable projects.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 05/24/2024
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -17,18 +17,18 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 
 Dynamics 365 Project Operations supports various accounting options for billable projects that include time and material and fixed price transactions.
 
-- **Time and material transactions**: These transactions are invoiced as the work progresses based on the consumption of hours, expenses, items, or fees on the project. These transaction costs can be matched with the revenue on each transaction and the project is invoiced as work progresses. Project revenue can be also accrued at the time when the transaction occurs. During invoicing, revenue is recognized and if applicable, accrued revenue is reversed.
-- **Fixed-price transactions**: These transactions are invoiced according to a billing schedule that is based on the project contract. Revenue for fixed price transactions can be recognized at invoicing or calculated and posted periodically, according to the **Completed contract** or **Completed percentage** methods.
+- **Time and material transactions**: Invoice these transactions as the work progresses. Base the invoice on the consumption of hours, expenses, items, or fees on the project. You can match these transaction costs with the revenue on each transaction. Invoice the project as work progresses. You can also accrue project revenue at the time when the transaction occurs. During invoicing, revenue is recognized and if applicable, accrued revenue is reversed.
+- **Fixed-price transactions**: Invoice these transactions according to a billing schedule that is based on the project contract. You can recognize revenue for fixed price transactions at invoicing or calculate and post it periodically, according to the **Completed contract** or **Completed percentage** methods.
 
-A project is considered billable when it's associated with one or more contract lines. A project contract line defines for itself which billing method and transaction types are allowed.
+A project is billable when it's associated with one or more contract lines. A project contract line defines for itself which billing method and transaction types are allowed.
 
-As an example, Fabrikam Robotics has won a project contract with Adatum corporation for equipment optimization. Adatum pays a fixed amount of $10.000 USD to cover incurred project expenses. This is a fixed price billing method. Project time and fees is billed per use. This is a time and material billing method. All of the work is tracked under a single project named, Adatum equipment optimization.
+For example, Fabrikam Robotics wins a project contract with Adatum corporation for equipment optimization. Adatum pays a fixed amount of $10,000 USD to cover incurred project expenses. This amount uses a fixed price billing method. Project time and fees are billed per use. This method uses a time and material billing method. All of the work is tracked under a single project named, Adatum equipment optimization.
 
 A project team member submits eight hours of work on the Adatum equipment optimization project. When the project manager approves this time, the system uses the time and material billing method to create actuals transactions, an invoice, and an account. This transaction isn't included in the fixed price revenue estimate calculation.
 
-Another project team member submits a travel expense for $2000.00 USD against the Adatum equipment optimization project. When the project manager approves this submission, the system uses a fixed price billing method to create actuals transactions and an account for this project expense. The customer isn't invoiced based on this transaction. Instead, they are invoiced by using separately configured billing milestones. This expense transaction, along with expense estimates, is included in the fixed price revenue estimate calculation.
+Another project team member submits a travel expense for $2,000 USD against the Adatum equipment optimization project. When the project manager approves this submission, the system uses a fixed price billing method to create actuals transactions and an account for this project expense. The customer isn't invoiced based on this transaction. Instead, they are invoiced by using separately configured billing milestones. This expense transaction, along with expense estimates, is included in the fixed price revenue estimate calculation.
 
-Accounting principles for project transactions are defined in project cost and revenue profiles. For every project transaction, the system determines the appropriate project cost and revenue profile by using the project cost and revenue profile rules that have been configured.
+You define accounting principles for project transactions in project cost and revenue profiles. For every project transaction, the system determines the appropriate project cost and revenue profile by using the project cost and revenue profile rules that you configure.
 
 ## Define project cost and revenue profiles 
 
@@ -37,11 +37,11 @@ Project cost and revenue profiles determine the accounting rules for project tra
 Complete the following steps to create a new project cost and revenue profile. 
 
 1. Go to **Project management and accounting** > **Setup** > **Posting** > **Project cost and revenue profiles**. 
-2. Select **New** to create a new project cost and revenue profile.
-3. In the **Name** field, enter the name and a brief description of the profile.
-4. In the **Billing method** field, select **Time and material** or **Fixed price**.
-5. Expand the **Ledger** FastTab. The fields on this tab define the accounting principles that are used when project transactions are journalized using the Project Operations integration journal and then invoiced through the Project invoice proposal.
-6. Select the appropriate information in the following fields on the **Ledger** FastTab:
+1. Select **New** to create a new project cost and revenue profile.
+1. In the **Name** field, enter the name and a brief description of the profile.
+1. In the **Billing method** field, select **Time and material** or **Fixed price**.
+1. Expand the **Ledger** FastTab. The fields on this tab define the accounting principles that are used when project transactions are journalized using the Project Operations integration journal and then invoiced through the Project invoice proposal.
+1. Select the appropriate information in the following fields on the **Ledger** FastTab:
 
     - **Post costs – hour**:
 
@@ -77,8 +77,8 @@ Complete the following steps to create a new project cost and revenue profile.
   > [!NOTE]
   > The option, **Accrue revenue** is available only when the respective transaction type **Cost** is posted to the profit and loss account.
     
-7. Expand the **Estimate** FastTab. The fields on this tab define the calculation settings for fixed price revenue estimates. The fields on this tab only apply to Project cost and revenue profiles with a billing method of **Fixed–price**.
-8. Select the appropriate information in the following fields on the **Estimate** FastTab:
+1. Expand the **Estimate** FastTab. The fields on this tab define the calculation settings for fixed price revenue estimates. The fields on this tab only apply to Project cost and revenue profiles with a billing method of **Fixed–price**.
+1. Select the appropriate information in the following fields on the **Estimate** FastTab:
 
     - **Principle used for project completion calculations**:
 
@@ -99,23 +99,23 @@ Complete the following steps to create a new project cost and revenue profile.
 
 Time and materials – no WIP
 
-![Cost and revenue profile: Time and materials - no WIP.](media/time-material-no-wip.png)
+:::image type="content" source="media/time-material-no-wip.png" alt-text="Screenshot of Cost and revenue profile: Time and materials - no WIP.":::
 
 Time and materials – WIP (revenue)
 
-![Cost and revenue profile: Time and materials - WIP.](media/time-material-with-wip.png)
+:::image type="content" source="media/time-material-with-wip.png" alt-text="Screenshot of Cost and revenue profile: Time and materials - WIP.":::
 
 Fixed Price – No WIP
 
-![Cost and revenue profile: Fixed price - no WIP.](media/fixed-price-no-wip.png)
+:::image type="content" source="media/fixed-price-no-wip.png" alt-text="Screenshot of Cost and revenue profile: Fixed price - no WIP.":::
 
 Fixed Price – completed contract
 
-![Cost and revenue profile: Fixed price - completed contract.](media/fixed-price-completed-contract.png)
+:::image type="content" source="media/fixed-price-completed-contract.png" alt-text="Screenshot of Cost and revenue profile: Fixed price - completed contract.":::
 
 Fixed Price – percentage completion
 
-![Cost and revenue profile: Fixed price - percentage completion.](media/fixed-price-completed-percentage.png)
+:::image type="content" source="media/fixed-price-completed-percentage.png" alt-text="Screenshot of Cost and revenue profile: Fixed price - percentage completion.":::
 
 
 ## Accounting event examples for sample Project cost and revenue profiles.

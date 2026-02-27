@@ -3,7 +3,7 @@ title: Project scheduling logs
 description: This article provides information and samples that helps you use the Project Scheduling logs to track failures that are related to the Project Scheduling Service and Project Scheduling APIs.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 07/19/2024
+ms.date: 02/26/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -15,15 +15,15 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_, _Project for the Web_
 
-Microsoft Dynamics 365 Project Operations uses [Project for the Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) as its primary scheduling engine. Instead of using the standard Microsoft Dataverse Web application programming interfaces (APIs), Project Operations uses the new Project Scheduling APIs to create, update, and delete project tasks, resource assignments, task dependencies, project buckets, and project teams members. However, when create, update, or delete operations are programmatically run on work breakdown structure (WBS) entities, errors might occur. To track these errors and the history of operations, two new administrative logs have been implemented: **Operation Set** and **Project Scheduling Service (PSS)**. To access these logs, go to **Settings** \> **Schedule Integration**.
+Microsoft Dynamics 365 Project Operations uses [Project for the Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) as its primary scheduling engine. Instead of using the standard Microsoft Dataverse Web application programming interfaces (APIs), Project Operations uses the new Project Scheduling APIs to create, update, and delete project tasks, resource assignments, task dependencies, project buckets, and project team members. However, errors might occur when you programmatically run create, update, or delete operations on work breakdown structure (WBS) entities. To track these errors and the history of operations, the system implements two new administrative logs: **Operation Set** and **Project Scheduling Service (PSS)**. To access these logs, go to **Settings** \> **Schedule Integration**.
 
 The following illustration shows the data model for the Project Scheduling logs.
 
-![Data model for the Project Scheduling logs.](media/LOGDATAMODEL.jpg)
+:::image type="content" source="media/LOGDATAMODEL.jpg" alt-text="Screenshot of the data model for the Project Scheduling logs.":::
 
 ## Operation Set log
 
-The Operation Set log tracks the execution of an operation set that is used to run one or many create, update, or delete operations in a batch on projects, project tasks, resource assignments, task dependencies, project buckets, or project team members. The **Operation in Status** field shows the overall status of the operation set. The details of the operation set payload are captured in related Operation Set Detail records.
+The Operation Set log tracks the execution of an operation set that runs one or many create, update, or delete operations in a batch on projects, project tasks, resource assignments, task dependencies, project buckets, or project team members. The **Operation in Status** field shows the overall status of the operation set. Related Operation Set Detail records capture the details of the operation set payload.
 
 ### Operation Set
 
@@ -31,10 +31,10 @@ The following table shows the fields that are related to the **Operation Set** e
 
 | SchemaName            | Description                                                                                                  | DisplayName            |
 |-----------------------|--------------------------------------------------------------------------------------------------------------|------------------------|
-| msdyn_completedon     | The date/time when the operation set was completed or failed.                                                | CompletedOn            |
+| msdyn_completedon     | The date and time when the operation set completed or failed.                                                | CompletedOn            |
 | msdyn_correlationId   | The **correlationId** value of the request.                                                                  | CorrelationId          |
 | msdyn_description     | The description of the operation set.                                                                        | Description            |
-| msdyn_executedon      | The date/time when the record was run.                                                                       | Executed On            |
+| msdyn_executedon      | The date and time when the record ran.                                                                       | Executed On            |
 | msdyn_operationsetId  | The unique identifier of entity instances.                                                                   | OperationSet           |
 | msdyn_Project         | The project that is related to the operation set.                                                            | Project                |
 | msdyn_projectId       | The **projectId** value of the request.                                                                      | ProjectId (Deprecated) |
@@ -66,15 +66,15 @@ The following table shows the fields that are related to the **Operation Set Det
 
 ## Project Scheduling Service error logs
 
-The Project Scheduling Service error logs capture failures that occur when the Project Scheduling Service tries a **Save** or **Open** operation. There are three supported scenarios where these logs are generated:
+The Project Scheduling Service error logs capture failures that occur when the Project Scheduling Service tries a **Save** or **Open** operation. These logs are generated in three supported scenarios:
 
-- User-initiated actions critically fail (for example, an assignment can't be created because of missing privileges).
+- User-initiated actions critically fail. For example, an assignment can't be created because of missing privileges.
 - The Project Scheduling Service can't programmatically create, update, delete, or perform any other cascading operation on an entity.
-- The user experiences errors when a record fails to open (for example, when a project is opened or a team member's information is updated).
+- The user experiences errors when a record fails to open. For example, when a project is opened or a team member's information is updated.
 
 > [!NOTE]
-> When a log entry is created, the owner of that record is set as the owner of the project record. If that user doesn't have at least user level read access to the **PSS Error Log** table, then no record is created.
-> 
+> When the system creates a log entry, it sets the owner of the project record as the owner of that record. If the user doesn't have at least user-level read access to the **PSS Error Log** table, the system doesn't create a record.
+>
 
 ### Project Scheduling Service log
 
@@ -84,7 +84,7 @@ The following table shows the fields that are included in the Project Scheduling
 |---------------------|--------------------------------------------------------------------------------|----------------|
 | msdyn_CallStack     | The call stack of the exception.                                               | Call Stack     |
 | msdyn_correlationId | The correlation ID of the error.                                               | CorrelationId  |
-| msdyn_errorcode     | A field that is used to store the Dataverse error code or the HTTP error code. | Error Code     |
+| msdyn_errorcode     | A field that stores the Dataverse error code or the HTTP error code.           | Error Code     |
 | msdyn_HelpLink      | A link to the public Help documentation.                                       | Help Link      |
 | msdyn_log           | The log from the Project Scheduling Service.                                   | Log            |
 | msdyn_project       | The project that is associated with the error log.                             | Project        |
@@ -94,7 +94,7 @@ The following table shows the fields that are included in the Project Scheduling
 
 ## Error log cleanup
 
-By default, both Project Scheduling Service error logs and the Operation Set log can be cleaned up every 90 days. Any records that are older than 90 days are deleted. However, by changing the value of the **msdyn_StateOperationSetAge** field on the **Project Parameters** page, administrators can adjust the cleanup range so that it's between 1 and 120 days. Several methods for changing this value are available:
+By default, both Project Scheduling Service error logs and the Operation Set log are cleaned up every 90 days. The system deletes any records that are older than 90 days. However, administrators can change the value of the **msdyn_StateOperationSetAge** field on the **Project Parameters** page to adjust the cleanup range to any value between 1 and 120 days. You can change this value by using several methods:
 
 - Customize the **Project Parameter** entity by creating a custom page and adding the **Stale Operations Set Age** field.
 - Use client code that uses the [WebApi software development kit (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
@@ -121,3 +121,5 @@ By default, both Project Scheduling Service error logs and the Operation Set log
         );
     });
     ```
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

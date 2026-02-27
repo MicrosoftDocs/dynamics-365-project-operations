@@ -2,7 +2,7 @@
 title: Set up labor bill rates
 description: This article provides information about how to set up labor billing rates in Project Operations.
 author: abriccetti
-ms.date: 01/09/2025
+ms.date: 02/27/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -22,8 +22,8 @@ Each price list has a set of role prices or labor rates that are effective for t
 To set up labor bill rates for a sales price list, follow these steps:
 
 1. Create a price list based on the price list header. 
-2. On the **Role Prices** tab, in the subgrid, select **+ New Role Price**. 
-3. In the **Quick Create** pane, enter the role and organization unit combination for which you need to set up the bill rate.
+1. On the **Role Prices** tab, in the subgrid, select **+ New Role Price**. 
+1. In the **Quick Create** pane, enter the role and organization unit combination for which you need to set up the bill rate.
 
 The following table shows the fields that appear on the **General** tab and in the **Quick Create** pane for a role price line. Keep these fields in mind as you create role prices on a sales price list.
 
@@ -52,10 +52,10 @@ When you set up role prices that are relevant in the context of sales pricing, t
 To use all pricing methods and enable cost plus pricing, follow these steps:
 
 1. Go to **Settings** \> **Parameters**.
-2. Open the **Parameters** record.
-3. On the Action Pane, on the **Feature control** tab, select **Enable Cost plus pricing**.
-4. In the confirmation dialog box, select **OK**.
-5. Refresh your browser. This feature is now activated and removed from the selection on the **Feature control** tab.
+1. Open the **Parameters** record.
+1. On the Action Pane, on the **Feature control** tab, select **Enable Cost plus pricing**.
+1. In the confirmation dialog box, select **OK**.
+1. Refresh your browser. This feature is now activated and removed from the selection on the **Feature control** tab.
 
 > [!NOTE]
 > After the cost plus pricing feature is enabled, it can't be disabled.
@@ -91,7 +91,7 @@ For example, a developer from the Robotics division of Fabrikam India working on
 To set up a bill rate, follow these steps:
 
 1. Create a sales price list called *Fabrikam US Bill Rates*, and set the date effectivity.
-2. In the sales price list, enter the following rate information:
+1. In the sales price list, enter the following rate information:
 
     | Role | Organizational unit | Bill rate |
     | --- | --- | --- |
@@ -99,7 +99,7 @@ To set up a bill rate, follow these steps:
     | Developer | Fabrikam Philippines | $90 |
     | Developer | Fabrikam US | $150 |
 
-3. Attach the sales price list, **Fabrikam US Bill Rates** to the project price list of the project contract or to a certain account.
+1. Attach the sales price list, **Fabrikam US Bill Rates** to the project price list of the project contract or to a certain account.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

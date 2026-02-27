@@ -108,3 +108,5 @@ When the system posts a pending vendor invoice, this account is used for the pro
 
 1. In Finance, go to **Project management and accounting** > **Setup** > **Project management and accounting parameters**, and open **Project Operations on Dynamics 365 Dataverse**.
 1. On the **Project category defaults** tab, in the **Item** field, select a value. This project category is used for material transactions if the project category wasn't set on the project actuals record.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

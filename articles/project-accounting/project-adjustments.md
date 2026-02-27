@@ -3,7 +3,7 @@ title: Project adjustments
 description: This article provides information about project adjustments.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 02/04/2026
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -136,3 +136,5 @@ These parameters appear on the **Project management and accounting parameters** 
 | Autoupdate field | If you enable this parameter, the system recalculates cost price and sales price. |
 | Allow closed activities | Usually, you can't create transactions for closed activities. If you enable this parameter, you override that behavior. You can create adjustments for closed activities. |
 | Max batch tasks for adjustment posting | When you perform adjustments in batch, the system splits the adjustment transactions into this many batch tasks. The number of transactions must exceed the number of tasks to be split. For example, if you set the parameter to six and adjust five transactions, the system processes them in a single batch task. |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

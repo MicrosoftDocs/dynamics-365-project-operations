@@ -1,8 +1,8 @@
 ---
 title: Key concepts in project budget management
 description: This article explains key concepts of project budget management in Microsoft Dynamics 365 Project Operations.
-author: nimaski
-ms.date: 06/24/2024
+author: niranjanmaski
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -20,15 +20,15 @@ This article explains key concepts that you should be aware of before you start 
 
 ## Project budget
 
-A project budget represents a point-in-time snapshot of the estimated spend across the project phases and its associated tasks. Even if the prices of the resources, materials, or expenses change, the changes don't affect the budget snapshot after it's made part of the budget.
+A project budget represents a point-in-time snapshot of the estimated spend across the project phases and its associated tasks. Even if the prices of the resources, materials, or expenses change, those changes don't affect the budget snapshot after it's part of the budget.
 
 ## Cost budget
 
-A cost budget represents a point-in-time snapshot of estimated cost for the project. All actual costs that are incurred on the project among time, materials, and expenses are compared against the cost budget, to track the costs on the project.
+A cost budget represents a point-in-time snapshot of estimated cost for the project. You compare all actual costs that you incur on the project among time, materials, and expenses against the cost budget, to track the costs on the project.
 
 ## Revenue budget
 
-A revenue budget represents a point-in-time snapshot of estimated revenue for the project. All unbilled and billed sales on the project are compared against the revenue budget, to track the revenue on the project.
+A revenue budget represents a point-in-time snapshot of estimated revenue for the project. You compare all unbilled and billed sales on the project against the revenue budget, to track the revenue on the project.
 
 ## Budget line
 
@@ -36,7 +36,7 @@ A budget line of a project budget identifies a discrete set of dimensions that t
 
 ## Actual
 
-An actual is a time entry, expense, or a material use that's approved by defined workflow. This is the cost to the project.
+An actual is a time entry, expense, or a material use that a defined workflow approves. This value is the cost to the project.
 
 ## Budget line match priority
 
@@ -62,7 +62,8 @@ The logic tries to match the actual expense to a budget line with most number of
 
 A budget forecast is the expected spend or revenue per budget line during the period that's defined on the budget line. The forecast equals the budgeted value when the budget is approved.
 
- If actual costs are more than the forecasted cost for a budget line, the forecast cost will be made equal to the actual cost. This is due to the fact that actuals already have more than the budget, the forecast will be at least equal to the actuals.
+> [!NOTE]
+> If actual costs are more than the forecasted cost for a budget line, the forecast cost will be made equal to the actual cost. This is due to the fact that actuals already have more than the budget, the forecast will be at least equal to the actuals.
 
 ## Variance
 

@@ -3,7 +3,7 @@ title: Skills and certifications
 description: This article provides information about adding skill and certification characteristics to resources.
 author: tulsij
 ms.author: dishantpopli
-ms.date: 01/23/2026
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -35,7 +35,7 @@ When you add characteristics to resource requirements, you can document the know
 
 ## Assign characteristics to resource requirements
 
-1. In the team member grid, find and double-click the generic team member with the characteristics that need to be updated.
+1. In the team member grid, find and double-click the generic team member with the characteristics that you want to update.
 1. In the **Project Team member Detail**, select the **Resource Requirement** tab.
 1. In the **Skills** subgrid, select **+Add new Requirement Characteristic**.
 1. In the quick create pane, find and select the required characteristics and add a **Rating Value**.

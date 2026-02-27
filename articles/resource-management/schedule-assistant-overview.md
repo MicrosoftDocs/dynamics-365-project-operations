@@ -3,7 +3,7 @@ title: Schedule assistant overview
 description: This article provides information about working with the Schedule assistant to book resources.
 author: tulsij
 ms.author: dishantpopli
-ms.date: 01/23/2026
+ms.date: 02/26/2026
 ms.topic: overview
 ms.custom: 
   - bap-template
