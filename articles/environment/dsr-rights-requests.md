@@ -140,4 +140,4 @@ Microsoft also provides you with the ability to access, export, and delete syste
 
 ### Executing DSRs against system-generated logs
 
-- [System-Generated logs Data Subject Rights Requests Processes](https://learn.microsoft.com/compliance/regulatory/gdpr-dsr-dynamics365#part-2-responding-to-dsrs-for-system-generated-logs) for Dynamics 365 Project Operations
+- [System-Generated logs Data Subject Rights Requests Processes](/compliance/regulatory/gdpr-dsr-dynamics365#part-2-responding-to-dsrs-for-system-generated-logs) for Dynamics 365 Project Operations
