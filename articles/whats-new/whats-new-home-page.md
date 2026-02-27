@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 02/24/2026
+ms.date: 02/26/2026
 ms.update-cycle: 1095-days
 ms.topic: whats-new
 ms.collection:  #Required; The values for this attribute will be updated over time. For now, leave this value blank.
@@ -55,8 +55,8 @@ Learn more about what's new or changed in recent releases in the links in the fo
 | Dataverse 4.76.0.244 </br> Finance 10.0.36 | September 2023    | [Project Operations Integrated with ERP](whats-new-sept-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-sept-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-sept-2023-stocked.md)|
 | Dataverse 4.75.0.160 </br> Finance 10.0.35 | August 2023    | [Project Operations Integrated with ERP](whats-new-aug-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-aug-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-aug-2023-stocked.md)|
 | Dataverse 4.74.0.59 </br> Finance 10.0.35 | July 2023    | [Project Operations Integrated with ERP](whats-new-jul-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-jul-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-jun-2023-stocked.md)|
-| Dataverse 4.73.0.78 </br> Finance 10.0.34 | June 2023    | [Project Operations Integrated with ERP](whats-new-jun-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-may-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-may-2023-stocked.md)|
-| Dataverse 4.72.0.242 </br> Finance 10.0.33  | May 2023 |  [Project Operations Integrated with ERP](whats-new-may-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-jun-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-jun-2023-stocked.md)|
+| Dataverse 4.73.0.78 </br> Finance 10.0.34 | June 2023    | [Project Operations Integrated with ERP](whats-new-jun-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-jun-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-jun-2023-stocked.md)|
+| Dataverse 4.72.0.242 </br> Finance 10.0.33  | May 2023 |  [Project Operations Integrated with ERP](whats-new-may-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-may-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-may-2023-stocked.md)|
 | Dataverse 4.62.0.83 </br> Finance 10.0.32  | April 2023 |  [Project Operations Integrated with ERP](whats-new-apr-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-apr-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-apr-2023-stocked.md)|
 
 For earlier versions, see the archived release plans at [Release plans for Dynamics 365 and Power Platform](/dynamics365/release-plans/archived-plans).  

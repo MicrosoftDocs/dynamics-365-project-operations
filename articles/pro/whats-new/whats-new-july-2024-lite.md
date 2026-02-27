@@ -2,7 +2,7 @@
 title: What's new July 2024 - Project Operations Core
 description: This article provides information about the quality updates that are available in the July 2024 release of Microsoft Dynamics 365 Project Operations Core.
 author: mohitmenon
-ms.date: 07/05/2024
+ms.date: 02/26/2026
 ms.update-cycle: 1095-days
 ms.topic: whats-new
 ms.custom: 
@@ -20,7 +20,7 @@ _**Applies To:** Project Operations Core._
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Microsoft Dataverse environment version 4.106.0.3.
+- Project Operations in a Microsoft Dataverse environment version 4.106.0.88.
 
 ## Features included in this release
 No new features are included in this release for the Core deployment.
