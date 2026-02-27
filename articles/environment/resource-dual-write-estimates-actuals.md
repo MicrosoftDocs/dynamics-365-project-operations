@@ -3,7 +3,7 @@ title: Project estimates and actuals integration
 description: This article provides information about Project Operations dual-write integration for project estimates and actuals.
 author: suvaidya
 ms.author: nshrivastava
-ms.date: 01/23/2026
+ms.date: 02/27/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -27,7 +27,7 @@ Creating estimates requires a valid accounting configuration for the project. Pr
 
 ## Labor estimates
 
-The project manager or Resource Manager creates labor estimates and assigns a generic or named resource to the project task. You can review resource assignment records on the **Resource Assignments** tab on the **Project Details** page in Dataverse. Resource assignment records in Dataverse create hour forecast records in finance and operations apps by using **Project Operations integration entity for hour estimates (msdyn\_resourceassignments)**.
+The project manager or resource manager creates labor estimates and assigns a generic or named resource to the project task. You can review resource assignment records on the **Resource Assignments** tab on the **Project Details** page in Dataverse. Resource assignment records in Dataverse create hour forecast records in finance and operations apps by using **Project Operations integration entity for hour estimates (msdyn\_resourceassignments)**.
 
 :::image type="content" source="./Media/DW4LaborEstimates.png" alt-text="Screenshot of labor estimates integration flow between Dataverse and finance and operations apps.":::
 
