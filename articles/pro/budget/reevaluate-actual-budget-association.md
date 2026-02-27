@@ -1,7 +1,7 @@
 ---
 title: Reevaluate the cost actual-to-budget association
 description: This article explains how to reevaluate the cost actual-to-budget association.
-author: nimaski
+author: niranjanmaski
 ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 

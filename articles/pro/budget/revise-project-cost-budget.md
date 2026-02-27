@@ -1,7 +1,7 @@
 ---
 title: Revise a project cost budget
 description: This article explains how to revise a project cost budget.
-author: nimaski
+author: niranjanmaski
 ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 

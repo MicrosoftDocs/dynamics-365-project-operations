@@ -1,7 +1,7 @@
 ---
 title: Cancel a purchase order product receipt with a linked item requirement
 description: This article explains how to cancel a project purchase order that has a linked item requirement.
-author: nimaski
+author: niranjanmaski
 ms.author: nimaski
 ms.date: 02/26/2026
 ms.topic: how-to
