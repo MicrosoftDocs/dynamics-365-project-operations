@@ -2,7 +2,7 @@
 title: Manage leads - Project Operations Core
 description: This article provides information about managing project-based leads (pro).
 author: poojafandan
-ms.date: 06/07/2024
+ms.date: 02/26/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -16,13 +16,13 @@ ms.author: poojafandan
 
 _**Applies To:** Project Operations Core_
 
-Project-based leads can be managed and qualified in Project Operations. The process of lead management includes creating work-based leads and qualifying those leads. 
+You can manage and qualify project-based leads in Project Operations. The lead management process includes creating work-based leads and qualifying those leads. 
 
-## List of Project sales leads
+## List of project sales leads
 
-In the **Sales** section, in the left navigation pane, open the **Leads** list page to view a list of all lead records in the system. The leads in the list are work-based and other types of leads that can be created if you also have the Dynamics 365 Sales or Dynamics 365 Field Service applications.
+In the **Sales** section of the left navigation pane, open the **Leads** list page to view a list of all lead records in the system. The list includes work-based leads and other types of leads that you can create if you also have the Dynamics 365 Sales or Dynamics 365 Field Service applications.
 
-You can create a filtered view to see only project-based leads by creating a filter on the **Type** value. For example, you can select to show only work-based leads.
+To see only project-based leads, create a filtered view by filtering on the **Type** value. For example, you can select to show only work-based leads.
 
 ## Creating a new lead for a project-based deal
 

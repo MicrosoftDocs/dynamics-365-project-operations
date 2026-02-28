@@ -2,7 +2,7 @@
 title:  Header details for project contracts
 description: This article provides information about the fields and the information about project contracts in Project Operations.
 author: poojafandan
-ms.date: 06/07/2024
+ms.date: 02/26/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -16,25 +16,25 @@ ms.author: poojafandan
 
 _**Applies To:** Project Operations Core_
 
-This article provides information about fields that apply to the entire project contract including settings that impact all contract lines. Information about the contract that is summarized across all the line items to drive KPIs of the project contract is also included.
+This article provides information about fields that apply to the entire project contract, including settings that impact all contract lines. It also includes information about the contract that is summarized across all the line items to drive KPIs of the project contract.
 
 The following table lists the fields on a project contract that are unique to Dynamics 365 Project Operations or have some important changes in behavior from sales orders in Dynamics 365 Sales.
 
 | Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
-| Type | **Summary** tab (hidden) | This is an option set field with the following options:</br>- **Work-based** (Available only when Project Operations is installed)</br>- **Item-based** (Available only when Project Operations and Sales are installed)</br>- **Service Maintenance-based** (Available when Dynamics 365 Field Service is installed) | In Project Operations, the value of this field defaults to**Work-based** and classifies the contract as a project-based contract. A contract should be project-based to enable all project-specific extensions and functionality. |
-| Potential Customer | **Summary** tab | The reference to the customers company or account record. When a contract is created from a quote, this field is copied from the corresponding field on the quote record. | The currency on the project contract defaults based on the currency of the customer. This can be changed before the contract is saved. |
-| Account Manager | **Summary** tab | The name of the Account Manager for this deal. When a contract is created from a quote, this field is copied from the corresponding field on the quote record. | The Account Manager is responsible for managing the relationship with the customer through the completion of the project. Based on the bookable resource record tied to the Account Manager, the contracting unit defaults on the project contract. |
-| Contracting Unit | **Summary** tab | The organization unit responsible for the delivery of the projects associated with this contract. When a contract is created from a quote, this field is copied from the corresponding field on the quote record. | The contracting unit is the division of the company that executes the projects. Every contracting unit has a currency, and this currency is used to report estimated and actual costs incurred during the project. |
-| Product Price List | **Summary** tab | This price list is used to default prices on product-based contract lines. The list of drop-down options for this field shows a list of price lists where the price list currency matches the currency on the contract. When a contract is created from a quote, this field is copied from the corresponding field on the quote record. On the project contract, this field is defaulted from the account record but can be changed. | There is no downstream relevance for this field. |
-| Currency | **Summary** tab | The currency used to report the value of this deal and the currency in which the customer will be invoiced. When a contract is created from a quote, this field is copied from the corresponding field on the quote record. On the project contract, this field defaults from the account record but can be changed. | After a contract is saved, this field is no longer editable. This field is used to default the product and project price lists on the contract. The currency on the contract is used to match the currency on the price list. |
-| Not-to-Exceed Limit | **Summary** tab | This field indicates the negotiated cap on the final value that the customer has agreed to for this deal. | The cap is evaluated during execution and is applicable across all line items and projects associated with this deal. |
-| Requested Delivery Date | **Summary** tab | When a contract is created from a project quote, this field is copied from the corresponding field on the project quote. | This date is used as the end date to generate invoice schedules. |
+| Type | **Summary** tab (hidden) | This field is an option set with the following options:</br>- **Work-based** (Available only when Project Operations is installed)</br>- **Item-based** (Available only when Project Operations and Sales are installed)</br>- **Service Maintenance-based** (Available when Dynamics 365 Field Service is installed) | In Project Operations, the value of this field defaults to**Work-based** and classifies the contract as a project-based contract. A contract should be project-based to enable all project-specific extensions and functionality. |
+| Potential Customer | **Summary** tab | The reference to the customer's company or account record. When you create a contract from a quote, this field is copied from the corresponding field on the quote record. | The currency on the project contract defaults based on the currency of the customer. You can change this currency before saving the contract. |
+| Account Manager | **Summary** tab | The name of the Account Manager for this deal. When you create a contract from a quote, this field is copied from the corresponding field on the quote record. | The Account Manager is responsible for managing the relationship with the customer through the completion of the project. Based on the bookable resource record tied to the Account Manager, the contracting unit defaults on the project contract. |
+| Contracting Unit | **Summary** tab | The organization unit responsible for the delivery of the projects associated with this contract. When you create a contract from a quote, this field is copied from the corresponding field on the quote record. | The contracting unit is the division of the company that executes the projects. Every contracting unit has a currency, and this currency is used to report estimated and actual costs incurred during the project. |
+| Product Price List | **Summary** tab | This price list defaults prices on product-based contract lines. The list of drop-down options for this field shows a list of price lists where the price list currency matches the currency on the contract. When you create a contract from a quote, this field is copied from the corresponding field on the quote record. On the project contract, this field is defaulted from the account record but can be changed. | There is no downstream relevance for this field. |
+| Currency | **Summary** tab | The currency used to report the value of this deal and the currency in which the customer is invoiced. When you create a contract from a quote, this field is copied from the corresponding field on the quote record. On the project contract, this field defaults from the account record but can be changed. | After you save a contract, this field is no longer editable. This field defaults the product and project price lists on the contract. The currency on the contract is used to match the currency on the price list. |
+| Not-to-Exceed Limit | **Summary** tab | This field indicates the negotiated cap on the final value that the customer agrees to for this deal. | The cap is evaluated during execution and is applicable across all line items and projects associated with this deal. |
+| Requested Delivery Date | **Summary** tab | When you create a contract from a project quote, this field is copied from the corresponding field on the project quote. | This date is used as the end date to generate invoice schedules. |
 
 The following KPIs are available on the **Contract Performance** tab of a project contract. 
 
->[!NOTE]
->All amounts on the **Contract Performance** tab are expressed in the default currency of the environment.
+> [!NOTE]
+> All amounts on the **Contract Performance** tab are expressed in the default currency of the environment.
 
 | Field | Location | Description |
 | --- | --- | --- |

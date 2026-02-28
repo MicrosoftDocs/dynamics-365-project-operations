@@ -2,7 +2,7 @@
 title: Business transactions in Project Operations 
 description: This article provides an overview of the concept of business transactions in Microsoft Dynamics 365 Project Operations.
 author: suvaidya
-ms.date: 01/23/2026
+ms.date: 02/27/2026
 ms.topic: overview
 ms.custom: 
   - bap-template

@@ -3,7 +3,7 @@ title: Resource utilization overview
 description: This article provides information about resource utilization in Project Operations.
 author: tulsij
 ms.author: dishantpopli
-ms.date: 01/23/2026
+ms.date: 02/26/2026
 ms.topic: overview
 ms.custom: 
   - bap-template
@@ -36,7 +36,7 @@ Because the **Resource Utilization** view is based on the Schedule Board, you ca
 
 The grid requires that you set a target utilization on either the role or the individual resource. To set up this target utilization, go to **Resources** > **Resource roles**.
 
-Additionally, assign a default role to each bookable resource. Go to **Resources** > **Resources**. On the **Project Service** tab, verify that a resource role is defined, and that the **Is Default** field is set to **Yes**. You can add additional roles where **Is Default** = **No**. The role where the **Is Default** = **Yes** is used to evaluate the resource's utilization against the target for that role.
+Additionally, assign a default role to each bookable resource. Go to **Resources** > **Resources**. On the **Project Service** tab, verify that a resource role is defined, and that the **Is Default** field is set to **Yes**. You can add extra roles where **Is Default** = **No**. The role where the **Is Default** = **Yes** is used to evaluate the resource's utilization against the target for that role.
 
 On the **Project Service** tab, you can also set an individual target utilization for the resource. The utilization calculation then uses that target utilization to evaluate the resource's target instead of the target of the resource's default role.
 

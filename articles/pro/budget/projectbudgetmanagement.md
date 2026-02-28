@@ -1,8 +1,8 @@
 ---
 title: Project budget management overview
 description: This article provides an overview of project budget management.
-author: nimaski
-ms.date: 06/04/2024
+author: niranjanmaski
+ms.date: 02/26/2026
 ms.topic: overview
 ms.custom: 
   - bap-template
@@ -24,7 +24,7 @@ In a project, each phase, task, or work package incurs costs as labor, materials
 
 Project budget management typically follows the business process flow that's shown in the following illustration.
 
-![Business process flow for project budget management in Project Operations.](media/1-project-budget-management-overview-pic.png)
+:::image type="content" source="media/1-project-budget-management-overview-pic.png" alt-text="Screenshot of the business process flow for project budget management in Project Operations.":::
 
 Here's a step-by-step description of the project budget management process.
 

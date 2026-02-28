@@ -3,7 +3,7 @@ title: Products
 description: This article provides information about the product catalog that you can use to provide information to customers about the products and pricing your organization offers.
 author: mukumarm
 ms.author: nshrivastava
-ms.date: 01/23/2026
+ms.date: 02/23/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -29,7 +29,7 @@ Products are the backbone of your business. The product catalog in Dynamics 365 
     - **Valid From**/**Valid To**: Define the period the product is valid for by selecting a **Valid From** and **Valid To** date.
     - **Unit Group**: Select a unit group. A unit group is a collection of various units a product is sold in and defines how individual items are grouped into larger quantities. For example, if you're adding seeds as a product, you might have created a unit group called "Seeds" and defined its primary unit as "packet."
     - **Default Unit**: Select the most common unit in which the product is sold. Units are the quantities or measurements that you sell your products in. For example, if you're adding seeds as a product, you can sell it in packets, boxes, or pallets. Each of these becomes a unit of the product. If seeds are mostly sold in packets, select that as the unit.
-    - **Default Price List**: If this is a new product, you see this field as read-only. Before you can select a default price list, you must complete all the required fields and then save the record. Although the default price list is not required, after you save the product record, set a default price list for each product. Then, if a customer record doesn't contain a price list, Sales can use the default price list for generating quotes, orders, and invoices.
+    - **Default Price List**: If this is a new product, you see this field as read-only. Before you can select a default price list, complete all the required fields and then save the record. Although the default price list is not required, after you save the product record, set a default price list for each product. Then, if a customer record doesn't contain a price list, Sales can use the default price list for generating quotes, orders, and invoices.
     - **Decimals Supported**: Enter a whole number between 0 and 5. If the product can't be divided into fractional quantities, enter 0. The precision of the **Quantity** field in the quote, order, or invoice product record is validated against the value in this field if the product doesn't have an associated price list.
     - **Subject**: Associate this product with a subject. Use subjects to categorize your products and to filter reports.
 
@@ -109,6 +109,6 @@ For example, if there are the following properties:
 - **No of Months**: The number of subscription months
 - **Product SKU**
 
-You can flag the **No of Users** and **No of Months** properties as quantity factors by editing the properties of the product line.
+You can flag the **No of users** and **No of Months** properties as quantity factors by editing the properties of the product line.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

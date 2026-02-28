@@ -3,7 +3,7 @@ title: Manage project invoice proposals
 description: This article provides details about processing customer-facing invoices with Project Operations Integrated with ERP
 author: ryansandness
 ms.author: ryansandness
-ms.date: 02/05/2026
+ms.date: 02/27/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -34,7 +34,7 @@ Use the following steps to complete a project invoice proposal in Dynamics 365 F
 
 The project accountant reviews and posts project actuals created in Dataverse in Finance. For more information about working with the Integration journal, see [Integration journal in Project Operations](../project-accounting/project-operations-integration-journal.md).
 
-You add cost actuals and unbilled sales actuals to the Integration journal as separate lines:
+Add cost actuals and unbilled sales actuals to the Integration journal as separate lines:
 
 - The project actual cost transaction in Dataverse provides the unit cost price and cost amount on the Cost actual default.
 - The project actual unbilled sales transaction in Dataverse provides the unit sales price and sales amount on the Unbilled sales transaction defaults.
@@ -63,7 +63,7 @@ The financial dimensions for unbilled sales records in the **Project Operations 
 
 Dataverse uses the unbilled transaction currency as the transaction currency in Finance. Finance converts this currency to the company's accounting currency by using the exchange rates you define.
 
-A project contract might require that a constant (fixed) exchange rate is used for the life of the agreement. In some cases, you might need a fixed rate agreement to meet contractual or regulatory requirements. You apply the fixed exchange rate when you convert any sales amounts in the configured currency into the revenue entries for the company's accounting currency.
+A project contract might require that a constant (fixed) exchange rate is used for the life of the agreement. In some cases, you need a fixed rate agreement to meet contractual or regulatory requirements. You apply the fixed exchange rate when you convert any sales amounts in the configured currency into the revenue entries for the company's accounting currency.
 
 #### Overview of the fixed exchange rate feature
 
@@ -139,7 +139,7 @@ When you post the invoice proposal, it creates a customer invoice with the follo
 
 ## Manage the financial attributes of billing milestones
 
-Project contract lines that use the fixed price billing method are invoiced through [Fixed price milestones](../sales/invoice-schedules-contract-line.md#create-a-fixed-price-invoice-schedule-for-a-contract-line). The project accountant can review billing milestones in Finance by going to **Project management and accounting** > **All projects** > **Manage** > **On-account transactions**.
+You invoice project contract lines that use the fixed price billing method through [Fixed price milestones](../sales/invoice-schedules-contract-line.md#create-a-fixed-price-invoice-schedule-for-a-contract-line). The project accountant can review billing milestones in Finance by going to **Project management and accounting** > **All projects** > **Manage** > **On-account transactions**.
 
 ### Billing sales tax of billing milestones
 

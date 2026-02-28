@@ -3,7 +3,7 @@ title: Close a project opportunity
 description: This article provides information about closing a project opportunity.
 author: poojafandan
 ms.author: poojafandan
-ms.date: 06/07/2024
+ms.date: 02/23/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -15,11 +15,11 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-Project opportunities can be closed as Won or Lost. The **Close opportunity** dialog box allows you put in the status reason, date, and other details about win or loss of the opportunity.
+You can close project opportunities as **Won** or **Lost**. The **Close opportunity** dialog box collects the status reason, date, and other details about the win or loss of the opportunity.
 
-You won't be allowed to close the opportunity if there are any active quotes associated with it. You can close all active and draft quotes associated to an opportunity at the same time. Then you'll be allowed to close the opportunity.
+You can't close the opportunity if any active quotes are associated with it. You can close all active and draft quotes associated with an opportunity at the same time. After you close the quotes, you can close the opportunity.
 
-For more general information on closing opportunities, see [Close opportunities as won or lost](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+For more information about closing opportunities, see [Close opportunities as won or lost](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
