@@ -213,6 +213,24 @@ Print management uses different report files to print, specify destinations, and
 
 Print management setup is displayed as a tree view, where each node level displays the available documents to adjust. You can assign custom printouts at the module, customer, contract, or invoice proposal document level. To modify the original document printout, expand the desired node and select **Original item**. In the **Report format** field, select the report format to use for printing. You can use custom report formats by using [Business Document Management framework](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
+## Defining the customer due date
+
+The due date for when payment is due by the customer for the invoice is determined by the terms of payment.
+
+With the 10.0.47 release, it is now possible to allow for manual selection of the due date that overrides the terms of payment. This is especially useful when the terms may change throughout different phases of the project.
+
+To use this feature, personalize the project invoice proposal header to include the **Due date** field and optionally the **Terms of payment** field from table **Invoice proposal** and retain as a saved view.
+
+- If no terms of payment is configured for the funding source when opening the invoicing proposal, the due date will default to today.
+- If terms of payment is available, due date will show the calculated date.
+- With both options, users can manually set the due date to override the defaulted or calculated date.
+
+After clicking to post the invoice proposal, the post invoice proposals dialog pops up where you have one last chance to alter the invoice date. Here you can setup a saved view that displays a read-only view of the due date. Note that if you change the invoice data in this window, this invoice date will force a recalculation of the due date and any changes to due date will be lost.
+
+The use of **due date** does not make any changes to the invoice SSRS report printout for project invoices. If you have included the **Terms of payment** field on your invoice, you may want to consider modifying your report design or creating an "Ad-hoc" or "Custom" terms label to print on your invoice to avoid having a mismatch on having terminology like "Net 15" with a due date that isn't reflecting those terms.
+
+Note: Please ensure to check for any quality updates available for the 10.0.47 release, as a critical fix was included regarding ""terms of payment** and **due date** calculations.
+
 ## Post invoice proposals
 
 After you review and edit the invoice, and you're satisfied with the invoice proposal lines, check the invoice totals and sales tax. In the **Details** group, select **Totals** and then select **Post** to post the invoice.

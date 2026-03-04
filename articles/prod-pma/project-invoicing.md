@@ -4,7 +4,7 @@ description: Learn about project invoicing for Time and material projects and Fi
 author: sunfzam
 ms.author: ryansandness
 ms.topic: concept-article
-ms.date: 11/24/2025
+ms.date: 03/04/2026
 ms.reviewer: zezhangzhao
 audience: Application User
 ms.search.region: Global
@@ -78,6 +78,24 @@ You can create fee transactions in an invoice proposal. You can also modify the 
 To create multiple customer invoices for a project, you must create an invoice proposal for each invoice. For example, you can create invoices based on transaction type. To specify hours on one customer invoice and items on another invoice, you must create separate invoice proposals for hour transactions and fee transactions.
 
 If a project has more than one funding source, you can create a separate invoice proposal for each funding source. On the **Funding rule allocations** page, you can define the percentage of the transaction amount to allocate to each funding source, and the source to post rounding differences to.
+
+## Defining the customer due date
+
+The due date for when payment is due by the customer for the invoice is determined by the terms of payment.
+
+With the 10.0.47 release, it is now possible to allow for manual selection of the due date that overrides the terms of payment. This is especially useful when the terms may change throughout different phases of the project.
+
+To use this feature, personalize the project invoice proposal header to include the **Due date** field and optionally the **Terms of payment** field from table **Invoice proposal** and retain as a saved view.
+
+- If no terms of payment is configured for the funding source when opening the invoicing proposal, the due date will default to today.
+- If terms of payment is available, due date will show the calculated date.
+- With both options, users can manually set the due date to override the defaulted or calculated date.
+
+After clicking to post the invoice proposal, the post invoice proposals dialog pops up where you have one last chance to alter the invoice date. Here you can setup a saved view that displays a read-only view of the due date. Note that if you change the invoice data in this window, this invoice date will force a recalculation of the due date and any changes to due date will be lost.
+
+The use of **due date** does not make any changes to the invoice SSRS report printout for project invoices. If you have included the **Terms of payment** field on your invoice, you may want to consider modifying your report design or creating an "Ad-hoc" or "Custom" terms label to print on your invoice to avoid having a mismatch on having terminology like "Net 15" with a due date that isn't reflecting those terms.
+
+Note: Please ensure to check for any quality updates available for the 10.0.47 release, as a critical fix was included regarding ""terms of payment** and **due date** calculations.
 
 ### Creating customer invoices from invoice proposals
 
