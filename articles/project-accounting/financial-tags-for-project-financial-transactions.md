@@ -35,7 +35,6 @@ For Project Operations for manufacturing, the following enhancements are availab
 - Financial tags are present in the financial voucher posting for the document, whenever possible.
 - Financial tags are carried forward into the voucher for the project invoice.
 - Accrue Revenue carries financial tags forward.
-- 
 
 For Project Operations Integrated with ERP based scenarios, the following enhancements are available:
 
