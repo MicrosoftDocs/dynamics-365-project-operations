@@ -17,9 +17,9 @@ _**Applies To:** Project Operations for manufacturing-based scenarios_
 
 ## Overview
 
-An intercompany transaction occurs when a worker is employed by one legal entity but performs work for a project owned by another legal entity. For example, a worker employed by Contoso US may submit timesheets for work performed on a project sold and managed by Contoso Europe. In this scenario, Contoso US acts as the lending legal entity, while Contoso Europe is the borrowing legal entity. Because the timesheet spans two legal entities, any corrections for anything pricing related from the lending company is more complex than a single company timesheet.  
+An intercompany transaction occurs when a worker is employed by one legal entity but performs work for a project owned by another legal entity. For example, a worker employed by Contoso US may submit timesheets for work performed on a project sold and managed by Contoso Europe. In this scenario, Contoso US acts as the lending legal entity, while Contoso Europe is the borrowing legal entity. Because the timesheet spans two legal entities, corrections for anything pricing related from the lending company is more complex than a non-intercompany timesheet.  
 
-This functionality addresses this complexity by supporting a the creation of a new reversal copy of the original document at the original price as well as a new document that can be edited and posted with corrected values. This ensures a strict 1:1 orgiginal to reversal and guarantees that updated values flow consistently to both the lending and borrowing legal entities. Timesheets are the only supported document for correction currently. No setup for delegation of submitting documents on behalf of another user are required for users submitting corrections.
+This feature addresses this complexity by supporting the creation of a new reversal copy of the original line at the original price as well as a new line that can be edited and posted with corrected values. This ensures a strict 1:1 orgiginal to reversal and guarantees that updated values flow consistently to both the lending and borrowing legal entities. Timesheets are the only supported document for correction currently. No setup for delegation of submitting documents on behalf of another user are required for users submitting corrections.
 
 The new functionality can be enabled from the **Feature management** workspace by enabling the **Enable posted intercompany project transactions correction** feature.
 
@@ -35,14 +35,14 @@ Tooltips have been added in several areas that appear when hovering over checkbo
 - There is a new **Reversal** colum to indicate if the transaction originated from a correction.
 - Clicking **original document** will now take you back to **Intercompany posted transactions** which will give you more details before clicking into the timesheet.
 
-1. For the **Pending vendor invoice** form, improvements include:
+2. For the **Pending vendor invoice** form, improvements include:
 
 - The line details has been enhanced on the **Project** tab to include whether or not the transaction orginated from an intercompany process or not.
 - New fields have been added to list the original transaction origin (timesheet, expense, etc) as well as the original transaction ID, which will navigate the user back to **Intercompany posted transactions**.
 
-1. For the **Posted project transactions** form, a new column was added to indicate of the transaction is intercompany or not.
+3. For the **Posted project transactions** form, a new column was added to indicate of the transaction is intercompany or not.
 
-1. When performing adjustments of intercompany transactions, users will be warned that they may want to consider using corrections instead.
+4. When performing adjustments of intercompany transactions, users will be warned that they may want to consider using corrections instead.
 
 ## Corrections process flow
 
