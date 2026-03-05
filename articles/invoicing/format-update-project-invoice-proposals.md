@@ -3,7 +3,7 @@ title: Manage project invoice proposals
 description: This article provides details about processing customer-facing invoices with Project Operations Integrated with ERP
 author: ryansandness
 ms.author: ryansandness
-ms.date: 02/27/2026
+ms.date: 03/05/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -63,7 +63,7 @@ The financial dimensions for unbilled sales records in the **Project Operations 
 
 Dataverse uses the unbilled transaction currency as the transaction currency in Finance. Finance converts this currency to the company's accounting currency by using the exchange rates you define.
 
-A project contract might require that a constant (fixed) exchange rate is used for the life of the agreement. In some cases, you need a fixed rate agreement to meet contractual or regulatory requirements. You apply the fixed exchange rate when you convert any sales amounts in the configured currency into the revenue entries for the company's accounting currency.
+A project contract might require that you use a constant (fixed) exchange rate for the life of the agreement. In some cases, you need a fixed rate agreement to meet contractual or regulatory requirements. You apply the fixed exchange rate when you convert any sales amounts in the configured currency into the revenue entries for the company's accounting currency.
 
 #### Overview of the fixed exchange rate feature
 
@@ -89,9 +89,9 @@ You can use the following documents with fixed rate agreements:
 
 Contoso is based in the United States and uses the US dollar (USD) as its accounting currency. It's delivering a project for Coho Winery, which is based in the United Kingdom. The British pound (GBP) is used as the contract sales currency. GBP-to-USD exchange rates regularly fluctuate between 1.2 and 1.4. Therefore, the companies agreed to a fixed rate of 1.25 for their business dealings for the life of the contract and project.
 
-In Project Operations, a project contract is established. For this project contract, a fixed rate agreement is configured that uses the GBP currency and an exchange rate of 1.25. Contoso set up a Time and Material project with time and expenses that accrue revenue to generate work in progress (WIP) financial entries.
+In Project Operations, you establish a project contract. For this project contract, you configure a fixed rate agreement that uses the GBP currency and an exchange rate of 1.25. Contoso set up a Time and Material project with time and expenses that accrue revenue to generate work in progress (WIP) financial entries.
 
-On the project, tasks are created to plan for the various project stages. Julia Funderburk completes the first task, requirement gathering. This task has an estimated duration of seven hours. You can open the **All projects** page in the finance and operations infrastructure, select the project, and then select **Hour forecasts** on the **Plan** tab of the Action Pane. The page shows the entry for the seven-hour forecast. Select **General ledger preview**, The **Overview** tab shows the estimated costs and a line for 2,187.50 GBP of revenue for the **Project - invoiced revenue** posting type. Select the **General** tab to view the breakdown of sales. This breakdown shows seven hours of effort and the sales price of 250. The total sales amount of 1,750 is calculated by using an exchange rate of 125.
+On the project, you create tasks to plan for the various project stages. Julia Funderburk completes the first task, requirement gathering. This task has an estimated duration of seven hours. You can open the **All projects** page in the finance and operations infrastructure, select the project, and then select **Hour forecasts** on the **Plan** tab of the Action Pane. The page shows the entry for the seven-hour forecast. Select **General ledger preview**. The **Overview** tab shows the estimated costs and a line for 2,187.50 GBP of revenue for the **Project - invoiced revenue** posting type. Select the **General** tab to view the breakdown of sales. This breakdown shows seven hours of effort and the sales price of 250. The total sales amount of 1,750 is calculated by using an exchange rate of 125.
 
 Contoso's revenue in its accounting currency is calculated in the following way:
 
@@ -162,11 +162,11 @@ The project accountant can edit the sales tax and financial dimensions informati
 
 ## Import from staging
 
-To import the billed sales lines into the project invoice proposal, run the **Import from staging table** periodic process. If any unbilled sales lines weren't previously posted, the invoice lines don't populate in the invoice proposal.
+To import the billed sales lines into the project invoice proposal, run the **Import from staging table** periodic process. If you didn't previously post any unbilled sales lines, the invoice lines don't populate in the invoice proposal.
 
 ### Selective import from staging
 
-Starting with version 10.0.47, the **Feature management** workspace includes a new preview feature called "Project Operations selective import from staging". When you use this feature, project accountants can complete the import from staging process from the context of a selected invoice proposal. This functionality streamlines the ability to immediately create the invoice proposal for situations where you want to immediately complete the invoice instead of waiting for the periodic process scheduled run or for unrelated transactions to be processed.
+Starting with version 10.0.47, the **Feature management** workspace includes a new preview feature called **Project Operations selective import from staging**. When you use this feature, project accountants can complete the import from staging process from the context of a selected invoice proposal. This functionality streamlines the ability to immediately create the invoice proposal for situations where you want to immediately complete the invoice instead of waiting for the periodic process scheduled run or for unrelated transactions to be processed.
 
 ## Create project invoice proposals
 
@@ -191,7 +191,7 @@ The project accountant can customize a project invoice printout by using the **F
 
 ### Format invoice proposals
 
-The **Format invoice proposals** page enables you to group transactions for display in the customer project invoice.
+Use the **Format invoice proposals** page to group transactions for display in the customer project invoice.
 
 1. On the **Project invoice proposal** page, select **Print** > **Format invoice proposal**.
 1. Select **New** to create a new grouping for the project invoice printout.
@@ -211,30 +211,49 @@ The **Format invoice proposals** page enables you to group transactions for disp
 
 Print management uses different report files to print, specify destinations, and customize footer text for the invoice. Set up print management at the module level, but you can override these settings for a specific customer, contract, or invoice proposal. To access this function on the **Project invoice proposal** page, select **Print** > **Print management**.
 
-Print management setup is displayed as a tree view, where each node level displays the available documents to adjust. You can assign custom printouts at the module, customer, contract, or invoice proposal document level. To modify the original document printout, expand the desired node and select **Original item**. In the **Report format** field, select the report format to use for printing. You can use custom report formats by using [Business Document Management framework](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+Print management setup is displayed as a tree view, where each node level displays the available documents to adjust. You can assign custom printouts at the module, customer, contract, or invoice proposal document level. To modify the original document printout, expand the desired node and select **Original item**. In the **Report format** field, select the report format to use for printing. You can use custom report formats by using the [Business Document Management framework](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+
+## Defining the customer due date
+
+The terms of payment determine the due date for when the customer needs to pay the invoice.
+
+Starting with the 10.0.47 release, you can manually select a due date that overrides the terms of payment. This option is especially useful when the terms change throughout different phases of the project.
+
+To use this feature, personalize the project invoice proposal header to include the **Due date** field and, optionally, the **Terms of payment** field from the **Invoice proposal** table and save the view.
+
+- If you don't configure terms of payment for the funding source when opening the invoicing proposal, the due date defaults to today.
+- If terms of payment are available, the due date shows the calculated date.
+- In both options, you can manually set the due date to override the defaulted or calculated date.
+
+After you select to post the invoice proposal, the **Post invoice proposals** dialog opens where you have one last chance to change the invoice date. Here you can set up a saved view that displays a read-only view of the due date. If you change the invoice data in this window, the invoice date recalculates the due date and removes any changes to the due date.
+
+Using the **due date** doesn't change the invoice SSRS report printout for project invoices. If you include the **Terms of payment** field on your invoice, consider modifying your report design or creating an "Ad-hoc" or "Custom" terms label to print on your invoice to avoid having a mismatch on having terminology like "Net 15" with a due date that isn't reflecting those terms.
+
+> [!NOTE]
+> Make sure to check for any quality updates available for the 10.0.47 release, as it includes a critical fix regarding **terms of payment** and **due date** calculations.
 
 ## Post invoice proposals
 
 After you review and edit the invoice, and you're satisfied with the invoice proposal lines, check the invoice totals and sales tax. In the **Details** group, select **Totals** and then select **Post** to post the invoice.
 
-To view the invoice before posting, clear the **Posting** check box. **Pro forma** prints on the invoice to signify it's a sample invoice. To print the invoice, select the **Print invoice** check box.
+To view the invoice before posting, clear the **Posting** check box. The invoice displays **Pro forma** to signify it's a sample invoice. To print the invoice, select the **Print invoice** check box.
 
 In addition to the **Invoice proposal** page, you can also post invoice proposals by running the periodic job, **Post invoice proposals**. To find this job, go to **Project management and accounting** > **Periodic** > **Project invoices** > **Post invoice proposals**.
 
 This page shows all the invoice proposals that are ready for posting. You can schedule posting invoice proposals by selecting **Batch**. Set the **Batch processing parameter** to **Yes** and set the recurrence of batch processing by selecting **Recurrence**.
 
-## Enhanced Proforma Invoice Summary for Integrated deployments
+## Enhanced proforma invoice summary for integrated deployments
 
-In Dynamics 365 Project Operations integrated deployments, the Proforma Invoice summary in Dataverse surfaces customer-required invoice fields from Dynamics 365 Finance. This feature improves cross‑team visibility and enables project managers to address customer inquiries without relying on accounting teams.
+In Dynamics 365 Project Operations integrated deployments, the proforma invoice summary in Dataverse surfaces customer-required invoice fields from Dynamics 365 Finance. This feature improves cross‑team visibility and enables project managers to address customer inquiries without relying on accounting teams.
 
 ### Newly supported invoice details
 
 When you post an invoice in Finance, the following fields synchronize and display in Dataverse:
 
-- Customer Invoice Number
-- Customer Invoice Date
-- Project Invoice Status (new status: Posted)
-- Invoice level Tax Amount
+- Customer invoice number
+- Customer invoice date
+- Project invoice status (new status: Posted)
+- Invoice level tax amount
 
 These enhancements provide end-to-end invoice traceability from proforma creation to posting to payment.
 
