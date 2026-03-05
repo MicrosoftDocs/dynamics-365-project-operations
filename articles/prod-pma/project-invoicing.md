@@ -4,7 +4,7 @@ description: Learn about project invoicing for Time and material projects and Fi
 author: sunfzam
 ms.author: ryansandness
 ms.topic: concept-article
-ms.date: 11/24/2025
+ms.date: 03/05/2026
 ms.reviewer: zezhangzhao
 audience: Application User
 ms.search.region: Global
@@ -30,7 +30,7 @@ The project type determines which invoicing procedure you should apply. You can 
 You can attach Time and material projects and Fixed-price projects to the invoice projects in three ways:
 
 - **On-account invoicing** – You can invoice Time and material projects and Fixed-price projects on account. You need two types of on-account setup, one for each project type.
-- **Invoicing in the periodic section** – Through the periodic functions, you can invoice transactions across projects. The periodic functions provide an overview of transactions that you must invoice.
+- **Invoicing in the periodic section** – By using the periodic functions, you can invoice transactions across projects. The periodic functions provide an overview of transactions that you must invoice.
 - **By using credit notes in invoicing** – You can create a credit note for both Time and material projects and Fixed-price projects.
 
 ## Time and Material type projects with accrued revenue
@@ -49,7 +49,7 @@ When you set up these options, posting a project transaction generates accrual e
 | Project – Work in progress (WIP) – sales value | $75 | |
 | Project – accrued revenue – sales value | | $75 |
 
-Here, the system immediately recognizes $75 of revenue (credited to accrued revenue) and books it as WIP (debit). The cost is recorded as usual (debit project cost $50, credit payroll accrual $50). At this point, the system recognizes accrued revenue ($75) and the project's profit ($25) even though you haven't invoiced the client yet.
+Here, the system immediately recognizes $75 of revenue (credited to accrued revenue) and books it as WIP (debit). The system records the cost as usual (debit project cost $50, credit payroll accrual $50). At this point, the system recognizes accrued revenue ($75) and the project's profit ($25) even though you haven't invoiced the client yet.
 
 At invoicing time, Dynamics 365 Project Operations automatically reverses the accrual so that there's no double-counting. The invoice posting credits invoiced revenue and debits the customer receivable. At the same time, the system debits the accrued revenue and credits the WIP account for the same amount, reversing the earlier accrual. After this step, the revenue is now in the final revenue account.
 
@@ -61,7 +61,7 @@ Before you create a customer invoice for a project, you can create a preliminary
 
 ### Creating invoice proposals
 
-You can create invoice proposals by manually selecting a transaction from a list of available transactions for a specified project. You can also set up billing rules that specify when to create an invoice proposal automatically. For example, you can create a billing rule to create an invoice proposal when work on a project is 25, 50, 75, and 100 percent complete.
+You can create invoice proposals by manually selecting a transaction from a list of available transactions for a specified project. You can also set up billing rules that specify when to create an invoice proposal automatically. For example, you can create a billing rule to create an invoice proposal when work on a project is 25, 50, 75, or 100 percent complete.
 
 You can create invoice proposals for the following transactions:
 
@@ -79,17 +79,36 @@ To create multiple customer invoices for a project, you must create an invoice p
 
 If a project has more than one funding source, you can create a separate invoice proposal for each funding source. On the **Funding rule allocations** page, you can define the percentage of the transaction amount to allocate to each funding source, and the source to post rounding differences to.
 
+## Defining the customer due date
+
+The terms of payment determine the due date for when the customer needs to pay the invoice.
+
+Starting with the 10.0.47 release, you can manually select a due date that overrides the terms of payment. This option is especially useful when the terms change throughout different phases of the project.
+
+To use this feature, personalize the project invoice proposal header to include the **Due date** field and, optionally, the **Terms of payment** field from the **Invoice proposal** table and save the view.
+
+- If you don't configure terms of payment for the funding source when opening the invoicing proposal, the due date defaults to today.
+- If terms of payment are available, the due date shows the calculated date.
+- In both options, you can manually set the due date to override the defaulted or calculated date.
+
+After you select to post the invoice proposal, the **Post invoice proposals** dialog opens where you have one last chance to change the invoice date. Here you can set up a saved view that displays a read-only view of the due date. If you change the invoice data in this window, the invoice date recalculates the due date and removes any changes to the due date.
+
+Using the **due date** doesn't change the invoice SSRS report printout for project invoices. If you include the **Terms of payment** field on your invoice, consider modifying your report design or creating an "Ad-hoc" or "Custom" terms label to print on your invoice to avoid having a mismatch on having terminology like "Net 15" with a due date that isn't reflecting those terms.
+
+> [!NOTE]
+> Make sure to check for any quality updates available for the 10.0.47 release, as it includes a critical fix regarding **terms of payment** and **due date** calculations.
+
 ### Creating customer invoices from invoice proposals
 
-After you create and post an invoice proposal, a customer invoice is automatically created for the transactions that you included in the invoice proposal.
+After you create and post an invoice proposal, you automatically create a customer invoice for the transactions that you included in the invoice proposal.
 
 Before you post an invoice proposal, you can add transactions to it or delete transactions from it. For example, you can remove expense transactions that you posted to a project but aren't chargeable to the customer.
 
-If your organization requires that invoice proposals be reviewed before they're posted, you might need to be approved it through the "Review project invoice proposals" workflow before posting it.
+If your organization requires that you review invoice proposals before posting them, you might need to approve it through the **Review project invoice proposals** workflow before posting it.
 
 ### View grant information on project invoice list pages
 
-Public sector users can add the **Grant ID** and **Grant name** to the **Project invoice proposals** and **Project invoices** list pages. Enable these columns by using the **Add grant information to project invoice list pages** feature. This feature is turned off by default and can be enabled in **Workspaces > Feature management**. Contact your system administrator for assistance with enabling this feature.
+Public sector users can add the **Grant ID** and **Grant name** to the **Project invoice proposals** and **Project invoices** list pages. Enable these columns by using the **Add grant information to project invoice list pages** feature. This feature is turned off by default. Enable it in **Workspaces** > **Feature management**. Contact your system administrator for assistance with enabling this feature.
 
 ## On-account invoicing
 
@@ -99,7 +118,7 @@ You must create an on-account transaction for a Time  and material project or a 
 
 ### Fixed-price projects
 
-For fixed-price projects, on-account transactions are based on an agreed-upon milestone, unit of delivery, or progress billing arrangement that a project contract specifies. One line is created for each payment that the project customer must receive. No deductions are required.
+For fixed-price projects, on-account transactions are based on an agreed-upon milestone, unit of delivery, or progress billing arrangement that a project contract specifies. You create one line for each payment that the project customer must receive. No deductions are required.
 
 ### Time and material projects
 
@@ -107,7 +126,7 @@ For Time and material projects, you can bill a customer or other funding source 
 
 ## Invoice control
 
-You can use invoice control to track both invoiced and noninvoiced transactions, and to analyze those transactions against quotations for an end-to-end view of your projects from the quotation stage to completion. You can see which transactions you charged to a specific project and which lines you invoiced. You can also view individual transactions, so that you can adjust them after they're posted.
+Use invoice control to track both invoiced and noninvoiced transactions, and to analyze those transactions against quotations for an end-to-end view of your projects from the quotation stage to completion. You can see which transactions you charged to a specific project and which lines you invoiced. You can also view individual transactions, so that you can adjust them after they're posted.
 
 ## Invoicing fixed-price projects
 
@@ -119,20 +138,20 @@ You can invoice fixed-price projects on a billing schedule. Define the billing s
 
 For example, you can set up the following billing schedule:
 
-- 20 percent when the project contract is signed
+- 20 percent when you sign the project contract
 - 30 percent on first delivery
 - 15 percent on second delivery
 - 35 percent on final delivery
 
 ### Invoicing procedure
 
-When the milestone payments are ready to be invoiced, use the procedure for invoicing amounts on-account.
+When the milestone payments are ready to be invoiced, use the procedure for invoicing amounts on account.
 
 ## Vendor invoicing
 
-When you order an item from a vendor and assign the item to a project, the line property that you select for the purchase order line for that item determines whether the purchased item is invoiced to a customer. If you set up default line properties, they appear for the item on the purchase order line (**Line details > Project > Line property amounts**). You can modify the line property in two ways:
+When you order an item from a vendor and assign the item to a project, the line property that you select for the purchase order line for that item determines whether you invoice the purchased item to a customer. If you set up default line properties, they appear for the item on the purchase order line (**Line details > Project > Line property amounts**). You can modify the line property in two ways:
 
-- Invoice the project's customer for the item. To do this, set the line property for the item to a chargeable value on the purchase order, then invoice the customer by using the correct project invoicing method.
+- Invoice the project's customer for the item. To do this, set the line property for the item to a chargeable value on the purchase order, and then invoice the customer by using the correct project invoicing method.
 - Don't invoice the project's customer for the item. To do this, don't select the **Chargeable** line property on the purchase order line for the item. You can then invoice the purchase order, and no further action is required.
 
 > [!NOTE]

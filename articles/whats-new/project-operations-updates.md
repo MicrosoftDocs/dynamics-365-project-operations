@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 02/24/2026
+ms.date: 03/05/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ms.author: abriccetti
@@ -28,15 +28,14 @@ Dynamics 365 Project Operations consists of two components:
 | **Station**   | **Geographical Location**                                                                                           |
 |---------------|---------------------------------------------------------------------------------------------------------------------|
 | **Station 1** | First Release (FRE)                                                                                                 |
-| **Station 2** | South America, Canada, India, France, South Africa, Switzerland, Korea, Germany, Norway                             |
-| **Station 3** | Asia-Pacific, United Kingdom, Japan, United Arab Emirates, US Government Community Cloud High (GCC High)            |
+| **Station 2** | South America, Canada, India, France, South Africa, Switzerland, Korea, Germany, and Norway                             |
+| **Station 3** | Asia-Pacific, United Kingdom, Japan, United Arab Emirates, and US Government Community Cloud High (GCC High)            |
 | **Station 4** | Europe, Middle East, and Africa                                                                                     |
 | **Station 5** | North America and Australia                                                                                         |
 
 ## Project Operations Release Notes
 - Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-feb-2026-resource-based.md) scenario.
 - Project Operations latest release notes for [Core deployment](../pro/whats-new/whats-new-feb-2026-lite.md) scenario.
-- Project Operations latest release notes for [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-Feb-2024-stocked.md) scenario.
 
 ## Project Operations Latest Version
 
@@ -69,7 +68,7 @@ Dynamics 365 Project Operations consists of two components:
 | **4.161.0.1688**  | January 06, 2025          | January 20, 2026          | January 06, 2025          | January 20, 2026          | January 06, 2025          | January 20, 2025          | January 13, 2026           | CANCELED           | January 13, 2026           | CANCELED           |
 | **4.162.0.962**    | February 02, 2026           | February 02, 2026           | February 02, 2026           | February 06, 2026          | February 02, 2026           | February 06, 2026          | February 06, 2026          | February 19, 2026          | February 06, 2026          | February 19, 2026          |
 | **4.163.0.581**   | February 20, 2026          | February 27, 2026          | February 27, 2026          | March 13, 2026             | February 27, 2026          | March 13, 2026             | March 13, 2026             | March 27, 2026             | March 13, 2026             | March 27, 2026             |
-| **4.164.0.x**     | March 20, 2026             | March 27, 2026             | March 27, 2026             | April 10, 2026             | March 27, 2026             | April 10, 2026             | April 10, 2026             | April 24, 2026             | April 10, 2026             | April 24, 2026             |
+| **4.165.0.x**     | March 20, 2026             | March 27, 2026             | March 27, 2026             | April 10, 2026             | March 27, 2026             | April 10, 2026             | April 10, 2026             | April 24, 2026             | April 10, 2026             | April 24, 2026             |
 
 ## HotFix Release Cycle
 
