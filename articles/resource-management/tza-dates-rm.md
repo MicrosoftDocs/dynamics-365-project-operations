@@ -1,6 +1,6 @@
 ---
 title: Time zone agnostic dates in Resource Management
-description: Learn about time zone agonstic dates in resource requirement, resource requirement detail, bookable resource booking, and bookable resource booking header.
+description: Learn about time zone agnostic dates in resource management entities.
 author: dishantpopli
 ms.date: 02/20/2026
 ms.topic: how-to
