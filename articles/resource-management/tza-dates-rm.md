@@ -27,7 +27,7 @@ The Resource Requirement, Resource Requirement Detail, and Bookable Resource Boo
 
 The new TZA fields are editable, allowing you to update either TZA or non-TZA date fields. When you edit a non-TZA date, the corresponding TZA date is automatically calculated, and vice versa. 
 
-For existing projects, TZA field values are calculated using lazy loading and hence TZA fields are populated when the main form of their respective entity (Resourec Requirement, Resource Requirement Detail or Bookable Resource Booking) is opened for the first time. Until the form is opened, these fields are empty in the database.
+For existing projects, TZA field values are calculated using lazy loading. TZA fields are populated when the main form of their respective entity (Resource Requirement, Resource Requirement Detail, or Bookable Resource Booking) is opened for the first time. Until the form is opened, these fields are empty in the database.
 
 > [!NOTE]
 > TZA fields are intended for reporting and display purposes only. The scheduling engine continues to use the non-TZA fields for all scheduling calculations and operations.
