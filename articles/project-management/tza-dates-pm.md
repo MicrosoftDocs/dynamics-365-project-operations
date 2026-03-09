@@ -14,7 +14,6 @@ ms.author: dishantpopli
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
-Time Zone Agnostic Date Support for Project and Project Task Entities
 The Project and Project Task entities now support time zone agnostic (TZA) dates, enabling more flexible date handling across different time zones. To support this capability, new fields have been introduced to both entities.
 
 | Display Name | Field | Entity | Description |
