@@ -2,19 +2,19 @@
 title: Time zone agnostic dates in Project and Project Task
 description: Learn about time zone agnostic dates in project and project task
 author: dishantpopli
-ms.date: 02/20/2026
+ms.date: 03/09/2026
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: dishantpopli
 ---
 
-# Time Zone Agnostic Dates in Project and Project Task
+# Time zone agnostic dates in Project and Project Task
 
 [!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
-The Project and Project Task entities now support time zone agnostic (TZA) dates, enabling more flexible date handling across different time zones. To support this capability, new fields are added to both entities.
+The Project and Project Task entities now support time zone agnostic (TZA) dates, enabling more flexible date handling across different time zones. To support this capability, the system adds new fields to both entities.
 
 | Display Name | Field | Entity | Description |
 |-------|----------------------|--------------------|-----------------------|
@@ -23,26 +23,31 @@ The Project and Project Task entities now support time zone agnostic (TZA) dates
 | Start Date Time Zone Agnostic | msdyn_tzascheduledstart | Project Task | Scheduled start time of the project task (Time Zone Agnostic) |
 | Due Date Time Zone Agnostic | msdyn_tzascheduledend | Project Task | Scheduled end time of the project task (Time Zone Agnostic) |
 
-**Project Entity:**
-The new TZA fields on the Project entity are editable, allowing you to update project schedules using either TZA or non-TZA date fields. When you edit a non-TZA date, the corresponding TZA date is automatically calculated, and vice versa.
+## Project entity
 
-**Project Task Entity:**
-The new TZA fields on the Project Task entity are read-only. You must update the non-TZA date fields directly, and the TZA fields are calculated automatically. 
+The new TZA fields on the Project entity are editable, so you can update project schedules using either TZA or non-TZA date fields. When you edit a non-TZA date, the system automatically calculates the corresponding TZA date, and vice versa.
 
-For existing projects, TZA field values are calculated using lazy loading and hence TZA fields are populated when the project main form is opened for the first time. Until the form is opened, these fields are empty in the database.
+## Project Task entity
+
+The new TZA fields on the Project Task entity are read-only. You must update the non-TZA date fields directly, and the system automatically calculates the TZA fields.  
+
+For existing projects, the system uses lazy loading to calculate TZA field values. The system populates TZA fields when you open the project main form for the first time. Until you open the form, these fields are empty in the database.
 
 ## How time zone conversion works
-The system automatically converts non-TZA dates to TZA dates using the **project calendar's time zone** as the reference.
 
-**With TZA fields (new):**
-Dates are displayed based on the project calendar's time zone, ensuring consistency across all users.
+The system automatically converts non-TZA dates to TZA dates by using the **project calendar's time zone** as the reference.
 
-**With non-TZA fields (previous):**
-The system converted UTC to each user's individual time zone (set in personalization settings), resulting in different users seeing different dates and times for the same project data.
+### With TZA fields (new)
+
+The system displays dates based on the project calendar's time zone, so all users see consistent dates.
+
+### With non-TZA fields (previous)
+
+The system converts UTC to each user's individual time zone (set in personalization settings), so different users see different dates and times for the same project data.
 
 > [!NOTE]
 > Automatic conversion to TZA dates uses the working hours from the project calendar. Ensure your project calendar has the correct working hours configured for accurate results.
 >
-> TZA fields are intended for reporting and display purposes only. The scheduling engine continues to use the non-TZA fields for all scheduling calculations and operations.
+> Use TZA fields for reporting and display purposes only. The scheduling engine continues to use the non-TZA fields for all scheduling calculations and operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
