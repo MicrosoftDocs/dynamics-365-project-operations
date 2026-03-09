@@ -431,7 +431,7 @@
     - name: Access control on task grid
       href: project-management/access-control-on-task-grid.md
     - name: Time zone agnostic dates in project and project task
-      href: project-management/tza-dates-pm.md
+      href: project-management/time-zone-agnostic-dates-pm.md
     - name: Import projects from the Microsoft Project desktop client
       href: project-management/import_from_mpp.md
     - name: Plan your work in Microsoft Project with the Project Operations add-in
@@ -605,7 +605,7 @@
     - name: Skills and proficiency models
       href: resource-management/skills-proficiency-models.md
     - name: Time zone agnostic dates in resource management
-      href: resource-management/tza-dates-rm.md
+      href: resource-management/time-zone-agnostic-dates-rm.md
     - name: Resource reconciliation
       items: 
       - name: Resource reconciliation overview
@@ -1689,7 +1689,7 @@
     - name: Project and task limitations
       href: project-management/project-and-task-limitations.md
     - name: Time zone agnostic dates in project and project task
-      href: project-management/tza-dates-pm.md
+      href: project-management/time-zone-agnostic-dates-pm.md
     - name: Work breakdown structure planning
       items: 
       - name: Create a work breakdown structure
@@ -1823,7 +1823,7 @@
     - name: Skills and proficiency models
       href: resource-management/skills-proficiency-models.md
     - name: Time zone agnostic dates in resource management
-      href: resource-management/tza-dates-rm.md
+      href: resource-management/time-zone-agnostic-dates-rm.md
     - name: Resource reconciliation
       items: 
       - name: Resource reconciliation overview
