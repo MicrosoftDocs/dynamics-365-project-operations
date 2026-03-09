@@ -1,6 +1,6 @@
 ---
 title: Time zone agnostic dates in Project and Project Task
-description: Learn about time zone agonsitc dates in project and project task
+description: Learn about time zone agonstic dates in project and project task
 author: dishantpopli
 ms.date: 02/20/2026
 ms.topic: how-to
