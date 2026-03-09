@@ -1,6 +1,6 @@
 ---
 title: Time zone agnostic dates in Project and Project Task
-description: Learn about time zone agonstic dates in project and project task
+description: Learn about time zone agnostic dates in project and project task
 author: dishantpopli
 ms.date: 02/20/2026
 ms.topic: how-to
@@ -29,7 +29,7 @@ The new TZA fields on the Project entity are editable, allowing you to update pr
 **Project Task Entity:**
 The new TZA fields on the Project Task entity are read-only. You must update the non-TZA date fields directly, and the TZA fields are calculated automatically. 
 
-For existing projects, TZA field values are calculated using lazy loading. This means the TZA fields are populated when the project main form is opened for the first time. Until the form is opened, these fields will remain empty in the database.
+For existing projects, TZA field values are calculated using lazy loading and hence TZA fields are populated when the project main form is opened for the first time. Until the form is opened, these fields are empty in the database.
 
 ## How time zone conversion works
 The system automatically converts non-TZA dates to TZA dates using the **project calendar's time zone** as the reference.
