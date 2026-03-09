@@ -81,9 +81,9 @@ If **Actual cost > Forecast amount** then consider Total cost = Total forecast a
 
 ### Transactions
 
-| Transactions Period | Hour | Expense| Item | Total cost for the month | Total cost | Current Percentage of completion | Current percentage of completion Calculation | Percentage of completion| New Percentage of completion Calculation |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | ---|
+| Transaction Period | Hour | Expense | Item | Total cost for the month | Total cost | Current Percentage of completion | Current percentage of completion Calculation | Percentage of completion| New Percentage of completion Calculation |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | November | 1,000.00 | 400.00 || 1,400 |1,400|25.93%|(1,400/5,400)*100|25.93%|(1,400/5,400)*100|
-| December | 1,400.00 | 1,000.00 || 2,400 |3,800|**64.41%**|(1,400/5,800)*100|**70.37%**|(3,800/5,400)*100|                                                       -           
+| December | 1,400.00 | 1,000.00 || 2,400 |3,800|**64.41%**|(1,400/5,800)*100|**70.37%**|(3,800/5,400)*100|                                                                 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
