@@ -42,6 +42,7 @@ The system converted UTC to each user's individual time zone (set in personaliza
 
 > [!NOTE]
 > Automatic conversion to TZA dates uses the working hours from the project calendar. Ensure your project calendar has the correct working hours configured for accurate results.
+>
 > TZA fields are intended for reporting and display purposes only. The scheduling engine continues to use the non-TZA fields for all scheduling calculations and operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
