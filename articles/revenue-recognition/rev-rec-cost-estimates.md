@@ -11,11 +11,11 @@ ms.author: mukumarm
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP_, _Project Operations for Manufacturing__ 
+_**Applies To:** Project Operations Integrated with ERP, Project Operations for Manufacturing_ 
 
 Actual costs often exceed initial estimates due to scope changes, resource constraints, or unforeseen expenses. 
 If EAC is updated dynamically, revenue recognition can become inconsistent, leading to premature recognition or inflated revenue figures. 
-Finance teams always requires a stable and auditable method that uses the original cost estimate as the denominator for percentage completion calculations. 
+Finance teams always require a stable and auditable method that uses the original cost estimate as the denominator for percentage completion calculations. 
 This ensures that revenue recognition remains aligned with the initial plan, and any cost overruns are treated as losses rather than revenue triggers.
 
 This feature provides predictable revenue recognition, simplifies compliance with IFRS/GAAP, and enhances auditability. 
@@ -36,7 +36,7 @@ To use the functionality, activate the following features:
 ## Configurations
 
 ### Cost templates
-To enable the fixed price revene recogntion percentage calculation using cost estimates (forecast or project budget), follow these steps: 
+To enable the fixed price revenue recognition percentage calculation using cost estimates (forecast or project budget), follow these steps: 
 
 1. In **Dynamics 365 Finance**, Go to **Project management and accounting** > **Setup** > **Estimates** > **Cost templates**.
 2. Click **Cost lines**.
@@ -47,7 +47,7 @@ To enable the fixed price revene recogntion percentage calculation using cost es
  > [!NOTE]
    > This feature is supported only for the **Completion method** based on **Cost amount** and **Quantity**.
 
-### Project management annd accounting parameters
+### Project management and accounting parameters
 
 If the cost to complete is lower than the estimated cost at completion, **Dynamics 365** blocks revenue recognition for the period.
 To allow processing while notifying the user, the system should display a warning and permit continuation as outlined below.
@@ -71,7 +71,7 @@ If **Actual cost > Forecast amount** then consider Total cost = Total forecast a
 
 ### Transactions
 
-| Transactions Period | Hour | Expense| Item | Total Cost for the month | Total cost till date | Current POC | Currenct POC Calculation | New POC | New POC Calculation |
+| Transactions Period | Hour | Expense| Item | Total cost for the month | Total cost | Current Percentage of completion | Current percentange of completion Calculation | Percentage of completion| New Percentage of completion Calculation |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---|
 | November | 1,000.00 | 400.00 || 1,400 |1,400|25.93%|(1,400/5,400)*100|25.93%|(1,400/5,400)*100|
 | December | 1,400.00 | 1,000.00 || 2,400 |3,800|**64.41%**|(1,400/5,800)*100|**70.37%**|(3,800/5,400)*100|                                                       -   	 	 	 	 
