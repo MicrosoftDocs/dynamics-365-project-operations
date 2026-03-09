@@ -29,6 +29,8 @@ The new TZA fields on the Project entity are editable, allowing you to update pr
 **Project Task Entity:**
 The new TZA fields on the Project Task entity are read-only. You must update the non-TZA date fields directly, and the TZA fields are calculated automatically. 
 
+For existing projects, TZA field values are calculated using lazy loading. This means the TZA fields are populated when the project main form is opened for the first time. Until the form is opened, these fields will remain empty in the database.
+
 ## How time zone conversion works
 The system automatically converts non-TZA dates to TZA dates using the **project calendar's time zone** as the reference.
 
@@ -40,5 +42,6 @@ The system converted UTC to each user's individual time zone (set in personaliza
 
 > [!NOTE]
 > Automatic conversion to TZA dates uses the working hours from the project calendar. Ensure your project calendar has the correct working hours configured for accurate results.
+> TZA fields are intended for reporting and display purposes only. The scheduling engine continues to use the non-TZA fields for all scheduling calculations and operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
