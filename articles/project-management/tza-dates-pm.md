@@ -14,7 +14,7 @@ ms.author: dishantpopli
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
-The Project and Project Task entities now support time zone agnostic (TZA) dates, enabling more flexible date handling across different time zones. To support this capability, new fields have been introduced to both entities.
+The Project and Project Task entities now support time zone agnostic (TZA) dates, enabling more flexible date handling across different time zones. To support this capability, new fields are added to both entities.
 
 | Display Name | Field | Entity | Description |
 |-------|----------------------|--------------------|-----------------------|
@@ -27,7 +27,7 @@ The Project and Project Task entities now support time zone agnostic (TZA) dates
 The new TZA fields on the Project entity are editable, allowing you to update project schedules using either TZA or non-TZA date fields. When you edit a non-TZA date, the corresponding TZA date is automatically calculated, and vice versa.
 
 **Project Task Entity:**
-The new TZA fields on the Project Task entity are read-only. You must update the non-TZA date fields directly, and the TZA fields will be calculated automatically. 
+The new TZA fields on the Project Task entity are read-only. You must update the non-TZA date fields directly, and the TZA fields are calculated automatically. 
 
 ## How time zone conversion works
 The system automatically converts non-TZA dates to TZA dates using the **project calendar's time zone** as the reference.
