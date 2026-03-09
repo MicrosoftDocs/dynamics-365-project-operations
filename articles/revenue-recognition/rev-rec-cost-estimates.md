@@ -11,7 +11,7 @@ ms.author: mukumarm
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP_,_ Project Operations for Manufacturing_ 
+_**Applies To:** Project Operations Integrated with ERP_, _Project Operations for Manufacturing__ 
 
 Actual costs often exceed initial estimates due to scope changes, resource constraints, or unforeseen expenses. 
 If EAC is updated dynamically, revenue recognition can become inconsistent, leading to premature recognition or inflated revenue figures. 
@@ -28,12 +28,14 @@ or fixed price contract lines.
 ## Prerequisites
 ### Minimum version required
 To use the feature for **Dynamics 365 Project Operations**, you must have the following versions:
--  Dynamics 365 Finance version 10.0.47 or later
+-  Dynamics 365 Finance version 10.0.48 or later
 ### Features
 To use the functionality, activate the following features:
--  Enable Project Revenue recognition using the cost estimate instead of the EAC
+-  Enable Project Revenue recognition using the cost estimate instead of the EAC in Project Operations
 
-## Cost templates
+## Configurations
+
+### Cost templates
 To enable the fixed price revene recogntion percentage calculation using cost estimates (forecast or project budget), follow these steps: 
 
 1. In **Dynamics 365 Finance**, Go to **Project management and accounting** > **Setup** > **Estimates** > **Cost templates**.
@@ -44,6 +46,15 @@ To enable the fixed price revene recogntion percentage calculation using cost es
 
  > [!NOTE]
    > This feature is supported only for the **Completion method** based on **Cost amount** and **Quantity**.
+
+### Project management annd accounting parameters
+
+If the cost to complete is lower than the estimated cost at completion, **Dynamics 365** blocks revenue recognition for the period.
+To allow processing while notifying the user, the system should display a warning and permit continuation as outlined below.
+
+1. In **Dynamics 365 Finance**, Go to **Project management and accounting** > **Setup** > **Project management and accounting parameters**.
+2. Go to **Revenue recognition** tab.
+3. Set **Allow posting when cost to complete is less than the check value** to **Warning**.
 
 ## Example
 Once this option is enabled, during the **revenue recognition process**, **Dynamics 365** evaluates the **cost template** and **cost-to-complete** method as follows:
@@ -60,8 +71,8 @@ If **Actual cost > Forecast amount** then consider Total cost = Total forecast a
 
 ### Transactions
 
-| Transactions Period | Hour | Expense| Item | Total Cost for the month | Total cost till date | Current POC | Currency POC Calculation | New POC % | New POC Calculation |
+| Transactions Period | Hour | Expense| Item | Total Cost for the month | Total cost till date | Current POC | Currenct POC Calculation | New POC | New POC Calculation |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---|
 | November | 1,000.00 | 400.00 || 1,400 |1,400|25.93%|(1,400/5,400)*100|25.93%|(1,400/5,400)*100|
-| December | 1,400.00 | 1,000.00 || 2,400 |3,800|64.41%|(1,400/5,800)*100|70.37%|(3,800/5,400)*100|                                                       -   	 	 	 	 
+| December | 1,400.00 | 1,000.00 || 2,400 |3,800|**64.41%**|(1,400/5,800)*100|**70.37%**|(3,800/5,400)*100|                                                       -   	 	 	 	 
 
