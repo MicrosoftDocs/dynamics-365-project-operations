@@ -14,7 +14,7 @@ ms.author: dishantpopli
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
-The Project and Project Task entities now support time zone agnostic (TZA) dates, enabling more flexible date handling across different time zones. To support this capability, the system adds new fields to both entities.
+The Project and Project Task entities now support time zone agnostic dates, enabling more flexible date handling across different time zones. To support this capability, the system adds new fields to both entities.
 
 | Display Name | Field | Entity | Description |
 |-------|----------------------|--------------------|-----------------------|
@@ -25,29 +25,29 @@ The Project and Project Task entities now support time zone agnostic (TZA) dates
 
 ## Project entity
 
-The new TZA fields on the Project entity are editable, so you can update project schedules using either TZA or non-TZA date fields. When you edit a non-TZA date, the system automatically calculates the corresponding TZA date, and vice versa.
+The new time zone agnostic fields on the Project entity are editable. When you edit a non time zone agnostic date, the system automatically calculates the corresponding time zone agnostic date, and vice versa.
 
 ## Project Task entity
 
-The new TZA fields on the Project Task entity are read-only. You must update the non-TZA date fields directly, and the system automatically calculates the TZA fields.  
+The new time zone agnostic fields on the Project Task entity are read-only. You must update the non time zone agnostic date fields directly, and the system automatically calculates the time zone agnostic fields.  
 
-For existing projects, the system uses lazy loading to calculate TZA field values. The system populates TZA fields when you open the project main form for the first time. Until you open the form, these fields are empty in the database.
+For existing projects, the system uses lazy loading to calculate time zone agnostic field values. The system populates them when you open the project main form for the first time. Until you open the form, these fields are empty in the database.
 
 ## How time zone conversion works
 
-The system automatically converts non-TZA dates to TZA dates by using the **project calendar's time zone** as the reference.
+The system automatically calculates time zone agnostic dates by using the **project calendar's time zone** as the reference.
 
-### With TZA fields (new)
+### With time zone agnostic fields (new)
 
 The system displays dates based on the project calendar's time zone, so all users see consistent dates.
 
-### With non-TZA fields (previous)
+### With non time zone agnostic fields (previous)
 
 The system converts UTC to each user's individual time zone (set in personalization settings), so different users see different dates and times for the same project data.
 
 > [!NOTE]
-> Automatic conversion to TZA dates uses the working hours from the project calendar. Ensure your project calendar has the correct working hours configured for accurate results.
+> Automatic conversion to time zone agnostic dates uses the working hours from the project calendar. Ensure your project calendar has the correct working hours configured for accurate results.
 >
-> Use TZA fields for reporting and display purposes only. The scheduling engine continues to use the non-TZA fields for all scheduling calculations and operations.
+> Use time zone agnostic fields for reporting and display purposes only. The scheduling engine continues to use the non time zone agnostic fields for all scheduling calculations and operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
