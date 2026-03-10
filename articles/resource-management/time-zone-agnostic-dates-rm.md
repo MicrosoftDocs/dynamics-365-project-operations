@@ -25,11 +25,11 @@ The Resource Requirement, Resource Requirement Detail, and Bookable Resource Boo
 | Start Date Time Zone Independent | msdyn_TzaStartTime | Bookable Resource Booking | Start date and time of the booking in time zone independent format |
 | End Date Time Zone Independent | msdyn_TzaEndTime | Bookable Resource Booking | End date and time of the booking in time zone independent format |
 
-The new time zone agnostic fields are editable. When you edit a time zone dependent date, the corresponding time zone agnostic date is automatically calculated, and vice versa. 
+The new time zone agnostic dates are editable. When you edit a time zone dependent date, the corresponding time zone agnostic date is automatically calculated, and vice versa. 
 
-For existing projects, the system calculates time zone agnostic field values by using lazy loading. The system populates them when you open the main form of their respective entity (Resource Requirement, Resource Requirement Detail, or Bookable Resource Booking) for the first time. Until you open the form, these fields are empty in the database.
+For existing projects, the system calculates time zone agnostic dates by using lazy loading. The system populates them when you open the main form of their respective entity (Resource Requirement, Resource Requirement Detail, or Bookable Resource Booking) for the first time. Until you open the form, these dates are empty in the database.
 
 > [!NOTE]
-> Use time zone agnostic fields for reporting and display purposes only. The scheduling engine continues to use the time zone dependent fields for all scheduling calculations and operations.
+> Use time zone agnostic dates for reporting and display purposes only. The scheduling engine continues to use the time zone dependent dates for all scheduling calculations and operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
