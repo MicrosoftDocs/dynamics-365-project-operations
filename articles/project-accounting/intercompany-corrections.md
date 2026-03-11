@@ -3,7 +3,7 @@ title: (Preview) Corrections for intercompany posted transactions
 description: This article provides information about intercompany corrections for project accounting.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 02/07/2026
+ms.date: 03/10/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -39,8 +39,12 @@ Tooltips have been added in several areas that appear when hovering over checkbo
 
 - The line details has been enhanced on the **Project** tab to include whether or not the transaction orginated from the project intercompany process or not.
 - New fields have been added to list the original transaction origin (timesheet, expense, etc) as well as the original transaction ID, which will navigate the user back to **Intercompany posted transactions**.
+- A warning has been added to the pending vendor invoice that one should not make changes to a reversal entry.
 
-3. For the **Posted project transactions** form, a new column was added to indicate of the transaction is intercompany or not.
+3. For the **Posted project transactions** form, improvements include:
+
+- A new column was added to indicate of the transaction is intercompany or not.
+- Users can navigate to intercompany posted transactions from here.
 
 4. When performing adjustments of intercompany transactions, users will be warned that they may want to consider using corrections instead.
 
@@ -54,6 +58,6 @@ The following steps show the typical flow for intercompany corrections.
 1. Select the line or lines that need correction. In the ribbon, click to **Correct transactions**. The transactions will set **Correction status** to **Corrected** and the **Corrected document number** will be populated with the new timesheet number.
 1. Clicking into the **Corrected document number** will navigate to the document and you will see a line for the reversal as well as the new line for the corrected entry.
 1. Within the timesheet, no changes are allowed for the negative transaction. For the new line, it can be deleted to post a reversal only or edited to post to a different day or project. Or sales prices can be updated before posting the new timesheet to have the timesheet post with updated pricing.
-1. Create an intercompany customer invoice for the correction.
+1. Create an intercompany customer invoice for the correction. The reversal customer invoice cannot be created until the original customer invoice has been posted.
 1. The pending vendor invoice for the intercompany transaction can be posted.
 1. The correction transaction will now flow through to the project.
