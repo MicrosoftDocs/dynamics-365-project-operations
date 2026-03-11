@@ -81,6 +81,7 @@ Dynamics 365 Project Operations consists of two components:
 | **4.160.0.2877**    | December 09, 2025             | December 09, 2025             | December 09, 2025             | December 09, 2025             | December 09, 2025           | December 09, 2025             | December 09, 2025           | December 10, 2025           | December 09, 2025           | December 10, 2025           |
 
 
+
 ## Release Schedule for Project Management and Accounting in the Finance and Operations Apps Environment
 
 See the [Service Update Availability](/dynamics365/fin-ops-core/dev-itpro/get-started/public-preview-releases) for the Project Management and Accounting in the Finance and Operations Apps Environment Release Schedule. 
