@@ -35,7 +35,7 @@ Tooltips have been added in several areas that appear when hovering over checkbo
 
 - When creating a new invoice, the form has been enhanced to be wider and allows for more columns to be visible.
 - There is a new **Reversal** column to indicate if the transaction originated from a correction.
-- There are new columns for **Original invoice posted** and **Original transaction ID** to give details on the original transaction that was reversed. When performing corrections, the original intercompany invoice is required to be posted before the reversal invoice.
+- There are new columns for **Original invoice posted** and **Original transaction ID** to give details on the original transaction that was reversed.
 
 3. Within the **Intercompany customer invoice** form, clicking **original document** will now take you back to **Intercompany posted transactions** which will give you more details before clicking into the timesheet.
 
@@ -47,10 +47,10 @@ Tooltips have been added in several areas that appear when hovering over checkbo
 
 5. For the **Posted project transactions** form, improvements include:
 
-- A new column was added to indicate of the transaction is intercompany or not.
-- Users can navigate to intercompany posted transactions from here.
+- A new column was added to indicate if the transaction is intercompany.
+- Users can navigate to intercompany posted transactions to view or correct transactions from this form.
 
-6. When performing adjustments of intercompany transactions, users will be warned that they may want to consider using corrections instead.
+6. When performing **Adjustments** on intercompany transactions, users will be warned that they may want to consider using corrections instead.
 
 ## Corrections process flow
 
