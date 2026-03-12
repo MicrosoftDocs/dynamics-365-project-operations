@@ -50,4 +50,68 @@ You can see this application in the **Applied Retainers and Advances** grid on t
 | Extended Amount | **Applied Advances and Retainers** grid on the **Project Invoice** page  | This editable field provides the amount of the retainer or advance that is being used on this project invoice. This amount can't be more than what is available on the advance. The system automatically calculates this value as the difference between the **Amount** and **Used Amount** fields on the grid. You can decrease this amount to use less than what is available but you can't increase the amount to use more than what is available. | You can display this field to the customer on the printed invoice to indicate the amount from this retainer or advance that being used on the invoice. |
 | Balance Retainer Amount. | **Applied Advances and Retainers** grid on the **Project Invoice** page  | This read-only field provides the value of how much of the retainer or advance is left after the invoice is confirmed. | You can display this field to the customer on the printed invoice to indicate the amount that is left from this retainer or advance after the invoice is confirmed and paid. |
 
+
+## Refund unused retainers
+
+Feature flag to enable this feature - **'Refund retainers'**
+
+Project-based engagements often start with retainers or advances that are invoiced upfront. If a project completes with a remaining retainer balance, Project Operations lets you refund the unused amount either from a project invoice or directly from the project contract—without creating separate corrective invoices. This simplifies financial close out and reduces manual adjustments.
+
+You can refund the remaining amount either from an invoice or directly from the project contract. In both cases, the refund is completed when the invoice is confirmed.
+
+### Refund a retainer from an invoice
+
+Use this option when you’re already reviewing or creating a project invoice.
+
+1. Open an existing **draft project invoice**, or create a new one from **Billing hub**.  
+   > You can create a draft invoice even if there are no chargeable transactions, as long as retainers are being refunded.
+
+2. On the invoice, go to **Applied advances and retainers**.
+
+3. Select one or more retainers with an available balance.
+
+4. If you need to refund a retainer that isn’t already part of the invoice, select **Add** to add the retainer with its available amount.
+
+5. For a newly added retainer, you can perform one of the following actions:
+   - **Apply the retainer to invoice transactions**  
+     > To apply the retainer, use **Extended amount**.
+   - **Refund the retainer**
+
+6. To refund, select the retainer and choose **Refund**.  
+   The retainer is marked as **Ready to refund**.  
+   > To cancel the refund, select **Cancel refund**.
+
+7. **Confirm the invoice** to process the refund.  
+   The retainer status is updated to **Refunded**, and the amount is returned to the customer.
+
+### Refund a retainer from the project contract
+
+Use this option when closing a project and no invoice exists yet.
+
+1. Go to **Sales > Project contracts** and open the contract.
+
+2. In **Advances and retainers**, select one or more retainers with an available balance.
+
+3. Select **Refund**.  
+   The retainer is marked as **Ready to refund**.
+
+4. Create a draft invoice (for example, from **Billing hub**).
+
+5. Review the refund in **Applied advances and retainers**, then **confirm the invoice** to complete the refund.
+
+### Refund status at a glance
+
+| Status | Meaning |
+|------|--------|
+| **Ready to refund** | Refund is staged but not yet processed |
+| **Refunded** | Refund invoice has been confirmed |
+| *(Blank)* | Retainer is active or reset due to correction |
+
+> Considerations
+> - You can’t refund more than the retainer’s available balance.  
+> - Refund actions aren’t available on confirmed invoices.  
+> - If a confirmed refund needs to be changed, use invoice correction or revision flows.
+``
+
+
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
