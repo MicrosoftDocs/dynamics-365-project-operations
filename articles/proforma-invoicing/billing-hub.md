@@ -10,6 +10,12 @@ ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
 
+## What's new in Billing hub
+
+Billing hub enhancements improve visibility and control, reduce manual effort, and continue the shift toward Billing hub as the central invoicing workspace. Key enhancements include visibility for **Not Ready to Invoice** transactions, streamlined invoice creation, instant amount calculations and notifications in select scenarios, and performance and user experience improvements.
+
+The updates can be accessed by enabling the flag 'Enable Billing Hub updates'.
+
 # Create proforma project invoices with Billing hub
 
 [!INCLUDE[banner](../includes/banner.md)]
