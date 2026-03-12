@@ -2,7 +2,7 @@
 title: Create proforma project invoices with Billing hub
 description: This article provides information about how to use Billing hub to create proforma project-based invoices.
 author: suvaidya
-ms.date: 09/24/2025
+ms.date: 03/12/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -19,6 +19,12 @@ _**Applies To:** Project Operations Core, Project Operations Integrated with ERP
 The end-to-end process of invoice creation in Microsoft Dynamics 365 Project Operations is cumbersome, because it involves multiple clicks and navigation between different forms and views.
 
 The purpose of the **Billing hub experience** is to provide a rich, consolidated view of contracts, contract lines, related actuals, and key invoicing insights **before invoice creation**, to help accountants and billing users **quickly** and **efficiently** create proforma invoices. When you use the platform's out-of-box nested grid functionality, users can complete invoice creation from a single unified view and through a single click. Because users don't have to move between forms or views to validate data, the processing of invoices is faster.
+
+## What's new in Billing hub
+
+Billing hub enhancements improve visibility and control, reduce manual effort, and continue the shift toward Billing hub as the central invoicing workspace. Key enhancements include visibility for **Not Ready to Invoice** transactions, streamlined invoice creation, instant amount calculations and notifications in select scenarios, and performance and user experience improvements.
+
+The updates can be accessed by enabling the flag **Enable Billing Hub updates**.
 
 ## Create new invoices
 
