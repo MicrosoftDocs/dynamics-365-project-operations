@@ -1,6 +1,6 @@
 ---
 title: Correct intercompany posted transactions (Preview)
-description: This article provides information about intercompany corrections for project accounting.
+description: Intercompany posted transaction corrections in Microsoft Dynamics 365 Project Operations give you a controlled way to reverse and repost timesheet entries across legal entities.
 author: ryansandness
 ms.author: ryansandness
 ms.date: 03/12/2026
@@ -43,7 +43,7 @@ Tooltips provide more information about related documents when you hover over ch
 1. For the **Pending vendor invoice** form, improvements include:
 
 - The line details on the **Project** tab now show whether the transaction came from the project intercompany process or not.
-- New fields list the original transaction origin (timesheet, expense, and so on) as well as the original transaction ID, which takes you back to **Intercompany posted transactions**.
+- New fields list the original transaction origin (timesheet, expense, and so on) and the original transaction ID, which takes you back to **Intercompany posted transactions**.
 - A warning says you shouldn't make changes to a reversal entry.
 
 1. For the **Posted project transactions** form, improvements include:
@@ -61,7 +61,7 @@ The following steps show the typical flow for intercompany corrections.
 1. Select the appropriate date filters. By default, the prior 30 days are shown.
 1. Scan for any values in the **Alert** column. You receive an indication for scenarios where either the cost price is zero, the sales price is zero, or the current date effective cost or sales price is different than the posted price.
 1. Select the lines that need correction. In the ribbon, select **Correct transactions**. The transactions set **Correction status** to **Corrected** and the **Corrected document number** is populated with the new timesheet number.
-1. Select the **Corrected document number** or the message in the infolog to **View timesheet**. You go to the document and see a line for the reversal as well as the new line for the corrected entry.
+1. Select the **Corrected document number** or the message in the info log to **View timesheet**. You go to the document and see a line for the reversal and the new line for the corrected entry.
 1. Within the timesheet, you can't make changes for the negative transaction. For the new line, you can delete it to post a reversal only or edit it to post to a different day or project. Or sales prices can be updated before posting the new timesheet to have the timesheet post with updated pricing.
 1. Create an intercompany customer invoice for the correction. You can't create the reversal customer invoice until you post the original customer invoice.
 1. Post the pending vendor invoice for the intercompany transaction.
