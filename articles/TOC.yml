@@ -2226,6 +2226,8 @@
         href: project-accounting/period-types.md
       - name: Set up cost templates
         href: revenue-recognition/rev-rec-cost-templates.md
+      - name: Set up cost estimates
+        href: revenue-recognition/rev-rec-cost-estimates.md
     - name: Fixed price revenue estimate projects
       href: revenue-recognition/rev-rec-percentage-completion-method.md
     - name: Cost to complete methods
@@ -2578,6 +2580,10 @@
     items:
     - name: Eliminate a project estimate
       href: prod-pma/eliminate-project-estimate.md
+    - name: Set up cost templates
+      href: revenue-recognition/rev-rec-cost-templates.md
+    - name: Set up cost estimates
+      href: revenue-recognition/rev-rec-cost-estimates.md
   - name: Public sector
     items:
     - name: Schedule of Expenditures of Federal Awards inquiry
