@@ -15,6 +15,7 @@ ms.custom:
 # Navigate Project Operations
 
 [!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[lcs-freeze-banner](../includes/lcs-freeze-banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 
