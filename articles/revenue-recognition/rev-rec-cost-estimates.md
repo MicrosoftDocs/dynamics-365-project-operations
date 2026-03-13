@@ -11,7 +11,7 @@ ms.author: mukumarm
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Dynamics 365 Project Operations Integrated with ERP, Dynamics 365 Project Operations for Manufacturing_
+_**Applies to:** Project Operations integrated with ERP, Project Operations for manufacturing_
 
 Actual costs often exceed initial estimates due to scope changes, resource constraints, or unforeseen expenses.
 If you update EAC dynamically, revenue recognition can become inconsistent, leading to premature recognition or inflated revenue figures.
@@ -22,7 +22,7 @@ This feature provides predictable revenue recognition, simplifies compliance wit
 By decoupling revenue recognition from dynamic EAC adjustments, it ensures financial stability and transparency.
 Overruns are clearly identified as losses, enabling better cost control and project governance.
 
-This article explains how to configure and generate **revenue recognition using cost estimates** instead of **EAC (Estimate cost at completion)** in **Dynamics 365 Project operations** for **fixed price projects**
+This article explains how to configure and generate **revenue recognition using cost estimates** instead of **EAC (Estimate cost at completion)** in **Dynamics 365 Project Operations** for **fixed-price projects**
 or fixed price contract lines.
 
 ## Prerequisites
