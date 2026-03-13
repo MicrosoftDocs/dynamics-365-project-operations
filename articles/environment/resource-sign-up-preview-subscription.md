@@ -14,6 +14,7 @@ ms.reviewer: johnmichalak
 # Sign up for Project Operations preview subscriptions for Project Operations Integrated with ERP scenarios
 
 [!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[lcs-freeze-banner](../includes/lcs-freeze-banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 
