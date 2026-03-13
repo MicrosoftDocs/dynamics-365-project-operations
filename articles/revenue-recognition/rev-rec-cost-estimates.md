@@ -11,7 +11,7 @@ ms.author: mukumarm
 
 [!INCLUDE[banner](../includes/banner.md)]
 
-_**Applies To:** Project Operations Integrated with ERP, Project Operations for Manufacturing_
+_**Applies To:** Dynamics 365 Project Operations Integrated with ERP, Dynamics 365 Project Operations for Manufacturing_
 
 Actual costs often exceed initial estimates due to scope changes, resource constraints, or unforeseen expenses.
 If you update EAC dynamically, revenue recognition can become inconsistent, leading to premature recognition or inflated revenue figures.
