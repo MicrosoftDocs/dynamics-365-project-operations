@@ -158,7 +158,7 @@ To use the **Match Actuals** feature for Project Operations Integrated with ERP,
 - **Dynamics 365 Finance** version 10.0.48 or later
 
 To use the functionality, activate the following **features**:
-- **Enable Subcontract integration enhancements for Project operations integrated with ERP**
+- **Enable subcontractor vendor invoice matching to actuals for Project Operations integrated with ERP**
 
     > [!NOTE]
     > This feature is currently in public preview..
