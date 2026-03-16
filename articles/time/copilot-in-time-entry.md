@@ -48,15 +48,15 @@ To enable Copilot in time entry, follow these steps:
 > [!NOTE]
 > To disable Copilot in time entry, follow the same steps, but select **Disable Copilot in time entry** in step 7.
 
-## Interactive Copilot chat experience
+## Interactive Copilot experience
 
-You can access both Copilot capabilities of this feature only by using the interactive Copilot chat experience. Because the Copilot chat experience is currently in preview, it might not be enabled on your environment.
+You can access both Copilot capabilities of this feature only by using the interactive Copilot experience. Because the Copilot experience is currently in preview, it might not be enabled on your environment.
 
 - On the top menu bar, select the Copilot icon next to the user icon to expand the Copilot sidecar. The following message is shown: "Get started with Copilot by typing your request in chat."
 - To collapse the sidecar, select the Copilot icon again.
 
 > [!NOTE]
-> If the Copilot icon isn't visible, work with your system administrator to [enable Copilot chat for your environment](/power-apps/maker/model-driven-apps/add-ai-copilot#enable-copilot-for-model-driven-apps-feature-for-your-environment).
+> If the Copilot icon isn't visible, work with your system administrator to [enable Copilot for your environment](/power-apps/maker/model-driven-apps/add-ai-copilot#enable-copilot-for-model-driven-apps-feature-for-your-environment).
 
 ## Log time by using Copilot
 
