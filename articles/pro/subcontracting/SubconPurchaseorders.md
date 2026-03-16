@@ -16,11 +16,11 @@ ms.author: mukumarm
 
 _**Applies To:** Project Operations Integrated with ERP._
 
-This article presents an overview of the subcontracting feature in Microsoft Dynamics 365 Project Operations that's seamlessly integrated with Dynamics 365 Finance. This feature lets users generate subcontracts, document timesheets, and expenses, and other relevant information that subcontractors provide, in Dataverse. For every subcontract in Dataverse, the system automatically generates purchase orders in Finance. Likewise, for every recorded timesheet or expense in Dataverse, the system generates corresponding product receipts in Finance. When a subcontractor submits an invoice in Finance, the Accounts payable (AP) clerk gains access to all recorded timesheets and expenses that are associated with the subcontract. The AP clerk can then perform a three-way matching process and book the invoice in Finance.
+This article provides an overview of the subcontracting feature in Microsoft Dynamics 365 Project Operations that's integrated with Dynamics 365 Finance. By using this feature, you can create subcontracts and record timesheets, expenses, and other information that subcontractors provide in Microsoft Dataverse. For each subcontract in Dataverse, the system automatically creates purchase orders in Finance. For each timesheet or expense recorded in Dataverse, the system creates product receipts in Finance. When a subcontractor submits an invoice in Finance, the accounts payable (AP) clerk can access all recorded timesheets and expenses that are associated with the subcontract. The AP clerk can perform a three-way matching process and book the invoice in Finance.
 
 ## Prerequisites
 
-To use the functionality, activate the following features:
+To use this functionality, activate the following features:
 
 - **Enable Subcontract actuals processing with Project Operations for resource based/non-stocked scenarios**
 - **Enable Project purchase orders on Project Operations for resource based/non-stocked scenarios**
@@ -28,7 +28,7 @@ To use the functionality, activate the following features:
 
 ### Minimum versions required
 
-To use the feature for Project Operations Integrated with ERP, you must have the following versions:
+To use this feature for Project Operations Integrated with ERP, you must have the following versions:
 
 - **Project Operations Dataverse** version 4.91.0.0 or later
 - **Dynamics 365 Finance** version 10.0.39 or later
@@ -39,13 +39,13 @@ To generate purchase order lines in Finance for each subcontract line that you c
 
 To set up the default procurement categories and project categories, follow these steps:
 
-1. In Finance, go to **Project management and accounting** \> **Setup** \> **Categories** \> **Project subcontract categories**.
+1. In Finance, go to **Project management and accounting** > **Setup** > **Categories** > **Project subcontract categories**.
 1. Select **New** to create a record.
 1. In the **Subcontract transaction type** field, select **Hour** for time or **Expense** for expenses.
-1. Optional: Select **Role ID** for time or **Transaction category** for expenses.
+1. (Optional) Select **Role ID** for time or **Transaction category** for expenses.
 
     > [!NOTE]
-    > This step is required only if setup is required for a specific transaction category or role ID.
+    > This step is required only if you need to set up a specific transaction category or role ID.
 
 1. Select the procurement category for the mapping.
 1. Select the project category for the mapping.
@@ -56,12 +56,12 @@ When you log timesheet entries or expenses in Dataverse, Finance automatically g
 
 To set up the number sequence for subcontract product receipts, follow these steps:
 
-1. In Finance, go to **Project management and accounting** \> **Project management and accounting parameters**.
+1. In Finance, go to **Project management and accounting** > **Project management and accounting parameters**.
 1. On the **Number sequence** tab, select the **Product receipt** reference, and then select the number sequence for subcontract product receipts.
 
 ## Set up dual-write maps
 
-Before purchase orders and purchase order lines in Finance can be automatically generated for each subcontract in Dataverse, set the following dual-write maps to the running stage.
+Before you can automatically generate purchase orders and purchase order lines in Finance for each subcontract in Dataverse, set the following dual-write maps to the running stage.
 
 | Required dual-write map | Required version |
 |---|---|
@@ -73,14 +73,15 @@ Before purchase orders and purchase order lines in Finance can be automatically 
 
 > [!NOTE]
 > The **Language** field in the Purchase Order header is **mandatory** in Finance and Operations but doesn't exist in Dataverse.  
->  
-> This field is automatically populated from the Vendor's **Language** setting in Finance and Operations. 
->  - Ensure the **Language** field for vendor is set to a valid value.  
->  - Navigate to **Finance and Operations** > **Procurement and sourcing** > **Vendors** > **All vendors**.  
+> 
+> This field is automatically populated from the Vendor's **Language** setting in Finance and Operations.
+>
+> - Ensure the **Language** field for vendor is set to a valid value.  
+> - Go to **finance and operations** > **Procurement and sourcing** > **Vendors** > **All vendors**.  
 
 ## Create and manage subcontracts
 
-When you create a subcontract in Dataverse, the system generates a corresponding purchase order in Finance. For every subcontract line in Dataverse, the system creates a purchase order line. The system uses the project subcontract category mapping that was outlined earlier to identify the procurement category and project category for each purchase order line.
+When you create a subcontract in Dataverse, the system generates a corresponding purchase order in Finance. For every subcontract line in Dataverse, the system creates a purchase order line. The system uses the project subcontract category mapping that you set up earlier to identify the procurement category and project category for each purchase order line.
 
 When you confirm the subcontract in Dataverse, the system automatically confirms the purchase orders in Finance. If you change the subcontract or its lines in Dataverse, the system updates the purchase orders in Finance. Therefore, the purchase order status in Finance reflects any changes.
 
@@ -92,7 +93,7 @@ For information about how to create and manage subcontracts in Dataverse, see [S
 To view the list of subcontract purchase orders in Finance, follow these steps:
 
 1. In Finance, go to **Project management and accounting** \> **Item tasks** \> **Subcontract purchase orders**.
-1. Select the purchase order to view its details. None of the fields are editable.
+1. Select the purchase order to view its details. You can't edit any of the fields.
 1. Select the **Header** tab of the purchase order.
 
     The **General** tab shows the details of the subcontract, such as the subcontract ID, name, date, and status.
@@ -116,64 +117,66 @@ When you log timesheet entries or expenses in Dataverse, Finance automatically g
 
 To generate product receipts for timesheets and expenses that subcontractor resources record or subcontractors share in Dataverse, follow these steps:
 
-1. In Finance, go to **Project management and accounting** \> **Periodic** \> **Subcontracts** \> **Generate product receipt for subcontracts**.
+1. In Finance, go to **Project management and accounting** > **Periodic** > **Subcontracts** > **Generate product receipt for subcontracts**.
 1. Select **Generate product receipt for subcontracts** to generate the product receipt. You can use a batch process to perform this activity on a periodic basis. Run this process in batch mode every day.
 
     Finance uses the timesheet, expenses, material usage, or journal entries to consider all the timesheet entries, expenses, and materials that you approved in Dataverse for the subcontract.
 
-    After the Project integration journal for all entries is posted, the system generates product receipts for subcontract purchase orders. During the product receipt generation process, the system considers each accounting date that's used for journals. If you post multiple entries through the Project integration journal, but they have different accounting dates, the system generates multiple product receipts. Each product receipt corresponds to the appropriate accounting date.
+    After the system posts the Project integration journal for all entries, it generates product receipts for subcontract purchase orders. During the product receipt generation process, the system considers each accounting date that's used for journals. If you post multiple entries through the Project integration journal but they have different accounting dates, the system generates multiple product receipts. Each product receipt corresponds to the appropriate accounting date.
 
-1. In Finance, go to **Project management and accounting** \> **Sub contracts** \> **Project subcontracts product receipts** to view the list of product receipts together with the posted status.
+1. In Finance, go to **Project management and accounting** > **Sub contracts** > **Project subcontracts product receipts** to view the list of product receipts together with the posted status.
 
 ## Post product receipts for subcontracts
 
 To post the subcontract product receipts, follow one of these steps in Finance.
 
-- Go to **Project management and accounting** \> **Periodic** \> **Subcontracts** \> **Post product receipt for subcontracts**, and select **Post product receipt for subcontracts** to post the product receipt. Use a batch process to perform this activity on a periodic basis. Run this process in batch mode every day.
-- Go to **Project management and accounting** \> **Sub contracts** \> **Project subcontracts product receipts** to view the list of product receipts together with the posted status. Select the product receipt, then select **Post** to post it.
+- Go to **Project management and accounting** > **Periodic** > **Subcontracts** > **Post product receipt for subcontracts**, and select **Post product receipt for subcontracts** to post the product receipt. Use a batch process to perform this activity on a periodic basis. Run this process in batch mode every day.
+- Go to **Project management and accounting** > **Sub contracts** > **Project subcontracts product receipts** to view the list of product receipts together with the posted status. Select the product receipt, and then select **Post** to post it.
 
-In both cases, the system generates the Product receipt financial voucher if product receipt accrual is configured for procurement categories, in accordance with the purchasing policy.
+In both cases, if you configure product receipt accrual for procurement categories, the system generates the product receipt financial voucher in accordance with the purchasing policy.
 
 ## Create and post subcontract vendor invoices
+
 When an accounts payable clerk receives an invoice from the subcontractor, they create a new invoice in Finance.
 
 To create and post subcontract vendor invoices, follow these steps:
 
-1. In Finance, go to **Accounts payables** \> **Purchase orders** \> **All purchase orders**.
-2. On the Action Pane, on the **Invoice** tab, select **Invoice** to create a vendor invoice for the subcontract purchase order.
-3. On the Action Pane, on the **Default from** tab, select **Product receipt quantity** as an option. The purchase order lines are shown together with the product receipt quantity.
-4. Enter the invoice number and invoice date.
-5. Select **Post** to post the vendor invoice.
+1. In Finance, go to **Accounts payables** > **Purchase orders** > **All purchase orders**.
+1. On the Action Pane, on the **Invoice** tab, select **Invoice** to create a vendor invoice for the subcontract purchase order.
+1. On the Action Pane, on the **Default from** tab, select **Product receipt quantity** as an option. You see the purchase order lines together with the product receipt quantity.
+1. Enter the invoice number and invoice date.
+1. Select **Post** to post the vendor invoice.
 
-### Three-Way matching for subcontract vendor invoice lines
+### Three-way matching for subcontract vendor invoice lines
 
-Since **product receipts** are generated from **timesheet entries**, **expenses**, and **material usage** recorded against subcontracts in **Dynamics 365 Project operations**, vendor invoices recorded in **Dynamics 365 Finance** must be 3‑way matched against these original actuals. 
+Because **product receipts** come from **timesheet entries**, **expenses**, and **material usage** recorded against subcontracts in **Project Operations**, you need to 3‑way match vendor invoices recorded in **Finance** against these original actuals.
 
-To support this process, **Match actuals** functionality has been introduced on each vendor invoice line that is linked to a subcontract, enabling comparison between the invoice, product receipt, and the underlying actuals.
+To support this process, the **Match actuals** functionality is available on each vendor invoice line that links to a subcontract. This functionality enables comparison between the invoice, product receipt, and the underlying actuals.
 
 #### Prerequisites
 
-To use the **Match Actuals** feature for Project Operations Integrated with ERP, you must have the following versions
+To use the **Match Actuals** feature for Project Operations Integrated with ERP, use the following versions:
 
-- **Dynamics 365 Finance** version 10.0.48 or later
+- **Finance** version 10.0.48 or later
 
-To use the functionality, activate the following **features**:
-- **Enable subcontractor vendor invoice matching to actuals for Project Operations integrated with ERP**
+To use the functionality, activate the following **feature**:
 
-    > [!NOTE]
-    > This feature is currently in public preview..
-    
-Once this feature is enabled, the **Match actuals** button is available on invoice lines. Selecting this option displays all actuals generated from timesheet entries, expenses, and material usage that are linked to the corresponding product receipts. To perform three‑way matching with actuals, follow these steps:
+- **Enable subcontractor vendor invoice matching to actuals for Project Operations integrated with ERP**.
 
-1. In Finance, go to **Accounts payables** \> **Purchase orders** \> **All purchase orders**.
-2. On the Action Pane, on the **Invoice** tab, select **Invoice** to create a vendor invoice for the subcontract purchase order.
-3.  Enter the invoice number and invoice date.
-4. On the Action Pane, on the **Default from** tab, select **Product receipt quantity** as an option. The purchase order lines are shown together with the product receipt quantity.
-5. On the vendor invoice lines, Click **Match actuals**. It displays the list of actuals linked with the product receipts for the vendor invoice.
-6. Select the **actuals** that are not included in the invoice details received from the subcontractor, and then click **Un‑match actuals**. Next, go to the **Un‑matched actuals** tab, select the actuals that you want to include for invoicing, and select **Match actuals**. By default, all the actuals are selected for matching for the product receipts linked with the invoice.
-7. After **three‑way matching** is completed, select **Update product receipt**. This action updates the **product receipt quantity** based on the actuals selected for matching.
-8. Select **Post** to post the vendor invoice. There may be cases where the **quantity of actuals** selected for matching does not align with the **invoice quantity**. In such scenarios, during invoice posting, the system displays a **message** indicating that the actuals quantity does not match the invoice quantity. The invoice posting process continues if the user selects OK.
+After you enable this feature, the **Match actuals** button is available on invoice lines. Select this option to see all actuals generated from timesheet entries, expenses, and material usage that link to the corresponding product receipts. 
 
-When you post the vendor invoice, synchronization with Dataverse occurs, and an automatic confirmation is done for the vendor invoices in Dataverse. In Dataverse, the system initiates an automatic matching process for vendor invoice lines and the original timesheet or expense entries that are associated with subcontracts. This matching process involves generating a reversal entry for the original record and then creating a new entry for the vendor invoice line in the **Actual** entity.
+To perform three‑way matching with actuals, follow these steps:
+
+1. In Finance, go to **Accounts payables** > **Purchase orders** > **All purchase orders**.
+1. On the Action Pane, on the **Invoice** tab, select **Invoice** to create a vendor invoice for the subcontract purchase order.
+1. Enter the invoice number and invoice date.
+1. On the Action Pane, on the **Default from** tab, select **Product receipt quantity** as an option. You see the purchase order lines together with the product receipt quantity.
+1. On the vendor invoice lines, select **Match actuals**. It displays the list of actuals linked with the product receipts for the vendor invoice.
+1. Select the **actuals** that aren't included in the invoice details you received from the subcontractor, and then select **Un‑match actuals**. 
+1. Go to the **Un‑matched actuals** tab, select the actuals that you want to include for invoicing, and select **Match actuals**. By default, all the actuals are selected for matching for the product receipts linked with the invoice.
+1. After **three‑way matching** is completed, select **Update product receipt**. This action updates the **product receipt quantity** based on the actuals selected for matching.
+1. Select **Post** to post the vendor invoice. There might be cases where the **quantity of actuals** selected for matching doesn't align with the **invoice quantity**. In such scenarios, during invoice posting, the system displays a **message** indicating that the actuals quantity doesn't match the invoice quantity. The invoice posting process continues if you select OK.
+
+When you post the vendor invoice, synchronization with Dataverse occurs, and an automatic confirmation happens for the vendor invoices in Dataverse. In Dataverse, the system initiates an automatic matching process for vendor invoice lines and the original timesheet or expense entries that are associated with subcontracts. This matching process involves generating a reversal entry for the original record and then creating a new entry for the vendor invoice line in the **Actual** entity.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
