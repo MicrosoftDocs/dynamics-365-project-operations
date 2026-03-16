@@ -184,7 +184,7 @@ To publish the agent, follow these steps:
 After the agent is published, follow these steps to make it available to users as a Teams app.
 
 1. On the **Channels** tab of the agent, select **Teams + Microsoft 365**.
-1. In the dialog that appears, clear the **Make agent available in Microsoft 365 Copilot Chat** checkbox, and then select **Add channel**. At the top of the page, you receive a confirmation message that states, "The channel was added."
+1. In the dialog that appears, clear the **Make agent available in Microsoft 365 Copilot** checkbox, and then select **Add channel**. At the top of the page, you receive a confirmation message that states, "The channel was added."
 1. To make the agent available to users (team members) as a Teams app, select **Availability Options**.
 1. Follow one of these steps, depending on the audience that should have access to the agent:
 
