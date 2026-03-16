@@ -74,7 +74,7 @@
       href: environment/uninstall-project-operations.md
     - name: Platform AI capabilities
       items:
-      - name: Use Microsoft 365 Copilot chat in model-driven apps (preview)
+      - name: Use Microsoft 365 Copilot in model-driven apps (preview)
         href: pro/ai-capabilities/use-microsoft-365-copilot-model-driven-apps.md
       - name: Supervise agents in model-driven apps with agent feed
         href: pro/ai-capabilities/supervise-agents-with-agent-feed.md
@@ -1348,7 +1348,7 @@
       href: environment/uninstall-project-operations.md
     - name: Platform AI capabilities
       items:
-      - name: Use Microsoft 365 Copilot chat in model-driven apps (preview)
+      - name: Use Microsoft 365 Copilot in model-driven apps (preview)
         href: pro/ai-capabilities/use-microsoft-365-copilot-model-driven-apps.md
       - name: Supervise agents in model-driven apps with agent feed
         href: pro/ai-capabilities/supervise-agents-with-agent-feed.md
