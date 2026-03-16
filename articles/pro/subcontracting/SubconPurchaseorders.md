@@ -2,7 +2,7 @@
 title: Subcontract purchase orders overview
 description: This article explains how to manage or integrate the Subcontract to Purchase order process and use a three-way matching process for subcontract vendor invoices.
 author: mukumarm
-ms.date: 11/18/2025
+ms.date: 03/16/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -135,16 +135,44 @@ To post the subcontract product receipts, follow one of these steps in Finance.
 In both cases, the system generates the Product receipt financial voucher if product receipt accrual is configured for procurement categories, in accordance with the purchasing policy.
 
 ## Create and post subcontract vendor invoices
-
 When an accounts payable clerk receives an invoice from the subcontractor, they create a new invoice in Finance.
 
 To create and post subcontract vendor invoices, follow these steps:
 
 1. In Finance, go to **Accounts payables** \> **Purchase orders** \> **All purchase orders**.
-1. On the Action Pane, on the **Invoice** tab, select **Invoice** to create a vendor invoice for the subcontract purchase order.
-1. On the Action Pane, on the **Default from** tab, select **Product receipt quantity** as an option. The purchase order lines are shown together with the product receipt quantity.
-1. Enter the invoice number and invoice date.
-1. Select **Post** to post the vendor invoice.
+2. On the Action Pane, on the **Invoice** tab, select **Invoice** to create a vendor invoice for the subcontract purchase order.
+3. On the Action Pane, on the **Default from** tab, select **Product receipt quantity** as an option. The purchase order lines are shown together with the product receipt quantity.
+4. Enter the invoice number and invoice date.
+5. Select **Post** to post the vendor invoice.
+
+### Three-Way matching for subcontract vendor invoice lines
+
+Since **product receipts** are generated from **timesheet entries**, **expenses**, and **material usage** recorded against subcontracts in **Dynamics 365 Project operations**, vendor invoices recorded in **Dynamics 365 Finance** must be 3‑way matched against these original actuals. 
+
+To support this process, **Match actuals** functionality has been introduced on each vendor invoice line that is linked to a subcontract, enabling comparison between the invoice, product receipt, and the underlying actuals.
+
+#### Prerequisites
+
+To use the **Match Actuals** feature for Project Operations Integrated with ERP, you must have the following versions
+
+- **Dynamics 365 Finance** version 10.0.48 or later
+
+To use the functionality, activate the following **features**:
+- **Enable Subcontract integration enhancements for Project operations integrated with ERP**
+
+    > [!NOTE]
+    > This feature is currently in public preview..
+    
+Once this feature is enabled, the **Match actuals** button is available on invoice lines. Selecting this option displays all actuals generated from timesheet entries, expenses, and material usage that are linked to the corresponding product receipts. To perform three‑way matching with actuals, follow these steps:
+
+1. In Finance, go to **Accounts payables** \> **Purchase orders** \> **All purchase orders**.
+2. On the Action Pane, on the **Invoice** tab, select **Invoice** to create a vendor invoice for the subcontract purchase order.
+3.  Enter the invoice number and invoice date.
+4. On the Action Pane, on the **Default from** tab, select **Product receipt quantity** as an option. The purchase order lines are shown together with the product receipt quantity.
+5. On the vendor invoice lines, Click **Match actuals**. It displays the list of actuals linked with the product receipts for the vendor invoice.
+6. Select the **actuals** that are not included in the invoice details received from the subcontractor, and then click **Un‑match actuals**. Next, go to the **Un‑matched actuals** tab, select the actuals that you want to include for invoicing, and select **Match actuals**. By default, all the actuals are selected for matching for the product receipts linked with the invoice.
+7. After **three‑way matching** is completed, select **Update product receipt**. This action updates the **product receipt quantity** based on the actuals selected for matching.
+8. Select **Post** to post the vendor invoice. There may be cases where the **quantity of actuals** selected for matching does not align with the **invoice quantity**. In such scenarios, during invoice posting, the system displays a **message** indicating that the actuals quantity does not match the invoice quantity. The invoice posting process continues if the user selects OK.
 
 When you post the vendor invoice, synchronization with Dataverse occurs, and an automatic confirmation is done for the vendor invoices in Dataverse. In Dataverse, the system initiates an automatic matching process for vendor invoice lines and the original timesheet or expense entries that are associated with subcontracts. This matching process involves generating a reversal entry for the original record and then creating a new entry for the vendor invoice line in the **Actual** entity.
 
