@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 03/11/2026
+ms.date: 03/19/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ms.author: abriccetti
@@ -68,7 +68,7 @@ Dynamics 365 Project Operations consists of two components:
 | **4.161.0.1688**  | January 06, 2025          | January 20, 2026          | January 06, 2025          | January 20, 2026          | January 06, 2025          | January 20, 2025          | January 13, 2026           | CANCELED           | January 13, 2026           | CANCELED           |
 | **4.162.0.962**    | February 02, 2026           | February 02, 2026           | February 02, 2026           | February 06, 2026          | February 02, 2026           | February 06, 2026          | February 06, 2026          | February 19, 2026          | February 06, 2026          | February 19, 2026          |
 | **4.163.0.581** <br> Canceled for upcoming HotFix | February 20, 2026          | February 27, 2026          | February 27, 2026          | CANCELED             | February 27, 2026          | CANCELED             | CANCELED             | CANCELED             | CANCELED             | CANCELED             |
-| **4.165.0.x**     | March 20, 2026             | March 27, 2026             | March 27, 2026             | April 10, 2026             | March 27, 2026             | April 10, 2026             | April 10, 2026             | April 24, 2026             | April 10, 2026             | April 24, 2026             |
+| **4.165.0.x**     | March 23, 2026             | March 27, 2026             | March 27, 2026             | April 10, 2026             | March 27, 2026             | April 10, 2026             | April 10, 2026             | April 24, 2026             | April 10, 2026             | April 24, 2026             |
 
 ## HotFix Release Cycle
 
@@ -79,6 +79,7 @@ Dynamics 365 Project Operations consists of two components:
 | **4.160.0.2288**    | November 11, 2025             | November 11, 2025             | November 11, 2025             | November 11, 2025             | November 11, 2025           | November 14, 2025             | November 14, 2025           | CANCELED           | November 14, 2025           | CANCELED           |
 | **4.160.0.2774**    | November 21, 2025             | November 21, 2025             | November 21, 2025             | November 21, 2025             | November 21, 2025           | November 21, 2025             | November 21, 2025           | December 03, 2025           | November 21, 2025           | December 03, 2025           |
 | **4.160.0.2877**    | December 09, 2025             | December 09, 2025             | December 09, 2025             | December 09, 2025             | December 09, 2025           | December 09, 2025             | December 09, 2025           | December 10, 2025           | December 09, 2025           | December 10, 2025           |
+| **4.163.0.733**    | March 19, 2026             |  March 19, 2026               |  March 19, 2026               |  March 23, 2026               |  March 19, 2026             | March 23, 2026             | March 19, 2026           | March 27, 2026           | March 19, 2026           | March 27, 2026           |
 
 
 
