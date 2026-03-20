@@ -726,24 +726,27 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
-    - name: Approvals agent (preview)
+    - name: Approvals agent (Preview)
       items: 
-      - name: Approvals Agent overview (preview)
+      - name: Approvals Agent overview (Preview)
         href: approvals/approvals-agent-intro.md
-      - name: Customize data sent to the Approvals Agent (preview)
+      - name: Customize data sent to the Approvals Agent (Preview)
         href: approvals/approvals-agent-customization.md
-      - name: Set up policy documents for the Approvals Agent (preview)
+      - name: Set up policy documents for the Approvals Agent (Preview)
         href: approvals/approvals-agent-policy.md
-      - name: Set up the Approvals Agent as an admin (preview)
+      - name: Set up the Approvals Agent as an admin (Preview)
         href: approvals/approvals-agent-admin-setup.md
     - name: Approval sets
       href: approvals/approval-sets.md
     - name: Cancel approval on previously approved entries
       href: approvals/cancelapproval.md
+    - name: Navigate approvals (Preview)
+      href: approvals/updated-approvals.md
     - name: Recall previously approved entries 
       href: approvals/recall-cancel.md 
     - name: Security and approvals
       href: approvals/approvals-security.md 
+
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
@@ -2052,24 +2055,27 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
-    - name: Approvals agent (preview)
+    - name: Approvals agent (Preview)
       items: 
-      - name: Approvals Agent overview (preview)
+      - name: Approvals Agent overview (Preview)
         href: approvals/approvals-agent-intro.md
-      - name: Customize data sent to the Approvals Agent (preview)
+      - name: Customize data sent to the Approvals Agent (Preview)
         href: approvals/approvals-agent-customization.md
-      - name: Set up policy documents for the Approvals Agent (preview)
+      - name: Set up policy documents for the Approvals Agent (Preview)
         href: approvals/approvals-agent-policy.md
-      - name: Set up the Approvals Agent as an admin (preview)
+      - name: Set up the Approvals Agent as an admin (Preview)
         href: approvals/approvals-agent-admin-setup.md
     - name: Approval sets 
       href: approvals/approval-sets.md
     - name: Cancel approval on previously approved entries
       href: approvals/cancelapproval.md
+    - name: Navigate approvals (Preview)
+      href: approvals/updated-approvals.md
     - name: Recall previously approved entries 
       href: approvals/recall-cancel.md 
     - name: Security and approvals
       href: approvals/approvals-security.md 
+
     - name: Developer notes
       items:
       - name: Developer notes for Approvals

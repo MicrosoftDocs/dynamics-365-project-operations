@@ -6,3 +6,14 @@ _themes*/
 _repo.*/
 
 .openpublishing.buildcore.ps1
+
+# Added by Content Mentor for backward compatibility
+.content-mentor/
+.documentor/
+.docuMentor/
+.content-mentor-session.json
+.documentor-session.json
+.docuMentor-session.json
+.documenor-session.json
+.content-mentor-open-file.json
+*.code-workspace
