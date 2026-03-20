@@ -9,10 +9,6 @@ ms.custom:
 ms.reviewer: johnmichalak
 ms.author: poojafandan
 
-> [!IMPORTANT]
-> This feature is currently available as a preview and is subject to change. Preview features are recommended for evaluation in non-production environments.
-
-# Model what-if scenarios for a project quote (Preview)
 
 **Model what-if scenarios for a project quote (Preview)**
 
@@ -45,9 +41,9 @@ As you work with what-if scenarios, the system tracks the following KPIs and sho
 
 | **KPI**                     | **Description**                                                                                                                                                                                                                                                                                                                                                                                                | **Delta example**                         |
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
-| **Total estimated revenue** | The total extended amount (sales amount) of the quote under the scenario[3](https://microsoft-my.sharepoint-df.com/personal/poojafandan_microsoft_com/_layouts/15/Doc.aspx?sourcedoc=%7B175FBF5D-8DDC-4A14-9DEA-13DF99304BA4%7D&file=What-if%20Analysis%20Public%20Doc.docx&action=default&mobileredirect=true&DefaultItemOpen=1).                                                                             | **▲ 5%** revenue vs. baseline             |
-| **Total estimated cost**    | The projected cost to deliver the work in the scenario[3](https://microsoft-my.sharepoint-df.com/personal/poojafandan_microsoft_com/_layouts/15/Doc.aspx?sourcedoc=%7B175FBF5D-8DDC-4A14-9DEA-13DF99304BA4%7D&file=What-if%20Analysis%20Public%20Doc.docx&action=default&mobileredirect=true&DefaultItemOpen=1).                                                                                               | **▼ \$12,000** vs. baseline               |
-| **Gross margin (%)**        | The gross margin percentage recalculated from the scenario's revenue and cost, shown relative to the baseline and, where applicable, to a target goal[.](https://microsoft-my.sharepoint-df.com/personal/poojafandan_microsoft_com/_layouts/15/Doc.aspx?sourcedoc=%7B175FBF5D-8DDC-4A14-9DEA-13DF99304BA4%7D&file=What-if%20Analysis%20Public%20Doc.docx&action=default&mobileredirect=true&DefaultItemOpen=1) | Margin increased from 15% to 18% (+3 pts) |
+| **Total estimated revenue** | The total extended amount (sales amount) of the quote under the scenario                                                               | **▲ 5%** revenue vs. baseline             |
+| **Total estimated cost**    | The projected cost to deliver the work in the scenario                                                                                 | **▼ \$12,000** vs. baseline               |
+| **Gross margin (%)**        | The gross margin percentage recalculated from the scenario's revenue and cost, shown relative to the baseline and, where applicable, to a target goal| Margin increased from 15% to 18% (+3 pts) |
 | **Budget variance**         | The variance of the scenario's financials compared to the quote's original budget, indicating whether the scenario is over or under the baseline budget.                                                                                                                                                                                                                                                       | Under budget by 4%                        |
 
 These metrics update **in real time** as you make adjustments, providing immediate feedback on each change so you can iteratively refine a scenario toward your desired outcome
@@ -147,7 +143,7 @@ Once you have identified a preferred scenario, you can **apply** it to update th
 - On the **What-if analysis** tab, select the scenario you want to implement and then select **Apply to quote**
 - **Confirm the action** when prompted. The system will notify you that you are about to update the quote with the selected scenario's values.
 
-\[!IMPORTANT\] When you apply a scenario, the changes are applied directly to the **same draft quote**. A new revised quote is **not** created - this behavior differs from the traditional quote revision process in Project Operations, where revising a quote would typically close the original and create a new quote record. In What-if Analysis, the original quote's values are updated in place to reflect the chosen scenario.
+-\[!IMPORTANT\] When you apply a scenario, the changes are applied directly to the **same draft quote**. A new revised quote is **not** created - this behavior differs from the traditional quote revision process in Project Operations, where revising a quote would typically close the original and create a new quote record. In What-if Analysis, the original quote's values are updated in place to reflect the chosen scenario.
 
 - After you confirm, the system applies all of the scenario's changes to the quote. Modified **quote line details** are updated with the new quantities or prices from the scenario. If the scenario included price adjustments, any necessary **price override records** are created on the quote at this time. The quote's financial totals (revenue, cost, margin, and budget variance) will now reflect the scenario's outcomes.
 - The applied scenario is marked as **Applied** in the scenario list. You cannot further edit a scenario after it has been applied to the quote
