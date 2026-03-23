@@ -1,15 +1,15 @@
 ---
 title: Project Operations updates
 description: This article provides information about the released versions of Dynamics 365 Project Operations.
-author: abriccetti
+author: aarondodell
 ms.topic: concept-article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 03/19/2026
+ms.date: 03/23/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
-ms.author: abriccetti
+ms.author: aarondodell
 ---
 
 # Project Operations Updates
@@ -41,7 +41,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
 |:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
-|                   4.162.0.962                   |                                      10.0.46                                     |                1.0.162.956               |
+|                   4.163.0.733                   |                                      10.0.46                                     |                1.0.163.730               |
 
 > [!IMPORTANT]
 > - The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively.
@@ -68,7 +68,7 @@ Dynamics 365 Project Operations consists of two components:
 | **4.161.0.1688**  | January 06, 2025          | January 20, 2026          | January 06, 2025          | January 20, 2026          | January 06, 2025          | January 20, 2025          | January 13, 2026           | CANCELED           | January 13, 2026           | CANCELED           |
 | **4.162.0.962**    | February 02, 2026           | February 02, 2026           | February 02, 2026           | February 06, 2026          | February 02, 2026           | February 06, 2026          | February 06, 2026          | February 19, 2026          | February 06, 2026          | February 19, 2026          |
 | **4.163.0.581** <br> Refer to HotFix (**4.163.0.733**) | February 20, 2026          | February 27, 2026          | February 27, 2026          | CANCELED             | February 27, 2026          | CANCELED             | CANCELED             | CANCELED             | CANCELED             | CANCELED             |
-| **4.165.0.x**     | March 23, 2026             | March 27, 2026             | March 27, 2026             | April 10, 2026             | March 27, 2026             | April 10, 2026             | April 10, 2026             | April 24, 2026             | April 10, 2026             | April 24, 2026             |
+| **4.165.3368.2**     | March 23, 2026             | March 27, 2026             | March 27, 2026             | April 10, 2026             | March 27, 2026             | April 10, 2026             | April 10, 2026             | April 24, 2026             | April 10, 2026             | April 24, 2026             |
 
 ## HotFix Release Cycle
 
