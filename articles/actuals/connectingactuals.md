@@ -16,7 +16,11 @@ ms.author: nshrivastava
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-Create transaction connection records to link actuals of different types, such as time, expense, or material usage. These connections track the lifecycle of actuals as they move from the quote or pre-sales stage to the contract stage, through approvals and recalls, invoicing, and potentially credit or corrective invoicing.
+Transaction connection is an entity that stores the relationship between two related business transactions (for example, cost and related sales actuals, or reversals triggered by billing activities such as invoice confirmation or invoice corrections).
+
+Transaction connection records include:
+- Existing **text-based identifiers** (for example, fields that store the related record ID and record type as text). These fields remain for compatibility and existing reporting patterns.
+- New **polymorphic lookup fields** that directly reference the related records. These lookups make processing and navigation simpler because they can point to different transaction tables without requiring separate fields per type.
 
 The following example shows the typical processing of time entries in a Project Operations project lifecycle.
 
