@@ -39,6 +39,7 @@ The following concepts are unique to the concept of business transactions:
 - Transaction class
 - Transaction origin
 - Transaction connection
+- Source Document
 
 ### Transaction type
 
@@ -74,5 +75,14 @@ Transaction origin is an entity that stores the origin of each business transact
 Transaction connection is an entity that stores the relation between two similar business transactions, such as cost and related sales actuals, or transaction reversals that billing activities like invoice confirmation or invoice corrections trigger.
 
 Together, the Transaction origin and Transaction connection entities help you track relationships between business transactions and actions that cause a specific business transaction to be created.
+
+## Source document
+
+In addition to transaction origin and transaction connection records, Project Operations stores a **Source document** reference on records that participate in the transaction lifecycle.
+
+- The **Source document** field is a **polymorphic lookup**, meaning it can reference different types of source records (for example, a time entry, expense entry, material usage log, or invoice-related record).
+- This reference provides a direct, efficient way to identify the originating document for a record during processing and troubleshooting.
+
+> Note: Transaction origin records continue to be created today for traceability and reporting scenarios. In the future, Project Operations will provide an option that allows customers to reduce or stop creating transaction origin records to help improve performance.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
