@@ -992,7 +992,7 @@ If you don't want to use the PowerShell script, you can manually configure the E
 To update environment variables, follow these steps:
 
 1. Sign in to [Power Apps](https://make.powerapps.com/), and select your environment.
-1. Select **Solutions**, then open **Default Solution** (or the solution where the agent is installed).
+1. Select **Solutions**, then open **Default Solution** (or the solution where the agent is installed - Commonly named as Common Data Services Default Solution **Preferred Soluion**).
 1. Go to **Environment Variables**, and set the following values.
 
     | Variable name | Description |
@@ -1033,6 +1033,24 @@ To enable the flows, follow these steps:
     1. Authenticate any required connections (until green check marks appear).
     1. Select **Continue**, and then select **Save**.
     1. Select **Turn On** to enable the flow.
+
+**Connection Green Check Mark Issue:** 
+Please ensure that the default connection created for this flow is also displaying the User Name used at the time of installing the solution or any planned user account that is to be used for a connection.
+     - In the event it is not showing the user name, rather showing up generic connection name e.g. Microsoft Dataverse Connection.
+     - Then You will have to go to **Connections** and authenticate all connection showing in this pane by clicking on the three dots and clicking on **Switch Account** for authenticating with required user account.
+  
+
+#### Data Privacy Policy
+At the time of editing the flows and saving it some connectors might yield connection issue. This may arise if your Power Platform Admin cetner is in need of a Data Privacy Policy. Such configurations are needed on Tenant or Enviornment level depending up security guidelines by your company's info sec team. 
+For setting up the data privacy Policy, follow these steps:
+
+1. Go to "Power Platform Admin Center"
+1. Go to **Security** and then under Settings click on **Data and Privacy**
+1. Click on **+ New Policy** and define a suitavle name
+1. Select Envionrment where you are planning to deploy the app. 
+1. Select Connectors from the **Non-Business | Default** list, as per consumption of Flow and agents. You can find these connectors by doing a key word search
+1. Once you select the connector needed click on **Move to Business** from the top. Review by clicking next and create/close.  
+    
 
 #### Publish the solution
 
