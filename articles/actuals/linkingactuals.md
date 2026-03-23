@@ -16,7 +16,17 @@ ms.author: nshrivastava
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-Transaction origin records are created to link actuals to their source, such time entries, expense entries, material usage logs, and project invoices.
+Transaction origin records are created to link actuals to their source (such as time entries, expense entries, material usage logs, and project invoices) and to support traceability across the full transaction lifecycle.
+
+## What's new: Source document lookup (in addition to transaction origins)
+
+Project Operations now also stores a **Source document** reference on records that previously relied on transaction origin records to identify the originating document.
+
+- **Source document** is a **polymorphic lookup**, so it can reference different kinds of source records.
+- Transaction origin records are **still created today** and continue to support end-to-end traceability across the full transaction lifecycle.
+- The Source document lookup is intended to make processing and navigation easier by providing a direct “origin document” pointer.
+
+> Note: In a future update, Project Operations will provide an option that allows customers to reduce or stop creating transaction origin records to help improve performance. Until then, transaction origin records continue to be created.
 
 The following example shows the typical processing of time entries in a Project Operations project lifecycle.
 
