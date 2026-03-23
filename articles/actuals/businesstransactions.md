@@ -74,9 +74,11 @@ In addition, records that participate in the transaction lifecycle include a **S
 
 ### Transaction connection
 
-Transaction connection is an entity that stores the relation between two similar business transactions, such as cost and related sales actuals, or transaction reversals that billing activities like invoice confirmation or invoice corrections trigger.
+Transaction connection is an entity that stores the relationship between two related business transactions (for example, cost and related sales actuals, or reversals triggered by billing activities such as invoice confirmation or invoice corrections).
 
-Together, the Transaction origin and Transaction connection entities help you track relationships between business transactions and actions that cause a specific business transaction to be created.
+Transaction connection records include:
+- Existing **text-based identifiers** (for example, fields that store the related record ID and record type as text). These fields remain for compatibility and existing reporting patterns.
+- New **polymorphic lookup fields** that directly reference the related records. These lookups make processing and navigation simpler because they can point to different transaction tables without requiring separate fields per type.
 
 ## Source document
 
