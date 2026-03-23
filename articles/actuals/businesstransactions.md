@@ -68,7 +68,9 @@ Transaction class represents the different types of costs that projects incur. A
 
 ### Transaction origin
 
-Transaction origin is an entity that stores the origin of each business transaction to help with reporting and traceability. As project execution begins, each business transaction creates another business transaction that, in turn, creates another business transaction, and so on.
+Transaction origin is an entity that stores the origin and traceability links for business transactions to support reporting and lifecycle analysis. As project execution begins, each business transaction can create another business transaction, and the transaction origin records help build a trace of the relationships that result.
+
+In addition, records that participate in the transaction lifecycle include a **Source document** polymorphic lookup that provides a direct reference back to the originating document for processing and navigation scenarios.
 
 ### Transaction connection
 
