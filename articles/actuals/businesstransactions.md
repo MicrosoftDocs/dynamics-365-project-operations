@@ -80,7 +80,7 @@ Transaction connection records include:
 - Existing **text-based identifiers** (for example, fields that store the related record ID and record type as text). These fields remain for compatibility and existing reporting patterns.
 - New **polymorphic lookup fields** that directly reference the related records. These lookups make processing and navigation simpler because they can point to different transaction tables without requiring separate fields per type.
 
-## Source document
+### Source document
 
 In addition to transaction origin and transaction connection records, Project Operations stores a **Source document** reference on records that participate in the transaction lifecycle.
 
