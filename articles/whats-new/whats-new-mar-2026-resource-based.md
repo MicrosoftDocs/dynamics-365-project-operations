@@ -26,7 +26,13 @@ This article applies to the following components and versions of Microsoft Dynam
 
 # Project Operations dual-write map updates
 
-This release doesn't include updates for Project Operations dual-write maps. For the current list of Project Operations dual-write maps and versions, see [Project Operations dual-write map versions](../environment/resource-dual-write-maps.md).
+The following table shows the Dual-write maps that are modified or added in the Project Operations June 2025 release.
+
+| **Entity map** | **Updated version** | **Comments** |
+| --- | --- | --- |
+| Projects V2 (msdyn_projects)| 1.0.0.3 | Latest version updated |
+
+For the current list of Project Operations dual-write maps and versions, see [Project Operations dual-write map versions](../environment/resource-dual-write-maps.md).
 
 Run the latest version of the map and enable all related table maps when you update your Project Operations Dataverse and Finance solutions. Some features might not work if you don't activate the latest map version. View the active map version in the **Version** column on the **dual-write** page. To activate a new version, select **Table map versions**, select the latest version, and save it. If you customized an out-of-box table map, reapply those changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
 
