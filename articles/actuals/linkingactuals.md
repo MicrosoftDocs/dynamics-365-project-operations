@@ -26,9 +26,6 @@ Project Operations now also stores a **Source document** reference on records th
 - Transaction origin records are **still created today** and continue to support end-to-end traceability across the full transaction lifecycle.
 - The Source document lookup is intended to make processing and navigation easier by providing a direct “origin document” pointer.
 
-> [!NOTE]
-> In a future update, Project Operations will provide an option that allows customers to reduce or stop creating transaction origin records to help improve performance. Until then, transaction origin records continue to be created.
-
 The following example shows the typical processing of time entries in a Project Operations project lifecycle.
 
 :::image type="content" source="media/basic-guide-17.png" alt-text="Screenshot of processing time entries in Project Operations.":::

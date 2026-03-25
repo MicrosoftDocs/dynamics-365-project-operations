@@ -89,6 +89,6 @@ In addition to transaction origin and transaction connection records, Project Op
 - This reference provides a direct, efficient way to identify the originating document for a record during processing and troubleshooting.
 
 > [!NOTE]
-> Transaction origin records continue to be created today for traceability and reporting scenarios. In the future, Project Operations provides an option that allows customers to reduce or stop creating transaction origin records to help improve performance.
+> Transaction origin records continue to be created today for traceability and reporting scenarios.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
