@@ -2,23 +2,24 @@
 title: Model what-if scenarios for a project quote (Preview)
 description: Learn how to use What-if Analysis in Dynamics 365 Project Operations to simulate changes to work quantities and prices and evaluate financial impact before finalizing a quote.
 author: poojafandan
-ms.date: 03/20/2026
+ms.date: 03/25/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
 ms.author: poojafandan
+---
 
-
-**Model what-if scenarios for a project quote (Preview)**
+# Model what-if scenarios for a project quote (Preview)
 
 _**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 
-\[!IMPORTANT\] **This feature is currently available as a preview and is subject to change. Preview features are recommended for evaluation in non-production environments.**
+> [!IMPORTANT]
+> **This feature is currently available as a preview and is subject to change. Preview features are recommended for evaluation in non-production environments.**
 
-**Overview**
+## Overview
 
-What-if analysis on a project quote enables you to simulate adjustments to **work quantities and prices on quote line details** and immediately see how those changes affect the quote's key financial metrics-without altering the actual quote until you choose to apply a scenario.
+What-if analysis on a project quote enables you to simulate adjustments to **work quantities and prices on quote line details** and immediately see how those changes affect the quote's key financial metrics - without altering the actual quote until you choose to apply a scenario.
 
 By creating and comparing multiple what-if scenarios, **sales managers, project managers, and functional consultants** can test different pricing strategies and staffing plans to identify the most profitable quote structure before finalizing a proposal.
 
@@ -29,15 +30,15 @@ For example, you can model scenarios such as:
 
 For each scenario, the system recalculates and displays four key financial metrics (KPIs) along with the difference from the baseline quote. This provides real-time visibility into the financial impact of each change.
 
-What-if analysis scenarios are created using the quote's **current estimates as the baseline**. Each scenario uses the quote's existing estimation and pricing data as its starting point, allowing you to explore alternatives and evaluate trade-offs without affecting the quote.
+Create what-if analysis scenarios by using the quote's **current estimates as the baseline**. Each scenario uses the quote's existing estimation and pricing data as its starting point, so you can explore alternatives and evaluate trade-offs without affecting the quote.
 
-Changes made within a scenario **do not impact the quote's estimates**. The original quote remains unchanged until you apply a scenario.
+Changes you make within a scenario **don't impact the quote's estimates**. The original quote remains unchanged until you apply a scenario.
 
-After reviewing and comparing scenarios, you can apply the selected scenario to the quote. When applied, the quote is updated with the scenario values.
+After reviewing and comparing scenarios, you can apply the selected scenario to the quote. When you apply the scenario, the quote updates with the scenario values.
 
-**Key financial metrics**
+## Key financial metrics
 
-As you work with what-if scenarios, the system tracks the following KPIs and shows both the scenario value and the **delta (difference) compared to the original baseline quote**
+As you work with what-if scenarios, the system tracks the following KPIs and shows both the scenario value and the **delta (difference) compared to the original baseline quote**.
 
 | **KPI**                     | **Description**                                                                                                                                                                                                                                                                                                                                                                                                | **Delta example**                         |
 | --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
@@ -46,29 +47,28 @@ As you work with what-if scenarios, the system tracks the following KPIs and sho
 | **Gross margin (%)**        | The gross margin percentage recalculated from the scenario's revenue and cost, shown relative to the baseline and, where applicable, to a target goal| Margin increased from 15% to 18% (+3 pts) |
 | **Budget variance**         | The variance of the scenario's financials compared to the quote's original budget, indicating whether the scenario is over or under the baseline budget.                                                                                                                                                                                                                                                       | Under budget by 4%                        |
 
-These metrics update **in real time** as you make adjustments, providing immediate feedback on each change so you can iteratively refine a scenario toward your desired outcome
+These metrics update **in real time** as you make adjustments, providing immediate feedback on each change so you can iteratively refine a scenario toward your desired outcome.
 
-**Create a what-if scenario**
+## Create a what-if scenario
 
-**Prerequisites and limitations**
+### Prerequisites and limitations
 
 - You can create what-if analysis scenarios only on quotes that are in Draft status and contain at least one quote line with estimates.
 - Activated or closed quotes are read-only and cannot be used for what-if analysis.
 - You can create multiple what-if scenarios for the same draft quote.
 - If the quote is modified, existing scenarios become invalid and must be recreated.
 
-Open the quote and navigate to the What-if analysis tab. This tab appears when the What-if Analysis preview feature is enabled through the feature flag in your environment.
-
-Select Create scenario to create a new scenario.
-
-Provide a title for the scenario and optionally add a description. The quote for which the scenario is created is automatically selected. By default, the Time transaction class is selected, meaning you will adjust quantities or prices for quote line details that use the Time transaction class.
-
-Select Save to create the scenario.
-
-The scenario opens in a simulation workspace, where all adjustments are isolated from the actual quote. The original quote values remain unchanged until you explicitly apply a scenario.
+1. Open the quote and navigate to the **What-if analysis** tab. This tab appears when the What-if Analysis preview feature is enabled through the feature flag in your environment.
+1. Select **Create scenario** to create a new scenario.
+1. Provide a title for the scenario and optionally add a description. The quote for which the scenario is created is automatically selected. By default, the Time transaction class is selected, meaning you will adjust quantities or prices for quote line details that use the Time transaction class.
+1. Select **Save** to create the scenario.
+1. Verify that the scenario opens in a simulation workspace, where all adjustments are isolated from the actual quote. The original quote values remain unchanged until you explicitly apply a scenario.
 
 **Scenario grid fields**
 
+The following table describes the key fields (columns) in the what-if analysis scenario grid:
+
+| **Field**                      | **Description**                                                                                                                                                                                                                                                                                                                                                                              |
 The following table describes the key fields (columns) in the what-if analysis scenario grid:
 
 | **Field**                      | **Description**                                                                                                                                                                                                                                                                                                                                                                              |
@@ -81,77 +81,78 @@ The following table describes the key fields (columns) in the what-if analysis s
 | **Proposed sales amount**      | The **total sales amount** (revenue) for the row's dimension value in the scenario, derived from the updated quantities and prices across all quote line details in that group. The sum of all Proposed sales amount values in the grid corresponds to the **Total estimated revenue** KPI for the scenario.                                                                                 |
 | **Proposed cost amount**       | The **total cost** to deliver the work for the row's dimension value in the scenario, derived from the cost of all quote line details in that group. The sum of all Proposed cost amount values in the grid corresponds to the **Total estimated cost** KPI for the scenario.                                                                                                                |
 
-**Adjust quantities and prices**
+## Adjust quantities and prices
 
-Within the scenario's simulation workspace, you can modify inputs based on the type of analysis you are performing. You can adjust quantity, price, or both for the quote line details at an aggregated level (aggregated by the selected pricing dimension). Use the Adjust by button to choose whether you want to modify values by price, quantity, or both.
+Within the scenario's simulation workspace, you can modify inputs based on the type of analysis you're performing. You can adjust quantity, price, or both for the quote line details at an aggregated level (aggregated by the selected pricing dimension). Use the **Adjust by** button to choose whether you want to modify values by price, quantity, or both.
 
-The scenario workspace displays the selected pricing dimensions-including any custom pricing dimensions-and their values based on the current quote. It shows how effort and pricing estimates from the quote are distributed across the selected pricing dimension. For example, estimates may be distributed across resourcing units such as the US, India, and Canada used in the quote.
+The scenario workspace displays the selected pricing dimensions - including any custom pricing dimensions - and their values based on the current quote. It shows how effort and pricing estimates from the quote are distributed across the selected pricing dimension. For example, estimates might be distributed across resourcing units such as the US, India, and Canada used in the quote.
 
-For each value in the selected dimension, an interactive control-consisting of a slider and input field-displays the current aggregated quantity or average price of the estimate (for example, total hours or average price). The initial values reflect the original distribution defined in the quote.
+For each value in the selected dimension, an interactive control - consisting of a slider and input field - displays the current aggregated quantity or average price of the estimate (for example, total hours or average price). The initial values reflect the original distribution defined in the quote.
 
 You can increase or decrease the quantity or sales price for each dimension value independently. Hover over the slider to view the profitability associated with each pricing dimension value, which helps indicate which values are more profitable and which are less.
 
 For example, you might increase the hours allocated to one resourcing unit while reducing the hours for another to simulate shifting work toward a lower-cost delivery center.
 
-Each dimension value is adjusted independently-there is no automatic rebalancing between values. As a result, the total allocation across all values may increase above or decrease below 100% as you experiment.
+Each dimension value is adjusted independently - there's no automatic rebalancing between values. As a result, the total allocation across all values might increase above or decrease below 100% as you experiment.
 
 When you adjust quantity, the changes are distributed proportionally across all quote line details (QLDs) associated with that pricing dimension value.
 
-Similarly, you can increase or decrease the average price for a pricing dimension. For example, if you have selected a resourcing unit and there is a 5% price increase across all roles in that unit, you can increase the average price by 5% using the slider or by manually entering the percentage.
+Similarly, you can increase or decrease the average price for a pricing dimension. For example, if you select a resourcing unit and there's a 5% price increase across all roles in that unit, you can increase the average price by 5% using the slider or by manually entering the percentage.
 
-You can also filter and group by multiple pricing dimensions. For example, if you want to adjust the price or quantity for Consultants within Resourcing Unit US, you can drag the Role pricing dimension to the top bar. The workspace will then display estimates aggregated by role, with an interactive slider next to each role. From there, you can increase the price for Consultants within Resourcing Unit US.
+You can also filter and group by multiple pricing dimensions. For example, if you want to adjust the price or quantity for Consultants within Resourcing Unit US, you can drag the Role pricing dimension to the top bar. The workspace then displays estimates aggregated by role, with an interactive slider next to each role. From there, you can increase the price for Consultants within Resourcing Unit US.
 
-When the distribution is shown in hours for the Time transaction class, the system uses the primary unit. If all quote line details share the same unit, that unit is applied directly. If multiple units are used, the system converts them using the primary unit as the base. Minor rounding differences may occur due to these conversions; such approximations are expected and acceptable in the context of what-if analysis, which is designed for exploratory and comparative evaluation.
+When the distribution is shown in hours for the Time transaction class, the system uses the primary unit. If all quote line details share the same unit, the system applies that unit directly. If multiple units are used, the system converts them by using the primary unit as the base. Minor rounding differences might occur due to these conversions. Such approximations are expected and acceptable in the context of what-if analysis, which is designed for exploratory and comparative evaluation.
 
-**Work with the scenario grid and quote line details**
+## Work with the scenario grid and quote line details
 
-The what-if analysis workspace presents scenario data in a grid layout. You can customize this grid by editing the columns shown in the view-adding columns for additional data points you want to monitor or removing columns that are not relevant to your analysis. This allows you to tailor the workspace to focus on the information most important for your evaluation.
+The what-if analysis workspace presents scenario data in a grid layout. You can customize this grid by editing the columns shown in the view - add columns for extra data points you want to monitor or remove columns that aren't relevant to your analysis. By tailoring the workspace, you can focus on the information most important for your evaluation.
 
-You can also open individual quote line details by selecting View line details to review or adjust quantity or price values at a more granular, line-by-line level. This is useful when you need precise control over a specific quote line rather than making broad adjustments across an entire pricing dimension.
+You can also open individual quote line details by selecting **View line details** to review or adjust quantity or price values at a more granular, line-by-line level. This level of detail is useful when you need precise control over a specific quote line rather than making broad adjustments across an entire pricing dimension.
 
-Use the expand button to enlarge the grid and work in a full-screen workspace.
+Use the **expand** button to enlarge the grid and work in a full-screen workspace.
 
-You can undo or redo changes made in the grid. However, changes will be reset if the scenario is refreshed.
+You can undo or redo changes made in the grid. However, changes are reset if the scenario is refreshed.
 
-**Create and compare multiple scenarios**
+## Create and compare multiple scenarios
 
-What-if analysis allows you to create **multiple scenarios** for the same quote so that you can explore different strategies side by side
+What-if analysis enables you to create **multiple scenarios** for the same quote so that you can explore different strategies side by side.
 
-For example, you might create one scenario that increases offshore hours, another that raises billing rates, and a third that combines both approaches. Each scenario is saved separately with the label you provided and can be revisited and further refined at any time until it is applied to the quote
+For example, you might create one scenario that increases offshore hours, another that raises billing rates, and a third that combines both approaches. Each scenario is saved separately with the label you provide. You can revisit and further refine each scenario at any time until you apply it to the quote.
 
-To manage and label scenarios, you can use the **Save As** capability to create named variations (for example,_"Aggressive Discount"_,_"Balanced Tradeoff"_,_"High-Margin"_), each stored as a distinct scenario under the relevant goal
+To manage and label scenarios, use the **Save As** capability to create named variations (for example, _"Aggressive Discount"_, _"Balanced Tradeoff"_, _"High-Margin"_). Each variation is stored as a distinct scenario under the relevant goal.
 
 The What-if analysis tab displays all saved scenarios with their key metric summaries, making it easy to identify and compare options.
 
-**Compare scenarios**
+## Compare scenarios
 
-The comparison view allows you to evaluate scenarios against each other and against the baseline quote.
+The comparison view helps you evaluate scenarios against each other and against the baseline quote.
 
-The comparison is displayed as a **side-by-side KPI table or visual chart**, highlighting differences between scenarios.
+You see the comparison as a **side-by-side KPI table or visual chart**, which highlights differences between scenarios.
 
 For example:
 
 - Scenario A (shifting work offshore) improves margin by **3 percentage points** but slightly reduces revenue.
 - Scenario B (raising rates) increases revenue but produces a smaller margin improvement.
 
-These insights help determine which scenario best meets profitability goals while staying within the client's pricing expectations.
+These insights help you determine which scenario best meets profitability goals while staying within the client's pricing expectations.
 
-**Apply a what-if scenario to the quote**
+## Apply a what-if scenario to the quote
 
-Once you have identified a preferred scenario, you can **apply** it to update the actual quote with that scenario's adjustments.
+When you identify a preferred scenario, **apply** it to update the actual quote with that scenario's adjustments.
 
-- On the **What-if analysis** tab, select the scenario you want to implement and then select **Apply to quote**
-- **Confirm the action** when prompted. The system will notify you that you are about to update the quote with the selected scenario's values.
+- On the **What-if analysis** tab, select the scenario you want to implement and then select **Apply to quote**.
+- **Confirm the action** when prompted. The system notifies you that you're about to update the quote with the selected scenario's values.
 
--\[!IMPORTANT\] When you apply a scenario, the changes are applied directly to the **same draft quote**. A new revised quote is **not** created - this behavior differs from the traditional quote revision process in Project Operations, where revising a quote would typically close the original and create a new quote record. In What-if Analysis, the original quote's values are updated in place to reflect the chosen scenario.
+> [!IMPORTANT]
+> When you apply a scenario, the changes go directly to the **same draft quote**. You don't create a new revised quote. This behavior differs from the traditional quote revision process in Project Operations, where revising a quote typically closes the original and creates a new quote record. In What-if Analysis, the original quote's values are updated in place to reflect the chosen scenario.
 
-- After you confirm, the system applies all of the scenario's changes to the quote. Modified **quote line details** are updated with the new quantities or prices from the scenario. If the scenario included price adjustments, any necessary **price override records** are created on the quote at this time. The quote's financial totals (revenue, cost, margin, and budget variance) will now reflect the scenario's outcomes.
-- The applied scenario is marked as **Applied** in the scenario list. You cannot further edit a scenario after it has been applied to the quote
+- After you confirm, the system applies all of the scenario's changes to the quote. Modified **quote line details** update with the new quantities or prices from the scenario. If the scenario includes price adjustments, the system creates any necessary **price override records** on the quote at this time. The quote's financial totals (revenue, cost, margin, and budget variance) now reflect the scenario's outcomes.
+- The applied scenario is marked as **Applied** in the scenario list. You can't edit a scenario after you apply it to the quote.
 
-However, as long as the quote remains in Draft status, you can create new what-if scenarios to explore additional adjustments using the now-updated quote as the new baseline.
+As long as the quote remains in Draft status, you can create new what-if scenarios to explore additional adjustments by using the now-updated quote as the new baseline.
 
-After applying the desired what-if scenario, you can proceed with your sales process - finalizing the quote, obtaining approvals, and activating it - with confidence that the quote reflects the most profitable and strategically sound option you analyzed.
+After you apply the desired what-if scenario, you can proceed with your sales process - finalizing the quote, obtaining approvals, and activating it - with confidence that the quote reflects the most profitable and strategically sound option you analyzed.
 
-**Summary**
+## Summary
 
-By using **What-if Analysis** in Dynamics 365 Project Operations, sales and project managers can move beyond spreadsheets and manual recalculations when optimizing project quotes. The ability to quickly model different staffing strategies and pricing approaches, see immediate real-time feedback on financial KPIs such as total estimated revenue, total estimated cost, gross margin (%), and budget variance, and compare multiple scenarios side by side empowers organizations to make data-driven decisions during the quoting process. Once the most favorable scenario is identified, applying it directly to the quote streamlines the transition from planning to execution, helping ensure that every quote aligns with both customer expectations and business profitability goals.
+By using **What-if Analysis** in Dynamics 365 Project Operations, sales and project managers can move beyond spreadsheets and manual recalculations when optimizing project quotes. The ability to quickly model different staffing strategies and pricing approaches, see immediate real-time feedback on financial KPIs such as total estimated revenue, total estimated cost, gross margin (%), and budget variance, and compare multiple scenarios side by side empowers organizations to make data-driven decisions during the quoting process. When you identify the most favorable scenario, you can apply it directly to the quote. This approach streamlines the transition from planning to execution and helps ensure that every quote aligns with both customer expectations and business profitability goals.

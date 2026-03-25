@@ -288,6 +288,8 @@
           href: pro/sales/create-estimate-quote-line-sales.md
         - name: Import estimates from a project to a project quote line
           href: pro/sales/import-estimate-project-quote-sales.md
+        - name: Model what-if scenarios for a project quote
+          href: sales/quote-what-if-analysis.md
         - name: Invoice schedules on project quote lines
           href: sales/invoice-schedule-quote-line.md 
       - name: Copy project quotes
@@ -1555,6 +1557,8 @@
           href: pro/sales/create-estimate-quote-line-sales.md        
         - name: Import estimates from a project to a project quote line
           href: pro/sales/import-estimate-project-quote-sales.md
+        - name: Model what-if scenarios for a project quote
+          href: sales/quote-what-if-analysis.md
         - name: Invoice schedules on project quote lines
           href: sales/invoice-schedule-quote-line.md 
       - name: Copy project-based quotes
