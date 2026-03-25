@@ -70,7 +70,7 @@ The following table describes the key fields (columns) in the what-if analysis s
 
 | **Field** | **Description** |
 | --- | --- |
-| **Group by** | The pricing dimension used to aggregate scenario data. Change this dimension to another dimension - such as Role or a custom pricing dimension - to analyze the quote from different perspectives. The grid displays one row per unique value of the selected dimension. You can also combine dimensions (for example, Resourcing Unit and Role) to refine analysis. |
+| **Group by** | The pricing dimension used to aggregate scenario data. Change this dimension to another dimension, such as Role or a custom pricing dimension, to analyze the quote from different perspectives. The grid displays one row per unique value of the selected dimension. You can also combine dimensions (for example, Resourcing Unit and Role) to refine analysis. |
 | **Resourcing unit** | When _Resourcing Unit_ is the selected Group-by dimension, this column lists each resourcing unit (for example, each geography or organizational unit involved in the quote) as a row in the grid. For example, if the quote contains work assigned to US, India, and Canada, those three units appear as rows. |
 | **Role** | When _Role_ is the selected Group-by dimension, this column lists each resource role from the quote (for example, Developer, Architect, Project Manager) as a row in the grid. For price-focused scenarios, grouping by Role allows direct adjustment of billing rates per role. |
 | **Proposed Quantity**          | The total planned **quantity of work** (such as hours) for the row's dimension value **in the scenario**, after your adjustments. For Time-based work, this value is typically measured in the primary unit (for example, hours), with unit conversion applied if quote line details use a mix of units. Adjusting this field simulates increasing or decreasing the work allocated to that group. |
@@ -92,7 +92,7 @@ For example, you might increase the hours allocated to one resourcing unit while
 
 Each dimension value is adjusted independently. There isn't any automatic rebalancing between values. As a result, the total allocation across all values might increase above or decrease below 100% as you experiment.
 
-When you adjust quantity, the changes are distributed proportionally across all quote line details (QLDs) associated with that pricing dimension value.
+When you adjust quantity, the changes are distributed proportionally across all quote line details associated with that pricing dimension value.
 
 Similarly, you can increase or decrease the average price for a pricing dimension. For example, if you select a resourcing unit and there's a 5% price increase across all roles in that unit, you can increase the average price by 5% using the slider or by manually entering the percentage.
 
@@ -140,8 +140,8 @@ When you identify a preferred scenario, **apply** it to update the actual quote 
 - On the **What-if analysis** tab, select the scenario you want to implement and then select **Apply to quote**.
 - **Confirm the action** when prompted. The system notifies you that you're about to update the quote with the selected scenario's values.
 
-> [!IMPORTANT]
-> When you apply a scenario, the changes go directly to the **same draft quote**. You don't create a new revised quote. This behavior differs from the traditional quote revision process in Project Operations, where revising a quote typically closes the original and creates a new quote record. In What-if Analysis, the original quote's values are updated in place to reflect the chosen scenario.
+  > [!IMPORTANT]
+  > When you apply a scenario, the changes go directly to the **same draft quote**. You don't create a new revised quote. This behavior differs from the traditional quote revision process in Project Operations, where revising a quote typically closes the original and creates a new quote record. In What-if Analysis, the original quote's values are updated in place to reflect the chosen scenario.
 
 - After you confirm, the system applies all of the scenario's changes to the quote. Modified **quote line details** update with the new quantities or prices from the scenario. If the scenario includes price adjustments, the system creates any necessary **price override records** on the quote at this time. The quote's financial totals (revenue, cost, margin, and budget variance) now reflect the scenario's outcomes.
 - The applied scenario is marked as **Applied** in the scenario list. You can't edit a scenario after you apply it to the quote.
@@ -150,8 +150,6 @@ As long as the quote remains in Draft status, you can create new what-if scenari
 
 After you apply the desired what-if scenario, you can proceed with your sales process - finalizing the quote, obtaining approvals, and activating it - with confidence that the quote reflects the most profitable and strategically sound option you analyzed.
 
-## Summary
-
-By using **What-if Analysis** in Dynamics 365 Project Operations, sales and project managers can move beyond spreadsheets and manual recalculations when optimizing project quotes. The ability to quickly model different staffing strategies and pricing approaches, see immediate real-time feedback on financial KPIs such as total estimated revenue, total estimated cost, gross margin (%), and budget variance, and compare multiple scenarios side by side empowers organizations to make data-driven decisions during the quoting process. When you identify the most favorable scenario, you can apply it directly to the quote. This approach streamlines the transition from planning to execution and helps ensure that every quote aligns with both customer expectations and business profitability goals.
+By using **What-if Analysis** in Project Operations, Sales and Project Managers can move beyond spreadsheets and manual recalculations when optimizing project quotes. The ability to quickly model different staffing strategies and pricing approaches, see immediate real-time feedback on financial KPIs such as total estimated revenue, total estimated cost, gross margin (%), and budget variance, and compare multiple scenarios side by side empowers organizations to make data-driven decisions during the quoting process. When you identify the most favorable scenario, you can apply it directly to the quote. This approach streamlines the transition from planning to execution and helps ensure that every quote aligns with both customer expectations and business profitability goals.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
