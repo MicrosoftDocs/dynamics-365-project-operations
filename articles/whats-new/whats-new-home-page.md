@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 03/19/2026
+ms.date: 03/26/2026
 ms.update-cycle: 1095-days
 ms.topic: whats-new
 ms.collection:  #Required; The values for this attribute will be updated over time. For now, leave this value blank.
@@ -28,6 +28,7 @@ Learn more about what's new or changed in recent releases in the links in the fo
 
 | Version | Autoupdate availability | Learn more |
 |---------|---------------|-------------|
+| Dataverse 4.165.3368.2 </br> Finance 10.0.47 | March 2026    | [Project Operations Integrated with ERP](whats-new-mar-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-mar-2026-lite.md) |
 | Dataverse 4.163.0.733 </br> Finance 10.0.46 | February 2026    | [Project Operations Integrated with ERP](whats-new-feb-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-feb-2026-lite.md) |
 | Dataverse 4.162.0.962 </br> Finance 10.0.46 | January 2026    | [Project Operations Integrated with ERP](whats-new-jan-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-jan-2026-lite.md) |
 | Dataverse 4.161.0.1688 </br> Finance 10.0.45 | November 2025    | [Project Operations Integrated with ERP](whats-new-nov-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-nov-2025-lite.md) |

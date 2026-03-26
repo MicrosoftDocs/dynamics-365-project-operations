@@ -3,7 +3,7 @@ title: Install Project Operations dual-write map versions
 description: This article explains how to install dual-write maps required for Microsoft Dynamics 365 Project Operations.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 02/20/2026
+ms.date: 03/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -20,22 +20,22 @@ _**Applies To:** Project Operations Integrated with ERP_
 This article explains how to install dual-write maps required for Microsoft Dynamics 365 Project Operations Integrated with ERP scenarios.
 
 > [!NOTE]
-> The Global address book solution is not supported with Project Operations. To use the multiple addresses, you can use the **Enable multiple addresses for accounts** feature for dual-write maps. Learn more in [Manage multiple addresses for accounts](/dynamics365/project-operations/pro/sales/manage-global-address-book).
+> The Global address book solution isn't supported with Project Operations. To use the multiple addresses, use the **Enable multiple addresses for accounts** feature for dual-write maps. For more information, see [Manage multiple addresses for accounts](/dynamics365/project-operations/pro/sales/manage-global-address-book).
 
 ## Prerequisites
 
-To install dual-write maps required by Project Operations Integrated with ERP scenarios, the following prerequisites must be met:
+To install dual-write maps required by Project Operations Integrated with ERP scenarios, make sure the following prerequisites are met:
 
-1. Install required Apps for Dataverse environment.
+1. Install required apps for the Dataverse environment.
 1. Install required solutions for finance and operations apps.
-1. Refresh Entities from finance and operations apps.
+1. Refresh entities from finance and operations apps.
 1. Install required dual-write maps for Project Operations.
 
-Instructions to complete the preqequisites are found in the following sections.
+To complete the prerequisites, see the following sections.
 
 ### 1. Install required apps for Dataverse environment
 
-To ensure a smooth setup, the following apps must be installed in the **exact order** listed below:
+To ensure a smooth setup, install the following apps in the **exact order** listed:
 
 1. Dual-write Application Core Solutions
 1. Dual-write Asset Management Solutions
@@ -44,20 +44,20 @@ To ensure a smooth setup, the following apps must be installed in the **exact or
 1. Dual write Supply Chain Extended Solution
 1. Dynamics 365 HR Integration to URS
 
-To install and manage the apps using PowerApps portal, follow these steps:
+To install and manage the apps by using PowerApps portal, follow these steps:
 
 1. Go to **Power Platform admin center**.
-1. Select **Environments** and then select an environment.
+1. Select **Environments**, and then select an environment.
 1. Under **Resources**, select **Dynamics 365 apps**.
 1. Select **Install** app.
 1. Select an **Enabled** app, and then select **Next**.
 1. Agree to the terms of service, and then select **Install**.
 
-Learn about installing and managing PowerApps in [Manage Apps](/power-platform/admin/manage-apps#install-an-app-in-the-environment-view).
+For more information about installing and managing PowerApps, see [Manage Apps](/power-platform/admin/manage-apps#install-an-app-in-the-environment-view).
 
 ### 2. Install required solutions for finance and operations apps
 
-To ensure a smooth setup, the following solutions must be applied in the **exact order** listed below. **This is a crucial prerequisite.**
+To ensure a smooth setup, apply the following solutions in the **exact order** listed below. **This prerequisite is crucial.**
 
 1. Dynamics 365 Human Resources entity maps
 1. Dynamics 365 Project Operations dual-write Entity Maps
@@ -73,13 +73,13 @@ To apply a solution from finance and operations apps, follow these steps:
 1. Select **Data management**.
 1. Select **dual-write**.
 1. Select **Apply Solution**.
-1. Select the solutions from, then select **Apply**.
+1. Select the solutions, and then select **Apply**.
 
 :::image type="content" source="media/DW_Apply_Solutions.png" alt-text="Screenshot of the Apply Solutions page in finance and operations apps.":::
 
-### 3. Refresh Entities from finance and operations apps
+### 3. Refresh entities from finance and operations apps
 
-Before proceeding, ensure that you refresh the entities from finance and operations apps. **This is a crucial prerequisite.**
+Before you proceed, make sure you refresh the entities from finance and operations apps. **This step is crucial.**
 
 _Refreshing the entity list ensures all entities are available in the environment and that the entities have the latest metadata._
 
@@ -91,32 +91,32 @@ To refresh entities from finance and operations apps, follow these steps:
 1. Select **Entity settings**.
 1. Select **Refresh entity list**.
 
-Learn more about refreshing entities in [Refresh Entity List](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities#entity-list-refresh).
+For more information, see [Refresh Entity List](/dynamics365/fin-ops-core/dev-itpro/data-itpro/data-entities/data-entities#entity-list-refresh).
 
 ### 4. Install required dual-write maps for Project Operations
 
-The table below shows the maps required for the Project Operations solution. Run the maps in the exact order listed and include any related table maps in your environment:
+The following table shows the maps required for the Project Operations solution. Run the maps in the exact order listed and include any related table maps in your environment:
 
 | Table Map Name                                       | Initial Sync Details                                                                                                                                        |
 |------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Legal entities (**cdm_companies**)                   | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **finance and operations apps.** |
-| CDS Exchange Rates (**msdyn_currencyexchangerates**) | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **finance and operations apps.** |
-| Ledger (**msdyn_ledgers**)                           | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **finance and operations apps.** |
+| Legal entities (**cdm_companies**)                   | Initial Sync **REQUIRED** for the table map and all related table maps. <br> _Master for the initial sync_ should be the **finance and operations apps.** |
+| CDS Exchange Rates (**msdyn_currencyexchangerates**) | Initial Sync **REQUIRED** for the table map and all related table maps. <br> _Master for the initial sync_ should be the **finance and operations apps.** |
+| Ledger (**msdyn_ledgers**)                           | Initial Sync **REQUIRED** for the table map and all related table maps. <br> _Master for the initial sync_ should be the **finance and operations apps.** |
 | Customers V3 (**accounts**)                          | Initial Sync **NOT REQUIRED**                                                                                                                               |
 | Vendors V2 (**msdyn_vendors**)                       | Initial Sync **NOT REQUIRED**                                                                                                                               |
-| Worker (**cdm_workers**)                             | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **finance and operations apps.** |
+| Worker (**cdm_workers**)                             | Initial Sync **REQUIRED** for the table map and all related table maps. <br> _Master for the initial sync_ should be the **finance and operations apps.** |
 
 1. From the list of maps, select the Ledger **(msdyn\_ledgers)** map with all prerequisites and select the **Initial sync** check box. In the **Master for initial sync** field, select **finance and operations apps** for both ledger map and all prerequisite maps. Select **Run**.
 
    :::image type="content" source="media/DW6.png" alt-text="Screenshot of the Ledger map synchronization process.":::
 
-1. Follow the same steps for all remaining table maps listed in the above table. Do not select the **Initial sync** check box when running those maps.
+1. Follow the same steps for all remaining table maps listed in the preceding table. Don't select the **Initial sync** check box when running those maps.
 
 ## Project Operations dual-write maps
 
 Dual-Write map versions are listed starting with the Project Operations May 2021 update, version 4.10.0.186.
 
-The table below shows the maps required for the Project Operations solution. Run the maps in the exact order listed and include any related table maps in your environment:
+The following table shows the maps required for the Project Operations solution. Run the maps in the exact order listed and include any related table maps in your environment:
 
 Complete the following steps to run the listed maps.
 
@@ -126,11 +126,11 @@ Complete the following steps to run the listed maps.
 
     Wait until the status of the map is **Running** before you move on to the next step.
 
-1. Select all the remaining required maps. You can filter the maps in the dual-write map list by entering the keyword in the search field in the upper-right corner. You can multi-select all maps and then run them. For more information, see [Manage multiple table maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/multiple-entity-maps). Make sure that you also enable and run related entity maps.
+1. Select all the remaining required maps. You can filter the maps in the dual-write map list by entering the keyword in the search field in the upper-right corner. You can select multiple maps and then run them. For more information, see [Manage multiple table maps](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/multiple-entity-maps). Make sure that you also enable and run related entity maps.
 
 | Table Map Name                                                                                   | Latest Version | Initial Sync Details                                                                                                                      | Required Dynamics 365 Finance Version |
 |--------------------------------------------------------------------------------------------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
-| Project resource roles for all companies <br> (**bookableresourcecategories**)                   | 1.0.0.1        | Initial Sync **REQUIRED** for the table map and all related table map(s). <br> _Master for the initial sync_ should be the **Dataverse.** |                                       |
+| Project resource roles for all companies <br> (**bookableresourcecategories**)                   | 1.0.0.1        | Initial Sync **REQUIRED** for the table map and all related table maps. <br> _Master for the initial sync_ should be the **Dataverse.** |                                       |
 | Integration entity for project transaction relationships <br> (**msdyn_transactionconnections**) | 1.0.0.0        | Initial Sync **NOT REQUIRED**                                                                                                             |                                       |
 | Project contract headers <br> (**salesorders**)                                                  | 1.0.0.1        | Initial Sync **NOT REQUIRED**                                                                                                             |                                       |
 | Project contract lines <br> (**salesorderdetails**)                                              | 1.0.0.1        | Initial Sync **NOT REQUIRED**                                                                                                             | 10.0.42 or later                      |
@@ -142,13 +142,13 @@ Complete the following steps to run the listed maps.
 | Project invoice proposals V2 <br> (**invoices**)                                                 | 1.0.0.3        | Initial Sync **NOT REQUIRED**                                                                                                             |                                       |
 
 > [!IMPORTANT]
-> If you receive a "Project validation failed" message or any other transient error while you're running all the maps simultaneously or one by one, select the relevant map, and then select **Refresh tables**. This performs a refresh of the table maps, integration keys etc.
+> If you receive a "Project validation failed" message or any other transient error while you're running all the maps simultaneously or one by one, select the relevant map, and then select **Refresh tables**. This action refreshes the table maps, integration keys, and other related components.
 >
 > :::image type="content" source="media/6RefreshTables.jpg" alt-text="Screenshot of the Refresh tables button in the dual-write interface.":::
 
 #### Add an integration key - bookableresourceid [Bookable Resource]
 
-With the 10.0.40 and later dual-write maps release, a change was made to add a new required key for references to Bookable Resource that is mandatory for several maps, specially for **msdyn_actuals**.
+Starting with the 10.0.40 dual-write maps release, a new required key was added for references to Bookable Resource that is mandatory for several maps, especially for **msdyn_actuals**.
 
 To add an integration key, follow these steps:
 
@@ -156,13 +156,13 @@ To add an integration key, follow these steps:
 1. Select **Data management**.
 1. Select **dual-write**.
 1. Select **Integration key**.
-1. In the first column next to **Bookable Resource**, add **bookableresourceid [Bookable Resource]**
+1. In the first column next to **Bookable Resource**, add **bookableresourceid [Bookable Resource]**.
 1. Select **Save**.
 
    :::image type="content" source="media/DW_Add_Integration_Key.png" alt-text="Screenshot of the Add Integration Key process in finance and operations apps.":::
 
    > [!WARNING]
-   > Only after following the above mentioned **Important** points, proceed with the rest of the maps as mentioned in the following table.
+   > Only after following the preceding **Important** points, proceed with the rest of the maps as mentioned in the following table.
 
 | Table Map Name                                                                                                      | Latest Version | Initial Sync Details          | Required Dynamics 365 Finance Version |
 |---------------------------------------------------------------------------------------------------------------------|----------------|-------------------------------|---------------------------------------|
@@ -179,10 +179,10 @@ To add an integration key, follow these steps:
 
 ### Important information
 
-Always first try to run the latest version of the map in your environment (even if the documentation has a lower version mentioned). Certain features and capabilities might not work correctly if any of the following conditions exist:
+Always try to run the latest version of the map in your environment (even if the documentation mentions a lower version). Certain features and capabilities might not work correctly if any of the following conditions exist:
 
 - A map isn't activated.
 - The latest version of the map isn't activated.
 - Related table maps aren't activated.
 
-You can view the active version of the map on the **dual-write** page. The **Version** column indicates which version is active. Activate a new version of the map by selecting **Table map versions**, selecting the latest version, and then saving the selected version. If you've customized an out-of-box table map, you must reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
+You can view the active version of the map on the **dual-write** page. The **Version** column indicates which version is active. Activate a new version of the map by selecting **Table map versions**, selecting the latest version, and then saving the selected version. If you customize an out-of-box table map, you must reapply the changes. For more information, see [Application lifecycle management](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management).
