@@ -91,7 +91,7 @@ To refresh entities from finance and operations apps, follow these steps:
 1. Select **Entity settings**.
 1. Select **Refresh entity list**.
 
-For more information, see [Refresh Entity List](/dynamics365/fin-ops-core/dev-itpro/data-itpro/data-entities/data-entities#entity-list-refresh).
+For more information, see [Refresh Entity List](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities#entity-list-refresh).
 
 ### 4. Install required dual-write maps for Project Operations
 
