@@ -2,8 +2,8 @@
 # required metadata
 title: What's new or changed in Project Operations
 description: This article points to articles that describe the new and changed features in each release of Project Operations.
-author: aarondodell
-ms.author: aarondodell
+author: johnmichalak
+ms.author: johnmichalak
 ms.reviewer: johnmichalak
 ms.custom: 
   - bap-template
