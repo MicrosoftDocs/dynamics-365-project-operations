@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 03/23/2026
+ms.date: 03/26/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ms.author: aarondodell
@@ -34,14 +34,14 @@ Dynamics 365 Project Operations consists of two components:
 | **Station 5** | North America and Australia                                                                                         |
 
 ## Project Operations Release Notes
-- Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-feb-2026-resource-based.md) scenario.
-- Project Operations latest release notes for [Core deployment](../pro/whats-new/whats-new-feb-2026-lite.md) scenario.
+- Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-mar-2026-resource-based.md) scenario.
+- Project Operations latest release notes for [Core deployment](../pro/whats-new/whats-new-mar-2026-lite.md) scenario.
 
 ## Project Operations Latest Version
 
 | **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
 |:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
-|                   4.163.0.733                   |                                      10.0.46                                     |                1.0.163.730               |
+|                   4.165.3368.2                   |                                      10.0.47                                     |                1.0.165.33682               |
 
 > [!IMPORTANT]
 > - The minimum supported versions of Project Operations and Project in Dataverse are 4.28.0.XX and 1.0.28.X respectively.
