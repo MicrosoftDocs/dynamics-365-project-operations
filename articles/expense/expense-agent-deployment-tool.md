@@ -3,7 +3,7 @@ title: Expense Agent deployment using Dynamics 365 Agent Deployment tool (Previe
 description: Learn about setting up Expense Agent using the Dynamics 365 Agent Deployment tool
 author: ajitchandran
 ms.author: ajitchandran
-ms.date: 02/09/2026
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
