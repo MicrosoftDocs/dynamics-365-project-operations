@@ -3,7 +3,7 @@ title: Expense Agent deployment using Dynamics 365 Agent Deployment tool (Previe
 description: Learn about setting up Expense Agent using the Dynamics 365 Agent Deployment tool
 author: ajitchandran
 ms.author: ajitchandran
-ms.date: 02/09/2026
+ms.date: 03/30/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -49,7 +49,7 @@ To set up Expense Agent, follow these steps:
 1. On the overview page, review the high-level steps required to set up the Expense Agent (optional but recommended). Then select **Next**.
 1. Check all prerequisites before proceeding. Ensuring they're met helps you have a smooth setup experience.
 
-   - **Finance and operations environment:** You need at least version 10.0.44 (10.0.2263.175 and later), 10.0.45 (10.0.2345.115 and later), or 10.0.46 (10.0.2428.69) of the finance and operations environment to install the agent.
+   - **Finance and operations environment:** You need at least version 10.0.45 (10.0.2345.170 and later), 10.0.46 (10.0.2428.108 and later) or 10.0.47 (10.0.2527.38 and later) of the finance and operations environment to install the agent.
    - Install Copilot for Finance and Operations app and should be 1.0.3231.4 or later. Learn more in [Set up the Expense Agent](expense-agent-setup.md#step-1-install-copilot-for-finance-and-operations-apps) to know more on steps to install the app 
    - Enable Copilot in Power Platform admin center.
    - Enable Copilot Studio message consumption and billing: The link takes you to the Power Platform admin center where you can set consumption and billing.
