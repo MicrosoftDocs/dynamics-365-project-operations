@@ -81,7 +81,16 @@ Dynamics 365 Project Operations consists of two components:
 | **4.160.0.2877**    | December 09, 2025             | December 09, 2025             | December 09, 2025             | December 09, 2025             | December 09, 2025           | December 09, 2025             | December 09, 2025           | December 10, 2025           | December 09, 2025           | December 10, 2025           |
 | **4.163.0.733**    | March 19, 2026             |  March 19, 2026               |  March 19, 2026               |  March 23, 2026               |  March 19, 2026             | March 23, 2026             | March 19, 2026           | March 27, 2026           | March 19, 2026           | March 27, 2026           |
 
+## Upcoming Release Cycle
 
+| **Version/Station** | **Station 1**              | **Station 1**              | **Station 2**              | **Station 2**              | **Station 3**              | **Station 3**              | **Station 4**              | **Station 4**              | **Station 5**              | **Station 5**              |
+|---------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
+|                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
+| **4.166.X.X**    | April 17, 2026             | April 24, 2026             | April 24, 2026             | May 08, 2026             | April 24, 2026           | May 08, 2026             | May 08, 2026           | May 22, 2026           | May 08, 2026           | May 22, 2026           |
+| **4.167.X.X**    | May 15, 2026             | May 22, 2026             | May 22, 2026             | June 05, 2026             | May 22, 2026           | June 05, 2026             | June 05, 2026           | June 19, 2026           | June 05, 2026           | June 19, 2026           |
+| **4.168.X.X**    | June 12, 2026             | June 19, 2026             | June 19, 2026             | July 03, 2026             | June 19, 2026           | July 03, 2026             | July 03, 2026           | July 17, 2026           | July 03, 2026           | July 17, 2026           |
+| **4.169.X.X**    | July 10, 2026             | July 17, 2026             | July 17, 2026             | July 31, 2026             | July 17, 2026           | July 31, 2026             | July 31, 2026           | August 14, 2026           | July 31, 2026           | August 14, 2026           |
+| **4.170.X.X**    | August 07, 2026             |  August 14, 2026               |  August 14, 2026               |  August 28, 2026               |  August 14, 2026             | August 28, 2026             | August 28, 2026           | September 11, 2026           | August 28, 2026           | September 11, 2026           |
 
 ## Release Schedule for Project Management and Accounting in the Finance and Operations Apps Environment
 
