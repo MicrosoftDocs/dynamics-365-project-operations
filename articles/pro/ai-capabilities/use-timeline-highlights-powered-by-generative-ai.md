@@ -4,9 +4,13 @@ description: Learn how generative AI enhances timeline highlights, helping you a
 author: johnmichalak
 ms.author: johnmichalak
 ms.topic: overview
-ms.date: 02/19/2026
+ms.date: 04/02/2026
 ---
 
 # Timeline highlights with generative AI in Dynamics 365
 
 [!INCLUDE [use-timeline-highlights-powered-by-generative-ai](~/../shared-content/shared/dynamics365-core/use-timeline-highlights-powered-by-generative-ai.md)]
+
+### Related information
+
+[Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  
