@@ -4,9 +4,13 @@ description: Learn how to supervise agents with agent feed in your model-driven 
 author: johnmichalak
 ms.author: johnmichalak
 ms.topic: overview
-ms.date: 02/19/2026
+ms.date: 04/02/2026
 ---
 
 # Supervise agents in model-driven apps with agent feed
 
 [!INCLUDE [supervise-agents-with-agent-feed](~/../shared-content/shared/dynamics365-core/supervise-agents-with-agent-feed.md)]
+
+### Related information
+
+[Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  

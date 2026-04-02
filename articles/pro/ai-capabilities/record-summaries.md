@@ -4,9 +4,13 @@ description: Learn how to access and utilize AI-generated row summaries in main 
 author: johnmichalak
 ms.author: johnmichalak
 ms.topic: overview
-ms.date: 02/19/2026
+ms.date: 04/02/2026
 ---
 
 # Use row summaries in model-driven apps
 
 [!INCLUDE [record-summaries](~/../shared-content/shared/dynamics365-core/record-summaries.md)]
+
+### Related information
+
+[Agents, Copilot, and AI capabilities in Dynamics 365 apps](/dynamics365/copilot/ai-get-started)  
