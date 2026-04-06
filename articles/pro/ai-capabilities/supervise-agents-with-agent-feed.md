@@ -4,7 +4,7 @@ description: Learn how to supervise agents with agent feed in your model-driven 
 author: johnmichalak
 ms.author: johnmichalak
 ms.topic: overview
-ms.date: 04/02/2026
+ms.date: 04/06/2026
 ---
 
 # Supervise agents in model-driven apps with agent feed
