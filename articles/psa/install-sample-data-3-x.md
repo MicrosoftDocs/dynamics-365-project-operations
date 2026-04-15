@@ -20,25 +20,17 @@ ms.custom:
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of your apps. There are two types of sample data packages:
-- reference/setup data
-- demo data (reference/setup and transactional data such as work orders and projects)
+> [!IMPORTANT]
+> The Field Service and combined demo data packages (FPSDemoData, v902FPSMasterData,
+> v902FSMasterData) referenced in this article are no longer available for download
+> from AppSource. Only the Project Service–only package (V902PSMasterData)
+> remains available. The information below about Field Service demo data is retained for historical reference only.
 
-The sample **reference** data packages are downloadable in three different packages, so you can install data only for Project Service, or only for Field Service, or you can install sample data for both applications at once.
+To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of your apps.
 
 The sample setup/reference data packages are:
 
 - [**V902PSMasterData** - Project Service version 3.x only](https://go.microsoft.com/fwlink/?linkid=2026540&clcid=0x409)
-
-- [**V902FSMasterData** - Field Service version 8.x only](https://go.microsoft.com/fwlink/?linkid=2026536&clcid=0x409)
-
-- [**V902FPSMasterData** - Field Service 8.x and Project Service 3.x](https://go.microsoft.com/fwlink/?linkid=2026041&clcid=0x409)
-
-The latest **demo** data package is:
-
- - [**FPSDemoData** - Field Service 8.x and Project Service 3.x](https://aka.ms/fpsdemodatapackage)
-
-   Installation instructions differ slightly in the users to create and configure section but the rest is the same as in the previous [**blog post**](https://aka.ms/fpsdemodatablog). This package features a reduced demo data set and takes approximately 3 hours to install.
 
 These sample data packages are available in English only.
 
