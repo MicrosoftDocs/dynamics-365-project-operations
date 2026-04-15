@@ -2,7 +2,7 @@
 title: Sample data installation
 description: This article provides information about installing sample data in Project Service Automation.
 ms.topic: how-to
-ms.date: 07/07/2025
+ms.date: 04/15/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 applies_to: Dynamics 365 Project Service Automation
