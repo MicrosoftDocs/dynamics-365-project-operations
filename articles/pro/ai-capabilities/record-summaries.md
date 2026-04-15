@@ -4,7 +4,7 @@ description: Learn how to access and utilize AI-generated row summaries in main 
 author: johnmichalak
 ms.author: johnmichalak
 ms.topic: overview
-ms.date: 04/06/2026
+ms.date: 04/15/2026
 ---
 
 # Use row summaries in Project Operations

@@ -4,7 +4,7 @@ description: Learn how to visualize your data in a view using Copilot in Power A
 author: johnmichalak
 ms.author: johnmichalak
 ms.topic: overview
-ms.date: 04/06/2026
+ms.date: 04/15/2026
 ---
 
 # Visualize data in a view with Copilot (preview)
