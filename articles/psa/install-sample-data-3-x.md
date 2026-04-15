@@ -20,11 +20,11 @@ ms.custom:
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-> [!IMPORTANT]
+> [!NOTE]
 > The Field Service and combined demo data packages (FPSDemoData, v902FPSMasterData,
 > v902FSMasterData) referenced in this article are no longer available for download
 > from AppSource. Only the Project Service–only package (V902PSMasterData)
-> remains available. The information below about Field Service demo data is retained for historical reference only.
+> remains available. The information about Field Service demo data is retained for historical reference only.
 
 To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of your apps.
 
@@ -35,7 +35,7 @@ The sample setup/reference data packages are:
 These sample data packages are available in English only.
 
 > [!IMPORTANT]
-> **There is no way to uninstall the sample data.** You should only install these packages on demonstration, evaluation, training, or test systems. Also note that installing an individual package, and then installing the other individual package, is not supported. (In other words, you can't install **FSMasterData** followed by **PSMasterData**, or vice versa.) If you see yourself needing sample data for both applications at any point in the future, you should install the **v902FPSMasterData** package.
+> **There is no way to uninstall the sample data.** You should only install these packages on demonstration, evaluation, training, or test systems. Also note that installing an individual package, and then installing the other individual package, isn't supported. (In other words, you can't install **FSMasterData** followed by **PSMasterData**, or vice versa.) If you see yourself needing sample data for both applications at any point in the future, you should install the **v902FPSMasterData** package.
 
 When you install any of the sample data packages, the installation process performs the following actions:
 
@@ -66,13 +66,13 @@ The installation protocol assumes the following about your target instance (org)
     - **For v902FSMasterData:** The org has Field Service version 8.x installed.
 
 > [!NOTE]
-> If you need to install the sample data on top of an existing Project Service and Field Service trial or demo environment that already has data (not recommended), you'll need to suspend the safety prechecks performed by the installer. For more information, see the technical notes below.
+> If you need to install the sample data on top of an existing Project Service and Field Service trial or demo environment that already has data (not recommended), you need to suspend the safety prechecks performed by the installer. For more information, see the technical notes below.
 
 ## Prepare for installation
 
 You need to run the installer on a computer with a recent version of Windows (Windows 10 preferred).
 
-You should plan for the computer to remain connected to a network, and for the installation to run for up to **1 hour** for **setup/reference data**. (Normally the installation takes around 30 minutes for **FPSMasterData**, which includes sample data for both applications.) For the **FPSDemoData**, the installation will take around **3 hours**.
+You should plan for the computer to remain connected to a network, and for the installation to run for up to **1 hour** for **setup/reference data**. (Normally the installation takes around 30 minutes for **FPSMasterData**, which includes sample data for both applications.) For the **FPSDemoData**, the installation takes around **3 hours**.
 
 The computer should have the screen saver function turned off. Otherwise, session credentials for the installation may be lost when the screen saver engages (unless you keep your session active throughout).
 
@@ -167,7 +167,7 @@ The demo data package requires six users. For the package to install correctly, 
 
 6. Before proceeding, note that installing sample data could take up to one hour (normally ~10 minutes). You'll need to make sure the computer remains on and connected to a network throughout the installation process, and that your session remains active.   
 
-7. When you're ready, click **Next** to start the sample data installation process. After the sample data is loaded, click **Finish**.
+7. When you're ready, select **Next** to start the sample data installation process. After the sample data is loaded, select **Finish**.
 
 ## Verify the sample data installation
 
@@ -243,7 +243,7 @@ A high-level overview of the sample data is as follows:
 
 - Common sample data elements (included for both applications)
 
-    - 1 user
+    - One user
 
     - 71 accounts
 
@@ -251,29 +251,29 @@ A high-level overview of the sample data is as follows:
 
     - Various transaction types and categories
 
-    - 50 products with 1 product price list
+    - 50 products with one product price list
 
     - 14 price/cost lists
 
-    - 31 characteristics (resource skills) in 2 rating models with 3 levels (rating values)
+    - 31 characteristics (resource skills) in two rating models with three levels (rating values)
 
 - Project Service
 
-    - 8 organizational units
+    - Eight organizational units
 
-    - 6 role-specific utilization levels
+    - Six role-specific utilization levels
 
     - 2.8k+ role-price specifications
 
 - Field Service
 
-    - 4 territories
+    - Four territories
 
-    - 5 work order types
+    - Five work order types
 
     - 22 customer assets
 
-    - 9 incident types with a range of associated resource characteristics (9), services (13) and service tasks (13)
+    - Nine incident types with a range of associated resource characteristics (9), services (13), and service tasks (13)
    
 The **Demo Data** package installs approximately 179 work orders, 12 projects, and associated transactional data. 
 
