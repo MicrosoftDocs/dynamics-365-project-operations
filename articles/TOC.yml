@@ -2605,7 +2605,7 @@
   - name: Globalization
     items:
     - name: Globalization support for Project Operations
-      href: globalizations/globalizations.md
+      href: globalizations/globalization-support-overview.md
 - name: Expense management
   items: 
   - name: Expense management overview

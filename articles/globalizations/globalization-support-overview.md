@@ -12,7 +12,7 @@ ms.reviewer: johnmichalak
 
 # Globalization support for Project Operations
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE[banner](../includes/banner.md)]
 
 To operate your businesses globally, you must comply with country or region‑specific requirements for taxation, statutory reporting, and local business practices. These requirements vary significantly between jurisdictions and local governments frequently update them, often with strict enforcement timelines.
 
@@ -69,4 +69,4 @@ The logic for the establishments is:
 - Intercompany customer invoicing and project free text invoices also follow this same logic, but the Accounts Receivable parameters control it for **Require establishment on customer invoice** and **Require registration IDs on customer invoice**.
 - Project procurement and intercompany vendor invoices also follow this same logic, but the Accounts Payable parameters control it for **Require establishments on vendor invoice** and **Require registration IDs on vendor invoice**.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
