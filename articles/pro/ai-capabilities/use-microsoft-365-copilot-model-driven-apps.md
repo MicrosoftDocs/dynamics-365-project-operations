@@ -4,7 +4,7 @@ description: Learn how to use Microsoft 365 Copilot to gain insights about the d
 author: johnmichalak
 ms.author: johnmichalak
 ms.topic: overview
-ms.date: 04/02/2026
+ms.date: 04/15/2026
 ---
 
 # Use Microsoft 365 Copilot in model-driven apps (preview)
