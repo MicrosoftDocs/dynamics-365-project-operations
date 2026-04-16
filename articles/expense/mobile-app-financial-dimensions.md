@@ -8,9 +8,14 @@ ms.date: 04/16/2026
 ms.service: dynamics-365-project-operations
 ms.subservice: expense-management
 ms.custom: mobile
+ms.reviewer: johnmichalak
 ---
 
 # Use financial dimensions in Expense Mobile
+
+[!INCLUDE[banner](../includes/banner.md)]
+
+_**Applies To:** Project Operations Integrated with ERP, Project Operations for manufacturing-based scenarios_
 
 Financial dimensions help your organization track expenses using business-specific attributes such as **Department**, **Cost center**, **Project**, or **Location** etc.
 In Expense Mobile, you can enter financial dimensions directly while creating or editing expense reports and expense lines—without switching to the web app.
@@ -57,8 +62,9 @@ You can add financial dimensions at two levels in Expense Mobile:
 
 1. Open the **Expense Mobile** app.
 1. Create a new expense report or open an existing one.
-1. Click on the menu button on the top right corner on the app screen and click **Financial Dimensions**.
+1. Click the vertical ellipsis (⋮) on the top right corner of the expense report and select  **Financial Dimensions**.
 1. Select a value for each required dimension, such as **Department** or **Cost center** etc.
+1. Each financial dimension is shown as a separate field, displaying up to 50 values by default, with the option to search for additional values by entering two or more characters.
 1. Save the expense report.
 
 ---
@@ -67,20 +73,13 @@ You can add financial dimensions at two levels in Expense Mobile:
 
 1. Open an expense report.
 1. Select an existing expense line or add a new one.
-1. Click on the menu button on the top right corner on the app screen and click **Financial Dimensions**.
+1. Click the vertical ellipsis (⋮) on the top right corner of the expense line screen and select **Financial Dimensions**.
 1. Select values for the available financial dimensions.
+1. Each financial dimension is shown as a separate field, displaying up to 50 values by default, with the option to search for additional values by entering two or more characters.
 1. Save the expense line.
-
----
-
-## Select financial dimension values
-
-- Each financial dimension appears as a separate field.
-- Select a dimension to open the drop down to display the list of allowed values. By default there will be a set of 50 values being displayed. 
-- To search for additional values, type in two or more characters and click on the search button beside the field.
   
 > [!TIP]
-> Use the search button to find additional financial dimension values configured but not appearing in the drop down by default.
+> Use the search button by typing two or more characters to find additional financial dimension values configured but not appearing in the drop down by default.
 
 ---
 
@@ -102,3 +101,4 @@ You can edit financial dimensions at any time **before submitting** the expense 
 Contact your system administrator for help.
 
 ---
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
