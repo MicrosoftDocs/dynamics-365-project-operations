@@ -2590,6 +2590,10 @@
       href: prod-pma/intercompany-invoicing.md
     - name: Configure intercompany project invoicing
       href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+  - name: Globalization
+    items:
+    - name: Globalization support for Project Operations
+      href: globalizations/globalizations.md
   - name: Revenue recognition
     items:
     - name: Eliminate a project estimate
