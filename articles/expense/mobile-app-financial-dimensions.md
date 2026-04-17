@@ -6,7 +6,6 @@ ms.author: ajitchandran
 ms.topic: how-to
 ms.date: 04/16/2026
 ms.service: dynamics-365-project-operations
-ms.subservice: expense-management
 ms.custom: mobile
 ms.reviewer: johnmichalak
 ---
