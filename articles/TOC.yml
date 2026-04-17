@@ -2023,33 +2023,35 @@
       href: expense/cash-advance.md
     - name: Per diem expenses
       href: expense/per-diem-expenses.md
-    - name: Expense Mobile App - Intuitive Expense Entry
+    - name: Expense Mobile - Intuitive Expense Entry
       items: 
-      - name: Expense Mobile App overview
+      - name: Expense Mobile overview
         href: expense/new-expense-mobile-app-overview.md
-      - name: Install and configure expense mobile app
+      - name: Install and configure Expense Mobile
         href: expense/new-expense-mobile-app-install-and-configure.md
-      - name: Install and open the Expense mobile app on a mobile device
+      - name: Install and open Expense Mobile on a mobile device
         href: expense/mobile-app-install-on-mobile-device.md
-      - name: Update the Dynamics 365 expense management mobile app
+      - name: Update Expense Mobile
         href: expense/Update-expense-mobile-app.md
+      - name: Use financial dimensions in Expense Mobile
+        href: expense/mobile-app-financial-dimensions.md
       - name: Manage expenses, reports, and receipts
         items:
         - name: Manage expenses, expense reports, and receipts overview
           href: expense/mobile-app-manage-expenses-overview.md
-        - name: Manage expenses by using the Expense mobile app
+        - name: Manage expenses by using Expense Mobile
           href: expense/mobile-app-manage-expenses.md
-        - name: Manage expense reports by using the Expense mobile app
+        - name: Manage expense reports by using Expense Mobile
           href: expense/mobile-app-manage-expense-reports.md
-        - name: Manage receipts by using the Expense mobile app
+        - name: Manage receipts by using Expense Mobile
           href: expense/mobile-app-manage-receipts.md
-        - name: Manage per diem using the Expense management mobile app
+        - name: Manage per diem using Expense Mobile
           href: expense/mobile-app-manage-perdiem.md
-        - name: Manage guests using the Expense management mobile app
+        - name: Manage guests using Expense Mobile
           href: expense/mobile-app-manage-guests.md
-        - name: Manage expense report approvals using the Expense mobile app
+        - name: Manage expense report approvals using Expense Mobile
           href: expense/mobile-app-manage-approvals.md
-      - name: Expense mobile app FAQ
+      - name: Expense Mobile FAQ
         href: expense/new-expense-mobile-app-faq.md
     - name: Financial management
       items: 
@@ -2502,29 +2504,33 @@
       href: expense/per-diem-expenses.md
     - name: Expense Mobile App - Intuitive Expense Entry
       items: 
-      - name: Expense Mobile App overview
+      - name: Expense Mobile overview
         href: expense/new-expense-mobile-app-overview.md
-      - name: Install and configure expense mobile app
+      - name: Install and configure Expense Mobile
         href: expense/new-expense-mobile-app-install-and-configure.md
-      - name: Install and open the Expense mobile app on a mobile device
+      - name: Install and open Expense Mobile on a mobile device
         href: expense/mobile-app-install-on-mobile-device.md
+      - name: Update Expense Mobile
+        href: expense/Update-expense-mobile-app.md
+      - name: Use financial dimensions in Expense Mobile
+        href: expense/mobile-app-financial-dimensions.md
       - name: Manage expenses, reports, and receipts
         items:
         - name: Manage expenses, expense reports, and receipts overview
           href: expense/mobile-app-manage-expenses-overview.md
-        - name: Manage expenses by using the Expense mobile app
+        - name: Manage expenses by using Expense Mobile
           href: expense/mobile-app-manage-expenses.md
-        - name: Manage expense reports by using the Expense mobile app
+        - name: Manage expense reports by using Expense Mobile
           href: expense/mobile-app-manage-expense-reports.md
-        - name: Manage receipts by using the Expense mobile app
+        - name: Manage receipts by using Expense Mobile
           href: expense/mobile-app-manage-receipts.md
-        - name: Manage expense report approvals using the Expense mobile app
+        - name: Manage expense report approvals using Expense Mobile
           href: expense/mobile-app-manage-approvals.md
-        - name: Manage expense line approvals by using the Dynamics 365 expense management mobile app
+        - name: Manage expense line approvals by using Expense Mobile
           href: expense/expenselineapprovals.md
-        - name: Manage user profile using the Dynamics 365 expense management mobile app
+        - name: Manage user profile using Expense Mobile
           href: expense/expenseuserprofile.md
-      - name: Expense mobile app FAQ
+      - name: Expense Mobile FAQ
         href: expense/new-expense-mobile-app-faq.md
     - name: Financial management
       items: 
@@ -2664,27 +2670,29 @@
     href: expense/cash-advance.md
   - name: Per diems
     href: expense/per-diems.md
-  - name: Expense Mobile App - Intuitive Expense Entry
+  - name: Expense Mobile - Intuitive Expense Entry
     items: 
-    - name: Expense Mobile App overview
+    - name: Expense Mobile overview
       href: expense/new-expense-mobile-app-overview.md
-    - name: Install and configure expense mobile app
+    - name: Install and configure Expense Mobile
       href: expense/new-expense-mobile-app-install-and-configure.md
-    - name: Install and open the Expense mobile app on a mobile device
+    - name: Install and open Expense Mobile on a mobile device
       href: expense/mobile-app-install-on-mobile-device.md
     - name: Manage expenses, reports, and receipts
       items:
       - name: Manage expenses, expense reports, and receipts overview
         href: expense/mobile-app-manage-expenses-overview.md
-      - name: Manage itemization using Expense management mobile app
+      - name: Manage itemization using Expense Mobile
         href: expense/mobile-app-manage-itemization.md
-      - name: Manage expenses by using the Expense mobile app
+      - name: Manage expenses by using Expense Mobile
         href: expense/mobile-app-manage-expenses.md
-      - name: Manage expense reports by using the Expense mobile app
+      - name: Manage expense reports by using Expense Mobile
         href: expense/mobile-app-manage-expense-reports.md
-      - name: Manage receipts by using the Expense mobile app
+      - name: Manage receipts by using Expense Mobile
         href: expense/mobile-app-manage-receipts.md
-    - name: Expense mobile app FAQ
+      - name: Use financial dimensions in Expense Mobile
+        href: expense/mobile-app-financial-dimensions.md
+    - name: Expense Mobile FAQ
       href: expense/new-expense-mobile-app-faq.md
   - name: Financial management
     items: 
