@@ -23,7 +23,7 @@ ms.custom:
 > [!NOTE]
 > The Field Service and combined demo data packages (FPSDemoData, v902FPSMasterData,
 > v902FSMasterData) referenced in this article are no longer available for download
-> from AppSource. Only the Project Service–only package (V902PSMasterData)
+> from Marketplace. Only the Project Service–only package (V902PSMasterData)
 > remains available. The information about Field Service demo data is retained for historical reference only.
 
 To help you build your own demo environments, Microsoft provides downloadable sample data packages that showcase the capabilities of your apps.
