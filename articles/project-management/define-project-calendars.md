@@ -35,7 +35,7 @@ To create a calendar template for your organization, there are two key requireme
 
 ### Create a new calendar template
 
-To create a new calendar template, follow these steps.
+To create a new calendar template, follow these steps:
 
 1. Go to **Settings** \> **Calendar Template**.
 1. Select **New**, and enter a name, description.
@@ -46,12 +46,12 @@ To create a new calendar template, follow these steps.
 
 ### Define the working hours of the template
 
-To define the working hours of the template when the **Template resource is not selected**, follow these steps.
+To define the working hours of the template when the **Template resource is not selected**, follow these steps:
 
 1. **Calendar** tab appears when the template is saved.
 1. Select the **Calendar** tab of the template and complete the instructions in [Add work hours on calendar](/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.
 
-To define the working hours of the template when the **Template resource is selected**, follow these steps.
+To define the working hours of the template when the **Template resource is selected**, follow these steps:
 
 1. Go to **Resources** \> **Resources**.
 1. Create a new resource to reference in the calendar template, or select an existing resource.

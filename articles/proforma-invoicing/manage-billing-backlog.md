@@ -3,7 +3,7 @@ title: Manage billing backlog
 description: This article provides information about how to view and work with the billing backlog in Project Operations.
 author: rumant
 ms.date: 02/21/2025
-ms.topic: article
+ms.topic: concept-article
 ms.reviewer: johnmichalak
 ms.author: rumant
 ---

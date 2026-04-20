@@ -1,9 +1,9 @@
 ---
-title: Uninstall Dynamics 365 Project Operations 
-description: This article provides information about how to uninstall Dynamics 365 Project Operations.
+title: Uninstall Dynamics 365 Project Operations
+description: Learn how to uninstall Dynamics 365 Project Operations step-by-step. Follow this guide to remove solutions in the correct order and resolve dependencies.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 05/21/2024
+ms.date: 02/05/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -17,13 +17,13 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP_
 
-To uninstall Dynamics 365 Project Operations, you must be assigned the role of Administrator.
+To uninstall Dynamics 365 Project Operations, you must be assigned the Administrator role.
 
 1. Go to **Settings** > **Solutions**.
 
-    ![Settings page.](./media/uninstall-proj-ops-solutions.png)
+    :::image type="content" source="./media/uninstall-proj-ops-solutions.png" alt-text="Screenshot of the Settings page showing the Solutions option.":::
   
-2. Remove the solutions in the exact order they are listed in the following table. 
+1. Remove the solutions in the exact order they are listed in the following table. 
 
     | Step | Solution   name                                    | Note                                                                                         |
     |------|----------------------------------------------------|----------------------------------------------------------------------------------------------|
@@ -58,3 +58,5 @@ To uninstall Dynamics 365 Project Operations, you must be assigned the role of A
     | 29 | Dynamics365Company                                 | If not found, skip this solution.                                                            |
     | 30 | CurrencyExchangeRates                              | If not found, skip this solution.                                                            |
     | 31 | AssetCommon                                        | If not found, skip this solution.                                                            |
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Project mobile applications overview 
-description: This article provides general information about the project time-related applications for Microsoft Dynamics 365 Project Timesheet, Project Time Entry, and My timesheets/Timesheets that are available on a mobile device.
+description: Learn about the project time-related applications for Microsoft Dynamics 365 Project Timesheet, Project Time Entry, and My timesheets/Timesheets that are available on a mobile device.
 author: Yowelle
-ms.date: 05/28/2019
+ms.date: 01/30/2026
 ms.topic: overview
 ms.custom: 
   - bap-template 
@@ -17,7 +17,7 @@ ms.search.validFrom: 2019-02-28
 
 [!include [banner](../includes/banner.md)]
 
-Three mobile applications that are related to project time are available for Microsoft Dynamics 365 Project Timesheet, Project Time Entry, and My timesheets/Timesheets for my review (Optimized for mobile).
+Three mobile applications related to project time are available for Microsoft Dynamics 365: Project Timesheet, Project Time Entry, and My timesheets/Timesheets for my review (Optimized for mobile).
 
 ## Project Timesheet mobile app
 

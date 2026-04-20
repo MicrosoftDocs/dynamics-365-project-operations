@@ -39,7 +39,7 @@ This process ensures that project costs are posted when materials are received. 
 
 ### Generate a purchase order from an item requirement
 
-To generate a purchase order from an item requirement, follow these steps.
+To generate a purchase order from an item requirement, follow these steps:
 
 1. In Dynamics 365 Finance, go to **Project management and accounting** \> **Projects** \> **All projects**.
 1. In the list, find the project, and select the link for it.
@@ -58,14 +58,14 @@ To generate a purchase order from an item requirement, follow these steps.
 
 ### Automatically generate item requirements from purchase order lines
 
-To have item requirements automatically generated from purchase order lines, follow these steps.
+To have item requirements automatically generated from purchase order lines, follow these steps:
 
 1. In Finance, go to **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.
 1. On the **General** tab, set the **Create item requirements** and **Item consumption** options to **Yes**. When the **Item consumption** option is set to **Yes**, the item requirements packing slip is automatically generated after the corresponding purchase order packing slip is posted.
 
 ## Receive materials from purchase orders linked to item requirements
 
-To receive materials from purchase orders that are linked to item requirements, follow these steps.
+To receive materials from purchase orders that are linked to item requirements, follow these steps:
 
 1. Go to **Accounts payable** \> **Purchase orders** \> **All purchase orders**.
 1. In the list, find the purchase order, and select the link for it.
@@ -86,7 +86,7 @@ When item requirements are automatically posted during purchase order product re
 
 The project cost is updated through either the *inventory recalculation* process or the *inventory closing* process.
 
-To update the project cost for stocked items or any item that is marked as stocked in the item model group, follow these steps.
+To update the project cost for stocked items or any item that is marked as stocked in the item model group, follow these steps:
 
 1. Go to **Inventory management and accounting** \> **Periodic tasks** \> **Closing and adjustments**.
 1. Select **Recalculation** to run the inventory recalculation process.

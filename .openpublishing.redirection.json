@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "articles/expense/mobile-app-manage expenses-overview.md",
+      "redirect_url": "/articles/expense/mobile-app-manage-expenses-overview",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "articles/expense/expense-using-mobile.md",
       "redirect_url": "/articles/expense/new-expense-mobile-app-overview",
       "redirect_document_id": "false"

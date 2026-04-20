@@ -2,7 +2,7 @@
 title: Manage beginning balances for Project Operations integrated deployments
 description: Learn how to manage and import beginning or opening balances into Microsoft Dynamics 365 Project Operations integrated with ERP.
 author: mukumarm
-ms.date: 09/23/2025
+ms.date: 10/31/2025
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -40,7 +40,7 @@ Enter beginning balances for in-progress projects when you implement Project Ope
 
 ### Project management and accounting parameters
 
-To create **beginning balances** as of a **specified date**, follow these steps.
+To create **beginning balances** as of a **specified date**, follow these steps:
 
 1. Go to **Project management and accounting** > **Setup** > **Project management and accounting parameters**.
 1. On the **General** tab, select **Create beginning balances**.
@@ -56,7 +56,7 @@ When you import **Actuals** into Finance from Project operations on or before th
 
 Beginning balance journals don't generate general ledger accounting entries; they only update the project subledger.
 
-To generate the beginning balances in **Dynamics 365 Finance**, follow these steps.
+To generate the beginning balances in **Dynamics 365 Finance**, follow these steps:
 
 1. Go to **Project management and accounting** > **Periodic** > **Project operations integration** > **Import beginning balances**.
 1. Select **Ok** to generate the beginning balance journal.
@@ -68,7 +68,7 @@ To generate the beginning balances in **Dynamics 365 Finance**, follow these ste
 
 After you run the **Import beginning balances** process, the system creates a **Beginning balance journal** and its lines. The journal includes all **Project Operations** actual transactions dated on or before the **cut-off date** to establish the opening balances.
 
-To view and post the beginning balance journal, follow these steps.
+To view and post the beginning balance journal, follow these steps:
 
 1. Go to **Project management and accounting** > **Journals** > **Beginning balance**.
 1. Select **Lines**.
@@ -76,19 +76,19 @@ To view and post the beginning balance journal, follow these steps.
 
 The system generates the **project subledger** immediately after you post the project balance journal.
 
-|Contract line|Project transaction|Project transaction posting|
-|--|--|--|
-|Time & Material|Project cost|Profit and loss|
-|Time & Material|Unbilled sales|Project cost and revenue profile rule|
-|Time & Material|Billed sales|Profit and loss|
-|Fixed price|Project cost|Project cost and revenue profile rule|
-|None|Project cost|Profit and loss|
+|Contract line type|Transaction type|Cost status|Accrued revenue|Transaction status|
+|--|--|--|--|--|
+|Time & Material|Project cost|Profit & loss|Not applicable|Posted|
+|Time & Material|Unbilled sales|Not applicable|Default from Project cost and revenue profile rule|Posted|
+|Time & Material|Billed sales|Not applicable|Profit and loss|Fully invoiced|
+|Fixed price|Project cost|Default from Project cost and revenue profile rule|Not applicable|Posted|
+|None (No contract line)|Project cost|Profit and loss|Not applicable|Posted|
 
 > [!NOTE]
 > Use Project Operations journals to upload beginning balances. After confirmation, the actuals generate **beginning balance journals** in **Dynamics 365 Finance**.
 > 
 > Posting the beginning balance journal doesn't generate financial transactions; it only generates the project subledger.
 > 
-> **Billed Milestones and retainers** aren't supported yet. 
+> **Billed Milestones and retainers** aren't supported yet with this feature. To migrate billed milestones, learn more in [Migrate fully invoiced billing milestones at cutover](../advanced-configuration/migrating-invoiced-milestones.md). 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

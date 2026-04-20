@@ -3,7 +3,7 @@ title: Apply demo setup and configuration data - Project Operations Core
 description: This article provides information about how to apply demo setup and configuration data for Project Operations.
 author: rumant
 ms.author: rumant
-ms.date: 05/24/2024
+ms.date: 02/27/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -27,29 +27,29 @@ Before you begin the configuration, you must have a Dataverse environment provis
 ## Instructions
 
 1. Download the [Setup Data Package](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip). 
-1. Navigate to the folder *ProjOpsSampleSetupData - CE only CMT* and run the executable file, *DataMigrationUtility*.
+1. Go to the *ProjOpsSampleSetupData - CE only CMT* folder and run the executable file, *DataMigrationUtility*.
 1. On page 1 of the Common Data Service Configuration Migration (CMT) Wizard, select **Import Data** and then select **Continue**.
 
-    ![Configuration Migration.](./media/1ConfigurationMigration.png)
+    :::image type="content" source="./media/1ConfigurationMigration.png" alt-text="Screenshot of the Configuration Migration wizard.":::
 
 1. On Page 2 of the CMT Wizard, select **Microsoft 365** as the **Deployment Type**.
 1. Select the **Display a list of available organizations** and **Show Advanced** check boxes.
 1. Select the region of your tenant, enter your credentials, and then select **Login**.
 
-   ![Configuration Sign in.](./media/2ConfigurationSignin.png)
+   :::image type="content" source="./media/2ConfigurationSignin.png" alt-text="Screenshot of the Configuration Sign in page.":::
 
 1. On page 3, from the list of Organizations on the Tenant, select which organization you want to import the demo data into and then select **Login**.
 1. On page 4, select the zip file, *SampleSetupAndConfigData* from the unpacked folder, *ProjOpsSampleSetupData - CE only CMT*.
 
-   ![Zip file.](./media/3ZipFile.png)
+   :::image type="content" source="./media/3ZipFile.png" alt-text="Screenshot of the zip file selection.":::
 
-   ![Select a file.](./media/4SelectAFile.png)
+   :::image type="content" source="./media/4SelectAFile.png" alt-text="Screenshot of the Select a file dialog.":::
 
 1. After the zip file is selected, select **Import Data**.
 
-   ![Import data.](./media/5ImportData.png)
+   :::image type="content" source="./media/5ImportData.png" alt-text="Screenshot of the Import data option.":::
 
-1. Import will run for approximately two-ten minutes depending on your network speed. After it completes, exit the CMT Wizard. 
+1. The import runs for approximately two to ten minutes depending on your network speed. After it completes, exit the CMT Wizard. 
 1. Check your organization for data in the following 18 entities:
 
     -	Currency
@@ -71,7 +71,7 @@ Before you begin the configuration, you must have a Dataverse environment provis
     -	Bookable resource category Assn
     -	Bookable Resource Characteristic
 
-    ![Complete Import.](./media/6CompleteImport.png)
+    :::image type="content" source="./media/6CompleteImport.png" alt-text="Screenshot of the Complete Import confirmation.":::
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

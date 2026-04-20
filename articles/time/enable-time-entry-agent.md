@@ -49,7 +49,7 @@ Ensure that all the following required licenses are assigned to the new agent us
 
 The new **Time and Approval agent** role gives the agent user the rights that it needs to enable and publish the Time Entry Agent.
 
-To assign this role to the agent user, follow these steps.
+To assign this role to the agent user, follow these steps:
 
 1. In the [Power Platform admin center](https://admin.powerplatform.microsoft.com/), to select the desired environment, use the environment switcher in the upper right.
 1. In the **Access** section, under **Users**, select **See all**.
@@ -69,7 +69,7 @@ The Time Entry Agent can perform various actions, such as creating time entries 
 
 This step of the process **must be repeated for each environment** where the agent is being enabled.
 
-To view and activate the flows, follow these steps.
+To view and activate the flows, follow these steps:
 
 1. Sign in to [Power Automate](https://make.powerautomate.com) by using the credentials of the dedicated agent user or administrator user.
 1. To select the desired environment, use the environment switcher.
@@ -145,7 +145,7 @@ After you complete the procedure for all 12 flows, the agent user or administrat
 
 ## Enable the agent feature from Project Operations
 
-To enable the feature in a Project Operations environment, follow these steps.
+To enable the feature in a Project Operations environment, follow these steps:
 
 1. Sign in to Project Operations as an administrator.
 1. Ensure that you're using Project Operations version **4.140.0.X or later**.
@@ -164,7 +164,7 @@ After you activate all the Power Automate flows and enable the feature flag, the
 > [!IMPORTANT]
 > Before you begin this step, ensure that all the required flows are in the **ON** state (activated). If any flow isn't activated, the Time Entry Agent might not work as expected. If the **"Create or Update User Configuration for Time Entry..."** flow isn't activated, the agent can't even be published.
 
-To publish the agent, follow these steps.
+To publish the agent, follow these steps:
 
 1. Sign in to [Power Apps](https://make.powerapps.com).
 1. To select the desired environment, use the environment switcher in the upper right.
@@ -184,7 +184,7 @@ To publish the agent, follow these steps.
 After the agent is published, follow these steps to make it available to users as a Teams app.
 
 1. On the **Channels** tab of the agent, select **Teams + Microsoft 365**.
-1. In the dialog that appears, clear the **Make agent available in Microsoft 365 Copilot Chat** checkbox, and then select **Add channel**. At the top of the page, you receive a confirmation message that states, "The channel was added."
+1. In the dialog that appears, clear the **Make agent available in Microsoft 365 Copilot** checkbox, and then select **Add channel**. At the top of the page, you receive a confirmation message that states, "The channel was added."
 1. To make the agent available to users (team members) as a Teams app, select **Availability Options**.
 1. Follow one of these steps, depending on the audience that should have access to the agent:
 

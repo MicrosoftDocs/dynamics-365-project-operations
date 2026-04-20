@@ -3,7 +3,7 @@ title: Use financial tags for project financial transactions
 description: Learn how you can use financial tags for project transactions.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 08/04/2025
+ms.date: 3/4/2026
 ms.topic: overview
 ms.custom: 
   - bap-template
@@ -31,6 +31,7 @@ For Project Operations for manufacturing, the following enhancements are availab
 - Financial tags can be entered on the **Financial tags** tab of project sales orders and item requirements.
 - Financial tags are available on the **Financial tags** tab on the header of all four project journals. Financial tags are also available in a new field on journal lines.
 - Financial tags can be entered for on-account transactions.
+- Financial tags can be entered for project timsheets starting with version 10.0.47.
 - Financial tags are present in the financial voucher posting for the document, whenever possible.
 - Financial tags are carried forward into the voucher for the project invoice.
 - Accrue Revenue carries financial tags forward.
@@ -66,5 +67,7 @@ Contoso is participating in an industry event and wants to track all time and ex
 |Project fee journal     |10.0.45          |
 |Project hour journal     |10.0.45          |
 |Project item journal     |10.0.45          |
+|On-account transactions  |10.0.46         |
+|Integration journal      |10.0.46         |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

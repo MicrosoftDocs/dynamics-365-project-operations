@@ -2,12 +2,12 @@
 title: Book to a project
 description: This article provides information about booking a resource to a project.
 author: tulsij
-ms.date: 05/24/2024
+ms.date: 01/23/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ---
 
 # Book to a project
@@ -51,11 +51,10 @@ When a Resource Manager needs to book a resource directly to a project, they can
     - Booking status
     - Booking method
     - Duration
-   
 
 ## Book from the Project form
 
-As a Project Manager, you might need to book a resource to a project, but only know the criteria rather than the name of the resource. Complete the following steps to use the schedule assistant to find a resource based on any available attributes of the resource. 
+As a Project Manager, you might need to book a resource to a project, but only know the criteria rather than the name of the resource. Complete the following steps to use the schedule assistant to find a resource based on any available attributes of the resource.
 
 1. Navigate to the project and select **Book** to open the Schedule Assistant.
 1. Using the filters on the left side of the Schedule Assistant, narrow the criteria and select **Search.**
@@ -64,6 +63,5 @@ As a Project Manager, you might need to book a resource to a project, but only k
 > [!NOTE]
 > This method doesn't create any bookings for the resource. Instead, it adds the resource to the team. After the team member has been added to the
 project, the Project Manager can use maintain bookings or extend bookings to add the required bookings to the resource.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

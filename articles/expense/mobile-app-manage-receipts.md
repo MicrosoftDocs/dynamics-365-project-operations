@@ -1,8 +1,8 @@
 ---
 title: Manage receipts by using the Dynamics 365 expense management mobile app
-description: This article explains how to manage receipts by using the Dynamics 365 expense management mobile app.
+description: Learn how to manage receipts effortlessly with the Dynamics 365 expense management mobile app. Capture, upload, and attach receipts for seamless expense tracking.
 author: mukumarm
-ms.date: 11/06/2023
+ms.date: 01/30/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -13,6 +13,7 @@ ms.author: ramagadu
 # Manage receipts by using the Dynamics 365 expense management mobile app
 
 [!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE[lcs-freeze-banner](../includes/lcs-freeze-banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations for manufacturing-based scenarios_
 
@@ -34,7 +35,7 @@ To use these advanced expense capabilities, install the Expense Management Servi
 
 ## View receipts
 
-The **Receipts** tab of the Dynamics 365 expense management mobile app shows a list of all unattached receipts. By default, the list is shown in **Tiles** view. You can switch to **List** view by selecting the **List** button in the upper-right corner of the app.
+The **Receipts** tab of the Dynamics 365 expense management mobile app shows a list of all unattached receipts. By default, the list appears in **Tiles** view. You can switch to **List** view by selecting the **List** button in the upper-right corner of the app.
 
 Select a specific receipt in the list to preview the receipt and perform actions such as attaching the receipt to an expense or deleting the receipt.
 
@@ -44,7 +45,7 @@ The Dynamics 365 expense management mobile app lets you take a photo of a receip
 
 ### Create a receipt by using your camera
 
-To create a receipt by using your camera, follow these steps.
+To create a receipt by using your camera, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Receipts** tab, select the plus sign (**+**) button.
@@ -53,7 +54,7 @@ To create a receipt by using your camera, follow these steps.
 
 ### Upload a receipt from your mobile device
 
-To upload a receipt from your mobile device, follow these steps.
+To upload a receipt from your mobile device, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Receipts** tab, select the plus sign (**+**) button.
@@ -67,7 +68,7 @@ To upload a receipt from your mobile device, follow these steps.
 
 You can delete one or more receipts at a time.
 
-To delete multiple receipts, follow these steps.
+To delete multiple receipts, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Receipts** tab, select the **Multi select** button.
@@ -75,7 +76,7 @@ To delete multiple receipts, follow these steps.
 1. Select the **Delete** button.
 1. In the confirmation message box, select **Delete**.
 
-You can delete one receipt at a time from the receipt's preview page. To delete one receipt, follow these steps.
+You can delete one receipt at a time from the receipt's preview page. To delete one receipt, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Receipts** tab, select the receipt to open the preview page.
@@ -86,13 +87,13 @@ You can delete one receipt at a time from the receipt's preview page. To delete 
 
 You can attach a receipt to an expense either directly from the **Receipts** tab or from the receipt's preview page.
 
-To attach a receipt to an expense directly from the **Receipts** tab, follow these steps.
+To attach a receipt to an expense directly from the **Receipts** tab, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Receipts** tab, select the **Attach** button.
 1. Select an expense in the list.
 
-To attach a receipt to an expense from the receipt's preview page, follow these steps.
+To attach a receipt to an expense from the receipt's preview page, follow these steps:
 
 1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Receipts** tab, select the receipt to open the preview page.

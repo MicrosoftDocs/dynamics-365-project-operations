@@ -28,7 +28,7 @@ This article provides an overview of the interface and explains how to complete 
 
 ## Enable the Time Entry Calendar
 
-To enable the Time Entry Calendar, follow these steps.
+To enable the Time Entry Calendar, follow these steps:
 
 1. Ensure that your Microsoft Dynamics 365 Project Operations environment is updated to version **4.141.0.X or later**. The Time Entry Calendar isn't available in earlier versions.
 1. Sign in to Project Operations as a system administrator.
@@ -42,7 +42,7 @@ After the feature is enabled, a new menu item that is named **Calendar** appears
 
 ## View existing entries on the calendar
 
-To view time entries in the Time Entry Calendar interface, follow these steps.
+To view time entries in the Time Entry Calendar interface, follow these steps:
 
 1. Ensure that the Time Entry Calendar feature is enabled as described in the previous section.
 1. In the **My Work** section, select **Calendar**. The Time Entry Calendar interface is loaded for the current work week.
@@ -135,7 +135,7 @@ Time entries can be modified from the calendar in the following ways:
 
 ### Delete one or more time entries
 
-To delete one or more time entries, follow these steps.
+To delete one or more time entries, follow these steps:
 
 1. Select a time entry that has a status of **Draft** or **Returned**. To delete multiple time entries at the same time, select <kbd>Ctrl</kbd> as you select each entry.
 1. Select **Delete**.
@@ -143,14 +143,14 @@ To delete one or more time entries, follow these steps.
 
 ### Submit one or more time entries
 
-To submit one or more time entries, follow these steps.
+To submit one or more time entries, follow these steps:
 
 1. Select a time entry that has a status of **Draft** or **Returned**. To submit multiple time entries at the same time, select <kbd>Ctrl</kbd> as you select each entry.
 1. Select **Submit**. After a short time, the selected entries are submitted, the status is updated to **Submitted**, and the color is changed to blue on the calendar.
 
 ### Recall one or more time entries
 
-To recall one or more time entries, follow these steps.
+To recall one or more time entries, follow these steps:
 
 1. Select a time entry that has a status of **Submitted** or **Approved**. To recall multiple time entries at the same time, select <kbd>Ctrl</kbd> as you select each entry.
 1. Select **Recall**.
@@ -179,7 +179,7 @@ By default, time entries are shown in a **Weekly** view. This experience is simi
 
 The Time Entry Calendar interface helps you track the number of hours that you should log by comparing your total hours with your target hours. Target hours are based on the working hours that are configured for you in Project Operations.
 
-To view the visual snapshot, follow these steps.
+To view the visual snapshot, follow these steps:
 
 1. Go to the Time Entry Calendar for the desired week.
 1. Expand the **Charts** section.
@@ -200,7 +200,7 @@ When time entries are created by using the standard time entry grid, if no start
 
 In declutter mode, the time entries are no longer clustered at 12:00 AM. Instead, they are shown sequentially, starting at the beginning of your working hours. Note that declutter mode just *temporarily* changes where the time entries *appear* on the calendar, so that they are easier to view. It doesn't actually change the start time of the entries.
 
-To use declutter mode, follow these steps.
+To use declutter mode, follow these steps:
 
 1. Go to the Time Entry Calendar for the desired week.
 1. Confirm that one or more time entries that start at 12:00 AM are visible on the calendar.

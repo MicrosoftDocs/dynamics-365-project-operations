@@ -27,7 +27,7 @@ This article gives an overview of time entry delegation, a **production ready pr
 
 ## Enable time entry delegation (preview) feature
 
-To enable Time Entry Delegation, follow these steps.
+To enable Time Entry Delegation, follow these steps:
 
 1. Update your Microsoft Dynamics 365 Project Operations environment to version **4.145.0.X or later**. Earlier versions don't include this feature.
 1. Sign in to Project Operations as a system administrator.
@@ -43,7 +43,7 @@ After you enable the feature, the **Delegates (Production Ready Preview)** menu 
 
 After you enable the time entry delegation feature, go to **My Work.** > **Delegates**. The default view (My Delegates) shows the resources you assigned as delegates. The list is empty at first.
 
-To set another user as your delegate, follow these steps.
+To set another user as your delegate, follow these steps:
 
 1. Select **New** to open the form.
 1. Fill the **Delegate** field. You can select any bookable resource in this environment.
@@ -58,7 +58,7 @@ Other available views:
 
 ## Log time as a delegate
 
-To check if you're assigned as a delegate for another user, follow these steps.
+To check if you're assigned as a delegate for another user, follow these steps:
 
 1. Go to the **Delegates** menu.
 1. Switch the view to **Assigned to me**. Users in this list assigned you as their delegate between the Start and End dates on each record.

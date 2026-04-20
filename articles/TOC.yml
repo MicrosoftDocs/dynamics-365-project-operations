@@ -72,18 +72,42 @@
       href: environment/language-localization.md
     - name: Uninstall Dynamics 365 Project Operations
       href: environment/uninstall-project-operations.md
+    - name: Platform AI capabilities
+      items:
+      - name: Use Microsoft 365 Copilot in Project Operations (preview)
+        href: pro/ai-capabilities/use-microsoft-365-copilot-model-driven-apps.md
+      - name: Supervise agents in Project Operations with agent feed
+        href: pro/ai-capabilities/supervise-agents-with-agent-feed.md
+      - name: Use Copilot's form fill assistance feature in Project Operations
+        href: pro/ai-capabilities/form-fill-assistance.md
+      - name: Find data in a view with AI (preview)
+        href: pro/ai-capabilities/find-data-with-ai.md
+      - name: Visualize data in a view with Copilot (preview)
+        href: pro/ai-capabilities/visualize-data-in-copilot.md
+      - name: Use row summaries in Project Operations
+        href: pro/ai-capabilities/record-summaries.md
+      - name: Timeline highlights with generative AI in Dynamics 365
+        href: pro/ai-capabilities/use-timeline-highlights-powered-by-generative-ai.md
     - name: Developer notes
       items:
       - name: Developer notes for payment terms
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
-    - name: What's new October 2025 - Project Operations Core
-      href: pro/whats-new/whats-new-oct-2025-lite.md
-    - name: What's new September 2025 - Project Operations Core
-      href: pro/whats-new/whats-new-sept-2025-lite.md
+    - name: What's new March 2026 - Project Operations Core
+      href: pro/whats-new/whats-new-mar-2026-lite.md
+    - name: What's new February 2026 - Project Operations Core
+      href: pro/whats-new/whats-new-feb-2026-lite.md
     - name: Archive
       items:
+      - name: What's new January 2026 - Project Operations Core
+        href: pro/whats-new/whats-new-jan-2026-lite.md
+      - name: What's new November 2025 - Project Operations Core
+        href: pro/whats-new/whats-new-nov-2025-lite.md
+      - name: What's new October 2025 - Project Operations Core
+        href: pro/whats-new/whats-new-oct-2025-lite.md
+      - name: What's new September 2025 - Project Operations Core
+        href: pro/whats-new/whats-new-sept-2025-lite.md
       - name: What's new August 2025 - Project Operations Core
         href: pro/whats-new/whats-new-aug-2025-lite.md
       - name: What's new June 2025 - Project Operations Core
@@ -266,6 +290,8 @@
           href: pro/sales/create-estimate-quote-line-sales.md
         - name: Import estimates from a project to a project quote line
           href: pro/sales/import-estimate-project-quote-sales.md
+        - name: Model what-if scenarios for a project quote (Preview)
+          href: sales/quote-what-if-analysis.md
         - name: Invoice schedules on project quote lines
           href: sales/invoice-schedule-quote-line.md 
       - name: Copy project quotes
@@ -408,6 +434,8 @@
       href: project-management/copy-project.md 
     - name: Access control on task grid
       href: project-management/access-control-on-task-grid.md
+    - name: Time zone agnostic dates in project and project task
+      href: project-management/time-zone-agnostic-dates-pm.md
     - name: Import projects from the Microsoft Project desktop client
       href: project-management/import_from_mpp.md
     - name: Plan your work in Microsoft Project with the Project Operations add-in
@@ -420,6 +448,10 @@
         href: project-management/create-wbs.md
       - name: Create assignments
         href: project-management/create-assignments.md
+      - name: Set up baselines
+        href: project-management/baselines.md
+      - name: Import tasks into a project (Preview)
+        href: project-management/import-tasks-to-project.md
     - name: Financial estimates on projects
       items: 
       - name: Financial estimation concepts
@@ -482,6 +514,8 @@
       href: pro/budget/create-delete-project-sales-budget.md
     - name: Create a project budget from estimates
       href: pro/budget/create-project-budget-from-estimates.md
+    - name: Relax project start and end date checks
+      href: pro/budget/relax-project-start-and-end-date-checks.md
     - name: Summarize budget lines during import
       href: pro/budget/summarize-budgetline-during-import.md
     - name: Set up a budget period
@@ -574,6 +608,8 @@
       href: resource-management/booking-status.md
     - name: Skills and proficiency models
       href: resource-management/skills-proficiency-models.md
+    - name: Time zone agnostic dates in resource management
+      href: resource-management/time-zone-agnostic-dates-rm.md
     - name: Resource reconciliation
       items: 
       - name: Resource reconciliation overview
@@ -594,6 +630,8 @@
       href: pro/subcontracting/key-concepts-subcontracting.md
     - name: Managing vendors and project price lists 
       href: pro/subcontracting/vendors-purchase-price-lists.md
+    - name: Improved Subcontracting user experience
+      href: pro/subcontracting/improved-sub-contracting-ui-experience.md
     - name: Subcontractors as bookable resources 
       href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Header Details for Subcontracts  
@@ -692,24 +730,27 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
-    - name: Approvals agent (preview)
+    - name: Approvals agent (Preview)
       items: 
-      - name: Approvals Agent overview (preview)
+      - name: Approvals Agent overview (Preview)
         href: approvals/approvals-agent-intro.md
-      - name: Set up policy documents for the Approvals Agent (preview)
+      - name: Customize data sent to the Approvals Agent (Preview)
+        href: approvals/approvals-agent-customization.md
+      - name: Set up policy documents for the Approvals Agent (Preview)
         href: approvals/approvals-agent-policy.md
-      - name: Set up the Approvals Agent as an admin (preview)
+      - name: Set up the Approvals Agent as an admin (Preview)
         href: approvals/approvals-agent-admin-setup.md
     - name: Approval sets
       href: approvals/approval-sets.md
     - name: Cancel approval on previously approved entries
       href: approvals/cancelapproval.md
+    - name: Navigate approvals (Preview)
+      href: approvals/updated-approvals.md
     - name: Recall previously approved entries 
       href: approvals/recall-cancel.md 
     - name: Security and approvals
       href: approvals/approvals-security.md 
-    - name: Customize data sent to the Approvals Agent (preview)
-      href: approvals/approvals-agent-customization.md
+
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
@@ -1270,9 +1311,9 @@
       href: environment/navigate-project-operations.md
     - name: Configure prerequisites
       items: 
-      - name: Start a new LCS project
+      - name: Start a new Lifecycle Services project
         href: environment/create-lcs-project.md
-      - name: Add an Azure subscription to an LCS project
+      - name: Add an Azure subscription to a Lifecycle Services project
         href: environment/resource-add-azure-subscription-lcs-project.md 
     - name: Apply demo data
       items:
@@ -1312,18 +1353,42 @@
       href: environment/language-localization.md
     - name: Uninstall Dynamics 365 Project Operations
       href: environment/uninstall-project-operations.md
+    - name: Platform AI capabilities
+      items:
+      - name: Use Microsoft 365 Copilot in Project Operations (preview)
+        href: pro/ai-capabilities/use-microsoft-365-copilot-model-driven-apps.md
+      - name: Supervise agents in Project Operations with agent feed
+        href: pro/ai-capabilities/supervise-agents-with-agent-feed.md
+      - name: Use Copilot's form fill assistance feature in Project Operations
+        href: pro/ai-capabilities/form-fill-assistance.md
+      - name: Find data in a view with AI (preview)
+        href: pro/ai-capabilities/find-data-with-ai.md
+      - name: Visualize data in a view with Copilot (preview)
+        href: pro/ai-capabilities/visualize-data-in-copilot.md
+      - name: Use row summaries in Project Operations
+        href: pro/ai-capabilities/record-summaries.md
+      - name: Timeline highlights with generative AI in Dynamics 365
+        href: pro/ai-capabilities/use-timeline-highlights-powered-by-generative-ai.md
     - name: Developer notes
       items:
       - name: Developer notes for payment terms
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
-    - name: October 2025 - Project Operations Integrated with ERP
-      href: whats-new/whats-new-oct-2025-resource-based.md
-    - name: September 2025 - Project Operations Integrated with ERP
-      href: whats-new/whats-new-sept-2025-resource-based.md
+    - name: March 2026 - Project Operations Integrated with ERP
+      href: whats-new/whats-new-mar-2026-resource-based.md
+    - name: February 2026 - Project Operations Integrated with ERP
+      href: whats-new/whats-new-feb-2026-resource-based.md
     - name: Archive
       items:
+       - name: January 2026 - Project Operations Integrated with ERP
+         href: whats-new/whats-new-jan-2026-resource-based.md
+       - name: November 2025 - Project Operations Integrated with ERP
+         href: whats-new/whats-new-nov-2025-resource-based.md
+       - name: October 2025 - Project Operations Integrated with ERP
+         href: whats-new/whats-new-oct-2025-resource-based.md
+       - name: September 2025 - Project Operations Integrated with ERP
+         href: whats-new/whats-new-sept-2025-resource-based.md
        - name: August 2025 - Project Operations Integrated with ERP
          href: whats-new/whats-new-aug-2025-resource-based.md
        - name: June 2025 - Project Operations Integrated with ERP
@@ -1496,6 +1561,8 @@
           href: pro/sales/create-estimate-quote-line-sales.md        
         - name: Import estimates from a project to a project quote line
           href: pro/sales/import-estimate-project-quote-sales.md
+        - name: Model what-if scenarios for a project quote (Preview)
+          href: sales/quote-what-if-analysis.md
         - name: Invoice schedules on project quote lines
           href: sales/invoice-schedule-quote-line.md 
       - name: Copy project-based quotes
@@ -1603,7 +1670,7 @@
       - name: Turn off a pricing dimension    
         href: pricing-costing/turning-off-pricing-dimension.md
     - name: Manage discounts and fees overview
-      href: pricing-costing/manage-discount-fee-calculations.md
+      href: pricing-costing/manage-discount-fee-integrated.md
   - name: Project management
     items: 
     - name: Project management overview
@@ -1632,12 +1699,18 @@
       href: project-management/access-control-on-task-grid.md
     - name: Project and task limitations
       href: project-management/project-and-task-limitations.md
+    - name: Time zone agnostic dates in project and project task
+      href: project-management/time-zone-agnostic-dates-pm.md
     - name: Work breakdown structure planning
       items: 
       - name: Create a work breakdown structure
         href: project-management/create-wbs.md
       - name: Create assignments
         href: project-management/create-assignments.md
+      - name: Set up baselines
+        href: project-management/baselines.md
+      - name: Import tasks into a project (Preview)
+        href: project-management/import-tasks-to-project.md
     - name: Financial estimates on projects
       items: 
       - name: Financial estimation concepts
@@ -1760,6 +1833,8 @@
       href: resource-management/booking-status.md
     - name: Skills and proficiency models
       href: resource-management/skills-proficiency-models.md
+    - name: Time zone agnostic dates in resource management
+      href: resource-management/time-zone-agnostic-dates-rm.md
     - name: Resource reconciliation
       items: 
       - name: Resource reconciliation overview
@@ -1788,6 +1863,8 @@
       href: pro/budget/create-delete-project-sales-budget.md
     - name: Create a project budget from estimates
       href: pro/budget/create-project-budget-from-estimates.md
+    - name: Relax project start and end date checks
+      href: pro/budget/relax-project-start-and-end-date-checks.md
     - name: Summarize budget lines during import
       href: pro/budget/summarize-budgetline-during-import.md
     - name: Set up a budget period
@@ -1820,6 +1897,8 @@
       href: pro/subcontracting/key-concepts-subcontracting.md
     - name: Managing vendors and project price lists 
       href: pro/subcontracting/vendors-purchase-price-lists.md
+    - name: Improved Subcontracting user experience
+      href: pro/subcontracting/improved-sub-contracting-ui-experience.md
     - name: Subcontractors as bookable resources 
       href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Header Details for Subcontracts  
@@ -1892,8 +1971,12 @@
       items:
       - name: Expense Agent overview
         href: expense/expense-agent-overview.md
+      - name: Expense Agent Deployment tool
+        href: expense/expense-agent-deployment-tool.md
       - name: Installation and Setup of the Expense Agent
         href: expense/expense-agent-setup.md
+      - name: Expense Agent parameters and configuration
+        href: expense/expense-agent-configuration.md
       - name: Expense Agent FAQs
         href: expense/expense-agent-faq.md
     - name: New expense experience
@@ -1940,33 +2023,35 @@
       href: expense/cash-advance.md
     - name: Per diem expenses
       href: expense/per-diem-expenses.md
-    - name: Expense Mobile App - Intuitive Expense Entry
+    - name: Expense Mobile - Intuitive Expense Entry
       items: 
-      - name: Expense Mobile App overview
+      - name: Expense Mobile overview
         href: expense/new-expense-mobile-app-overview.md
-      - name: Install and configure expense mobile app
+      - name: Install and configure Expense Mobile
         href: expense/new-expense-mobile-app-install-and-configure.md
-      - name: Install and open the Expense mobile app on a mobile device
+      - name: Install and open Expense Mobile on a mobile device
         href: expense/mobile-app-install-on-mobile-device.md
-      - name: Update the Dynamics 365 expense management mobile app
+      - name: Update Expense Mobile
         href: expense/Update-expense-mobile-app.md
+      - name: Use financial dimensions in Expense Mobile
+        href: expense/mobile-app-financial-dimensions.md
       - name: Manage expenses, reports, and receipts
         items:
         - name: Manage expenses, expense reports, and receipts overview
-          href: expense/mobile-app-manage expenses-overview.md
-        - name: Manage expenses by using the Expense mobile app
+          href: expense/mobile-app-manage-expenses-overview.md
+        - name: Manage expenses by using Expense Mobile
           href: expense/mobile-app-manage-expenses.md
-        - name: Manage expense reports by using the Expense mobile app
+        - name: Manage expense reports by using Expense Mobile
           href: expense/mobile-app-manage-expense-reports.md
-        - name: Manage receipts by using the Expense mobile app
+        - name: Manage receipts by using Expense Mobile
           href: expense/mobile-app-manage-receipts.md
-        - name: Manage per diem using the Expense management mobile app
+        - name: Manage per diem using Expense Mobile
           href: expense/mobile-app-manage-perdiem.md
-        - name: Manage guests using the Expense management mobile app
+        - name: Manage guests using Expense Mobile
           href: expense/mobile-app-manage-guests.md
-        - name: Manage expense report approvals using the Expense mobile app
+        - name: Manage expense report approvals using Expense Mobile
           href: expense/mobile-app-manage-approvals.md
-      - name: Expense mobile app FAQ
+      - name: Expense Mobile FAQ
         href: expense/new-expense-mobile-app-faq.md
     - name: Financial management
       items: 
@@ -1980,24 +2065,27 @@
     items: 
     - name: Approvals overview
       href: approvals/approvals-overview.md
-    - name: Approvals agent (preview)
+    - name: Approvals agent (Preview)
       items: 
-      - name: Approvals Agent overview (preview)
+      - name: Approvals Agent overview (Preview)
         href: approvals/approvals-agent-intro.md
-      - name: Set up policy documents for the Approvals Agent (preview)
+      - name: Customize data sent to the Approvals Agent (Preview)
+        href: approvals/approvals-agent-customization.md
+      - name: Set up policy documents for the Approvals Agent (Preview)
         href: approvals/approvals-agent-policy.md
-      - name: Set up the Approvals Agent as an admin (preview)
+      - name: Set up the Approvals Agent as an admin (Preview)
         href: approvals/approvals-agent-admin-setup.md
     - name: Approval sets 
       href: approvals/approval-sets.md
     - name: Cancel approval on previously approved entries
       href: approvals/cancelapproval.md
+    - name: Navigate approvals (Preview)
+      href: approvals/updated-approvals.md
     - name: Recall previously approved entries 
       href: approvals/recall-cancel.md 
     - name: Security and approvals
       href: approvals/approvals-security.md 
-    - name: Customize data sent to the Approvals Agent (preview)
-      href: approvals/approvals-agent-customization.md
+
     - name: Developer notes
       items:
       - name: Developer notes for Approvals
@@ -2034,8 +2122,14 @@
         href: actuals/cancel-actuals-from-entry-journals.md
   - name: Procurement
     items:
-    - name: Managed stocked products for project operations integrated deployments
-      href: procurement/enable-stocked-products-integrated.md
+    - name: Configure stocked products
+      items:
+      - name: Managed stocked products for project operations integrated deployments
+        href: procurement/enable-stocked-products-integrated.md
+      - name: Managed item requirements using item forecasts
+        href: procurement/enable-item-requirement-forecast.md
+      - name: Manage inventory consumption using Material usage and Journal
+        href: procurement/stock-material-reservation.md
     - name: Configure non-stocked materials and pending vendor invoices
       href: procurement/configure-materials-nonstocked.md
     - name: Configure procurement categories for projects
@@ -2130,6 +2224,8 @@
       href: project-accounting/configure-accounting-internal-projects.md
     - name: Configure accounting for billable projects
       href: project-accounting/configure-accounting-billable-projects.md
+    - name: Enable investment projects
+      href: project-accounting/project-operations-investment-project.md
     - name: Integration journal in Project Operations
       href: project-accounting/project-operations-integration-journal.md
     - name: Use general journals for advanced accounting
@@ -2146,6 +2242,8 @@
         href: project-accounting/period-types.md
       - name: Set up cost templates
         href: revenue-recognition/rev-rec-cost-templates.md
+      - name: Set up cost estimates
+        href: revenue-recognition/rev-rec-cost-estimates.md
     - name: Fixed price revenue estimate projects
       href: revenue-recognition/rev-rec-percentage-completion-method.md
     - name: Cost to complete methods
@@ -2266,8 +2364,12 @@
     items:
      - name: Project management and accounting overview
        href: prod-pma/overview-project-management-accounting.md
+     - name: How the project group, categories, and line property determines project postings 
+       href: prod-pma/project-group-categories-line-properties.md
      - name: Project adjustments
        href: project-accounting/project-adjustments.md
+     - name: Correct intercompany posted transactions (Preview)
+       href: project-accounting/intercompany-corrections.md
      - name: Understand how cost prices, sales prices, transfer prices and taxes work together
        href: project-accounting/understand-cost-price-sales-prices-transfer-price-taxes.md
      - name: Use financial tags for project financial transactions
@@ -2348,8 +2450,12 @@
       items:
       - name: Expense Agent overview
         href: expense/expense-agent-overview.md
+      - name: Expense Agent Deployment tool
+        href: expense/expense-agent-deployment-tool.md
       - name: Installation and Setup of the Expense Agent
         href: expense/expense-agent-setup.md
+      - name: Expense Agent parameters and configuration
+        href: expense/expense-agent-configuration.md
       - name: Expense Agent FAQs
         href: expense/expense-agent-faq.md
     - name: New expense experience
@@ -2398,29 +2504,33 @@
       href: expense/per-diem-expenses.md
     - name: Expense Mobile App - Intuitive Expense Entry
       items: 
-      - name: Expense Mobile App overview
+      - name: Expense Mobile overview
         href: expense/new-expense-mobile-app-overview.md
-      - name: Install and configure expense mobile app
+      - name: Install and configure Expense Mobile
         href: expense/new-expense-mobile-app-install-and-configure.md
-      - name: Install and open the Expense mobile app on a mobile device
+      - name: Install and open Expense Mobile on a mobile device
         href: expense/mobile-app-install-on-mobile-device.md
+      - name: Update Expense Mobile
+        href: expense/Update-expense-mobile-app.md
+      - name: Use financial dimensions in Expense Mobile
+        href: expense/mobile-app-financial-dimensions.md
       - name: Manage expenses, reports, and receipts
         items:
         - name: Manage expenses, expense reports, and receipts overview
-          href: expense/mobile-app-manage expenses-overview.md
-        - name: Manage expenses by using the Expense mobile app
+          href: expense/mobile-app-manage-expenses-overview.md
+        - name: Manage expenses by using Expense Mobile
           href: expense/mobile-app-manage-expenses.md
-        - name: Manage expense reports by using the Expense mobile app
+        - name: Manage expense reports by using Expense Mobile
           href: expense/mobile-app-manage-expense-reports.md
-        - name: Manage receipts by using the Expense mobile app
+        - name: Manage receipts by using Expense Mobile
           href: expense/mobile-app-manage-receipts.md
-        - name: Manage expense report approvals using the Expense mobile app
+        - name: Manage expense report approvals using Expense Mobile
           href: expense/mobile-app-manage-approvals.md
-        - name: Manage expense line approvals by using the Dynamics 365 expense management mobile app
+        - name: Manage expense line approvals by using Expense Mobile
           href: expense/expenselineapprovals.md
-        - name: Manage user profile using the Dynamics 365 expense management mobile app
+        - name: Manage user profile using Expense Mobile
           href: expense/expenseuserprofile.md
-      - name: Expense mobile app FAQ
+      - name: Expense Mobile FAQ
         href: expense/new-expense-mobile-app-faq.md
     - name: Financial management
       items: 
@@ -2465,7 +2575,7 @@
   - name: Project invoicing
     items:
     - name: Project invoicing
-      href: /dynamics365/finance/accounts-payable/project-invoicing
+      href: prod-pma/project-invoicing.md
     - name: Project invoice proposal performance
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Create advanced contracts for billing based on progress
@@ -2490,6 +2600,10 @@
     items:
     - name: Eliminate a project estimate
       href: prod-pma/eliminate-project-estimate.md
+    - name: Set up cost templates
+      href: revenue-recognition/rev-rec-cost-templates.md
+    - name: Set up cost estimates
+      href: revenue-recognition/rev-rec-cost-estimates.md
   - name: Public sector
     items:
     - name: Schedule of Expenditures of Federal Awards inquiry
@@ -2502,8 +2616,12 @@
     items:
     - name: Expense Agent overview
       href: expense/expense-agent-overview.md
+    - name: Expense Agent Deployment tool
+      href: expense/expense-agent-deployment-tool.md
     - name: Installation and Setup of the Expense Agent
       href: expense/expense-agent-setup.md
+    - name: Expense Agent parameters and configuration
+      href: expense/expense-agent-configuration.md
     - name: Expense Agent FAQs
       href: expense/expense-agent-faq.md
   - name: New expense experience
@@ -2552,27 +2670,29 @@
     href: expense/cash-advance.md
   - name: Per diems
     href: expense/per-diems.md
-  - name: Expense Mobile App - Intuitive Expense Entry
+  - name: Expense Mobile - Intuitive Expense Entry
     items: 
-    - name: Expense Mobile App overview
+    - name: Expense Mobile overview
       href: expense/new-expense-mobile-app-overview.md
-    - name: Install and configure expense mobile app
+    - name: Install and configure Expense Mobile
       href: expense/new-expense-mobile-app-install-and-configure.md
-    - name: Install and open the Expense mobile app on a mobile device
+    - name: Install and open Expense Mobile on a mobile device
       href: expense/mobile-app-install-on-mobile-device.md
     - name: Manage expenses, reports, and receipts
       items:
       - name: Manage expenses, expense reports, and receipts overview
-        href: expense/mobile-app-manage expenses-overview.md
-      - name: Manage itemization using Expense management mobile app
+        href: expense/mobile-app-manage-expenses-overview.md
+      - name: Manage itemization using Expense Mobile
         href: expense/mobile-app-manage-itemization.md
-      - name: Manage expenses by using the Expense mobile app
+      - name: Manage expenses by using Expense Mobile
         href: expense/mobile-app-manage-expenses.md
-      - name: Manage expense reports by using the Expense mobile app
+      - name: Manage expense reports by using Expense Mobile
         href: expense/mobile-app-manage-expense-reports.md
-      - name: Manage receipts by using the Expense mobile app
+      - name: Manage receipts by using Expense Mobile
         href: expense/mobile-app-manage-receipts.md
-    - name: Expense mobile app FAQ
+      - name: Use financial dimensions in Expense Mobile
+        href: expense/mobile-app-financial-dimensions.md
+    - name: Expense Mobile FAQ
       href: expense/new-expense-mobile-app-faq.md
   - name: Financial management
     items: 

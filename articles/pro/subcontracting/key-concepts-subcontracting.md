@@ -1,8 +1,8 @@
 ---
-title: Key concepts in subcontracting 
-description: This article explains some key concepts that apply to subcontracting in Microsoft Dynamics 365 Project Operations.
+title: Key concepts in subcontracting
+description: Learn key concepts in subcontracting for Microsoft Dynamics 365 Project Operations, including contracting units, purchase currency, and billing methods.
 author: rumant
-ms.date: 04/08/2024
+ms.date: 02/04/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -16,7 +16,7 @@ ms.author: rumant
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-The article explains some key concepts that you should be aware of before you start to use the subcontracting functionality in Microsoft Dynamics 365 Project Operations.
+This article explains some key concepts that you should be aware of before you start to use the subcontracting functionality in Microsoft Dynamics 365 Project Operations.
 
 ## Contracting unit on the subcontract
 
@@ -24,7 +24,7 @@ The contracting unit represents the division or practice that owns the delivery 
 
 ## Purchase currency
 
-In Project Operations, the purchase currency is the currency that the subcontract is created in. It's also the currency that subcontractor costs on a project are recorded in. The purchase currency can differ from the project currency, and the project currency can, in turn, differ from the sales currency.
+In Project Operations, the purchase currency is the currency that you create the subcontract in. It's also the currency that you record subcontractor costs on a project in. The purchase currency can differ from the project currency, and the project currency can, in turn, differ from the sales currency.
 
 ## Billing methods on subcontract lines
 
@@ -35,11 +35,11 @@ For projects, there are typically fixed-fee and consumption-based contracting mo
 
 
     > [!IMPORTANT]
-    > **Fixed Price** subcontracts are currently not supported for _resource/non-stocked based scenarios_ in Project Operations. 
+    > **Fixed Price** subcontracts aren't currently supported for _resource/non-stocked based scenarios_ in Project Operations. 
 
 ## Project price lists on subcontracts
 
-Project price lists are price lists that are used to setup purchase prices for time, expense, and other project-related components. There can be multiple prices lists, each of which can have its own date-effective subcontract in Project Operations. Project Operations doesn't support overlapping effective dates on project price lists for a subcontract.
+Project price lists are price lists that you use to set up purchase prices for time, expense, and other project-related components. You can have multiple price lists, and each price list can have its own date-effective subcontract in Project Operations. Project Operations doesn't support overlapping effective dates on project price lists for a subcontract.
 
 ## Transaction classes on subcontracts
 
@@ -50,10 +50,10 @@ Project Operations supports four types of transaction classes:
 - Material
 - Fee
 
-Purchase costs can be estimated and incurred only on **Time**, **Expense**, and **Material** transaction classes. **Fee** is a revenue-only transaction class and isn't available in the content of purchasing.
+You can estimate and incur purchase costs only on **Time**, **Expense**, and **Material** transaction classes. **Fee** is a revenue-only transaction class and isn't available in the context of purchasing.
 
 ## Purchase pricing dimensions
 
-Pricing dimensions let you decide what attributes are used for purchase price setup and defaulting on time transactions. In relation to purchasing, Project Operations supports only fixed dimension sets for purchase price setup and defaulting. For purchase price setup and defaulting on subcontract lines and subcontract time transactions, the attributes are **Role** and **Bookable Resource**.
+Pricing dimensions let you decide what attributes to use for purchase price setup and defaulting on time transactions. In relation to purchasing, Project Operations supports only fixed dimension sets for purchase price setup and defaulting. For purchase price setup and defaulting on subcontract lines and subcontract time transactions, the attributes are **Role** and **Bookable Resource**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

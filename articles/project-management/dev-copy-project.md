@@ -1,8 +1,8 @@
 ---
 title: Develop project templates with Copy Project
-description: This article provides information about how to create project templates using the Copy Project custom action.
+description: Learn how to create project templates in Dynamics 365 Project Operations using the Copy Project action. Simplify project management with reusable templates.
 author: abriccetti
-ms.date: 04/01/2024
+ms.date: 02/05/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -12,19 +12,21 @@ ms.author: abriccetti
 
 # Develop project templates with Copy Project
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
-Dynamics 365 Project Operations supports the ability to copy a project and revert any assignments back to the generic resources that represent the role. Customers can use this functionality to build basic project templates.
+Dynamics 365 Project Operations supports the ability to copy a project and revert any assignments back to the generic resources that represent the role. Use this functionality to build basic project templates.
 
-When you select **Copy Project**, the status of the target project is updated. Use **Status Reason** to determine when the copy action is complete. Selecting **Copy Project** also updates the start date of the project to the current start date if no target date is detected in the target project entity.
+When you select **Copy Project**, the system updates the status of the target project. Use **Status Reason** to determine when the copy action is complete. Selecting **Copy Project** also updates the start date of the project to the current start date if the system doesn't detect a target date in the target project entity.
 
-To add more columns to copy from the Project entity, add those columns to the **Copy Project Columns** view on the Project entity, and then run the **CopyProjectEntityAttributesRequest** API via a plugin or flow. This API copies the data in the columns in the **Copy Project Columns** view from the specified source project to the target project. This API must be called separately from the CopyProjectV3 or V4 API call. 
+To add more columns to copy from the Project entity, add those columns to the **Copy Project Columns** view on the Project entity, and then run the **CopyProjectEntityAttributesRequest** API via a plugin or flow. This API copies the data in the columns in the **Copy Project Columns** view from the specified source project to the target project. You must call this API separately from the CopyProjectV3 or V4 API call.
 
-To add more columns to copy from the Project Task entities, add those columns to the **Copy Project Task Columns** view on the **Project Task** table to ensure columns are copied to the new Project Tasks when CopyProjectV3 or V4 are called.
+To add more columns to copy from the Project Task entities, add those columns to the **Copy Project Task Columns** view on the **Project Task** table to ensure columns are copied to the new Project Tasks when you call CopyProjectV3 or V4.
 
 ## Copy Project v3 custom action
 
-### Name 
+### Name
 
 msdyn\_CopyProjectV3
 
@@ -32,13 +34,13 @@ msdyn\_CopyProjectV3
 
 There are three input parameters:
 
-- **ReplaceNamedResources** or **ClearTeamsAndAssignments** – Set only one of the options. Don't set both.
+- **ReplaceNamedResources** or **ClearTeamsAndAssignments** – Set only one of these options. Don't set both.
 
-    - **\{"ReplaceNamedResources":true\}** – The default behavior for Project Operations. Any named resources are replaced with generic resources. The only exception is assignments to the Project Manager on the source project are assigned to the Project Manager of the target project (a named resource is required, and not a generic resource).
-    - **\{"ClearTeamsAndAssignments":true\}** – The default behavior for Project for the Web. All assignments and team members are removed.
+  - **\{"ReplaceNamedResources":true\}** – The default behavior for Project Operations. Replaces any named resources with generic resources. The only exception is assignments to the Project Manager on the source project are assigned to the Project Manager of the target project (a named resource is required, and not a generic resource).
+  - **\{"ClearTeamsAndAssignments":true\}** – The default behavior for Project for the Web. Removes all assignments and team members.
 
-- **SourceProject** – The entity reference of the source project to copy from. This parameter can't be null.
-- **Target** – The entity reference of the target project to copy to. This parameter can't be null.
+- **SourceProject** – The entity reference of the source project to copy from. Don't set this parameter to null.
+- **Target** – The entity reference of the target project to copy to. Don't set this parameter to null.
 
 The following table provides a summary of the three parameters.
 
@@ -53,36 +55,36 @@ For more defaults on actions, see [Use Web API actions](/powerapps/developer/com
 
 ### Validations
 
-The following validations are done.
+The system performs the following validations:
 
-1. Null checks and retrieves the source and target projects to confirm the existence of both projects in the organization.
-2. The system validates that the target project is valid for copying by verifying the following conditions:
+1. It checks for null values and retrieves the source and target projects to confirm both projects exist in the organization.
+1. It validates that the target project is valid for copying by verifying the following conditions:
 
-    - There isn't previous activity on the project (including selection of the **Tasks** tab), and the project is newly created.
-    - There isn't a previous copy, no import was requested on this project, and the project doesn't have a **Failed** status.
+    - The project is new and doesn't have any previous activity, including selection of the **Tasks** tab.
+    - The project doesn't have a previous copy, no import was requested on this project, and the project doesn't have a **Failed** status.
 
-3. The operation isn't called by using HTTP.
+1. The operation isn't called by using HTTP.
 
 ## Copy Project v4 custom action
 
-### Name 
+### Name
 
 msdyn\_CopyProjectV4
 
 ### Input parameters
 
-There are five input parameters:
+Use five input parameters:
 
-- **SourceProject** – The entity reference of the source project to copy from. This parameter can't be null.
-- **Target** – The entity reference of the target project to copy to. This parameter can't be null.
-- **TeamMemberOption** – The option for copying team members to the target project. This parameter can't be null.
+- **SourceProject** – The entity reference of the source project to copy from. Don't set this parameter to null.
+- **Target** – The entity reference of the target project to copy to. Don't set this parameter to null.
+- **TeamMemberOption** – The option for copying team members to the target project. Don't set this parameter to null.
 
-    - **0** – Don't copy team members.
-    - **1** – Copy team members as generic resources (behaves the same as in V3).
-    - **2** – Copy team members to specified named or generic resources.
+  - **0** – Don't copy team members.
+  - **1** – Copy team members as generic resources (behaves the same as in V3).
+  - **2** – Copy team members to specified named or generic resources.
 
-- **TeamMembers** – The entity collection of named or generic team members to replace the existing team members. This parameter must be null if **0** or **1** is selected for the **TeamMemberOption** parameter. It can't be null if **2** is selected.
-- **TeamMembersMapping** – The JavaScript Object Notation (JSON) string dictionary that maps team members from the source project to the target project. For each entry, the key is the **ProjectTeamID** value of the source project team member, and the value is the **ProjectTeamID** value of the target project team member. All assignments on the source project of the identified source project team member are assigned to the identified target project team member in the target project. Multiple source project team members can be mapped to one target project team member. This parameter must be null if **0** or **1** is selected for the **TeamMemberOption** parameter. It's optional if **2** is selected.
+- **TeamMembers** – The entity collection of named or generic team members to replace the existing team members. Set this parameter to null if you select **0** or **1** for the **TeamMemberOption** parameter. Don't set this parameter to null if you select **2**.
+- **TeamMembersMapping** – The JavaScript Object Notation (JSON) string dictionary that maps team members from the source project to the target project. For each entry, the key is the **ProjectTeamID** value of the source project team member, and the value is the **ProjectTeamID** value of the target project team member. All assignments on the source project of the identified source project team member are assigned to the identified target project team member in the target project. Multiple source project team members can be mapped to one target project team member. Set this parameter to null if you select **0** or **1** for the **TeamMemberOption** parameter. It's optional if you select **2**.
 
 The following table provides a summary of the five parameters.
 
@@ -98,20 +100,20 @@ For more defaults on actions, see [Use Web API actions](/powerapps/developer/com
 
 ### Validations
 
-The following validations are done.
+The system performs the following validations:
 
-1. Null checks and retrieves the source and target projects to confirm the existence of both projects in the organization.
-2. The system validates that all team members in both the **TeamMembers** parameter and the **TeamMemberMapping** parameter are valid.
-3. The system validates that the target project is valid for copying by verifying the following conditions:
+1. It checks for null values and retrieves the source and target projects to confirm both projects exist in the organization.
+1. It validates that all team members in both the **TeamMembers** parameter and the **TeamMemberMapping** parameter are valid.
+1. It validates that the target project is valid for copying by verifying the following conditions:
 
-    - There isn't previous activity on the project (including selection of the **Tasks** tab), and the project is newly created.
-    - There isn't previous copy, no import was requested on this project, and the project doesn't have a **Failed** status.
+    - The project is new and doesn't have any previous activity, including selection of the **Tasks** tab.
+    - The project doesn't have any previous copy, no import was requested on this project, and the project doesn't have a **Failed** status.
 
-4. The operation isn't called by using HTTP.
+1. It checks that the operation isn't called by using HTTP.
 
 ## Specify fields to copy
 
-When the action is called, **Copy Project** looks at the **Copy Project Columns** project view to determine which fields to copy when the project is copied.
+When you call the action, **Copy Project** checks the **Copy Project Columns** project view to determine which fields to copy when the project is copied.
 
 ### Example
 

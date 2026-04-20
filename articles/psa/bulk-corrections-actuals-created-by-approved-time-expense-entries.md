@@ -2,8 +2,8 @@
 title: Bulk corrections of actuals created by approved time and expense entries
 description: This article explains how an administrator can make single or bulk corrections to previously approved time or expense entries if the billing is not complete.
 author: suvaidya
-ms.author: suvaidya
-ms.date: 06/07/2024
+ms.author: nshrivastava
+ms.date: 01/23/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -15,62 +15,60 @@ ms.reviewer: johnmichalak
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Occasionally a time or expense entry may be entered incorrectly. For example, a consultant might select the wrong date when creating a time entry or they might transpose the numbers when entering an expense. If a consultant can’t make the updates to the submitted entries, an administrator can directly correct the entry for a project.
+Occasionally, someone enters a time or expense entry incorrectly. For example, a consultant might select the wrong date when creating a time entry or they might transpose the numbers when entering an expense. If a consultant can't update the submitted entries, an administrator can directly correct the entry for a project.
 
-To complete the procedures in this article, you will need Administrator permissions.
+To complete the procedures in this article, you need Administrator permissions.
 
-## Correct approved time entries     
+## Correct approved time entries
 
 Complete the following steps to correct single or multiple time entries for a project.
 
-1. In the **Sales** area, select **Transactions**, and then select **Approved Time**. 
+1. In the **Sales** area, select **Transactions**, and then select **Approved Time**.
 
-2. In the **Approved Time** list, locate and select one or more approved time entries to correct. You can use the filter to locate related entries. For example, you might filter on a Project ID, and select all approved time entries with that Project ID.
+1. In the **Approved Time** list, locate and select one or more approved time entries to correct. Use the filter to locate related entries. For example, you might filter on a Project ID, and select all approved time entries with that Project ID.
 
-3. Select **Correct entries**. A new correction journal is automatically created, with the assigned type **Time correction**. The entries you selected are added to the journal. 
+1. Select **Correct entries**. A new correction journal is automatically created, with the assigned type **Time correction**. The entries you selected are added to the journal.
 
-4. On the **New Journal** page, enter a **Description** for your correction journal, and then select the **Time Entry Corrections** tab.  
-5. In the **New Values for Time Entries** section, update the fields with the correct information as necessary. For example, you can change the assigned project or the bookable resource.
+1. On the **New Journal** page, enter a **Description** for your correction journal, and then select the **Time Entry Corrections** tab.  
+1. In the **New Values for Time Entries** section, update the fields with the correct information as necessary. For example, you can change the assigned project or the bookable resource.
 
-6. Select **Preview**. In the dialog box, select **OK**. On the **Journal lines** tab, you can view a list of the original actuals that are related to the selected time entries that have been reversed and the corrected corresponding lines that have been created. If additional corrections need to be made, repeat steps 5 and 6. 
-
-> [!NOTE]
-> All the corrected actuals will have the same values that you selected in the **New values for Time Entries** section.
-
-7. If the corrections appear as expected, select **Confirm**. In the dialog box, select **OK**.
-
-8. Return to the **Sales** area, select **Projects**, and then open the project for which you just updated the time entries. 
-
-9. On the **Projects** page, on the **Actuals** tab, view the changes that you made. 
+1. Select **Preview**. In the dialog box, select **OK**. On the **Journal lines** tab, you can view a list of the original actuals that are related to the selected time entries that are reversed and the corrected corresponding lines that are created. If additional corrections need to be made, repeat steps 5 and 6.
 
 > [!NOTE]
-> If the **Actuals** tab is not visible, select **Related** > **Actuals**.  
+> All the corrected actuals have the same values that you selected in the **New values for Time Entries** section.
 
-10. In the **Actual Associated View** list, you can see that the original time entries that have been reversed are still listed, as are the corresponding corrected time entries. 
+1. If the corrections appear as expected, select **Confirm**. In the dialog box, select **OK**.
 
+1. Return to the **Sales** area, select **Projects**, and then open the project for which you just updated the time entries.
+
+1. On the **Projects** page, on the **Actuals** tab, view the changes that you made.
+
+> [!NOTE]
+> If the **Actuals** tab isn't visible, select **Related** > **Actuals**.  
+
+1. In the **Actual Associated View** list, you see that the original time entries that are reversed are still listed, as are the corresponding corrected time entries.
 
 ## Correct approved expense entries
 
-Complete the following steps to correct one or more expense entries. 
+Complete the following steps to correct one or more expense entries.
 
 1. In the **Sales** area, in the left navigation pane, under **Transactions**, select **Approved Expenses**.
 
-2. In the **Approved Expenses** list, select the project that you want to correct, and then select **Correct entries**. A new correction journal will be created automatically with the assigned type of **Expense correction**. 
+1. In the **Approved Expenses** list, select the project that you want to correct, and then select **Correct entries**. The system automatically creates a new correction journal with the assigned type of **Expense correction**.
 
-3. On the **New Journal** page, enter a **Description** for the correction, and on the **Expense Correction** tab, in the **New Values for Expenses** section, select the data fields that you want to correct for the selected expense lines. For example, you can assign the expense to another **Project**, or correct the **Expense Category**, **Expense Date**, or **Bookable Resource**.
+1. On the **New Journal** page, enter a **Description** for the correction. On the **Expense Correction** tab, in the **New Values for Expenses** section, select the data fields that you want to correct for the selected expense lines. For example, you can assign the expense to another **Project**, or correct the **Expense Category**, **Expense Date**, or **Bookable Resource**.
 
-4. Select **Preview**. In the dialog box, select **OK**. 
+1. Select **Preview**. In the dialog box, select **OK**.
 
-5. Verify the corrections on the **Journal lines** tab. You can view a list of the original actuals that are related to the selected expense entries that have been reversed and the corrected corresponding lines that have been created.
+1. Verify the corrections on the **Journal lines** tab. You can view a list of the original actuals that are related to the selected expense entries that the system reversed and the corrected corresponding lines that it created.
 
-6. If the corrected values are as expected, select **Confirm**. In the dialog box, select **OK.** If the values are not showing as expected, select **Cancel** to return to the **Approved Expenses** list. Repeat steps 2 through 5. 
+1. If the corrected values are as expected, select **Confirm**. In the dialog box, select **OK.** If the values aren't as expected, select **Cancel** to return to the **Approved Expenses** list. Repeat steps 2 through 5.
 
 > [!NOTE]
-> The corrected actuals will have the same values that you selected in the **New values for Expenses** section.
+> The corrected actuals have the same values that you selected in the **New values for Expenses** section.
 
-7. After you confirm the correction journal, navigate back to the project or projects that you updated, to view your changes.  
+1. After you confirm the correction journal, go back to the project or projects that you updated to view your changes.  
 
-8. In the project page, on the **Actuals** tab, review the **Actual Associated View**. The original entries and the corrected entries are listed. The following graphic shows original expense entry amounts and the corresponding corrected expense entry amounts. 
-
+1. In the project page, on the **Actuals** tab, review the **Actual Associated View**. The original entries and the corrected entries are listed. The following graphic shows original expense entry amounts and the corresponding corrected expense entry amounts.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

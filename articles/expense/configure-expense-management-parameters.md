@@ -4,7 +4,7 @@ description: This article describes the parameters that control the general beha
 author: mukumarm
 ms.author: mukumarm
 ms.date: 07/21/2025
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

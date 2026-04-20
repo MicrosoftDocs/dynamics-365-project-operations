@@ -5,7 +5,7 @@ title: Create intercompany transactions
 description: This article provides information about how to create intercompany transactions.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 05/24/2024
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -53,21 +53,21 @@ Accounting for project actuals is recorded in the Project Operations integration
 Molly Clark, developer employed in GBPM records 10 hours of work against a USPM Adventure Works project, which is approved by the project manager. Developer cost in GBPM is 88 GBP per hour. GBPM will bill USPM 120 USD per developer hour. USPM will bill the customer Adventure Works, 200 USD for work done by the GBPM resource. For more information, see [Configure intercompany invoicing](configure-intercompany-invoicing.md).
 
 1. In Project Operations, go to **Resources**, and select **Molly Clark** from the list. On the **Scheduling** tab, in the **Company** field, select **GBPM**.
-2. Go to **Sales** > **Customers**, and select **New** to create a new customer record for Adventure Works.
+1. Go to **Sales** > **Customers**, and select **New** to create a new customer record for Adventure Works.
     1. Set the company to **USPM**.
-    2. Set **Relationship type** to **Customer**.
-    3. Select **Customer group 10 – Domestic**.
-    4. Set currency to **USD**.
-    5. Save the record.
-3. Go to **Sales** > **Project Contracts** and create a new project contract for Adventure Works.
+    1. Set **Relationship type** to **Customer**.
+    1. Select **Customer group 10 – Domestic**.
+    1. Set currency to **USD**.
+    1. Save the record.
+1. Go to **Sales** > **Project Contracts** and create a new project contract for Adventure Works.
     1. Set the owning company to **USPM** and the contracting unit to **Contoso Robotics US**.
-    2. Select Adventure Works as the customer.
-    3. Select a product price list and save the record.
-    4. On the **Contract Lines** tab, create a new contract line. Set any name, and select **Time and Materials** as the billing method.
-    5. Create a new project and associate it with this contract line.
-4. Sign in as the resource, **Molly Clark**. Go to **Projects** > **Time entries**, and create a time entry for the Adventure Works project.
-5. Sign in as the Project manager. Go to **Projects** > **Approvals**, and approve the time entry transaction logged by Molly Clark.
-6. Navigate to the Adventure Works project and select **Related** > **Actuals**. The following actuals transactions are created.
+    1. Select Adventure Works as the customer.
+    1. Select a product price list and save the record.
+    1. On the **Contract Lines** tab, create a new contract line. Set any name, and select **Time and Materials** as the billing method.
+    1. Create a new project and associate it with this contract line.
+1. Sign in as the resource, **Molly Clark**. Go to **Projects** > **Time entries**, and create a time entry for the Adventure Works project.
+1. Sign in as the Project manager. Go to **Projects** > **Approvals**, and approve the time entry transaction logged by Molly Clark.
+1. Navigate to the Adventure Works project and select **Related** > **Actuals**. The following actuals transactions are created.
 
 | **Transaction type** | **Price** | **Transaction currency** | **Amount** |
 | --- | --- | --- | --- |
@@ -76,9 +76,9 @@ Molly Clark, developer employed in GBPM records 10 hours of work against a USPM 
 | Resourcing unit cost | 88 | GBP | 880 |
 | Inter-org unit sales | 120 | USD | 1200 |
 
-7. Sign in as a USPM accountant. Open the Finance instance of Project Operations, and select the company **USPM**. 
-8. Go to **Project management and accounting** > **Periodic** > **Project Operations on Customer Engagement** > **Import from staging** and select to run the periodic process. This periodic process will fill in Project Operations Integration journal.
-9. Go to **Project management and accounting** > **Journals** > **Project Operations integration journal** and review the journal lines. The system creates the following line.
+1. Sign in as a USPM accountant. Open the Finance instance of Project Operations, and select the company **USPM**. 
+1. Go to **Project management and accounting** > **Periodic** > **Project Operations on Customer Engagement** > **Import from staging** and select to run the periodic process. This periodic process will fill in Project Operations Integration journal.
+1. Go to **Project management and accounting** > **Journals** > **Project Operations integration journal** and review the journal lines. The system creates the following line.
 
     | **Transaction type** | **Price** | **Transaction currency** | **Amount** |
     | --- | --- | --- | --- |
@@ -91,9 +91,9 @@ Molly Clark, developer employed in GBPM records 10 hours of work against a USPM 
 
     This unbilled sale is now ready for invoicing. The invoice for the customer Adventure Works can be financially posted when needed.
 
-10. Sign in as the **GBPM** accountant. Open the Finance instance of Project Operations, and open the company, **GBPM**. 
-11. Go to **Project management and accounting** > **Periodic** > **Project Operations integration** > **Import from staging table** and run the periodic process to  fill in Project Operations Integration journal.
-12. Go to **Project management and accounting** > **Journals** > **Project Operations integration journal** and review the lines. The system creates the following lines.
+1. Sign in as the **GBPM** accountant. Open the Finance instance of Project Operations, and open the company, **GBPM**. 
+1. Go to **Project management and accounting** > **Periodic** > **Project Operations integration** > **Import from staging table** and run the periodic process to  fill in Project Operations Integration journal.
+1. Go to **Project management and accounting** > **Journals** > **Project Operations integration journal** and review the lines. The system creates the following lines.
 
     | **Transaction type** | **Price** | **Transaction currency** | **Amount** |
     | --- | --- | --- | --- |

@@ -54,7 +54,7 @@ These steps can be completed in two ways:
 
 ### Give the agent consent to create time entries
 
-To give consent directly from the Project Operations web app, follow these steps.
+To give consent directly from the Project Operations web app, follow these steps:
 
 1. Navigate to **Time Entry** from the Project Operations web app.
 1. A new **Time Agent** drop-down button is visible on the ribbon menu (next to **Import**).
@@ -95,7 +95,7 @@ After you set the preferences, select **Save preferences**. You should receive a
 
 ### Modify agent preferences at a later time
 
-To modify your existing preferences, follow these steps.
+To modify your existing preferences, follow these steps:
 
 These steps can be completed in two ways:
 - Modify agent preferences from the Time Entry Grid in Project Operations.
@@ -116,7 +116,7 @@ Modify agent preferences using the Teams app.
 
 This step is required if you selected **Yes** for the **Using Outlook calendar to generate better external comments** preference. The agent user must be able to access a team member's Outlook calendar to view meeting titles and descriptions. In this way, it can generate better comments.
 
-To share calendar access with the agent user, follow these steps.
+To share calendar access with the agent user, follow these steps:
 
 1. In Outlook, go to **Calendar**.
 1. Under **My calendars**, select the ellipsis (**&hellip;**) button for the calendar that you use.

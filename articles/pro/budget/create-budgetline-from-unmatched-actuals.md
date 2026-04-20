@@ -1,8 +1,8 @@
 ---
 title: Create budget lines from unmatched actuals
 description: This article explains how to create project budget lines from cost actuals that could not be matched to an existing budget line during revision.
-author: nimaski
-ms.date: 06/24/2024
+author: niranjanmaski
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,9 +16,9 @@ ms.author: nimaski
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
-This article explains the process of creating budget lines from unmatched cost actuals. You might have to use this process when actuals don't match existing budget lines, based on dimensions or defined budget match priorities. You might also have to use it because of unforeseen actuals during budget creation and approval.
+This article explains the process of creating budget lines from unmatched cost actuals. You might need to use this process when actuals don't match existing budget lines, based on dimensions or defined budget match priorities. You might also need to use it because of unforeseen actuals during budget creation and approval.
 
-This feature lets users create budget lines that correspond to unmatched cost actuals. This option is available when an approved budget line is revised.
+This feature enables users to create budget lines that correspond to unmatched cost actuals. This option is available when you revise an approved budget line.
 
 ## How to identify cost actuals that aren't matched to a budget line
 
@@ -44,7 +44,7 @@ To help you quickly and easily find cost actuals that haven't been matched to an
 
 ## Create budget lines from cost actuals that aren't matched to a budget line
 
-To create a project budget line from the unmatched cost actuals, follow these steps.
+To create a project budget line from the unmatched cost actuals, follow these steps:
 
 > [!NOTE]
 > Before you complete this procedure, ensure that the budget version is in **Approved** status.

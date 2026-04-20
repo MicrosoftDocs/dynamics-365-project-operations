@@ -3,7 +3,7 @@ title: Estimate a project contract line
 description:  This article provides information about estimating a project–based contract line.
 author: poojafandan
 ms.author: poojafandan
-ms.date: 2/21/2025
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -29,7 +29,7 @@ To estimate a project contract line, go to the **Contract Line Detail** tab on t
 To create an estimation directly on a project contract line, follow these steps:
 
 1. Go to the contract line and select the **Contract Line Detail** tab. The lines you create on this tab are summarized and display as the **Contracted Value** for this **Contract Line**. 
-2. In the **Contract Line Details** subgrid, select **New Contract Line Detail**. A quick-create slider opens. The following fields are available on the **Contract Line Details** page.
+1. In the **Contract Line Details** subgrid, select **New Contract Line Detail**. A quick-create slider opens. The following fields are available on the **Contract Line Details** page.
 
 | Field | Location | Description | Downstream impact |
 | --- | --- | --- | --- |
@@ -66,7 +66,7 @@ The Time Phasing of Estimates feature provides visibility into price fluctuation
 You can create role price overrides scoped to a contract that is reflected in the nested time-phased lines. Each week in the nested contract line detail line retains the price applicable on the first day of that week.
 
 On the **Contract Line Details** tab, select a row in the grid to enable some actions on the toolbar of the subgrid. The first action on the subgrid tool bar when a contract line detail is selected is **Open Cost Detail**. Select **Open Cost Detail** to see the related cost rate and amount for this contract line detail.
-**Example Scenario:**
+### Example Scenario:
 
 A contract line detail spans from January 1, 2025, to February 15, 2025, covering a total of seven weeks. The role price is set at $200, but a price override of $250 is applied on February 5, 2025.
 | **Attribute** | **Value** |
@@ -97,12 +97,12 @@ The **Contract Line Detail** tab provides two form views to help you analyze sal
 
 •	Line Details: Cost
 
-**Line Details**
+### Line Details
 The Line Details view displays each contract line detail along with its associated sales price. Within the subgrid of each contract line detail, you can see time-phased sales prices broken down by specific periods.
 
 Selecting a contract line detail enables more actions on the toolbar. The first action available is Open Cost Detail. If you want to view the cost details of the contract line detail in an expanded view, click Open Cost Detail and view the related cost rate and amount for the selected contract line detail.
 
-**Line Details: Cost**
+### Line Details: Cost
 The Line Details: Cost view provides insight into the cost price associated with each contract line detail. Like the **Line Details** view, the subgrid displays time-phased cost prices.
 
 These views enhance visibility into both sales and cost prices, making it easier to assess pricing details for each contract line.

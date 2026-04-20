@@ -8,7 +8,7 @@ ms.custom:
   - evergreen
 ms.date: 07/07/2025
 ms.update-cycle: 1095-days
-ms.topic: article
+ms.topic: concept-article
 audience: Admin
 search.audienceType: 
   - admin

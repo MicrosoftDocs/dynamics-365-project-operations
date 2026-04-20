@@ -3,7 +3,7 @@ title: Integrate project invoices using dual-write async configuration (preview)
 description: Learn how to configure Dynamics 365 Project Operations dual-write asynchronous integration for customer invoicing.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 07/23/2025
+ms.date: 01/29/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -34,26 +34,26 @@ The following graphic provides a high-level conceptual overview of this integrat
 
 ### Update Project Operations parameters
 
-To update the Project Operations parameters, follow these steps.
+To update the Project Operations parameters, follow these steps:
 
 1. Go to **Dynamics 365 Project operations** app.
 1. Select **Settings** and open **Parameters** form.
 1. Select **Edit**.
-1. On the **Project task time tracking** dropdown, choose **Delayed update**.
-1. On the **Project actual values tracking** dropdown, choose **Delayed update**.
+1. On the **Project task time tracking** dropdown, choose **On-Demand update**.
+1. On the **Project actual values tracking** dropdown, choose **On-Demand update**.
 
 ### Update the Dual-write Core solution
 
 In the **Power Apps portal**, update the **Dual-write Core** solution to the latest version available for your environment to ensure compatibility and access to the newest features.
 
-To update the Dual-write Core solution, follow these steps.
+To update the Dual-write Core solution, follow these steps:
 
 1. Go to https://make.powerapps.com.
 1. Ensure you're logged into the correct environment where dual-write is configured.
 1. In the navigation pane, select **Solutions**. Solutions lists all installed solutions in your environment.
 1. Locate the **Dual-write Core** solution in the list, and select it to view the current version and details.
-1. Compare the list with the latest version available on **Microsoft AppSource**.
-1. In the **Solutions** area, select **Open AppSource**. Search for **Dual-write Core**.
+1. Compare the list with the latest version available on **Microsoft Marketplace**.
+1. In the **Solutions** area, select **Open Marketplace**. Search for **Dual-write Core**.
 1. Select the latest version of the **Dual-write Core** solution.
 1. Select **Get it now** and follow the prompts to install or update. Choose the correct **environment** during installation.
 
@@ -67,7 +67,7 @@ In **Dynamics 365 Finance**, the generation of a project invoice involves the sy
 
 To enable the dual-write asynchronous (async) integration, these entities must be transitioned from the **real-time sync** process to the **asynchronous** processing model. 
 
-To enable the dual-write asynchronous (async) integration, follow these steps.
+To enable the dual-write asynchronous (async) integration, follow these steps:
 
 1. In Dynamics 365 Finance, go to the **Data management** workspace.
 1. Select **Dual-write**.

@@ -3,7 +3,7 @@ title: Project and task limitations
 description: Learn about limits for Project Operations projects and tasks.
 author: dishantpopli
 ms.date: 07/02/2025
-ms.topic: article
+ms.topic: concept-article
 ms.custom: bap-template
 ms.reviewer: johnmichalak
 ms.author: dishantpopli

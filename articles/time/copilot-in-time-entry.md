@@ -1,10 +1,11 @@
 ---
 title: Use Copilot in time entry
-description: This article explains how team members can use Copilot in time entry to complete their time entry each week.
+description: Learn how to enable and use Copilot in time entry to streamline your project workflows. Log time and generate comments faster with AI assistance.
 author: mohitmenon
-ms.date: 04/24/2024
+ms.date: 01/30/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
+ms.collection: bap-ai-copilot
 ms.custom: 
   - bap-ai-copilot 
 ms.reviewer: johnmichalak
@@ -33,7 +34,7 @@ Contact your tenant administrator to confirm that your environment meets these r
 
 ## Enable or disable the Copilot in time entry feature
 
-To enable Copilot in time entry, follow these steps.
+To enable Copilot in time entry, follow these steps:
 
 1. Ensure that you meet the availability criteria to use this feature (see previous section).
 1. Sign in to Dynamics 365 Project Operations.
@@ -47,15 +48,15 @@ To enable Copilot in time entry, follow these steps.
 > [!NOTE]
 > To disable Copilot in time entry, follow the same steps, but select **Disable Copilot in time entry** in step 7.
 
-## Interactive Copilot chat experience
+## Interactive Copilot experience
 
-You can access both Copilot capabilities of this feature only by using the interactive Copilot chat experience. Because the Copilot chat experience is currently in preview, it might not be enabled on your environment.
+You can access both Copilot capabilities of this feature only by using the interactive Copilot experience. Because the Copilot experience is currently in preview, it might not be enabled on your environment.
 
 - On the top menu bar, select the Copilot icon next to the user icon to expand the Copilot sidecar. The following message is shown: "Get started with Copilot by typing your request in chat."
 - To collapse the sidecar, select the Copilot icon again.
 
 > [!NOTE]
-> If the Copilot icon isn't visible, work with your system administrator to [enable Copilot chat for your environment](/power-apps/maker/model-driven-apps/add-ai-copilot#enable-copilot-for-model-driven-apps-feature-for-your-environment).
+> If the Copilot icon isn't visible, work with your system administrator to [enable Copilot for your environment](/power-apps/maker/model-driven-apps/add-ai-copilot#enable-copilot-for-model-driven-apps-feature-for-your-environment).
 
 ## Log time by using Copilot
 

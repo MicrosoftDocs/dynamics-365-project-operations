@@ -1,31 +1,35 @@
 ---
-title: Purchase orders for Non-stocked/Service items without item requirements
-description: This article provides information about project purchase orders for Non-stocked/Service items without item requirements.
+title: Purchase orders for non-stocked and service items without item requirements
+description: Learn how to create purchase orders for non-stocked and service items without item requirements in Dynamics 365 Finance. Follow step-by-step instructions to optimize project costs.
 author: mukumarm
 ms.author: mukumarm
 ms.reviewer: johnmichalak
 ms.topic: how-to
-ms.date: 2/21/2023
+ms.date: 01/30/2026
 ms.custom: bap-template
 ---
 
-# Purchase orders for Non-stocked/Service items without item requirements
+# Purchase orders for non-stocked and service items without item requirements
 
-To use purchase orders without item requirements, you must set the **Create Item requirements** option to **No** in Project management & accounting parameters.
+[!include [banner](../includes/banner.md)]
+
+To use purchase orders without item requirements, set the **Create Item requirements** option to **No** in Project management & accounting parameters.
 
 1. Go to **Project management and accounting** \> **Setup** \> **Project management & accounting parameters**.
 1. On the **General** tab, set the **Create Item requirements** option to **No**.
 
-When a purchase order is created without using the **Item requirements** feature, Microsoft Dynamics 365 Finance generates and posts the project cost at the time of vendor invoice posting. When the purchase order product receipt is posted, no project cost transactions are generated.
+When you create a purchase order without using the **Item requirements** feature, Microsoft Dynamics 365 Finance generates and posts the project cost at the time of vendor invoice posting. When you post the purchase order product receipt, no project cost transactions are generated.
 
-Dynamics 365 Finance considers the purchase unit price, discount, and miscellaneous charges that are assigned to the vendor invoice as the project cost. If the miscellaneous charges are configured as loaded on inventory (that is, if they are charges of the **Debit, inventory** type), the miscellaneous charge amount is added to the unit cost and discount, and the project cost is generated accordingly.
+Dynamics 365 Finance considers the purchase unit price, discount, and miscellaneous charges that you assign to the vendor invoice as the project cost. If you configure the miscellaneous charges as loaded on inventory (that is, if they're charges of the **Debit, inventory** type), the miscellaneous charge amount is added to the unit cost and discount, and the project cost is generated accordingly.
 
 ## Example scenario
 
-The following example shows a purchase order and project transactions for **Non-stocked** or **Service** items. The purchase order that's created has a net amount of USD 2,700.00 after discounts are applied. Miscellaneous charges of USD 100.00 are added on the purchase order line (Miscellaneous charge of **Item, Debit** type).
+The following example shows a purchase order and project transactions for **Non-stocked** or **Service** items. The purchase order that you create has a net amount of USD 2,700.00 after you apply discounts. You add miscellaneous charges of USD 100.00 on the purchase order line (Miscellaneous charge of **Item, Debit** type).
 
-![Purchase order and project transactions.](media/NSTKWithoutIRPurchaseOrder.png)
+:::image type="content" source="media/NSTKWithoutIRPurchaseOrder.png" alt-text="Screenshot of the purchase order and project transactions.":::
 
-The following illustration shows the project cost of USD 2,800.00 and the project subledger that's generated for the purchase order when the vendor invoice is posted.
+The following illustration shows the project cost of USD 2,800.00 and the project subledger that's generated for the purchase order when you post the vendor invoice.
 
-![Project posted transactions and the project subledger.](media/NSTKWithoutIRProjectPostedTransactions.png)
+:::image type="content" source="media/NSTKWithoutIRProjectPostedTransactions.png" alt-text="Screenshot of project posted transactions and the project subledger.":::
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
