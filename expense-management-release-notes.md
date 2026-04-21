@@ -13,7 +13,7 @@ ms.author: ajitchandran
 
 # Expense Management - Release Notes
 
-_**Applies To:** Project Operations Core_
+_Applies To: Project Operations Integrated with ERP, Project Operations for manufacturing-based scenarios_
 
 This article applies to the Expense Management across all three experiences - Expense Management Web experience within Finance & Operations platform, Expense Management Mobile app and Expense Agent.
 
