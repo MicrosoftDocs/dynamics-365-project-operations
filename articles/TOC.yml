@@ -687,7 +687,7 @@
     - name: Time overview
       href: time/time-entry-overview.md
     - name: Enhanced Team Member Experience (Preview)
-    - href: time/enhanced-team-member-experience.md
+      href: time/enhanced-team-member-experience.md
     - name: Create time entries
       items: 
       - name: Time entry user interface 
@@ -1938,7 +1938,7 @@
     - name: Time overview
       href: time/time-entry-overview.md
     - name: Enhanced Team Member Experience (Preview)
-    - href: time/enhanced-team-member-experience.md
+      href: time/enhanced-team-member-experience.md
     - name: Create time entries
       items: 
       - name: Time entry user interface
