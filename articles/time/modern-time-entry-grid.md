@@ -42,4 +42,23 @@ In-line editing follows these rules in the modern grid:
 > [!NOTE]
 > Bulk Editing (multiple rows) is not supported on the Modern Grid.
 
+## Show and Hide columns from the grid without losing information
+
+This capability is currently available as a **preview feature in early access**. Enable this feature by following these steps:
+
+1. Ensure that your Microsoft Dynamics 365 Project Operations environment is updated to version **4.166.0.X or later**. This feature isn't available in earlier versions.
+1. Sign in to Project Operations as a system administrator.
+1. In the left pane, change the area to **Settings**.
+1. In the **General** section, select **Parameters**.
+1. A list of organization units should appear. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
+1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
+1. Select **Enable Enhancement on the Modern Time Entry grid feature**, and then select **OK**. If the text **Disable Enhancement on the Modern Time Entry grid feature** is shown instead, the feature is already enabled.
+
+To use the feature:
+1. Switch to the **Modern Time Entry Grid**. A new ribbon button named **Show/Hide** will be visible.
+2. The list of columns displayed within the **Show/Hide** drop-down come from the Time Entry View that is currently selected (Default view being _My Weekly Time Entries_). In addition to this, any columns added via **Edit Columns** will also be included in this drop-down (until the page is refreshed).
+3. Hiding one or more columns will visually hide them from the grid, to make the Time Entry view less cluttered and more readable.
+4. When creating in-line entries for a row - values populated for any hidden columns will still be maintained on the newly created time entries as well (no loss of information).
+5. Values for newly created entries can be verified by un-hiding (showing) those columns once again.
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
