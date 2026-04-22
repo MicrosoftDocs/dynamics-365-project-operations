@@ -686,10 +686,14 @@
     items: 
     - name: Time overview
       href: time/time-entry-overview.md
+    - name: Enhanced Team Member Experience (Preview)
+    - href: time/enhanced-team-member-experience.md
     - name: Create time entries
       items: 
       - name: Time entry user interface 
         href: time/ui-behavior-time.md
+      - name: Modern Time Entry Grid 
+        href: time/modern-time-entry-grid.md
     - name: Time Entry Delegation (preview)
       href: time/time-entry-delegation.md
     - name: Time Entry Calendar interface (preview)
@@ -1933,10 +1937,14 @@
     items: 
     - name: Time overview
       href: time/time-entry-overview.md
+    - name: Enhanced Team Member Experience (Preview)
+    - href: time/enhanced-team-member-experience.md
     - name: Create time entries
       items: 
       - name: Time entry user interface
         href: time/ui-behavior-time.md
+      - name: Modern Time Entry Grid 
+        href: time/modern-time-entry-grid.md  
     - name: Time Entry Delegation (preview)
       href: time/time-entry-delegation.md
     - name: Time Entry Calendar interface (preview)
