@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Enhanced Team Member Experience Overview (preview)
+# Enhanced Team Member Experience (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 
