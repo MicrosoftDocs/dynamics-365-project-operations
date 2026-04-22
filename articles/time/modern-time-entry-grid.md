@@ -14,7 +14,7 @@ ms.author: mohitmenon
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
-The Modern Time Entry Grid reduces the reliance on forms by providing in-grid editing for primary time entry fields like Project, Task, Role, Subcontract and Subcontract Line. In addition, users can Show or Hide columns visually without losing information from those fields when creating in-line time entries across the week.
+The Modern Time Entry Grid reduces the reliance on forms by providing in-grid editing for primary time entry fields like Project, Task, Role, Subcontract, and Subcontract Line. In addition, users can Show or Hide columns visually without losing information from those fields when creating in-line time entries across the week.
 
 This article contains the following sections:
 - Switch to the Modern Time Entry Grid.
@@ -30,11 +30,11 @@ To use the modern grid, follow these steps:
 
 ## Editing time entry fields directly from the grid
 
-On the standard Time Entry Grid (not modern), Modifications to fields other than Duration required the use of the **Edit Row** or **Edit Entry** form. The Modern Grid allows users to make such modifications directly from the grid, without using a form (restricted to _Project, Project Task, Role, Subcontract & Subcontract Line_ fields). 
+On the standard Time Entry Grid (not modern), Modifications to fields other than Duration required the use of the **Edit Row** or **Edit Entry** form. The Modern Grid allows users to make such modifications directly from the grid, without using a form (restricted to _Project, Project Task, Role, Subcontract, & Subcontract Line_ fields). 
 
 In-line editing follows these rules in the modern grid:
 - Project Task can only be selected from the grid when Project is already populated.
-- The list of Project Tasks will be filtered based on the selected Project.
+- The list of Project Tasks is filtered based on the selected Project.
 - Clearing Project field in-line also clears the Project Task (if any) that was populated.
 - Subcontract field is filtered based on Project, Task and selected Role. This behaviour is similar to the logic used within the Quick Create form for time entry. Similarly for Subcontract lines, with an added filter for Subcontract.
 - Clearing Subcontract also clears the previously selected Subcontract Line.
@@ -56,9 +56,9 @@ This capability is currently available as a **preview feature in early access**.
 
 To use the feature:
 1. Switch to the **Modern Time Entry Grid**. A new ribbon button named **Show/Hide** is visible.
-2. The list of columns displayed within the **Show/Hide** drop-down come from the Time Entry View that is currently selected (Default view being _My Weekly Time Entries_). In addition to this, any columns added via **Edit Columns** is also included in this drop-down (until the page is refreshed).
+2. The list of columns displayed within the **Show/Hide** drop-down come from the Time Entry View that is currently selected (Default view being _My Weekly Time Entries_). In addition to these fields, any columns added via **Edit Columns** is also included in this drop-down (until the page is refreshed).
 3. Hiding one or more columns visually hides them from the grid, to make the Time Entry view less cluttered and more readable.
-4. When creating in-line entries for a row - values populated for any hidden columns will still be maintained on the newly created time entries as well (no loss of information).
-5. Values for newly created entries can be verified by un-hiding (showing) those columns once again.
+4. When creating in-line entries for a row - values populated for any hidden columns are maintained on the newly created time entries as well (no loss of information).
+5. Values for newly created entries can be verified by unhiding (showing) those columns once again.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
