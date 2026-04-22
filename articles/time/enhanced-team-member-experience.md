@@ -22,10 +22,10 @@ The Enhanced Team Member experience enables users to keep track of projects and 
 This article provides an overview of the new experience and use these capabilities effectively:
 
 - Enable the Enhanced Team Member experience feature.
-- Keep track of projects that you're a part of. 
+- Keep track of projects that you're staffed on. 
 - Keep track of Project Tasks you're assigned to.
 - Add a personal check-list and notes for your tasks.
-- Streamline logging of time entries for each week.
+- Streamline logging of weekly time entries.
 
 ## Enable the Enhanced Team Member experience
 
@@ -41,7 +41,7 @@ To enable this feature, follow these steps:
 
 After the feature is enabled, users will see two new menu items named **Assignments** and **Projects** under the **My Work** section of the **Project Operations Team Member app only**.
 
-## Keep track of Projects that you're a part of
+## Keep track of Projects that you're staffed on
 
 - Navigate to the Project Operations Team Member app.
 - Select the **Projects** menu item under **My Work**.
@@ -81,3 +81,19 @@ Here, you can view a list of Project Tasks to which you've been assigned during 
 
 > [!NOTE]
 > The check-list items and notes added by a user can only be viewed by them, not by other team members or even Project Managers. 
+
+## Streamline logging of weekly time entries
+
+Prior to the enhanced team member experience, users would begin their time entry process from a blank grid without context of Projects or Tasks that they've been working on for that week. Now, team members can use their staffed Projects or assigned Tasks as the reference for logging time entries. Follow these steps:
+
+- Navigate to the Project Operations Team Member app.
+- Select **Assignments** under **My Work**. Pick the week you'd like to log time entries for.
+  - Click **Log time**. Draft time entries get created for the selected week, based on **Task Assignment hours** for that week.
+  - A dialog should appear with confirmation of time entry creation (along with number of hours logged).
+  - Users can navigate to **Time Entries** and select the corresponding week to review the created entried before submitting for approval.
+- Similarly select **Projects** under **My Work**. Pick the week you'd like to log time entries for.
+  - Click **Log time**. Draft time entries get created for the selected week, based on **Booked Project capacity** for that week.
+  - A dialog should appear with confirmation of time entry creation (along with number of hours logged).
+  - Users can navigate to **Time Entries** and select the corresponding week to review the created entried before submitting for approval.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
