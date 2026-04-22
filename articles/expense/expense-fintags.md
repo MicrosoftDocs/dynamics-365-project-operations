@@ -1,0 +1,144 @@
+---
+title: Financial tags for expense reports
+description: Learn how financial tags can be used in the Expense management module to track expense transactions across the end-to-end accounting lifecycle without creating new financial dimensions.
+author: ajitchandran
+ms.author: ajitchandran
+ms.topic: conceptual
+ms.date: 04/22/2026
+ms.service: dynamics-365-project-operations
+ms.subservice: expense-management
+---
+
+# Financial tags for expense reports
+
+Financial tags in the Expense management module enable organizations to capture and track user-defined financial attributes on expense transactions without creating additional financial dimensions. This capability helps track short-term or contextual initiatives—such as campaigns, pilots, or internal events—while keeping the chart of accounts clean and reusable.
+
+With financial tags enabled for expense reports, tags can be captured at both the expense report header and expense line levels and are carried consistently through the complete expense processing lifecycle, from expense creation to ledger posting.
+
+## Overview
+
+The **Enable financial tags for expense reports** feature extends financial tagging support across the entire expense report lifecycle in both:
+
+- **Expense reports (Legacy / Old UI)**
+- **Expense reports re-imagined UI**
+
+Financial tags entered by users are automatically propagated during posting into accounting distributions, subledger entries, and voucher transactions. This ensures end-to-end traceability between operational expense data and downstream financial records, while providing consistent behavior across both user interfaces.
+
+## Feature scope
+
+This feature enables consistent capture, defaulting, and propagation of financial tags across expense reports. The supported scenarios are outlined below.
+
+### Financial tags at header and line level
+
+- Financial tags can be entered at:
+  - Expense report header level
+  - Individual expense line level
+- When a new expense line is created, header-level financial tags are automatically defaulted to the expense line, reducing manual data entry.
+
+### Adding unattached expenses
+
+- When unattached expenses are added to an expense report, financial tags default from the expense report header to the attached expense lines.
+- If an expense line already contains financial tag values, those values are retained.
+
+### Split line scenario (Legacy UI)
+
+- When an expense line is split in the **Expense reports (Old UI)**, financial tags from the original (parent) expense line are copied to all split lines.
+- This behavior applies only to the Legacy UI, as the split line capability isn’t available in the re-imagined UI.
+
+### Itemization lines
+
+- When an expense line is itemized, financial tags from the original expense line are copied to all related itemization lines.
+
+### Line removal behavior
+
+- When an expense line is removed from an expense report, the financial tag values for that expense line aren’t cleared.
+
+### Posting and downstream propagation
+
+During expense report posting:
+
+- Financial tags are populated into the accounting distributions.
+- Financial tags are propagated to:
+  - Subledger entries
+  - Voucher transactions
+
+This ensures complete financial traceability from expense entry to general ledger posting.
+
+### Post-posting updates
+
+- After posting, financial tags can be manually updated using the existing **Edit internal voucher data** functionality.
+- Updates made post-posting apply only at the voucher level and aren’t reflected back in the original expense report.
+- No new post-posting maintenance experience is introduced as part of this feature.
+
+## User interface changes
+
+### Expense report fields form
+
+Financial tag fields are exposed through configuration on the **Expense report fields** form:
+
+- **Header fields** tab  
+- **Line fields** tab  
+
+### Expense reports (re-imagined UI)
+
+For the re-imagined Expense reports experience:
+
+- Financial tag fields are added to:
+  - **Expense report** tab
+  - **Expense** tab
+
+### Financial tag controls on expense forms
+
+Financial tag fields are available for data entry in the following locations:
+
+- **New expense report form**
+  - Header-level financial tags in the expense report header FastTab
+  - Line-level financial tags in the Expenses details view
+- **Expenses form**
+  - Line-level financial tag fields available during expense creation
+- **Expense Management workspace**
+  - Creating a new expense report navigates to the New expense report form
+  - Financial tag values are displayed in expense line details
+
+These changes ensure that financial tags are visible and editable wherever expense data is entered or reviewed.
+
+## Configuration and prerequisites
+
+To use financial tags with expense reports, complete the following configurations.
+
+### Enable required features
+
+In **System administration > Feature management**:
+
+- Enable **Enable financial tags for expense reports (Preview)**
+- When testing the re-imagined UI, also enable **Expense reports re-imagined enhancements**
+
+### Configure financial tags
+
+In **General ledger**:
+
+1. Go to **Chart of accounts > Financial tags**
+   - Configure and activate required financial tags in the applicable legal entities (for example, USMF and USSI).
+2. Go to **Ledger setup > General ledger parameters**
+   - On the **Financial tags** tab, set the financial tag segment delimiter.
+
+## When to use financial tags for expenses
+
+Financial tags are best suited for:
+
+- Short-term initiatives or temporary tracking needs
+- Internal campaigns or events
+- Pilot programs or time-bound cost analysis
+
+For long-term, reusable, or statutory reporting requirements, financial dimensions should continue to be used. Financial tags complement financial dimensions by adding flexibility without increasing long-term configuration complexity.
+
+## Summary
+
+With financial tags enabled for expense reports, organizations can:
+
+- Capture contextual financial information directly on expenses
+- Reduce reliance on one-off financial dimensions
+- Maintain consistent tagging behavior across legacy and re-imagined UIs
+- Ensure accurate and traceable financial reporting from expense entry to ledger posting
+
+This capability helps finance teams gain better analytical insights while preserving a clean and scalable financial data model.
