@@ -22,6 +22,11 @@ This article applies to the Expense Management across all three experiences - Ex
 
 ## Release Notes
 
+### Expense Management module in Finance & Operations
+| Feature area | Supported FnO version | Feature details | Availability date | 
+| --- | --- | --- | --- |
+| Expense Web | 10.0.47 | Financial tags in Expense Management module | 13th March 2026 |
+
 ### Expense Mobile
 | Feature area | Version | Supported FnO version | Feature details | Availability date | 
 | --- | --- | --- | --- | --- |
