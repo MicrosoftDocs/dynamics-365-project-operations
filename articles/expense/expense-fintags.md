@@ -110,40 +110,11 @@ For the re-imagined Expense reports experience:
   - **Expense report** tab
   - **Expense** tab
 
-### Financial tag controls on expense forms
+### Financial tag controls on expense management workspace
 
 Financial tag fields are available for data entry in the following locations:
-
-- **New expense report form**
-  - Header-level financial tags in the expense report header FastTab
-  - Line-level financial tags in the Expenses details view
-- **Expenses form**
-  - Line-level financial tag fields available during expense creation
 - **Expense Management workspace**
-  - Creating a new expense report navigates to the New expense report form
-  - Financial tag values are displayed in expense line details
+  - Creating a new expense report navigates to the New expense report form. Click **+New expense report** > under heading **FINANCIAL TAGS**
+  - Financial tag values are displayed in expense line details under **Financial tags** subheading. 
 
 These changes ensure that financial tags are visible and editable wherever expense data is entered or reviewed.
-
-
-
-## When to use financial tags for expenses
-
-Financial tags are best suited for:
-
-- Short-term initiatives or temporary tracking needs
-- Internal campaigns or events
-- Pilot programs or time-bound cost analysis
-
-For long-term, reusable, or statutory reporting requirements, financial dimensions should continue to be used. Financial tags complement financial dimensions by adding flexibility without increasing long-term configuration complexity.
-
-## Summary
-
-With financial tags enabled for expense reports, organizations can:
-
-- Capture contextual financial information directly on expenses
-- Reduce reliance on one-off financial dimensions
-- Maintain consistent tagging behavior across legacy and re-imagined UIs
-- Ensure accurate and traceable financial reporting from expense entry to ledger posting
-
-This capability helps finance teams gain better analytical insights while preserving a clean and scalable financial data model.
