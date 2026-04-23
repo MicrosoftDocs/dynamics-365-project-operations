@@ -1,5 +1,5 @@
 ---
-title: Financial tags for expense reports
+title: Use financial tags in Expense Management
 description: Learn how financial tags can be used in the Expense management module to track expense transactions across the end-to-end accounting lifecycle without creating new financial dimensions.
 author: ajitchandran
 ms.author: ajitchandran
@@ -9,9 +9,11 @@ ms.service: dynamics-365-project-operations
 ms.subservice: expense-management
 ---
 
-# Financial tags for expense reports
+# Financial tags in Expense Management module
 
-Financial tags in the Expense management module enable organizations to capture and track user-defined financial attributes on expense transactions without creating additional financial dimensions. This capability helps track short-term or contextual initiatives—such as campaigns, pilots, or internal events—while keeping the chart of accounts clean and reusable.
+_Applies To: Project Operations Integrated with ERP, Project Operations for manufacturing._
+
+Financial tags in the Expense management module enable organizations to capture and track user-defined financial attributes on expense transactions without creating additional financial dimensions. This capability helps track short-term or contextual initiatives-such as campaigns, pilots, or internal events-while keeping the chart of accounts clean and reusable.
 
 With financial tags enabled for expense reports, tags can be captured at both the expense report header and expense line levels and are carried consistently through the complete expense processing lifecycle, from expense creation to ledger posting.
 
@@ -24,9 +26,30 @@ The **Enable financial tags for expense reports** feature extends financial tagg
 
 Financial tags entered by users are automatically propagated during posting into accounting distributions, subledger entries, and voucher transactions. This ensures end-to-end traceability between operational expense data and downstream financial records, while providing consistent behavior across both user interfaces.
 
-## Feature scope
+## Configuration and prerequisites
 
-This feature enables consistent capture, defaulting, and propagation of financial tags across expense reports. The supported scenarios are outlined below.
+To use financial tags with expense reports, complete the following configurations.
+
+### Enable required features
+
+1. In **System administration > Feature management**:
+
+- Enable **(Preview)Enable financial tags for expense reports**
+- When testing the re-imagined UI, also enable **Expense reports re-imagined enhancements**
+
+### Configure financial tags
+
+In **General ledger**:
+
+1. Go to **Chart of accounts > Financial tags**
+   - Configure and activate required financial tags in the applicable legal entities (for example, USMF and USSI).
+
+> [!TIP]
+> As a pre-requisite, financial tags delimiter must be configured and can be done using
+> 1. Go to **General ledger > Ledger setup > General ledger parameters**
+> 1. On the **Financial tags** tab, set the financial tag segment delimiter.
+
+## Additional information on financial tags functionality in expense management module
 
 ### Financial tags at header and line level
 
@@ -102,25 +125,7 @@ Financial tag fields are available for data entry in the following locations:
 
 These changes ensure that financial tags are visible and editable wherever expense data is entered or reviewed.
 
-## Configuration and prerequisites
 
-To use financial tags with expense reports, complete the following configurations.
-
-### Enable required features
-
-In **System administration > Feature management**:
-
-- Enable **Enable financial tags for expense reports (Preview)**
-- When testing the re-imagined UI, also enable **Expense reports re-imagined enhancements**
-
-### Configure financial tags
-
-In **General ledger**:
-
-1. Go to **Chart of accounts > Financial tags**
-   - Configure and activate required financial tags in the applicable legal entities (for example, USMF and USSI).
-2. Go to **Ledger setup > General ledger parameters**
-   - On the **Financial tags** tab, set the financial tag segment delimiter.
 
 ## When to use financial tags for expenses
 
