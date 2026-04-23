@@ -20,7 +20,7 @@ You can create transactions for time, expense, and material usage directly on a 
 This feature is available in Project Operations Core and Integrated deployments of Microsoft Dynamics 365 Project Operations. To enable this feature, turn on the Invoicing Editing Updates flag.
 
 > [!NOTE]
-> Enable the feature at **Settings** \> **Parameters** \> **Feature control** \> **Enable improvements in invoice creation**.
+> Enable the feature at **Settings** \> **Parameters** \> **Feature control** \> **Invoice Editing Updates**.
 >
 > After you enable the feature, you can't disable it.
 
