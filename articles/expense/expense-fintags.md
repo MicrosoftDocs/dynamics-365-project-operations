@@ -23,6 +23,8 @@ The **Enable financial tags for expense reports** feature extends financial tagg
 
 Financial tags entered by users are automatically propagated during posting into accounting distributions, subledger entries, and voucher transactions. This ensures end-to-end traceability between operational expense data and downstream financial records, while providing consistent behavior across both user interfaces.
 
+This feature is available from **Finance & Operation version 10.0.47 or higher**
+
 ## Configuration and prerequisites
 
 To use financial tags with expense reports, complete the following configurations.
