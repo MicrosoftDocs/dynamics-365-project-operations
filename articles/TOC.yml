@@ -2608,6 +2608,10 @@
     items:
     - name: Schedule of Expenditures of Federal Awards inquiry
       href: prod-pma/project-sefa-inquiry.md
+  - name: Globalization
+    items:
+    - name: Globalization support for Project Operations
+      href: globalizations/globalization-support-overview.md
 - name: Expense management
   items: 
   - name: Expense management overview
