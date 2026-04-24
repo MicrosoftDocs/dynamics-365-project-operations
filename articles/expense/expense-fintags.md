@@ -5,8 +5,10 @@ author: ajitchandran
 ms.author: ajitchandran
 ms.topic: conceptual
 ms.date: 04/22/2026
-ms.service: dynamics-365-project-operations
-ms.subservice: expense-management
+ms.topic: how-to
+ms.custom: 
+  - bap-template
+ms.reviewer: johnmichalak
 ---
 
 # Financial tags in Expense Management module
