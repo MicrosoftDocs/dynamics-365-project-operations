@@ -22,6 +22,27 @@ This article explains how to time-phase project budget lines and create budget l
 
 You create budget lines with specified start and end dates. You allocate a specific quantity or amount across selected dimensions for budgeting. Time phasing distributes this budgeted quantity and amount over the time span between the start and end dates of the budget line. This distribution considers work hours according to the work hour calendars and ensures proportional allocation for time budget lines.
 
+> [!NOTE]
+> An Improved Project Budget Time‑Phased Grid is available behind a feature flag.
+> **Feature name**: Enable Improved Project Budget Time Phase Grid.
+> **Scope**: Project Budget tab (approved budget versions).
+> **Impact**: Replaces the legacy hierarchical time‑phased budget grid. 
+> Once enabled, the new experience automatically applies without requiring changes to existing budget data.
+
+> [!NOTE]
+> Set up the budget period before you create a budget line. This way, you ensure that time phasing of the budget line into its details happens during the budget line creation process.
+
+## What is the new time phasing experience of project budget lines?
+
+The improved budget grid provides a more intuitive way to view and manage your project budgets. It now displays budget line details directly within each budget line, allowing you to see all relevant information in a single, organized view. This reduces the need to navigate between different sections and helps you make quicker, more informed decisions.
+
+While the visual experience has been enhanced, the functionality remains consistent with the existing budget grid. All actions you are familiar with—such as creating, editing, or reviewing budget lines—continue to work exactly the same way. This ensures a smooth transition without any learning curve for existing users.
+
+To help you focus on the time periods that matter most, you can use the date selector to customize the view of your budget data. Whether you want to analyze budgets for a specific range or review progress over time, the grid adapts to your selected dates.
+By default, the grid shows budget data for the entire duration of the project, from the project start date to the project end date. You can adjust this range at any time based on your needs.
+
+
+
 ## Prerequisite for time phasing of budget lines
 
 You must create a budget period at the project level. Time phasing of project cost budget lines requires a budget period to accurately determine work hours. For information about how to set up a budget period at the project level, see [Set up a budget period](budget-period-setup.md).
