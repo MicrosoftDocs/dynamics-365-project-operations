@@ -11,11 +11,11 @@ ms.custom:
 ms.reviewer: johnmichalak
 ---
 
-# Financial tags in Expense Management module
+# Financial tags in Expense Management module (Preview)
 
 _Applies To: Project Operations Integrated with ERP, Project Operations for manufacturing._
 
-Financial tags in the Expense management module enable organizations to capture and track user-defined financial attributes on expense transactions without creating additional financial dimensions. This capability helps track short-term or contextual initiatives-such as campaigns, pilots, or internal events-while keeping the chart of accounts clean and reusable.
+Financial tags in the Expense management module (Preview) enable organizations to capture and track user-defined financial attributes on expense transactions without creating additional financial dimensions. This capability helps track short-term or contextual initiatives-such as campaigns, pilots, or internal events-while keeping the chart of accounts clean and reusable.
 
 With financial tags enabled for expense reports, tags can be captured at both the expense report header and expense line levels and are carried consistently through the complete expense processing lifecycle, from expense creation to voucher creation through ledger posting.
 
@@ -55,8 +55,8 @@ In **General ledger**:
 
 Financial tag fields are available for data entry in the following locations:
 - **Expense Management workspace**
-  - Creating a new expense report navigates to the New expense report form. Click **+New expense report** > under heading **FINANCIAL TAGS**
-  - Financial tag values are displayed in expense line details under **Financial tags** subheading. 
+  - Creating a new expense report navigates to the New expense report form. Click **+New expense report** > under heading **(PREVIEW)FINANCIAL TAGS**
+  - Financial tag values are displayed in expense line details under **(Preview) Financial tags** subheading. 
 
 ## Additional information on financial tags functionality in expense management module
 
