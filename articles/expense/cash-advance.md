@@ -96,6 +96,9 @@ This feature ensures that:
 - Employee (vendor) accounts always net to zero after settlement.
 - Finance teams gain clear visibility and auditability into exchange rate variances.
 
+> [!NOTE]
+> This feature Cash Advance Exchange Rate Adjustments (Preview) will be available from 10.0.49 release of Finance & Operations.
+
 ### Business Problem
 
 In the existing implementation, cash advance settlement is driven primarily by accounting currency values, without sufficient awareness of transaction currency or exchange rate timing.
