@@ -15,20 +15,20 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-Out of the box, Project Operations uses Project for the web to display task details inside an embedded experience. Although powerful, this task details pane is **not customisable**, which limits users to add their customizations on the task.
-The **customisable task details pane** addresses these gaps by allowing you to use a Dataverse-backed, model-driven experience that you control.
+Out of the box, Project Operations uses Project for the web to display task details inside an embedded experience. Although powerful, this task details pane is **not customizable**, which limits users to add their customizations on the task.
+The **customizable task details pane** addresses these gaps by allowing you to use a Dataverse-backed, model-driven experience that you control.
 
-## What is the customisable task details pane?
+## What is the customizable task details pane?
 
-The feature is controlled by an **Organization level setting** and when enabled, the customisable task details pane opens a **custom side pane** hosted in Dataverse.
+The feature is controlled by an **Organization level setting** and when enabled, the customizable task details pane opens a **custom side pane** hosted in Dataverse.
 
 When a user selects the **information (i)** icon next to a task in the task grid:
 
-- If the feature is enabled, a customised side pane opens. Users can click on overflow button and still access the native Project for the web task details pane.
+- If the feature is enabled, a customized side pane opens. Users can click on overflow button and still access the native Project for the web task details pane.
 - If the feature is disabled, the default Project for the web task details pane opens.
 
 
-## Use the custom task details pane (users)
+## Use the custom task details pane
 
 Once enabled:
 
@@ -43,7 +43,7 @@ From the pane, you can:
 - Save changes and close the pane
 
 
-## Data sync and behaviour
+## Data sync and behavior
 
 All edits made in the custom task details pane:
 
@@ -59,4 +59,4 @@ If an error occurs (for example, due to validation or permissions), the system d
 The custom task details pane respects existing access controls:
 
 - Users can only edit fields they already have permission to edit  
-- Task grid security and access are honoured 
+- Task grid security and access are honored 
