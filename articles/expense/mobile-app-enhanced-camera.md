@@ -12,6 +12,8 @@ ms.reviewer: johnmichalak
 
 # Enhanced camera control for Expense Mobile
 
+_**Applies to:** Project Operations Integrated with ERP, Project Operations for manufacturing-based scenarios_
+
 ## Introduction
 
 The **Enhanced camera control for Expense Mobile** feature improves the receipt capture experience in the Expense Mobile canvas app. It provides a configurable option to bypass the default camera-first workflow and instead offer more flexible ways to add receipts when creating expenses.
