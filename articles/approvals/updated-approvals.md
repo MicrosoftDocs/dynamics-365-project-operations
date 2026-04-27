@@ -1,19 +1,16 @@
 ---
-title: Navigate approvals (Preview)
+title: Navigate approvals
 description: Time-phased approvals in Project Operations let you manage time, expense, and material records from one form. Discover how to navigate the updated UI and tailor it to your team's needs.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 03/20/2026
+ms.date: 04/27/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
 ---
 
-# Navigate approvals (Preview)
-
-[!INCLUDE[banner](../includes/banner.md)]
-[!INCLUDE[banner](../includes/preview-note.md)]
+# Navigate approvals
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 

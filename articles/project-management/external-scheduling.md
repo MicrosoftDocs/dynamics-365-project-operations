@@ -3,7 +3,7 @@ title: External scheduling
 description: Learn how to use external scheduling to manage work breakdown structures (WBS) without the limits of Microsoft Project for the Web. Optimize your project workflows today.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 02/05/2026
+ms.date: 04/27/2026
 ms.topic: concept-article
 ms.reviewer: johnmichalak
 ms.custom: 
@@ -55,7 +55,7 @@ The following operations aren't permitted on externally scheduled projects.
 
 ### Project planning
 
-- **Copy project** – This operation isn't supported on externally scheduled projects.
+- **Copy project** – This operation is supported on externally scheduled projects.
 - **Move project** – Changes to the start date of a project don't move the start of tasks or resource assignments in the WBS.
 - **Updating the Project Manager** – Changes to the project manager on the project main page don't automatically create a new project team member until the project is converted.
 - **Updating the project's work hour template** – Changes to the project's work hour template don't recalculate the project's schedule.
