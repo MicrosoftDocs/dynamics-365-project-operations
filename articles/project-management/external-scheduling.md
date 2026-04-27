@@ -3,7 +3,7 @@ title: External scheduling
 description: Learn how to use external scheduling to manage work breakdown structures (WBS) without the limits of Microsoft Project for the Web. Optimize your project workflows today.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 02/05/2026
+ms.date: 04/27/2026
 ms.topic: concept-article
 ms.reviewer: johnmichalak
 ms.custom: 
