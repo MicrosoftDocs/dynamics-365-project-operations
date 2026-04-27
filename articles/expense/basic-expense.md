@@ -1,8 +1,8 @@
 ---
-title: Expense entry (Project Operations Core) 
-description: This article provides information about how to work with expense entry in a Core deployment.
+title: Expense entry (Project Operations Core)
+description: Learn how to manage expense entries in Project Operations Core. This guide covers capturing, submitting, recalling, and deleting expenses with ease.
 author: mohitmenon
-ms.date: 05/22/2024
+ms.date: 02/04/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,42 +16,47 @@ ms.author: mohitmenon
 
 _**Applies to:** Project Operations Core_
 
-Basic, or Core deployment, expense management is the capability to record simple expenses. You can record expenses against a project, and then the project approver reviews and approves them.
+In a basic or Core deployment, expense management is the capability to record simple expenses. You can record expenses against a project, and then the project approver reviews and approves them.
 
 For more information about expense capabilities in Dynamics 365 Project Operations, see [Expense overview](expense-overview.md).
 
 ## Capture a basic expense
 
-You can capture your expenses so that you can submit them to the approver.
+Capture your expenses so that you can submit them to the approver.
+
+To capture a basic expense, follow these steps:
 
 1. Go to **Expenses**, and select **New**.
-2. On the **New Expense** page, enter the required expense information, and then select **Save**.
+1. On the **New Expense** page, enter the required expense information, and then select **Save**.
 
 ## Submit a basic expense
 
-After you finish capturing all your expenses, and you're ready to approve them, you must submit them.
+After you finish capturing all your expenses and you're ready to approve them, submit them.
+
+To submit a basic expense, follow these steps:
 
 1. Go to **Expenses**, and select an expense. Or, select all the expenses by using the check box on the header.
-2. Select **Submit**. The system processes the selected entries and then creates expense approval requests.
+1. Select **Submit**. The system processes the selected entries and then creates expense approval requests.
 
 ## Add an attachment
 
-You may have to provide the approver with more documentation about your expense. You can attach a receipt in the timeline of the expense entry. Select **Edit** and in the **Timeline** section, and then select the paperclip icon to attach your receipt.
+You might need to provide the approver with more documentation about your expense. You can attach a receipt in the timeline of the expense entry. Select **Edit** and in the **Timeline** section, select the paperclip icon to attach your receipt.
 
 ## Recall a basic expense
 
-When you submit an expense by mistake, you can recall it. The time that is required to recall an expense entry depends on its approval stage.  If the approver hasn't yet approved the entry, the recall can occur immediately. However, if the entry has already been approved, the approver is asked to approve the recall and reverse the transactions.
+If you mistakenly submit an expense, you can recall it. The time it takes to recall an expense entry depends on its approval stage.  If the approver didn't approve the entry yet, you can recall it immediately. However, if the entry is already approved, the approver needs to approve the recall and reverse the transactions.
+
+To recall a basic expense, follow these steps:
 
 1. Go to **Expenses**, and then, in the list of expenses, select the expense to recall.
-2. Select **Recall**. If the expense entry hasn't yet been approved, the system immediately recalls it. If the expense entry has already been approved, a recall request is created to notify the approver that you want to reverse the expense. The approver then confirms that the reversal can be done, and the entry is returned.
+1. Select **Recall**. If the expense entry isn't approved yet, the system immediately recalls it. If the expense entry is already approved, the system creates a recall request to notify the approver that you want to reverse the expense. The approver then confirms that the reversal can be done, and the entry is returned.
 
 ## Delete a basic expense
 
-Expenses that haven't yet been submitted can be deleted. To delete an expense that has already been submitted, you must first recall it.
+You can delete expenses that aren't submitted yet. To delete an expense that you already submitted, you must first recall it.
 
 ## See also
 
 - [Approvals overview](../approvals/approvals-overview.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

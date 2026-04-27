@@ -3,7 +3,7 @@ title: Financial estimates for materials on projects
 description: This article provides information about defining or estimating project-based materials.
 author: abriccetti
 ms.date: 01/09/2025
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
@@ -31,7 +31,7 @@ Complete the following steps to view, add, or delete a project material estimate
 >
 > Once the **Project estimate updates** feature is enabled, it can't be disabled. These updates include label changes at the project level where the original **Estimates** tab shows **Time phased estimates**, and the newly labeled **Estimates** tab is a consolidated view of expense and material estimates. The new grid for expense and material estimates allows easy creation and editing of those estimates.
 >
->To enable the **Project estimate updates** feature, follow these steps.
+>To enable the **Project estimate updates** feature, follow these steps:
 >
 >1. Go to **Settings** \> **Parameters**.
 >1. Open the **Parameters** record.

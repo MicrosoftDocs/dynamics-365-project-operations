@@ -43,7 +43,7 @@ To fix synchronization issues with actuals or transaction connections that weren
 
 A filter that is applied to the **Actuals** entity shows only records where the **Skip sync** setting is true and a voucher is missing, because each actual record should have a generated and posted a voucher. Currently, the page shows only actuals that were generated at least one hour ago. In addition, it's limited to transactions from the previous month.
 
-To view the actuals in Project Operations that aren't yet processed in Finance, follow these steps.
+To view the actuals in Project Operations that aren't yet processed in Finance, follow these steps:
 
 1. Go to **Settings**.
 1. In the **Troubleshooting** area, select **Out of sync Actuals**.

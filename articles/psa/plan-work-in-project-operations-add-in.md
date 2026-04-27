@@ -39,7 +39,7 @@ You can install the Microsoft Project desktop add-in for Project Operations and 
 
 Have your Project Operations sign-in information ready. You need this information to connect from Microsoft Project to Project Operations.
 
-To download and install the Microsoft Project desktop add-in for Project Operations, follow these steps.
+To download and install the Microsoft Project desktop add-in for Project Operations, follow these steps:
 
 1. From the Download Center, download the add-in for your supported version of Project Operations [version 4.88 and later](https://www.microsoft.com/download/details.aspx?id=105733).
 1. Select the download link.
@@ -47,7 +47,7 @@ To download and install the Microsoft Project desktop add-in for Project Operati
 
 ## Configure the add-in
 
-To configure the Microsoft Project desktop add-in for Project Operations, follow these steps.
+To configure the Microsoft Project desktop add-in for Project Operations, follow these steps:
 
 1. Open Microsoft Project.
 1. On the **Project Operations** tab, select **Connect**.
@@ -57,7 +57,7 @@ You can now start to use the add-in.
 
 ## Assign Project Operations roles to project resources
 
-To assign Project Operations roles to the project resources, follow these steps.
+To assign Project Operations roles to the project resources, follow these steps:
 
 1. Open a project, and select the **Task** ribbon.
 1. Select the **Gantt Chart** menu, and then select **Resource Sheet**.
@@ -65,7 +65,7 @@ To assign Project Operations roles to the project resources, follow these steps.
 
 ## Staff your project with resources
 
-To staff your project with resources, follow these steps.
+To staff your project with resources, follow these steps:
 
 1. On the **Project Operations** tab, select a row, and then select **Find Resources**.
 1. On the **Book Resource** page, select the resource to use for the project.
@@ -85,7 +85,7 @@ The project is imported into Project Operations. The pricing and team generation
 
 ### Import and publish your project
 
-To import and publish your project, follow these steps.
+To import and publish your project, follow these steps:
 
 1. On the **Project Operations** tab, go to **Publish** \> **New Project Operations Project**.
 1. In the **Publish to a new project in Project Operations** dialog box, enter the project name, and select the customer.
@@ -103,7 +103,7 @@ To make changes to a project plan that has been imported into Project Operations
 
 ### Edit in Microsoft Project
 
-To edit in Microsoft Project, follow these steps.
+To edit in Microsoft Project, follow these steps:
 
 1. On the main menu, go to **Project Operations** \> **Projects**.
 1. From the list of projects, open the project that you created in Microsoft Project.
@@ -111,7 +111,7 @@ To edit in Microsoft Project, follow these steps.
 
 ### Unlink a file and edit in Microsoft Project Service
 
-To unlink a file and edit it in Microsoft Project Service, follow these steps.
+To unlink a file and edit it in Microsoft Project Service, follow these steps:
 
 
 1. On the main menu, go to **Project Operations** \> **Projects**.
@@ -126,7 +126,7 @@ You can also upload your Project file to [!INCLUDE[pn_onedrive_for_business](../
 
 ### Upload a file for SharePoint
 
-To upload a file for SharePoint, follow these steps.
+To upload a file for SharePoint, follow these steps:
 
 1. On the main menu, go to **Project Operations** \> **Upload**.
 1. Select **To Project Operations Project Documents**.
@@ -139,7 +139,7 @@ To upload a file for SharePoint, follow these steps.
 
 ### Upload a file for Office Groups
 
-To upload a file for Office Groups, follow these steps.
+To upload a file for Office Groups, follow these steps:
 
 1. On the main menu, go to **Project Operations** \> **Upload**.
 1. Select **To Project Operations Project Documents**.

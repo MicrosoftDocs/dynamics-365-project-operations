@@ -1,9 +1,9 @@
 ---
 # required metadata
 title: Project management overview
-description: This article provides information about Project management in Dynamics 365 Project Operations. 
+description: Learn how to plan, estimate, and deliver projects efficiently using Dynamics 365 Project Operations' powerful project management features.
 author: ruhercul
-ms.date: 10/06/2020
+ms.date: 01/30/2026
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
@@ -11,6 +11,8 @@ ms.author: ruhercul
 ---
 
 # Project management overview
+
+[!INCLUDE[banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
@@ -21,6 +23,5 @@ The project management tools in Dynamics 365 Project Operations help you easily 
 - Use project estimates during the sales process.
 - Forecast resource requirements for projects that are in the pipeline.
 - Successfully deliver projects by tracking progress and cost consumption.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

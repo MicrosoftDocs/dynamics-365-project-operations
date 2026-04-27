@@ -4,7 +4,7 @@ description: This article provides answers to frequently asked questions about M
 author: poojafandan
 ms.author: poojafandan
 ms.topic: faq
-ms.date: 11/15/2024
+ms.date: 02/06/2026
 ms.update-cycle: 180-days
 ms.custom: 
   - bap-template
@@ -41,7 +41,7 @@ Copilot for project's project status report gives project managers a head start 
 
 ### What are Copilot for project's intended uses?
 
-As an AI assistant to project managers, Copilot for project provides a set of intended uses: 
+As an AI assistant to project managers, Copilot for project provides a set of intended uses:
 
 - **Task plan/WBS** – Automatic generation of a WBS is intended to give the project manager a head start in the process of building a project delivery plan. It serves a similar purpose to a project template where related activities in the structure are contextually based on the scope and timeline of the project. As for a project template, the expectation is that the activities are modified to meet the detailed needs of the project. These modifications might include deletions, additions, and changes in duration, effort, dependencies, and assignees.
 - **Risks and mitigation plan** – Automatic generation of risks is intended to help the project manager identify and document potential threats to the health of a project. Given the disposition of the project's scope, schedule, and budget, risk registers give the project manager a way to warn all relevant stakeholders about factors that can prevent the project from remaining green. Each risk includes corresponding mitigation.
@@ -51,7 +51,7 @@ As an AI assistant to project managers, Copilot for project provides a set of in
 
 We evaluate the features both qualitatively and quantitatively. To assess the quality of the feature, we conducted user studies with project managers to gather their feedback about their experiences, thoughts about the feature's quality, and suggestions for improvement.
 
-Additionally, we're monitoring telemetry data to track the number of customers who tried the feature, the success rate of the feature, and the ratio of positive to negative feedback. Before we released the Copilot feature in multiple geographies, we conducted extensive testing to ensure its functionality. If you encounter any issues with the generated content or any of the listed use cases, provide feedback. Your feedback is used to enhance Microsoft's products and services. Your organization's IT admins might have access to your feedback data for management purposes. For more information, see the [Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). 
+Additionally, we're monitoring telemetry data to track the number of customers who tried the feature, the success rate of the feature, and the ratio of positive to negative feedback. Before we released the Copilot feature in multiple geographies, we conducted extensive testing to ensure its functionality. If you encounter any issues with the generated content or any of the listed use cases, provide feedback. Your feedback is used to enhance Microsoft's products and services. Your organization's IT admins might have access to your feedback data for management purposes. For more information, see the [Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
 Copilot for project was assessed for various languages. For more information about language availability, see [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external). The system might not work as well in languages that weren't assessed, and the accuracy and user experience might be affected.
 

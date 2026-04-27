@@ -51,7 +51,7 @@ Once you enable the Dynamics 365 expense management mobile app in **Dynamics 365
 
 You must install the Dynamics 365 expense management mobile app in your Dataverse environment to enable users to access it when they sign in by using the Power Apps mobile app.
 
-To install the Dynamics 365 expense management mobile app in your Dataverse environment, follow these steps.
+To install the Dynamics 365 expense management mobile app in your Dataverse environment, follow these steps:
 
 1. Go to [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/home).
 2. Select the desired environment in which you want to install the **Dynamics 365 Expense Management** mobile app.

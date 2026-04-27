@@ -189,7 +189,7 @@ Therefore, in these scenarios, the project manager is responsible for parsing th
 
 ### Edit a resource requirement
 
-After a resource requirement has been created, a project manager or resource manager might want to edit the details to refine the search criteria when the Schedule Board is used. To edit the resource requirement, follow these steps.
+After a resource requirement has been created, a project manager or resource manager might want to edit the details to refine the search criteria when the Schedule Board is used. To edit the resource requirement, follow these steps:
 
 1. On the **Projects** page, on the **Team** tab, select the link to any requirement on a generic resource.
 2. On the **Resource Requirement** page that appears, you can update several attributes. Here are some examples:

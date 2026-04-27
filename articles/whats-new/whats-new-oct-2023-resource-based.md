@@ -4,7 +4,7 @@ description: This article provides information about the quality updates that ar
 author: ramagadu
 ms.custom:
   - evergreen
-ms.date: 07/07/2025
+ms.date: 02/26/2026
 ms.update-cycle: 1095-days
 ms.topic: whats-new
 ms.reviewer: johnmichalak 
@@ -17,7 +17,7 @@ _**Applies To:** Project Operations Integrated with ERP_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Microsoft Dataverse environment version 4.87.0.188.
+- Project Operations in a Microsoft Dataverse environment version 4.87.0.190.
 - Project management and accounting in a Microsoft Dynamics 365 Finance environment version 10.0.36.
 
 ## Project Operations dual-write maps updates

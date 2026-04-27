@@ -2,7 +2,7 @@
 title: Create a project budget from estimates
 description: This article explains how to create a project budget from estimates.
 author: niranjanmaski
-ms.date: 06/24/2024
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -20,21 +20,21 @@ This article explains how to create a project budget from estimates.
 
 ## Enable the project budget feature
 
-Project budgeting capabilities are enabled only if the feature flag is enabled.
+Project budgeting capabilities are available only if the feature flag is enabled.
 
 > [!NOTE]
-> After the project budget feature is enabled in an organization, it can't be disabled. However, you don't have to create a budget for every project.
+> After you enable the project budget feature in an organization, you can't disable it. However, you don't need to create a budget for every project.
 
-To enable project budgeting, follow these steps.
+To enable project budgeting, follow these steps:
 
 1. Sign in to Microsoft Dynamics 365 Project Operations.
 1. In the left navigation, change the area to **Settings**.
 1. In the **General** section, select **Parameters**.
-1. You should see a list of organization units. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
+1. You see a list of organization units. Double-tap (or double-click) the **Organization Units** row for the columns that aren't links.
 1. On the **Project Parameters** page, in the **Feature Control** field, select **Feature Control**.
 1. Select **Enable Project Budgeting Feature Flag**.
 
-After you enable the project cost budget feature, the page is refreshed, and a **Budget match priorities** tab is added.
+After you enable the project cost budget feature, the page refreshes, and a **Budget match priorities** tab is added.
 
 ## Create a budget from estimates
 
@@ -49,7 +49,7 @@ When these steps are followed, well-planned estimates can be used as the foundat
 > 
 > The **Timeline** section of the **Project summary** tab provides a summary of the action of creating a budget from estimates.
 
-To create a budget from estimates, follow these steps.
+To create a budget from estimates, follow these steps:
 
 1. Sign in to Project Operations.
 1. In the left navigation, change the area to **Projects**.
@@ -84,7 +84,7 @@ If errors occur during the process of creating a budget from estimates, you can 
 > [!NOTE]
 > You can reimport estimates only if the budget is in **Draft** status.
 
-To reimport estimates to create a budget, follow these steps.
+To reimport estimates to create a budget, follow these steps:
 
 1. Sign in to Project Operations.
 1. In the left navigation, change the area to **Projects**.
@@ -98,7 +98,7 @@ To reimport estimates to create a budget, follow these steps.
 > [!NOTE]
 > A project budget can be deleted only if the budget is in either **Draft** or **Rejected** status. It can't be deleted if it's in **Review**, **Approved**, or **Revised** status.
 
-To delete a project cost budget, follow these steps.
+To delete a project cost budget, follow these steps:
 
 1. Sign in to Project Operations.
 1. In the left navigation, change the area to **Projects**.

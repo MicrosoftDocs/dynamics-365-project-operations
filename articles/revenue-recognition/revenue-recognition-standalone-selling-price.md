@@ -64,7 +64,7 @@ In this section explains how to:
 
 To generate the revenue recognition with standalone selling price for each contract line, enter the standalone selling price for each contract line in Project Operations.
 
-To generate the revenue recognition with standalone selling price, follow these steps.
+To generate the revenue recognition with standalone selling price, follow these steps:
 
 1. In **Project Operations**, go to the **Sales** area.
 1. Open **Project contracts** form.
@@ -79,7 +79,7 @@ To generate the revenue recognition with standalone selling price, follow these 
 
 ### Review project contracts for contract lines
 
-To review the project contract lines or update other details in Finance, follow these steps.
+To review the project contract lines or update other details in Finance, follow these steps:
 
 1. In Finance, go to **Project management and accounting** \> **Projects** \> **Project contracts**.
 1. On the Action pane, select **Show default accounting**.
@@ -98,7 +98,7 @@ The information in the project is based on these attributes.
 
 ### Review revenue recognition projects
 
-To review fixed price revenue estimate projects, follow these steps.
+To review fixed price revenue estimate projects, follow these steps:
 
 1. In Finance, go to **Project management and accounting** \> **Projects** \> **Fixed price revenue estimate projects**.
 1. Select the revenue project you want to view, and then double-tap (or double-click) the **Estimate project ID** value.

@@ -27,7 +27,7 @@ Ensure that your finance and operations environment is updated to the specified 
 
 ### Step 2: Refresh entities in the finance & operations environment
 
-After updating the environment, refresh all entities. To refresh the entities, follow these steps.
+After updating the environment, refresh all entities. To refresh the entities, follow these steps:
 
 1. Go to **System Administration** > **Workspaces** > **Data Management** or search for Data Management in the search bar.
 1. Select **Framework parameters**.

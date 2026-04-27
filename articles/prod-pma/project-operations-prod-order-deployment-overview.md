@@ -2,7 +2,7 @@
 title: Project Operations for manufacturing deployment overview
 description: This article provides information about the deployment type, Project Operations for manufacturing.
 author: poojafandan
-ms.date: 06/10/2024
+ms.date: 02/26/2026
 ms.topic: overview
 ms.custom: 
   - bap-template

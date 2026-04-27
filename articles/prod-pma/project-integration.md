@@ -4,7 +4,7 @@ description: Planning and maintaining a project schedule can be complex, so proj
 author: Abriccetti
 ms.date: 07/07/2025
 ms.update-cycle: 1095-days
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
   - evergreen
