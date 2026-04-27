@@ -2,7 +2,7 @@
 title: Add new invoice line details to a draft project-based proforma invoice
 description: Learn how to add new invoice line details to an existing proforma project-based invoice that is in Draft status.
 author: suvaidya
-ms.date: 01/30/2026
+ms.date: 04/27/2026
 ms.topic: how-to
 ms.custom: 
 - bap-template
