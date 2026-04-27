@@ -52,7 +52,7 @@ The following operations aren't permitted on externally scheduled projects.
 
 ### Project planning
 
-- **Copy project** – This operation isn't supported on externally scheduled projects.
+- **Copy project** – This operation is supported on externally scheduled projects.
 - **Move project** – Changes to the start date of a project won't move the start of tasks or resource assignments in the WBS.
 - **Updating the Project Manager** – Changes to the project manager on the project main page won't automatically create a new project team member until the project has been converted.
 - **Updating the project's work hour template** – Changes to the project's work hour template won't recalculate the project's schedule.
