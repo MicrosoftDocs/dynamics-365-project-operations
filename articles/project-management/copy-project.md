@@ -14,20 +14,15 @@ ms.author: dishantpopli
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-With Dynamics 365 Project Operations, you can quickly build new projects by selecting **Copy Project** on the **Projects** form. Projects can only be copied if they have at least one task. To copy a project, open the project you want to copy, and then select **Copy project**. This operation is also available for externally scheduled projects.
+With Dynamics 365 Project Operations, you can quickly build new projects by selecting **Copy Project** on the **Projects** form. Projects can only be copied if they have at least one task. To copy a project, open the project you want to copy, and then select **Copy project** and select if you want to copy to a new project of an existing project.
 
-When the user selects **Copy Project**, a dialogue box appears presenting a set of options and configurations. These options and configurations help ensure the correct target project is selected and include certain fields that become locked after selection. The available options vary depending on the deployment type—either Project Operations Core or Project Operations integrated with ERP.
+When the user selects **Copy to New Project**, a quick create form appears, presenting a set of options and configurations. These configurations help ensure that your input is included for certain fields that become locked after selection.
 
-| Field | Project Operations Integrated with ERP | Project Operations  Core | Description |
-|-------|------------------------------------------|-------------------------|---------------------|
-| Copy to new project | :heavy_check_mark: | :heavy_check_mark: | Specifies whether the target project is a new one or an existing project that doesn't yet have a Work Breakdown Structure (WBS). |
-| Project name | :heavy_check_mark: | :heavy_check_mark: | **New Project:** A text input field where the user can enter the name of the new project. **Existing Project:** A reference field that allows the user to select from a list of eligible existing projects. |
-| Project Manager | :heavy_check_mark: | :heavy_check_mark: | **New Project:** The user can manually select the project manager. **Existing Project:** The project manager from the source project is automatically displayed and can't be edited. |
-| Calendar Template | :heavy_check_mark: | :heavy_check_mark: | **New Project:** The user can manually select the calendar template. **Existing Project:** The calendar template from the source project is automatically displayed and can't be edited. |
-| Schedule Mode | :heavy_check_mark: | | **New Project:** Displays the default schedule mode as defined in the project parameters. This value can be modified if the project parameters allow for overrides. **Existing Project:** The schedule mode from the source project is automatically displayed and can't be edited. |
-| Contracting Unit | :heavy_check_mark: | | **New Project:** The user can manually select the contracting unit. **Existing Project:** The contracting unit from the source project is automatically displayed and can't be edited. |
-| Owning Company | :heavy_check_mark: | | **New Project:** The user can manually select the owning company. **Existing Project:** The owning company from the source project is automatically displayed and can't be edited. |
-| Currency | :heavy_check_mark: | | **New Project:** The user can manually select the currency. **Existing Project:** The currency from the source project is automatically displayed and can't be edited. |
+When the user selects **Copy to Existing Project**, a dialogue box appears and you can select the target project from a list of eligible projects and select the team member copy option. 
+
+
+> [!NOTE]
+> Copy project is available for externally scheduled projects.
 
 
 The action copies the following data:
