@@ -2,7 +2,7 @@
 title: Use time-phased project cost budget lines
 description: This article explains how to time-phase project budget lines and create budget line details.
 author: niranjanmaski
-ms.date: 02/26/2026
+ms.date: 04/27/2026
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: nimaski
@@ -22,6 +22,24 @@ This article explains how to time-phase project budget lines and create budget l
 
 You create budget lines with specified start and end dates. You allocate a specific quantity or amount across selected dimensions for budgeting. Time phasing distributes this budgeted quantity and amount over the time span between the start and end dates of the budget line. This distribution considers work hours according to the work hour calendars and ensures proportional allocation for time budget lines.
 
+> [!NOTE]
+> An Improved Project Budget Time‑Phased Grid is available behind a feature flag.
+> **Feature name**: Enable Improved Project Budget Time Phase Grid.
+> **Scope**: Project Budget tab (approved budget versions).
+> **Impact**: Replaces the legacy hierarchical time‑phased budget grid. 
+> Once enabled, the new experience automatically applies without requiring changes to existing budget data.
+
+> [!IMPORTANT]
+> To ensure that time phasing of the budget line into its details happens during the budget line creation process, set up the budget period before you create a budget line.
+
+## What is the new time phasing experience of project budget lines?
+
+The improved budget grid provides a more intuitive way to view and manage your project budgets. It now displays budget line details directly within each budget line, so you can see all relevant information in a single, organized view. This feature reduces the need to navigate between different sections and helps you make quicker, more informed decisions.
+
+While the visual experience is enhanced, the functionality remains consistent with the existing budget grid. All actions you’re familiar with, such as creating, editing, or reviewing budget lines, continue to work exactly the same way. This consistency ensures a smooth transition without any learning curve for existing users.
+
+To help you focus on the time periods that matter most, use the date selector to customize the view of your budget data. Whether you want to analyze budgets for a specific range or review progress over time, the grid adapts to your selected dates. By default, the grid shows budget data for the entire duration of the project, from the project start date to the project end date. You can adjust this range at any time based on your needs.
+
 ## Prerequisite for time phasing of budget lines
 
 You must create a budget period at the project level. Time phasing of project cost budget lines requires a budget period to accurately determine work hours. For information about how to set up a budget period at the project level, see [Set up a budget period](budget-period-setup.md).
@@ -31,11 +49,11 @@ You must create a budget period at the project level. Time phasing of project co
 
 ## Automatic time phasing during budget line creation
 
-After you set up the budget period at the project level, the process of time-phasing budget lines and creating budget line details happens automatically. This process applies to both cases: when you [manually create](create-delete-project-budget.md) a budget line and when you [generate a budget line from estimates](create-project-budget-from-estimates.md).
+After you set up the budget period at the project level, the process of time phasing budget lines and creating budget line details happens automatically. This process applies to both cases: when you [manually create](create-delete-project-budget.md) a budget line and when you [generate a budget line from estimates](create-project-budget-from-estimates.md).
 
 ## On-demand time phasing of budget lines
 
-You can do on-demand time phasing of a budget line, provided that the budget version remains in **Draft** status.
+You can on-demand time phase a budget line, as long as the budget version stays in **Draft** status.
 
 To time-phase a budget line, follow these steps:
 
@@ -55,25 +73,25 @@ For Time, Material, and Expense budget lines, time phasing works differently dep
 
 ### Time budget lines
 
-The behavior of time phasing for time budget lines varies, depending on whether the **Resource** field is set on the budget line. It also depends on the **Amount Method** value at the budget line level.
+The behavior of time phasing for time budget lines varies, depending on whether you set the **Resource** field on the budget line. It also depends on the **Amount Method** value at the budget line level.
 
 If you set the **Resource** field, the following behavior occurs:
 
 1. The resource's calendar calculates working hours between the start and end dates of the budget line.
-1. If you set the **Amount Method** field of the budget line to **Quantity \* Unit price**, and you define the number of hours on the budget line, the budgeted hours are distributed in proportion to the working hours according to the budget period.
+1. If you set the **Amount Method** field of the budget line to **Quantity \* Unit price**, and you define the number of hours on the budget line, the system distributes the budgeted hours in proportion to the working hours according to the budget period.
 1. The system calculates the amount in the budget line details as *Quantity* &times; *Unit price*.
-1. If you set the **Amount Method** field to **Fixed Price**, and you don't define the number of hours, the budgeted amount is distributed in proportion to the working hours according to the budget period.
-1. Rounding is done to two decimal places by default.
+1. If you set the **Amount Method** field to **Fixed Price**, and you don't define the number of hours, the system distributes the budgeted amount in proportion to the working hours according to the budget period.
+1. The system rounds the value to two decimal places by default.
 1. The system adjusts any remaining quantity or amount after distribution across the budget period with the last budget line detail's amount or quantity, so that the total matches the budget.
 
 If you don't set the **Resource** field, the following behavior occurs:
 
 1. The project's calendar calculates working days between the start and end dates of the budget line.
-1. Working hours are calculated as eight hours per day for all working days at the project level by default.
-1. If you set the **Amount Method** field of the budget line to **Quantity \* Unit price**, and you define the number of hours on the budget line, the budgeted hours are distributed in proportion to the working hours according to the budget period.
+1. The system calculates working hours as eight hours per day for all working days at the project level by default.
+1. If you set the **Amount Method** field of the budget line to **Quantity \* Unit price**, and you define the number of hours on the budget line, the system distributes the budgeted hours in proportion to the working hours according to the budget period.
 1. The system calculates the amount in the budget line details as *Quantity* &times; *Unit price*.
-1. If you set the **Amount Method** field to **Fixed Price**, and you don't define the number of hours, the budgeted amount is distributed in proportion to the working hours according to the budget period.
-1. Rounding is done to two decimal places by default.
+1. If you set the **Amount Method** field to **Fixed Price**, and you don't define the number of hours, the system distributes the budgeted amount in proportion to the working hours according to the budget period.
+1. The system rounds the value to two decimal places by default.
 1. The system adjusts any remaining quantity or amount after distribution across the budget period with the last budget line detail's amount or quantity, so that the total matches the budget.
 
 ### Expense budget lines
@@ -83,7 +101,7 @@ The behavior of time phasing for expense budget lines depends on the **Amount Me
 1. If you set the **Amount Method** field of the budget line to **Quantity \* Unit price** and define the quantity of the expense on the budget line, the system evenly distributes the expense quantity across the budget period between the start and end dates of the budget line.
 1. The system calculates the amount in the budget line details as *Quantity* &times; *Unit price*.
 1. If you set the **Amount Method** field to **Fixed Price** and don't define the quantity of the expense, the system evenly distributes the budgeted expense amount across the budget period between the start and end dates of the budget line.
-1. Rounding is done to two decimal places by default.
+1. The system rounds the value to two decimal places by default.
 1. The system adjusts any remaining quantity or amount after distribution across the budget period with the last budget line detail's amount or quantity, so that the total matches the budget.
 
 ### Material budget lines
