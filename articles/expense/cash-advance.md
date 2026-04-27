@@ -60,7 +60,7 @@ When you create and submit an expense report for the cash advance that you alrea
 
 >[!NOTE] **Return cash** must be made only in the cash advance requested currency with the same exchange rate.
 
->{!TIP] **Cash Advances** is applicable only when payment method has **expense owner** as **employee**.
+>[!TIP] **Cash Advances** is applicable only when payment method has **expense owner** as **employee**.
 
 ### Select cash advances that apply to your expenses
 
@@ -130,48 +130,25 @@ To enable the feature, go to **Feature Management** > search for **(Preview) Man
 ### Settlement Behavior
 
 - The expense is mapped to the cash advance in **transaction currency (EUR)**.
+- You will also see an indicator showing that there exists a cash advance exchange rate adjustment in the expense line form.
 - The accounting currency difference (150 USD – 140 USD = 10 USD) is:
-  - Recognized as a **realized FX loss**
-  - Posted to the configured FX loss account
+  - Recognized as a **realized FX Gain**
+  - Posted to the configured FX Gain account
 - Vendor balance nets to **zero**
 - Cash advance balance is fully cleared in EUR
 
----
+### User Experience (UI Design)
 
-## Exchange Rate Handling Scenarios
+#### Cash Advance Visibility
+- Cash advance balances are displayed in **cash advance requested currency only**
 
-### Case 1: Cash Advance and Expense in Accounting Currency
-- ✅ No exchange rate variance generated
-
-### Case 2: Expense in Accounting Currency
-- ✅ No exchange rate variance generated
-
-### Case 3: Same Transaction Currency (Not Accounting Currency)
-- Exchange rate variance can occur due to **different posting dates**
-
-### Case 4: Different Transaction Currencies (Neither Is Accounting Currency)
-- Exchange rate variance is calculated using:
-  - Cash advance posting date exchange rate
-  - Expense transaction date exchange rate
-- ❌ Mapping is **blocked** if required exchange rates are missing
-
----
-
-## User Experience (UI Design)
-
-### Cash Advance Visibility
-- Cash advance balances are displayed in **cash advance currency**
-
-### Exchange Rate Indicators
+#### Exchange Rate Indicators
 - A **visual indicator** is shown when:
   - Exchange rates differ between cash advance and expense
 - No indicator is shown when:
   - Exchange rates match
 
----
-
-
-## Accounting and Voucher Behavior
+### Accounting and Voucher Behavior
 
 - Separate voucher lines are created for:
   - Expense settlement
@@ -181,35 +158,24 @@ To enable the feature, go to **Feature Management** > search for **(Preview) Man
   - Expense report number
 - Vendor (employee) account always nets to **zero**
 
----
-
-## Auditability and Traceability
+### Auditability and Traceability
 
 - **Related vouchers** navigation opens the expense voucher
+- **All related vouchers** navigation open all the related vouchers to the expense including 
 - **Original document** navigation opens expense line details
 - Clear linkage between:
   - Cash advance
   - Expense report
   - FX variance posting
 
-This ensures:
-- Strong audit trails
-- Easier reconciliation
-- Reduced manual corrections
+### Summary
 
----
-
-
-
-## Summary
-
-The **Cash Advance Exchange Rate Variance** feature:
+The **(Preview) Manage cash advance rate adjustments** feature:
 
 - Fixes incorrect foreign‑currency cash advance settlement
 - Ensures accurate FX gain/loss recognition
 - Eliminates residual vendor balances
 - Improves transparency, auditability, and reconciliation
 - Reduces finance team manual effort
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
