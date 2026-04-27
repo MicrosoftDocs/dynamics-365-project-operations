@@ -446,6 +446,8 @@
       items: 
       - name: Create a work breakdown structure
         href: project-management/create-wbs.md
+      - name: Customize task details pane
+        href: project-management/Customize-task-details-pane.md
       - name: Create assignments
         href: project-management/create-assignments.md
       - name: Set up baselines
@@ -1705,6 +1707,8 @@
       items: 
       - name: Create a work breakdown structure
         href: project-management/create-wbs.md
+      - name: Customize task details pane
+        href: project-management/Customize-task-details-pane.md
       - name: Create assignments
         href: project-management/create-assignments.md
       - name: Set up baselines
