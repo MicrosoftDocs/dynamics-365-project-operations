@@ -65,6 +65,8 @@ You can now choose from the following options:
 - Select previously captured images from your device.
 - Upload supported file types using the attachments control.
 
+This experience is also available from within the expense line when you click the **+ (Add)** button. The camera capture screen is replaced through the app. 
+
 This flexible workflow reduces friction and makes it easier to manage receipts during expense creation.
 
 ## Summary
