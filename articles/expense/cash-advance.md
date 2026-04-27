@@ -58,6 +58,10 @@ An accountant or a user with accounting permissions typically completes the foll
 
 When you create and submit an expense report for the cash advance that you already received, the expenses automatically adjust against that advance. If your cash advance is greater than the expensed amount, you must return the balance to the company by using the **Return cash** expense category. If the company-paid cash advance is less than the amount that you expensed, the company must reimburse you the balance.
 
+>[!NOTE] **Return cash** must be made only in the cash advance requested currency with the same exchange rate.
+
+>{!TIP] **Cash Advances** is applicable only when payment method has **expense owner** as **employee**.
+
 ### Select cash advances that apply to your expenses
 
 Before you submit an expense report, select the cash advance that aligns with the expense transactions on the report. To use this functionality, enable the following two features from the **Feature management** workspace:
@@ -77,6 +81,8 @@ If you don't use these features, functionality remains the same, with existing c
 ### Example
 
 You plan to travel from Seattle to New York City for a conference. You create a cash advance request for 3,000 USD based on the estimated cost of the conference ticket, flights, hotel, meals, and taxi. You aren't paid unless your manager approves this request. After your manager approves the request, you receive the cash advance of 3,000 USD in your bank account. You then attend the conference. After completing your trip, you find that the total expenditure was only 2,790 USD. Select **Cash** in the **Payment method** field, and submit your expense for 2,790 USD. Your submitted expense amount automatically adjusts against the cash advance of 3,000 USD that was loaned to you. You now owe a balance of 210 USD (3,000 - 2,790), which you can return to the company by using the **Return cash** expense category.
+
+>[!NOTE] Return cash has to be made only in the cash advance requested currency with the same exchange rate. 
 
 ## Cash Advance Exchange Rate Adjustments (Preview)
 
