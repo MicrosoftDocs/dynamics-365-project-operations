@@ -2624,6 +2624,10 @@
   items: 
   - name: Expense management overview
     href: prod-exp/expense-management.md
+  - name: What's new
+    items:
+    - name: Expense management release notes
+      href: expense/expense-management-release-notes.md
   - name: Expense Agent (preview)
     items:
     - name: Expense Agent overview
