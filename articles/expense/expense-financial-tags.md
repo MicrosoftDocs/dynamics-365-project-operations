@@ -1,5 +1,5 @@
 ---
-title: Use financial tags in Expense Management
+title: Use financial tags in Expense Management (Preview)
 description: Learn how financial tags can be used in the Expense management module to track expense transactions across the end-to-end accounting lifecycle without creating new financial dimensions.
 author: ajitchandran
 ms.author: ajitchandran
@@ -10,7 +10,7 @@ ms.custom:
 ms.reviewer: johnmichalak
 ---
 
-# Financial tags in Expense Management module (Preview)
+# Use financial tags in Expense Management (Preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
