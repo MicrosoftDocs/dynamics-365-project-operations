@@ -2532,6 +2532,8 @@
           href: expense/mobile-app-manage-expense-reports.md
         - name: Manage receipts by using Expense Mobile
           href: expense/mobile-app-manage-receipts.md
+        - name: Enhanced camera control for Expense Mobile
+          href: expense/mobile-app-enhanced-camera.md
         - name: Manage expense report approvals using Expense Mobile
           href: expense/mobile-app-manage-approvals.md
         - name: Manage expense line approvals by using Expense Mobile
@@ -2706,6 +2708,8 @@
         href: expense/mobile-app-manage-expense-reports.md
       - name: Manage receipts by using Expense Mobile
         href: expense/mobile-app-manage-receipts.md
+      - name: Enhanced camera control for Expense Mobile
+        href: expense/mobile-app-enhanced-camera.md
       - name: Use financial dimensions in Expense Mobile
         href: expense/mobile-app-financial-dimensions.md
     - name: Expense Mobile FAQ
