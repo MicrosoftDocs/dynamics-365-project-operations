@@ -2003,6 +2003,8 @@
         href: expense/manage-delegation.md
       - name: Configure Expense management parameters
         href: expense/configure-expense-management-parameters.md
+      - name: Use financial tags in Expense Management (Preview)
+        href: expense/expense-financial-tags.md
       - name: Set up credit card integration
         href: expense/set-up-credit-card-integration.md
       - name: Set up expense categories
@@ -2660,6 +2662,8 @@
       href: prod-exp/plan-expense-management.md     
     - name: Configure Expense management parameters
       href: expense/configure-expense-management-parameters.md
+    - name: Use financial tags in Expense Management (Preview)
+      href: expense/expense-financial-tags.md
     - name: Set up credit card integration
       href: expense/set-up-credit-card-integration.md
     - name: Set up expense categories
