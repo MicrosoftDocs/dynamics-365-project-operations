@@ -3,7 +3,7 @@ title: Customize task details pane
 description: Learn how you can customize task details pane.
 author: dishantpopli
 ms.author: dishantpopli
-ms.date: 04/27/2026
+ms.date: 04/29/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -56,7 +56,7 @@ If an error occurs (for example, due to validation or permissions), the system d
 
 The custom task details pane respects existing access controls:
 
-- You can only edit fields they already have permission to edit.  
+- You can only edit fields you already have permission to edit.  
 - Task grid security and access are honored.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
