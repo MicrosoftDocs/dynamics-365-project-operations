@@ -42,7 +42,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
 |:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
-|                   4.165.3368.2                   |                                      10.0.47                                     |                1.0.165.33682               |
+|                   4.165.3409.5                   |                                      10.0.47                                     |                1.0.165.34095               |
 
 > [!IMPORTANT]
 >
@@ -83,6 +83,7 @@ Dynamics 365 Project Operations consists of two components:
 | **4.160.0.2774**    | November 21, 2025             | November 21, 2025             | November 21, 2025             | November 21, 2025             | November 21, 2025           | November 21, 2025             | November 21, 2025           | December 03, 2025           | November 21, 2025           | December 03, 2025           |
 | **4.160.0.2877**    | December 09, 2025             | December 09, 2025             | December 09, 2025             | December 09, 2025             | December 09, 2025           | December 09, 2025             | December 09, 2025           | December 10, 2025           | December 09, 2025           | December 10, 2025           |
 | **4.163.0.733**    | March 19, 2026             |  March 19, 2026               |  March 19, 2026               |  March 23, 2026               |  March 19, 2026             | March 23, 2026             | March 19, 2026           | March 27, 2026           | March 19, 2026           | March 27, 2026           |
+| **4.165.3409.5**    | May 5, 2026             |  May 5, 2026               |  May 5, 2026               |  May 5, 2026               |  May 5, 2026             | May 5, 2026             | May 5, 2026           | May 5, 2026           | May 5, 2026           | May 5, 2026           |
 
 ## Upcoming release cycle
 
