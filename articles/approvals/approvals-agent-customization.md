@@ -27,7 +27,10 @@ The default Approvals agent trigger flow has three steps:
 1. Parse these data signals into a JSON object.
 1. In an apply to each loop, send each set of data signals (one per project approval record) as a message to the Approvals agent to initiate it.
 
-To add information to the data signals, add steps to gather data and add it to the data signals inside the apply to each loop. The following section outlines an example of one such customization.
+There are two main customizations supported in this flow. First is changing the number of approval records processed per each time the trigger flow is run. This can be updated by changing the Item/NumberApprovals parameter in the first step (calling msdyn_GetApprovalDataSignals). Second is adding information to the data signals by adding steps to gather data and add it to the data signals inside the apply to each loop. The following section outlines an example of one such customization.
+
+> [!NOTE]
+> The maximum number of records which can be processed in one run is 5. If the Item/NumberApprovals parameter is set to a number higher than 5, throttling limits may be encountered.
 
 ### Example of a customized trigger flow
 
