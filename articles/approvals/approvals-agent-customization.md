@@ -3,7 +3,7 @@ title: Customize data sent to the Approvals Agent (preview)
 description: Learn how to customize what data is sent to the Approvals agent. 
 author: abriccetti
 ms.author: abriccetti
-ms.date: 10/21/2025
+ms.date: 05/07/2026
 ms.topic: how-to
 ms.custom: 
  - bap-template
@@ -17,20 +17,20 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-When the Approvals Agent is triggered, it receives a predefined set of data related to the submitted record. This article explains how to customize that data for customers who want the agent to make decisions based on data outside that predefined set. You can modify the Power Automate flow used to trigger the agent.
+When you trigger the Approvals Agent, it receives a predefined set of data related to the submitted record. This article explains how to customize that data for customers who want the agent to make decisions based on data outside that predefined set. You can modify the Power Automate flow used to trigger the agent.
 
 ## Modify the trigger flow
 
 The default Approvals agent trigger flow has three steps:
 
-1. Call the GetApprovalDataSignals API to retrieve data signals for the specified number of approval records.
+1. Call the `GetApprovalDataSignals` API to retrieve data signals for the specified number of approval records.
 1. Parse these data signals into a JSON object.
-1. In an apply to each loop, send each set of data signals (one per project approval record) as a message to the Approvals agent to initiate it.
+1. In an **apply to each** loop, send each set of data signals (one per project approval record) as a message to the Approvals agent to initiate it.
 
-There are two main customizations supported in this flow. First is changing the number of approval records processed per each time the trigger flow is run. This can be updated by changing the Item/NumberApprovals parameter in the first step (calling msdyn_GetApprovalDataSignals). Second is adding information to the data signals by adding steps to gather data and add it to the data signals inside the apply to each loop. The following section outlines an example of one such customization.
+Two main customizations are supported in this flow. First, you can change the number of approval records processed each time the trigger flow runs. Update this value by changing the `Item/NumberApprovals` parameter in the first step (calling `msdyn_GetApprovalDataSignals`). Second, you can add information to the data signals by adding steps to gather data and add it to the data signals inside the **apply to each** loop. The following section outlines an example of one such customization.
 
 > [!NOTE]
-> The maximum number of records which can be processed in one run is 5. If the Item/NumberApprovals parameter is set to a number higher than 5, throttling limits may be encountered.
+> You can process up to 5 records in one run. If you set the `Item/NumberApprovals` parameter to a number higher than 5, you might encounter throttling limits.
 
 ### Example of a customized trigger flow
 
