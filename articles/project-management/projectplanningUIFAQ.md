@@ -2,7 +2,7 @@
 title: Troubleshoot working in the Task grid
 description: Learn how to troubleshoot common issues in the Dynamics 365 Task grid, including empty tabs, stuck UI, and unsaved changes. Follow step-by-step solutions.
 author: abriccetti
-ms.date: 02/05/2026
+ms.date: 05/11/2026
 ms.topic: troubleshooting
 ms.product:
 ms.reviewer: johnmichalak
