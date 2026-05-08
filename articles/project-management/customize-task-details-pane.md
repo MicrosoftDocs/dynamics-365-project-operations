@@ -28,6 +28,11 @@ When a user selects the **information (i)** icon next to a task in the task grid
 - If the feature is enabled, a customized side pane opens. You can select the **Overflow** button and still access the native Project for the web task details pane.
 - If the feature is disabled, the default Project for the web task details pane opens.
 
+## Enable the feature
+
+1. Go to **Settings** > **Parameters** > **Feature control** on the ribbon.
+2. Find and click the **Enable Customize Task Pane** dates feature in the drop down list.
+
 ## Use the custom task details pane
 
 When you enable this feature:
