@@ -2,7 +2,7 @@
 title: Troubleshoot working in the Task grid
 description: Learn how to troubleshoot common issues in the Dynamics 365 Task grid, including empty tabs, stuck UI, and unsaved changes. Follow step-by-step solutions.
 author: abriccetti
-ms.date: 02/05/2026
+ms.date: 05/11/2026
 ms.topic: troubleshooting
 ms.product:
 ms.reviewer: johnmichalak
@@ -22,59 +22,10 @@ Dynamics 365 Project Operations uses the Task grid as a hosted iframe within Mic
 
 Common problems include:
 
-- The **Task** tab on the Task grid is empty.
 - When you open the project, the project doesn't load and the user interface (UI) is stuck on the spinner.
 - Administration of privileges for **Project for the Web**.
 - Changes aren't saved when you create, update, or delete a task.
 
-## Issue: The Task tab is empty
-
-### Mitigation 1: Enable cookies
-
-Project Operations requires that you enable third-party cookies to render the work breakdown structure. When you don't enable third-party cookies, you see a blank page instead of tasks when you select the **Tasks** tab on the **Project** page.
-
-For Microsoft Edge or Google Chrome browsers, the following procedures outline how to update your browser setting to enable third-party cookies.
-
-#### Microsoft Edge
-
-1. Open your Edge browser.
-1. In the upper-right corner, select the **ellipsis** (...), and then select **Settings**.
-1. Under **Cookies and site permissions**, select **Cookies and site data**.
-1. Turn off **Block third-party cookies**.
-1. Refresh your browser.
-
-#### Google Chrome
-
-1. Open your Chrome browser.
-1. In the upper-right corner, select the three vertical dots, and then select **Settings**.
-1. Under **Privacy and security**, select **Cookies and other site data**.
-1. Select **Allow all cookies**.
-1. Refresh your browser.
-
-> [!NOTE]
-> If you block third-party cookies, you block all cookies and site data from other sites, even if you allow the site on your exceptions list.
-
-### Mitigation 2: Validate the PEX Endpoint is correctly configured
-
-Project Operations requires that a project parameter reference the PEX Endpoint. This endpoint is required to communicate with the service that renders the work breakdown structure. If the parameter isn't enabled, you receive the error, "The project parameter isn't valid." To update the PEX Endpoint, complete the following steps.
-
-1. Add the **PEX Endpoint** field to the **Project Parameters** page.
-1. Identify the product type that you're using. This value is used when the PEX Endpoint is set. Upon retrieval, the product type is already defined in the PEX Endpoint. Keep that value.
-1. Update the field with the following value: `https://project.microsoft.com/<lang>/?org=<cdsServer>&clientType=ProjectOperations#/taskgrid?projectId=<id>&type=2`. The following table provides the type parameter that should be used based on the product type.
-
-      | **Product type**                     | **Type parameter** |
-      |--------------------------------------|--------------------|
-      | Project for the Web on Default org   | type=0             |
-      | Project for the Web on CDS named org | type=1             |
-      | Project Operations                   | type=2             |
-
-1. Remove the field from the **Project Parameters** page.
-
-### Mitigation 3: Sign in to project.microsoft.com
-
-In your browser, open a new tab, go to project.microsoft.com, and sign in with the user role that you're using to access Project Operations. Only one user should be signed in to a Microsoft product in the browser. The "login.microsoftonline.com refused to connect" error message most often occurs when more than one user is signed in, as shown in the following illustration.
-
-:::image type="content" source="media/MULTIPLE_USERS_LOGGED_IN.png" alt-text="Screenshot of the Pick an account sign-in page showing that two users are signed in.":::
 
 ## Issue: The project doesn't load and the UI is stuck on the spinner
 
