@@ -3,7 +3,7 @@ title: Customize task details pane
 description: Learn how you can customize task details pane.
 author: dishantpopli
 ms.author: dishantpopli
-ms.date: 04/29/2026
+ms.date: 05/08/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -28,10 +28,12 @@ When a user selects the **information (i)** icon next to a task in the task grid
 - If the feature is enabled, a customized side pane opens. You can select the **Overflow** button and still access the native Project for the web task details pane.
 - If the feature is disabled, the default Project for the web task details pane opens.
 
-## Enable the feature
+## Enable the Customize Task Pane feature
+
+To enable the Customize Task Pane feature, follow these steps:
 
 1. Go to **Settings** > **Parameters** > **Feature control** on the ribbon.
-2. Find and click the **Enable Customize Task Pane** dates feature in the drop-down list.
+1. Find and select the **Enable Customize Task Pane** dates feature in the drop-down list.
 
 ## Use the custom task details pane
 
