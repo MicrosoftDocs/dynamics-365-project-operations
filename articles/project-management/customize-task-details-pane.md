@@ -31,7 +31,7 @@ When a user selects the **information (i)** icon next to a task in the task grid
 ## Enable the feature
 
 1. Go to **Settings** > **Parameters** > **Feature control** on the ribbon.
-2. Find and click the **Enable Customize Task Pane** dates feature in the drop down list.
+2. Find and click the **Enable Customize Task Pane** dates feature in the drop-down list.
 
 ## Use the custom task details pane
 
