@@ -45,7 +45,7 @@ The time scale controls how many time period columns appear on the grid. You can
    The grid refreshes to display the selected number of time period columns.
 
    > [!NOTE]
-   > When you select 14 or 21, the grid displays more columns horizontally and may need scrolling.
+   > When you select 14 or 21, the grid displays more columns horizontally and may need to scroll.
 
 ## Change the time granularity
 
