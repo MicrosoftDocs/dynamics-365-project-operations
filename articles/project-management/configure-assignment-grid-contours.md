@@ -23,9 +23,9 @@ The assignments grid in Dynamics 365 Project Operations displays resource assign
 1. Go to **Settings** > **Parameters**.
 2. Locate the **Assignments view** section.
 3. In the **Time Scale** field, select the default number of visible time period columns:
-   - **7** — Displays 7 columns
-   - **14** — Displays 14 columns (default)
-   - **21** — Displays 21 columns
+   - **7**—Displays 7 columns
+   - **14**—Displays 14 columns (default)
+   - **21**—Displays 21 columns
 4. In the **Time Granularity** field, select the default granularity for each column:
    - **Days** (default)
    - **Weeks**
@@ -45,7 +45,7 @@ The time scale controls how many time period columns appear on the grid. You can
    The grid refreshes to display the selected number of time period columns.
 
    > [!NOTE]
-   > When you select 14 or 21, the grid displays more columns horizontally. Scroll to the right to view all columns.
+   > When you select 14 or 21, the grid displays more columns horizontally and may need scrolling.
 
 ## Change the time granularity
 
