@@ -626,6 +626,8 @@
       items: 
       - name: Resource utilization overview
         href: resource-management/resource-utilization-overview.md
+      - name: Export resource utilization data
+        href: resource-management/export-resource-utilization.md
   - name: Subcontract management
     items: 
     - name: Subcontract management in Project Operations
@@ -1859,6 +1861,8 @@
       items: 
       - name: Resource utilization overview
         href: resource-management/resource-utilization-overview.md
+      - name: Export resource utilization data
+        href: resource-management/export-resource-utilization.md
   - name: Project budget management
     items:
     - name: Project budget management overview
