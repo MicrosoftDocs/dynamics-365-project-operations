@@ -452,10 +452,12 @@
         href: project-management/customize-task-details-pane.md
       - name: Create assignments
         href: project-management/create-assignments.md
-      - name: Set up baselines
-        href: project-management/baselines.md
+      - name: Assignments grid configuration
+        href: project-management/configure-assignment-grid-contours.md
       - name: Import tasks into a project (Preview)
         href: project-management/import-tasks-to-project.md
+    - name: Set up baselines
+      href: project-management/baselines.md
     - name: Financial estimates on projects
       items: 
       - name: Financial estimation concepts
@@ -1719,10 +1721,12 @@
         href: project-management/customize-task-details-pane.md
       - name: Create assignments
         href: project-management/create-assignments.md
-      - name: Set up baselines
-        href: project-management/baselines.md
+      - name: Assignments grid configuration
+        href: project-management/configure-assignment-grid-contours.md
       - name: Import tasks into a project (Preview)
         href: project-management/import-tasks-to-project.md
+    - name: Set up baselines
+      href: project-management/baselines.md
     - name: Financial estimates on projects
       items: 
       - name: Financial estimation concepts
