@@ -3,7 +3,7 @@ title: Resource utilization export to Excel overview
 description: Learn about exporting resource utilization data to Excel from the Resource Utilization board in Dynamics 365 Project Operations.
 author: dishantpopli
 ms.author: dishantpopli
-ms.date: ms.date: 05/09/2026
+ms.date: 05/09/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
