@@ -37,7 +37,7 @@ The export to Excel feature on the Resource Utilization board lets resource mana
 3. Select the time period view (daily, weekly, or monthly) that you want reflected in the export.
 
    > [!NOTE]
-   > The export respects the time period view currently selected on the board. The exported data matches the granularity you see on screen.
+   > The export respects the time period view on the board. The exported data matches the granularity you see on screen.
 
 4. On the toolbar, select the **Export to Excel** icon.
 
@@ -46,7 +46,7 @@ The export to Excel feature on the Resource Utilization board lets resource mana
    > [!IMPORTANT]
    > You can run only one export at a time. Wait for the current export to complete before starting another.
 
-5. Once the data is prepared, you’ll receive a notification indicating that the file is ready for download.
+5. Once the data is prepared, you receive a notification indicating that the file is ready for download.
 
 6. Click **Download** to download the excel file.
 
