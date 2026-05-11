@@ -4,7 +4,7 @@ description: Learn how to override the project scheduling mode on individual tas
 author: dishantpopli
 ms.author: dishantpopli
 ms.date: 05/11/2026
-ms.topic: concept
+ms.topic: overview
 ms.custom: bap-template
 
 ---
@@ -34,7 +34,7 @@ The **Task Schedule Mode** attribute on the Project Task entity supports five op
 | **Fixed Units Effort Driven** | Units stay constant and work is distributed equally among assigned resources. Adding or removing resources recalculates duration while keeping total effort constant. |
 
 > [!NOTE]
-> For detailed information about how each scheduling mode calculates effort, duration, and units, see [Scheduling modes](https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/scheduling-modes).
+> For detailed information about how each scheduling mode calculates effort, duration, and units, see [Scheduling modes](scheduling-modes.md).
 
 ### How task-level schedule modes work
 
@@ -64,7 +64,7 @@ You set the task-level schedule mode through the custom task details pane.
 5. Select **Save**.
 
 > [!NOTE]
-> The custom task details pane must be enabled for your organization. For setup instructions, see [Customize task details pane](https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/customize-task-details-pane).
+> The custom task details pane must be enabled for your organization. For setup instructions, see [Customize task details pane](customize-task-details-pane.md).
 
 ## Set task-level schedule mode by using the Schedule API
 
@@ -110,10 +110,5 @@ When you import tasks between projects, the behavior follows the same rules as c
 
 ## Next steps
 
-- [Scheduling modes](https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/scheduling-modes)
-- [Customize task details pane](https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/customize-task-details-pane)
-
-## Related information
-
-- [Project management overview](https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/project-management-overview)
-- [Work breakdown structures overview](https://learn.microsoft.com/en-us/dynamics365/project-operations/project-management/work-breakdown-structures)
+- [Scheduling modes](scheduling-modes.md)
+- [Customize task details pane](customize-task-details-pane.md)
