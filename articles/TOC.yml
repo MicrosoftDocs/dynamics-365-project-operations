@@ -452,7 +452,7 @@
         href: project-management/customize-task-details-pane.md
       - name: Create assignments
         href: project-management/create-assignments.md
-      - name: Assignments grid configuration
+      - name: Configure the assignments grid
         href: project-management/configure-assignment-grid-contours.md
       - name: Import tasks into a project (Preview)
         href: project-management/import-tasks-to-project.md
@@ -1721,7 +1721,7 @@
         href: project-management/customize-task-details-pane.md
       - name: Create assignments
         href: project-management/create-assignments.md
-      - name: Assignments grid configuration
+      - name: Configure the assignments grid
         href: project-management/configure-assignment-grid-contours.md
       - name: Import tasks into a project (Preview)
         href: project-management/import-tasks-to-project.md
