@@ -22,7 +22,7 @@ This document provides an intuitive wizard experience designed to streamline set
 > [!NOTE]
 > To run the agent deployment wizard, go to the [Dynamics 365 Agent Deployment tool](https://aka.ms/InstallD365Agents) in Power Platform admin center.
 >
-> This tool is continuously evolving, with ongoing automation of other steps to reduce manual effort. This document is updated with the latest enhancements, making it your single source for all Expense Agent setup-related guidance.
+> This tool is continuously evolving, with ongoing automation of other steps to reduce manual effort. This document is updated with the latest enhancements, making it your single source for all Approvals Agent setup-related guidance.
 
 Administrators can now complete the entire process without navigating between platforms. For efficiency and simplicity, everything you need is consolidated here.
 
