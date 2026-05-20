@@ -44,5 +44,4 @@ To set up the approvals agent, follow these steps:
 1. The **Activate flows** button should now be enabled. Select this button to activate the approvals agent trigger flow, and select **Next**.
 1. Here select the link to *Microsoft Copilot Studio: Agents*, find the Approvals agent from the *My Agents* list, open it and ensure that it is published. Then select **complete** and **Next** back at the agent deployment tool.
 
-This completes the admin setup of the approvals agent. To configure the agent, refer to [Approvals Agent Overview](./approvals-agent-intro)
-
+This completes the admin setup of the approvals agent. To configure the agent, refer to [Approvals Agent Overview](approvals-agent-intro.md).
