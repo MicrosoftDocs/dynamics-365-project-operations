@@ -17,7 +17,7 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-This document provides an intuitive wizard experience designed to streamline setup. It provides all prerequisites, detailed instructions, and direct links to relevant settings in one centralized location.
+This document provides an intuitive wizard experience designed to streamline setup. It provides all prerequisites, detailed instructions, and direct links to relevant settings in one centralized location. To instead manually configure the agent, refer to [Set up the Approvals Agent as an admin](approvals-agent-admin-setup.md)
 
 > [!NOTE]
 > To run the agent deployment wizard, go to the [Dynamics 365 Agent Deployment tool](https://aka.ms/InstallD365Agents) in Power Platform admin center.
