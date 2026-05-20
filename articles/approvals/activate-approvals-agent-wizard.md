@@ -1,6 +1,6 @@
 ---
 title: Set up the Approvals Agent using the Dynamics 365 Agent Deployment Tool (preview)
-description: Learn how to set up the Approvals Agent as an admin using the Dynamics 365 agent deployment tool.
+description: Learn how to set up the Approvals Agent as an admin using the Dynamics 365 Agent Deployment Tool.
 author: abriccetti
 ms.author: abriccetti
 ms.date: 05/20/2026
