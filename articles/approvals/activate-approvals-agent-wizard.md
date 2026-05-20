@@ -40,7 +40,7 @@ To set up the approvals agent, follow these steps:
 1. Check all prerequisites before proceeding. Ensuring they're met helps you have a smooth setup experience. Then select **Next**.
 1. On this page, enter the user ID for the user you want to act as the agent. Then ensure that the selected user has the required roles and licenses and select **Next**.
 1. To set up the required connection references, select the plus (+) button beside each connection, select **Create**, pick the same user account from the previous step, and allow access. Repeat for both connections.
-1. The selected user should now appear in the drop down menus for each connection. Select that user for each.
+1. The selected user should now appear in the drop-down menus for each connection. Select that user for each.
 1. The **Activate flows** button should now be enabled. Select this button to activate the approvals agent trigger flow, and select **Next**.
 1. On this page, select the link to **Microsoft Copilot Studio: Agents**. In **My Agents**, find and open the Approvals agent, and ensure that it's published. Then select **Complete** in Copilot Studio. Return to the agent deployment tool and select **Next**.
 
