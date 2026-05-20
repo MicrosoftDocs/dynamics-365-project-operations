@@ -36,7 +36,7 @@ To set up the approvals agent, follow these steps:
 1. Go to **Copilot** > **Dynamics 365** to see all available agents. Alternatively, go to [Agent Deployment Tool](https://aka.ms/InstallD365Agents).
 1. Select **Select Environment** and choose the target environment for Approvals Agent setup.
 1. Select **Add** next to Approvals Agent to launch the wizard.
-1. On the overview page, review the high-level steps required to set up the Expense Agent (optional but recommended). Then select **Next**.
+1. On the overview page, review the high-level steps required to set up the Approvals Agent (optional but recommended). Then select **Next**.
 1. Check all prerequisites before proceeding. Ensuring they're met helps you have a smooth setup experience. Then select **Next**.
 1. On this page, enter the user ID for the user you want to act as the agent. Then ensure that the selected user has the required roles and licenses and select **Next**.
 1. To setup the required connection references, select the + button beside each connection, select Create, pick the same user account from the previous step, and allow access. Repeat for both connections.
