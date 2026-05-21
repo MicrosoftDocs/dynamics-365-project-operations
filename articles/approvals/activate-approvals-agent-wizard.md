@@ -1,6 +1,6 @@
 ---
-title: Set up the Approvals Agent using the Dynamics 365 Agent Deployment Tool (preview)
-description: Learn how to set up the Approvals Agent as an admin using the Dynamics 365 Agent Deployment Tool.
+title: Set up the Approvals Agent using the agent deployment wizard (preview)
+description: Learn how to set up the Approvals Agent using the agent deployment wizard.
 author: abriccetti
 ms.author: abriccetti
 ms.date: 05/21/2026
@@ -10,7 +10,7 @@ ms.custom:
 ms.reviewer: johnmichalak
 ---
 
-# Set up the Approvals Agent by using the Dynamics 365 Agent Deployment Tool (preview)
+# Set up the Approvals Agent by using the agent deployment wizard (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
@@ -20,7 +20,7 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 This document provides an intuitive wizard experience designed to streamline setup. It provides all prerequisites, detailed instructions, and direct links to relevant settings in one centralized location. To manually configure the agent, see [Set up the Approvals Agent as an admin](approvals-agent-admin-setup.md).
 
 > [!NOTE]
-> To run the agent deployment wizard, go to the [Dynamics 365 Agent Deployment tool](https://aka.ms/InstallD365Agents) in Power Platform admin center.
+> To run the agent deployment wizard, go to the [agent deployment wizard](https://aka.ms/InstallD365Agents) in Power Platform admin center.
 >
 > This tool is continuously evolving, with ongoing automation of other steps to reduce manual effort. This document is updated with the latest enhancements, making it your single source for all Approvals Agent setup-related guidance.
 
