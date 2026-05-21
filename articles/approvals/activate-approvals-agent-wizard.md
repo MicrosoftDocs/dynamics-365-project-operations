@@ -3,21 +3,21 @@ title: Set up the Approvals Agent using the Dynamics 365 Agent Deployment Tool (
 description: Learn how to set up the Approvals Agent as an admin using the Dynamics 365 Agent Deployment Tool.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 05/20/2026
+ms.date: 05/21/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
 ---
 
-# Set up the Approvals Agent using the Dynamics 365 Agent Deployment Tool (preview)
+# Set up the Approvals Agent by using the Dynamics 365 Agent Deployment Tool (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-This document provides an intuitive wizard experience designed to streamline setup. It provides all prerequisites, detailed instructions, and direct links to relevant settings in one centralized location. To instead manually configure the agent, refer to [Set up the Approvals Agent as an admin](approvals-agent-admin-setup.md).
+This document provides an intuitive wizard experience designed to streamline setup. It provides all prerequisites, detailed instructions, and direct links to relevant settings in one centralized location. To manually configure the agent, see [Set up the Approvals Agent as an admin](approvals-agent-admin-setup.md).
 
 > [!NOTE]
 > To run the agent deployment wizard, go to the [Dynamics 365 Agent Deployment tool](https://aka.ms/InstallD365Agents) in Power Platform admin center.
@@ -30,7 +30,7 @@ Review the prerequisites before running the wizard. Learn more about the prerequ
 
 ## Set up the Approvals Agent
 
-To set up the approvals agent, follow these steps:
+To set up the Approvals Agent, follow these steps:
 
 1. Sign in to [Power Platform admin center](https://admin.powerplatform.com) by using an **Admin User** (recommended).
 1. Go to **Copilot** > **Dynamics 365** to see all available agents. Alternatively, go to [Agent Deployment Tool](https://aka.ms/InstallD365Agents).
@@ -42,6 +42,6 @@ To set up the approvals agent, follow these steps:
 1. To set up the required connection references, select the plus (+) button beside each connection, select **Create**, pick the same user account from the previous step, and allow access. Repeat for both connections.
 1. The selected user should now appear in the drop-down menus for each connection. Select that user for each.
 1. The **Activate flows** button should now be enabled. Select this button to activate the approvals agent trigger flow, and select **Next**.
-1. On this page, select the link to **Microsoft Copilot Studio: Agents**. In **My Agents**, find and open the Approvals agent, and ensure that it's published. Then select **Complete** in Copilot Studio. Return to the agent deployment tool and select **Next**.
+1. On this page, select the link to **Microsoft Copilot Studio: Agents**. In **My Agents**, find and open the Approvals Agent, and ensure that it's published. Then select **Complete** in Copilot Studio. Return to the agent deployment tool and select **Next**.
 
-This completes the admin setup of the approvals agent. To configure the agent, refer to [Approvals Agent Overview](approvals-agent-intro.md).
+This completes the admin setup of the approvals agent. To configure the agent, refer to [Approvals Agent overview](approvals-agent-intro.md).
