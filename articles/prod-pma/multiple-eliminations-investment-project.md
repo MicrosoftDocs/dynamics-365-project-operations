@@ -1,20 +1,20 @@
- ---
- title: Enable multiple eliminations for an investment project
- description: Learn how to enable and use the multiple eliminations feature for investment projects in Dynamics 365 Project Operations.
- author: [author-placeholder]
- ms.author: mukumarm
- ms.date: 05/30/2026
- ms.topic: how-to
- ms.custom: bap-template
- ms.reviewer: johnmichalak
- audience: Application User
- ms.search.form: ProjParameters, ProjTable, ProjTransElimination
- ms.search.region: Global
- ---
+---
+title: Enable Handling of Multiple Eliminations in Investment Projects
+description: Learn how to enable and use the multiple eliminations feature for investment projects in Dynamics 365 Project Operations.
+author: mukumarm
+ms.author: mukumarm
+ms.date: 05/30/2026
+ms.reviewer: johnmichalak
+ms.topic: concept-article
+ms.custom: 
+  - bap-template
+
+
+---
  
 # Enable multiple eliminations for an investment project
  
-**Applies to:** Project Operations for resource/non-stocked based scenarios, Project Operations for stocked/production-based scenarios
+**Applies to:** Dynamics 365 Project Operations for Integrated with ERP, Dynamics 365 Project Operations for manufacturing
  
 ## Overview
  
@@ -22,7 +22,7 @@ In Dynamics 365 Project Operations, **Investment projects** track costs that are
 accounting process that reverses or removes capitalized costs from an investment project, transferring value to the associated fixed asset or ledger 
 account.
  
-By default, only a **single** elimination transaction is permitted per investment project. The **Enable multiple eliminations for investment project** 
+By default, only a **single** elimination transaction is permitted per investment project. The **Enable Handling of Multiple Eliminations in Investment Projects** 
 feature removes this restriction, allowing finance and project accountants to post **multiple elimination transactions** against a single investment 
 project — supporting staged capitalization, cost overruns, and partial expense scenarios.
  
@@ -39,12 +39,20 @@ project — supporting staged capitalization, cost overruns, and partial expense
 > This feature changes elimination posting behavior. Review your organization's capitalization policy before enabling in production.
 
 ## Prerequisites
-  
-  1.  Enable the feature **Enable multiple eliminations for investment project**.
+To use the feature for Dynamics 365 Project Operations, do the following:
+
+  1.  Enable the feature **Enable Handling of Multiple Eliminations in Investment Projects.**.
   2.  **Dynamics 365 Finance version 10.0.49**
  
 ## Project management and accounting parameters.
 
+To update the Project management and accounting parameters, follow below steps:
+1. Go to **Project management and accounting**> **Setup** > **Project management and accounting parameters**.
+2. Go to **Revenue recognition** tab.
+3. **Allow multiple elimination accounts** - This option allows you to use multiple accounts for elimination purposes. If multiple elimination accounts are not required and you prefer to use the account configured for revenue recognition, turn off this option.
+4. **Allow transaction selection** - This option allows you to add or remove transactions in the elimination proposal form. If this option is enabled, you will not be able to modify the transactions on the form—all defaulted transactions will be used for elimination.
+5. Go to **Number sequence** tab.
+6. Configure number sequence for **elimination proposal**.
 
 ## Perform multiple eliminations
 To Perform elimination process, genearte elimination proposal by following below steps:
@@ -76,7 +84,7 @@ To reverse the elmination proposal, follow below steps:
 
 1.  Go to **Project management and accounting > Investment projects > Elimination proposal**.
 2.  Select the elmination proposal with **posted** status.
-3.  Click "Reverse" to reverse the elimination proposal. All transactions reversed through this process are available for use in future elimination cycles.
+3.  Click **Reverse**** to reverse the elimination proposal. All transactions reversed through this process are available for use in future elimination cycles.
 
  > [!Note]
  > **Do not disable** this feature after use in production — it restricts future eliminations on already-affected projects.
