@@ -22,9 +22,7 @@ In Dynamics 365 Project Operations, **Investment projects** track costs that are
 accounting process that reverses or removes capitalized costs from an investment project, transferring value to the associated fixed asset or ledger 
 account.
  
-By default, only a **single** elimination transaction is permitted per investment project. The **Enable Handling of Multiple Eliminations in Investment Projects** 
-feature removes this restriction, allowing finance and project accountants to post **multiple elimination transactions** against a single investment 
-project — supporting staged capitalization, cost overruns, and partial expense scenarios.
+By default, only a **single** elimination transaction is permitted per investment project. The **Enable Handling of Multiple Eliminations in Investment Projects** feature removes this restriction, allowing finance and project accountants to **post multiple elimination transactions** against a single investment **project—supporting** staged capitalization, cost overruns, and partial expense scenarios
  
 ## Key business scenarios
  
@@ -39,7 +37,7 @@ project — supporting staged capitalization, cost overruns, and partial expense
 > This feature changes elimination posting behavior. Review your organization's capitalization policy before enabling in production.
 
 ## Prerequisites
-To use the feature for Dynamics 365 Project Operations, do the following:
+To use the feature for Dynamics 365 Project Operations, follow below steps:
 
   1.  Enable the feature **Enable Handling of Multiple Eliminations in Investment Projects.**.
   2.  **Dynamics 365 Finance version 10.0.49**
@@ -49,21 +47,21 @@ To use the feature for Dynamics 365 Project Operations, do the following:
 To update the Project management and accounting parameters, follow below steps:
 1. Go to **Project management and accounting**> **Setup** > **Project management and accounting parameters**.
 2. Go to **Revenue recognition** tab.
-3. **Allow multiple elimination accounts** - This option allows you to use multiple accounts for elimination purposes. If multiple elimination accounts are not required and you prefer to use the account configured for revenue recognition, turn off this option.
-4. **Allow transaction selection** - This option allows you to add or remove transactions in the elimination proposal form. If this option is enabled, you will not be able to modify the transactions on the form—all defaulted transactions will be used for elimination.
+3. **Allow multiple elimination accounts** - This option allows you to use multiple accounts for elimination purposes. If multiple elimination accounts aren't required and you prefer to use the account configured for revenue recognition, turn off this option.
+4. **Allow transaction selection** - This option allows you to add or remove transactions in the elimination proposal form. If this option is enabled, you aren't able to modify the transactions on the form—all defaulted transactions are used for elimination.
 5. Go to **Number sequence** tab.
 6. Configure number sequence for **elimination proposal**.
 
 ## Perform multiple eliminations
-To Perform elimination process, genearte elimination proposal by following below steps:
+To Perform elimination process, generate elimination proposal by following below steps:
  
 1. Go to **Project management and accounting> Projects> All projects** and open your investment project.
-2. Go to **Manage** Action pane, Select **Revenue recogntion**.
-3. Generate **Revenue recogntion** for the period and Click **Post**.
-4. Go to **Project management and accounting > Investment Projects > Elimination Proposal** or **Renveue recogntion > Click Elimination Proposal**.
+2. Go to **Manage** Action pane, Select **Revenue recognition**.
+3. Generate **Revenue recognition** for the period and Click **Post**.
+4. Go to **Project management and accounting > Investment Projects > Elimination Proposal** or **Renveue recognition > Click Elimination Proposal**.
 5. Click **+New** to create the elimination proposal.
 6. Select the **Revenue recognition project**, **elimination date** and Click **Ok**.
-7. In the **Tranactions** tab, View the list of **transactions** available for the elimination process. All transactions that are not yet eliminated but have already undergone revenue recognition can be considered for estimation purposes.
+7. In the **Transactions** tab, View the list of **transactions** available for the elimination process. All transactions that aren't yet eliminated but have undergone revenue recognition are considered for estimation purposes.
 8. Use **Add** or **Delete** button to add or remove the transactions from the elimination proposal.
 9. In the **Elimination accounts** tab, enter the ledger account or fixed asset or other project and distribute the total amount to the selected accounts.
 10. Click **Post** to post the **elimination proposal**.
@@ -78,14 +76,14 @@ Once all costs are eliminated, select the Eliminate option while posting the eli
 3.  No pending elimination transactions.
   
 ## Reverse eliminations
-**Reverse elimination** is required to **undo** previously posted elimination entries when changes occur after the elimination process has been completed. 
+**Reverse elimination** is required to **undo** previously posted elimination entries when changes occur after the elimination process is complete.
 
-To reverse the elmination proposal, follow below steps:
+To reverse the elimination proposal, follow below steps:
 
 1.  Go to **Project management and accounting > Investment projects > Elimination proposal**.
-2.  Select the elmination proposal with **posted** status.
+2.  Select the elimination proposal with **posted** status.
 3.  Click **Reverse**** to reverse the elimination proposal. All transactions reversed through this process are available for use in future elimination cycles.
 
  > [!Note]
- > **Do not disable** this feature after use in production — it restricts future eliminations on already-affected projects.
+ > **Do not disable** this feature after use in production—it restricts future eliminations on already-affected projects.
  
