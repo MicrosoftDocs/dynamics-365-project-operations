@@ -21,7 +21,7 @@ The purpose of the Approvals Agent is to streamline the approval process for tim
 
 ## Set up the Approvals Agent
 
-An admin must enable and set up the Approvals feature of the Time and Expense Agent by following the steps in [Set up the Approvals Agent as an admin](approvals-agent-admin-setup.md). After the feature is correctly set up, enable the agent by selecting **Enable Time and Expense Agent** in the **Feature Control** field on the **Project Parameters** page.
+An admin must enable and set up the Approvals feature of the Time and Expense Agent by following the steps in [Set up the Approvals Agent using the Dynamics 365 Agent Deployment Tool (preview)](activate-approvals-agent-wizard.md). After the feature is correctly set up, enable the agent by selecting **Enable Time and Expense Agent** in the **Feature Control** field on the **Project Parameters** page.
 
 After the agent is enabled, a new **Time and Expense Agent** tab appears on the **Project Parameters** page. Use this tab to upload policy documents for time, expense, and material submissions. Learn more about how to write a policy document, and get some examples of policy documents, in [Set up policy documents for the Approvals Agent](approvals-agent-policy.md). If a policy document isn't available for a specific type of record, the agent doesn't classify approval records of that type.
 
