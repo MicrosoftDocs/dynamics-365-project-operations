@@ -48,7 +48,6 @@ If the map doesn't start, see the [Missing table columns issue on maps](/dynamic
 | --- | --- | --- |
 |Billing and Pricing|	6244539|	Status Reason field can no longer be modified on confirmed invoices|
 |Billing and Pricing|	6269908|	Modern Invoice - Form Contains Unsaved Changed When PendingTransactions Amount is $0|
-|Billing and Pricing|	6299157|	PODW - Invoice view changes are missing from integrated org|
 |Billing and Pricing|	6379494|	Modern Invoice - Pending transaction amount does not render|
 |Journals|	6094351|	Time Zone Agnostic (TZA) Accounting Date is not being correctly defaulted|
 |Billing and Pricing|	5727138|	Recalculate action on Quote comes up with a different cost price than from creating a Quote Line Detail|
