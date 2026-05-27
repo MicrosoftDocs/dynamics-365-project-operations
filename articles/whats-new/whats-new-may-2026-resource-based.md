@@ -20,6 +20,7 @@ ms.reviewer: johnmichalak
 **Applies To:**  Project Operations Integrated with ERP.
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
+
 - Project Operations in a Microsoft Dataverse environment version 4.167.3420.4.
 - Project management and accounting in a Microsoft Dynamics 365 Finance environment version 10.0.47.
 
@@ -46,22 +47,22 @@ If the map doesn't start, see the [Missing table columns issue on maps](/dynamic
 
 | **Feature Area** | **Reference No.** | **Quality Update** |
 | --- | --- | --- |
-|Billing and Pricing|	6244539|	Status Reason field can no longer be modified on confirmed invoices|
-|Billing and Pricing|	6269908|	Modern Invoice - Form Contains Unsaved Changed When PendingTransactions Amount is $0|
-|Billing and Pricing|	6379494|	Modern Invoice - Pending transaction amount does not render|
-|Journals|	6094351|	Time Zone Agnostic (TZA) Accounting Date is not being correctly defaulted|
-|Billing and Pricing|	5727138|	Recalculate action on Quote comes up with a different cost price than from creating a Quote Line Detail|
-|Billing and Pricing|	6031924|	Price is incorrectly set to $0 when recalculating Contract/Quote where no price record exists and time-phasing is enabled|
-|Project And Resource Management|	6295665|	Team grid not loading automatically after project creation|
-|Project Budgeting And Forecasting|	6232343|	Budget period setup is not creating the period for the selected month, instead creating one month before the end date|
-|Project Budgeting And Forecasting|	6304128|	Project Budget - Import from estimates time phases the time budget lines incorrectly, with the wrong distribution|
-|Project Estimates|	6111267|	Estimate line sales price is not re-defaulted after a cost price update|
-|Project Estimates|	6293833|	Time phased estimates grid does not show correct currency when cost and sales currency don't match|
-|Project Estimates|	6363037|	Cost Price for an estimate line should not be a required field on UI|
-|Time Entry|	4662755|	Dark Mode Causes Visibility Issues in Time Entry Pages|
-|Time Entry|	6020362|	Copy week causes screen flickering due to repeated backend calls|
-|Project Planning And Tracking|	5860573|	Mismatch in the values between Required hours and Total Effort|
-|Subcontracting|	6246178|	Aggregate Actuals does not happen for Actuals created after Vendor Invoice Auto Confirmation|
+|Billing and Pricing|	6244539|	Status Reason field can no longer be modified on confirmed invoices.|
+|Billing and Pricing|	6269908|	Modern Invoice - Form Contains Unsaved Changed When PendingTransactions Amount is $0.|
+|Billing and Pricing|	6379494|	Modern Invoice - Pending transaction amount doesn't render.|
+|Journals|	6094351|	Time Zone Agnostic (TZA) Accounting Date isn't being correctly defaulted.|
+|Billing and Pricing|	5727138|	Recalculate action on Quote comes up with a different cost price than from creating a Quote Line Detail.|
+|Billing and Pricing|	6031924|	Price is incorrectly set to $0 when recalculating Contract/Quote where no price record exists and time-phasing is enabled.|
+|Project And Resource Management|	6295665|	Team grid not loading automatically after project creation.|
+|Project Budgeting And Forecasting|	6232343|	Budget period setup isn't creating the period for the selected month, instead creating one month before the end date.|
+|Project Budgeting And Forecasting|	6304128|	Project Budget - Import from estimates time phases the time budget lines incorrectly, with the wrong distribution.|
+|Project Estimates|	6111267|	Estimate line sales price isn't redefaulted after a cost price update.|
+|Project Estimates|	6293833|	Time phased estimates grid doesn't show correct currency when cost and sales currency don't match.|
+|Project Estimates|	6363037|	Cost Price for an estimate line shouldn't be a required field on UI.|
+|Time Entry|	4662755|	Dark Mode Causes Visibility Issues in Time Entry Pages.|
+|Time Entry|	6020362|	Copy week causes screen flickering due to repeated backend calls.|
+|Project Planning And Tracking|	5860573|	Mismatch in the values between Required hours and Total Effort.|
+|Subcontracting|	6246178|	Aggregate Actuals doesn't happen for Actuals created after Vendor Invoice Auto Confirmation.|
 
 ### Project management and accounting in Finance
 
