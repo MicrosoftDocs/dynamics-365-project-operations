@@ -4,7 +4,6 @@ description: Learn how to troubleshoot common issues in the Dynamics 365 Task gr
 author: abriccetti
 ms.date: 05/11/2026
 ms.topic: troubleshooting
-ms.product:
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ms.custom:
