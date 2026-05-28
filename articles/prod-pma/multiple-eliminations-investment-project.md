@@ -19,9 +19,7 @@ ms.custom:
 
 ## Overview
 
-In Dynamics 365 Project Operations, **investment projects** track costs that you capitalize rather than expense immediately. *Elimination* is the
-accounting process that reverses or removes capitalized costs from an investment project, transferring value to the associated fixed asset or ledger
-account.
+In Dynamics 365 Project Operations, **investment projects** track costs that you capitalize rather than expense immediately. *Elimination* is the accounting process that reverses or removes capitalized costs from an investment project, transferring value to the associated fixed asset or ledger account.
 
 By default, only a **single** elimination transaction is permitted per investment project. The **Enable Handling of Multiple Eliminations in Investment Projects** feature removes this restriction, so finance and project accountants can **post multiple elimination transactions** against a single investment **project—supporting** staged capitalization, cost overruns, and partial expense scenarios.
 
@@ -39,10 +37,10 @@ By default, only a **single** elimination transaction is permitted per investmen
 
 ## Prerequisites
 
-To use the feature for Dynamics 365 Project Operations, follow these steps:
+Before you can enable multiple eliminations for an investment project, ensure you meet the following prerequisites:
 
-1. Enable the feature **Enable Handling of Multiple Eliminations in Investment Projects.**
-1. Use **Dynamics 365 Finance version 10.0.49.**
+- Use **Dynamics 365 Finance version 10.0.49.**
+- In Feature management, enable the **Enable Handling of Multiple Eliminations in Investment Projects** feature.
 
 ## Project management and accounting parameters
 
