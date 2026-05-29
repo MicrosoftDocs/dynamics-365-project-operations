@@ -1,5 +1,5 @@
 ---
-title: Enable Handling of Multiple Eliminations in Investment Projects
+title: Enable Handling of Multiple Eliminations in Investment Projects (preview)
 description: Learn how to enable and use the multiple eliminations feature for investment projects in Dynamics 365 Project Operations.
 author: mukumarm
 ms.author: mukumarm
@@ -11,9 +11,10 @@ ms.custom:
 
 ---
  
-# Enable multiple eliminations for an investment project
+# Enable multiple eliminations for an investment project (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 **Applies to:** Dynamics 365 Project Operations for Integrated with ERP, Dynamics 365 Project Operations for manufacturing
 
