@@ -4,7 +4,7 @@ description: This article provides information about closing quotes in Project O
 author: poojafandan
 ms.author: poojafandan
 ms.date: 09/24/2025
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak

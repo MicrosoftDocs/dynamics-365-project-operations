@@ -26,7 +26,7 @@ If a resource isn't part of a project team, their access to the task grid can be
 | Read only | The resource has read-only access to the task grid and isn't allowed to make any changes. |
 | Full access | The resource has full access to the task grid and can perform all Create, Update, and Delete operations. |
 
-To configure permissions at the system user level, follow these steps.
+To configure permissions at the system user level, follow these steps:
 
 1. On the **System user** page, on the Action Pane, select **Project user permissions**.
 
@@ -48,7 +48,7 @@ If a resource is part of a project team, their ability to modify the task grid c
 | Full access | The resource has full access to the task grid and can perform all Create, Update, and Delete operations. |
 | Custom | The resource can be granted customized access permissions for Create, Update, and Delete operations. |
 
-To configure permissions at the project team member level, follow these steps.
+To configure permissions at the project team member level, follow these steps:
 
 1. On the **Project Team Member** page, the **Access Level** field shows the current permission type that is assigned to the resource. To change the permission type, select **User permissions** on the Action Pane.
 

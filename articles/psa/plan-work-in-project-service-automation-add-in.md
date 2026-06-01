@@ -37,7 +37,7 @@ You can install the [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn-m
 
 Have your [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] sign-in information ready. You need this information to connect from [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] to [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].
 
-To download and install the Project Service Automation add-in, follow these steps.
+To download and install the Project Service Automation add-in, follow these steps:
 
 1. From the Download Center, download the add-in for your supported version of Project Service, either [version 2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) or [version 3.4 and later](https://www.microsoft.com/download/details.aspx?id=57956).
 1. Select the download link.
@@ -45,7 +45,7 @@ To download and install the Project Service Automation add-in, follow these step
 
 ## Configure the Project Service Automation add-in
 
-To configure the Project Service Automation add-in, follow these steps.
+To configure the Project Service Automation add-in, follow these steps:
 
 1. Open [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].
 1. On the **Project Service** tab, select **Connect**.
@@ -57,7 +57,7 @@ You can now start to use the add-in.
 
 To start your project planning, read from a template that you created in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] and copied into [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a project template (Project Service Automation)](../psa/create-project-template.md)
 
-To read from a template, follow these steps.
+To read from a template, follow these steps:
 
 1. From the **Project Service** tab, select **Read** > **Project Service Automation Project Template**.
 1. Select a project template in the list, and then select **Open**.
@@ -67,7 +67,7 @@ To read from a template, follow these steps.
 
 ## Assign [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] roles to project resources
 
-To assign Project Service roles to project resources, follow these steps.
+To assign Project Service roles to project resources, follow these steps:
 
 1. Open a project, and select the **Task** ribbon.
 1. Select the **Gantt Chart** menu, and then select **Resource Sheet**.
@@ -75,7 +75,7 @@ To assign Project Service roles to project resources, follow these steps.
 
 ## Staff your project with resources
 
-To staff your project with resources, follow these steps.
+To staff your project with resources, follow these steps:
 
 1. On the **Project Service** tab, select a row, and then select **Find Resources**.
 1. On the **Book Resource** page, select the resource to use for the project.
@@ -95,7 +95,7 @@ The project is imported into [!INCLUDE[pn_project_service_auto](../includes/pn-p
 
 ### Import and publish your project
 
-To import and publish your project, follow these steps.
+To import and publish your project, follow these steps:
 
 1. On the **Project Service** tab, go to **Publish** \> **New Project Service Automation Project**.
 1. In the **Publish to a new project in Project Service** dialog box, enter the project name, and select the customer.
@@ -113,7 +113,7 @@ To make changes to a project plan that has been imported into [!INCLUDE[pn_proje
 
 ### Edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]
 
-To edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], follow these steps.
+To edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)], follow these steps:
 
 1. On the main menu, go to **Project Service** \> **Projects**.
 1. From the list of projects, open the project that you created in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].
@@ -121,7 +121,7 @@ To edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]
 
 ### Unlink a file and edit in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service
 
-To unlink a file and edit it in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service, follow these steps.
+To unlink a file and edit it in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] Service, follow these steps:
 
 1. On the main menu, go to **Project Service** \> **Projects**.
 1. From the list of projects, open the project that you created in [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)].
@@ -135,7 +135,7 @@ You can also upload your Project file to [!INCLUDE[pn_onedrive_for_business](../
 
 ### Upload a file for SharePoint
 
-To upload a file for SharePoint, follow these steps.
+To upload a file for SharePoint, follow these steps:
 
 1. On the main menu, go to **Project Service** \> **Upload**.
 1. Select **To Project Service Automation Project Documents**.
@@ -148,7 +148,7 @@ To upload a file for SharePoint, follow these steps.
 
 ### Upload a file for Office Groups
 
-To upload a file for Office Groups, follow these steps.
+To upload a file for Office Groups, follow these steps:
 
 1. On the main menu, go to **Project Service** \> **Upload**.
 1. Select **To Project Service Automation Project Documents**.
@@ -163,7 +163,7 @@ To upload a file for Office Groups, follow these steps.
 
 You can reuse your project by saving it as a project template in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Project templates are reusable project plans in [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. For more information, see [Create a project template (Project Service Automation)](../psa/create-project-template.md). 
 
-To publish your project as a template, follow these steps.
+To publish your project as a template, follow these steps:
 
 1. On the **Project Service** tab, go to **Publish** \> **New Project Service Automation Project Template**.
 1. In the **Publish to a new project in Project Service template** dialog box, enter the project template name.

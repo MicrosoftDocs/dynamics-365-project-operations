@@ -3,7 +3,7 @@ title: Responsible AI FAQ for the Approvals feature of the Time and Expense Agen
 description: Get answers to frequently asked questions about the Approvals feature of the Time and Expense Agent.
 author: abriccetti
 ms.author: abriccetti
-ms.topic: conceptual 
+ms.topic: concept-article 
 ms.date: 05/13/2025
 ms.update-cycle: 180-days
 ms.custom: 

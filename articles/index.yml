@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page 
   author: johnmichalak
   ms.author: johnmichalak
-  ms.date: 12/05/2023
+  ms.date: 01/28/2026
   ms.custom: bap-template
   hide_bc: true
 
@@ -156,7 +156,7 @@ additionalContent:
           summary: Finance and operations apps are enterprise resource planning (ERP) software as a service (SaaS) offerings.
           url: /dynamics365/finance/
         - title: Lifecycle Services
-          summary: Lifecycle Services (LCS) for Microsoft Dynamics is a collaboration portal that provides an environment and a set of regularly updated services.
+          summary: Lifecycle Services for Microsoft Dynamics is a collaboration portal that provides an environment and a set of regularly updated services.
           url: https://learn.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs
         - title: Microsoft Power Automate
           summary: Power Automate is a service that helps you create automated workflows between your favorite apps and services to synchronize files, get notifications, collect data, and more.

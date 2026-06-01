@@ -2,7 +2,7 @@
 title: Create proforma project invoices with Billing hub
 description: This article provides information about how to use Billing hub to create proforma project-based invoices.
 author: suvaidya
-ms.date: 09/24/2025
+ms.date: 03/12/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -19,6 +19,12 @@ _**Applies To:** Project Operations Core, Project Operations Integrated with ERP
 The end-to-end process of invoice creation in Microsoft Dynamics 365 Project Operations is cumbersome, because it involves multiple clicks and navigation between different forms and views.
 
 The purpose of the **Billing hub experience** is to provide a rich, consolidated view of contracts, contract lines, related actuals, and key invoicing insights **before invoice creation**, to help accountants and billing users **quickly** and **efficiently** create proforma invoices. When you use the platform's out-of-box nested grid functionality, users can complete invoice creation from a single unified view and through a single click. Because users don't have to move between forms or views to validate data, the processing of invoices is faster.
+
+## What's new in Billing hub
+
+Billing hub enhancements improve visibility and control, reduce manual effort, and continue the shift toward Billing hub as the central invoicing workspace. Key enhancements include visibility for **Not Ready to Invoice** transactions, streamlined invoice creation, instant amount calculations and notifications in select scenarios, and performance and user experience improvements.
+
+The updates can be accessed by enabling the flag **Enable Billing Hub updates**.
 
 ## Create new invoices
 
@@ -70,7 +76,7 @@ The following information is available in the **Billing hub** view. Learn how to
 
 The contract lines for each project contract provide a view of all associated actuals for time, expenses, materials, and fees. The invoiceable backlog provides a comprehensive list of actuals across all transaction types. Use the hyperlinks to drill down into each category of invoiceable transactions and mark them as either ready or not ready to be invoiced.
 
-To review or update the invoiceable backlog, follow these steps.
+To review or update the invoiceable backlog, follow these steps:
 
 1. For a time and material project contract line that has approved time entries, for example, select the **Time** amount field. Alternatively, you can select the **Invoiceable backlog** amount field. A list of invoiceable time transactions that are specific to the project contract and contract line appears.
 1. Select the transactions, and then update the billing status by selecting **Ready to invoice** or **Not ready to invoice** in the list of options for the subgrid.
@@ -102,7 +108,7 @@ When you use the **Add to invoice** functionality, you can expect the following 
 
 ### Update totals on contract and contract line fields
 
-To update totals on contract and contract line fields, follow these steps.
+To update totals on contract and contract line fields, follow these steps:
 
 1. Select one or more project contracts.
 1. On the Action Pane, select **Update Totals**.
@@ -156,7 +162,7 @@ To create an invoice for progress-based milestones, follow these steps on all mi
 > [!NOTE]
 > If you update the status of the milestone header to **Ready for invoicing** and then update the grid, you create a split of two milestone lines under the milestone header.
 
-To create an invoice that includes the selected progress-based milestones, follow these steps.
+To create an invoice that includes the selected progress-based milestones, follow these steps:
 
 1. Select the milestone header.
 1. Select either the **Create invoice** grid action or the **Add to invoice** grid action.

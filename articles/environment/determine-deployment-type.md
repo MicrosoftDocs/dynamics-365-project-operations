@@ -3,7 +3,7 @@ title: Determine your deployment type
 description: This article provides information to help you determine the correct deployment type of Project operations for your company.
 author: stsporen
 ms.date: 03/03/2025
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
@@ -38,7 +38,7 @@ Project Operations supports multiple deployment options to match your requiremen
 
 Our [Deployment questionnaire](https://aka.ms/provisionprojectoperations) will help you determine the right deployment. The results will guide you toward one of the following deployment types:
 
-- [Project Operations Core] (#lite)
+- [Project Operations Core](#lite)
 - [Project Operations Integrated with ERP](#integrated)
 - [Project Operations for manufacturing](#pma)
 

@@ -1,9 +1,9 @@
 ---
 title: Expense management overview
-description: Dynamics 365 Expense Management streamlines the entire expense management lifecycle, from submission to reimbursement, helping businesses improve efficiency, control costs, and ensure compliance with financial policies and regulations.
+description: Learn about Dynamics 365 Expense Management lifecycle, from submission to reimbursement, helping businesses improve efficiency, control costs, and ensure compliance with financial policies and regulations.
 author: mukumarm
 ms.author: mukumarm
-ms.date: 05/10/2024
+ms.date: 01/30/2026
 ms.topic: overview
 ms.custom: 
   - bap-template 
@@ -15,23 +15,39 @@ ms.reviewer: johnmichalak
 
 [!include [banner](../includes/banner.md)]
 
-**Dynamics 365 Expense Management** is designed to streamline and automate expense management processes for businesses. **Expense Management** streamlines the entire expense management lifecycle, from submission to reimbursement, helping businesses improve efficiency, control costs, and ensure compliance with financial policies and regulations. Here's an overview of its key features and functionalities:
+**Dynamics 365 Expense Management** streamlines and automates expense management processes for businesses. **Expense Management** streamlines the entire expense management lifecycle, from submission to reimbursement, helping businesses improve efficiency, control costs, and ensure compliance with financial policies and regulations. Here's an overview of its key features and functionalities:
 
-**Expense Submission**: Employees can easily submit expense reports directly within the Dynamics 365 platform. They can capture receipts, categorize expenses, and add relevant details such as project codes or client names.
+## Expense submission
 
-**Approval Workflows**: Expense reports can be routed through customizable approval workflows based on organizational policies. Approvers can review, approve, reject, or request further information on expense submissions.
+Employees can easily submit expense reports directly within the Dynamics 365 platform. They can capture receipts, categorize expenses, and add relevant details such as project codes or client names.
 
-**Policy Compliance**: The system helps enforce company expense policies by flagging violations such as out-of-policy expenses or non-compliant receipts. This ensures adherence to spending guidelines and regulatory requirements.
+## Approval workflows
 
-**Integration**: Dynamics 365 Expense Management seamlessly integrates with other modules within the Dynamics 365 ecosystem, such as Finance and Human Resources, enabling a unified view of financial data and employee information.
+Organizational policies can route expense reports through customizable approval workflows. Approvers can review, approve, reject, or request further information on expense submissions.
 
-**Mobile Accessibility**: Employees can conveniently submit expenses on-the-go using the mobile app, which allows them to capture receipts, submit reports, and track reimbursement status from their smartphones or tablets.
+## Policy compliance
 
-**Analytics and Reporting**: The platform provides robust reporting and analytics capabilities, allowing finance teams to gain insights into spending patterns, identify cost-saving opportunities, and track key performance metrics related to expense management.
+The system helps enforce company expense policies by flagging violations such as out-of-policy expenses or noncompliant receipts. This feature ensures adherence to spending guidelines and regulatory requirements.
 
-**Vendor Management**: It may offer features for managing vendor relationships related to expenses, such as tracking vendor invoices, managing payment terms, and ensuring timely reimbursements.
+## Integration
 
-**Compliance and Audit Trails**: Dynamics 365 Expense Management maintains comprehensive audit trails of all expense-related activities, providing transparency and accountability for compliance purposes and audits.
+Dynamics 365 Expense Management seamlessly integrates with other modules within the Dynamics 365 ecosystem, such as Finance and Human Resources, enabling a unified view of financial data and employee information.
+
+## Mobile accessibility
+
+Employees can conveniently submit expenses on-the-go by using the mobile app. It allows them to capture receipts, submit reports, and track reimbursement status from their smartphones or tablets.
+
+## Analytics and reporting
+
+The platform provides robust reporting and analytics capabilities, allowing finance teams to gain insights into spending patterns, identify cost-saving opportunities, and track key performance metrics related to expense management.
+
+## Vendor management
+
+It might offer features for managing vendor relationships related to expenses, such as tracking vendor invoices, managing payment terms, and ensuring timely reimbursements.
+
+## Compliance and audit trails
+
+Dynamics 365 Expense Management maintains comprehensive audit trails of all expense-related activities, providing transparency and accountability for compliance purposes and audits.
 
 For more information, see [Configure expense management](plan-expense-management.md).
 
@@ -54,6 +70,5 @@ Additional help is available as task guides. To access task guides, select the *
 ### Videos
 
 Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,10 +4,10 @@ description: This article provides information about the features available in t
 author: tulsijhaveri
 ms.custom:
   - evergreen
-ms.date: 07/07/2025
+ms.date: 01/23/2026
 ms.update-cycle: 1095-days
 ms.topic: whats-new
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ---
 
 # What's new 2024 wave 1 early access - Project Operations Integrated with ERP

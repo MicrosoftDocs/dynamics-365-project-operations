@@ -40,7 +40,7 @@ Enter beginning balances for in-progress projects when you implement Project Ope
 
 ### Project management and accounting parameters
 
-To create **beginning balances** as of a **specified date**, follow these steps.
+To create **beginning balances** as of a **specified date**, follow these steps:
 
 1. Go to **Project management and accounting** > **Setup** > **Project management and accounting parameters**.
 1. On the **General** tab, select **Create beginning balances**.
@@ -56,7 +56,7 @@ When you import **Actuals** into Finance from Project operations on or before th
 
 Beginning balance journals don't generate general ledger accounting entries; they only update the project subledger.
 
-To generate the beginning balances in **Dynamics 365 Finance**, follow these steps.
+To generate the beginning balances in **Dynamics 365 Finance**, follow these steps:
 
 1. Go to **Project management and accounting** > **Periodic** > **Project operations integration** > **Import beginning balances**.
 1. Select **Ok** to generate the beginning balance journal.
@@ -68,7 +68,7 @@ To generate the beginning balances in **Dynamics 365 Finance**, follow these ste
 
 After you run the **Import beginning balances** process, the system creates a **Beginning balance journal** and its lines. The journal includes all **Project Operations** actual transactions dated on or before the **cut-off date** to establish the opening balances.
 
-To view and post the beginning balance journal, follow these steps.
+To view and post the beginning balance journal, follow these steps:
 
 1. Go to **Project management and accounting** > **Journals** > **Beginning balance**.
 1. Select **Lines**.

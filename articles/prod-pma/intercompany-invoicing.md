@@ -2,8 +2,8 @@
 title: Intercompany invoicing  
 description: This article provides information and examples about intercompany invoicing for your projects.  
 author: Yowelle  
-ms.date: 09/14/2017  
-ms.topic: article
+ms.date: 01/30/2026
+ms.topic: concept-article
 ms.search.form: LedgerInterCompany  
 audience: Application User  
 ms.reviewer: johnmichalak  
@@ -21,7 +21,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 This article provides information and examples about intercompany invoicing for projects.  
 
-Your organization might have multiple divisions, subsidiaries, and other legal entities that transfer products and services to each other for projects. The legal entity that provides the service or product is called the *lending legal entity*, and the legal entity that receives the service or product is called the *borrowing legal entity*.  
+Your organization might have multiple divisions, subsidiaries, and other legal entities that transfer products and services to each other for projects. The legal entity that provides the service or product is the *lending legal entity*, and the legal entity that receives the service or product is the *borrowing legal entity*.  
 
 The following illustration shows a typical scenario where two legal entities, SI FR (the borrowing legal entity) and SI USA (the lending legal entity) share resources to deliver a project for customer A. For this scenario, SI FR is contracted to deliver the work to customer A.  
 
@@ -36,19 +36,19 @@ The goal is to make cost control, revenue recognition, taxes, and transfer price
 - Set transfer prices that can be based on various pricing models. Here are some examples:  
 
   - **Quantity** – The amount that you enter in the **Pricing** field is the actual cost per quantity or unit.  
-  - **Charges amount** – The price/cost per transaction plus the charges amount that you enter in the **Pricing** field.  
-  - **Charges percentage** – The transfer price is the price/cost per transaction multiplied by the charges percentage that you enter in the **Pricing** field.  
+  - **Charges amount** – The price or cost per transaction plus the charges amount that you enter in the **Pricing** field.  
+  - **Charges percentage** – The transfer price is the price or cost per transaction multiplied by the charges percentage that you enter in the **Pricing** field.  
   - **Percentage of sales price** – The percentage of the sales price that is transferred to the lending legal entity.  
   - **Amount below sales price** – The amount that the borrowing legal entity holds back from the sales prices before transfer to the lending legal entity.  
   - **Contribution ratio** – The number that you enter in the **Pricing** field is the contribution ratio, which is expressed as a percentage of the sales price.  
 
 ## Example 1: Set up parameters for intercompany invoicing  
 
-In this example, USSI is a lending legal entity, and its resources are reporting time against the borrowing legal entity, FRSI, which owns the contract with the end customer. Hours and expenses that USSI employees report can be included in the project invoice that FRSI generates. In addition, there is a third source of transactions that can originate from the lending legal entity (USSI in this example) when it provides shared vendors services to subsidiaries (such as FRSI) and then passes on those costs to projects within those subsidiaries. All matching invoice documents and tax calculations are completed by Finance.  
+In this example, USSI is a lending legal entity, and its resources report time against the borrowing legal entity, FRSI, which owns the contract with the end customer. Hours and expenses that USSI employees report can be included in the project invoice that FRSI generates. In addition, a third source of transactions can originate from the lending legal entity (USSI in this example) when it provides shared vendor services to subsidiaries (such as FRSI) and then passes on those costs to projects within those subsidiaries. Finance completes all matching invoice documents and tax calculations.  
 
 For this example, FRSI must be a customer in the USSI legal entity, and USSI must be a vendor in the FRSI legal entity. You can then set up an intercompany relationship between the two legal entities. The following procedure shows how to set up the parameters so that both legal entities can participate in intercompany invoicing.  
 
-1. Set up FRSI as a customer in the USSI legal entity, and set up USSI as a vendor in the FRSI legal entity. There are three entry points for the steps that are required for this task.  
+1. Set up FRSI as a customer in the USSI legal entity, and set up USSI as a vendor in the FRSI legal entity. Three entry points exist for the steps that are required for this task.  
 
    | Step | Entry point | Description |  
    |------|-------------|-------------|  
@@ -65,11 +65,11 @@ For this example, FRSI must be a customer in the USSI legal entity, and USSI mus
 
 1. Select **Project management and accounting** > **Setup** > **Prices** > **Transfer price**.  
 
-1. Select a currency, transaction type, and transfer price model. The currency that is used on the invoice is the currency that is configured in the customer record for the borrowing legal entity in the lending legal entity. The currency is used to match entries in the transfer price table.  
+1. Select a currency, transaction type, and transfer price model. The currency that you use on the invoice is the currency that you configure in the customer record for the borrowing legal entity in the lending legal entity. You use the currency to match entries in the transfer price table.  
 
 ## Example 2: Create and post an intercompany timesheet  
 
-USSI, the lending legal entity, must create and post the timesheet for a project from FRSI, the borrowing legal entity. There are two entry points for the steps that are required for this task.  
+USSI is the lending legal entity. It must create and post the timesheet for a project from FRSI, the borrowing legal entity. Two entry points exist for the steps that this task requires.  
 
 | Step | Entry point | Description |  
 |------|-------------|-------------|  
@@ -78,7 +78,7 @@ USSI, the lending legal entity, must create and post the timesheet for a project
 
 ## Example 3: Create and post an intercompany vendor invoice  
 
-USSI, the lending legal entity, must create and post the intercompany vendor invoice for a project from FRSI, the borrowing legal entity. This vendor invoice represents the outsourced labor and expense that were performed by vendors that are paid by USSI. There are two entry points for the steps that are required for this task.  
+USSI is the lending legal entity. It must create and post the intercompany vendor invoice for a project from FRSI, the borrowing legal entity. This vendor invoice represents the outsourced labor and expense that vendors perform and USSI pays. Two entry points exist for the steps that this task requires.  
 
 | Step | Entry point | Description |  
 |------|-------------|-------------|  
@@ -87,7 +87,7 @@ USSI, the lending legal entity, must create and post the intercompany vendor inv
 
 ## Example 4: Create and post the intercompany invoice  
 
-USSI, the lending legal entity, must create and post the intercompany invoice. There are two entry points for the steps that are required for this task.  
+USSI is the lending legal entity. It must create and post the intercompany invoice. Two entry points exist for the steps that this task requires.  
 
 | Step | Entry point | Description |  
 |------|-------------|-------------|  
@@ -99,14 +99,14 @@ USSI, the lending legal entity, must create and post the intercompany invoice. T
 
 ## Example 5: Post the vendor invoice and invoice the customer  
 
-When the lending legal entity, USSI, posts the intercompany customer invoice, a matching pending vendor invoice is created in the borrowing legal entity, FRSI. After this vendor invoice is posted, FRSI also invoices the project customer for the hours that USSI entered. There are three entry points for the steps that are required for this task.  
+When the lending legal entity USSI posts the intercompany customer invoice, it creates a matching pending vendor invoice in the borrowing legal entity FRSI. After you post this vendor invoice, FRSI invoices the project customer for the hours that USSI entered. Three entry points exist for the steps that are required for this task.  
 
 | Step | Entry point | Description |  
 |------|-------------|-------------|  
 | A | **Accounts payable** > **Invoices** > **Pending vendor invoices** | Review the invoice to verify that the timesheet values are included, and then post the vendor invoice. |  
-| B | **Project management and accounting** > **Project invoices** > **Project invoice proposals** | Create a new project invoice for the project, and verify that the hour transactions that were posted appear. |  
+| B | **Project management and accounting** > **Project invoices** > **Project invoice proposals** | Create a new project invoice for the project, and verify that the hour transactions that you posted appear. |  
 | C | The **Project invoice** page | Select the project invoice, and then select **View details** to review the cost and sales amount. Then post the invoice. |  
 
 For more information, see [Configure intercompany project invoicing](tasks/configure-intercompany-project-invoicing.md).  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]  
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

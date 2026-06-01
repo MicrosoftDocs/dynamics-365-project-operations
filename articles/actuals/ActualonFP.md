@@ -2,8 +2,8 @@
 title: Actuals impact in a fixed price engagement
 description: This article provides information about the impact on the Actuals table at various events during the lifecycle of a fixed price engagement in Microsoft Dynamics 365 Project Operations.
 author: suvaidya
-ms.author: suvaidya
-ms.date: 06/07/2024
+ms.author: nshrivastava
+ms.date: 01/23/2026
 ms.topic: overview
 ms.custom: 
   - bap-template

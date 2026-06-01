@@ -3,7 +3,7 @@ title: Project grants
 description: This article explains how to create or modify a grant. 
 author: poojafandan
 ms.author: poojafandan
-ms.date: 06/07/2024
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 [!include [banner](../includes/banner.md)]
 
-A grant is a gift of money for a specific purpose or project. Usually, there are restrictions on how a grant can be spent. In Project management and accounting, you can enter and track grants, and define their relationships to projects and project contracts. For example, you can perform the following tasks:
+A grant is a gift of money for a specific purpose or project. Usually, restrictions apply to how you can spend a grant. In Project management and accounting, you can enter and track grants, and define their relationships to projects and project contracts. For example, you can perform the following tasks:
 
 - Associate grants with projects and funding sources through links to the **Project** and **Project contract details** pages.
 - Enter and track changes to a grant as it moves from one status to another.
@@ -27,10 +27,10 @@ You can create a grant by entering all the details in a new record, or you can c
 ## Create a new grant
 
 1. Go to **Project management and accounting** \> **Grants** \> **Grants**.
-2. Select **New** \> **Grant**.
-3. On the grant details page, on the **General** FastTab, in the **Grant ID** field, enter an alphanumeric identifier for the grant.
-4. In the **Grant name** field, enter a name for the grant.
-5. In the **Description** field, add details about the new grant.
+1. Select **New** \> **Grant**.
+1. On the grant details page, on the **General** FastTab, in the **Grant ID** field, enter an alphanumeric identifier for the grant.
+1. In the **Grant name** field, enter a name for the grant.
+1. In the **Description** field, add details about the new grant.
 
     Most of the other fields on the page are optional, and you can enter as little or as much information as you want.
 
@@ -55,16 +55,16 @@ You can create a grant by entering all the details in a new record, or you can c
 ## Create a new grant from a copy
 
 1. Go to **Project management and accounting** \> **Grants** \> **Grants**.
-2. Select **New** \> **Copy from grant**.
-3. Enter an alphanumeric identifier and a name for the new grant, and then select **OK**.
-4. On the grant details page, review the details of the copied grant, and make any changes that are required. Most of the fields on the page are optional.
+1. Select **New** \> **Copy from grant**.
+1. Enter an alphanumeric identifier and a name for the new grant, and then select **OK**.
+1. On the grant details page, review the details of the copied grant, and make any changes that are required. Most of the fields on the page are optional.
 
 ## View or modify grant details
 
 1. Go to **Project management and accounting** \> **Grants** \> **Grants**.
-2. Select the grant to modify.
-3. On the Action Pane, on the **Grant** tab, in the **Maintain** group, select **Edit**.
-4. Review the grant details, and make any changes that are required.
+1. Select the grant to modify.
+1. On the Action Pane, on the **Grant** tab, in the **Maintain** group, select **Edit**.
+1. Review the grant details, and make any changes that are required.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

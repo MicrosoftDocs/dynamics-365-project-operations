@@ -2,14 +2,14 @@
 title: What's new December 2023 - Project Operations Core
 description: This article provides information about the quality updates that are available in the December 2023 release of Microsoft Dynamics 365 Project Operations Core.
 author: tulsijhaveri
-ms.date: 07/07/2025
+ms.date: 02/26/2026
 ms.update-cycle: 1095-days
 ms.topic: whats-new
 ms.custom: 
   - bap-template
   - evergreen
 ms.reviewer: johnmichalak 
-ms.author: tulsijhaveri
+ms.author: dishantpopli
 ---
 
 # What's new December 2023 - Project Operations Core
@@ -20,7 +20,7 @@ _**Applies To:** Project Operations Core_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Microsoft Dataverse environment version 4.89.0.15.
+- Project Operations in a Microsoft Dataverse environment version 4.89.0.105.
 
 ## Features included in this release
 

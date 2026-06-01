@@ -6,7 +6,7 @@ ms.date: 07/07/2025
 ms.update-cycle: 1095-days
 ms.custom:
   - evergreen
-ms.topic: article
+ms.topic: concept-article
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---

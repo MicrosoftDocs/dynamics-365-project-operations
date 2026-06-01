@@ -16,7 +16,7 @@ Microsoft Dynamics 365 Project Operations lets project managers import their Mic
 
 ## Import a file to create a new project
 
-To import a new project from a Project desktop client file, follow these steps.
+To import a new project from a Project desktop client file, follow these steps:
 
 1. Open the **Projects** view.
 1. On the toolbar, select **Import \> Import from MPP**.
@@ -36,7 +36,7 @@ To import a new project from a Project desktop client file, follow these steps.
 
 A project without a WBS indicates that you created the project but didn't access the Task tab. Opening the Task tab automatically generates a blank WBS.
 
-To import to an existing project with no WBS from a Project desktop client file, follow these steps.
+To import to an existing project with no WBS from a Project desktop client file, follow these steps:
 
 1. Open the **Projects** view.
 1. On the toolbar, select **Import \> Import from MPP**.

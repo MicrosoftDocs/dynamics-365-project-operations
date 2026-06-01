@@ -44,7 +44,7 @@ To use the feature for Project Operations for manufacturing deployments, you nee
 
 ### Enable project stage rules
 
-To enable project stage rules, follow these steps.
+To enable project stage rules, follow these steps:
 
 1. Go to **Project management and accounting** > **Setup** > **Project management and accounting parameters**.
 1. On the **Project stage** tab, select a stage, and then select a value in the **Project stage rules** field. Project stage rules for creating a billing schedule on a time-and-material project are added.
@@ -64,7 +64,7 @@ To automatically generate billing schedules for project fee transactions, config
    
 ## Create a billing schedule from a project
 
-To create a billing schedule directly from a time-and-material project, follow these steps.
+To create a billing schedule directly from a time-and-material project, follow these steps:
 
 1. Go to **Project management and accounting** > **Projects** > **All projects**.
 1. On the **All projects** page, select a project.
@@ -86,7 +86,7 @@ The **Billing schedule lines** grid displays details based on the value you sele
 
 If you add a project to a billing schedule header, the system enters it by default on the billing schedule line on the **Project** tab. By default, the system enters the **Project ID**, **Category**, **Line property**, and **Sales tax** values from the project. When a billing schedule line has a project, you can only add service items and non-stock items to it. You can add billing schedule lines without the project ID.
 
-To create billing schedule lines of type **Fee**, follow these steps.
+To create billing schedule lines of type **Fee**, follow these steps:
 
 1. Go to **Subscription billing** > **Recurring contract billing** > **Billing schedules** > **All billing schedules**.
 1. Select the existing billing schedule related to the project or create a new billing schedule by selecting **+ New**.
@@ -106,7 +106,7 @@ To create billing schedule lines of type **Fee**, follow these steps.
 
 ## View a billing schedule from a project or a project contract
 
-To view a billing schedule, follow these steps.
+To view a billing schedule, follow these steps:
 
 1. On the **All projects** page, select a project.
 1. Select **Manage**, select **Related information**, then select **Subscription billing** > **Billing schedules**. The **All billing schedules** page shows billing schedules that you created for the selected project.

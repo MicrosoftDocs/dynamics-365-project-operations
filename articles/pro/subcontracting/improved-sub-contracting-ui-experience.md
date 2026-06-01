@@ -24,7 +24,7 @@ To use the enhanced subcontracting module's user experience, enable the followin
 
 - **Enable Subcontracting UX enhancements for smoother navigation and insights**
 
-To enable the feature, follow these steps.
+To enable the feature, follow these steps:
 
 1. Sign in to **Microsoft Dynamics 365 Project Operations**.
 1. In the left navigation, switch the area to **Settings**.

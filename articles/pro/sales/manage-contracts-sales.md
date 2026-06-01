@@ -2,7 +2,7 @@
 title: Manage project contracts 
 description: This article provides information about viewing project-based contracts.
 author: poojafandan
-ms.date: 06/10/2024
+ms.date: 02/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,23 +16,23 @@ ms.author: poojafandan
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-Project contracts in Dynamics 365 Project Operations capture and manage the contractually agreed on commitments and billing details of a project. The structure of a project contract in Project Operations is tailored to project-based work with the following components:
+Project contracts in Dynamics 365 Project Operations capture and manage the contractually agreed commitments and billing details of a project. The structure of a project contract in Project Operations is tailored to project-based work with the following components:
 
-- Contract lines that identify the discrete components of work that will be presented as high-level components on a project invoice.
+- Contract lines that identify the discrete components of work that the project presents as high-level components on an invoice.
 - Contract line details that identify and estimate the work for each high-level component or contract line. The estimate includes the schedule and the financial aspects for the work tied to the contract line.
-- Contracting models and chargeable components are set up for each contract line that holds the billing arrangement for each contract line and the overall contract.
+- Contracting models and chargeable components that you set up for each contract line hold the billing arrangement for each contract line and the overall contract.
 
 ## View all project-based contracts
 
-A list of all project contracts can be seen on the **Contracts** list page. 
+You can see a list of all project contracts on the **Contracts** list page. 
 
-1. Go to **Sales** > **Contracts**. A list of all your project Contracts in the system are shown. 
-2. Select the **View switcher** (the drop-down arrow next to the name of the view) to select other filtered views. You can create your own views with custom filter criteria.
+1. Go to **Sales** > **Contracts**. You see a list of all your project contracts in the system. 
+1. Select the **View switcher** (the drop-down arrow next to the name of the view) to select other filtered views. You can create your own views with custom filter criteria.
 
-Contracts can be created or deleted from this list page or detail pages.
+You can create or delete contracts from this list page or from detail pages.
 
 > [!NOTE]
-> Contracts that have projects, tasks, estimates, journals, and/or actuals associated with them cannot be deleted. 
+> You can't delete contracts that have projects, tasks, estimates, journals, or actuals associated with them. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

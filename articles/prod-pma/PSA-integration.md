@@ -2,10 +2,10 @@
 # required metadata
 
 title: Project Service Automation overview
-description: This article provides information about the Dynamics 365 Project Service Automation to Dynamics 365 Finance integration solution.
+description: Learn how to integrate Dynamics 365 Project Service Automation with Dynamics 365 Finance using the Data integration feature for seamless data synchronization.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 05/21/2024
+ms.date: 02/06/2026
 ms.topic: overview
 ms.custom: 
   - bap-template
@@ -22,11 +22,11 @@ ms.dyn365.ops.version: AX 7.0.0
 
 [!include[banner](../includes/banner.md)]
 
-
 The Project Service Automation to Finance integration solution uses the Data integration feature to synchronize data across instances of Dynamics 365 Finance and Dynamics 365 Project Service Automation via Common Data Service. The integration templates that are available with the Data integration feature enable the flow of projects, project contracts, project contract lines, project contract line milestones, project tasks, expense transaction categories, hour estimates, and expense estimates from Project Service Automation to Finance.
 
 > [!NOTE]
-> - If you're using version 7.3.0, you must install KB 4074835. You will then be able to integrate fixed price projects.
+>
+> - If you're using version 7.3.0, you must install KB 4074835. You'll then be able to integrate fixed price projects.
 > - If you're using version 7.3.0, and you are bringing fee transactions over from Project Service Automation, you must install KB 4345320 in order to include those fees in the project invoice.
 > - If you're using version 8.0, you will be able to use project task integration, expense transaction categories, hour estimates, expense estimates, and functionality locking.
 > - If you're using version 8.0.1 or later, you will be able to synchronize actuals.
@@ -47,20 +47,20 @@ This integration solution enables direct synchronization in the following scenar
 
 ## Data synchronization
 
-The following illustration shows how data is synchronized as part of the integration between Project Service Automation and Finance.
+The following illustration shows how data synchronizes as part of the integration between Project Service Automation and Finance.
 
 > [!NOTE]
-> Not all templates are currently available. Templates will be released as they are completed.
+> Not all templates are currently available. Microsoft releases templates as they are completed.
 
-[![Project Service Automation integration with Finance.](./media/PSA-integration.png)](./media/PSA-integration.png)
+:::image type="content" source="./media/PSA-integration.png" alt-text="Screenshot of Project Service Automation integration with Finance." lightbox="./media/PSA-integration.png":::
 
 ## System requirements for Finance
 
-To use the Project Service Automation to Finance integration solution, you must install Enterprise edition 7.3 with Platform update 12 or later.
+To use the Project Service Automation to Finance integration solution, install Enterprise edition 7.3 with Platform update 12 or later.
 
 ## System requirements for Project Service Automation
 
-To use the Project Service Automation to Finance integration solution, you must install the following components:
+To use the Project Service Automation to Finance integration solution, install the following components:
 
 - Dynamics 365 Project Service Automation version 9.0.0.0 or later
 - Prospect to cash solution for Dynamics 365 Sales, version 1.14.0.0 (v14) or later
@@ -68,7 +68,6 @@ To use the Project Service Automation to Finance integration solution, you must 
 
 ## Install the Project Service Automation to Finance integration solution in your Project Service Automation instance
 
-Download the Project Service Automation to Finance integration solution from [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=57016), and follow the instructions that are included with the solution.
-
+Download the Project Service Automation to Finance integration solution from the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=57016), and follow the included instructions.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

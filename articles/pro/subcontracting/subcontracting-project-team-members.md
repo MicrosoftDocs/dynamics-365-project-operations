@@ -1,6 +1,6 @@
 ---
 title: Subcontracting project team members
-description: This article explains how to subcontract project team members in Microsoft Dynamics 365 Project Operations.
+description: Learn how to subcontract project team members in Microsoft Dynamics 365 Project Operations. Follow step-by-step instructions for both unstaffed and staffed resources.
 author: rumant
 ms.date: 12/15/2023
 ms.topic: how-to
@@ -21,36 +21,30 @@ In Microsoft Dynamics 365 Project Operations, you can choose to subcontract unst
 - Unstaffed project team members have a generic resource assigned.
 - Staffed team members have a named resource assigned.
 
-When you link a project team member to a subcontract line, any assignments to tasks that the team member has will be recosted based on the purchase price list attached to the subcontract.  On the **Estimates** tab on the **Project Details** page, select the **Update prices** button to see updated pricing and/or costing resulting from the decision to subcontract. 
+When you link a project team member to a subcontract line, the system recosts any assignments to tasks that the team member has based on the purchase price list attached to the subcontract. On the **Estimates** tab on the **Project Details** page, select the **Update prices** button to see updated pricing and costing resulting from the decision to subcontract.
 
 ## Subcontracting an unstaffed project team member
-The **Team Member details** page has subcontract and subcontract line fields that allow a project manager to express how they would like to draw the capacity required from a subcontract. To subcontract a project team member as a generic resource, follow these steps:
 
-1.	Choose a subcontract on the **Team member detail** page.
+The **Team Member details** page has subcontract and subcontract line fields that allow a project manager to specify how they want to draw the capacity required from a subcontract. To subcontract a project team member as a generic resource, follow these steps:
 
-2.	You can only select subcontracts with **Draft** or **Confirmed** status. **Closed** or **Canceled** subcontracts cannot be selected. 
+1. Choose a subcontract on the **Team member detail** page.
+1. Select only subcontracts with **Draft** or **Confirmed** status. You can't select **Closed** or **Canceled** subcontracts.
+1. After you select a subcontract, the **Subcontract line** field becomes visible.
+1. In the **Subcontract line** field, select only subcontract lines that are for time. You can't select subcontract lines for expense or material.
+1. The role for the project team member record needs to match the role on the subcontract line. This requirement ensures that the time for the role that's being estimated on the project is the same role that the system purchases on the subcontract line.
 
-3.	The **Subcontract line** field becomes visible after you select a subcontract.
-
-4.	In the **Subcontract line** field, you can only select subcontract lines that are for time. You cannot select subcontract lines for expense or material.
-
-5.	The role for the project team member record needs to match the role on the subcontract line. This ensures that the time for the role that is being estimated on the project is the same role that is purchased on the subcontract line. 
-
-When a generic team member is associated with a subcontract and subcontract line, the **Worker type** field on the generic team member row will be updated to **Contract Worker** and **Subcontract Validity** will be set to **Valid**.
+When you associate a generic team member with a subcontract and subcontract line, the system updates the **Worker type** field on the generic team member row to **Contract Worker** and sets **Subcontract Validity** to **Valid**.
 
 ## Subcontracting a staffed project team member
-Like generic or unstaffed team members, staffed team member capacity required on a project can also be linked to a subcontract. To subcontract a named project team member, follow these steps:
 
-1.	Make sure that the named resource is set up as a contract worker type of bookable resource. Also, make sure that the **Vendor** field on the bookable resource matches the vendor on the subcontract that you are selecting. 
+You can link staffed team member capacity required on a project to a subcontract, just like generic or unstaffed team members. To subcontract a named project team member, follow these steps:
 
-2.	You can only select subcontracts in **Draft** or **Confirmed** status. **Closed** or **Canceled** subcontracts cannot be selected. 
+1. Set up the named resource as a contract worker type of bookable resource. Also, make sure that the **Vendor** field on the bookable resource matches the vendor on the subcontract that you select.
+1. Select subcontracts in **Draft** or **Confirmed** status. You can't select **Closed** or **Canceled** subcontracts.
+1. After you select a subcontract, the **Subcontract line** field becomes visible.
+1. In the **Subcontract line** field, select only subcontract lines that are for time. You can't select subcontract lines for expense or material.
+1. The role for the project team member record needs to match the role on the subcontract line. This requirement ensures that the time for the role that's being estimated on the project is the same role that the system purchases on the subcontract line.
 
-3.	The **Subcontract line** field becomes visible after you select a subcontract.
-
-4.	In the **Subcontract line** field, you can only select subcontract lines that are for time. You cannot select subcontract lines for expense or material.
-
-5.	The role for the project team member record needs to match the role on the subcontract line. This ensures that the time for the role that is being estimated on the project is the same role that is purchased on the subcontract line. 
-
-Named project team members that are set up as a contract worker type of **Bookable resource** will be show with a subcontract validity status of **Not valid** if they are not linked with a subcontract. When a named project team member is associated with a subcontract and subcontract line, the **Worker type** field in the team member row will update to **Contract Worker** and **Subcontract Validity** will be set to **Valid**.
+If you set up named project team members as a contract worker type of **Bookable resource** and don't link them with a subcontract, they show a subcontract validity status of **Not valid**. When you associate a named project team member with a subcontract and subcontract line, the **Worker type** field in the team member row updates to **Contract Worker** and **Subcontract Validity** is set to **Valid**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

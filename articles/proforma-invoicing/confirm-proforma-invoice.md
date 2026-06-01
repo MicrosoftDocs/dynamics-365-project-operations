@@ -4,7 +4,7 @@ description: This article provides information about confirming a proforma proje
 author: suvaidya
 ms.date: 09/24/2025
 ms.update-cycle: 1095-days
-ms.topic: article
+ms.topic: concept-article
 ms.reviewer: johnmichalak
 ms.author: abriccetti
 ms.custom:

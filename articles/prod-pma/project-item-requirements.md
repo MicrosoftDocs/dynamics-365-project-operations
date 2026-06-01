@@ -4,7 +4,7 @@ description: This article explains how to create project-based item requirements
 author: ryansandness
 ms.author: ryansandness
 ms.date: 08/04/2025
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
@@ -109,7 +109,7 @@ Item requirements that are stocked items that meet any criteria below require fi
 - The project group doesn't allow for invoicing. This scenario includes project types such as fixed price projects, investment projects, and internal projects.
 - The project contract uses billing rules, which overrides the line property to make a transaction category nonchargeable.
 
-To finalize an item requirement, follow these steps.
+To finalize an item requirement, follow these steps:
 
 1. Open the **Item requirements** form and enable the new **Uninvoiced stocked items** filter. This filter shows both stocked and nonstocked item requirements that meet one of the three nonchargeable criteria listed previously. Only stocked items go through the finalization process.
 1. You can select a subset of item requirements, or filter to remove some item numbers or dates. As long as one of the selected lines can be finalized, the process won't error even when chargeable transactions are selected.

@@ -3,7 +3,7 @@ title: Set up baselines
 description: This article provides information about setting up baselines in Dynamics 365 Project Operations. 
 author: dishantpopli
 ms.date: 10/28/2025
-ms.topic: article
+ms.topic: concept-article
 ms.custom: 
   - bap-template
 ms.reviewer: johnmichalak
@@ -18,7 +18,7 @@ With Dynamics 365 Project Operations, you can quickly set up baselines to compar
 
 ## Set a baseline for your project
 
-To set a baseline for your project, follow these steps.
+To set a baseline for your project, follow these steps:
 
 1. Open the project for which you want to set a baseline.
 1. Go to the task tab.
@@ -28,7 +28,7 @@ To set a baseline for your project, follow these steps.
 
 ## Perform a task level comparison
 
-To perform a task level comparison, follow these steps.
+To perform a task level comparison, follow these steps:
 
 1. Select the **Baseline** icon.
 1. Select **Spotlight** and task level insights are presented.
@@ -37,7 +37,7 @@ To perform a task level comparison, follow these steps.
 
 ## Delete a baseline
 
-To delete a baseline, follow these steps.
+To delete a baseline, follow these steps:
 
 1. Select the **Baseline** icon.
 1. Select the **"..."** icon and select **Delete Baseline**.
