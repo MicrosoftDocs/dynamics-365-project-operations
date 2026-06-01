@@ -22,7 +22,7 @@ Microsoft Dynamics 365 Project Operations embeds Microsoft Project for the web i
 > 
 ## Save status
 
-An icon in the top right corner of the Project for the web UI indicates the save status. The save status icon has three states.
+An icon in the top left corner of the Project for the web UI indicates the save status. The save status icon has three states.
 
 A green check mark indicates there isn't a pending save, and Dataverse and Project for the web are in sync. This icon indicates that project data in Dataverse, which is calculated from the work breakdown structure, is up-to-date with all changes (for example, data in the summary, estimates, and tracking tabs).
 
