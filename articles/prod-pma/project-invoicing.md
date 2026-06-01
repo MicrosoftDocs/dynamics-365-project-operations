@@ -1,10 +1,10 @@
 ---
 title: Project invoicing
-description: Learn about project invoicing for Time and material projects and Fixed-price projects, including outlines on invoice proposals.
+description: Learn about project invoicing for Time and material projects and Fixed-price projects, including invoice proposals
 author: sunfzam
 ms.author: ryansandness
 ms.topic: concept-article
-ms.date: 03/05/2026
+ms.date: 06/01/2026
 ms.reviewer: zezhangzhao
 audience: Application User
 ms.search.region: Global
@@ -109,6 +109,22 @@ If your organization requires that you review invoice proposals before posting t
 ### View grant information on project invoice list pages
 
 Public sector users can add the **Grant ID** and **Grant name** to the **Project invoice proposals** and **Project invoices** list pages. Enable these columns by using the **Add grant information to project invoice list pages** feature. This feature is turned off by default. Enable it in **Workspaces** > **Feature management**. Contact your system administrator for assistance with enabling this feature.
+
+### Batch posting invoice proposals with late selection
+
+Starting with version 10.0.48, the **Enable multithreaded posting with late selection** feature enables enhanced performance for late selection, where a batch job evaluates its query criteria—at run time instead of at submission time. For recurring invoice posting jobs, this means proposals created after the job was scheduled are automatically included in the run, without any manual intervention.
+
+Late selection is most valuable when:
+
+- Posting jobs are scheduled in advance and proposal creation continues during the day.
+- Month-end or weekly recurring jobs must capture all proposals regardless of when they were created.
+- Multiple users or integrations are creating proposals continuously in high-volume environments.
+
+#### Changes included with the late selection feature
+
+- An existing parameter for invoice proposal creation was renamed to also control the number of batch threads to post. This paramater under the **Invoice** tab is "Number of subtasks for invoice proposal creation and posting in batch**. The parameter controls the number of parallel subtasks created, not the number of proposals per task.
+- Invoice proposals posted through batch are always distributed as complete invoices. Individual invoice lines are never split across tasks.
+- A primary task distributes the work at run time and exits quickly, while the subtasks process postings in parallel.
 
 ## On-account invoicing
 
