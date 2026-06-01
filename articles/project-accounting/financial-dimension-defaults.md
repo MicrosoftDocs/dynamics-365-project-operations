@@ -2,7 +2,7 @@
 title: Financial dimension defaults
 description: This article provides information about how to set up financial dimension defaults.
 author: ryansandness
-ms.date: 08/01/2025
+ms.date: 06/01/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -107,7 +107,7 @@ For both forecasts and actuals in expense entries, the following behavior occurs
 
 New functionality provides more options for the entry of default financial dimensions on transactions. This feature lets you select the project or contract line to determine the default financial dimensions that are entered on transactions.
 
-To use this functionality, you must enable the **(Preview) Enable flexibility in determining financial dimension defaulting for resource based/non-stocked scenarios** feature in Feature management.
+To use this functionality, you must enable the **Enable flexibility in determining financial dimension defaulting for resource based/non-stocked scenarios** feature in Feature management. This feature is generally available with the 10.0.48 release with full support for task-based billing for documents originating within Dynamics 365 Finance and Supply Chain Management.  
 
 The feature includes the following functionality:
 
@@ -145,6 +145,8 @@ For documents that originate in the finance and operations architecture, many si
 
 ### Feature considerations and limitations
 
-Task-based billing as the source for dimensions isn't supported for documents originating from the finance and operations architecture. If multiple contract lines exist for a transaction type, the first contract line will be used based rather than the task selected.
+Before the 10.0.48 release, the system does not support task-based billing as the source of dimensions for documents that originate in the finance and operations architecture. If multiple contract lines exist for a transaction type, the system uses the first contract line rather than the selected task.
+
+Some postings do not have visibility into transaction lines, so the system continues to merge dimensions from only the document header and project. For example, purchase orders and vendor invoices do not consider individual invoice lines when posting to vendor balance.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
