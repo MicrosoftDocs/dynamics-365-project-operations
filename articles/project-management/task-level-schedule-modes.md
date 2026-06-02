@@ -6,37 +6,21 @@ ms.author: dishantpopli
 ms.date: 05/11/2026
 ms.topic: overview
 ms.custom: bap-template
+ms.reviewer: johnmichalak
 
 ---
 
 # Task-level schedule modes
 
+[!INCLUDE[banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
-
-In Dynamics 365 Project Operations, the project-level scheduling mode determines how effort, duration, and units are calculated across all tasks by default. With task-level schedule modes, you can override the project scheduling mode on individual tasks to apply a different calculation behavior where needed. This capability gives project managers fine-grained control over scheduling without changing the project-wide setting.
-
-## Overview
 
 By default, every task in a project inherits the schedule mode set at the project level. Task-level schedule modes let you assign a different schedule mode to specific tasks, so the scheduling engine calculates effort, duration, and units according to the overridden mode for those tasks.
 
 For example, a project might use **Fixed Duration** as its schedule mode, but a particular deliverable task requires that effort remains constant as resources are added or removed. You can set that task to **Fixed Effort** without affecting the rest of the project.
 
-### Schedule mode options
-
-The **Task Schedule Mode** attribute on the Project Task entity supports five options:
-
-| Schedule mode | Description |
-|---|---|
-| **Fixed Duration** | Duration stays constant. When effort or units change, the other variable is recalculated. |
-| **Fixed Effort** | Effort stays constant. When duration or units change, the other variable is recalculated. |
-| **Fixed Units** | Units stay constant. When effort or duration change, the other variable is recalculated. |
-| **Fixed Duration Effort Driven** | Duration stays constant and work is distributed equally among assigned resources. Adding or removing resources recalculates the effort per resource while keeping total effort and duration constant. |
-| **Fixed Units Effort Driven** | Units stay constant and work is distributed equally among assigned resources. Adding or removing resources recalculates duration while keeping total effort constant. |
-
-> [!NOTE]
-> For detailed information about how each scheduling mode calculates effort, duration, and units, see [Scheduling modes](scheduling-modes.md).
-
-### How task-level schedule modes work
+## How task-level schedule modes work
 
 When you set a schedule mode on a task, the following behavior applies:
 
@@ -45,12 +29,12 @@ When you set a schedule mode on a task, the following behavior applies:
 3. The overridden schedule mode is saved in both the MPP file and Dataverse.
 4. Parent (summary) tasks always use **Fixed Duration**, regardless of the project or task-level schedule mode setting.
 
-### Key behaviors
+## Key behaviors
 
 | Behavior | Detail |
 |---|---|
 | Default | Tasks with no override default to the project-level schedule mode. |
-| Parent tasks | Parent tasks are always **Fixed Duration**. You can't change the schedule mode on a parent task. |
+| Summary tasks | Summary tasks are always **Fixed Duration**. You can't change the schedule mode on a summary task. |
 | Persistence | Overridden task schedule modes are saved in both the MPP file and Dataverse. |
 
 ## Set task-level schedule mode in the UI
@@ -70,9 +54,17 @@ You set the task-level schedule mode through the custom task details pane.
 
 You can set or update the task schedule mode programmatically through the Schedule API when you create or update tasks.
 
-- Set the `msdyn_scheduledmode` attribute on the Project Task entity to one of the five valid option values.
+- Set the `msdyn_taskschedulemode` attribute on the Project Task entity to one of the five valid option values.
 - The Schedule API validates the value. Invalid values, including `null`, are rejected with an error.
 - Bulk updates on tasks that include a task schedule mode value are supported through the Schedule API.
+
+| Schedule mode | Value to be used in API |
+|---|---|
+| **Fixed Effort** | 192350000 |
+| **Fixed Duration** | 192350001 |
+| **Fixed Units** | 192350002 |
+| **Fixed Duration Effort Driven** | 192350003 |
+| **Fixed Units Effort Driven** | 192350004 |
 
 > [!IMPORTANT]
 > You can't set an invalid or `null` value for the task schedule mode through the Schedule API. The API returns an error if you attempt to do so.
@@ -108,7 +100,5 @@ When you import tasks between projects, the behavior follows the same rules as c
 - Overridden task schedule modes are preserved.
 - Tasks where the schedule mode matches the source project's schedule mode default to the destination project's schedule mode.
 
-## Next steps
 
-- [Scheduling modes](scheduling-modes.md)
-- [Customize task details pane](customize-task-details-pane.md)
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
