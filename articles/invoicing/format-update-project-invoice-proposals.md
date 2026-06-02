@@ -244,7 +244,7 @@ This page shows all the invoice proposals that are ready for posting. You can sc
 
 ### Batch posting invoice proposals with late selection
 
-Starting with version 10.0.48, the **Enable multithreaded posting with late selection** feature enables enhanced performance for late selection, where a batch job evaluates its query criteria—at run time instead of at submission time. For recurring invoice posting jobs, this means proposals created after the job was scheduled are automatically included in the run, without any manual intervention.
+Starting with version 10.0.48, the **Enable multithreaded posting with late selection** feature enables enhanced performance for late selection, where a batch job evaluates its query criteria at run time instead of at submission time. For recurring invoice posting jobs, this means proposals created after the job was scheduled are automatically included in the run, without any manual intervention.
 
 Late selection is most valuable when:
 
