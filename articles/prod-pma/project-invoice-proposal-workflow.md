@@ -10,11 +10,11 @@ ms.custom:
 ms.reviewer: johnmichalak
 ---
 
+# Project invoice proposal workflow
+
 _**Applies To:** Project Operations for manufacturing-based scenarios_
 
 [!include [banner](../includes/banner.md)]
-
-# Project invoice proposal workflow
 
 The project invoice proposal workflow lets organizations require formal approval before a project invoice proposal can be posted as a customer invoice. This process provides a consistent, auditable way to review invoice amounts, project details, and billing accuracy before the invoice is sent to the customer.
 
@@ -48,7 +48,7 @@ Starting with version 10.0.48, users with the appropriate security role can rese
 1. Go to Project management and accounting > Periodic > Project invoices > Reset invoice proposal workflow status. This menu item will only be visible if workflow is enabled in the legal entity.
 1. The page lists all invoice proposals in the current legal entity whose workflow is in an Error or Unrecoverable state.
 1. Select one or more invoice proposals to reset.
-1. Select Reset to draft and confirm.
+1. Select **Reset to draft** and confirm.
 
 The selected proposals return to Draft status. Workflow history is preserved for audit purposes. Before resubmitting, investigate and resolve the underlying cause of the failure to prevent it from recurring.
 
