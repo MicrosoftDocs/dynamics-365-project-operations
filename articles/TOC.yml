@@ -2616,6 +2616,8 @@
       href: prod-pma/project-invoicing.md
     - name: Project invoice proposal performance
       href: prod-pma/project-invoice-proposal-performance.md
+    - name: Project invoice proposal workflow
+      href: prod-pma/project-invoice-proposal-workflow.md
     - name: Create advanced contracts for billing based on progress
       href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
     - name: Project sales orders
