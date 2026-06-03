@@ -1,5 +1,5 @@
 ---
-title: Create project invoice proposal workflows
+title: Project invoice proposal workflows
 description: Learn how to enable optional workflows for approval of customer invoice proposals
 author: ryansandness
 ms.author: ryansandness
@@ -10,7 +10,7 @@ ms.custom:
 ms.reviewer: johnmichalak
 ---
 
-# Create project invoice proposal workflows
+# Project invoice proposal workflows
 
 _**Applies To:** Project Operations for manufacturing-based scenarios_
 
