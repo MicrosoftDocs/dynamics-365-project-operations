@@ -33,9 +33,9 @@ When you set a schedule mode on a task, the following behavior applies:
 
 | Behavior | Detail |
 |---|---|
-| Default | Tasks with no override default to the project-level schedule mode. |
-| Summary tasks | Summary tasks are always **Fixed Duration**. You can't change the schedule mode on a summary task. |
-| Persistence | Overridden task schedule modes are saved in both the MPP file and Dataverse. |
+| Default | Task with no override defaults to the project-level schedule mode. |
+| Summary tasks | Summary task is always **Fixed Duration**. You can't change the schedule mode on a summary task. |
+| Persistence | Overridden task schedule mode is saved in both the MPP file and Dataverse. |
 
 ## Set task-level schedule mode in the UI
 
@@ -98,7 +98,7 @@ When you import tasks from an MPP file, overridden task schedule modes (task typ
 When you import tasks between projects, the behavior follows the same rules as copy project and import from MPP:
 
 - Overridden task schedule modes are preserved.
-- Tasks where the schedule mode matches the source project's schedule mode default to the destination project's schedule mode.
+- Task where the schedule mode matches the source project's schedule mode defaults to the destination project's schedule mode.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
