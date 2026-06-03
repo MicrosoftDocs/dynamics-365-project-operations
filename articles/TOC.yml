@@ -429,7 +429,9 @@
     - name: Define project calendars
       href: project-management/define-project-calendars.md
     - name: Scheduling modes
-      hreF: project-management/scheduling-modes.md
+      href: project-management/scheduling-modes.md
+    - name: Task-level schedule modes (preview)
+      href: project-management/task-level-schedule-modes.md
     - name: External scheduling
       href: project-management/external-scheduling.md
     - name: Update a project
@@ -1707,6 +1709,8 @@
       href: project-management/define-project-calendars.md
     - name: Scheduling modes
       href: project-management/scheduling-modes.md
+    - name: Task-level schedule modes (preview)
+      href: project-management/task-level-schedule-modes.md
     - name: External scheduling
       href: project-management/external-scheduling.md
     - name: Update a project
@@ -2616,6 +2620,8 @@
       href: prod-pma/project-invoicing.md
     - name: Project invoice proposal performance
       href: prod-pma/project-invoice-proposal-performance.md
+    - name: Project invoice proposal workflow
+      href: prod-pma/project-invoice-proposal-workflow.md
     - name: Create advanced contracts for billing based on progress
       href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
     - name: Project sales orders

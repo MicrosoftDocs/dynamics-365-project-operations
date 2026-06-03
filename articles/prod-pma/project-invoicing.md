@@ -1,10 +1,10 @@
 ---
 title: Project invoicing
-description: Learn about project invoicing for Time and material projects and Fixed-price projects, including outlines on invoice proposals.
+description: Learn about project invoicing for Time and material projects and Fixed-price projects, including invoice proposals
 author: sunfzam
 ms.author: ryansandness
 ms.topic: concept-article
-ms.date: 03/05/2026
+ms.date: 06/03/2026
 ms.reviewer: zezhangzhao
 audience: Application User
 ms.search.region: Global
@@ -40,7 +40,7 @@ For Time and Material projects, you usually recognize revenue when you invoice t
 - **Project group**: Turn on the **Accrue revenue** option for the transaction types that apply.  
 - **Line property**: Check the **Accrue revenue** flag for the **Line property** tied to billable transactions to allow revenue accrual for those lines.  
 
-When you set up these options, posting a project transaction generates accrual entries. For example, suppose a consultant records one hour on a Time and materials project with a cost of $50/hr and a billing rate of $75/hr. When you post the hour journal, the system creates ledger entries like:
+When you set up these options, posting a project transaction generates accrual entries. For example, suppose a consultant records one hour on a time and materials project with a cost of $50 per hour and a billing rate of $75 per hour. When you post the hour journal, the system creates ledger entries like:
 
 | Posting | Debit | Credit |
 |---------|-------|--------|
@@ -49,7 +49,7 @@ When you set up these options, posting a project transaction generates accrual e
 | Project – Work in progress (WIP) – sales value | $75 | |
 | Project – accrued revenue – sales value | | $75 |
 
-Here, the system immediately recognizes $75 of revenue (credited to accrued revenue) and books it as WIP (debit). The system records the cost as usual (debit project cost $50, credit payroll accrual $50). At this point, the system recognizes accrued revenue ($75) and the project's profit ($25) even though you haven't invoiced the client yet.
+Here, the system immediately recognizes $75 of revenue (credited to accrued revenue) and books it as WIP (debit). The system records the cost as usual (debit project cost $50, credit payroll accrual $50). At this point, the system recognizes accrued revenue ($75) and the project's profit ($25) even though you didn't invoice the client yet.
 
 At invoicing time, Dynamics 365 Project Operations automatically reverses the accrual so that there's no double-counting. The invoice posting credits invoiced revenue and debits the customer receivable. At the same time, the system debits the accrued revenue and credits the WIP account for the same amount, reversing the earlier accrual. After this step, the revenue is now in the final revenue account.
 
@@ -61,9 +61,9 @@ Before you create a customer invoice for a project, you can create a preliminary
 
 ### Creating invoice proposals
 
-You can create invoice proposals by manually selecting a transaction from a list of available transactions for a specified project. You can also set up billing rules that specify when to create an invoice proposal automatically. For example, you can create a billing rule to create an invoice proposal when work on a project is 25, 50, 75, or 100 percent complete.
+Create invoice proposals by manually selecting a transaction from a list of available transactions for a specified project. You can also set up billing rules that specify when to create an invoice proposal automatically. For example, you can create a billing rule to create an invoice proposal when work on a project is 25, 50, 75, or 100 percent complete.
 
-You can create invoice proposals for the following transactions:
+Create invoice proposals for the following transactions:
 
 - Hours, expenses, and other project transactions
 - Amounts that customers withheld on previous project invoices
@@ -110,9 +110,25 @@ If your organization requires that you review invoice proposals before posting t
 
 Public sector users can add the **Grant ID** and **Grant name** to the **Project invoice proposals** and **Project invoices** list pages. Enable these columns by using the **Add grant information to project invoice list pages** feature. This feature is turned off by default. Enable it in **Workspaces** > **Feature management**. Contact your system administrator for assistance with enabling this feature.
 
+### Batch posting invoice proposals with late selection
+
+Starting with version 10.0.48, the **Enable multithreaded posting with late selection** feature provides enhanced performance for late selection. With late selection, a batch job evaluates its query criteria at run time instead of at submission time. For recurring invoice posting jobs, this feature means the job automatically includes proposals created after the job was scheduled, without any manual intervention.
+
+Late selection is most valuable when:
+
+- You schedule posting jobs in advance and proposal creation continue during the day.
+- Month-end or weekly recurring jobs must capture all proposals regardless of when you created them.
+- Multiple users or integrations are creating proposals continuously in high-volume environments.
+
+#### Changes included with the late selection feature
+
+- An existing parameter for invoice proposal creation also controls the number of batch threads to post. Under the **Invoice** tab, the parameter is **Number of subtasks for invoice proposal creation and posting in batch**. The parameter controls the number of parallel subtasks created, not the number of proposals per task.
+- The batch process always distributes invoice proposals as complete invoices. Individual invoice lines are never split across tasks.
+- A primary task distributes the work at run time and exits quickly, while the subtasks process postings in parallel.
+
 ## On-account invoicing
 
-The amount that you enter for a project in an on-account invoice is based on the timing, percentage of completion, and other billing conditions that the related project contract specifies. The amount isn't calculated based on the hours, items, expenses, or fees that are posted to the project.
+The amount that you enter for a project in an on-account invoice is based on the timing, percentage of completion, and other billing conditions that the related project contract specifies. The amount isn't calculated based on the hours, items, expenses, or fees that you post to the project.
 
 You must create an on-account transaction for a Time  and material project or a Fixed-price project before you can add that on-account transaction to a project invoice. On the on-account transaction, enter the amount to invoice a customer. To create a project invoice for the amount, create a preliminary invoice (invoice proposal). In the invoice proposal, select the on-account transaction. You can review the on-account information in the invoice proposal before you create a project invoice for it.
 
@@ -122,7 +138,7 @@ For fixed-price projects, on-account transactions are based on an agreed-upon mi
 
 ### Time and material projects
 
-For Time and material projects, you can bill a customer or other funding source for a prepayment amount by using an on-account invoice proposal. Enter on-account transactions as one line. You can optionally enter more lines as deductions to offset any prepayments that the customer already made. To create deduction lines, enter a minus sign before the amount.
+For time and material projects, bill a customer or other funding source for a prepayment amount by using an on-account invoice proposal. Enter on-account transactions as one line. You can optionally enter more lines as deductions to offset any prepayments that the customer already made. To create deduction lines, enter a minus sign before the amount.
 
 ## Invoice control
 
