@@ -3,7 +3,7 @@ title: Manage project invoice proposals
 description: This article provides details about processing customer-facing invoices with Project Operations Integrated with ERP
 author: ryansandness
 ms.author: ryansandness
-ms.date: 06/01/2026
+ms.date: 06/03/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -244,18 +244,18 @@ This page shows all the invoice proposals that are ready for posting. You can sc
 
 ### Batch posting invoice proposals with late selection
 
-Starting with version 10.0.48, the **Enable multithreaded posting with late selection** feature enables enhanced performance for late selection, where a batch job evaluates its query criteria at run time instead of at submission time. For recurring invoice posting jobs, this means proposals created after the job was scheduled are automatically included in the run, without any manual intervention.
+Starting with version 10.0.48, the **Enable multithreaded posting with late selection** feature provides enhanced performance for late selection. With late selection, a batch job evaluates its query criteria at run time instead of at submission time. For recurring invoice posting jobs, this feature means the job automatically includes proposals created after the job was scheduled, without any manual intervention.
 
 Late selection is most valuable when:
 
-- Posting jobs are scheduled in advance and proposal creation continues during the day.
-- Month-end or weekly recurring jobs must capture all proposals regardless of when they were created.
+- You schedule posting jobs in advance and proposal creation continue during the day.
+- Month-end or weekly recurring jobs must capture all proposals regardless of when you created them.
 - Multiple users or integrations are creating proposals continuously in high-volume environments.
 
 #### Changes included with the late selection feature
 
-- An existing parameter for invoice proposal creation was renamed to also control the number of batch threads to post. This paramater under the **Invoice** tab is "Number of subtasks for invoice proposal creation and posting in batch**. The parameter controls the number of parallel subtasks created, not the number of proposals per task.
-- Invoice proposals posted through batch are always distributed as complete invoices. Individual invoice lines are never split across tasks.
+- An existing parameter for invoice proposal creation also controls the number of batch threads to post. Under the **Invoice** tab, the parameter is **Number of subtasks for invoice proposal creation and posting in batch**. The parameter controls the number of parallel subtasks created, not the number of proposals per task.
+- The batch process always distributes invoice proposals as complete invoices. Individual invoice lines are never split across tasks.
 - A primary task distributes the work at run time and exits quickly, while the subtasks process postings in parallel.
 
 ## Enhanced proforma invoice summary for integrated deployments
