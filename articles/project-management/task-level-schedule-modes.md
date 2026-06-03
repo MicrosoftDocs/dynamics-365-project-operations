@@ -1,5 +1,5 @@
 ---
-title: Task-level schedule modes
+title: Task-level schedule modes (preview)
 description: Learn how to override the project scheduling mode on individual tasks to control how effort, duration, and units are calculated per task.
 author: dishantpopli
 ms.author: dishantpopli
@@ -10,9 +10,11 @@ ms.reviewer: johnmichalak
 
 ---
 
-# Task-level schedule modes
+# Task-level schedule modes (preview)
 
 [!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
