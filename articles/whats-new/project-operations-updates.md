@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 05/07/2026
+ms.date: 04/28/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ms.author: aarondodell
@@ -42,7 +42,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
 |:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
-|                   4.166.3426.2                   |                                      10.0.47                                     |                1.0.166.34262             |
+|                   4.165.3409.5                   |                                      10.0.47                                     |                1.0.165.34095               |
 
 > [!IMPORTANT]
 >
@@ -72,27 +72,11 @@ Dynamics 365 Project Operations consists of two components:
 | **4.169.X.X**    | July 10, 2026             | July 13, 2026             | July 17, 2026             | July 31, 2026             | July 17, 2026           | July 31, 2026             | July 31, 2026           | August 14, 2026           | July 31, 2026           | August 14, 2026           |
 | **4.170.X.X**    | August 07, 2026             |  August 10, 2026               |  August 14, 2026               |  August 28, 2026               |  August 14, 2026             | August 28, 2026             | August 28, 2026           | September 11, 2026           | August 28, 2026           | September 11, 2026           |
 
-## Upcoming release cycle
-
-| **Version/Station** | **Station 1**              | **Station 1**              | **Station 2**              | **Station 2**              | **Station 3**              | **Station 3**              | **Station 4**              | **Station 4**              | **Station 5**              | **Station 5**              |
-|---------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-|                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
-| **4.166.3403.4** <br> Refer to HotFix (**4.166.3426.2**)   | May 08, 2026             | May 08, 2026             | May 08, 2026             | May 15, 2026             | May 08, 2026           | May 15, 2026             | May 15, 2026           | CANCELED           | May 15, 2026           | CANCELED           |
-| **4.167.3420.4** <br> Refer to HotFix (**4.167.3427.2**)   | May 15, 2026             | CANCELED             | CANCELED             | CANCELED             | CANCELED           | CANCELED             | CANCELED           | CANCELED           | CANCELED           | CANCELED           |
-| **4.168.X.X**    | June 12, 2026             | June 19, 2026             | June 19, 2026             | July 03, 2026             | June 19, 2026           | July 03, 2026             | July 03, 2026           | July 17, 2026           | July 03, 2026           | July 17, 2026           |
-| **4.169.X.X**    | July 10, 2026             | July 17, 2026             | July 17, 2026             | July 31, 2026             | July 17, 2026           | July 31, 2026             | July 31, 2026           | August 14, 2026           | July 31, 2026           | August 14, 2026           |
-| **4.170.X.X**    | August 07, 2026             |  August 14, 2026               |  August 14, 2026               |  August 28, 2026               |  August 14, 2026             | August 28, 2026             | August 28, 2026           | September 11, 2026           | August 28, 2026           | September 11, 2026           |
-
 ## HotFix release cycle
 
 | **Version/Station** | **Station 1**              | **Station 1**              | **Station 2**              | **Station 2**              | **Station 3**              | **Station 3**              | **Station 4**              | **Station 4**              | **Station 5**              | **Station 5**              |
 |---------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
 |                     | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
-| **4.145.0.1361**    | Not Applicable             | Not Applicable             | Not Applicable             | Not Applicable             | October 24, 2025           | Not Applicable             | October 24, 2025           | October 24, 2025           | October 24, 2025           | October 24, 2025           |
-| **4.160.0.2288**    | November 11, 2025             | November 11, 2025             | November 11, 2025             | November 11, 2025             | November 11, 2025           | November 14, 2025             | November 14, 2025           | CANCELED           | November 14, 2025           | CANCELED           |
-| **4.160.0.2774**    | November 21, 2025             | November 21, 2025             | November 21, 2025             | November 21, 2025             | November 21, 2025           | November 21, 2025             | November 21, 2025           | December 03, 2025           | November 21, 2025           | December 03, 2025           |
-| **4.160.0.2877**    | December 09, 2025             | December 09, 2025             | December 09, 2025             | December 09, 2025             | December 09, 2025           | December 09, 2025             | December 09, 2025           | December 10, 2025           | December 09, 2025           | December 10, 2025           |
-| **4.163.0.733**    | March 19, 2026             |  March 19, 2026               |  March 19, 2026               |  March 23, 2026               |  March 19, 2026             | March 23, 2026             | March 19, 2026           | March 27, 2026           | March 19, 2026           | March 27, 2026           |
 | **4.165.3409.5**    | May 5, 2026             | May 5, 2026             | May 5, 2026             | May 5, 2026             | May 5, 2026           | May 5, 2026             | May 5, 2026           | May 5, 2026           | May 5, 2026           | May 5, 2026           |
 | **4.166.3426.2**    | Not Applicable             | Not Applicable             | May 21, 2026             | Not Applicable             | May 21, 2026           | Not Applicable             | May 21, 2026           | May 22, 2026           | May 21, 2026           | May 22, 2026      |
 | **4.167.3427.2**    | May 22, 2026             | May 22, 2026             | May 22, 2026             | June 05, 2026             | May 22, 2026           | June 05, 2026             | June 05, 2026           | June 19, 2026           | June 05, 2026           | June 19, 2026           |
