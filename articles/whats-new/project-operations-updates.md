@@ -71,6 +71,7 @@ Dynamics 365 Project Operations consists of two components:
 | **4.168.X.X**    | June 12, 2026             | June 15, 2026             | June 19, 2026             | July 03, 2026             | June 19, 2026           | July 03, 2026             | July 03, 2026           | July 17, 2026           | July 03, 2026           | July 17, 2026           |
 | **4.169.X.X**    | July 10, 2026             | July 13, 2026             | July 17, 2026             | July 31, 2026             | July 17, 2026           | July 31, 2026             | July 31, 2026           | August 14, 2026           | July 31, 2026           | August 14, 2026           |
 | **4.170.X.X**    | August 07, 2026             |  August 10, 2026               |  August 14, 2026               |  August 28, 2026               |  August 14, 2026             | August 28, 2026             | August 28, 2026           | September 11, 2026           | August 28, 2026           | September 11, 2026           |
+| **4.171.X.X**    | September 04, 2026             | September 07, 2026             | September 11, 2026             | September 25, 2026             | September 11, 2026           | September 25, 2026             | September 25, 2026           | October 09, 2026           | September 25, 2026           | October 09, 2026           |
 
 ## HotFix release cycle
 
