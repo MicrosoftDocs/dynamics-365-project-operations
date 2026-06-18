@@ -3,7 +3,7 @@ title: Use general journals for advanced accounting
 description: Learn more about using general journals and record various financial transactions directly into the general ledger.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 12/12/2025
+ms.date: 06/18/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -19,6 +19,13 @@ _**Applies To:** Project Operations Integrated with ERP_
 
 General journals are the all-purpose accounting feature in Microsoft Dynamics 365 Finance. Use general journals to record various financial transactions directly into the general ledger (GL). Common uses include daily accounting entries, adjustments, and integrations from external systems.
 
+## 10.0.48 Feature Enhancements
+
+Enhancements were made to specify the bookable resource on the general journal. This feature enables you to post general journals at the aggregate level without a resource, or in the context of a specific bookable resource.
+
+> [!NOTE]
+> You must previously post at least one transaction through the integration journal for the bookable resource. When you post the transaction, you create resource records in Dynamics 365 Finance that you can use in the general journal.
+
 ## 10.0.46 Feature Enhancements
 
 This feature is now generally available (GA) starting with the 10.0.46 release. Enhancements in the GA include:
@@ -26,7 +33,7 @@ This feature is now generally available (GA) starting with the 10.0.46 release. 
 - Increased journal line limit to 200 lines from 50 lines. Journals larger than 200 lines return an error on posting that "A maximum of 200 project-based lines are supported" and ask the user to reduce the number of lines.
 - Introduced asynchronous processing in transferring the journals to Dataverse.
   - A new process automation named **Project Operations create and confirm Dataverse journals** is configured with a 5-minute interval to transfer the journal lines to Dataverse, and to send the confirmation in Dataverse when the journal is transferred and ready to confirm.
-- The Project Operations Integration workspace is used for tracking any transient communication errors with Dataverse after the first attempt to confirm in Dataverse fails. A new tab for General journal Dataverse sync has been added.
+- The Project Operations Integration workspace is used for tracking any transient communication errors with Dataverse after the first attempt to confirm in Dataverse fails. A new tab for General journal Dataverse sync is added.
   - After five attempts, any further retries require manual intervention from the user to select **Sync** to resume retrying the sync and confirmation.
 - The Dataverse journal is read-only to users during processing and prevents users from changing or confirming the integrated journal.
 
@@ -66,7 +73,7 @@ Actuals are created in Dataverse, but only unbilled sales lines are generated in
 
 ## OneVoucher transactions for allocations
 
-An alternate method to entering journals is possible by enabling [One voucher](/dynamics365/finance/general-ledger/one-voucher). These transactions can negatively affect reporting and you should thoroughly test them before enabling. These types of transactions allow for allocations or apportionment. For example, Contoso might want to purchase a piece of equipment for use for their organization. They have an expense for the equipment but want to charge back 10% of it to each of 10 individual projects. Entering transactions in this way with several lines with different projects allows for a single voucher entry to be posted against multiple projects at the same time.
+You can use an alternate method to enter journals by enabling [One voucher](/dynamics365/finance/general-ledger/one-voucher). These transactions can negatively affect reporting, so thoroughly test them before enabling. These types of transactions allow for allocations or apportionment. For example, Contoso might want to purchase a piece of equipment for use for their organization. They have an expense for the equipment but want to charge back 10% of it to each of 10 individual projects. Entering transactions in this way with several lines with different projects allows for a single voucher entry to be posted against multiple projects at the same time.
 
 ## Limitations
 
