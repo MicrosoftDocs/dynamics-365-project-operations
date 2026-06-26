@@ -2,7 +2,7 @@
 title: Approvals Agent overview (preview)
 description: Get a brief introduction to the Approvals Agent.
 author: abriccetti
-ms.date: 07/15/2025
+ms.date: 06/26/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -17,22 +17,24 @@ ms.author: abriccetti
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-The purpose of the Approvals Agent is to streamline the approval process for time, expense, and material transactions. The Time and Expense Agent uses a [Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) agent to do an initial review of incoming time, expense, and material entries against policy documents that the customer uploaded for each type of entry. If a record meets the criteria that are outlined in the policy document, it's marked as **Ready for approval**. Otherwise, it's marked as **Needs review**. This initial review makes the approval process more efficient for project managers. It also helps them avoid time-consuming corrections by reducing mistaken approvals.
+The Approvals Agent streamlines the approval process for time, expense, and material transactions. The Time and Expense Agent uses a [Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) agent to do an initial review of incoming time, expense, and material entries against policy documents that you upload for each type of entry. If a record meets the criteria outlined in the policy document, the agent marks it as **Ready for approval**. Otherwise, it marks the record as **Needs review**. This initial review makes the approval process more efficient for project managers. It also helps them avoid time-consuming corrections by reducing mistaken approvals.
 
 ## Set up the Approvals Agent
 
 An admin must enable and set up the Approvals feature of the Time and Expense Agent by following the steps in [Set up the Approvals Agent using the Dynamics 365 Agent Deployment Tool (preview)](activate-approvals-agent-wizard.md). After the feature is correctly set up, enable the agent by selecting **Enable Time and Expense Agent** in the **Feature Control** field on the **Project Parameters** page.
 
-After the agent is enabled, a new **Time and Expense Agent** tab appears on the **Project Parameters** page. Use this tab to upload policy documents for time, expense, and material submissions. Learn more about how to write a policy document, and get some examples of policy documents, in [Set up policy documents for the Approvals Agent](approvals-agent-policy.md). If a policy document isn't available for a specific type of record, the agent doesn't classify approval records of that type.
+After you enable the agent, a new **Time and Expense Agent** tab appears on the **Project Parameters** page. Use this tab to upload policy documents for time, expense, and material submissions. For more information about how to write a policy document and examples of policy documents, see [Set up policy documents for the Approvals Agent](approvals-agent-policy.md). If a policy document isn't available for a specific type of record, the agent doesn't classify approval records of that type.
 
-Additionally, you can use the menu to set the mode of the agent to either **Classify** or **Classify and auto approve**. In **Classify** mode, records that are marked as **Ready for approval** must be manually approved by the project manager. In **Classify and auto approve** mode, records that are marked as **Ready for approval** are automatically processed for approval.
+You can also use the menu to set the mode of the agent to either **Classify** or **Classify and auto approve**. In **Classify** mode, the project manager must manually approve records that are marked as **Ready for approval**. In **Classify and auto approve** mode, the agent automatically processes records that are marked as **Ready for approval** for approval.
 
 > [!NOTE]
-> We recommend that you do rigorous testing before you use the agent in **Classify and auto approve** mode.
+> Test the agent thoroughly before you use it in **Classify and auto approve** mode.
+
+You can also control which projects the agent reviews. On each project, the **Use approvals agent to review entries** flag determines whether the agent receives time, expense, and material entries linked to that project for classification. To set the default for newly created projects, use the **Automatically use approvals agent for new projects** option on the **Project Parameters** page. This option sets the project-level flag to **Yes** or **No** when a project is created. This option lets you scope agent review to specific projects rather than applying it across every project in the environment.
 
 ## Use the Approvals Agent
 
-When a user submits a time, expense, or material record for approval in an environment where the agent is enabled and policy documents were uploaded, the record goes into a queue for classification by the agent. For each record that the agent classifies, it creates a new record that contains its classification decision. To view the list of records that the agent classified, select **Approvals Agent** in the left pane to open the **Time entries reviewed by Agent** page.
+When a user submits a time, expense, or material record for approval in an environment where the agent is enabled and policy documents are uploaded, the record goes into a queue for classification by the agent. For each record that the agent classifies, it creates a new record that contains its classification decision. To view the list of records that the agent classified, select **Approvals Agent** in the left pane to open the **Time entries reviewed by Agent** page.
 
 ![Screenshot that shows the list of records that the agent classified on the Time entries reviewed by Agent page. It also highlights Approvals Agent in the left pane.](media/agentviewscreenshot.png)
 
