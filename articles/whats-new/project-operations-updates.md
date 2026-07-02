@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 06/05/2026
+ms.date: 07/02/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ms.author: aarondodell
@@ -35,14 +35,14 @@ Dynamics 365 Project Operations consists of two components:
 
 ## Project Operations release notes
 
-- Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-mar-2026-resource-based.md) scenario.
-- Project Operations latest release notes for [Core deployment](../pro/whats-new/whats-new-mar-2026-lite.md) scenario.
+- Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-june-2026-resource-based.md) scenario.
+- Project Operations latest release notes for [Core deployment](../pro/whats-new/whats-new-june-2026-lite.md) scenario.
 
 ## Project Operations latest version
 
 | **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
 |:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
-|                   4.165.3409.5                   |                                      10.0.47                                     |                1.0.165.34095               |
+|                   4.168.3456.2                   |                                      10.0.47                                     |                1.0.168.34562               |
 
 > [!IMPORTANT]
 >
