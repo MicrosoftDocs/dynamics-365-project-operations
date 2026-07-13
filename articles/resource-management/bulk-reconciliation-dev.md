@@ -3,7 +3,7 @@ title: Reconcile projects with Bulk Reconciliation
 description: This article explains how you can reconcile differences between assignments and bookings by using the bulk reconciliation API.
 author: abriccetti
 ms.author: abriccetti
-ms.date: 02/26/2026
+ms.date: 07/13/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,22 +16,22 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 
 Microsoft Dynamics 365 Project Operations supports the reconciliation of bookings to assignments for the bookable resources on a project. Use this functionality to fix the alignment between bookings and assignments.
 
-*Resource reconciliation* is the process of aligning bookings with assignments when there's a difference between the resource's total booking hours and a rollup of the resource's task assignments for a specific project in each period.
+_Resource reconciliation_ is the process of aligning bookings with assignments when there's a difference between the resource's total booking hours and a rollup of the resource's task assignments for a specific project in each period.
 
-The following list describes some of the reasons why bookings and assignments might become out of alignment:
+The following list describes some of the common reasons why bookings and assignments might be out of alignment:
 
 - A project delay moves the assignments and therefore the contours.
-- A project pause or move moves the assignments. Therefore, excess bookings and booking shortages cause more delays.
+- A project pause or move shifts the assignments. Therefore, excess bookings and booking shortages cause more delays.
 - A resource calendar modification changes the contours.
 - A project's calendar modification.
 - One or more tasks are assigned to a resource, but the resource isn't booked.
 - A resource is assigned and booked, but then a new resource is assigned.
 
-Currently, the [resource reconciliation](resource-reconciliation-overview.md) functionality in Project Operations supports limited reconciliation. Use the **Bulk Reconciliation** custom action to efficiently reconcile bookings for entire projects at one time.
+Use the **Bulk Reconciliation** custom action to efficiently reconcile bookings for entire projects at one time. Alternatively, consider the [Bulk Resource Reconciliation UI](resource-reconciliation-overview.md#bulk-resource-reconciliation-ui-preview) feature.
 
 ## Key concepts
 
-- **Assignments** – Assignments are part of the project planning and tracking process. Project managers use them to commit resources or assign them to project tasks in the project schedule.
+- **Assignments** – Assignments are part of the project planning and tracking process. Project managers use assignments to commit resources or assign them to project tasks in the project schedule.
 - **Bookings** – Bookings are the hard or soft allocation of resources to a project. Depending on the booking method that you use, bookings typically consume a bookable resource's capacity.
 - **Contours** – Contours represent the distribution of the assignment hours per day.
 
@@ -72,7 +72,7 @@ The following validations fail an individual operation for resource reconciliati
 
 ### Definition of reconciled
 
-Currently, the reconciliation grid in the user interface (UI) and the Resource Reconciliation Asynchronous Plugin (API) define the term *reconciled* differently. The plugin uses a narrower or stricter definition. Therefore, everything that the plugin considers reconciled should also be reconciled according to the reconciliation grid. However, the opposite isn't always true. Some known scenarios that are unrelated to this work break the reconciliation grid. These scenarios usually involve cases where the effort for contours exceeds the duration, where there are existing bookings, and where the **Extend Booking** action is then attempted. Although the Bulk Reconciliation feature can correctly reconcile the resources in these scenarios, the resources might continue to appear unreconciled in the reconciliation grid.
+Currently, the reconciliation grid in the user interface (UI) and the Resource Reconciliation Asynchronous Plugin (API) define the term _reconciled_ differently. The plugin uses a narrower or stricter definition. Therefore, everything that the plugin considers reconciled should also be reconciled according to the reconciliation grid. However, the opposite isn't always true. Some known scenarios that are unrelated to this work break the reconciliation grid. These scenarios usually involve cases where the effort for contours exceeds the duration, where there are existing bookings, and where the **Extend Booking** action is then attempted. Although the Bulk Reconciliation feature can correctly reconcile the resources in these scenarios, the resources might continue to appear unreconciled in the reconciliation grid.
 
 ### Reconciliation operation logs
 

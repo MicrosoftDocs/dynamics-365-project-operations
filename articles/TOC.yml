@@ -702,6 +702,8 @@
     items: 
     - name: Time overview
       href: time/time-entry-overview.md
+    - name: Time Entry Configurations
+      href: time/time-entry-configurations.md
     - name: Enhanced Team Member Experience (preview)
       href: time/enhanced-team-member-experience.md
     - name: Create time entries
@@ -1971,6 +1973,8 @@
     items: 
     - name: Time overview
       href: time/time-entry-overview.md
+    - name: Time Entry Configurations
+      href: time/time-entry-configurations.md
     - name: Enhanced Team Member Experience (preview)
       href: time/enhanced-team-member-experience.md
     - name: Create time entries
