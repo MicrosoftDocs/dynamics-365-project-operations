@@ -2,7 +2,7 @@
 title: Enhanced Team Member experience (Preview)
 description: Learn how team members can keep track of assigned tasks and projects that they're staffed on, using the enhanced team member app experience in Microsoft Dynamics 365 Project Operations.
 author: mohitmenon
-ms.date: 04/27/2026
+ms.date: 07/13/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -22,7 +22,7 @@ The enhanced team member experience helps you keep track of projects and tasks t
 This article provides an overview of the new experience and explains how to:
 
 - Enable the Enhanced Team Member experience feature.
-- Keep track of projects that you're staffed on.
+- Keep track of projects that you're booked on.
 - Keep track of project tasks you're assigned to.
 - Add a personal checklist and notes for your tasks.
 - Streamline logging of weekly time entries.
@@ -41,19 +41,28 @@ To enable the Enhanced Team Member experience feature, follow these steps:
 
 After you enable the feature, two new menu items named **Assignments** and **Projects** display in the **My Work** section of the **Project Operations Team Member app only**.
 
-## Track of projects that you're staffed on
+## Track projects that you're booked on
 
-You can view a list of projects for which you were added as a team member and your membership on that project is active in the displayed week. You can navigate to other weeks to keep track of completed or upcoming projects as well.
+You can view a list of projects for which your capacity is booked and the booking is active in the displayed time period. You can navigate to other weeks to keep track of completed or upcoming projects as well.
 
 > [!NOTE]
-> You can configure the list of fields visible within this grid through Power Apps by updating the view named _My Projects_, within the _Team Member_ table.
+> You can configure the list of fields visible within this grid through Power Apps by updating the view named _My Bookings_, within the _Bookable Resource Booking_ table.
 
-To track of projects that you're staffed on, follow these steps:
+To track your project bookings, follow these steps:
 
 1. Go to the Project Operations Team Member app.
-1. Select the **Projects** menu item under **My Work**.
+1. Select the **Bookings** menu item under **My Work**.
 
-## Track of project tasks that you're assigned to
+### View time-phased project bookings
+
+To view your time-phased project bookings, follow these steps:
+
+1. Go to the Project Operations Team Member app.
+1. Select the **Bookings** menu item under **My Work**. Switch from **My Bookings** view to **My Time Phased Bookings**.
+1. Select **Daily**, **Weekly**, or **Monthly** to change the time horizon (set to **Weekly** by default). The selected horizon determines how your bookings are grouped and shows the total hours you're staffed on for that period.
+1. The time icon allows team members to show or hide staffed hours for each time slice as well.
+
+## Track project tasks that you're assigned to
 
 You can view a list of project tasks that you're assigned to during the displayed week. You can also go to other weeks to keep track of completed or upcoming task assignments.
 
@@ -64,6 +73,15 @@ To track of project tasks that you're assigned to, follow these steps:
 
 1. Go to the Project Operations Team Member app.
 1. Select the **Assignments** menu item under **My Work**.
+
+### View time-phased task assignments
+
+To view your time-phased task assignments, follow these steps:
+
+1. Go to the Project Operations Team Member app.
+1. Select the **Assignments** menu item under **My Work**. Switch from **My Bookings** view to **My Time Phased Assignments**.
+1. Select **Daily**, **Weekly**, or **Monthly** to change the time horizon (set to **Weekly** by default). The selected horizon determines how your assignments are grouped and shows the total hours you're staffed on for that period.
+1. The time icon allows team members to show or hide assigned hours for each time slice as well.
 
 ## Add a personal checklist and notes for your tasks
 
@@ -97,7 +115,7 @@ You can also edit or delete notes.
 
 ## Streamline logging of weekly time entries
 
-Before the enhanced team member experience, users started their time entry process from a blank grid without context of projects or tasks that they worked on for that week. Now, team members can use their staffed projects or assigned tasks as the reference for logging time entries. 
+Before the enhanced team member experience, users started their time entry process from a blank grid without context of projects or tasks that they worked on for that week. Now, team members can use their staffed projects or assigned tasks as the reference for logging time entries.
 
 To log time entries, follow these steps:
 
