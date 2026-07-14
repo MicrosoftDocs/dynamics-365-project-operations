@@ -15,7 +15,7 @@ ms.collection:
 
 # Copilot for project responsible AI FAQ
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This article provides answers to frequently asked questions about Microsoft Copilot for project.
 

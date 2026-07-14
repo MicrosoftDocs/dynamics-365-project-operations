@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Create custom fields and entities as pricing dimensions
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 

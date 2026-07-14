@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Booking statuses
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Regardless of whether your organization operates in **Centralized** mode or **Hybrid** mode (decentralized), Microsoft Dynamics 365 Project Operations provides four booking statuses: **Hard**, **Soft**, **Proposed**, and **Canceled**.

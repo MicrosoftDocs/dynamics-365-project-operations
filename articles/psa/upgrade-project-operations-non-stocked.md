@@ -20,6 +20,8 @@ ms.reviewer: johnmichalak
 
 # Upgrade from Project Service Automation to Project Operations
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 We're excited to announce the second of three phases for upgrade from Microsoft Dynamics 365 Project Service Automation to Microsoft Dynamics 365 Project Operations. This article provides an overview for customers who are embarking on this exciting journey. 
 
 The upgrade delivery program is split into three phases. Phase 3 is now live for customers.

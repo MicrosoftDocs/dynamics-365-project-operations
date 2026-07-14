@@ -16,7 +16,7 @@ ms.reviewer: johnmichalak
 
 # Responsible AI FAQs for Microsoft Dynamics 365 Project Operations
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 [!INCLUDE[responsible-ai-intro](../includes/responsible-ai.intro.md)]
 

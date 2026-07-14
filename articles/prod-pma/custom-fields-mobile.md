@@ -15,7 +15,7 @@ ms.search.validFrom: 2019-05-29
 
 # Implement custom fields for the Microsoft Dynamics 365 Project Timesheet mobile app on iOS and Android
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This article provides common patterns for using extensions to implement custom fields. It covers the following topics:
 

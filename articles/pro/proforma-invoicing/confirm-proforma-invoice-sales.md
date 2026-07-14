@@ -14,7 +14,7 @@ ms.author: abriccetti
 
 # Confirm a proforma project invoice 
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

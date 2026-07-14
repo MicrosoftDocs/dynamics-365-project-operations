@@ -12,7 +12,7 @@ ms.author: aarondodell
 
 # Change language localization settings
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 Project Operations supports localization of the user interface (UI) and data.
 

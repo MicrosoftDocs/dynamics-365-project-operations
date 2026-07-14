@@ -13,6 +13,8 @@ ms.author: ramagadu
 
 # What's new 2023 wave 1 early access - Project Operations Core
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 _**Applies To:** Project Operations Core_
 
 This article applies to the following Microsoft Dynamics 365 Project Operations components and versions:

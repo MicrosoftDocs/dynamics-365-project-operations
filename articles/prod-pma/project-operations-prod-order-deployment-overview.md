@@ -13,6 +13,8 @@ ms.author: poojafandan
 
 # Project Operations for manufacturing deployment overview
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations for manufacturing-based scenarios_
 
 

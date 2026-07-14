@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Products
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Products are the backbone of your business. The product catalog in Dynamics 365 Sales Professional is a collection of products and pricing information. Make it easier for your sales reps to increase their sales by quickly creating a product catalog.

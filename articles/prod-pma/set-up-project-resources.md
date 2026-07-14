@@ -14,7 +14,7 @@ ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 
 # Set up project resources
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 You must set up a calendar and associate it with an employee or a worker. Use the calendar to schedule the project and the working time of the resources that you reserve for the project. During calendar setup, project managers can do resource leveling as part of resource optimization. Based on the calendar schedule, you can put restrictions on resources. Set up a calendar on the **Calendars** page.
 

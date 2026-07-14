@@ -18,7 +18,7 @@ ms.reviewer: johnmichalak
 ---
 # Why is price defaulting to zero on time sales actuals?
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

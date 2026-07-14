@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Define resource calendars
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Each bookable resource working on a project needs a calendar of working hours to define their availability. You can define working hours for a resource in two ways:

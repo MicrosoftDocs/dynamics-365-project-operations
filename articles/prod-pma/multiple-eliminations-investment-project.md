@@ -13,7 +13,7 @@ ms.custom:
  
 # Enable multiple eliminations for an investment project (preview)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 **Applies to:** Dynamics 365 Project Operations for Integrated with ERP, Dynamics 365 Project Operations for manufacturing

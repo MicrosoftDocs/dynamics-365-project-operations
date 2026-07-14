@@ -13,7 +13,7 @@ ms.author: abriccetti
 
 # Actuals
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations Integrated with ERP, Project Operations Core_
 

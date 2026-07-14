@@ -12,6 +12,8 @@ ms.author: mohitmenon
 
 # Time entry UI behavior
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 

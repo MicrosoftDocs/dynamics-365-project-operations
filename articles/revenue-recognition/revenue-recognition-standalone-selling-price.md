@@ -13,7 +13,7 @@ ms.author: mukumarm
 
 # Enable revenue recognition based on contract standalone selling price (preview)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_

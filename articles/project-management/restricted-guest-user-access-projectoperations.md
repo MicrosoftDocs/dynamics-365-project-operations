@@ -11,7 +11,7 @@ author: poojafandan
 
 # Restricted Guest User Access support for Project Operations
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 To enable organizations to collaborate more effectively with external partners and contractors while maintaining security, enable the Restricted Guest Access (RGA) policy in Microsoft Entra ID. When you enable this policy, guest users from Microsoft Entra ID can access Microsoft Project and Microsoft Dynamics 365 Project Operations.
 

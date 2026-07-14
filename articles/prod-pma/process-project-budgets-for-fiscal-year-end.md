@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 # Transfer project budgets at fiscal year end
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 When working on a multiyear project, you might have remaining budget at the end of the fiscal year. You can transfer the remaining budget amounts to a future year, and create budget register details for the amounts in the associated general ledger accounts. Before you carry forward the remaining amounts, review and analyze the remaining budget amounts.
 

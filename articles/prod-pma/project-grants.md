@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Project grants
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 A grant is a gift of money for a specific purpose or project. Usually, restrictions apply to how you can spend a grant. In Project management and accounting, you can enter and track grants, and define their relationships to projects and project contracts. For example, you can perform the following tasks:
 

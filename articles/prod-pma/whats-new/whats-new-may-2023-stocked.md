@@ -13,6 +13,8 @@ ms.author: ramagadu
 
 # What's new or changed in Project Operations, May 2023 for Project Operations for manufacturing
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 _**Applies To:** Project Operations for Project Operations for manufacturing-based scenarios_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:

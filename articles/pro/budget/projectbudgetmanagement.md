@@ -12,7 +12,7 @@ ms.author: nimaski
 
 # Project budget management overview
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 **_Applies to:_** _Core deployment - deal to proforma invoicing._
 

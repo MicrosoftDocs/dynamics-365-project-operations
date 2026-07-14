@@ -18,7 +18,7 @@ ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 
 _**Applies To:** Project Operations for manufacturing-based scenarios_
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This article provides an overview of project invoicing for Time and material projects and Fixed-price projects. It includes information about invoice proposals (preliminary invoices), invoice control, on-account invoicing, vendor invoicing, and credit notes.
 

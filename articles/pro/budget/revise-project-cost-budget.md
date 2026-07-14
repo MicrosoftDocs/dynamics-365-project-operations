@@ -12,7 +12,7 @@ ms.author: nimaski
 
 # Revise a project cost budget
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 

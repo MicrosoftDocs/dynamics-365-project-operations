@@ -12,7 +12,7 @@ ms.author: mohitmenon
 
 # Expense entry (Project Operations Core)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations Core_
 

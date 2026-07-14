@@ -10,7 +10,7 @@ ms.author: mohitmenon
 
 # Time Entry Calendar interface overview (preview)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 

@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Create estimates on a quote line
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 On a project-based quote, use the Quote line detail entity to estimate the work required to deliver a project. You can then share that estimate with the customer.

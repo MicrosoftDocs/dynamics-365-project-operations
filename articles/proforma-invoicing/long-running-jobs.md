@@ -12,7 +12,7 @@ ms.author: abriccetti
 
 # Enable notifications for long-running processes
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 

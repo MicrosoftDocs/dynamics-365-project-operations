@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Intercompany vendor invoice
 
-[!include [banner](../../includes/dataverse-preview.md)]
+[!INCLUDE [banner](../../includes/dataverse-preview.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

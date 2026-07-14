@@ -10,6 +10,8 @@ ms.author: abriccetti
 
 # Revise (correct) project invoices
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 
 A confirmed project invoice can be revised to process changes or credits as negotiated with the customer and project manager.

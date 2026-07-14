@@ -16,6 +16,8 @@ ms.collection:  #Required; The values for this attribute will be updated over ti
 
 # What's new or changed in Project Operations
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 Wondering about upcoming and recently released capabilities in Project Operations? [Check out the release planner site](https://experience.dynamics.com/releaseplans/?app=Project+Operations). We've captured all the details, end to end, top to bottom, which you can use for planning.  
 
 See the release plans for what's coming. Choose the following link to learn about the latest versions of this app.

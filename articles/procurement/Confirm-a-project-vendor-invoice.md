@@ -11,6 +11,8 @@ ms.reviewer: johnmichalak
 
 # Confirm project vendor invoices
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP
 
 When you enable the **Manual confirmation by PM is required** parameter, vendor invoices that you create in Microsoft Dataverse have the **Draft** status. You must review and manually confirm vendor invoices that you create in this way. When you disable the **Manual confirmation by PM is required** parameter, vendor invoices that you create in Dataverse are automatically confirmed. No further action is required. 

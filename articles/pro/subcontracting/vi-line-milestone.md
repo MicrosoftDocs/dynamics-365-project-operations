@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Vendor invoice lines for milestones
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

@@ -13,7 +13,7 @@ ms.search.validFrom: 2020-10-01
 
 # Actuals impact for an internal project
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations Integrated with ERP, Project Operations Core_
 

@@ -12,7 +12,7 @@ ms.author: mukumarm
 
 # Block vendor payments until approved by a project manager
 
-[!include [banner](../../includes/dataverse-preview.md)]
+[!INCLUDE [banner](../../includes/dataverse-preview.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

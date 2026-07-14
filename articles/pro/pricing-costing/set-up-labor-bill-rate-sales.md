@@ -12,7 +12,7 @@ ms.author: abriccetti
 
 # Set up labor bill rates Core deployment
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 _**Applies To:** Project Operations Core_

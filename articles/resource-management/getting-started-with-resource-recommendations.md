@@ -15,7 +15,7 @@ ms.custom:
 
 # Prerequisites to use resource recommendations (preview)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 

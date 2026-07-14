@@ -19,7 +19,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 # Set up roles on Work breakdown structure templates
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Project managers set up Work breakdown structure (WBS) templates that they apply when they create a WBS for new projects. Project managers add roles when they create a template. Use the following procedure to assign a role to a WBS template.
 

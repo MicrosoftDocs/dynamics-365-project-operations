@@ -9,6 +9,8 @@ ms.date: 04/21/2026
 
 # Use row summaries in Project Operations
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 [!INCLUDE [record-summaries](~/../shared-content/shared/dynamics365-core/record-summaries.md)]
 
 ### Related information

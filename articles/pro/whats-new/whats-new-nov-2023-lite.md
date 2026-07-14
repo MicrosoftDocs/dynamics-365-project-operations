@@ -14,6 +14,8 @@ ms.author: dishantpopli
 
 # What's new November 2023 - Project Operations Core
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 _**Applies To:** Project Operations Core_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:

@@ -14,7 +14,7 @@ ms.custom:
 
 # Sign up for Project Operations trials
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core, Project Operations for manufacturing-based scenarios_
 

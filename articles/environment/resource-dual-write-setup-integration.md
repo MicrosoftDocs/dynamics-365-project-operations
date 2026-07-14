@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Project Operations setup and configuration data integration
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Units and unit groups
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Units are the quantities or measurements that you use to sell your products or services. For example, if you sell gardening supplies, you might sell seeds in units of packets, boxes, and pallets. A unit group is a collection of these different units.

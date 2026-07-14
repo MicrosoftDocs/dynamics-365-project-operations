@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Create project quotes from opportunities
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 You can create quotes from project opportunities in the following ways:

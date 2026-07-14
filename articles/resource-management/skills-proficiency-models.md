@@ -13,6 +13,8 @@ ms.custom:
 
 # Skills and certifications
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Use characteristics to enrich the attributes that describe the abilities of a resource. Each characteristic of a resource can be described as a **Skill** or a **Certification**.

@@ -19,7 +19,7 @@ ms.search.validFrom: 2019-01-15
 
 # Set up and use pay-when-paid vendor payments
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 When you approve a vendor to work as a subcontractor, you might want to withhold payment to the vendor until your customer pays you for the project. To support this scenario, set up pay-when-paid (PWP) terms when you create the purchase order (PO) with the vendor.
 

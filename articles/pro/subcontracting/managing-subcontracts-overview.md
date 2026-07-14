@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Subcontract management in Project Operations
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 

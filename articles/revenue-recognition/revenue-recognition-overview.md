@@ -11,7 +11,7 @@ ms.author: sigitac
 
 # Revenue recognition overview
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
  > [!NOTE]

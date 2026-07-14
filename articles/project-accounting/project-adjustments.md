@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Project adjustments
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations for manufacturing-based scenarios_
 
 ## Adjustments overview

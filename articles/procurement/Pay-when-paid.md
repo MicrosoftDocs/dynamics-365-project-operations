@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Pay when paid vendor payments
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 This article explains how to use the pay when paid (PWP) scenario.

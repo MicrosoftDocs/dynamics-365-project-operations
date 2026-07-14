@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Resource reconciliation overview
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 For team members, bookings and assignments are loosely coupled. In other words, resources can have assignments and no bookings, or they can have bookings and no assignments. Ideally, bookings and assignments align, so resources have committed capacity to perform the task assignments. However, the bookings might be based on availability, and task timings might change as the project continues. Therefore, the loose coupling of bookings and assignments provides flexibility.

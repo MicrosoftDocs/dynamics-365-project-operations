@@ -13,7 +13,7 @@ ms.author: poojafandan
 
 # Product-based quote lines overview
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

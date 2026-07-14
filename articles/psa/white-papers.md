@@ -18,7 +18,7 @@ ms.reviewer: johnmichalak
 ---
 # White papers for Project Service
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 These white papers are designed to provide in-depth information for [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] project service automation.
 

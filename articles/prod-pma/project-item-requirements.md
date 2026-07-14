@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Project item requirements
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 An *item requirement* is a sales order document that has project-specific integrations and enhancements that nonproject sales orders lack. An item requirement is unique and provides flexibility during planning for item consumption throughout the lifecycle of a project. You can record item requirements earlier than sales orders.
 

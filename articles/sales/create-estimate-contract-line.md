@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Estimate a project-based contract line
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

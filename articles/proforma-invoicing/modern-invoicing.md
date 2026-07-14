@@ -12,6 +12,8 @@ ms.reviewer: johnmichalak
 
 # Improve invoice usability with modern invoicing
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 *Applies to:* Dynamics 365 Project Operations Core, Dynamics 365 Project Operations integrated with ERP
 
 The modern invoicing experience in Dynamics 365 Project Operations provides a consolidated view of contracts, contract lines, and invoiceable transactions. It includes usability enhancements that streamline invoice management, editing, validation—reducing select, improving clarity, and aligning with real-world billing workflows.

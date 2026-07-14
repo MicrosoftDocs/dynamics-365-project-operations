@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Edit a resource requirement
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 After the **Generate Requirement** action in the team member grid defines a resource requirement, the project manager can edit the requirement and add more details.

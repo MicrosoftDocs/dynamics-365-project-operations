@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Vendor and purchase price list management in Project Operations
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

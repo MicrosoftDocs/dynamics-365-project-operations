@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Manage delegation
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 An expense delegate can create and manage expense reports for another employee.
 

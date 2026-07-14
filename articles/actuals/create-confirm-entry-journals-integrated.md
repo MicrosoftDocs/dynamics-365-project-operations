@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Create and confirm Entry journals for Project Operations Integrated with ERP based scenarios
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP
 

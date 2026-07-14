@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 # Transfer a quotation to a project
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 When a project quotation has a status of **Confirmed**, you can transfer some or all the quotation lines to a new or existing project by using the **Transfer to project** wizard. 
 

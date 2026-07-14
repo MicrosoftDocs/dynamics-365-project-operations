@@ -10,7 +10,7 @@ ms.author: poojafandan
 
 # Copy project-based contracts
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

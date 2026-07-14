@@ -12,7 +12,7 @@ ms.author: poojafandan
 
 # Model what-if scenarios for a project quote (Preview)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 _**Applies To:** Project Operations Core, Project Operations Integrated with ERP_

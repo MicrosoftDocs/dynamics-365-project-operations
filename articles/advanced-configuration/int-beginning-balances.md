@@ -12,7 +12,7 @@ ms.author: mukumarm
 
 # Manage beginning balances for Project Operations integrated with ERP deployments
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations integrated with ERP deployments._
 

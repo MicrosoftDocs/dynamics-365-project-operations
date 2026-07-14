@@ -10,6 +10,8 @@ ms.author: dishantpopli
 
 # Import projects from the Microsoft Project desktop client
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Microsoft Dynamics 365 Project Operations lets project managers import their Microsoft Project desktop client files (.mpp files) to create projects.

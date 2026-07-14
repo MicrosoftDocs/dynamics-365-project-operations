@@ -12,7 +12,7 @@ ms.author: poojafandan
 
 # Import estimates from a project to a project contract line
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 

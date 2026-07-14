@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Purchase orders for non-stocked and service items without item requirements
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 To use purchase orders without item requirements, set the **Create Item requirements** option to **No** in Project management & accounting parameters.
 

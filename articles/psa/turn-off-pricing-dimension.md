@@ -20,7 +20,7 @@ ms.reviewer: johnmichalak
 
 # Turn off a pricing dimension
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 You may need to review and update your pricing strategy every few years. Any updates you make might require that you turn off an existing pricing dimension and create a new one. For example, you may have previously priced by **Role**, but now you have decided to price by **Work Experience**. This may require you to turn off **Role** as a pricing dimension and create **Work Expereince** as a new pricing dimension. 
 

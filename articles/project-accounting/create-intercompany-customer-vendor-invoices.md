@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Create intercompany customer and vendor invoices
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 A project accountant in a lending legal entity creates an intercompany customer invoice for the project costs that are transferred to the borrowing entity. After the intercompany customer invoice is approved and posted, the lending legal entity sends the intercompany invoice to the borrowing legal entity.

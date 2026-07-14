@@ -13,6 +13,8 @@ ms.search.validFrom: 2020-10-01
 
 # Define and edit project calendars
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 ## Setting a project's calendar

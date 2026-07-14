@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Header details for project-based opportunities
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 

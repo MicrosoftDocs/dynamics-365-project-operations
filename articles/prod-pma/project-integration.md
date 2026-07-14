@@ -21,7 +21,7 @@ ms.dyn365.ops.version: 7.3
 
 # Microsoft Project client integration
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 > **This integration is built on legacy technology and is not receiving further investment. Support for this feature will end by January 2025.**

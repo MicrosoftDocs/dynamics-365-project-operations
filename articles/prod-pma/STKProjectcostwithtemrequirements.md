@@ -13,7 +13,7 @@ ms.date: 02/06/2026
 
 # Purchase orders for stocked items with item requirements
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 To use purchase orders with item requirements, set the **Create Item requirements** option to **Yes** in Project management & accounting parameters.
 

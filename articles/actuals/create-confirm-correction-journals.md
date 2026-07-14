@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-10-01
 
 # Create and confirm Correction journals
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 

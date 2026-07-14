@@ -10,7 +10,7 @@ ms.author: ryansandness
 
 # Integration journal in Project Operations
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP._
 

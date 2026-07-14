@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Enable actuals validation to prevent invalid actuals
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This optional feature enables more validations for actuals records that are integrated from Microsoft Dataverse into the finance and operations infrastructure. It prevalidates the actuals before it allows records to be created during the import from staging process. In this way, it prevents the creation of records that might not be able to be posted. Because of time-outs, rollbacks, and the general nature of dual-write, an originating actuals record might be rolled back in Dataverse. As a result, integration journals that aren't valid can be created.
 

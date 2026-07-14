@@ -12,6 +12,8 @@ ms.reviewer: johnmichalak
 
 # Navigate approvals
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Microsoft Dynamics 365 Project Operations updated the approvals experience in version 4.0.164.x. By turning on the **Time-phased approvals** feature in the feature control menu, you can host all relevant approvals views inside a form on the new *Approvals* entity (msdyn_projectapprovalheader). Each of the first six tabs in this form contains one type of approval record: time, material, expense, recall requests, absences/vacations, and nonproject approvals. Each tab has a number next to the tab name that indicates how many records of each type are pending approval by the current user. Each of these tabs contains two views, one for pending approvals and one to view past approvals. The admin tab contains the views for failed and processing approvals.

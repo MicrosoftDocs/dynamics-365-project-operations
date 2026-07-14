@@ -13,7 +13,7 @@ ms.custom:
 
 # Confirm a proforma project-based invoice
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

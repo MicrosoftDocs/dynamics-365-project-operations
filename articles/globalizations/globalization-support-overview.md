@@ -12,7 +12,7 @@ ms.reviewer: johnmichalak
 
 # Globalization support for Project Operations
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 To operate your businesses globally, you must comply with country or region‑specific requirements for taxation, statutory reporting, and local business practices. These requirements vary significantly between jurisdictions and local governments frequently update them, often with strict enforcement timelines.
 

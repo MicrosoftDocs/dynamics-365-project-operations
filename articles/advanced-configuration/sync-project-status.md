@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Sync Project Status to prevent entry against closed projects
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

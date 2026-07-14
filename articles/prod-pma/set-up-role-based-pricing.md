@@ -18,7 +18,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 # Set up role-based pricing
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 All cost, sales, and transfer prices can be set up for roles. Complete the following steps to associate pricing to a specific role.
 

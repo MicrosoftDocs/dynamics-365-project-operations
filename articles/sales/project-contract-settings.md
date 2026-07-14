@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Header details for project-based contracts
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 This article provides information about fields that apply to the entire project contract, including settings that impact all contract lines. It also includes information about the contract that is summarized across all the line items to drive KPIs of the project contract.

@@ -13,6 +13,8 @@ ms.author: sigitac
 
 # What's new 2021 wave 2 early access - Project Operations Core
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 _Applies To: Project Operations Core._
 
 This article applies to the following Dynamics 365 Project Operations components and versions:

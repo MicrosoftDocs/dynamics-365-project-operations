@@ -19,7 +19,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 # Create a new project
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Complete the following steps to create a new project.
 

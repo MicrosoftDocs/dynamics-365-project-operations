@@ -14,7 +14,7 @@ ms.collection: bap-ai-copilot
 
 # Copilot in time entry responsible AI FAQ
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This article provides answers to frequently asked questions about how to use Copilot in time entry in Microsoft Dynamics 365 Project Operations.
 

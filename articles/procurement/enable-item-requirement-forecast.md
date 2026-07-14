@@ -12,7 +12,7 @@ ms.author: mukumarm
 
 # Managed item requirements by using project item forecasts
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations integrated deployments._
 

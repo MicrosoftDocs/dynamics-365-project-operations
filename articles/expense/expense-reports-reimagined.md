@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Expense reports reimagined
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Expense report entry was redesigned to simplify the process and reduce the time needed to complete a report. Here are the major components of the new expense experience:
 

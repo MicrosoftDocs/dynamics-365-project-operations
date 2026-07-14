@@ -18,7 +18,7 @@ ms.reviewer: johnmichalak
 
 # Resource management changes (Project Service Automation 3.x)
 
-[!include [banner](../../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../../includes/psa-now-project-operations.md)]
 
 The sections of this article provide information about the changes that have been made to the Resource management area of Dynamics 365 Project Service Automation version 3.x.
 

@@ -18,7 +18,7 @@ ms.search.validFrom: 2019-01-15
 
 # Create and apply vendor payment retention terms
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Setting up vendor payment retention terms for a project is useful when your organization wants to retain part of the payments made to a vendor. For example, you might want to hold payment to a vendor until the products delivered meet your expectations. You can specify vendor payment retention terms when you negotiate a vendor contract.
 

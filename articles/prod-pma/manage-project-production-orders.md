@@ -12,7 +12,7 @@ ms.date: 01/24/2025
 
 # Manage project production orders
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for stocked based scenarios._
 

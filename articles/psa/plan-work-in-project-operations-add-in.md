@@ -20,7 +20,7 @@ ms.reviewer: johnmichalak
 
 # Plan your work in Microsoft Project with the Project Operations add-in
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 Microsoft Dynamics 365 Project Operations makes it easier to do project planning, including estimates. You can define the work so that costs, effort, and sales values are clear as the final proposal is submitted.

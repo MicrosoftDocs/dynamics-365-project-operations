@@ -18,7 +18,7 @@ ms.custom:
 
 # Sample data installation for the Project Service application
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 > [!NOTE]
 > The Field Service and combined demo data packages (FPSDemoData, v902FPSMasterData,

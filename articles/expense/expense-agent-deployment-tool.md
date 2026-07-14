@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Deploy Expense Agent using Dynamics 365 Agent Deployment tool (Preview)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
 _**Applies to Dynamics 365 Project Operations Integrated with ERP and Dynamics 365 Project Operations for manufacturing**_

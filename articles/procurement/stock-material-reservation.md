@@ -12,7 +12,7 @@ ms.author: mukumarm
 
 # Manage inventory consumption using Material usage and Journal
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations integrated deployments._
 

@@ -16,7 +16,7 @@ ms.reviewer: johnmichalak
 
 # Human resources to bookable resource integration
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

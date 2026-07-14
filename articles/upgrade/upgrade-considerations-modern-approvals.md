@@ -12,6 +12,8 @@ ms.author: nshrivastava
 
 # Upgrade considerations for Modern Approvals
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 As part of the April 2022 Wave 1 Release, Microsoft enables the Modern Approvals functionality by default. This functionality improves the reliability of the approval logic and ensures that you can determine the reason if the approval logic fails.

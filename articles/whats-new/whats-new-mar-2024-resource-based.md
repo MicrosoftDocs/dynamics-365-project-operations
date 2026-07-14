@@ -13,7 +13,7 @@ ms.author: dishantpopli
 
 # What's new March 2024 - Project Operations Integrated with ERP
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Applies To:**  Project Operations Integrated with ERP.
 

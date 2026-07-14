@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Manage project opportunities
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Project-based companies typically spread their operations for delivery across multiple countries/regions and geographies. The cost of project execution and delivery varies depending on which geography or division manages the delivery. This variation impacts the margins of the deal. Delivery of project-based services typically involves large quantities of human resource time, considerable expenses for travel, material costs, and other expenses.

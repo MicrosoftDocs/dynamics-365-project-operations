@@ -14,7 +14,7 @@ ms.reviewer: johnmichalak
 
 # What's new January 2026 - Project Operations Core
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

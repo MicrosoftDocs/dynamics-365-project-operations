@@ -12,7 +12,7 @@ ms.author: nimaski
 
 # Reevaluate the cost actual-to-budget association
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 

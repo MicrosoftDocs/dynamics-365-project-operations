@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 # What's new May 2025 - Project Operations Integrated with ERP
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Applies To:**  Project Operations Integrated with ERP.
 

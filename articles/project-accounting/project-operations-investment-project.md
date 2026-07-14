@@ -10,7 +10,7 @@ ms.author: mukumarm
 
 # Enable investment projects in Dynamics 365 Project operations integrated with ERP
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations integrated with ERP_
 

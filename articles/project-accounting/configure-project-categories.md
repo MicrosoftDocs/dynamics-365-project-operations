@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Configure project categories
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 Project Operations provides robust capabilities for categorizing revenue and expenses on projects. By using categories, you can report on and analyze project transactions, and drive posting to the general ledger.

@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Period types
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 A period type defines how frequently revenue on a project is estimated. This article provides information about how to set up period types for revenue estimation. 

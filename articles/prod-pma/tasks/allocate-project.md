@@ -12,7 +12,7 @@ ms.reviewer: johnmichalak
 ---
 # Allocate a project budget or budget revision across periods
 
-[!include [banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 After you enter a project budget or project budget revision, and before you submit it for approval, allocate the amounts across 
 periods. If the budget or budget revision is rejected, you can also allocate the amounts before you resubmit it. 

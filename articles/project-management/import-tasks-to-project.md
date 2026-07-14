@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 # Import tasks into a project (Preview)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_

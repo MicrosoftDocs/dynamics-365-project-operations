@@ -19,7 +19,7 @@ ms.search.validFrom: 2019-01-15
 
 # Confirm, update, and send a project quotation
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 After you create and send a project quotation to a customer, you must get confirmation from the customer before you update the quotation status to **Sent**. You can update the quotation with any modifications requested by the customer. After you update the quotation status to **Sent**, you can't modify it. The following procedure describes the options to send a quotation for confirmation, make updates based on feedback, and then send the quotation.
 

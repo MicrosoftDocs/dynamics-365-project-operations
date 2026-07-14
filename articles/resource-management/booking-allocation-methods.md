@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Booking allocation methods
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Whether you add a team member directly to a project on the **Team** tab, or book a resource to a project or requirement from the Schedule board, you can use different booking allocation methods. This article explains how each method works, and which methods can lead to overbooking resources.

@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Cancel a purchase order product receipt with a linked item requirement
 
-[!include [banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 This article explains how to cancel a project purchase order that has a connected (linked) item requirement.
 

@@ -10,7 +10,7 @@ ms.author: mukumarm
 ---
 # Contract line-based revenue recognition with Project operations
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
  > [!NOTE]

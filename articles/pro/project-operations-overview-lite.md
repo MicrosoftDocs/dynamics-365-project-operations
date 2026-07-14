@@ -13,7 +13,7 @@ ms.author: rumant
 
 # Project Operations Core overview
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

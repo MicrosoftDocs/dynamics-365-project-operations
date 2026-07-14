@@ -12,6 +12,8 @@ ms.author: dishantpopli
 
 # Book to a project
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 There are times where a Project Manager or Resource Manager needs to allocate a resource to project without a specific requirement being defined from a generic team member. This allocation can be achieved in one of three ways.

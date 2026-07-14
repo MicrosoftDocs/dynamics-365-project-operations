@@ -12,7 +12,7 @@ ms.author: poojafandan
 
 # Header details for project opportunities
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

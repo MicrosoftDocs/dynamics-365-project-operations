@@ -12,7 +12,7 @@ ms.author: nimaski
 
 # Overview of project budget management
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for Project Operations Integrated with ERP based scenarios._
 

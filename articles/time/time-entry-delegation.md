@@ -10,7 +10,7 @@ ms.author: mohitmenon
 
 # Time entry delegation feature (preview)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._

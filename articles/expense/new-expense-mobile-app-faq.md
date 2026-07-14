@@ -12,7 +12,7 @@ ms.author: mukumarm
 
 # Expense management mobile app FAQ
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations for manufacturing._
 

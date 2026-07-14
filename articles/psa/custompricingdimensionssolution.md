@@ -19,7 +19,7 @@ ms.reviewer: johnmichalak
 
 # Create custom solutions for pricing dimensions
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 > [!IMPORTANT]
 > All custom pricing dimension changes should be in a separate solution. This important best practice provides flexibility in the future to update or remove changes as needed, will help with re-use of your work, and makes it easier to port these changes to another instance. After you make the required changes, export this solution as a **Managed solution**, and import it into other instances to reuse your pricing setup.

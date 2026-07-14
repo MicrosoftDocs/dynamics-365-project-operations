@@ -21,7 +21,7 @@ ms.reviewer: johnmichalak
 
 # Upgrade considerations - PSA version 2.x or 1.x to version 3
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

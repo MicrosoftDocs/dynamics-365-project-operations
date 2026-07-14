@@ -19,7 +19,7 @@ ms.reviewer: johnmichalak
 
 # View chargeable utilization for resources
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
  
 The **Utilization View** on the **Project Service Resource Utilization** page shows the chargeable utilization for each bookable resource. Because the view is based on the schedule board, you’ll find many of the same functions.
 

@@ -14,6 +14,8 @@ ms.author: sigitac
 
 # Removed or deprecated features in Dynamics 365 Project Operations
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core, and Project Operations for manufacturing-based scenarios_
 
 This article describes features that have been removed, or that are planned for removal from Dynamics 365 Project Operations.

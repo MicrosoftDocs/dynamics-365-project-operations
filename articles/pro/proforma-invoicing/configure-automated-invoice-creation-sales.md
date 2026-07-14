@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Set up automatic invoice creation
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 

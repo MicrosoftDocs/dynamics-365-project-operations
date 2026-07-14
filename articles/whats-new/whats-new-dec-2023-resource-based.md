@@ -14,7 +14,7 @@ ms.author: dishantpopli
 
 # What's new December 2023 - Project Operations Integrated with ERP
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Applies To:**  Project Operations Integrated with ERP
 

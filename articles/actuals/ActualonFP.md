@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Actuals impact in a fixed price engagement
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations Integrated with ERP, Project Operations Core_
 

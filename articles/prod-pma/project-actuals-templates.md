@@ -16,7 +16,7 @@ ms.dyn365.ops.version: AX 7.3.0
 ---
 # Synchronize project actuals directly from Project Service Automation to the project integration journal for posting in finance and operations
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This article describes the templates and underlying tasks that are used to synchronize project actuals directly from Dynamics 365 Project Service Automation to Dynamics 365 Finance.
 

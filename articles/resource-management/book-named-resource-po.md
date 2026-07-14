@@ -18,6 +18,8 @@ ms.reviewer: johnmichalak
 ---
 # Book named resources from resource requirements
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 You can book a named resource to replace generic resource that has a resource requirement.

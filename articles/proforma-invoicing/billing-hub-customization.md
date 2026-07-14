@@ -12,7 +12,7 @@ ms.author: nshrivastava
 
 # Customize the Billing hub view for creating project-based proforma invoices
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 The **Billing hub** view includes a nested grid that has contract and contract lines. To customize the fields in the contract or contract line view, create a copy of the out-of-box **Billing hub (Contracts)** view by following the steps in this article.
 

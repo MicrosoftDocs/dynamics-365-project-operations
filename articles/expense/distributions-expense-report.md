@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Distributions on an expense report
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

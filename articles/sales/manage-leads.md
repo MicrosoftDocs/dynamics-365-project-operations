@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Manage project-based leads
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 You can manage and qualify project-based leads in Project Operations. The lead management process includes creating work-based leads and qualifying those leads.

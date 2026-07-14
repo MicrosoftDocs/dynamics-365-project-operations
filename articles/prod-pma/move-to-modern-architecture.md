@@ -16,7 +16,7 @@ ms.dyn365.ops.version: null
 
 # Move to the modern architecture
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Starting with version 10.0.43, if you use the **Project management and accounting** (PMA) module to manage your projects, you can use the modern architecture of Microsoft Dynamics 365 Project Operations to take advantage of new functionality and a modern technology stack.
 

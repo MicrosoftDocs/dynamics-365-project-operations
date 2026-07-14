@@ -16,7 +16,7 @@ ms.search.validFrom: 2019-01-15
 
 # Create forecast models for project budgets
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This article describes how to create a forecast model for remaining budgets. A project that is subject to budget control uses two types of budgets: original and remaining. When you create a project budget, you must specify the original and remaining budget forecast models that you created in the **Forecast models** page. You create project budgets based on the specified models when you commit the project budget.
 

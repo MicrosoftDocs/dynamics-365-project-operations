@@ -17,7 +17,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 # Project management and accounting overview
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Use the project management and accounting functionality in multiple industries to provide a service, produce a product, or achieve a result.  
 

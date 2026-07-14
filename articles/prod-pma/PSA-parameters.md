@@ -14,7 +14,7 @@ ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 
 # Project Service Automation integration parameters
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 On the **Project Service Automation integration parameters** page, you configure how default data is entered when you integrate Dynamics 365 Project Service Automation with Dynamics 365 Finance. To successfully synchronize projects from Project Service Automation to Finance, set up the following fields.
 

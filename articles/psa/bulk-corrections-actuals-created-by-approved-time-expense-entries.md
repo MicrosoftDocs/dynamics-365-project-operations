@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Bulk corrections of actuals created by approved time and expense entries
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 Occasionally, someone enters a time or expense entry incorrectly. For example, a consultant might select the wrong date when creating a time entry or they might transpose the numbers when entering an expense. If a consultant can't update the submitted entries, an administrator can directly correct the entry for a project.
 

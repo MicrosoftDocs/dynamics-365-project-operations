@@ -13,6 +13,8 @@ ms.author: sigitac
 
 # What's new November 2020 - Project Operations for manufacturing
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 _**Applies To:** Project Operations for manufacturing-based scenarios_
 
 ## Quality updates

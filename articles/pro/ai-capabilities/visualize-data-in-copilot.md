@@ -9,6 +9,8 @@ ms.date: 04/21/2026
 
 # Visualize data in a view with Copilot (preview)
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 [!INCLUDE [visualize-data-in-copilot](~/../shared-content/shared/dynamics365-core/visualize-data-in-copilot.md)]
 
 ### Related information

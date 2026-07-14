@@ -14,7 +14,7 @@ ms.author: mohitmenon
 
 # What's new June 2024 - Project Operations Core
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core._
 

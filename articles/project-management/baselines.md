@@ -12,6 +12,8 @@ ms.author: dishantpopli
 
 # Set up baselines
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 With Dynamics 365 Project Operations, you can quickly set up baselines to compare your plan with the actual progress on the project. You can now create a baseline for your project before the execution of the project.

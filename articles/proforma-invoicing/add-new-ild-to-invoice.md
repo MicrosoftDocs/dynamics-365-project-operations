@@ -13,7 +13,7 @@ ms.author: nshrivastava
 
 _**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 You can create transactions for time, expense, and material usage directly on a draft invoice. This feature streamlines the invoicing process and helps ensure timely and accurate billing. It provides significant financial and administrative benefits to project-oriented companies by enhancing operational efficiency and accelerating cash flow.
 

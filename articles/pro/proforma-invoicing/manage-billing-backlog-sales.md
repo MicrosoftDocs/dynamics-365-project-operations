@@ -12,7 +12,7 @@ ms.author: poojafandan
 
 # Manage project billing backlog 
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

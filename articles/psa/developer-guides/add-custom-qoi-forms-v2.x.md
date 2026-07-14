@@ -18,7 +18,7 @@ ms.reviewer: johnmichalak
 
 # Add new custom entity forms (Project Service Automation 2.x)
 
-[!include [banner](../../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../../includes/psa-now-project-operations.md)]
 
 ## Type field 
 

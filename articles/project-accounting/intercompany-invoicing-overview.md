@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Intercompany invoicing overview
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 Your organization might have multiple divisions, subsidiaries, and other legal entities that transfer products and services to each other for projects. The legal entity that provides the service or product is the *lending legal entity*. The legal entity that receives the service or product is the *borrowing legal entity*.

@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Set up vendor retention
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 This article explains how to set up vendor retention.

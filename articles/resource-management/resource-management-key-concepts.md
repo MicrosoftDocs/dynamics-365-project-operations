@@ -15,6 +15,8 @@ ms.reviewer: johnmichalak
 
 # Resource management key concepts
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Resources are the most important asset of a service-based organization. The ability to find the right resources at the right time, book those resources on projects, and keep them utilized helps the organization meet revenue targets and customer satisfaction goals. Use the project resourcing functionality in Dynamics 365 Project Operations to complete the following tasks:

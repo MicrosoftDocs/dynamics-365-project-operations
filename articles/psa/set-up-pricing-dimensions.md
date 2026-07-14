@@ -19,7 +19,7 @@ ms.reviewer: johnmichalak
 
 # Setting up custom fields as pricing dimensions 
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 Before you begin, this article assumes that you have completed the procedures in the articles, [Create custom fields and entities](create-custom-fields-entities.md) and [Add custom fields to price setup and transactional entities](field-references.md). If you haven't completed those procedures, go back and complete them and then return to this article. 
 
