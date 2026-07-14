@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Manage project price lists on project quotes 
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 

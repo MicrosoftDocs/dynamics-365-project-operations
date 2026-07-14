@@ -13,6 +13,8 @@ ms.author: sigitac
 
 # What's new January 2021 - Project Operations Core
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 
 _Applies To: Project Operations Core_
 

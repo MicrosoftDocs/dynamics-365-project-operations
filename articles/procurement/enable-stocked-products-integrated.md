@@ -12,7 +12,7 @@ ms.author: mukumarm
 
 # Managed stocked products for Project Operations integrated deployments
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations integrated deployments._
 

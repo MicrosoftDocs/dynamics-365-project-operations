@@ -15,7 +15,7 @@ ms.author: mohitmenon
 
 # Start using the Time Entry Agent as a team member
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._

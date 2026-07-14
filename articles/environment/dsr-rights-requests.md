@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Respond to Data Subject Rights (DSR) requests for Microsoft Dynamics 365 Project Operations
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This guide provides resources about how to use Microsoft's products, services, and administrative tools to help our controller customers find and act on personal data to respond to Data Subject Rights (DSR) requests for Microsoft Dynamics 365 Project Operations. Specifically, the information includes how to find, access, and act on personal data or personal information that resides in the Microsoft Cloud. This guide helps you with the following process:
 

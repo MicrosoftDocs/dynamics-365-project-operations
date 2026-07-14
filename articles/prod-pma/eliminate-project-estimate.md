@@ -13,7 +13,7 @@ ms.search.validFrom: 2019-01-15
 ---
 # Eliminate a project estimate
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
  > [!NOTE]
    > Estimates are renamed to revenue recognition in a recent product update. Terminology might reference either estimate or revenue recognition depending on if the feature is enabled.

@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Activate and revise a project quote
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Activation and revision capabilities help you keep track of versioning for project-based quotes during the estimation and negotiation phases. When you activate a draft quote, it becomes read-only.

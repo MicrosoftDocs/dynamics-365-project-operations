@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Integrate project invoices using dual-write async configuration (preview)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 This article explains how to configure Dynamics 365 Project Operations dual-write asynchronous integration for customer invoicing. The asynchronous dual-write process enables the creation of customer invoices with more than 1,000 invoice lines, overcoming the current limitation of the real-time dual-write synchronization.

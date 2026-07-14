@@ -25,7 +25,7 @@ ms.reviewer: johnmichalak
 > [!Note]
 > DEPRECATED: This feature has been deprecated and is no longer available.
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

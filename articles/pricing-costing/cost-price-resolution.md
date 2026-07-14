@@ -12,7 +12,7 @@ ms.author: abriccetti
 
 # Determine cost rates for project-based estimates and actuals
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

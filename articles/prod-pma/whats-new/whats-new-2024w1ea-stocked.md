@@ -13,6 +13,8 @@ ms.author: dishantpopli
 
 # What's new or changed in 2024 Wave 1 Early access release of Project Operations for manufacturing
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 _**Applies To:** Project Operations for manufacturing-based scenarios_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:

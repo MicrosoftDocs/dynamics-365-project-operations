@@ -12,7 +12,7 @@ ms.author: nshrivastava
 
 # Create invoice schedules on a project contract line
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

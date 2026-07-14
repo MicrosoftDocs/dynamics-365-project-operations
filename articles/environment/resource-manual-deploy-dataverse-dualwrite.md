@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Manually deploy the Project Operations Dataverse app with dual-write support
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

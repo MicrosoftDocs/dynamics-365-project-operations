@@ -15,6 +15,8 @@ ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 
 # Import and maintain credit card transactions
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 You can set up expense-related credit card transactions to import automatically on a recurring schedule. Alternatively, you can manually import the transactions as needed. Import the credit card transactions through the **Credit card transactions** data entity.
 
 For more information about data entities, see [Data entities](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities).

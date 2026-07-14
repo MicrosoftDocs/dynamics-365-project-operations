@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Financial estimates for resource time on projects
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Financial estimates for time are calculated based on three factors: 

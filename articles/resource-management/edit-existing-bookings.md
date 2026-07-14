@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Edit bookings
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 When changes occur on a project that require you to update existing bookings, you can make the changes in several ways. This article outlines how to update and make changes to bookings.

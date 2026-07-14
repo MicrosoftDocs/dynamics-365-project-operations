@@ -12,7 +12,7 @@ ms.date: 04/15/2025
 
 # Manage item requirements for procurement categories using purchase orders
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for stocked based scenarios._
 

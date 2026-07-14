@@ -9,7 +9,7 @@ ms.author: mukumarm
 ---
 # Set up cost estimates
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations integrated with ERP, Project Operations for manufacturing_
 

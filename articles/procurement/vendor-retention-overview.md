@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Vendor retention overview
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 Your organization might want to retain a portion of payments to vendors who work on projects for your organization. For example, before you pay your vendor, you might want to make sure that the items and services they provided meet your expectations.

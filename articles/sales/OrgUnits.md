@@ -12,6 +12,8 @@ ms.reviewer: johnmichalak
 
 # Organizational units overview
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 In Microsoft Dynamics 365 Project Operations, an *organizational unit* is a distinct group or division in a professional services company that employs billable resources with cost rates.
 
 For professional services companies that employ technical resources in different practice areas or business lines, the cost to fill a role might vary, depending on the practice area or business line where the role is filled. In this scenario, the concept of organizational units helps by providing a way to group a set of billable roles in a division of a company that has a distinct cost structure for those roles.

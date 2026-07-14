@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Order materials and services for a project by using project purchase orders
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations integrated deployments_
 

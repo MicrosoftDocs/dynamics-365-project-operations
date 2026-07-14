@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Project-based opportunity lines
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 Project-based opportunity lines are only available in project-based opportunities. Set the **Type** field value to **Work-based** for project-based opportunity records.

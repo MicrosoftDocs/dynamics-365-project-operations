@@ -14,7 +14,7 @@ ms.author: rumant
 
 _**Applies To:** Project Operations Integrated with ERP_
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Each price list has a set of labor rates (role prices) that align with the content and date effectivity of the price list.
 

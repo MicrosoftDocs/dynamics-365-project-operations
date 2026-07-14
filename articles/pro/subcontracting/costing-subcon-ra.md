@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Cost estimation of subcontracted resource assignments
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 

@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Define skills and proficiencies
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Skills are resource characteristics that Dynamics 365 Project Operations shares with Dynamics 365 Field Service, if it's present.

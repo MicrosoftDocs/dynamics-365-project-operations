@@ -12,6 +12,8 @@ ms.author: nshrivastava
 
 # Concepts unique to Project-based Contracts
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 Before you start using Project contracts in Dynamics 365 Project Operations, review these key concepts:

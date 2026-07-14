@@ -18,6 +18,8 @@ ms.reviewer: johnmichalak
 ---
 # Book named bookable resources to a project team and assign tasks 
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 You can  add a named resource to your project team by booking them directly onto the team. To do this, complete the following steps.

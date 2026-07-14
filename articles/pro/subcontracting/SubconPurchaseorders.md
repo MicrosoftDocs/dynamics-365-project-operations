@@ -12,7 +12,7 @@ ms.author: mukumarm
 
 # Subcontract purchase orders overview
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP._
 

@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Schedule assistant overview
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Use the schedule assistant to book resources based on requirements defined by the project manager. The schedule assistant relies on the parameters provided in the resource requirement to find the resource. The schedule assistant recommends resources that match relevant requirements, like time windows or skills needed.

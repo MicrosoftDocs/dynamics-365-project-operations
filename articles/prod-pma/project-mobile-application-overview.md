@@ -15,7 +15,7 @@ ms.search.validFrom: 2019-02-28
 
 # Project mobile applications overview
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Three mobile applications related to project time are available for Microsoft Dynamics 365: Project Timesheet, Project Time Entry, and My timesheets/Timesheets for my review (Optimized for mobile).
 

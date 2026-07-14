@@ -12,11 +12,9 @@ ms.author: nshrivastava
 
 # Use time zone independent date fields
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
-
-[!INCLUDE[banner](../includes/banner.md)]
 
 The Time Zone Independent Milestone Date feature ensures that milestone dates in the Project contract line milestone entity are consistent and aren't affected by the signed in user's local time zone (TZ). When you enable this feature, it helps improve the billing accuracy of project based milestones.  
 

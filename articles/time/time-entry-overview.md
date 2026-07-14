@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Time overview
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Time entry is the process of recording the actual time that a resource consumes. By using time entries in Dynamics 365 Project Operations, you can calculate cost and sales prices as tasks progress. These entries help the project manager keep on top of projects and tasks. Time entries also notify resource managers of any potential vacation or absences that appear on the schedule board as **Out**. These notifications allow the resource managers to plan around those events.

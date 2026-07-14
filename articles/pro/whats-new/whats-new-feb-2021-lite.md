@@ -13,6 +13,8 @@ ms.author: sigitac
 
 # What's new February 2021 - Project Operations Core
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 This article applies to the following Dynamics 365 Project Operations components and versions:
 
   - Project Operations on Dataverse environment version 4.7.0.95

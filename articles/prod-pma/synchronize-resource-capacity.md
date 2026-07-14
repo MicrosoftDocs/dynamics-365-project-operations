@@ -15,7 +15,7 @@ ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 
 # Synchronize resource capacity
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 The resource synchronization processes help guarantee that information for the calendar and base calendar trickles down into project resource scheduling. If you change the calendar, the processes make the required updates to the scheduling of project resources. The processes also help improve performance, because the calendar's resource information is synchronized in advance. Therefore, updates to resource scheduling information occur more quickly. Schedule the processes as a batch instead of one at a time. Otherwise, there's a risk that someone forgets the inclusive dates when the information was last synchronized. If inclusive dates aren't used, gaps can occur during date synchronization.
 

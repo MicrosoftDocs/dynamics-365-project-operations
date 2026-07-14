@@ -12,7 +12,7 @@ ms.author: nshrivastava
 
 # Update invoice line details on a draft project-based proforma invoice
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 

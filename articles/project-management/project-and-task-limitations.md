@@ -11,6 +11,8 @@ ms.author: dishantpopli
 
 # Project and task limitations
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 You should be aware of the following limitations if you're using the work breakdown structure in Project Operations. These limits apply to projects and tasks.
 
 ## Project limitations

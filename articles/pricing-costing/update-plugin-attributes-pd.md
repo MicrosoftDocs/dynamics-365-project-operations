@@ -13,7 +13,7 @@ ms.author: abriccetti
 
 # Update plug-in attributes with new pricing dimensions
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This article provides information about how to update plug-in attributes for pricing dimensions.
 

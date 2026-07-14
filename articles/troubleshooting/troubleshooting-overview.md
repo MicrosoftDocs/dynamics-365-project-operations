@@ -11,7 +11,7 @@ ms.reviewer: johnmichalak
 
 # Troubleshoot Microsoft Dynamics 365 Project Operations
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This article contains a list of resources by deployment type that you can use to troubleshoot Microsoft Dynamics 365 Project Operations.
 

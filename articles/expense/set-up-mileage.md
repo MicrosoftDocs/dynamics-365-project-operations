@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Set up mileage by using mileage rate tiers
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

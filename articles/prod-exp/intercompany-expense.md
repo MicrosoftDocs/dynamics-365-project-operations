@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Intercompany expenses
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 A worker who is employed by one legal entity in an organization might perform work for another legal entity in the same organization. Use intercompany expenses to assign the worker’s expenses to the legal entity for which the work was performed. The legal entity that employs the worker is the loaning legal entity. The legal entity for which the worker incurs expenses is the borrowing legal entity. 
 

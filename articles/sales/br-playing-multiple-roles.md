@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Estimate project sales and costs when a bookable resource fills multiple roles on a project 
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core, Project Operations for manufacturing-based scenarios_ 
 

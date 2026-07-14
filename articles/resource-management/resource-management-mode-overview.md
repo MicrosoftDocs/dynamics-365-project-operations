@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Resource management modes overview
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Dynamics 365 Project Operations supports two modes for executing the overall booking flow. You define the management mode as a project parameter and can change it if your business needs change.

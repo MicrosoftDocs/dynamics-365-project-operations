@@ -12,7 +12,7 @@ ms.reviewer: johnmichalak
 
 # Log time using the Dynamics 365 Time Entry Mobile App (Preview)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 

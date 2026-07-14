@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Add custom columns to the grid view
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 A default set of columns that is available in Microsoft Project for the web provides the relevant data for task scheduling. In addition, users can add columns from the Project Tasks table in Dataverse to the grid view on the **Tasks** tab of a project.

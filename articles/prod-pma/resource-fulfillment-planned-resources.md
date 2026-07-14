@@ -15,7 +15,7 @@ ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 
 # Resource fulfillment for planned resources
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 A project manager can plan required resource roles for a project. The resource manager sees these planned resources as requests on the **Resource fulfillment** page and can assign actual resources.
 

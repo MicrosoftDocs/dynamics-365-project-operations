@@ -13,7 +13,7 @@ ms.search.validFrom: 2020-09-01
 ---
 # Project resource scheduling performance
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Performance problems related to resource scheduling can happen when the number of projects reaches into the thousands. To improve resource scheduling performance, a feature is available that reduces the time it takes to launch the resource availability page. This feature removes the resource capacity roll-up synchronization process and uses the **ResProjectResource** table to speed up the resource lookup. The **ResRollup** table is no longer used.
 

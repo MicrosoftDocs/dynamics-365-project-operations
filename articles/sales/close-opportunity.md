@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Close a project opportunity 
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 You can close project opportunities as **Won** or **Lost**. The **Close opportunity** dialog box collects the status reason, date, and other details about the win or loss of the opportunity.

@@ -15,6 +15,8 @@ ms.custom:
 
 # Use a bookable resource as a pricing dimension
 
+[!INCLUDE [banner](../includes/banner.md)]
+
  _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 This article explains how to use a bookable resource as a pricing dimension. If your pricing strategy requires each bookable resource to have a specific price or cost rate, use a bookable resource as a pricing dimension.

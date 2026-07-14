@@ -13,7 +13,7 @@ ms.author: nshrivastava
 
 # Cancel the approval of previously approved entries
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 

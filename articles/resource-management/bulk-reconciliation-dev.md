@@ -12,6 +12,8 @@ ms.reviewer: johnmichalak
 
 # Reconcile projects with Bulk Reconciliation
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Microsoft Dynamics 365 Project Operations supports the reconciliation of bookings to assignments for the bookable resources on a project. Use this functionality to fix the alignment between bookings and assignments.

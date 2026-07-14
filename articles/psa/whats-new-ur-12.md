@@ -20,7 +20,7 @@ ms.reviewer: johnmichalak
 
 # Project Service Automation Update Release 12, V3
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 We’re pleased to announce the latest update for the Dynamics 365 Project Service Automation (PSA) application. This release includes some important improvements to quality, performance, and usability. This release is compatible with Dynamics 365 9.x. To update to this release, visit the Admin Center for Dynamics 365 online, and go to the solutions page to install the update. For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).
 

@@ -18,7 +18,7 @@ ms.dyn365.ops.version: AX 7.3.0
 
 # Synchronize project contracts and projects directly from Project Service Automation to Finance 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 
 

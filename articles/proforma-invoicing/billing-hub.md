@@ -12,7 +12,7 @@ ms.author: abriccetti
 
 # Create proforma project invoices with Billing hub
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 

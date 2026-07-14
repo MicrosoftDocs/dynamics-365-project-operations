@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Use procurement categories with project purchase orders and pending vendor invoices
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 Purchasing professionals can create and maintain catalogs of the items and services that can be used in project purchase orders and pending vendor invoices. [Procurement catalogs](/dynamics365/supply-chain/procurement/procurement-catalogs) give you an easy way to categorize purchases without having to configure and use a released products catalog. You can map each procurement category to a project category for time, expense, or item transactions. After you post a pending vendor invoice that uses a procurement category, the system creates time, expense, or material project actuals, project transactions, and subledger entries.

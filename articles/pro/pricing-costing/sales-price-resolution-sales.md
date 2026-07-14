@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Determine sales prices for project estimates and actuals
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

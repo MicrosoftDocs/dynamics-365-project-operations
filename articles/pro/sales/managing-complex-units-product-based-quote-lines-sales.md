@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Managing complex units such as per-user, per-month for product-based quote lines
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

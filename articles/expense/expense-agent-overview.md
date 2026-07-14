@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Expense Agent overview (Preview)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
 _**Applies to Dynamics 365 Project Operations Integrated with ERP and Dynamics 365 Project Operations for manufacturing**_

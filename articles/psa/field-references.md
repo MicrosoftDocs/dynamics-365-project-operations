@@ -20,7 +20,7 @@ ms.custom:
 
 # Add custom fields to price setup and transactional entities 
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 This article assumes that you have completed the procedures in the article, [Create custom fields and entities](create-custom-fields-entities.md). If you haven't completed those procedures, go back and complete them and then return to this article. 
 

@@ -11,7 +11,7 @@ ms.custom:
 ---
 # How the project group, category, and line property determine project postings
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for manufacturing-based scenarios_
 

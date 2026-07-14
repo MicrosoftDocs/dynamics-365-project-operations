@@ -12,7 +12,7 @@ ms.author: nimaski
 
 # Transfer budgets to forecasts
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for Project Operations Integrated with ERP based scenarios._
 

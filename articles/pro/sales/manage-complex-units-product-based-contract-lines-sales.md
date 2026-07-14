@@ -13,7 +13,7 @@ ms.author: poojafandan
 
 # Manage complex units for product-based contract lines - Project Operations Core
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

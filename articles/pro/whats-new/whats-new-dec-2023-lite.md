@@ -14,7 +14,7 @@ ms.author: dishantpopli
 
 # What's new December 2023 - Project Operations Core
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

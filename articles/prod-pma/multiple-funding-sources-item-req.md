@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Item requirements for project contracts with multiple funding sources
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations for manufacturing based scenarios_
 
 Some contractual agreements for project-based deliverables require multiple funding sources. This article explains how to select and configure the desired funding sources when multiple sources are required for a project or project contract.

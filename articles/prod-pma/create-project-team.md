@@ -13,7 +13,7 @@ ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 
 # Create a project team
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 To use the roles that you previously set up in a project, the project manager must associate the roles with the project. You can assign multiple roles for a project. To prevent confusion, the system automatically labels these roles during reservation. For example, if the project manager requires three software engineers, the system automatically generates three Software engineer roles with **software engineer 1**, **software engineer 2**, and **software engineer 3** as their labels. If you previously set role characteristics for the role, the system applies them as a filter during searches for a resource. You can add additional characteristics as required to further refine the search.
 

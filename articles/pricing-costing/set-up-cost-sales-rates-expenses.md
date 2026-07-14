@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Set up cost and sales rates for expenses
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 

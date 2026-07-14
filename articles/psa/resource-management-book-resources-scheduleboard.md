@@ -15,7 +15,7 @@ ms.reviewer: johnmichalak
 
 # Use the Schedule Board to book project resources
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 In addition to booking resources on a project from within a project, you can hard-book or soft-book resources from the Schedule Board.
 

@@ -14,7 +14,7 @@ ms.author: abriccetti
 
 # Project Service Automation end of life FAQ
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This article provides answers to frequently asked questions about the end of life for Microsoft Dynamics 365 Project Service Automation.
 

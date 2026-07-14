@@ -14,7 +14,7 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations for manufacturing-based scenarios_
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 The project invoice proposal workflow lets organizations require formal approval before a project invoice proposal can be posted as a customer invoice. This process provides a consistent, auditable way to review invoice amounts, project details, and billing accuracy before the invoice is sent to the customer.
 

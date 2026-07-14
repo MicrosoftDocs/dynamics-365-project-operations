@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Manage multiple customers on project contracts
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

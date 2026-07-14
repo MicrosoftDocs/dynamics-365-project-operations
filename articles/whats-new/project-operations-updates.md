@@ -14,6 +14,8 @@ ms.author: aarondodell
 
 # Project Operations updates
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with Enterprise Resource Planning (ERP), Project Operations Core, and Project Operations for manufacturing-based scenarios_
 
 ## Project Operations components

@@ -12,7 +12,7 @@ ms.author: nshrivastava
 
 # Set up currency conversion to calculate sales prices from cost rates
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

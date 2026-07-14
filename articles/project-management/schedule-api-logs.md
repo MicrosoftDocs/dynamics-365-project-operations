@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Project scheduling logs
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_, _Project for the Web_
 
 Microsoft Dynamics 365 Project Operations uses [Project for the Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) as its primary scheduling engine. Instead of using the standard Microsoft Dataverse Web application programming interfaces (APIs), Project Operations uses the new Project Scheduling APIs to create, update, and delete project tasks, resource assignments, task dependencies, project buckets, and project team members. However, errors might occur when you programmatically run create, update, or delete operations on work breakdown structure (WBS) entities. To track these errors and the history of operations, the system implements two new administrative logs: **Operation Set** and **Project Scheduling Service (PSS)**. To access these logs, go to **Settings** \> **Schedule Integration**.

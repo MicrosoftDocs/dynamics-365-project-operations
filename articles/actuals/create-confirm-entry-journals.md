@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Create and confirm Entry journals
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

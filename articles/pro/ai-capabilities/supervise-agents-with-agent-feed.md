@@ -9,6 +9,8 @@ ms.date: 04/07/2026
 
 # Supervise agents in Project Operations with agent feed
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 [!INCLUDE [supervise-agents-with-agent-feed](~/../shared-content/shared/dynamics365-core/supervise-agents-with-agent-feed.md)]
 
 ### Related information

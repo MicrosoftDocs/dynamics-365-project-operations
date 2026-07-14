@@ -22,7 +22,7 @@ search.audienceType:
 
 # Update release schedule for Project Service 3.x
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 ## Latest version availability
 

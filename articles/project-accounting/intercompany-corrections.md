@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Correct intercompany posted transactions (Preview)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 _**Applies To:** Project Operations for manufacturing-based scenarios_

@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Create a solution for custom pricing dimensions
 
+[!INCLUDE [banner](../includes/banner.md)]
+
  _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 >[!IMPORTANT]

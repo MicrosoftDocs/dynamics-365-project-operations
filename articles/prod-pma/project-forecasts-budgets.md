@@ -14,7 +14,7 @@ ms.assetid: 4e6d1384-19a2-4232-b3f3-d2590c218bd7
 
 # Project forecasts and budgets
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 You can manage and control your projects by using two methods: project forecasts and project budgets.
 

@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Close project-based quotes
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 A project quote can be closed as **Won** or **Lost**. 

@@ -12,7 +12,7 @@ ms.author: abriccetti
 
 # Financial estimates for materials on projects
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 

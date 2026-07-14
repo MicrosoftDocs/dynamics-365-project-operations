@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Configure Schedule Board to show contract workers and subcontracted capacity
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

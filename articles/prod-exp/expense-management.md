@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Expense management overview
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **Dynamics 365 Expense Management** streamlines and automates expense management processes for businesses. **Expense Management** streamlines the entire expense management lifecycle, from submission to reimbursement, helping businesses improve efficiency, control costs, and ensure compliance with financial policies and regulations. Here's an overview of its key features and functionalities:
 

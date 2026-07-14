@@ -12,6 +12,8 @@ ms.reviewer: johnmichalak
 
 # Add team members from the Team member grid
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Dynamics 365 Project Operations includes a Resource manager dashboard that provides a visual overview of resource demand and utilization throughout the organization. You can use the charts on this dashboard to visualize the following information:

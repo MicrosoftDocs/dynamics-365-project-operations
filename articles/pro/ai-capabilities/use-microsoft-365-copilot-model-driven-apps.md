@@ -9,6 +9,8 @@ ms.date: 06/16/2026
 
 # Use Microsoft 365 Copilot in model-driven apps (preview)
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 [!INCLUDE [use-microsoft-365-copilot-model-driven-apps](~/../shared-content/shared/dynamics365-core/use-microsoft-365-copilot-model-driven-apps.md)]
 
 ### Related information

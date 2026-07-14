@@ -20,7 +20,7 @@ ms.reviewer: johnmichalak
 
 # Plan your work in Microsoft Project with the Project Service Automation add-in
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3x](../includes/cc-applies-to-psa-app-3x.md)]

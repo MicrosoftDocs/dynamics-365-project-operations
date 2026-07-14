@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Header details for project quotes
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

@@ -15,7 +15,7 @@ ms.dyn365.ops.version: April 2018 update
 
 # Project timesheets on a mobile device
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **My timesheets (Optimized for mobile)** allows employees to create and submit project timesheets to record their hours for a specific project on a mobile device. Employees can create a new timesheet or copy data from an existing timesheet to ensure rapid, accurate time entry. If you are designated as a delegate, you can also enter a timesheet for another worker. The app allows employees to filter by project, resource, or approval status to quickly locate and select a timesheet. It also provides employees with the ability to save favorites, which saves the project and activity information on the timesheet. The saved favorites can be used to create future timesheets, speeding the time entry process. Editing or viewing financial dimension information is not supported from the mobile app. **My timesheets (Optimized for mobile)** can be accessed via the web browser on your mobile device.
 

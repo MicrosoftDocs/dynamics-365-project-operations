@@ -12,6 +12,8 @@ ms.author: poojafandan
 
 # Invoice schedules on project quote lines
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 A project quote line can include an invoice schedule. This schedule is optional during the quote phase because the application doesn't support invoicing a project when it's tied to a quote line. You can only invoice after the quote is won. The only downstream impact of creating an invoice schedule during the quote phase is that the application copies this invoice schedule to the project-based contract line. If you don't create an invoice schedule during the quote phase, you can add one on the project-based contract line.

@@ -19,7 +19,7 @@ ms.reviewer: johnmichalak
 
 # Propose project resources
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 Resource managers can propose a resource to the project manager by using a resource request.
 

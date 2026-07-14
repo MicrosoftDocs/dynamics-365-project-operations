@@ -13,7 +13,7 @@ ms.date: 02/06/2026
 
 # Inventory consumption for projects
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 Finance enables inventory consumption from the warehouse by using project item requirements and the project item journal. Dynamics 365 Finance always considers the **Weighted average** costing method for all item requirements except standard costing. Whenever you post a new item requirement, the default **Weighted average** costing method is applied, regardless of the item model group that's mapped on the product. This costing method is reflected on the project posted transactions.
 

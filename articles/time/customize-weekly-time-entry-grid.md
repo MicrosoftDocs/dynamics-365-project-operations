@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Extending time entries
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Dynamics 365 Project Operations includes an extendable time entry custom control. This control includes the following features:

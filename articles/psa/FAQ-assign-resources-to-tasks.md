@@ -22,7 +22,7 @@ ms.reviewer: johnmichalak
 
 # Assign a resource to a task
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 There are three ways to assign a resource to a task in Microsoft Dynamics 365 Project Service Automation.
 

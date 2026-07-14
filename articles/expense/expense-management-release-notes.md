@@ -13,7 +13,7 @@ ms.author: ajitchandran
 
 # Expense Management - Release notes
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _Applies To: Project Operations Integrated with ERP, Project Operations for manufacturing-based scenarios_
 

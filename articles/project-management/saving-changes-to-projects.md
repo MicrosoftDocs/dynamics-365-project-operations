@@ -11,7 +11,7 @@ ms.author: abriccetti
 
 # Saving changes to a project's work breakdown structure
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 

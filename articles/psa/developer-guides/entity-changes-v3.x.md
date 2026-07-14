@@ -19,7 +19,7 @@ ms.reviewer: johnmichalak
 
 # Entity, control, and user interface changes (Project Service Automation 3.x)
 
-[!include [banner](../../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../../includes/psa-now-project-operations.md)]
 
 
 With the release of Microsoft Dynamics Project Service Automation (PSA) 3.x, many changes have been made to the entities, controls, views, and user interface. This article provides information about these important changes.

@@ -14,7 +14,7 @@ ms.search.validFrom: 2020-10-01
 
 # Product price lists
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

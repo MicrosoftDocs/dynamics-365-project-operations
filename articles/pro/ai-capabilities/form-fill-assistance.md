@@ -9,6 +9,8 @@ ms.date: 04/21/2026
 
 # Use Copilot's form fill assistance feature in Project Operations
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 [!INCLUDE [form-filling-assistance](~/../shared-content/shared/dynamics365-core/form-filling-assistance.md)]
 
 ### Related information

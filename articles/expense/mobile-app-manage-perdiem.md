@@ -10,7 +10,7 @@ ms.author: mukumarm
 
 # Manage per diems by using the Expense management mobile app
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for stocked and Project Operations Integrated with ERP based scenarios._
 

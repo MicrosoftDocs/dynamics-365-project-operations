@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Manage time zones
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 ## Projects

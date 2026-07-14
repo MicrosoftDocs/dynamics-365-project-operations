@@ -12,7 +12,7 @@ ms.author: nshrivastava
 
 # Record material usage on projects and project tasks
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations Integrated with ERP, Project Operations Core_
 

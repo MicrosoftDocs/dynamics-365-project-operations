@@ -17,7 +17,7 @@ ms.dyn365.ops.version: AX 7.0.0
 
 # Intercompany invoicing  
 
-[!include [banner](../includes/banner.md)]  
+[!INCLUDE [banner](../includes/banner.md)]  
 
 This article provides information and examples about intercompany invoicing for projects.  
 

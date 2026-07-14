@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Vendor invoice lines for products
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

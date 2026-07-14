@@ -18,7 +18,7 @@ ms.reviewer: johnmichalak
 ---
 # Resource bookings and how they relate to task assignments
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 There are two ways that named resources can be booked to a project team and assigned project tasks:
 

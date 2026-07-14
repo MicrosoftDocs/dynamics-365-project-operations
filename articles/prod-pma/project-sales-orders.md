@@ -16,7 +16,7 @@ ms.dyn365.ops.version: AX 10.0.2
 
 # Project sales orders for time and material projects
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This article describes how to create a sales order for a project. You can only create sales orders for projects of type **time and material**.
 

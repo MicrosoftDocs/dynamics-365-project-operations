@@ -13,6 +13,8 @@ ms.author: andchoi
 
 # What's new or changed in Project Operations, May 2021 for Project Operations for manufacturing
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 _**Applies To:** Project Operations for Project Operations for manufacturing
 
 This article applies to the following Dynamics 365 Project Operations components and versions:

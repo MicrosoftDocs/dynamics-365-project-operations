@@ -12,7 +12,7 @@ ms.reviewer: johnmichalak
 
 # Enhanced camera control for Expense Mobile
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies to:** Project Operations Integrated with ERP, Project Operations for manufacturing-based scenarios_
 

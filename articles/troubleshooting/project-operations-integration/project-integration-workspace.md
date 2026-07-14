@@ -14,7 +14,7 @@ ms.search.form: ProjTroubleshootingWorkspace
 
 # Project Operations integration workspace
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

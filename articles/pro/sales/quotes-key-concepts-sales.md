@@ -12,7 +12,7 @@ ms.author: poojafandan
 
 # Concepts unique to Project quotes
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Project invoice integration
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This article provides information about Project Operations dual-write integration for customer invoicing.
 

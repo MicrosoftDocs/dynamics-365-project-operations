@@ -14,7 +14,7 @@ ms.custom:
 
 # Sign up for a preview subscription - Project Operations Core 
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This article explains how to subscribe to the trial offer and deploy Dynamics 365 Project Operations Core.
 

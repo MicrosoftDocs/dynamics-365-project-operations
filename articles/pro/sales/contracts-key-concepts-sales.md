@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Concepts unique to Project Contracts
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

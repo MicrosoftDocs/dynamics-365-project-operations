@@ -9,6 +9,8 @@ ms.date: 06/04/2026
 
 # Find data in a view with AI (preview)
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 [!INCLUDE [find-data-with-ai](~/../shared-content/shared/dynamics365-core/find-data-with-ai.md)]
 
 ### Related information

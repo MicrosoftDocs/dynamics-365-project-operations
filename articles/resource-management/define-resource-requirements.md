@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Define resource requirements
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 The project manager defines resource requirements to specify the resources needed to complete the project work. Follow these steps to define a resource requirement.

@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Apply demo setup and configuration data for Project Operations - Project Operations Core 
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Project Operations Core_
 

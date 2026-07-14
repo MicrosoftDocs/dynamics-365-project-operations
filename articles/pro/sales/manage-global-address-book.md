@@ -12,7 +12,7 @@ ms.author: mukumarm
 
 # Manage multiple addresses for accounts
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations integrated with ERP scenarios_
 

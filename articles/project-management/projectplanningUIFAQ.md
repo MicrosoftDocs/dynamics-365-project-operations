@@ -13,7 +13,7 @@ ms.custom:
 
 # Troubleshoot working in the Task grid
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core, Project for the web_
 

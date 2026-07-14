@@ -13,7 +13,7 @@ ms.author: poojafandan
 
 # Product-based contract lines overview - Project Operations Core
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

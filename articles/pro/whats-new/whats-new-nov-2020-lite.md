@@ -13,6 +13,8 @@ ms.author: sigitac
 
 # What's new November 2020 - Project Operations Core
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 _**Applies To:** Project Operations Core_
 
 The following table lists the updates to Project Operations on CDS environment version 4.4.0.70.

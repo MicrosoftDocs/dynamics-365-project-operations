@@ -11,6 +11,8 @@ ms.author: abriccetti
 
 # Project team members
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._

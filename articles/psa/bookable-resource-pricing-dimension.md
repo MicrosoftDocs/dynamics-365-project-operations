@@ -20,7 +20,7 @@ ms.custom:
 
 # Use bookable resource as a pricing dimension
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 This article provides information about using a bookable resource as a pricing dimension. Before you begin, if you have not already created a pricing dimension solution, you will need to create a new one. If you already have a pricing dimension solution, then you can make your changes in that solution. If you have not created a new pricing dimension solution for your organization, complete the procedures in the [Create custom fields and entities](create-custom-fields-entities.md) article.
 

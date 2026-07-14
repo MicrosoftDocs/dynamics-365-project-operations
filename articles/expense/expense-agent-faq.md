@@ -12,7 +12,7 @@ ms.author: ajitchandran
 
 # Expense Agent FAQs (Preview)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE[banner](../includes/preview-note.md)]
 
 This article provides answers to frequently asked questions about the Expense Agent. It also describes known issues that affect the agent and explains how to work around them.

@@ -12,7 +12,7 @@ ms.author: poojafandan
 
 # Product opportunity lines
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

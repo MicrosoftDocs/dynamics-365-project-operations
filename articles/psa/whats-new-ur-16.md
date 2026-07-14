@@ -20,7 +20,7 @@ ms.reviewer: johnmichalak
 
 # Project Service Automation Update Release 16, V3
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 We’re pleased to announce the latest update for the Project Service Automation
 application for Dynamics 365. This release includes some important improvements

@@ -13,6 +13,8 @@ ms.author: sigitac
 
 # What's new December 2020 - Project Operations Core
 
+[!INCLUDE [banner](../../includes/banner.md)]
+
 _**Applies To:** Project Operations Core_
 
 This article applies to the following Dynamics 365 Project Operations components and versions:

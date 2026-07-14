@@ -12,6 +12,8 @@ ms.author: dishantpopli
 
 # Create and update a project
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 The following is a summary of the fields that can be updated on a project after it has been created. This also includes any applicable implications based on these updates.

@@ -12,7 +12,7 @@ ms.reviewer: johnmichalak
 
 # Project resourcing home page
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This article provides information about project resourcing.
 

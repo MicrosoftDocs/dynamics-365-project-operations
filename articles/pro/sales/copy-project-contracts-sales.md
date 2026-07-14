@@ -12,7 +12,7 @@ ms.author: poojafandan
 
 # Copy project contracts
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

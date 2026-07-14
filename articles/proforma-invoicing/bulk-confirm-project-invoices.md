@@ -11,6 +11,8 @@ ms.author: abriccetti
 
 # Bulk-confirm proforma project invoices
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Core, Project Operations Integrated with ERP_
 
 After you select **Confirm**, all selected invoices that meet the invoice validation criteria are scheduled by a batch job for asynchronous processing.

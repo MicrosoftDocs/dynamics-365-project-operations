@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Purchase nonstocked materials or procurement categories by using a pending vendor invoice
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 When your company procures nonstocked materials or procurement categories for a project, you can immediately record the costs against the project. 

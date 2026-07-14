@@ -19,7 +19,7 @@ ms.reviewer: johnmichalak
 
 # What's new or changed in Project Service Automation Early Access Wave 1 2021, V3
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 ## Project Service Automation Early Access Wave 1 2021, V3
 

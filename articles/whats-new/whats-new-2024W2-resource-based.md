@@ -13,6 +13,8 @@ ms.author: mohitmenon
 
 # What's new 2024 Wave 2 early access - Project Operations Integrated with ERP
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 This article applies to the following Microsoft Dynamics 365 Project Operations components and versions:

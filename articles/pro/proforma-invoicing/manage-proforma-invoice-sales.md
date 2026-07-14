@@ -12,7 +12,7 @@ ms.author: rumant
 
 # Manage a proforma project invoice
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Core_
 

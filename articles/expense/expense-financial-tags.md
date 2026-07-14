@@ -12,7 +12,7 @@ ms.reviewer: johnmichalak
 
 # Use financial tags in Expense Management (Preview)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 _Applies To: Project Operations Integrated with ERP, Project Operations for manufacturing._

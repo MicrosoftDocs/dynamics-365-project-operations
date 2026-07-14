@@ -10,6 +10,8 @@ ms.author: rumant
 
 # Configure the chargeable components of a project-based quote line
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 A project-based quote line can include components and chargeable components.

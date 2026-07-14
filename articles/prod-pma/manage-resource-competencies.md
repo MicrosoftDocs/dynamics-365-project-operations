@@ -14,7 +14,7 @@ ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 
 # Manage resource competencies
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Resource competencies are an essential part of resource management. Use competencies as a baseline to determine resources that have the right balance of skills, education, certification, and project experience. Set up this information for each resource and update it regularly. By matching specific resource competencies during project resource assignment, you can maximize capabilities.
 

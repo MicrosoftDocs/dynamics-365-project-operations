@@ -12,7 +12,7 @@ ms.reviewer: johnmichalak
 
 # Use financial tags for project financial transactions
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations for manufacturing._
 

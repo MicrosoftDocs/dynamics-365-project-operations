@@ -13,6 +13,8 @@ ms.author: sigitac
 
 # What's new May 2021 - Project Operations Integrated with ERP
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 This article applies to the following Dynamics 365 Project Operations components and versions:

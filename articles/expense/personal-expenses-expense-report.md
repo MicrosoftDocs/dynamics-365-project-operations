@@ -13,7 +13,7 @@ ms.author: mukumarm
 
 # Work with personal expenses on an expense report
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 

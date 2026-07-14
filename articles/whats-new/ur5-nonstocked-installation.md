@@ -14,6 +14,8 @@ ms.author: ruhercul
 
 # Update Project Operations in your Finance environment
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 This article provides information about how to update Dynamics 365 Project Operations in your Dynamics 365 Finance environment. There are three procedures that are required to update Project Operations to Update 5 (UR5):

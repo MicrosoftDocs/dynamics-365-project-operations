@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Project stages
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Project stages reflect the state of the project as it progresses. You can customize the project stages to automatically update with business process flows, Power Automate, or plug-in extensions.

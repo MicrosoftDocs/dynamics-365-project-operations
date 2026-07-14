@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Project schedule API performance
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core, Project for the web_
 
 This article provides information about the performance benchmarks of the Project schedule application programming interfaces (APIs) and identifies the best practices for optimizing usage.

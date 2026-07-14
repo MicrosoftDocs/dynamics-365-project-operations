@@ -13,6 +13,8 @@ ms.author: poojafandan
 
 # Sales process overview
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 The sales processes that a project-based organization uses differ from the sales processes that a product-based organization uses. The sales cycles for project-based organizations are longer and require customized estimate techniques to analyze and create quotes for each deal. Dynamics 365 Project Operations uses some of the following functionality that is used in a sales process:

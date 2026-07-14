@@ -13,6 +13,8 @@ ms.author: ramagadu
 
 # What's new July 2022 - Project Operations Integrated with ERP
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:

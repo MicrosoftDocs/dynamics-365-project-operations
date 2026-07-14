@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Post expense reports
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 After an expense report is approved and transferred to the general journal, you can post it. When you post an expense report, the system identifies expenses that are eligible for recovery of value-added tax (VAT). The employee responsible for verifying the expense report is assigned the task of verifying and recovering VAT payments.
 

@@ -12,7 +12,7 @@ ms.author: nimaski
 
 # Create and delete project cost budgets
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 

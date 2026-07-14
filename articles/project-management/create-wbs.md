@@ -12,7 +12,7 @@ ms.author: dishantpopli
 
 # Create a work breakdown structure (WBS)
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 A project schedule communicates what work must be completed, which resources do the work, and the timeframe in which the work must be completed. The schedule reflects all the work associated with delivering the project on time. In Dynamics 365 Project Operations, you create a project schedule by:
 

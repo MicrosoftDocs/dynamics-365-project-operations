@@ -15,7 +15,7 @@ ms.search.validFrom: 2019-01-15
 
 # Project timesheet mobile application
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## Overview
 

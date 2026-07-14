@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Copy project quotes
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Core_
 
 You can easily create a new project quote by copying an existing one. 

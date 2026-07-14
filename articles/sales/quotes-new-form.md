@@ -13,6 +13,8 @@ ms.author: poojafandan
 
 # New Quote form experience
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 This article provides information about the updates to the project quotes form in Microsoft Dynamics 365 Project Operations.

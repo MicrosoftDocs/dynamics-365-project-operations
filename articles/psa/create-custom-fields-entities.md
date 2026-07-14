@@ -19,7 +19,7 @@ ms.reviewer: johnmichalak
 
 # Create custom fields and entities 
 
-[!include [banner](../includes/psa-now-project-operations.md)]
+[!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
 Complete the following steps any time that you want to create a custom option set or entity on the Power Apps platform.  
 The procedures in this article should be completed using the web interface of Project Service Automation (PSA).

@@ -12,7 +12,7 @@ ms.author: nimaski
 
 # Enable the improved subcontracting user experience
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP and Project Operations Core_
 

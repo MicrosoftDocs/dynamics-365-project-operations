@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Manage project price lists on project contracts
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 Project contracts in Microsoft Dynamics 365 Project Operations support multiple date-effective sales price lists on a contract. In Project Operations, a new associated entity named **Project Price Lists** has a one-to-many relationship with a project contract.

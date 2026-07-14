@@ -15,7 +15,7 @@ ms.dyn365.ops.version: AX 10.0.36
 
 # Configure and use project funding limits
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations for manufacturing based scenarios_
 

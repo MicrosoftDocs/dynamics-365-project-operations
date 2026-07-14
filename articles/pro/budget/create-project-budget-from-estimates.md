@@ -14,7 +14,7 @@ ms.author: nimaski
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 This article explains how to create a project budget from estimates.
 

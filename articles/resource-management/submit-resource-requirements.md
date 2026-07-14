@@ -13,6 +13,8 @@ ms.reviewer: johnmichalak
 
 # Submit a resource request
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 You can submit a generated resource requirement as a resource request. The system sends the request to a Resource Manager for fulfillment.

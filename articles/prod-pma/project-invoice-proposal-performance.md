@@ -18,7 +18,7 @@ ms.dyn365.ops.version: 10.0.18
 
 # Project invoice proposal performance features
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 When you create, edit, or post an invoice proposal, processing might slow down as the number of projects and transactions increases. This article describes features that you can enable to help you work more efficiently.
 

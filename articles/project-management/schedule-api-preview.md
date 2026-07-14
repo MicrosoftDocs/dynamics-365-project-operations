@@ -11,7 +11,7 @@ ms.author: abriccetti
 
 # Use Project schedule APIs to perform operations with Scheduling entities
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 

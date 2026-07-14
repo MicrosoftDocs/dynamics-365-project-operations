@@ -20,6 +20,8 @@ ms.custom:
 
 # Feature changes from Project Service Automation to Project Operations
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 The upgrade from Dynamics 365 Project Service Automation to Dynamics 365 Project Operations  Core will be delivered in three phases. This article provides information about the major changes that you can expect to see when the upgrade is complete.
 
 | Upgrade delivery | Phase 1 <br>(January 2022) | Phase 2 <br>(November 2022) | Phase 3  |

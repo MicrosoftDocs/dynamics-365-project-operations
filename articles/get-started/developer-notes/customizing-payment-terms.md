@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Developer notes for payment terms
 
-[!INCLUDE[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 _Applies To: Project Operations Integrated with ERP, Project Operations Core_
 

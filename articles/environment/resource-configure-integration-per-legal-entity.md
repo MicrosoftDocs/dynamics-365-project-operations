@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Configure Project Operations integration per legal entity 
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 

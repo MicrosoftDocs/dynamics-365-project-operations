@@ -12,7 +12,7 @@ ms.date: 02/06/2026
 
 # Purchase orders for stocked items with fixed price
 
-[!include [banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 To use the **Fixed receipt price** option for project costing, set the **Fixed receipt price** option to **Yes** for the item model group.
 

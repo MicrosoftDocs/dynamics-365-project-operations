@@ -19,6 +19,8 @@ ms.reviewer: johnmichalak
 
 # Fulfilling resource requests
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
 Resource requirements can be sent as resource requests to the Resource Manager who is responsible for fulfilling those requests.

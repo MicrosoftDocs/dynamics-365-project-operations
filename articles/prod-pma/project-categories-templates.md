@@ -17,7 +17,7 @@ ms.dyn365.ops.version: AX 8.0.0
 
 # Synchronize project expense categories between finance and operations and Project Service Automation
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 This article describes the templates and underlying tasks that synchronize project expense categories between Dynamics 365 Finance and Dynamics 365 Project Service Automation.
 

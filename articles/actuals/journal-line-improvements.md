@@ -11,6 +11,8 @@ ms.reviewer: johnmichalak
 ---
 # Journal line improvements
 
+[!INCLUDE [banner](../includes/banner.md)]
+
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
 The **Journal line improvements** feature enforces *business rules* to help prevent you from entering incorrect journal line entries. It also introduces new *validations* and automatically fills in dependent values, based on the transaction class and transaction type. This feature enhances the **Quick create** dialog box for journal lines by adding validations and default logic for fields, and by improving the display of fields. In this way, it helps ensure that users enter data correctly.

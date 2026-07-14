@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 
 # Migrate fully invoiced billing milestones at cutover
 
-[!INCLUDE[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 _**Applies To:** Project Operations Integrated with ERP_
 
