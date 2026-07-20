@@ -464,6 +464,16 @@
         href: project-management/import-tasks-to-project.md
     - name: Set up baselines
       href: project-management/baselines.md
+    - name: Field Service Integration
+      items: 
+      - name: Integrate with Field Service overview
+        href: field-service-integration/project-operations-integration-overview.md
+      - name: Project task and work order integration
+        href: field-service-integration/project-operations-integration-project-task.md
+      - name: Create a work order from a project
+        href: field-service-integration/project-operations-integration-po-work-order.md
+      - name: Create a work order from a project task
+        href: field-service-integration/project-operations-integration-po-work-order-task.md
     - name: Financial estimates on projects
       items: 
       - name: Financial estimation concepts
@@ -1747,6 +1757,14 @@
         href: project-management/import-tasks-to-project.md
     - name: Set up baselines
       href: project-management/baselines.md
+    - name: Field Service Integration
+      items: 
+      - name: Create a work order in Project Operations
+        href: field-service-integration/project-operations-integration-po-work-order.md
+      - name: Create a work order from a project task in Project Operations
+        href: field-service-integration/project-operations-integration-po-work-order-task.md
+      - name: Project task and work order integration
+        href: field-service-integration/project-operations-integration-project-task.md
     - name: Financial estimates on projects
       items: 
       - name: Financial estimation concepts
