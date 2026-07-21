@@ -764,15 +764,17 @@
       href: approvals/approvals-overview.md
     - name: Approvals agent (preview)
       items: 
-      - name: Approvals Agent overview (preview)
+      - name: Approvals Agent overview
         href: approvals/approvals-agent-intro.md
       - name: Set up the Approvals Agent by using the agent deployment wizard
         href: approvals/activate-approvals-agent-wizard.md
-      - name: Customize data sent to the Approvals Agent (preview)
+      - name: Customize data sent to the Approvals Agent
         href: approvals/approvals-agent-customization.md
-      - name: Set up policy documents for the Approvals Agent (preview)
+      - name: Set up policy documents for the Approvals Agent
         href: approvals/approvals-agent-policy.md
-      - name: Set up the Approvals Agent as an admin (preview)
+      - name: Set up project-level policy documents
+        href: approvals/approvals-agent-project-policy.md
+      - name: Set up the Approvals Agent as an admin
         href: approvals/approvals-agent-admin-setup.md
     - name: Approval sets
       href: approvals/approval-sets.md
@@ -2133,15 +2135,17 @@
       href: approvals/approvals-overview.md
     - name: Approvals agent (preview)
       items: 
-      - name: Approvals Agent overview (preview)
+      - name: Approvals Agent overview
         href: approvals/approvals-agent-intro.md
       - name: Set up the Approvals Agent by using the agent deployment wizard
         href: approvals/activate-approvals-agent-wizard.md
-      - name: Customize data sent to the Approvals Agent (preview)
+      - name: Customize data sent to the Approvals Agent
         href: approvals/approvals-agent-customization.md
-      - name: Set up policy documents for the Approvals Agent (preview)
+      - name: Set up policy documents for the Approvals Agent
         href: approvals/approvals-agent-policy.md
-      - name: Set up the Approvals Agent as an admin (preview)
+      - name: Set up project-level policy documents
+        href: approvals/approvals-agent-project-policy.md
+      - name: Set up the Approvals Agent as an admin
         href: approvals/approvals-agent-admin-setup.md
     - name: Approval sets 
       href: approvals/approval-sets.md
