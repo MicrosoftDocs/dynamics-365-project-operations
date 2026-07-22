@@ -80,7 +80,7 @@
         href: pro/ai-capabilities/supervise-agents-with-agent-feed.md
       - name: Use Copilot's form fill assistance feature in Project Operations
         href: pro/ai-capabilities/form-fill-assistance.md
-      - name: Find data in a view with AI (preview)
+      - name: Find data in a view with AI
         href: pro/ai-capabilities/find-data-with-ai.md
       - name: Visualize data in a view with Copilot (preview)
         href: pro/ai-capabilities/visualize-data-in-copilot.md
@@ -538,6 +538,8 @@
       href: pro/budget/create-delete-project-sales-budget.md
     - name: Create a project budget from estimates
       href: pro/budget/create-project-budget-from-estimates.md
+    - name: Support multiple draft budgets
+      href: pro/budget/support-multiple-budget-drafts.md
     - name: Relax project start and end date checks
       href: pro/budget/relax-project-start-and-end-date-checks.md
     - name: Summarize budget lines during import
@@ -1397,7 +1399,7 @@
         href: pro/ai-capabilities/supervise-agents-with-agent-feed.md
       - name: Use Copilot's form fill assistance feature in Project Operations
         href: pro/ai-capabilities/form-fill-assistance.md
-      - name: Find data in a view with AI (preview)
+      - name: Find data in a view with AI
         href: pro/ai-capabilities/find-data-with-ai.md
       - name: Visualize data in a view with Copilot (preview)
         href: pro/ai-capabilities/visualize-data-in-copilot.md
@@ -1923,6 +1925,8 @@
       href: pro/budget/create-delete-project-sales-budget.md
     - name: Create a project budget from estimates
       href: pro/budget/create-project-budget-from-estimates.md
+    - name: Support multiple draft budgets
+      href: pro/budget/support-multiple-budget-drafts.md
     - name: Relax project start and end date checks
       href: pro/budget/relax-project-start-and-end-date-checks.md
     - name: Summarize budget lines during import
