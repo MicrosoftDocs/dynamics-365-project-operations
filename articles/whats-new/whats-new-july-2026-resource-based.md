@@ -46,3 +46,18 @@ If the map doesn't start, see the [Missing table columns issue on maps](/dynamic
 | Project Financials |**Enable project resources on general journal entries** <br><br> Enhancements were made to specify the bookable resource on the general journal. This feature enables you to post general journals at the aggregate level without a resource, or in the context of a specific bookable resource.| [Use General journals for advanced accounting](../project-accounting/general-journals.md) |
 | Project Financials |**Post project invoice proposals using multithreaded batch tasks** <br><br> Enhancements were made to specify the bookable resource on the general journal. This feature enables you to post general journals at the aggregate level without a resource, or in the context of a specific bookable resource.|[Manage project invoice proposals](../invoicing/format-update-project-invoice-proposals.md#batch-posting-invoice-proposals-with-late-selection) |
 | Billing and Pricing |**Accounting date at Invoice level** <br><br> With this release, you can define the accounting date directly on the project invoice—independent of the transaction and document dates—giving your finance team control over the period in which billed revenue is recognized. When you specify an accounting date on the invoice, that date is applied to the billed sales actuals and flows through to the corresponding Finance & Operations transaction, so Project Operations and Finance & Operations stay aligned on a single, consistent posting date. This is especially valuable in integrated deployments where financial accuracy and audit compliance matter.| |
+
+## Quality updates
+
+### Project Operations on Dataverse
+
+| **Feature Area** | **Reference No.** | **Quality Update** |
+| --- | --- | --- |
+
+
+
+## Project management and accounting in Finance
+
+For information about the bug fixes that this update includes, sign in to Microsoft Dynamics 365 Lifecycle Services, and view the [KB article](https://fix.lcs.dynamics.com/Issue/Details?kb=0&bugId=1125352&dbType=3&qc=3dae808611dc01dce0e761640cf6c7301b929b749fa1b4fa4a472822c2fe3ff5).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
