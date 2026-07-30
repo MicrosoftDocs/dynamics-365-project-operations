@@ -39,7 +39,11 @@ This article applies to the following components and versions of Microsoft Dynam
 
 | **Feature area** | **Reference number** | **Quality update** |
 | --- | --- | --- |
-
+|Project And Resource Management|	6515118|	Issue with TZA Conversion - DateTime.MinValue or MaxValue shouldn't be converted|
+|Billing|	6080155|	Quantity cannot be edited back to zero for Invoice Revisions|
+|Billing|	6109592|	Improving validation to prevent deletion of confirmed invoices based on invoice status|
+|Billing|	6530519|	Missing FCS for NTE related changes|
+|Sales|	6340757|	Error "The Project Contract Customer is missing" when customer is deactivated from Quote|
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
