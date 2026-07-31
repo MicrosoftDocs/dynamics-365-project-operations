@@ -7,7 +7,7 @@ ms.topic: whats-new
 ms.custom:
   - evergreen
   - bap-template
-ms.date: 07/30/2026
+ms.date: 07/31/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ---
@@ -27,7 +27,7 @@ This article applies to the following components and versions of Microsoft Dynam
 | **Feature area** | **Feature name** | **More information** |
 | --- | --- | --- |
 | Team Member Experience | **Track weekly and time-phased bookings within the Team Member app** <br><br> As part of the enhanced team member experience in Project Operations, team members can now track their project bookings in a time-phased manner to know what they're staffed on currently and what's coming next. | [Track time-phased bookings](../../time/enhanced-team-member-experience.md#view-time-phased-project-bookings) |
-| Time Entry | **Configure maximum hours that can be logged in a** <br><br> This feature is part of a broader set of time entry behaviors that you can now configure on an environment. Admins can now configure the maximum number of hours for time entries that a user can log in a day (currently set to 24 hours out of the box). | [Time Entry Configurations](../../time/time-entry-configurations.md) |
+| Time Entry | **Configure maximum hours that can be logged in a day** <br><br> This feature is part of a broader set of time entry behaviors that you can now configure on an environment. Admins can now configure the maximum number of hours for time entries that a user can log in a day (currently set to 24 hours out of the box). | [Time Entry Configurations](../../time/time-entry-configurations.md) |
 | Time Entry | **Configure time zone behaviour on the time entry grid** <br><br> This feature is part of a broader set of time entry behaviors that you can now configure on an environment. Admins can now switch the time zone behavior from time-zone aware (default, out of the box) to time-zone independent to prevent time zone related discrepancies for global teams. | [Time Entry Configurations](../../time/time-entry-configurations.md) |
 | Resource Management | **Bulk Resource Reconciliation Experience (Preview)** <br><br> Resource Reconciliation within Projects was limited to a single resource, for a single time slice (day, week, or month) and only applied to cases where a booking shortage existed. The Bulk Reconciliation feature now extends these capabilities to booking excesses as well, across multiple time slices (days, weeks, or months). Resource Managers can now reconcile entire project teams, across the whole project range in one go by using the ""Reconcile All"" action. | [Bulk Resource Reconcile UI Experience](../../resource-management/resource-reconciliation-overview.md#resource-reconciliation-ui-for-projects) |
 | Approvals | **Support for customizable first day of the week in the time-phased approvals view** <br><br> Now the calendar view for time approvals supports a custom first day of the week, and doesn't show Sunday as the first day. | |
