@@ -1,16 +1,17 @@
 ---
-title: Time Entry Calendar interface (preview)
+title: Time Entry Calendar interface (Preview)
 description: This article explains how team members can interact with their time entries by using a new calendar interface.
 author: mohitmenon
-ms.date: 09/10/2025
+ms.date: 08/05/2026
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Time Entry Calendar interface overview (preview)
+# Time Entry Calendar interface overview (Preview)
 
 [!INCLUDE [banner](../includes/banner.md)]
+[!INCLUDE [preview note](../includes/preview-note.md)]
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core._
 
