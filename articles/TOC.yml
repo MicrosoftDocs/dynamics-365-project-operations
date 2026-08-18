@@ -500,6 +500,8 @@
         href: project-management/project-sales-tracking.md
       - name: Update progress of a task
         href: project-management/update-progress-of-a-task.md
+      - name: Bulk update tasks
+        href: project-management/bulk-update-tasks.md
     - name: Project team members
       items: 
       - name: Project team members overview
@@ -1799,6 +1801,8 @@
         href: project-management/project-sales-tracking.md
       - name: Update progress of a task
         href: project-management/update-progress-of-a-task.md
+      - name: Bulk update tasks
+        href: project-management/bulk-update-tasks.md
     - name: Project team members
       items: 
       - name: Project team members overview
@@ -2286,6 +2290,8 @@
         href: invoicing/format-update-project-invoice-proposals.md
       - name: Correct accounting on draft project invoice proposals
         href: invoicing/correct-project-invoice-proposals.md
+      - name: Reconcile accrued revenue
+        href: invoicing/reconcile-accrued-revenue.md
     - name: Intercompany invoicing
       items: 
       - name: Intercompany invoicing overview
@@ -2308,6 +2314,8 @@
       href: project-accounting/configure-accounting-internal-projects.md
     - name: Configure accounting for billable projects
       href: project-accounting/configure-accounting-billable-projects.md
+    - name: Post costs overview (Preview)
+      href: project-accounting/post-costs-overview.md
     - name: Enable investment projects
       href: project-accounting/project-operations-investment-project.md
     - name: Enable handling of multiple eliminations in investment projects (preview)
@@ -2680,6 +2688,8 @@
       href: prod-pma/multiple-funding-sources-item-req.md  
     - name: Configure and use project funding limits
       href: prod-pma/project-funding-limits.md
+    - name: Reconcile accrued revenue
+      href: invoicing/reconcile-accrued-revenue.md
   - name: Intercompany invoicing
     items:
     - name: Intercompany invoicing
