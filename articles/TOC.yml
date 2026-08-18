@@ -2286,6 +2286,8 @@
         href: invoicing/format-update-project-invoice-proposals.md
       - name: Correct accounting on draft project invoice proposals
         href: invoicing/correct-project-invoice-proposals.md
+      - name: Reconcile accrued revenue
+        href: invoicing/reconcile-accrued-revenue.md
     - name: Intercompany invoicing
       items: 
       - name: Intercompany invoicing overview
@@ -2682,6 +2684,8 @@
       href: prod-pma/multiple-funding-sources-item-req.md  
     - name: Configure and use project funding limits
       href: prod-pma/project-funding-limits.md
+    - name: Reconcile accrued revenue
+      href: invoicing/reconcile-accrued-revenue.md
   - name: Intercompany invoicing
     items:
     - name: Intercompany invoicing
