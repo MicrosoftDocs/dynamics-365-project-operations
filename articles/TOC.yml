@@ -74,7 +74,7 @@
       href: environment/uninstall-project-operations.md
     - name: Platform AI capabilities
       items:
-      - name: Use Microsoft 365 Copilot in Project Operations (preview)
+      - name: Use Microsoft Copilot in Project Operations (preview)
         href: pro/ai-capabilities/use-microsoft-365-copilot-model-driven-apps.md
       - name: Supervise agents in Project Operations with agent feed
         href: pro/ai-capabilities/supervise-agents-with-agent-feed.md
@@ -1399,7 +1399,7 @@
       href: environment/uninstall-project-operations.md
     - name: Platform AI capabilities
       items:
-      - name: Use Microsoft 365 Copilot in Project Operations (preview)
+      - name: Use Microsoft Copilot in Project Operations (preview)
         href: pro/ai-capabilities/use-microsoft-365-copilot-model-driven-apps.md
       - name: Supervise agents in Project Operations with agent feed
         href: pro/ai-capabilities/supervise-agents-with-agent-feed.md

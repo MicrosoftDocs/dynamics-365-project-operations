@@ -257,7 +257,7 @@ To enable the Teams channel, follow these steps:
 
 1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com/) and select the correct environment.
 1. On the **Agents** tab, select **Expense Entry Agent**.
-1. In the agent view, on the **Channels** tab, select **Teams and Microsoft 365 Copilot**.
+1. In the agent view, on the **Channels** tab, select **Teams and Microsoft Copilot**.
 1. Select **Add channel** to enable Teams integration and follow the steps in the _Configure Teams app availability_ section to configure who you want to share the app.
 
 Learn more in [Open the configuration panel for the Teams + Microsoft 365 channel](/microsoft-copilot-studio/publication-add-bot-to-microsoft-teams#open-the-configuration-panel-for-the-microsoft-teams-channel).
