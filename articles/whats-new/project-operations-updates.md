@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 08/10/2026
+ms.date: 08/21/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ms.author: aarondodell
@@ -74,6 +74,12 @@ Dynamics 365 Project Operations consists of two components:
 | **4.169.3475.4**  <br> Refer to HotFix (**4.169.3495.2**)  | July 10, 2026             | July 13, 2026             | July 17, 2026             | July 31, 2026             | July 17, 2026           | July 31, 2026             | July 23, 2026           | August 14, 2026           | July 23, 2026           | August 14, 2026           |
 | **4.170.3508.4**    | August 07, 2026             |  August 10, 2026               |  August 14, 2026               |  August 28, 2026               |  August 14, 2026             | August 28, 2026             | August 28, 2026           | September 11, 2026           | August 28, 2026           | September 11, 2026           |
 | **4.171.X.X**    | September 04, 2026             | September 07, 2026             | September 11, 2026             | September 25, 2026             | September 11, 2026           | September 25, 2026             | September 25, 2026           | October 09, 2026           | September 25, 2026           | October 09, 2026           |
+| **4.172.X.X**    | October 01, 2026             | October 05, 2026             | October 09, 2026             | October 23, 2026             | October 09, 2026           | October 23, 2026             | October 23, 2026           | November 10, 2026           | October 23, 2026           | November 10, 2026           |
+| **4.173.X.X**    | October 30, 2026             | November 02, 2026             | November 10, 2026             | November 20, 2026             | November 10, 2026           | November 20, 2026             | November 20, 2026           | December 04, 2026           | November 20, 2026           | December 04, 2026           |
+| **4.174.X.X**    | November 27, 2026             | November 30, 2026             | December 04, 2026             | December 18, 2026             | December 04, 2026           | December 18, 2026             | December 18, 2026           | January 06, 2027           | December 18, 2026           | January 06, 2027           |
+| **4.175.X.X**    | January 22, 2027             | January 27, 2027             | January 29, 2027             | February 12, 2027             | January 29, 2027           | February 12, 2027             | February 12, 2027           | February 26, 2027           | February 12, 2027           | February 26, 2027           |
+| **4.176.X.X**    | February 19, 2027             | February 22, 2027             | February 26, 2027             | March 12, 2027             | February 26, 2027           | March 12, 2027             | March 12, 2027           | March 29, 2027           | March 12, 2027           | March 29, 2027           |
+| **4.177.X.X**    | March 19, 2027             | March 24, 2027             | March 29, 2027             | April 09, 2027             | March 29, 2027           | April 09, 2027             | April 09, 2027           | April 23, 2027           | April 09, 2027           | April 23, 2027           |
 
 ## HotFix release cycle
 
