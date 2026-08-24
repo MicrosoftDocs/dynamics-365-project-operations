@@ -3,7 +3,7 @@ title: Use general journals for advanced accounting
 description: Learn more about using general journals and record various financial transactions directly into the general ledger.
 author: ryansandness
 ms.author: ryansandness
-ms.date: 06/18/2026
+ms.date: 08/24/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -17,7 +17,7 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP_
 
-General journals are the all-purpose accounting feature in Microsoft Dynamics 365 Finance. Use general journals to record various financial transactions directly into the general ledger (GL). Common uses include daily accounting entries, adjustments, and integrations from external systems.
+General journals are the all-purpose accounting feature in Microsoft Dynamics 365 Finance. Use general journals to record various financial transactions directly into the general ledger (GL). Common uses include daily low-volume accounting entries and month-end adjustments.
 
 ## 10.0.48 Feature Enhancements
 
