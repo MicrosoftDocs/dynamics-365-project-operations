@@ -44,7 +44,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
 |:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
-|                   4.169.3495.2                   |                                      10.0.47                                     |                1.0.169.34952               |
+|                   4.170.3509.4                   |                                      10.0.47                                     |                1.0.170.35094               |
 
 > [!IMPORTANT]
 >
