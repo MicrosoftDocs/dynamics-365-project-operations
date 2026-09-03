@@ -2,7 +2,7 @@
 title: Manage revenue estimates
 description: Learn how to create, calculate, post, reverse, or eliminate revenue estimates for projects. Follow step-by-step guidance to manage revenue estimates effectively.
 author: sigitac
-ms.date: 01/30/2026
+ms.date: 09/03/2026
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: sigitac
@@ -42,7 +42,7 @@ Complete the following steps to create a revenue estimate.
      - **Automatic**: The completion percentage is calculated automatically and based on the cost lines included in the calculation. The cost template defines the cost lines that are included.
      - **Manual**: The completion percentage equals the completion percentage of the last estimate. After the estimate is created, you can change the **Manual calculation** on the **Estimates** page.
      - **From cost template**: A combination of the automatic and manual methods. This option is set automatically or manually, depending on the default value in the cost template.
-   - **Forecast model**: Select a forecast model for the estimate.
+   - **Forecast model**: Select a forecast model for the estimate. You can select an estimate forecast model or a budget forecast model. For more information on budget forecast models, see [Transfer budgets to forecasts](../budget/transfer-budgets-to-forecasts.md).
    - **Print estimate list**: Create and show an estimate list. The list contains the status of the current function. You can print any warnings about the estimate on the report. The following conditions cause warnings to appear in the estimate list:
      - A completion percentage of more than 100 percent.
      - A completion percentage less than zero percent.
