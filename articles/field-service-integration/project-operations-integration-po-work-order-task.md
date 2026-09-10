@@ -9,11 +9,11 @@ ms.author: vhorvath
 
 # Create a work order from a project task in Project Operations
 
-Project managers can initiate field work directly from the project plan by creating a work order from a project task. You can also associate existing work orders with project tasks and remove or reassign work orders from tasks.
+Project managers can initiate field work directly from the project plan by creating a work order from a project task. They can also associate existing work orders with project tasks and remove or reassign work orders from tasks.
 
-Each project task can link to only one work order, while a project can still have multiple work orders across different tasks. If you want to create a work order from a project, go to [Create a work order from a project](project-operations-integration-po-work-order.md).
+Each project task can link to only one work order. A work order can't be associated with multiple project tasks. If you want to create a work order from a project, go to [Create a work order from a project](project-operations-integration-po-work-order.md).
 
-When you link a work order to a project task, the task’s planned start and end dates apply to the work order as the time promised window. The dates provide guidance for scheduling in Field Service. However, changes made during scheduling don't update project task dates, preserving the integrity of the project plan.
+When you link a work order to a project task, the task’s planned start and end dates are used as the work order's promise window. These dates help guide scheduling in Field Service. However, changes made during scheduling don't update the project task dates, preserving the integrity of the project plan.
 
 ## Prerequisites
 
@@ -82,7 +82,7 @@ To remove or reassign a work order, follow these steps:
 
 ## View work orders related to project tasks
 
-You can view key information about work orders related to project tasks within Project Operations. As users schedule and book resources on the work order, the system automatically updates the booked resources.
+You can view information about work orders related to project tasks within Project Operations. As users schedule and book resources on the work order, the system automatically updates the booked resources.
 
 1. On the task line, select the **Open details** icon or select **⋮ (vertical ellipsis)** > **Details: Project Operations**.
 
