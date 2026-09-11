@@ -1669,6 +1669,8 @@
           href: pro/sales/set-up-schedule-retainers-sales.md
         - name: Create an ad hoc advance on a project contract
           href: pro/sales/create-ad-hoc-advance-sales.md
+    - name: Subscription billing
+      href: proforma-invoicing/subscription-billing.md
   - name: Pricing and costing
     items: 
     - name: Price list setup
