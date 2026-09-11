@@ -2,7 +2,7 @@
 title: Advances and retainer-based contracts
 description: This article provides information about retainer-based contracting models and advances in Project Operations.
 author: poojafandan
-ms.date: 02/26/2026
+ms.date: 09/11/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template
@@ -34,5 +34,30 @@ The retainer in Project Operations isn't available for use until you invoice it 
 | Available Amount | The amount that is available to be used on the retainer or advance record. | Until you invoice the advance or retainer, it isn't available to be used which means the available amount is zero. |
 | Used Amount | The amount that is already used on the retainer or advance. | An advance or retainer can be partially reconciled on an invoice with actual costs. Mark some part as already used or consumed. The rest of the advance or retainer amount is available to reconcile on a future invoice with actual costs. |
 
+## Assign transaction categories to retainers
+
+_**Applies to:** Dynamics 365 Project Operations integrated with ERP_
+
+On-account transactions — retainers, advances, milestones, and progress-based billing — can now carry a **Transaction category**. The category you select in Project Operations determines the project category that Dynamics 365 Finance uses when the transaction posts, so revenue for different types of on-account billing can be directed to different main accounts.
+
+### Prerequisites
+
+Turn on two feature flags, one in each system.
+
+| System | Feature | Where to enable it |
+| --- | --- | --- |
+| Dynamics 365 Finance | **Enable project categories for on-account transactions** |
+| Project Operations | **Enable On Account Category** |
+
+### Where you set the transaction category
+
+**Transaction category** is an optional, editable lookup on the create form for retainers.
+
+#### Editing the transaction category
+
+- You can edit the transaction category on records that you didn't invoice yet.
+- You can edit the project category on the invoice proposal in Dynamics 365 Finance.
+
+Only on-account categories are valid for retainers and milestones. The system validates the category type and blocks categories that aren't on-account.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
