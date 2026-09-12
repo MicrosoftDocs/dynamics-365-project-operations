@@ -2,7 +2,7 @@
 title: Create invoice schedules on a project contract line
 description: This article provides information about creating invoice schedules and milestones.
 author: suvaidya
-ms.date: 01/23/2026
+ms.date: 09/11/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -16,7 +16,7 @@ ms.author: nshrivastava
 
 _**Applies To:** Project Operations Core_
 
-You can attach an invoice schedule on a project-based contract line. You can only invoice after the contract is won to create a Project contract. By using invoice schedules, you can automatically create draft invoices for a project-based contract line. If you plan to always create invoices manually, you can skip creating invoice schedules on a project-based contract line or a contract line.
+You can attach an invoice schedule to a project-based contract line. You can only invoice after the contract is won to create a Project contract. By using invoice schedules, you can automatically create draft invoices for a project-based contract line. If you plan to always create invoices manually, you can skip creating invoice schedules on a project-based contract line or a contract line.
 
 ## Create a time and material invoice schedule for a project-based contract line
 
@@ -49,27 +49,53 @@ When a project-based contract line uses a fixed price billing method, you can cr
     - **Milestone Name** is set to the date that is dictated based on the invoice frequency.
     - **Milestone Date** is set to the date that is dictated based on the invoice frequency.
     - **Milestone Amount** is calculated by dividing the contract amount on the project-based contract line by the number of milestones as dictated by the frequency, billing start, and requested delivery dates.
-    - If the contract line has a value in the **Estimated Tax Amount** field, this field is also apportioned to each milestone equally when generating periodic milestones.
+    - If the contract line has a value in the **Estimated Tax Amount** field, this value is also apportioned equally to each milestone when generating periodic milestones.
 
 Billing milestones should equal the contracted value of the project-based contract line. If they aren't equal, an error occurs. You can fix that error by verifying that the billing milestones total the contracted value of the line by either creating, editing, or deleting milestones. After you make the changes, refresh the page.
 
 ### Manually create milestones
 
-You can manually create fixed price milestones when you don't want to split them periodically. To create a milestone manually, follow these steps.
+Manually create fixed-price milestones when you don't want to split them periodically. To manually create a milestone, follow these steps.
 
-1. Open the fixed price contract line where you want to create a milestone.
+1. Open the fixed-price contract line where you want to create a milestone.
 1. On the **Invoice Schedule** tab, select **+ Create new Contract line milestone** on the subgrid.
 1. On the **Milestone Creation** form, enter the required information based on the following table.
 
-| Field | Location | Description | Downstream impact |
-| --- | --- | --- | --- |
-| Milestone Name | Quick Create | Text field for the name of the milestone. | This field is included on the project contract line milestone and the invoice. |
-| Project Task | Quick Create | If the milestone is tied to a project task, use this reference to add custom logic and set the milestone status based on the task status. | There isn't a downstream impact of this reference to a task. |
-| Milestone Date | Quick Create | The date on which the automatic invoice creation process should look for the status of this milestone to consider it for invoicing. | This field is included on the project contract line milestone and the invoice. |
-| Invoice Status | Quick Create | When the milestone is created, this status is always set to **Not ready for invoicing** or **Not started**. | This field is included on the project contract line milestone and the invoice. |
-| Line Amount | Quick Create | The amount or value of the milestone that's invoiced to the customer. | This field is included on the project contract line milestone and the invoice, |
-| Tax | Quick Create | The tax amount applied on the milestone. | This field is included on the project contract line milestone and the invoice. |
+   | Field | Location | Description | Downstream impact |
+   | --- | --- | --- | --- |
+   | Milestone Name | Quick Create | Text field for the name of the milestone. | This field is included on the project contract line milestone and the invoice. |
+   | Project Task | Quick Create | If the milestone is tied to a project task, use this reference to add custom logic and set the milestone status based on the task status. | There isn't a downstream impact of this reference to a task. |
+   | Milestone Date | Quick Create | The date on which the automatic invoice creation process should look for the status of this milestone to consider it for invoicing. | This field is included on the project contract line milestone and the invoice. |
+   | Invoice Status | Quick Create | When you create the milestone, this status is always set to **Not ready for invoicing** or **Not started**. | This field is included on the project contract line milestone and the invoice. |
+   | Line Amount | Quick Create | The amount or value of the milestone that's invoiced to the customer. | This field is included on the project contract line milestone and the invoice, |
+   | Tax | Quick Create | The tax amount applied on the milestone. | This field is included on the project contract line milestone and the invoice. |
 
 1. Select **Save and Close**.
+
+### Assign transaction categories to milestones
+
+_**Applies to:** Dynamics 365 Project Operations integrated with ERP_
+
+On-account transactions — retainers, milestones, and progress-based billing — can now carry a **Transaction category**. The category you select in Project Operations determines the project category that Dynamics 365 Finance uses when the transaction posts, so revenue for different types of on-account billing can go to different main accounts.
+
+##### Prerequisites
+
+Turn on two feature flags, one in each system.
+
+| System | Feature |
+| --- | --- |
+| Dynamics 365 Finance | **Enable project categories for on-account transactions** |
+| Project Operations | **Enable On Account Category** |
+
+##### Where you set the transaction category
+
+**Transaction category** is an optional, editable lookup on the create form for milestones.
+
+##### Editing the transaction category
+
+- You can edit the transaction category on records that you didn't invoice yet.
+- You can edit the project category on the invoice proposal in Dynamics 365 Finance.
+
+Only on-account categories are valid for retainers and milestones. The system validates the category type and blocks categories that aren't on-account.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
