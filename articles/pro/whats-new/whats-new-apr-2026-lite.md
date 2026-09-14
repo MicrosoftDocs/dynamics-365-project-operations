@@ -7,7 +7,7 @@ ms.topic: whats-new
 ms.custom:
   - evergreen
   - bap-template
-ms.date: 05/05/2026
+ms.date: 09/11/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ---
@@ -20,7 +20,7 @@ _**Applies To:** Project Operations Core_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Microsoft Dataverse environment version 4.166.3403.4.
+- Project Operations in a Microsoft Dataverse environment version 4.166.3426.2.
 
 ## Features included in this release
 
