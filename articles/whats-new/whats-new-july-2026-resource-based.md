@@ -7,7 +7,7 @@ ms.topic: whats-new
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 07/31/2026
+ms.date: 09/11/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 
@@ -21,7 +21,7 @@ ms.reviewer: johnmichalak
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Microsoft Dataverse environment version 4.169.3470.3.
+- Project Operations in a Microsoft Dataverse environment version 4.169.3495.2.
 - Project management and accounting in a Microsoft Dynamics 365 Finance environment version 10.0.48.
 
 ## Project Operations dual-write map updates
