@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 09/10/2026
+ms.date: 09/11/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ms.author: aarondodell
@@ -37,8 +37,8 @@ Dynamics 365 Project Operations consists of two components:
 
 ## Project Operations release notes
 
-- Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-june-2026-resource-based.md) scenario.
-- Project Operations latest release notes for [Core deployment](../pro/whats-new/whats-new-june-2026-lite.md) scenario.
+- Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-aug-2026-resource-based.md) scenario.
+- Project Operations latest release notes for [Core deployment](../pro/whats-new/whats-new-aug-2026-lite.md) scenario.
 
 ## Project Operations latest version
 
@@ -73,7 +73,7 @@ Dynamics 365 Project Operations consists of two components:
 | **4.168.3449.1**  <br> Refer to HotFix (**4.168.3456.2**)  | June 12, 2026             | June 15, 2026             | June 18, 2026             | July 02, 2026             | June 18, 2026           | July 02, 2026             | July 02, 2026           | July 16, 2026           | July 02, 2026           | July 16, 2026           |
 | **4.169.3475.4**  <br> Refer to HotFix (**4.169.3495.2**)  | July 10, 2026             | July 13, 2026             | July 17, 2026             | July 31, 2026             | July 17, 2026           | July 31, 2026             | July 23, 2026           | August 14, 2026           | July 23, 2026           | August 14, 2026           |
 | **4.170.3508.4**  <br> Refer to HotFix (**4.170.3539.1**)    | August 07, 2026             |  August 10, 2026               |  August 14, 2026               |  August 28, 2026               |  August 14, 2026             | August 28, 2026             | August 28, 2026           | September 11, 2026           | August 28, 2026           | September 11, 2026           |
-| **4.171.X.X**    | September 04, 2026             | September 07, 2026             | September 11, 2026             | September 25, 2026             | September 11, 2026           | September 25, 2026             | September 25, 2026           | October 09, 2026           | September 25, 2026           | October 09, 2026           |
+| **4.171.3539.1**    | September 14, 2026             | September 17, 2026             | September 17, 2026             | September 25, 2026             | September 17, 2026           | September 25, 2026             | September 25, 2026           | October 09, 2026           | September 25, 2026           | October 09, 2026           |
 | **4.172.X.X**    | October 01, 2026             | October 05, 2026             | October 09, 2026             | October 23, 2026             | October 09, 2026           | October 23, 2026             | October 23, 2026           | November 10, 2026           | October 23, 2026           | November 10, 2026           |
 | **4.173.X.X**    | October 30, 2026             | November 02, 2026             | November 10, 2026             | November 20, 2026             | November 10, 2026           | November 20, 2026             | November 20, 2026           | December 04, 2026           | November 20, 2026           | December 04, 2026           |
 | **4.174.X.X**    | November 27, 2026             | November 30, 2026             | December 04, 2026             | December 18, 2026             | December 04, 2026           | December 18, 2026             | December 18, 2026           | January 06, 2027           | December 18, 2026           | January 06, 2027           |
