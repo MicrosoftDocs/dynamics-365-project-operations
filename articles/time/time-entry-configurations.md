@@ -2,13 +2,13 @@
 title: Time Entry Configurations
 description: Learn about how a system administrator can use the configurations available to modify time entry behavior in Project Operations.
 author: mohitmenon
-ms.date: 07/13/2026
+ms.date: 09/15/2026
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
 ---
 
-# Time Entry Configurations in Project Operations
+# Time entry configurations in Project Operations
 
 [!INCLUDE[banner](../includes/banner.md)]
 
@@ -44,5 +44,16 @@ Project Operations enforces the limit whenever you create a time entry or modify
 
 > [!NOTE]
 > Time zone aware behavior continues to be the default when you don't select a preferred configuration.
+
+## Use Outlook meetings as a time entry source
+
+This toggle enables team members to view Outlook meetings on the [Time Entry Calendar interface](time-entry-calendar.md#create-time-entries-using-outlook-meetings) and then use them to create time entries as well.
+
+> [!NOTE]
+> This configuration is only available on environments where the Time Entry Calendar feature is enabled.
+
+- By default, this toggle is disabled (OFF).
+- To enable this capability, switch the toggle ON. Select **Save**.
+- Learn more about the experience of creating time entries using Outlook meetings from [Time Entry Calendar (Preview)](time-entry-calendar.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
