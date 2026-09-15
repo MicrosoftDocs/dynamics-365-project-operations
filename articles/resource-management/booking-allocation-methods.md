@@ -3,7 +3,7 @@ title: Booking allocation methods
 description: This article provides information about how booking allocation methods work in Project Operations.
 author: tulsij
 ms.author: dishantpopli
-ms.date: 01/23/2026
+ms.date: 09/15/2026
 ms.topic: concept-article
 ms.custom: 
   - bap-template 
@@ -17,7 +17,7 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-Whether you add a team member directly to a project on the **Team** tab, or book a resource to a project or requirement from the Schedule board, you can use different booking allocation methods. This article explains how each method works, and which methods can lead to overbooking resources.
+Whether you add a team member directly to a project on the **Team** tab, or book a resource to a project or requirement from the Schedule board, you can use different booking allocation methods. This article explains how each method works, and which methods can lead to overbooked resources.
 
 ## Booking allocation methods
 
@@ -77,5 +77,24 @@ The following allocation methods lead to overbooking if the resource is already 
 - Evenly Distribute Hours
 
 If you use one of these three allocation methods, you aren't notified that the resource is overbooked. To correct the overbooking, use the Schedule board.
+
+## Configure default booking methods
+
+Project Operations allows administrators to define default booking methods while using the Schedule Assistant or Schedule Board directly for booking resources. These defaults help standardize resourcing behavior across projects and reduce manual selection by project managers and resource managers.
+
+### Set default booking methods
+
+To set the default booking methods, follow these steps:
+
+1. Sign in to Project Operations as a system administrator.
+1. In the left pane, change the area to **Settings**.
+1. In the **General** section, select **Parameters**.
+1. A list of organization units appears. Double-tap or double-click the **Organization Units** row for the columns that aren't links.
+1. Scroll down to the **Scheduling** section.
+1. Review the two configurations: one for Schedule Assistant (options are **Remaining Requirement** and **Full Requirement**) and another for the Schedule Board (**Front Load Hours**, **Evenly Distribute Hours**, **Full Capacity**, **Remaining Capacity**, and **Percentage Capacity**).
+1. Select preferred default booking methods and select **Save**. A pop-up appears indicating that this change could take up to five minutes to reflect on the board. Select **OK**.
+
+> [!NOTE]
+> The preceding instructions to set configurable booking methods only apply to Project Operations.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
