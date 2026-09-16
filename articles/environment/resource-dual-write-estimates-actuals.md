@@ -1,11 +1,11 @@
 ---
 title: Project estimates and actuals integration
-description: This article provides information about Project Operations dual-write integration for project estimates and actuals.
-author: suvaidya
-ms.author: nshrivastava
-ms.date: 02/27/2026
+description: This article provides information about Microsoft Dynamics 365 Project Operations dual-write integration for project estimates and actuals.
+author: abriccetti
+ms.author: abriccetti
+ms.date: 09/16/2026
 ms.topic: concept-article
-ms.custom: 
+ms.custom:
   - bap-template
 ms.reviewer: johnmichalak
 
@@ -17,7 +17,7 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP_
 
-This article provides information about Project Operations dual-write integration for project estimates and actuals.
+This article provides information about Dynamics 365 Project Operations dual-write integration for project estimates and actuals.
 
 ## Project estimates
 
@@ -63,8 +63,8 @@ Dataverse creates project actuals based on time, expense, material, and billing 
 
 The **Project Operations integration actuals** table map synchronizes all the records from the **Actuals** entity in Dataverse, with the attribute **Skip Sync (internal use only)** set to **False**. Dataverse automatically sets this attribute value when you create the record. Set this attribute to **True** in the following examples:
 
-  - Project cost actuals for intercompany transactions. For more information, see [Create intercompany transactions](../project-accounting/create-intercompany-transactions.md). The system skips these records because it recreates the project cost actual in finance and operations apps when you post the intercompany vendor invoice.
-  - Negative unbilled sales records created when the proforma invoice is confirmed. The system skips these records because the project subledger in finance and operations apps doesn't reverse the unbilled sales record at invoicing but changes the status to fully invoiced.
+- Project cost actuals for intercompany transactions. For more information, see [Create intercompany transactions](../project-accounting/create-intercompany-transactions.md). The system skips these records because it recreates the project cost actual in finance and operations apps when you post the intercompany vendor invoice.
+- Negative unbilled sales records created when the proforma invoice is confirmed. The system skips these records because the project subledger in finance and operations apps doesn't reverse the unbilled sales record at invoicing but changes the status to fully invoiced.
 
 The dual-write table map synchronizes the actuals records to the staging table, **ProjCDSActualsImport**. The periodic process **Import from staging table** processes these records when creating Project Operations integration journal lines and project invoice proposal lines. For more information, see [Integration journal in Project Operations](../project-accounting/project-operations-integration-journal.md).
 
@@ -72,9 +72,10 @@ Dataverse also captures the links between the project actual transactions in the
 
 Posting a Project Operations integration journal and a project invoice proposal triggers an update in respective records in the staging table, **ProjCDSActualsImport**. The system captures and records the following accounting attributes for actuals transactions:
 
-- Accounting currency amount
-- Exchange rate
+- Accounting amount
+- Accounting tax amount
+- Account exchange rate
+- Accounting date
 - Voucher number
-- Sales tax amount
 
-The **Project Operations integration actuals** table map updates respective actuals records in Dataverse with this information.
+Before Project Operations version 4.171.X.X, dual-write updates the actual in Dataverse with this information. Starting with version 4.171.X.X, after project transactions are posted and accounted for in Dynamics 365 Finance, dual-write synchronizes the resulting accounting details to Project Operations in Dataverse. This synchronization creates and populates a related **Accounting transaction** record and associates it with the corresponding actual. The accounting transaction uses the accounting currency of the owning company's ledger, while the actual retains its transaction currency. For more information, see [Accounting transactions for project actuals](../actuals/accounting-transactions-for-actuals.md).
