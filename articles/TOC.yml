@@ -317,7 +317,7 @@
       - name: Concepts unique to project contracts
         href: pro/sales/contracts-key-concepts-sales.md
       - name: Modern Contract experience
-        herf: sales/contract-new-form-experience.md
+        href: sales/contract-new-form-experience.md
       - name: Customize health badges in the modern contract experience
         href: sales/customize-health-badge-modern-contract.md
       - name: Header details for project contracts
