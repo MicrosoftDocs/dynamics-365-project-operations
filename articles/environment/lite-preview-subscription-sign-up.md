@@ -63,7 +63,7 @@ Before you begin, make sure you're signed in to a browser by using the user work
 
 ## Set up demo data
 
-Set up demo data by following instructions in the article, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).
+Set up demo data by following instructions in the article, [Apply demo setup and configuration data](core-package-import-overview.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
