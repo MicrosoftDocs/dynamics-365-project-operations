@@ -44,10 +44,12 @@ On-account transactions — retainers, advances, milestones, and progress-based 
 
 Turn on two feature flags, one in each system.
 
-| System | Feature | Where to enable it |
-| --- | --- | --- |
+| System | Feature |
+| --- | --- |
 | Dynamics 365 Finance | **Enable project categories for on-account transactions** |
 | Project Operations | **Enable On Account Category** |
+
+**Dual-write map:** Project Operations integration contract line milestones (version 1.0.0.8)
 
 ### Where you set the transaction category
 

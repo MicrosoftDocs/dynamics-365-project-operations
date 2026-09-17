@@ -87,6 +87,8 @@ Turn on two feature flags, one in each system.
 | Dynamics 365 Finance | **Enable project categories for on-account transactions** |
 | Project Operations | **Enable On Account Category** |
 
+**Dual-write map:** Project Operations integration contract line milestones (version 1.0.0.8)
+
 ##### Where you set the transaction category
 
 **Transaction category** is an optional, editable lookup on the create form for milestones.
