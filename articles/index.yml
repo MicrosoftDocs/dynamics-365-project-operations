@@ -64,7 +64,7 @@ additionalContent:
       links:
       - url: environment/lite-deployment.md
         text: Deploy Project Operations Core
-      - url: environment/lite-apply-demo-setup-config-data.md
+      - url: environment/core-package-import-overview.md
         text: Apply demo setup and configuration data
       - url: environment/dsr-rights-requests.md
         text: Respond to Data Subject Rights (DSR) requests
