@@ -23,7 +23,7 @@ ms.reviewer: johnmichalak
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Project stages are designed to reflect the state of the project as it progresses. Customizations can be used to automatically update the stages with business process flows, Power Automate, or plug-in extensions.
+Project stages are designed to reflect the state of the project as it progresses. Customizations can be used to automatically update the stages with business process flows, Microsoft Power Automate, or plug-in extensions.
 
 The following stages are defined in the default BPF:
 

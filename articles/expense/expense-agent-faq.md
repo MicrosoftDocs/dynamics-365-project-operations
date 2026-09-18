@@ -39,7 +39,7 @@ The solution is part of the **Copilot for finance and operations** package (vers
 
 ### How do I update the shared mailbox address ID for expense usage?
 
-Sign in to [Power Apps](https://make.powerapps.com/), update the variable in **DefaultSolution**, and then publish all customizations.
+Sign in to [Microsoft Power Apps](https://make.powerapps.com/), update the variable in **DefaultSolution**, and then publish all customizations.
 
 ### How do I update environment variables?
 
@@ -55,8 +55,8 @@ The Expense Entry feature of the Time and Expense Agent uses the following conne
 
 - Microsoft Copilot Studio
 - Dataverse
-- Office 365 Users
-- Office 365 Outlook
+- Microsoft 365 Users
+- Microsoft 365 Outlook
 - Microsoft Teams
 
 To add a connector, sign in to [Power Apps](https://make.powerapps.com/), select your environment, go to **Connections** \> **New connection**, and then select the connector.
@@ -109,7 +109,7 @@ You might need to republish agents.
 1. Publish both agents.
 1. Publish the **Time and Expense Agent** solution.
 
-### What should I do if Power Automate flows stop working?
+### What should I do if Microsoft Power Automate flows stop working?
 
 Flows might be in a disabled state because of repeated failures. In this case, turn them on manually. If any connections require reauthentication, reconnect them.
 
@@ -124,7 +124,7 @@ Here are some possible causes:
 
 ### I updated the Outlook folder, but the agent still uses the old folder. What should I do?
 
-Reconnect the **Office 365 Outlook** connector, and republish the solution.
+Reconnect the **Microsoft 365 Outlook** connector, and republish the solution.
 
 ## Email and receipt processing
 

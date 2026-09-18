@@ -100,7 +100,7 @@ By default, both Project Scheduling Service error logs and the Operation Set log
 
 - Customize the **Project Parameter** entity by creating a custom page and adding the **Stale Operations Set Age** field.
 - Use client code that uses the [WebApi software development kit (SDK)](/powerapps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord).
-- Use Service SDK code that uses the Xrm SDK **updateRecord** method (Client API reference) in model-driven apps. Power Apps includes a description and supported parameters for the **updateRecord** method.
+- Use Service SDK code that uses the Xrm SDK **updateRecord** method (Client API reference) in model-driven apps. Microsoft Power Apps includes a description and supported parameters for the **updateRecord** method.
 
     ```C#
     Xrm.WebApi.retrieveMultipleRecords('msdyn_projectparameter').then(function (response) {

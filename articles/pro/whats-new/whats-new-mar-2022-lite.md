@@ -53,6 +53,6 @@ This article applies to the following components and versions of Microsoft Dynam
 The [Removed or deprecated features in Project Operations](../../whats-new/removed-depreciated-features-project.md) article describes features that have been removed or deprecated for Dynamics 365 Project Operations.
 
 - A removed feature is no longer available in the product.
-- A deprecated feature isn't in active development and might be removed in a future update.
+- A deprecated feature isn't in active development and might be removed.
 
 A deprecation announcement will be appear in the [Removed or deprecated features in Project Operations](../../whats-new/removed-depreciated-features-project.md) article 12 months before any feature is removed from the product.

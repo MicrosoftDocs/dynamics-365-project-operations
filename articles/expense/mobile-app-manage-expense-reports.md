@@ -28,7 +28,7 @@ The **Reports** tab of the Dynamics 365 expense management mobile app shows all 
 
 To create an expense report, follow these steps:
 
-1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
+1. On your mobile device, open the Microsoft Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Reports** tab, on the **Draft** tab, select the plus sign (**+**) button.
 1. Optional: Enter a name for the expense report.
 1. Optional: Enter a description.

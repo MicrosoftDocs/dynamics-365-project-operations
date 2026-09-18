@@ -44,7 +44,7 @@ Click on a link below to learn more about what you can do with [!INCLUDE[pn_proj
   
 -   [View your schedule](../psa/view-schedule.md)  
   
--   [Manage projects and bookings in your Office 365 calendar](../psa/manage-project-bookings-office-365-calendar.md)  
+-   [Manage projects and bookings in your Microsoft 365 calendar](../psa/manage-project-bookings-office-365-calendar.md)  
   
 -   [Enter time](../psa/enter-time.md)  
   
@@ -54,7 +54,7 @@ Click on a link below to learn more about what you can do with [!INCLUDE[pn_proj
   
 -   [Schedule time off](../psa/schedule-time-off.md)  
   
--   [Collaborate with your project team members with Office 365 Groups](../psa/collaborate-project-team-members-office-365-groups.md)  
+-   [Collaborate with your project team members with Microsoft 365 Groups](../psa/collaborate-project-team-members-office-365-groups.md)  
   
 -   [Find your next project with the Project Finder Mobile app](../psa/find-next-project-finder-mobile-app.md)  
   

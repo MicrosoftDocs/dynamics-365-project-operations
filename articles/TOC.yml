@@ -1295,7 +1295,7 @@
           href: psa/create-project-template.md
         - name: Submit resource requests
           href: psa/submit-resource-requests.md
-        - name: Create an Office 365 Group for a project
+        - name: Create an Microsoft 365 Group for a project
           href: psa/create-office-365-group-project.md
         - name: Add documents to a project
           href: psa/add-documents-project.md
@@ -1337,7 +1337,7 @@
           href: psa/sign-in.md
         - name: View your schedule
           href: psa/view-schedule.md
-        - name: Manage projects and bookings in Office 365
+        - name: Manage projects and bookings in Microsoft 365
           href: psa/manage-project-bookings-office-365-calendar.md
         - name: Enter time
           href: psa/enter-time.md
@@ -1347,7 +1347,7 @@
           href: psa/allow-someone-else-enter-time-entry-expense.md
         - name: Schedule time off
           href: psa/schedule-time-off.md
-        - name: Collaborate using Office 365 Groups
+        - name: Collaborate using Microsoft 365 Groups
           href: psa/collaborate-project-team-members-office-365-groups.md
         - name: Find projects with Project Finder mobile
           href: psa/find-next-project-finder-mobile-app.md

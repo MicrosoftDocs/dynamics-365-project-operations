@@ -1,6 +1,6 @@
 ---
-title: Use V3 Project schedule APIs with Power Automate
-description: Learn how to create a complete project plan using Power Automate and V3 Project schedule APIs. Follow step-by-step instructions to streamline your workflows.
+title: Use V3 Project schedule APIs with Microsoft Power Automate
+description: Learn how to create a complete project plan using Microsoft Power Automate and V3 Project schedule APIs. Follow step-by-step instructions to streamline your workflows.
 author: dishantpopli
 ms.date: 07/06/2026
 ms.topic: how-to
@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.author: dishantpopli
 ---
 
-# Use V3 Project schedule APIs with Power Automate
+# Use V3 Project schedule APIs with Microsoft Power Automate
 
 [!INCLUDE [banner](../includes/banner.md)]
 
@@ -67,7 +67,7 @@ To create a PowerApps trigger, follow these steps:
 1. On the **Solutions** page, select the solution that you created, and then select **New**.
 1. In the left pane, select **Cloud flows** \> **Automation** \> **Cloud flow** \> **Instant**.
 1. In the **Flow name** field, enter **Schedule API Demo Flow**.
-1. In the **Choose how to trigger this flow** list, select **Power Apps**. When you create a Power Apps trigger, you define the logic. For the example in this article, leave the input parameters blank for testing purposes.
+1. In the **Choose how to trigger this flow** list, select **Microsoft Power Apps**. When you create a Power Apps trigger, you define the logic. For the example in this article, leave the input parameters blank for testing purposes.
 1. Select **Create**.
 
 ## <a id="2"></a>Step 2: Create a project

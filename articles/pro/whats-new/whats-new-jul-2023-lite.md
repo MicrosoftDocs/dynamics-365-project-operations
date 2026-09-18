@@ -34,7 +34,7 @@ This article applies to the following components and versions of Microsoft Dynam
 |Opportunity Management|3423900|Price list overlaps aren't validated when quote/contract price list is updated.|
 |Opportunity Management|3423917|Entity price lists aren't validated when entity is changed.|
 |Project Planning and Tracking|3259681|Estimates not being copied when the project is copied.|
-|Project Planning and Tracking|3367034|Change Project Label name using Project Schedule API via Power Automate.|
+|Project Planning and Tracking|3367034|Change Project Label name using Project Schedule API via Microsoft Power Automate.|
 |Resource Management|3209488|Adding Named Team Members to a Project For Non-Stocked Scenarios is incorrectly defaulting the TM's owning company.|
 |Resource Management|3477979|Project Operations Package Deployment failing in UR35 Integrated Org.|
 |Subcontracting|3236886|Unbilled Sales created with price zero during Vendor Invoice Confirmation when currency of contract is different from VI's currency.|

@@ -27,7 +27,7 @@ This article explains how to create and use cost templates in Project Operations
 
 You're working on a web site design project for a customer in which you charge a flat fee of USD 10,000. You forecast that it takes 100 hours (USD 5,000) to complete the project. You also forecast two plane tickets and four nights in a hotel for trips to the customer's site (USD 1,800). This forecast results in a total forecasted cost of USD 6,800.
 
-When you run the fixed-price revenue recognition process to create an estimate at the end of the month, you find that you worked 35 hours on the project. This count doesn't yet include flights or hotel costs. You also had an assistant perform five hours of research for the project at a cost of USD 100, which you hadn't planned for.
+When you run the fixed-price revenue recognition process to create an estimate at the end of the month, you find that you worked 35 hours on the project. This count doesn't yet include flights or hotel costs. You also had an assistant perform five hours of research for the project at a cost of USD 100, for which you hadn't planned.
 
 When you calculate the percent complete value for this project, you have the following choices to make:
 

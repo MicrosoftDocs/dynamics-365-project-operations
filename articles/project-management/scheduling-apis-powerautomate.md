@@ -1,6 +1,6 @@
 ---
-title: Use V1 Project schedule APIs with Power Automate
-description: Learn how to create a complete project plan using Power Automate and V1 Project schedule APIs. Follow step-by-step instructions to streamline your workflows.
+title: Use V1 Project schedule APIs with Microsoft Power Automate
+description: Learn how to create a complete project plan using Microsoft Power Automate and V1 Project schedule APIs. Follow step-by-step instructions to streamline your workflows.
 author: abriccetti
 ms.date: 01/30/2026
 ms.topic: how-to
@@ -9,7 +9,7 @@ ms.reviewer: johnmichalak
 ms.author: abriccetti
 ---
 
-# Use V1 Project schedule APIs with Power Automate
+# Use V1 Project schedule APIs with Microsoft Power Automate
 
 [!INCLUDE [banner](../includes/banner.md)]
 
@@ -21,7 +21,7 @@ The example in this article uses the PssCreateV1 API. For an example that uses t
 
 Here's a complete list of the steps that the sample flow in this article documents:
 
-1. [Create a Power Apps trigger](#1)
+1. [Create a Microsoft Power Apps trigger](#1)
 1. [Create a project](#2)
 1. [Initialize a variable for the team member](#3)
 1. [Create a generic team member](#4)

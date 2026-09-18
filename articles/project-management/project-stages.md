@@ -17,7 +17,7 @@ ms.reviewer: johnmichalak
 
 _**Applies To:** Project Operations Integrated with ERP, Project Operations Core_
 
-Project stages reflect the state of the project as it progresses. You can customize the project stages to automatically update with business process flows, Power Automate, or plug-in extensions.
+Project stages reflect the state of the project as it progresses. You can customize the project stages to automatically update with business process flows, Microsoft Power Automate, or plug-in extensions.
 
 The default business process flow defines the following stages:
 

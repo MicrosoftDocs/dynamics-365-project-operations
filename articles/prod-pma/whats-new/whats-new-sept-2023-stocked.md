@@ -39,7 +39,7 @@ For information about the bug fixes that are included in this update, sign in to
 This section describes features that have been removed, or that are planned for removal from Project Operations in this release.
 
 - A _removed_ feature is no longer available in the product.
-- A _deprecated_ feature isn't in active development and might be removed in a future update. 
+- A _deprecated_ feature isn't in active development and might be removed.
 
 | Feature name | Reason for deprecation/removal | More information |
 | --- | --- | --- |

@@ -47,7 +47,7 @@ The Dynamics 365 expense management mobile app lets you take a photo of a receip
 
 To create a receipt by using your camera, follow these steps:
 
-1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
+1. On your mobile device, open the Microsoft Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Receipts** tab, select the plus sign (**+**) button.
 1. Select the **Camera** button.
 1. Select **Save receipt**.

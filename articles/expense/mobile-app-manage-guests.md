@@ -21,7 +21,7 @@ The Expense Management system enables guest users to be incorporated into expens
 
 To enter expenses by using the Microsoft Dynamics 365 expense management mobile app, follow these steps:
 
-1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
+1. On your mobile device, open the Microsoft Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Expenses** tab, select the plus sign (**+**) button.
 1. The camera app opens, and you can perform any of the following actions:
 

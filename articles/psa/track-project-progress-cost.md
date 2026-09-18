@@ -27,7 +27,7 @@ The need for tracking progress against a work breakdown structure varies across 
 ## Effort tracking view  
 The effort tracking view shows the tracking of progress for tasks in the work breakdown structure. It compares the actual effort hours spent against a task till date to the planned effort hours on a task.  
   
-Sometimes you might need to revise the original estimates on a task. The task might be moving faster or slower than originally anticipated because of changes in scope or having less experienced people than originally planned for. We don't recommend changing your baseline numbers, because the project baseline is the published source for the project’s schedule and cost estimates that all stakeholders on the project have agreed to.  
+Sometimes you might need to revise the original estimates on a task. The task might be moving faster or slower than originally anticipated because of changes in scope or having less experienced people than originally planned. We don't recommend changing your baseline numbers, because the project baseline is the published source for the project’s schedule and cost estimates that all stakeholders on the project have agreed to.  
   
 ### See Also  
  [Project Manager Guide](../psa/project-manager-guide.md)

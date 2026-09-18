@@ -24,7 +24,7 @@ When you submit an expense report for approval in Microsoft Dynamics 365 Finance
 
 To approve an expense report, follow these steps:
 
-1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense mobile** app.
+1. On your mobile device, open the **Microsoft Power Apps** mobile app, and then open the **Expense mobile** app.
 1. Select the **Approvals** tab. This tab lists expense reports that are pending approval.
 1. Select an expense report. The report shows a comprehensive list of all expenses that you submitted for the report.
 1. Select **Approve**.
