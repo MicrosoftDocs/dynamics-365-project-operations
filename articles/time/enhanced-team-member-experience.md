@@ -46,7 +46,7 @@ After you enable the feature, two new menu items named **Assignments** and **Pro
 You can view a list of projects for which your capacity is booked and the booking is active in the displayed time period. You can navigate to other weeks to keep track of completed or upcoming projects as well.
 
 > [!NOTE]
-> You can configure the list of fields visible within this grid through Power Apps by updating the view named _My Bookings_, within the _Bookable Resource Booking_ table.
+> You can configure the list of fields visible within this grid through Microsoft Power Apps by updating the view named _My Bookings_, within the _Bookable Resource Booking_ table.
 
 To track your project bookings, follow these steps:
 

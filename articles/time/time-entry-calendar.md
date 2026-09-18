@@ -101,7 +101,7 @@ When you finish setting the fields, select **Save** to create the time entry.
 
 ### Add or remove fields from the quick create dialog
 
-A form in Power Apps called **Create Calendar Time Entry** supports the quick create dialog used within the Time Entry Calendar interface. 
+A form in Microsoft Power Apps called **Create Calendar Time Entry** supports the quick create dialog used within the Time Entry Calendar interface. 
 
 To add or remove fields from this dialog, follow these steps:
 

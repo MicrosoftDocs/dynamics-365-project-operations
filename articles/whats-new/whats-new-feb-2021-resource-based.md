@@ -32,7 +32,7 @@ This article applies to the following Dynamics 365 Project Operations components
 | **Billing and Pricing** | 2122613 | The **Activate** and **Deactivate** actions were removed from the **Price List** association entities. |
 | **Billing and Pricing** | 2128606 | Resolved the issue with **ullReferenceException** in the **GetEstimatesForProject** plug-in. |
 | **Deployment and configuration** | 2139346 | Resolved the issue with importing unmanaged **Dynamics365ProjectOperationsDualWrite** solution. |
-| **Deployment and configuration** | 2140569 | Project solution must not be installed in the Dataverse Teams environments. |
+| **Deployment and configuration** | 2140569 | Project solution must not be installed in the Microsoft Dataverse Teams environments. |
 | **Deployment and configuration** | 2086991 | Restricted customizing localization of web resources. |
 | **Opportunity Management** | 2136794 | Display the correct error message when the **Confirm invoice** or **Mark invoice as paid** processes fail. |
 | **Opportunity Management** | 2139330 | Changing the Project manager on a project must not reset the owning company back to the default value. |

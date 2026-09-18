@@ -1,6 +1,6 @@
 ---
-title: Collaborate with your project team members with Office 365 Groups
-description: How to collaborate with your Project Service team members through Office 365 Groups
+title: Collaborate with your project team members with Microsoft 365 Groups
+description: How to collaborate with your Project Service team members through Microsoft 365 Groups
 author: JohnPBurrows
 ms.custom: 
   - dyn365-projectservice
@@ -16,7 +16,7 @@ search.audienceType:
   - enduser
 ms.reviewer: johnmichalak
 ---
-# Collaborate with your project team members with Office 365 Groups (Project Service)
+# Collaborate with your project team members with Microsoft 365 Groups (Project Service)
 
 [!INCLUDE [banner](../includes/psa-now-project-operations.md)]
 
@@ -28,7 +28,7 @@ With [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)], you can collab
   
 2. Click the project you’re working on.  
   
-3. In the bar across the top of the screen, select the down arrow next to the project name, and then click **Office 365 Groups**. This displays your project, along with items shared with your group.  
+3. In the bar across the top of the screen, select the down arrow next to the project name, and then click **Microsoft 365 Groups**. This displays your project, along with items shared with your group.  
   
 4. To open your team’s workspace in [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)], click **Open Calendar**, **Open Conversations**, **Open Notebook**, **Open Documents**, or **Open People**.  
   

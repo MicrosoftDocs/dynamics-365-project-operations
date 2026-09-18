@@ -45,7 +45,7 @@ After you enable the resource recommendations feature, your system administrator
 To activate the dataflows, have your system administrator follow these steps:
 
 1. Sign in to your Project Operations environment as System Administrator.
-1. Open a new tab in the same browser window, and sign in to the [Power Apps portal](https://make.powerapps.com) as System Administrator. For more information about the Power Apps portal, see [Sign in to Power Apps](/power-apps/maker/canvas-apps/sign-in-to-power-apps).
+1. Open a new tab in the same browser window, and sign in to the [Microsoft Power Apps portal](https://make.powerapps.com) as System Administrator. For more information about the Power Apps portal, see [Sign in to Power Apps](/power-apps/maker/canvas-apps/sign-in-to-power-apps).
 1. In the **Environments** section in the upper right, ensure that the environment that you're signed in to is selected.
 
     To view the environment name, go to your environment, select the profile symbol, and copy the environment name from the upper left of the dialog box that appears.

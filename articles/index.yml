@@ -103,7 +103,7 @@ additionalContent:
       - url: environment/resource-apply-pro-setup-config-data.md
         text: Set up and apply configuration data in the Common Data Service
       - url: project-management/scheduling-apis-powerautomate.md
-        text: Use Project schedule APIs with Power Automate
+        text: Use Project schedule APIs with Microsoft Power Automate
       - url: project-management/schedule-api-preview.md
         text: Use Project schedule APIs to perform operations with Scheduling entities
       - url: environment/dsr-rights-requests.md

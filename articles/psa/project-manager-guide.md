@@ -52,7 +52,7 @@ This guide provides information you need to create and manage projects:
   
 -   [Submit resource requests](../psa/submit-resource-requests.md)  
   
--   [Create an Office 365 Group for a project](../psa/create-office-365-group-project.md)  
+-   [Create an Microsoft 365 Group for a project](../psa/create-office-365-group-project.md)  
   
 -   [Add documents to a project](../psa/add-documents-project.md)  
   

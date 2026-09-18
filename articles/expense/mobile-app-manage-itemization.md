@@ -21,7 +21,7 @@ To use the **Itemization** feature on the expenses mobile app, enable the **Abil
 
 To enter expenses by using the **expense management mobile** application, follow these steps:
 
-1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
+1. On your mobile device, open the Microsoft Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. Navigate to the **Expenses** tab, and select the plus sign (**+**) button.
 1. The camera app opens, and you can perform any of the following actions:
     * Take a photo of a receipt to capture it.

@@ -38,7 +38,7 @@ In addition, activate the following features:
 To enter expenses by using the Expense management mobile app, follow these steps:
 
 1. On the **Expense management parameters** page, on the **Per diem** tab, set the **Calculate meal reduction by** field to **Meal type per day**.
-1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 Expense management mobile app.
+1. On your mobile device, open the Microsoft Power Apps mobile app, and then open the Dynamics 365 Expense management mobile app.
 1. On the **Expenses** tab, select the plus sign (**+**) button.
 1. The camera app opens. Follow one of these steps:
 

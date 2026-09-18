@@ -18,7 +18,7 @@ ms.reviewer: johnmichalak
 
 _**Applies to Dynamics 365 Project Operations Integrated with ERP and Dynamics 365 Project Operations for manufacturing**_
 
-The Expense Agent brings together capabilities from Microsoft Dynamics 365 Project Operations, finance and operations apps, Microsoft Copilot Studio, Power Automate, and Dataverse to automate expense processing workflows by using AI. This feature helps save time and reduce manual effort by enabling your system to process receipts and generate expense lines and expense reports for users. It uses Microsoft Power Platform connectors for integration with Outlook, Microsoft Teams, user calendars, and the finance and operations apps environment via Dataverse virtual entities.
+The Expense Agent brings together capabilities from Microsoft Dynamics 365 Project Operations, finance and operations apps, Microsoft Copilot Studio, Microsoft Power Automate, and Microsoft Dataverse to automate expense processing workflows by using AI. This feature helps save time and reduce manual effort by enabling your system to process receipts and generate expense lines and expense reports for users. It uses Microsoft Power Platform connectors for integration with Outlook, Microsoft Teams, user calendars, and the finance and operations apps environment via Dataverse virtual entities.
 
 The Expense Agent includes multiple flows, three of which serve as core orchestrators:
 
@@ -30,7 +30,7 @@ Additionally, the agent integrates with Microsoft Teams, enabling the use of ada
 
 The agent relies on several Microsoft Power Platform connectors. These connectors are automatically referenced in the Power Automate flows that are provided.
 
-- **Outlook (Office 365)** – This connector accesses the shared mailbox to extract receipts.
+- **Outlook (Microsoft 365)** – This connector accesses the shared mailbox to extract receipts.
 - **Dataverse (Virtual Entities)** – This connector integrates with finance and operations apps via virtual entities.
 - **Microsoft Copilot Studio** – This connector invokes AI models to extract receipt information.
 - **Microsoft Teams** – This connector sends adaptive cards for user interactions (if Teams integration is enabled).
@@ -80,7 +80,7 @@ To install the required app, follow these steps:
 > [!TIP]
 > To verify if the package was installed successfully, follow these steps:  
 >
-> 1. Go to Power Apps maker portal > select your environment > select Solutions > See history > search and select msdyn_ExpenseAI > Details.
+> 1. Go to Microsoft Power Apps maker portal > select your environment > select Solutions > See history > search and select msdyn_ExpenseAI > Details.
 > 1. Check the **Result** field.
 >    1. If the result shows Success, the package was installed correctly.  
 >    1. If the result doesn't show Success, the installation failed.
@@ -140,7 +140,7 @@ Create a dedicated expense agent user to ensure that the agent runs independentl
 To successfully install Expense Agent, assign the following licenses to the expense agent user:
 
 - Dynamics 365 Teams Members license
-- Microsoft 365 Business Basic or any license that covers Microsoft Teams and Outlook (for example, Office 365 E5 with teams)
+- Microsoft 365 Business Basic or any license that covers Microsoft Teams and Outlook (for example, Microsoft 365 E5 with teams)
 - Power Apps Premium
 
 To assign licenses, follow these steps:

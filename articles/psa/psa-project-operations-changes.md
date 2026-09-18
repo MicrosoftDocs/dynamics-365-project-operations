@@ -217,10 +217,6 @@ Project Operations doesn't provide support for project templates. However, you c
 
 Support for the Microsoft Project Desktop add-in will not be available in the first 2 phases of the upgrade. In Phase 3, customers who have projects larger than the currently supported limits of Project for the Web will be able to use the desktop add-in.
 
-## Editing resource assignment contours
-
-The ability to edit resource assignment contours will be available when Phase 2 of upgrade is available.
-
 ## Billing and pricing
 
 The following new features have been added in Project Operations. These features are additive in nature and don't impact the Project Service Automation data model.

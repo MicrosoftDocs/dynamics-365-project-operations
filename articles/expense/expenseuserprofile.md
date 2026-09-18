@@ -24,7 +24,7 @@ Users associate with a specific legal entity. The app automatically sets that le
 
 To create an expense in a legal entity other than the selected legal entity, follow these steps:
 
-1. On your mobile device, open the **Power Apps** mobile app, and then open the **Expense management mobile** app.
+1. On your mobile device, open the **Microsoft Power Apps** mobile app, and then open the **Expense management mobile** app.
 1. In the upper left of the mobile app, select the user.
 1. Select **Change legal entity** to change the current legal entity.
 1. In the designated **Selected legal entity** field, select the legal entity that the expense must be generated for. The field lists all the legal entities where the current user is employed.

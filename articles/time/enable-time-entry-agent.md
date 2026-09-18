@@ -25,7 +25,7 @@ The Time Entry Agent is available as a **production-ready preview** in Microsoft
 Before team members can use the feature to log their time entries, an administrator must complete the following steps to enable it in one or more Project Operations environments.
 
 1. Optional but recommended: Create the organization's agent user.
-1. Activate the Power Automate flows that the agent requires. (These flows enable the agent to complete some actions on behalf of team members.)
+1. Activate the Microsoft Power Automate flows that the agent requires. (These flows enable the agent to complete some actions on behalf of team members.)
 1. Enable the feature flag.
 1. Publish the agent from Microsoft Copilot Studio to users in the organization.
 
@@ -43,7 +43,7 @@ Ensure that all the following required licenses are assigned to the new agent us
 
 - **Power Automate Free** – This license is required so that the agent can view and enable the set of Power Automate flows that it requires.
 - **Microsoft Teams Enterprise** – This license is required because the Power Automate flows send alerts to team members via Microsoft Teams.
-- **Office 365 E5 license** – This license is required primarily for Outlook calendar access.
+- **Microsoft 365 E5 license** – This license is required primarily for Outlook calendar access.
 
 ### Assign a required role to the agent user
 
@@ -166,7 +166,7 @@ After you activate all the Power Automate flows and enable the feature flag, the
 
 To publish the agent, follow these steps:
 
-1. Sign in to [Power Apps](https://make.powerapps.com).
+1. Sign in to [Microsoft Power Apps](https://make.powerapps.com).
 1. To select the desired environment, use the environment switcher in the upper right.
 1. In the left pane, select **Agents**. (If **Agents** isn't visible in the left pane, select **More**, and then select **Agents** in the pop-up window.)
 1. Under **All**, select **Time Entry Agent**. A new tab for the agent appears in Copilot Studio.

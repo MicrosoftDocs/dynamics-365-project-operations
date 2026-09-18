@@ -24,7 +24,7 @@ The Expense management mobile app requires Dynamics 365 Finance version 10.0.38 
 
 ## Which platforms and mobile devices are supported?
 
-The Expense management mobile app runs within the Power Apps mobile app. All platforms that the Power Apps mobile app supports can also run the Expense management mobile app. For more information, see [System requirements, limits, and configuration values for Power Apps](/power-apps/limits-and-config).
+The Expense management mobile app runs within the Microsoft Power Apps mobile app. All platforms that the Power Apps mobile app supports can also run the Expense management mobile app. For more information, see [System requirements, limits, and configuration values for Power Apps](/power-apps/limits-and-config).
 
 ## Does the Dynamics 365 expense management mobile app support offline mode?
 

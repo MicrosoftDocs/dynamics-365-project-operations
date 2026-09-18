@@ -24,7 +24,7 @@ Microsoft Dynamics 365 Project Operations connects sales, resourcing, project ma
 - **Team members can improve productivity**, collaboration, and visibility with integration to Microsoft Teams, and submit time and expenses from anywhere.
 - **Finance can simplify project accounting** with time and expense tracking governance, project costing, budgeting, invoicing, revenue recognition, compliance, and visibility into key business health metrics.
 
-Project Operations is powerful on its own, but you can expand it if you need more capabilities from Dynamics 365. These capabilities include Marketing, Human Resources, Customer Service, and more. Whether you want the added functionality of another Dynamics 365 application or to add on a custom application built with Power Apps, everything works together and works like you expect because they share the common foundation of a secure, private, and compliant cloud-delivered solution.
+Project Operations is powerful on its own, but you can expand it if you need more capabilities from Microsoft Dynamics 365. These capabilities include marketing, human resources, customer service, and more. Whether you want the added functionality of another Dynamics 365 application or to add on a custom application built with Microsoft Power Apps, everything works together and works like you expect because they share the common foundation of a secure, private, and compliant cloud-delivered solution.
 
 For more information, see:
 

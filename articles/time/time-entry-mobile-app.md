@@ -20,7 +20,7 @@ This article provides information about the new Microsoft Dynamics 365 Time Entr
 
 ## Introduction to the mobile app
 
-Users of Dynamics 365 Project Operations who have a valid Team Member or Full Project Operations license can use the Time Entry Mobile App to track time while they are on the go. This app is developed by using a Power Apps canvas app, and users can access it from the Power Apps mobile app.
+Users of Dynamics 365 Project Operations who have a valid Team Member or Full Project Operations license can use the Time Entry Mobile App to track time while they are on the go. This app is developed by using a Microsoft Power Apps canvas app, and users can access it from the Power Apps mobile app.
 
 Use the mobile app to complete these tasks:
 

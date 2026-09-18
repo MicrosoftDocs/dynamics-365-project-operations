@@ -44,7 +44,7 @@ To update the Project Operations parameters, follow these steps:
 
 ### Update the Dual-write Core solution
 
-In the **Power Apps portal**, update the **Dual-write Core** solution to the latest version available for your environment to ensure compatibility and access to the newest features.
+In the Microsoft Power Apps portal, update the **Dual-write Core** solution to the latest version available for your environment to ensure compatibility and access to the newest features.
 
 To update the Dual-write Core solution, follow these steps:
 

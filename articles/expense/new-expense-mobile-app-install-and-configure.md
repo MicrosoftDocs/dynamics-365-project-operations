@@ -20,7 +20,7 @@ This article explains how administrators can prepare your Microsoft Dynamics 365
 
 > [!Note]
 >  It is advisable to delete all components of the **Dynamics 365 expense management** mobile app from Dataverse if the Dynamics 365 Expense Management mobile app has already been installed during the public preview phase.
-> There is no additional license required to use the Mobile app. Each user must be configured in **Dynamics 365 Finance** and minimum license requirement is **Teams user**.
+> There is no additional license required to use the Mobile app. Each user must be configured in **Dynamics 365 Finance** and minimum license requirement is **Microsoft Teams user**.
 
 ## System requirements
 
@@ -45,7 +45,7 @@ To enable users for Dynamics 365 expense management mobile app access, follow th
 1. Select **User Options** to open the user default settings. **Go to** the **Preferences tab**. **Set up** the Default **company** for the user.
    
 ## Enable Code components for canvas app
-Once you enable the Dynamics 365 expense management mobile app in **Dynamics 365 Finance**, the next step is to activate the necessary code components for localization controls. This step is required to display the localized labels on the Dynamics 365 expense management mobile app and must be performed before installing the Dynamics 365 expense management mobile app. For more information, see [Enable the Power Apps component framework feature](https://github.com/MicrosoftDocs/powerapps-docs/blob/8bdb6cf00e2c10f73beafd70c2f694edc84f239a/powerapps-docs/developer/component-framework/component-framework-for-canvas-apps.md).
+Once you enable the Dynamics 365 expense management mobile app in **Dynamics 365 Finance**, the next step is to activate the necessary code components for localization controls. This step is required to display the localized labels on the Dynamics 365 expense management mobile app and must be performed before installing the Dynamics 365 expense management mobile app. For more information, see [Enable the Microsoft Power Apps component framework feature](https://github.com/MicrosoftDocs/powerapps-docs/blob/8bdb6cf00e2c10f73beafd70c2f694edc84f239a/powerapps-docs/developer/component-framework/component-framework-for-canvas-apps.md).
 
 ## Install the Dynamics 365 expense management mobile app in Dataverse
 

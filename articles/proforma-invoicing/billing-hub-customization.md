@@ -30,7 +30,7 @@ To customize contract or contract line fields, follow these steps:
 1. To revert to the out-of-box view at any point, remove active customizations from the custom view.
 
 > [!IMPORTANT]
-> Don't use **Edit Columns** to update the **Billing hub** view. Otherwise, the nested grid hierarchy is broken. Instead, use the Power Apps portal to customize the **Billing hub** and **Billing hub - All order lines** views.
+> Don't use **Edit Columns** to update the **Billing hub** view. Otherwise, the nested grid hierarchy is broken. Instead, use the Microsoft Power Apps portal to customize the **Billing hub** and **Billing hub - All order lines** views.
 >
 > Don't remove the **Billing Method** column from the view. It's a required column.
 
