@@ -41,7 +41,7 @@ When you open the Dynamics 365 expense management mobile app, the **Expenses** t
 
 To enter expenses by using optical character recognition (OCR), follow these steps:
 
-1. On your mobile device, open the Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
+1. On your mobile device, open the Microsoft Power Apps mobile app, and then open the Dynamics 365 expense management mobile app.
 1. On the **Expenses** tab, select the plus sign (**+**) button.
 1. The camera app opens, and you can perform any of the following actions:
 

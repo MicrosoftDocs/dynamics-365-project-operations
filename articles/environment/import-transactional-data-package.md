@@ -29,9 +29,9 @@ This demonstration data is for evaluation purposes only. Deploy it to a non-prod
 ## Run Package Deployer
 
 1. Double-click **PackageDeployer**, and then select **Continue** when the Package Deployer window opens.
-1. On the **Connect to Microsoft Power Platform** screen, set **Deployment Type** to **Office 365**, select **Show Advanced**, enter your credentials, and select **Login**. Enter the full Dynamics 365 instance URL when prompted, then select **OK**.
+1. On the **Connect to Microsoft Power Platform** screen, set **Deployment Type** to **Microsoft 365**, select **Show Advanced**, enter your credentials, and select **Login**. Enter the full Dynamics 365 instance URL when prompted, then select **OK**.
 
-   :::image type="content" source="media/core-package-deployer.png" alt-text="Screenshot of Package Deployer's Connect to Microsoft Power Platform screen with Office 365 selected, Show Advanced checked, credentials entered, and Login highlighted.":::
+   :::image type="content" source="media/core-package-deployer.png" alt-text="Screenshot of Package Deployer's Connect to Microsoft Power Platform screen with Microsoft 365 selected, Show Advanced checked, credentials entered, and Login highlighted.":::
 
 1. On the **Welcome** screen, select **Next**. On the **Ready to Install** screen, confirm that the solution package and organization are correct, then select **Next**.
 1. Package Deployer reads the configuration file and validates readiness. When every validation item shows a green check mark, select **Next** to start the import.

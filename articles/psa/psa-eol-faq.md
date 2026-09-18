@@ -38,7 +38,7 @@ Because all customers have already been upgraded to Project Operations licenses,
 
 For information about feature changes from Project Service Automation to Project Operations, see [Feature changes from Project Service Automation to Project Operations](psa-project-operations-changes.md).
 
-### Where can I view the roadmap for Project Operations?
+### Where can I view information about features that are coming in the next wave?
 
 For information about features that are coming in the next wave, see [Plan and prepare for Dynamics 365 Project Operations in 2024 release wave 1](https://aka.ms/POroadmap).
 
@@ -101,9 +101,6 @@ Yes. You can manage the projects by using either external scheduling or the Proj
 ### Are the limits of Project for the web published?
 
 Yes. For more information, see [Project and task limitations](../project-management/project-and-task-limitations.md).
-
-> [!NOTE]
-> We're continually improving our product. We have a roadmap to increase these limits so that we can better serve our customers in the future.
 
 ### Can I create new projects that are externally scheduled?
 

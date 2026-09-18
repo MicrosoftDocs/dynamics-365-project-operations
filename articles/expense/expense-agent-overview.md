@@ -78,7 +78,7 @@ The system groups related expense lines into reports and logically organizes the
 
 ### 6. User-friendly report review and submission
 
-Generated reports appear in an interactive Teams interface, where users can review or update details. Users can seamlessly perform actions such as attaching or detaching expense lines and updating categories. The system notifies users if any expenses violate organizational policies that are configured in finance and operations apps. Users can also submit reports for approval through Teams. Alternatively, they can select **Open in Expense** to edit and submit reports directly in finance and operations apps.
+Generated reports appear in an interactive Microsoft Teams interface, where users can review or update details. Users can seamlessly perform actions such as attaching or detaching expense lines and updating categories. The system notifies users if any expenses violate organizational policies that are configured in finance and operations apps. Users can also submit reports for approval through Teams. Alternatively, they can select **Open in Expense** to edit and submit reports directly in finance and operations apps.
 
 ## Known limitations
 

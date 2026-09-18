@@ -26,7 +26,7 @@ There are multiple ways to create time entries in the Time Entry Mobile App.
 
 To create a time entry through the Quick Create dialog, follow these steps:
 
-1. Sign in to the Power Apps mobile app as your Dynamics 365 Project Operations user.
+1. Sign in to the Microsoft  Power Apps mobile app as your Dynamics 365 Project Operations user.
 1. Open **Dynamics 365 Time Entry (Production Ready Preview)**. By default, the **My Time** page is used as the landing page.
 1. Select the plus sign button (**&plus;**) at the bottom of the page to open the Quick Create dialog.
 1. Enter a value for fields such as **Duration**, **Project**, **Task**, and **Role**.

@@ -21,7 +21,7 @@ _**Applies To:** Project Operations Integrated with ERP, Project Operations Core
 This article describes features that have been removed, or that are planned for removal from Dynamics 365 Project Operations.
 
 - A *removed* feature is no longer available in the product.
-- A *deprecated* feature isn't in active development and may be removed in a future update.
+- A *deprecated* feature isn't in active development and may be removed.
 
 This list is intended to help you consider these removals and deprecations for your own planning.
 
@@ -88,4 +88,4 @@ Similarly, we have decided to keep the Project management and accounting paramet
 | **Replaced by another feature?** | No |
 | **Product areas affected** | Application  |
 | **Deployment option** | Project Operations for production/stocked scenarios |
-| **Status** | Deprecated: By December 1, 2022, we plan to no longer support Collaboration workspaces. |
+| **Status** | Deprecated: By December 1, 2022, we will no longer support Collaboration workspaces. |

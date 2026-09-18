@@ -26,7 +26,7 @@ This article applies to the following Dynamics 365 Project Operations components
 | **Billing and Pricing** | 2053736 | Invoice line details are now accessible by going to **Invoice** > **Related information**. |
 | **Billing and Pricing** | 2122613 | The **Activate** and **Deactivate** actions were removed from the **Price List** association entities. |
 | **Billing and Pricing** | 2128606 | Resolved the issue with **ullReferenceException** in the **GetEstimatesForProject** plug-in. |
-| **Deployment and configuration** | 2140569 | Project solution must not be installed in the Dataverse Teams environments. |
+| **Deployment and configuration** | 2140569 | Project solution must not be installed in the Microsoft Dataverse Teams environments. |
 | **Deployment and configuration** | 2086991 | Restricted customizing localization of web resources. |
 | **Opportunity Management** | 2136794 | Display correct error message when **Confirm invoice** or **Mark invoice as paid** process fails, |
 | **Opportunity Management** | 2146376 | Corrected tax amount in a non-chargeable actual is created from invoice confirmation. |

@@ -36,7 +36,7 @@ The project schedule, which was known as the Work Breakdown Structure (WBS) in p
 
 The schedule now has a new surface for interaction that is both modern and accessible. However, the underlying Project Service Automation scheduling engine has not changed. The control buttons in the schedule grid’s ribbon allow you to interact with the schedule similar to the previous version of Project Service Automation. Additional changes to the schedule include:
 
-- **Gantt chart** - The Gantt chart is no longer present. A new Gannt visualization will be returning in a future update.
+- **Gantt chart** - The Gantt chart is no longer present. 
 - **Column headers** - You can hide column headers in the grid by clicking the down indicator next to the column title. 
 - **Columns** - You can show hidden columns by clicking **Add column**. 
 - **Transaction category** - A **Transaction category** lookup has been added to the schedule grid and is shown by default. 
