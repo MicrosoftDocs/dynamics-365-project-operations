@@ -8,7 +8,7 @@ ms.reviewer: johnmichalak
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 09/11/2026
+ms.date: 09/21/2026
 ms.update-cycle: 1095-days
 ms.topic: whats-new
 ms.collection:  #Required; The values for this attribute will be updated over time. For now, leave this value blank.
@@ -30,46 +30,48 @@ Learn more about what's new or changed in recent releases in the links in the fo
 
 | Version | Autoupdate availability | Learn more |
 | --------- | --------------- | ------------- |
-| Dataverse 4.170.3539.1 </br> Finance 10.0.48 | August 2026    | [Project Operations Integrated with ERP](whats-new-aug-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-aug-2026-lite.md) |
-| Dataverse 4.169.3495.2 </br> Finance 10.0.48 | July 2026    | [Project Operations Integrated with ERP](whats-new-july-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-july-2026-lite.md) |
-| Dataverse 4.168.3456.2 </br> Finance 10.0.48 | June 2026    | [Project Operations Integrated with ERP](whats-new-june-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-june-2026-lite.md) |
-| Dataverse 4.167.3427.2 </br> Finance 10.0.47 | May 2026    | [Project Operations Integrated with ERP](whats-new-may-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-may-2026-lite.md) |
-| Dataverse 4.166.3426.2 </br> Finance 10.0.47 | April 2026    | [Project Operations Integrated with ERP](whats-new-apr-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-apr-2026-lite.md) |
-| Dataverse 4.165.3409.5 </br> Finance 10.0.47 | March 2026    | [Project Operations Integrated with ERP](whats-new-mar-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-mar-2026-lite.md) |
-| Dataverse 4.163.0.733 </br> Finance 10.0.46 | February 2026    | [Project Operations Integrated with ERP](whats-new-feb-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-feb-2026-lite.md) |
-| Dataverse 4.162.0.962 </br> Finance 10.0.46 | January 2026    | [Project Operations Integrated with ERP](whats-new-jan-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-jan-2026-lite.md) |
-| Dataverse 4.161.0.1688 </br> Finance 10.0.45 | November 2025    | [Project Operations Integrated with ERP](whats-new-nov-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-nov-2025-lite.md) |
-| Dataverse 4.160.0.2877 </br> Finance 10.0.45 | October 2025    | [Project Operations Integrated with ERP](whats-new-oct-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-oct-2025-lite.md) |
-| Dataverse 4.145.0.1361 </br> Finance 10.0.45 | September 2025    | [Project Operations Integrated with ERP](whats-new-sept-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-sept-2025-lite.md) |
-| Dataverse 4.143.0.3653 </br> Finance 10.0.44 | August 2025    | [Project Operations Integrated with ERP](whats-new-aug-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-aug-2025-lite.md) |
-| Dataverse 4.142.0.2276 </br> Finance 10.0.44 | June 2025    | [Project Operations Integrated with ERP](whats-new-june-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-june-2025-lite.md) |
-| Dataverse 4.141.0.1552 </br> Finance 10.0.43 | May 2025    | [Project Operations Integrated with ERP](whats-new-may-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-may-2025-lite.md) |
-| Dataverse 4.140.0.1087 </br> Finance 10.0.43 | April 2025    | [Project Operations Integrated with ERP](whats-new-apr-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-apr-2025-lite.md) |
-| Dataverse 4.124.0.1450 </br> Finance 10.0.42 | February 2025    | [Project Operations Integrated with ERP](whats-new-feb-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-feb-2025-lite.md) |
-| Dataverse 4.123.0.510 </br> Finance 10.0.42 | January 2025    | [Project Operations Integrated with ERP](whats-new-jan-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-jan-2025-lite.md) |
-| Dataverse 4.122.0.690 </br> Finance 10.0.41 | December 2024    | [Project Operations Integrated with ERP](whats-new-dec-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-dec-2024-lite.md) |
-| Dataverse 4.121.0.50 </br> Finance 10.0.41 | October 2024    | [Project Operations Integrated with ERP](whats-new-oct-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-oct-2024-lite.md) |
-| Dataverse 4.121.0.50 </br> Finance 10.0.41 | September 2024    | [Project Operations Integrated with ERP](whats-new-sep-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-sep-2024-lite.md) |
-| Dataverse 4.120.0.164 </br> Finance 10.0.40 | September 2024    | [Project Operations Integrated with ERP](whats-new-sep-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-sep-2024-lite.md) |
-| Dataverse 4.108.0.53 </br> Finance 10.0.40 | August 2024    | [Project Operations Integrated with ERP](whats-new-aug-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-aug-2024-lite.md) |
-| Dataverse 4.106.0.88 </br> Finance 10.0.40 | July 2024    | [Project Operations Integrated with ERP](whats-new-july-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-july-2024-lite.md) |
-| Dataverse 4.105.0.13 </br> Finance 10.0.40 | June 2024    | [Project Operations Integrated with ERP](whats-new-june-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-june-2024-lite.md) |
-| Dataverse 4.103.0.261 </br> Finance 10.0.39 | April 2024    | [Project Operations Integrated with ERP](whats-new-apr-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-apr-2024-lite.md) |
-| Dataverse 4.92.0.91 </br> Finance 10.0.39 | March 2024    | [Project Operations Integrated with ERP](whats-new-mar-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-mar-2024-lite.md) |
-| Dataverse 4.91.0.118 </br> Finance 10.0.38 | February 2024    | [Project Operations Integrated with ERP](whats-new-feb-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-feb-2024-lite.md) </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-feb-2024-stocked.md)|
-| Dataverse 4.89.0.105 </br> Finance 10.0.37 | December 2023    | [Project Operations Integrated with ERP](whats-new-dec-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-dec-2023-lite.md) |
-| Dataverse 4.88.0.127 </br> Finance 10.0.37 | November 2023    | [Project Operations Integrated with ERP](whats-new-nov-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-nov-2023-lite.md) </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-nov-2023-stocked.md)|
-| Dataverse 4.87.0.190 </br> Finance 10.0.36 | October 2023    | [Project Operations Integrated with ERP](whats-new-oct-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-oct-2023-lite.md) |
-| Dataverse 4.76.0.244 </br> Finance 10.0.36 | September 2023    | [Project Operations Integrated with ERP](whats-new-sept-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-sept-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-sept-2023-stocked.md)|
-| Dataverse 4.75.0.160 </br> Finance 10.0.35 | August 2023    | [Project Operations Integrated with ERP](whats-new-aug-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-aug-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-aug-2023-stocked.md)|
-| Dataverse 4.74.0.59 </br> Finance 10.0.35 | July 2023    | [Project Operations Integrated with ERP](whats-new-jul-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-jul-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-jun-2023-stocked.md)|
-| Dataverse 4.73.0.78 </br> Finance 10.0.34 | June 2023    | [Project Operations Integrated with ERP](whats-new-jun-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-jun-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-jun-2023-stocked.md)|
-| Dataverse 4.72.0.242 </br> Finance 10.0.33  | May 2023 |  [Project Operations Integrated with ERP](whats-new-may-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-may-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-may-2023-stocked.md)|
-| Dataverse 4.62.0.83 </br> Finance 10.0.32  | April 2023 |  [Project Operations Integrated with ERP](whats-new-apr-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-apr-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-apr-2023-stocked.md)|
+| Dataverse 4.171.3537.2 </br> Finance 10.0.49 | September 2026 | [Project Operations Integrated with ERP](whats-new-sept-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-sept-2026-lite.md) |
+| Dataverse 4.170.3539.1 </br> Finance 10.0.48 | August 2026 | [Project Operations Integrated with ERP](whats-new-aug-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-aug-2026-lite.md) |
+| Dataverse 4.169.3495.2 </br> Finance 10.0.48 | July 2026 | [Project Operations Integrated with ERP](whats-new-july-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-july-2026-lite.md) |
+| Dataverse 4.168.3456.2 </br> Finance 10.0.48 | June 2026 | [Project Operations Integrated with ERP](whats-new-june-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-june-2026-lite.md) |
+| Dataverse 4.167.3427.2 </br> Finance 10.0.47 | May 2026 | [Project Operations Integrated with ERP](whats-new-may-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-may-2026-lite.md) |
+| Dataverse 4.166.3426.2 </br> Finance 10.0.47 | April 2026 | [Project Operations Integrated with ERP](whats-new-apr-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-apr-2026-lite.md) |
+| Dataverse 4.165.3409.5 </br> Finance 10.0.47 | March 2026 | [Project Operations Integrated with ERP](whats-new-mar-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-mar-2026-lite.md) |
+| Dataverse 4.163.0.733 </br> Finance 10.0.46 | February 2026 | [Project Operations Integrated with ERP](whats-new-feb-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-feb-2026-lite.md) |
+| Dataverse 4.162.0.962 </br> Finance 10.0.46 | January 2026 | [Project Operations Integrated with ERP](whats-new-jan-2026-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-jan-2026-lite.md) |
+| Dataverse 4.161.0.1688 </br> Finance 10.0.45 | November 2025 | [Project Operations Integrated with ERP](whats-new-nov-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-nov-2025-lite.md) |
+| Dataverse 4.160.0.2877 </br> Finance 10.0.45 | October 2025 | [Project Operations Integrated with ERP](whats-new-oct-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-oct-2025-lite.md) |
+| Dataverse 4.145.0.1361 </br> Finance 10.0.45 | September 2025 | [Project Operations Integrated with ERP](whats-new-sept-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-sept-2025-lite.md) |
+| Dataverse 4.143.0.3653 </br> Finance 10.0.44 | August 2025 | [Project Operations Integrated with ERP](whats-new-aug-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-aug-2025-lite.md) |
+| Dataverse 4.142.0.2276 </br> Finance 10.0.44 | June 2025 | [Project Operations Integrated with ERP](whats-new-june-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-june-2025-lite.md) |
+| Dataverse 4.141.0.1552 </br> Finance 10.0.43 | May 2025 | [Project Operations Integrated with ERP](whats-new-may-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-may-2025-lite.md) |
+| Dataverse 4.140.0.1087 </br> Finance 10.0.43 | April 2025 | [Project Operations Integrated with ERP](whats-new-apr-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-apr-2025-lite.md) |
+| Dataverse 4.124.0.1450 </br> Finance 10.0.42 | February 2025 | [Project Operations Integrated with ERP](whats-new-feb-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-feb-2025-lite.md) |
+| Dataverse 4.123.0.510 </br> Finance 10.0.42 | January 2025 | [Project Operations Integrated with ERP](whats-new-jan-2025-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-jan-2025-lite.md) |
+| Dataverse 4.122.0.690 </br> Finance 10.0.41 | December 2024 | [Project Operations Integrated with ERP](whats-new-dec-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-dec-2024-lite.md) |
+| Dataverse 4.121.0.50 </br> Finance 10.0.41 | October 2024 | [Project Operations Integrated with ERP](whats-new-oct-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-oct-2024-lite.md) |
+| Dataverse 4.121.0.50 </br> Finance 10.0.41 | September 2024 | [Project Operations Integrated with ERP](whats-new-sep-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-sep-2024-lite.md) |
+| Dataverse 4.120.0.164 </br> Finance 10.0.40 | September 2024 | [Project Operations Integrated with ERP](whats-new-sep-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-sep-2024-lite.md) |
+| Dataverse 4.108.0.53 </br> Finance 10.0.40 | August 2024 | [Project Operations Integrated with ERP](whats-new-aug-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-aug-2024-lite.md) |
+| Dataverse 4.106.0.88 </br> Finance 10.0.40 | July 2024 | [Project Operations Integrated with ERP](whats-new-july-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-july-2024-lite.md) |
+| Dataverse 4.105.0.13 </br> Finance 10.0.40 | June 2024 | [Project Operations Integrated with ERP](whats-new-june-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-june-2024-lite.md) |
+| Dataverse 4.103.0.261 </br> Finance 10.0.39 | April 2024 | [Project Operations Integrated with ERP](whats-new-apr-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-apr-2024-lite.md) |
+| Dataverse 4.92.0.91 </br> Finance 10.0.39 | March 2024 | [Project Operations Integrated with ERP](whats-new-mar-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-mar-2024-lite.md) |
+| Dataverse 4.91.0.118 </br> Finance 10.0.38 | February 2024 | [Project Operations Integrated with ERP](whats-new-feb-2024-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-feb-2024-lite.md) </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-feb-2024-stocked.md) |
+| Dataverse 4.89.0.105 </br> Finance 10.0.37 | December 2023 | [Project Operations Integrated with ERP](whats-new-dec-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-dec-2023-lite.md) |
+| Dataverse 4.88.0.127 </br> Finance 10.0.37 | November 2023 | [Project Operations Integrated with ERP](whats-new-nov-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-nov-2023-lite.md) </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-nov-2023-stocked.md) |
+| Dataverse 4.87.0.190 </br> Finance 10.0.36 | October 2023 | [Project Operations Integrated with ERP](whats-new-oct-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-oct-2023-lite.md) |
+| Dataverse 4.76.0.244 </br> Finance 10.0.36 | September 2023 | [Project Operations Integrated with ERP](whats-new-sept-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-sept-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-sept-2023-stocked.md) |
+| Dataverse 4.75.0.160 </br> Finance 10.0.35 | August 2023 | [Project Operations Integrated with ERP](whats-new-aug-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-aug-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-aug-2023-stocked.md) |
+| Dataverse 4.74.0.59 </br> Finance 10.0.35 | July 2023 | [Project Operations Integrated with ERP](whats-new-jul-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-jul-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-jun-2023-stocked.md) |
+| Dataverse 4.73.0.78 </br> Finance 10.0.34 | June 2023 | [Project Operations Integrated with ERP](whats-new-jun-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-jun-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-jun-2023-stocked.md) |
+| Dataverse 4.72.0.242 </br> Finance 10.0.33 | May 2023 | [Project Operations Integrated with ERP](whats-new-may-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-may-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-may-2023-stocked.md) |
+| Dataverse 4.62.0.83 </br> Finance 10.0.32 | April 2023 | [Project Operations Integrated with ERP](whats-new-apr-2023-resource-based.md) </br> [Project Operations Core](../pro/whats-new/whats-new-apr-2023-lite.md)  </br> [Project Operations for manufacturing](../prod-pma/whats-new/whats-new-apr-2023-stocked.md) |
 
 For earlier versions, see the archived release plans at [Release plans for Dynamics 365 and Power Platform](/dynamics365/release-plans/archived-plans).  
+
 ## Get the latest version
 
-New customers automatically get the latest version. If you're an existing partner/customer, check your email for notifications about updates. 
+New customers automatically get the latest version. If you're an existing partner or customer, check your email for notifications about updates.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
