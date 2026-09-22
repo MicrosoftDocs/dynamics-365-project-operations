@@ -20,7 +20,7 @@ _**Applies To:** Project Operations Core_
 
 This article applies to the following components and versions of Microsoft Dynamics 365 Project Operations:
 
-- Project Operations in a Microsoft Dataverse environment version 4.171.3537.2.
+- Project Operations in a Microsoft Dataverse environment version 4.171.3551.6.
 
 ## Features included in this release
 
