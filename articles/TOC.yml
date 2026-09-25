@@ -833,8 +833,10 @@
       items:
       - name: Create and confirm Entry journals
         href: actuals/create-confirm-entry-journals.md
-      - name: Create and confirm Correction journals
+      - name: Create and confirm correction journals (legacy experience)
         href: actuals/create-confirm-correction-journals.md
+      - name: Create and confirm correction journals (new experience)
+        href: actuals/new-correction-journals.md
       - name: Cancel actuals created from entry journals
         href: actuals/cancel-actuals-from-entry-journals.md
       - name: Use journal line improvements
@@ -2226,8 +2228,10 @@
       items:
       - name: Create and confirm Entry journals
         href: actuals/create-confirm-entry-journals-integrated.md
-      - name: Create and confirm Correction journals
+      - name: Create and confirm correction journals (legacy experience)
         href: actuals/create-confirm-correction-journals.md
+      - name: Create and confirm correction journals (new experience)
+        href: actuals/new-correction-journals.md
       - name: Cancel actuals created from entry journals
         href: actuals/cancel-actuals-from-entry-journals.md
   - name: Procurement
