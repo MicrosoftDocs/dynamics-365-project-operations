@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 09/24/2026
+ms.date: 09/25/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ms.author: aarondodell
@@ -44,7 +44,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
 |:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
-|                   4.170.3539.1                   |                                      10.0.47                                     |                1.0.170.35391               |
+|                   4.171.3551.6                   |                                      10.0.47                                     |                1.0.171.35516               |
 
 > [!IMPORTANT]
 >
@@ -71,7 +71,7 @@ Dynamics 365 Project Operations consists of two components:
 | **4.170.3508.4** | Standard | August 07, 2026             |  August 10, 2026               |  August 14, 2026               |  August 28, 2026               |  August 14, 2026             | August 28, 2026             | August 28, 2026           | September 11, 2026           | August 28, 2026           | September 11, 2026           |
 | **4.170.3509.4**    | Hotfix | August 11, 2026             | August 14, 2026             | August 17, 2026             | August 31, 2026             | August 17, 2026           | August 31, 2026             | August 31, 2026           | September 14, 2026           | August 31, 2026           | September 14, 2026           |
 | **4.170.3539.1**    | Hotfix | September 10, 2026             | September 11, 2026             | September 10, 2026             | September 11, 2026             | September 10, 2026           | September 11, 2026             | September 10, 2026           | September 11, 2026           | September 10, 2026           | September 11, 2026           |
-| **4.171.3551.6**    | Standard | September 21, 2026             | September 25, 2026             | September 25, 2026             | October 02, 2026             | September 25, 2026           | October 02, 2026             | October 02, 2026           | October 16, 2026           | October 02, 2026           | October 16, 2026           |
+| **4.171.3551.6**    | Standard | September 21, 2026             | September 25, 2026             | September 25, 2026             | October 09, 2026             | September 25, 2026           | October 09, 2026             | October 02, 2026           | October 16, 2026           | October 02, 2026           | October 16, 2026           |
 | **4.172.X.X**    | Standard | October 01, 2026             | October 05, 2026             | October 09, 2026             | October 23, 2026             | October 09, 2026           | October 23, 2026             | October 23, 2026           | November 10, 2026           | October 23, 2026           | November 10, 2026           |
 | **4.173.X.X**    | Standard | October 30, 2026             | November 02, 2026             | November 10, 2026             | November 20, 2026             | November 10, 2026           | November 20, 2026             | November 20, 2026           | December 04, 2026           | November 20, 2026           | December 04, 2026           |
 | **4.174.X.X**    | Standard | November 27, 2026             | November 30, 2026             | December 04, 2026             | December 18, 2026             | December 04, 2026           | December 18, 2026             | December 18, 2026           | January 06, 2027           | December 18, 2026           | January 06, 2027           |
