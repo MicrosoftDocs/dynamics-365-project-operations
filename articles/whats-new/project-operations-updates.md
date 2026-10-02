@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 09/29/2026
+ms.date: 10/02/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ms.author: aarondodell
@@ -37,14 +37,14 @@ Dynamics 365 Project Operations consists of two components:
 
 ## Project Operations release notes
 
-- Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-aug-2026-resource-based.md) scenario.
-- Project Operations latest release notes for [Core deployment](../pro/whats-new/whats-new-aug-2026-lite.md) scenario.
+- Project Operations latest release notes for [Project Operations Integrated with ERP](whats-new-sept-2026-resource-based.md) scenario.
+- Project Operations latest release notes for [Core deployment](../pro/whats-new/whats-new-sept-2026-lite.md) scenario.
 
 ## Project Operations latest version
 
 | **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
 |:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
-|                   4.171.3551.6                   |                                      10.0.47                                     |                1.0.171.35516               |
+|                   4.171.3551.6                   |                                      10.0.49                                     |                1.0.171.35516               |
 
 > [!IMPORTANT]
 >
@@ -68,9 +68,6 @@ Dynamics 365 Project Operations consists of two components:
 | **Version/Station** | **Release type** | **Station 1** | **Station 1** | **Station 2** | **Station 2** | **Station 3** | **Station 3** | **Station 4** | **Station 4** | **Station 5** | **Station 5** |
 |---------------------|------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
 |                     |                  | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
-| **4.170.3508.4** | Standard | August 07, 2026             |  August 10, 2026               |  August 14, 2026               |  August 28, 2026               |  August 14, 2026             | August 28, 2026             | August 28, 2026           | September 11, 2026           | August 28, 2026           | September 11, 2026           |
-| **4.170.3509.4**    | Hotfix | August 11, 2026             | August 14, 2026             | August 17, 2026             | August 31, 2026             | August 17, 2026           | August 31, 2026             | August 31, 2026           | September 14, 2026           | August 31, 2026           | September 14, 2026           |
-| **4.170.3539.1**    | Hotfix | September 10, 2026             | September 11, 2026             | September 10, 2026             | September 11, 2026             | September 10, 2026           | September 11, 2026             | September 10, 2026           | September 11, 2026           | September 10, 2026           | September 11, 2026           |
 | **4.171.3551.6**    | Standard | September 21, 2026             | September 25, 2026             | September 25, 2026             | October 09, 2026             | September 25, 2026           | October 09, 2026             | October 02, 2026           | October 16, 2026           | October 02, 2026           | October 16, 2026           |
 | **4.172.X.X**    | Standard | October 09, 2026             | October 14, 2026             | October 14, 2026             | October 26, 2026             | October 14, 2026           | October 26, 2026             | October 26, 2026           | November 10, 2026           | October 26, 2026           | November 10, 2026           |
 | **4.173.X.X**    | Standard | October 30, 2026             | November 02, 2026             | November 10, 2026             | November 20, 2026             | November 10, 2026           | November 20, 2026             | November 20, 2026           | December 04, 2026           | November 20, 2026           | December 04, 2026           |
@@ -86,6 +83,9 @@ The following table lists earlier minor versions that precede the latest release
 | **Version/Station** | **Release type** | **Station 1** | **Station 1** | **Station 2** | **Station 2** | **Station 3** | **Station 3** | **Station 4** | **Station 4** | **Station 5** | **Station 5** |
 |---------------------|------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
 |                     |                  | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
+| **4.170.3508.4** | Standard | August 07, 2026             |  August 10, 2026               |  August 14, 2026               |  August 28, 2026               |  August 14, 2026             | August 28, 2026             | August 28, 2026           | September 11, 2026           | August 28, 2026           | September 11, 2026           |
+| **4.170.3509.4**    | Hotfix | August 11, 2026             | August 14, 2026             | August 17, 2026             | August 31, 2026             | August 17, 2026           | August 31, 2026             | August 31, 2026           | September 14, 2026           | August 31, 2026           | September 14, 2026           |
+| **4.170.3539.1**    | Hotfix | September 10, 2026             | September 11, 2026             | September 10, 2026             | September 11, 2026             | September 10, 2026           | September 11, 2026             | September 10, 2026           | September 11, 2026           | September 10, 2026           | September 11, 2026           |
 | **4.169.3495.2**    | Hotfix | July 28, 2026             | July 28, 2026             | July 28, 2026             | August 05, 2026             | July 28, 2026           | August 05, 2026             | July 28, 2026           | August 14, 2026           | July 28, 2026           | August 14, 2026           |
 | **4.169.3475.4** | Standard | July 10, 2026             | July 13, 2026             | July 17, 2026             | July 31, 2026             | July 17, 2026           | July 31, 2026             | July 23, 2026           | August 14, 2026           | July 23, 2026           | August 14, 2026           |
 | **4.168.3456.2**    | Hotfix | June 12, 2026             | June 15, 2026             | June 19, 2026             | July 03, 2026             | June 19, 2026           | July 03, 2026             | July 03, 2026           | July 17, 2026           | July 03, 2026           | July 17, 2026           |
