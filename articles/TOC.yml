@@ -459,9 +459,15 @@
     - name: Update a project
       href: project-management/update-project.md
     - name: Copy a project
-      href: project-management/copy-project.md 
+      href: project-management/copy-project.md
     - name: Access control on task grid
-      href: project-management/access-control-on-task-grid.md
+      href: project-management/access-control-on-task-grid.md 
+    - name: Task grid governance
+      items:
+      - name: Manage task grid permissions
+        href: project-management/access-control-on-task-grid.md
+      - name: Manage task grid column permissions
+        href: project-management/manage-task-grid-column-permissions.md
     - name: Time zone agnostic dates in project and project task
       href: project-management/time-zone-agnostic-dates-pm.md
     - name: Import projects from the Microsoft Project desktop client
@@ -482,6 +488,8 @@
         href: project-management/configure-assignment-grid-contours.md
       - name: Import tasks into a project (preview)
         href: project-management/import-tasks-to-project.md
+      - name: Control deletion of tasks
+        href: project-management/control-task-deletion.md
     - name: Set up baselines
       href: project-management/baselines.md
     - name: Field Service Integration
