@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 10/02/2026
+ms.date: 10/12/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ms.author: aarondodell
@@ -22,7 +22,7 @@ _**Applies To:** Project Operations Integrated with Enterprise Resource Planning
 
 Dynamics 365 Project Operations consists of two components:
 
-- Project Operations on Dataverse environment covers capabilities from opportunity to proforma invoicing. Dataverse is used in the Project Operations Core and Project Operations Integrated with ERP scenarios deployment of Project Operations.
+- Project Operations on Dataverse environment covers capabilities from opportunity to proforma invoicing. Dataverse is used in the Project Operations Core and Project Operations Integrated with ERP deployment scenarios.
 - Project Management and Accounting in the Dynamics 365 Finance environment covers expense management capabilities, project accounting, and revenue recognition. The finance and operations apps environment is used in Project Operations Integrated with ERP and Project Operations for manufacturing.
 
 ## Project Operations station and geographical regions
@@ -44,7 +44,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
 |:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
-|                   4.171.3551.6                   |                                      10.0.49                                     |                1.0.171.35516               |
+|                   4.172.3568.2                   |                                      10.0.49                                     |                1.0.172.35682               |
 
 > [!IMPORTANT]
 >
@@ -69,7 +69,7 @@ Dynamics 365 Project Operations consists of two components:
 |---------------------|------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
 |                     |                  | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** | **Self Update Start Date** | **Auto Update Start Date** |
 | **4.171.3551.6**    | Standard | September 21, 2026             | September 25, 2026             | September 25, 2026             | October 09, 2026             | September 25, 2026           | October 09, 2026             | October 02, 2026           | October 16, 2026           | October 02, 2026           | October 16, 2026           |
-| **4.172.X.X**    | Standard | October 09, 2026             | October 14, 2026             | October 14, 2026             | October 26, 2026             | October 14, 2026           | October 26, 2026             | October 26, 2026           | November 10, 2026           | October 26, 2026           | November 10, 2026           |
+| **4.172.3568.2**    | Standard | October 13, 2026             | October 16, 2026             | October 16, 2026             | October 30, 2026             | October 16, 2026           | October 30, 2026             | October 30, 2026           | November 13, 2026           | October 30, 2026           | November 13, 2026           |
 | **4.173.X.X**    | Standard | October 30, 2026             | November 02, 2026             | November 10, 2026             | November 20, 2026             | November 10, 2026           | November 20, 2026             | November 20, 2026           | December 04, 2026           | November 20, 2026           | December 04, 2026           |
 | **4.174.X.X**    | Standard | November 27, 2026             | November 30, 2026             | December 04, 2026             | December 18, 2026             | December 04, 2026           | December 18, 2026             | December 18, 2026           | January 06, 2027           | December 18, 2026           | January 06, 2027           |
 | **4.175.X.X**    | Standard | January 22, 2027             | January 27, 2027             | January 29, 2027             | February 12, 2027             | January 29, 2027           | February 12, 2027             | February 12, 2027           | February 26, 2027           | February 12, 2027           | February 26, 2027           |
