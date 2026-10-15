@@ -5,7 +5,7 @@ author: suvaidya
 ms.author: nshrivastava
 ms.custom: 
   - bap-template
-ms.date: 01/23/2026
+ms.date: 10/15/2026
 ms.topic: how-to
 ms.reviewer: johnmichalak
 
@@ -46,6 +46,7 @@ The following information is available on a proforma invoice header in Project O
 | **Freight Amount** | **Summary** tab | Enter freight amount. Project Operations functionality doesn't support this field. This is an unsupported field. |
 | **Total Tax** | **Summary** tab | The total tax from all invoice lines on the invoice. It's a read-only field that you can't edit. |
 | **Total Amount** | **Summary** tab | The sum of the amount after discounts and taxes. The sum is the amount the customer needs to pay. |
+| **Accounting date** | **Summary** tab | The date that determines the accounting period in which transactions are recorded and serves as the cutoff date for invoice transactions. |
 
 ## Project-based invoice lines
 

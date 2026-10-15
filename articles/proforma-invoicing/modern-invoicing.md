@@ -3,7 +3,7 @@ title: Manage a proforma project invoice with modern invoice form
 description:  This article explains how to work with proforma project invoices.
 author: nshrivastava
 ms.author: nshrivastava
-ms.date: 07/22/2026
+ms.date: 10/15/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -96,16 +96,13 @@ In addition to providing invoice details, the contract financial summary is show
 
 To use this feature, turn on the **Enable Invoice Date Driven Accounting** feature flag.
 
-When you confirm a project invoice, Project Operations creates the billed sales actuals for the invoiced transactions and posts the corresponding customer invoice in Finance and Operations. The **accounting date** on those postings determines the financial period in which the billed revenue is recognized.
-
-By default, the accounting date is set to the date on which you confirm the invoice. With this capability, you can instead **define the accounting date directly on the invoice**, independent of each transaction's own transaction date and document date. This option gives billing and finance users control over the period in which billed revenue lands - without changing when the underlying work was recorded.
+The accounting date determines the accounting period in which transactions are recorded. It also serves as the transaction cutoff date for the invoice. If the accounting date is later than the invoice date, you can include eligible future-dated transactions through the accounting date.
 
 To set the accounting date on an invoice, follow these steps:
 
 1. On the invoice header, in the **Accounting date** field, select the date that should drive the financial posting period for this invoice.
+1. Select **Refresh Invoice Line Transactions** to include eligible transactions dated on or before the accounting date, including future-dated transactions. Skip this step if you don't need to bring additional transactions onto the invoice.
 1. Review the invoice, and then select **Confirm**.
-
-When you confirm the invoice, the accounting date you entered is applied to the billed sales actuals for that invoice and is used as the accounting date for the corresponding customer invoice posting in Finance and Operations.
 
 The accounting date applies to billed sales actuals created when you confirm the invoice. It doesn't change the transaction date or document date of your actuals.
 
