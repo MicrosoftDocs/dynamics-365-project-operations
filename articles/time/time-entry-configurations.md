@@ -2,7 +2,7 @@
 title: Time Entry Configurations
 description: Learn about how a system administrator can use the configurations available to modify time entry behavior in Project Operations.
 author: mohitmenon
-ms.date: 09/15/2026
+ms.date: 10/16/2026
 ms.topic: how-to
 ms.reviewer: johnmichalak
 ms.author: mohitmenon
@@ -36,6 +36,17 @@ Project Operations enforces the limit whenever you create a time entry or modify
 > [!NOTE]
 > 24 hours (1,440 minutes) continues to be the default when an administrator doesn't set a preferred max. duration.
 
+## Configure minimum interval for time entry duration
+
+- By default, Project Operations allows time entries in multiples of 1 minute. Administrators can now configure the allowable minimum increment for time entry durations so that time entries follow your organization's time-tracking policies.
+- Administrators can set this configuration, named as "Min Interval (In Minutes)" with a value between 1 and 60.
+
+**Example:** If the minimum interval is 15 minutes, valid durations must be in multiples of 15 minutes (for example, 30 minutes, 1 hour 45 minutes, and so on). A duration that isn't an exact multiple of 15 minutes is automatically rounded to the nearest higher multiple.
+
+> [!NOTE]
+> 1 minute continues to be the default when no minimum interval is considered.
+> When a time entry duration isn't a multiple of the configured minimum interval, the duration **automatically updates to the nearest, higher multiple.**
+
 ## Set the preferred time zone behavior on time entry grids
 
 - By default, time entry grids are **time zone aware**. Because of this feature, when a delegate or manager in a different time zone views another user's grid, dates can shift unexpectedly.
@@ -47,13 +58,13 @@ Project Operations enforces the limit whenever you create a time entry or modify
 
 ## Use Outlook meetings as a time entry source
 
-This toggle enables team members to view Outlook meetings on the [Time Entry Calendar interface](time-entry-calendar.md#create-time-entries-using-outlook-meetings) and then use them to create time entries as well.
+When you turn on this toggle, team members can view Outlook meetings on the [Time Entry Calendar interface](time-entry-calendar.md#create-time-entries-using-outlook-meetings) and use them to create time entries.
 
 > [!NOTE]
 > This configuration is only available on environments where the Time Entry Calendar feature is enabled.
 
-- By default, this toggle is disabled (OFF).
-- To enable this capability, switch the toggle ON. Select **Save**.
-- Learn more about the experience of creating time entries using Outlook meetings from [Time Entry Calendar (Preview)](time-entry-calendar.md).
+- By default, this toggle is off.
+- Switch the toggle on to enable this capability. Select **Save**.
+- To learn more about creating time entries by using Outlook meetings, see [Time Entry Calendar (Preview)](time-entry-calendar.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
