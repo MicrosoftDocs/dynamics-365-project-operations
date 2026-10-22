@@ -2382,10 +2382,12 @@
         href: revenue-recognition/rev-rec-cost-templates.md
       - name: Set up cost estimates
         href: revenue-recognition/rev-rec-cost-estimates.md
-    - name: Fixed price revenue estimate projects
-      href: revenue-recognition/rev-rec-percentage-completion-method.md
+    - name: Bulk update revenue recognition completion percentages
+      href: revenue-recognition\Bulk-Revenue-Recognition-Percentage-Complete-Upload.md
     - name: Cost to complete methods
       href: revenue-recognition/cost-complete-methods.md
+    - name: Fixed price revenue estimate projects
+      href: revenue-recognition/rev-rec-percentage-completion-method.md
     - name: Manage revenue estimates
       href: revenue-recognition/rev-rec-completed-contract-method.md  
     - name: Manage revenue recognition for contract lines
@@ -2742,6 +2744,8 @@
       href: prod-pma/tasks/configure-intercompany-project-invoicing.md
   - name: Revenue recognition
     items:
+    - name: Bulk update revenue recognition completion percentages
+      href: revenue-recognition\Bulk-Revenue-Recognition-Percentage-Complete-Upload.md
     - name: Eliminate a project estimate
       href: prod-pma/eliminate-project-estimate.md
     - name: Set up cost templates
