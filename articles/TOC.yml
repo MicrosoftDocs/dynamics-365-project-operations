@@ -102,12 +102,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new
     items:
+    - name: What's new October 2026 - Project Operations Core
+      href: pro/whats-new/whats-new-oct-2026-lite.md
     - name: What's new September 2026 - Project Operations Core
       href: pro/whats-new/whats-new-sept-2026-lite.md
-    - name: What's new August 2026 - Project Operations Core
-      href: pro/whats-new/whats-new-aug-2026-lite.md
     - name: Archive
       items:
+      - name: What's new August 2026 - Project Operations Core
+        href: pro/whats-new/whats-new-aug-2026-lite.md
       - name: What's new July 2026 - Project Operations Core
         href: pro/whats-new/whats-new-july-2026-lite.md
       - name: What's new June 2026 - Project Operations Core
@@ -1447,12 +1449,14 @@
         href: get-started/developer-notes/customizing-payment-terms.md
   - name: What's new 
     items:
+    - name: October 2026 - Project Operations Integrated with ERP
+      href: whats-new/whats-new-oct-2026-resource-based.md
     - name: September 2026 - Project Operations Integrated with ERP
       href: whats-new/whats-new-sept-2026-resource-based.md
-    - name: August 2026 - Project Operations Integrated with ERP
-      href: whats-new/whats-new-aug-2026-resource-based.md
     - name: Archive
       items:
+       - name: August 2026 - Project Operations Integrated with ERP
+         href: whats-new/whats-new-aug-2026-resource-based.md
        - name: July 2026 - Project Operations Integrated with ERP
          href: whats-new/whats-new-july-2026-resource-based.md
        - name: June 2026 - Project Operations Integrated with ERP
@@ -2264,6 +2268,8 @@
       href: procurement/configure-materials-nonstocked.md
     - name: Configure procurement categories for projects
       href: procurement/configure-procurement-categories.md      
+    - name: Manage project purchase orders with auto-created item requirements for stock items
+      href: procurement/enable-purchase-orders-with-item-requirements-for-stocked-items.md
     - name: Procure goods and services for projects using pending vendor invoices
       href: procurement/pending-vendor-invoices.md
     - name: Order goods and services for projects using project purchase orders
@@ -2380,10 +2386,12 @@
         href: revenue-recognition/rev-rec-cost-templates.md
       - name: Set up cost estimates
         href: revenue-recognition/rev-rec-cost-estimates.md
-    - name: Fixed price revenue estimate projects
-      href: revenue-recognition/rev-rec-percentage-completion-method.md
+    - name: Bulk update revenue recognition completion percentages
+      href: revenue-recognition\Bulk-Revenue-Recognition-Percentage-Complete-Upload.md
     - name: Cost to complete methods
       href: revenue-recognition/cost-complete-methods.md
+    - name: Fixed price revenue estimate projects
+      href: revenue-recognition/rev-rec-percentage-completion-method.md
     - name: Manage revenue estimates
       href: revenue-recognition/rev-rec-completed-contract-method.md  
     - name: Manage revenue recognition for contract lines
@@ -2740,6 +2748,8 @@
       href: prod-pma/tasks/configure-intercompany-project-invoicing.md
   - name: Revenue recognition
     items:
+    - name: Bulk update revenue recognition completion percentages
+      href: revenue-recognition\Bulk-Revenue-Recognition-Percentage-Complete-Upload.md
     - name: Eliminate a project estimate
       href: prod-pma/eliminate-project-estimate.md
     - name: Set up cost templates
