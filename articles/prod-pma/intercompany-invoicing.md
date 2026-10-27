@@ -1,15 +1,15 @@
 ---  
 title: Intercompany invoicing  
 description: This article provides information and examples about intercompany invoicing for your projects.  
-author: Yowelle  
-ms.date: 01/30/2026
+author: ryansandness
+ms.date: 10/27/2026
 ms.topic: concept-article
 ms.search.form: LedgerInterCompany  
 audience: Application User  
 ms.reviewer: johnmichalak  
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80  
 ms.search.region: Global  
-ms.author: andchoi  
+ms.author: ryansandness
 ms.search.validFrom: 2016-02-28  
 ms.dyn365.ops.version: AX 7.0.0  
 
@@ -25,7 +25,7 @@ Your organization might have multiple divisions, subsidiaries, and other legal e
 
 The following illustration shows a typical scenario where two legal entities, SI FR (the borrowing legal entity) and SI USA (the lending legal entity) share resources to deliver a project for customer A. For this scenario, SI FR is contracted to deliver the work to customer A.  
 
-:::image type="content" source="./media/interco.invoicing-01.jpg" alt-text="Screenshot of intercompany invoicing example.":::  
+:::image type="content" source="./media/interco-invoice-01.jpg" alt-text="Screenshot of intercompany invoicing example.":::  
 
 The goal is to make cost control, revenue recognition, taxes, and transfer price for intercompany project transactions more flexible and powerful. In addition, the following capabilities are provided:  
 
@@ -41,6 +41,20 @@ The goal is to make cost control, revenue recognition, taxes, and transfer price
   - **Percentage of sales price** – The percentage of the sales price that is transferred to the lending legal entity.  
   - **Amount below sales price** – The amount that the borrowing legal entity holds back from the sales prices before transfer to the lending legal entity.  
   - **Contribution ratio** – The number that you enter in the **Pricing** field is the contribution ratio, which is expressed as a percentage of the sales price.  
+
+## Enhanced filtering and transaction details
+
+The **Enhance intercompany invoicing filters and details** feature adds selection, filtering, and traceability capabilities to intercompany invoicing. This feature is newly available with the 10.0.50 release. An administrator can enable or disable the feature in the **Feature management** workspace.
+
+When the feature is enabled, you can:
+
+- Use start and end dates in periodic processing, matching the date criteria already available during manual processing.
+- Use **Invoicing method** to select transactions by amount. The default value is **Both**, which is the original behavior. Options for selection include:
+  - **Both** includes positive and negative transactions under the normal invoice grouping.
+  - **Invoices** includes transactions whose amount is zero or greater.
+  - **Credit notes** includes transactions whose amount is less than zero.
+  - **Both but Separate** includes positive and negative transactions in separate invoice groupings.
+- Use **Original transaction** in the **Line details** on each line to see the document number for the originating transaction. You no longer need to use the button with the same name to get this document number detail.
 
 ## Example 1: Set up parameters for intercompany invoicing  
 
@@ -92,8 +106,8 @@ USSI is the lending legal entity. It must create and post the intercompany invoi
 | Step | Entry point | Description |  
 |------|-------------|-------------|  
 | A | **Project management and accounting** > **Project invoices** > **Intercompany customer invoice** | Select **New** to open the **Create intercompany invoice** page. |  
-| B | **Project management and accounting** > **Project invoices** > **Intercompany customer invoices** | On the **Create intercompany invoice** page, enter the legal entity, specify the transaction that should be included, and then select **Search**. |  
-| C | **Project management and accounting** > **Project invoices** > **Intercompany customer invoices** | Select the transactions to invoice, or select **Select all** to invoice all the transactions in the list, and then select **OK**. |  
+| B | **Project management and accounting** > **Project invoices** > **Intercompany customer invoices** | On the **Create intercompany invoice** page, select the borrowing legal entity. Set the available **Hour**, **Expense**, **Vendor invoice line**, and **Project advanced journal line** source controls as required, and then select **Search**. |
+| C | **Project management and accounting** > **Project invoices** > **Intercompany customer invoices** | Optionally, set **Invoicing method** to filter the lines based on balance instead of the default value of **Both**. Select the transactions to invoice, or select **Select all** to invoice all the transactions in the list, and then select **OK**. |  
 | D | The **Intercompany invoice** page | The intercompany customer invoice proposal is shown. |  
 | E | The **Intercompany invoice** page | Select **Post**. |  
 
