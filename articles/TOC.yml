@@ -883,6 +883,10 @@
       href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md 
     - name: Developer notes
       items:
+      - name: API documentation
+        items:
+        - name: Create invoice from selected schedules of value
+          href: proforma-invoicing/create-invoice-from-schedules-of-value.md
       - name: Customize the billing hub view
         href: proforma-invoicing/billing-hub-customization.md
       - name: Enable notifications for long-running processes
@@ -2328,6 +2332,10 @@
         href: proforma-invoicing/configure-automated-invoice-creation.md
       - name: Developer notes
         items:
+        - name: API documentation
+          items:
+          - name: Create invoice from selected schedules of value
+            href: proforma-invoicing/create-invoice-from-schedules-of-value.md
         - name: Customize the billing hub view
           href: proforma-invoicing/billing-hub-customization.md
         - name: Enable notifications for long-running processes
