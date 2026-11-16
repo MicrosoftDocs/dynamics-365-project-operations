@@ -7,7 +7,7 @@ ms.topic: whats-new
 ms.custom:
   - evergreen
   - bap-template
-ms.date: 11/03/2026
+ms.date: 11/16/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ---
@@ -34,6 +34,7 @@ This article applies to the following components and versions of Microsoft Dynam
 | Project Management | **Calendar control upgrade** <br><br> We're upgrading the calendar control used in project calendar, resource calendar, and calendar templates to V2. This upgrade resolves known accessibility issues, so users who rely on keyboard navigation, screen readers, and other assistive technologies get a more consistent and inclusive experience. | |
 | Project Management | **Team member grid upgrade** <br><br> We're upgrading the team member grid to OneGrid, the latest platform-supported grid, replacing the older grid that isn't supported. This upgrade resolves existing accessibility issues, so users who rely on keyboard navigation, screen readers, and other assistive technologies get a more consistent and inclusive experience when viewing and managing team members. | |
 | Time Entry | **Add Weekly Time Entry Notes** <br><br> When the new Weekly Time Entry Notes preview feature is enabled, time entry users can view and edit Description and External Comment fields for multiple time entries in a week. For ease of reference, these fields are referred to as "Notes." | [Weekly Time Entry Notes](../../time/ui-behavior-time.md#edit-descriptions-and-external-comments-for-a-week-preview) |
+| Contract Management | **Change Order Management** <br><br> Change Order Management enables organizations to manage changes to confirmed project contracts through a structured and auditable process. Users can create, review, and approve changes to contract scope, pricing, and timelines, assess their financial and operational impact, and apply approved changes while maintaining traceability of the original contract and subsequent updates. | |
 
 ## Quality updates
 
