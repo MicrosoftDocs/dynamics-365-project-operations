@@ -1,7 +1,7 @@
 ---
 title: Create a work order in Project Operations
 description: As a project manager, learn how to create a work order from a project in Dynamics 365 Project Operations.
-ms.date: 06/30/2026
+ms.date: 11/05/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -9,7 +9,7 @@ ms.author: vhorvath
 
 # Create a work order from a project in Project Operations
 
-Project managers can initiate field work directly by creating a work order from the project level in Project Operations. A project can have multiple work orders across different tasks.
+Project managers can initiate field work directly by creating a work order from the project level in Project Operations. A project can have multiple work orders associated with it. You can create work orders for customer-billable, internal, or investment project types.
 
 Project managers can also associate existing work orders with projects to align previously created or in-progress work with the project structure.
 
@@ -45,6 +45,10 @@ The work order is available in Field Service for scheduling and execution.
 1. Select the **Related** tab and then **Work Orders**.
 
 1. Select **Add Existing Work Order**. Search for and select the work order from the list.
+
+## Create work order products or services
+
+You can add work order products or services by creating material estimates in Project Operations. Add the work order number when creating the material estimates. Learn more in [Financial estimates for materials on projects](../project-management/create-material-estimate.md).
 
 ## Next steps
 
