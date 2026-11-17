@@ -1,7 +1,7 @@
 ---
 title: Create a work order from a project task in Project Operations
 description: As a project manager, learn how to create a work order from a project task in Dynamics 365 Project Operations.
-ms.date: 06/30/2026
+ms.date: 11/10/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -19,14 +19,16 @@ When you link a work order to a project task, the task’s planned start and end
 
 - The [Field Service and Project Operations integration is installed](/dynamics365/field-service/project-operations-integration-setup).
 - You have a Project Operations license and [permission to manage projects](../environment/security-model.md).
-- The project must have tasks at the leaf task level in the [work breakdown structure (WBS)](../project-management/create-wbs.md).
-- Any task dependencies are defined in the WBS using the **Depends on** field for each task.
+- The project has tasks at the leaf task level in the [work breakdown structure (WBS)](../project-management/create-wbs.md).
+- You define any task dependencies in the WBS by using the **Depends on** field for each task.
 
 ## Create a work order from a project task
 
 1. In Project Operations, open a project.
 
 1. Select the **Tasks** tab.
+
+1. If you want to specify a resource for the work order, select the resource in **Assigned To** for the task. This selection doesn't automatically assign the resource to the work order but serves as a recommendation during scheduling.
 
 1. On the task line, select the **Open details** icon or select **⋮ (vertical ellipsis)** > **Details: Project Operations** to open the Project task details pane.
 
@@ -36,9 +38,19 @@ When you link a work order to a project task, the task’s planned start and end
 
 1. In the **Work Order** field, select **New** at the bottom of the drop-down. A quick create pane appears.
 
-1. Select the **Work Order Type** and add any other relevant information.
-
    Project context automatically populates key values, such as the project, project task, and price list. The **Time From Promised** and **Time To Promised** default from the task’s planned dates.
+
+1. Enter the following information:
+
+   - **Work Order Type**: The type of work to be performed.
+   - **Service Account**: The account that receives the service from a field technician. This field might be required based on the selected **Work Order Type**. Learn more in [Configure service account requirements for work orders](/dynamics365/field-service/configure-service-account-requirements-work-orders).
+   - **Price List**: The price list used for the work order.
+
+1. To override the organization's [project assignment scheduling mode](/dynamics365/field-service/project-operations-integration-resource-requirements#project-assignment-scheduling-mode), select the mode in **Scheduling mode override**. Otherwise, leave the default scheduling mode.
+
+   - Select **Flexible Field Service scheduling** to use the total assignment effort within an allowed scheduling window.
+
+   - Select **Project work pattern scheduling** to use the assignment’s planned work intervals to create detailed intervals.
 
 1. Save and close.
 
@@ -57,6 +69,16 @@ Project managers can associate existing work orders with project tasks to align 
 1. Select the **Field Service** tab.
 
 1. In the **Work Order** field, search for and select the work order from the list.
+
+1. To override the organization's [project assignment scheduling mode](/dynamics365/field-service/project-operations-integration-resource-requirements#project-assignment-scheduling-mode), select the mode in **Scheduling mode override**. Otherwise, leave the default scheduling mode.
+
+   - Select **Flexible Field Service scheduling** to use the total assignment effort within an allowed scheduling window.
+
+   - Select **Project work pattern scheduling** to use the assignment’s planned work intervals to create detailed intervals.
+
+   :::image type="content" source="media/project-operations-integration-project-task-override.png" alt-text="Screenshot of Project Operations task detail highlighting the Scheduling mode override.":::
+
+1. Select **Save & Close**.
 
 When you link a work order, it inherits missing scheduling context from the task, including time promised dates if not already defined. Project teams can retroactively align execution with the correct task, improving reporting accuracy and visibility into progress and cost tracking.
 
@@ -93,6 +115,10 @@ You can view information about work orders related to project tasks within Proje
 1. To view more details, select the work order. You can change the views in the task details pane from **Work Order (Legacy)** to **Work Order Project Task View**.
 
    :::image type="content" source="../field-service-integration/media/project-operations-integration-project-task-work-order-toggle.png" alt-text="Screenshot of the Task details pane with the Work Order (Legacy) view.":::
+
+## Create work order products or services
+
+You can add work order products or services by creating material estimates in Project Operations. Add the work order number when creating the material estimates. Learn more in [Financial estimates for materials on projects](../project-management/create-material-estimate.md).
 
 ## Related content
 
