@@ -31,7 +31,7 @@ Existing customers of Finance who use the Project management and accounting func
 > If you're currently using a Project Operations for manufacturing order deployment type, you can now to move to the modern architecture of Project Operations. For more details, see [Move to the modern architecture](../prod-pma/move-to-modern-architecture.md).
 
 ## Deployment regions
-To determine which regions support Project Operations deployment, see [Geographical availability for Dynamics 365 and Power Platform report](https://dynamics.microsoft.com/en-us/geographic-availability/). Select **View Report**, and expand **Dynamics 365 > Operations Apps > Dynamics 365 Project Operations** to view the supported regions.
+To determine which regions support Project Operations deployment, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).
 
 ## Deployment types
 Project Operations supports multiple deployment options to match your requirements. Whether you're a new or existing Dynamics 365 customer, Project Operations can support your needs.

@@ -42,6 +42,6 @@ To use the Dynamics 365 expense management mobile app, you must have a fully imp
 
 The Dynamics 365 expense management mobile app is available in all regions where Dynamics 365 Project Operations is available.
 
-To determine which regions support Project Operations deployment, see the [Geographical availability for Dynamics 365 and Power Platform report](https://dynamics.microsoft.com/geographic-availability/). Select **View Report**, and then expand **Dynamics 365 \> Operations Apps \> Dynamics 365 Project Operations** to view the supported regions.
+To determine which regions support Project Operations deployment, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,7 +53,7 @@ We evaluate the features both qualitatively and quantitatively. To assess the qu
 
 Additionally, we're monitoring telemetry data to track the number of customers who tried the feature, the success rate of the feature, and the ratio of positive to negative feedback. Before we released the Copilot feature in multiple geographies, we conducted extensive testing to ensure its functionality. If you encounter any issues with the generated content or any of the listed use cases, provide feedback. Your feedback is used to enhance Microsoft's products and services. Your organization's IT admins might have access to your feedback data for management purposes. For more information, see the [Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839).
 
-Copilot for project was assessed for various languages. For more information about language availability, see [Copilot international availability](https://aka.ms/bapcopilot-intl-report-external). The system might not work as well in languages that weren't assessed, and the accuracy and user experience might be affected.
+Copilot for project was assessed for various languages. For more information about language availability, see [Dynamics 365, Power Platform, and Copilot Studio product availability](https://aka.ms/d365-product-availability). The system might not work as well in languages that weren't assessed, and the accuracy and user experience might be affected.
 
 ### What are the limitations of Copilot for project? How can users minimize the impact of Copilot for project's limitations when using the system?
 
