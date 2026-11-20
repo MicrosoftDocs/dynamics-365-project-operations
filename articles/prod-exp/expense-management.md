@@ -55,7 +55,7 @@ For more information, see [Configure expense management](plan-expense-management
 
 ### What's new and in development
 
-To see what new features are planned, see the [Microsoft Dynamics 365 release plans](/dynamics365/release-plans/).
+To see what new features are planned, see the [roadmap](https://aka.ms/AIatWorkroadmap).
 
 ### Blogs
 
