@@ -31,7 +31,7 @@ search.audienceType:
 | Project Service Automation    | 3.10.93.8 |
 | Project Service Automation desktop add-in                | 3.60          |
 
-For information about updates to Project Service, see the [Dynamics 365 release plans](/dynamics365/release-plans/). 
+For information about updates to Project Service, see the [roadmap](https://aka.ms/AIatWorkroadmap). 
 
 | Station  | Region | Current version | Next version |  Scheduled date
 | :---     | :---   | :---            | :---         |:---   |         

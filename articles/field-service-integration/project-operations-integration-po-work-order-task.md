@@ -1,7 +1,7 @@
 ---
 title: Create a work order from a project task in Project Operations
 description: As a project manager, learn how to create a work order from a project task in Dynamics 365 Project Operations.
-ms.date: 11/10/2026
+ms.date: 11/17/2026
 ms.topic: how-to
 author: vhorvathms
 ms.author: vhorvath
@@ -102,19 +102,17 @@ To remove or reassign a work order, follow these steps:
 
 1. Save and close.
 
-## View work orders related to project tasks
+## View the work order related to a project task
 
-You can view information about work orders related to project tasks within Project Operations. As users schedule and book resources on the work order, the system automatically updates the booked resources.
+You can view the work order related to a project task within Project Operations.
 
 1. On the task line, select the **Open details** icon or select **⋮ (vertical ellipsis)** > **Details: Project Operations**.
 
 1. Select the **Field Service** tab.
 
-   :::image type="content" source="../field-service-integration/media/project-operations-integration-project-task-work-orders.png" alt-text="Screenshot of the Work Orders Linked to Project view.":::
-
 1. To view more details, select the work order. You can change the views in the task details pane from **Work Order (Legacy)** to **Work Order Project Task View**.
 
-   :::image type="content" source="../field-service-integration/media/project-operations-integration-project-task-work-order-toggle.png" alt-text="Screenshot of the Task details pane with the Work Order (Legacy) view.":::
+   :::image type="content" source="media/project-operations-integration-project-task-work-order-toggle.png" alt-text="Screenshot of Project Operations project task details showing a work order view toggle.":::
 
 ## Create work order products or services
 
