@@ -6,7 +6,7 @@ ms.topic: concept-article
 ms.custom: 
   - bap-template
   - evergreen
-ms.date: 11/19/2026
+ms.date: 11/20/2026
 ms.update-cycle: 1095-days
 ms.reviewer: johnmichalak
 ms.author: aarondodell
@@ -44,7 +44,7 @@ Dynamics 365 Project Operations consists of two components:
 
 | **Project Operations on Dataverse Environment** | **Project Management and Accounting in Finance and Operations Apps Environment** | **Project App on Dataverse Environment** |
 |:-----------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------:|
-|                   4.173.1.137                   |                                      10.0.49                                     |                1.0.173.137               |
+|                   4.173.1.148                   |                                      10.0.49                                     |                1.0.173.148               |
 
 > [!IMPORTANT]
 >
@@ -75,7 +75,8 @@ Dynamics 365 Project Operations consists of two components:
 | **4.172.3597.6**    | Hotfix | November 10, 2026             | November 11, 2026             | November 10, 2026             | November 11, 2026             | November 10, 2026           | November 11, 2026             | November 10, 2026           | November 11, 2026           | November 10, 2026           | November 11, 2026           |
 | **4.172.3603.1**    | Hotfix | November 13, 2026             | November 14, 2026             | November 13, 2026             | November 14, 2026             | November 13, 2026           | November 14, 2026             | November 13, 2026           | November 14, 2026           | November 13, 2026           | November 14, 2026           |
 | ~~**4.173.1.137**~~ | ~~Standard~~ | ~~November 16, 2026~~ | ~~November 18, 2026~~ | ~~November 16, 2026~~ | ~~December 02, 2026~~ | ~~November 16, 2026~~ | ~~December 02, 2026~~ | ~~November 20, 2026~~ | ~~December 02, 2026~~ | ~~November 20, 2026~~ | ~~December 02, 2026~~ |
-| **4.173.X.X**    | Hotfix | November 20, 2026             | December 02, 2026             | November 20, 2026             | December 02, 2026             | November 20, 2026           | December 02, 2026             | November 20, 2026           | December 02, 2026           | November 20, 2026           | December 02, 2026           |
+| **4.173.1.148**    | Hotfix | November 20, 2026             | December 02, 2026             | November 20, 2026             | December 02, 2026             | November 20, 2026           | December 02, 2026             | November 20, 2026           | December 02, 2026           | November 20, 2026           | December 02, 2026           |
+| **4.173.X.X**    | Hotfix | November 21, 2026             | December 02, 2026             | November 21, 2026             | December 02, 2026             | November 21, 2026           | December 02, 2026             | November 21, 2026           | December 02, 2026           | November 21, 2026           | December 02, 2026           |
 | **4.174.X.X**    | Standard | December 04, 2026             | December 08, 2026             | December 04, 2026             | December 18, 2026             | December 04, 2026           | December 18, 2026             | December 18, 2026           | January 06, 2027           | December 18, 2026           | January 06, 2027           |
 | **4.175.X.X**    | Standard | January 22, 2027             | January 27, 2027             | January 29, 2027             | February 12, 2027             | January 29, 2027           | February 12, 2027             | February 12, 2027           | February 26, 2027           | February 12, 2027           | February 26, 2027           |
 | **4.176.X.X**    | Standard | February 19, 2027             | February 22, 2027             | February 26, 2027             | March 12, 2027             | February 26, 2027           | March 12, 2027             | March 12, 2027           | March 29, 2027           | March 12, 2027           | March 29, 2027           |
