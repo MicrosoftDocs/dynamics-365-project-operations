@@ -368,6 +368,8 @@
         href: pro/sales/copy-project-contracts-sales.md
       - name: Confirm a project contract
         href: pro/sales/confirm-contract-sales.md
+      - name: Change order management
+        href: pro/sales/manage-change-orders-for-project-contracts.md
       - name: Advances and retainers
         items: 
         - name: Advances and retainer-based contracts
@@ -1701,6 +1703,8 @@
         href: sales/copy-project-based-contracts-sales.md
       - name: Confirm a project contract
         href: pro/sales/confirm-contract-sales.md
+      - name: Change order management
+        href: pro/sales/manage-change-orders-for-project-contracts.md
       - name: Advances and retainers
         items: 
         - name: Advances and retainer-based project contracts
