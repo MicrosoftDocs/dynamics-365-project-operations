@@ -75,4 +75,18 @@ To activate the cloud flow that acts as the agent trigger, follow these steps:
 
     ![Screenshot that highlights the user interface elements used to turn on the Approvals Agent trigger cloud flow as described in the preceding steps.](media/agentsetup8.png)
 
+
+## Publish the agent from Copilot Studio
+After you activate the Power Automate flow and enable the feature flag, the last step for an administrator is to publish the agent to users in your organization from Copilot Studio.
+
+To publish the agent, follow these steps:
+
+1. Sign in to Power Apps.
+1.. To select the desired environment, use the environment switcher in the upper right.
+1. In the left pane, select Agents. (If Agents isn't visible in the left pane, select More, and then select Agents in the pop-up window.)
+1. Under All, select Approvals Agent (Production Ready Preview). A new tab for the agent appears in Copilot Studio.
+1. To ensure that the correct environment is selected, use the environment switcher in the upper right.
+1. If a "Consent confirmation" message appears in the Test your agent pane on the right, select Confirm.
+1. Select Publish to publish the agent. If a message informs you about potential risks, review the potential risks, and then select Publish.
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
