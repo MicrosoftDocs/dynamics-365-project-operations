@@ -861,6 +861,8 @@
         href: actuals/new-correction-journals.md
       - name: Cancel actuals created from entry journals
         href: actuals/cancel-actuals-from-entry-journals.md
+      - name: Create and confirm transaction journals
+        href: actuals/create-confirm-transaction-journals.md
       - name: Use journal line improvements
         href: actuals/journal-line-improvements.md
   - name: Proforma invoicing
@@ -2278,6 +2280,10 @@
         href: actuals/new-correction-journals.md
       - name: Cancel actuals created from entry journals
         href: actuals/cancel-actuals-from-entry-journals.md
+      - name: Create and confirm transaction journals
+        href: actuals/create-confirm-transaction-journals.md
+      - name: Use journal line improvements
+        href: actuals/journal-line-improvements.md
   - name: Procurement
     items:
     - name: Configure stocked products
