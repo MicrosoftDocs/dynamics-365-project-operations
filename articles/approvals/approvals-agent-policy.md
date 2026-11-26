@@ -3,7 +3,7 @@ title: Set up policy documents for the Approvals Agent (preview)
 description: Learn how to set up time, expense, and material policy documents for the Approvals feature of the Time and Expense Agent. 
 author: abriccetti
 ms.author: abriccetti
-ms.date: 07/21/2026
+ms.date: 12/01/2026
 ms.topic: how-to
 ms.custom: 
  - bap-template
@@ -13,7 +13,7 @@ ms.reviewer: johnmichalak
 # Set up policy documents for the Approvals Agent (preview)
 
 > [!IMPORTANT]
-> - This is a production-ready preview feature.
+> - This feature is in production-ready preview.
 > - Production-ready previews are subject to [supplemental terms of use](https://www.microsoft.com/en-us/business-applications/legal/supp-powerplatform-preview/).
 
 [!INCLUDE [banner](../includes/banner.md)]
@@ -21,9 +21,12 @@ ms.reviewer: johnmichalak
 
 ***Applies To:** Project Operations Integrated with ERP, Project Operations Core*
 
-The Approvals Agent uses the text of policy documents to determine how to classify submitted time, expense, and material records. This article provides information to help you create policy documents. It outlines the information that the agent can access, recommends a structure for policy documents, and provides links to examples of policy documents for time, expense, and materials.
+The Approvals Agent uses the text of policy documents to determine how to classify submitted time, expense, and material records. This article helps you create policy documents. It outlines the information that the agent can access, recommends a structure for policy documents, and provides links to examples of policy documents for time, expense, and materials.
 
 ## Data for the Approvals Agent
+
+> [!TIP]
+> Use policy authoring to analyze your policy text with AI and get recommended changes based on the data the Approvals Agent receives. Review the recommendations before applying a revised policy. Learn more in [Set up and use policy authoring for the Approvals Agent (preview)](approvals-agent-policy-authoring.md).
 
 When you trigger the Approvals Agent, it receives a predefined set of data related to the submitted record. The agent uses this data to classify the record. The agent can only perform checks based on the data it receives. If you want to pass data that isn't part of the predefined set, you must customize the agent's trigger flow.
 

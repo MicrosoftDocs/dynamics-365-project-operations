@@ -816,6 +816,8 @@
         href: approvals/approvals-agent-customization.md
       - name: Set up policy documents for the Approvals Agent
         href: approvals/approvals-agent-policy.md
+      - name: Set up and use policy authoring for the Approvals Agent
+        href: approvals/approvals-agent-policy-authoring.md
       - name: Set up project-level policy documents
         href: approvals/approvals-agent-project-policy.md
       - name: Set up the Approvals Agent as an admin
@@ -859,6 +861,8 @@
         href: actuals/new-correction-journals.md
       - name: Cancel actuals created from entry journals
         href: actuals/cancel-actuals-from-entry-journals.md
+      - name: Create and confirm transaction journals
+        href: actuals/create-confirm-transaction-journals.md
       - name: Use journal line improvements
         href: actuals/journal-line-improvements.md
   - name: Proforma invoicing
@@ -2221,6 +2225,8 @@
         href: approvals/approvals-agent-customization.md
       - name: Set up policy documents for the Approvals Agent
         href: approvals/approvals-agent-policy.md
+      - name: Set up and use policy authoring for the Approvals Agent
+        href: approvals/approvals-agent-policy-authoring.md
       - name: Set up project-level policy documents
         href: approvals/approvals-agent-project-policy.md
       - name: Set up the Approvals Agent as an admin
@@ -2274,6 +2280,10 @@
         href: actuals/new-correction-journals.md
       - name: Cancel actuals created from entry journals
         href: actuals/cancel-actuals-from-entry-journals.md
+      - name: Create and confirm transaction journals
+        href: actuals/create-confirm-transaction-journals.md
+      - name: Use journal line improvements
+        href: actuals/journal-line-improvements.md
   - name: Procurement
     items:
     - name: Configure stocked products
