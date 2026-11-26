@@ -2,7 +2,7 @@
 title: Approvals Agent overview (preview)
 description: Get a brief introduction to the Approvals Agent.
 author: abriccetti
-ms.date: 07/21/2026
+ms.date: 12/01/2026
 ms.topic: how-to
 ms.custom: 
   - bap-template
@@ -24,6 +24,8 @@ The Approvals Agent streamlines the approval process for time, expense, and mate
 An admin must enable and set up the Approvals feature of the Time and Expense Agent by following the steps in [Set up the Approvals Agent using the Dynamics 365 Agent Deployment Tool (preview)](activate-approvals-agent-wizard.md). After the feature is correctly set up, enable the agent by selecting **Enable Time and Expense Agent** in the **Feature Control** field on the **Project Parameters** page.
 
 After you enable the agent, a new **Time and Expense Agent** tab appears on the **Project Parameters** page. Use this tab to upload policy documents for time, expense, and material submissions. Learn more about how to write a policy document and examples of policy documents in [Set up policy documents for the Approvals Agent](approvals-agent-policy.md). In addition to these org-wide policy documents, you can attach time, expense, and material policy documents to an individual project. When a project has a policy document for an entry type, the agent uses that project's policy document to classify records of that type instead of the org-wide policy document. Learn more in [Set up project level policy documents for the Approvals Agent](approvals-agent-project-policy.md). If no policy document is available for a specific type of record, either on the project or at the org-wide level, the agent doesn't classify approval records of that type.
+
+Use policy authoring to analyze policy text with AI and review recommended changes that can improve the Approvals Agent's effectiveness. Review the revised policy before applying it through the existing policy document setup. Learn more in [Set up and use policy authoring for the Approvals Agent (preview)](approvals-agent-policy-authoring.md).
 
 You can also use the menu to set the mode of the agent to either **Classify** or **Classify and auto approve**. In **Classify** mode, the project manager must manually approve records that are marked as **Ready for approval**. In **Classify and auto approve** mode, the agent automatically processes records that are marked as **Ready for approval** for approval.
 
